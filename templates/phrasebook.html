@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="pb-head">
+  <h1 class="pb-title"><span lang="ja">旅の言葉</span> <small>Phrase book</small></h1>
+  <label class="search">
+    <span class="sr">Search</span>
+    <input id="q" type="search" placeholder="Search: bill, счёт, рахунок, 会計, kaikei…" autocomplete="off">
+  </label>
+  <div class="chips" id="topics"></div>
+  <div class="toolbar">
+    <div class="seg" id="kinds"></div>
+    <div class="seg" id="opts"></div>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+<div id="out"></div>
+<p class="foot">Tap a card for the casual version, possible answers, notes, conjugation and dictionary links. 〇〇 = put your word here.</p>
+<div class="show" id="show" hidden><div class="big" id="showbig" lang="ja"></div><div class="sub" id="showsub"></div><button class="btn" id="showclose" type="button">Close</button></div>
+{% endblock %}
+{% block scripts %}
+<script type="application/json" id="data">{{ data }}</script>
+<script type="module" src="{{ root }}static/js/phrasebook.js"></script>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="kt">
+  <div class="kt-bar">
+    <div class="kt-stat" id="stat">Press return to check</div>
+    <button class="btn" id="reveal" type="button">Show answer</button>
+    <button class="btn icon" id="sound" type="button" aria-pressed="true" aria-label="Sound">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="mute" d="M17 9l5 6M22 9l-5 6"/></svg>
+    </button>
+  </div>
+  <section class="kt-sign">
+    <div class="kt-face" id="face">
+      <div class="kt-kana" id="kana" lang="ja"></div>
+      <div class="kt-slot" id="slot">
+        <label class="sr" for="answer">Romaji</label>
+        <input id="answer" type="text" placeholder="type the romaji" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="go">
+      </div>
+      <p class="kt-note" id="note" aria-live="polite"></p>
+      <button class="btn kt-restart" id="restart" type="button">Start over</button>
+    </div>
+    <div class="kt-band" id="band"></div>
+    <div class="kt-stops">
+      <div class="kt-stop">
+        <div class="kt-stop-kana" lang="ja"><span class="tri">◀</span> <span id="prevKana"></span></div>
+        <div class="kt-stop-sub" id="prevSub"></div>
+      </div>
+      <div class="kt-badge" aria-label="Word number"><small>KT</small><span id="num">1</span></div>
+      <div class="kt-stop next">
+        <div class="kt-stop-kana" lang="ja"><span id="nextKana">？</span> <span class="tri">▶</span></div>
+        <div class="kt-stop-sub" id="nextSub"></div>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}
+{% block scripts %}
+<script type="application/json" id="data">{{ data }}</script>
+<script type="module" src="{{ root }}static/js/katakana.js"></script>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+<h1 class="home-title"><span lang="ja">日本語</span> study book</h1>
+<p class="lede">Lessons following Minna no Nihongo, with drills and a phrase book.</p>
+<ul class="tiles">
+  {% for item in nav if item.page != "home" %}
+  <li><a class="tile" href="{{ root }}{{ item.href }}"><span class="tile-jp" lang="ja">{{ item.jp }}</span><span class="tile-en">{{ item.label }}</span><span class="tile-sub">{{ item.blurb }}</span></a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
