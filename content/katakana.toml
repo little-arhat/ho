@@ -1,0 +1,1190 @@
+# Katakana drill words. Ported from ka.html (claude.ai artifact 'Katakana drill').
+# Order is irrelevant: the drill shuffles.
+
+[[word]]
+ja = "コーヒー"
+en = "coffee"
+ru = "кофе"
+uk = "кава"
+
+[[word]]
+ja = "ビール"
+en = "beer"
+ru = "пиво"
+uk = "пиво"
+
+[[word]]
+ja = "パン"
+en = "bread"
+ru = "хлеб"
+uk = "хліб"
+
+[[word]]
+ja = "ジュース"
+en = "juice"
+ru = "сок"
+uk = "сік"
+
+[[word]]
+ja = "ミルク"
+en = "milk"
+ru = "молоко"
+uk = "молоко"
+
+[[word]]
+ja = "ケーキ"
+en = "cake"
+ru = "торт, пирожное"
+uk = "торт, тістечко"
+
+[[word]]
+ja = "チーズ"
+en = "cheese"
+ru = "сыр"
+uk = "сир"
+
+[[word]]
+ja = "バター"
+en = "butter"
+ru = "сливочное масло"
+uk = "вершкове масло"
+
+[[word]]
+ja = "サラダ"
+en = "salad"
+ru = "салат"
+uk = "салат"
+
+[[word]]
+ja = "スープ"
+en = "soup"
+ru = "суп"
+uk = "суп"
+
+[[word]]
+ja = "ラーメン"
+en = "ramen"
+ru = "рамэн"
+uk = "рамен"
+
+[[word]]
+ja = "カレー"
+en = "curry"
+ru = "карри"
+uk = "карі"
+
+[[word]]
+ja = "ハンバーガー"
+en = "hamburger"
+ru = "гамбургер"
+uk = "гамбургер"
+
+[[word]]
+ja = "ピザ"
+en = "pizza"
+ru = "пицца"
+uk = "піца"
+
+[[word]]
+ja = "アイスクリーム"
+en = "ice cream"
+ru = "мороженое"
+uk = "морозиво"
+
+[[word]]
+ja = "チョコレート"
+en = "chocolate"
+ru = "шоколад"
+uk = "шоколад"
+
+[[word]]
+ja = "トマト"
+en = "tomato"
+ru = "помидор"
+uk = "помідор"
+
+[[word]]
+ja = "レモン"
+en = "lemon"
+ru = "лимон"
+uk = "лимон"
+
+[[word]]
+ja = "バナナ"
+en = "banana"
+ru = "банан"
+uk = "банан"
+
+[[word]]
+ja = "オレンジ"
+en = "orange"
+ru = "апельсин"
+uk = "апельсин"
+
+[[word]]
+ja = "メロン"
+en = "melon"
+ru = "дыня"
+uk = "диня"
+
+[[word]]
+ja = "パイナップル"
+en = "pineapple"
+ru = "ананас"
+uk = "ананас"
+
+[[word]]
+ja = "ワイン"
+en = "wine"
+ru = "вино"
+uk = "вино"
+
+[[word]]
+ja = "ウイスキー"
+en = "whisky"
+ru = "виски"
+uk = "віскі"
+
+[[word]]
+ja = "コーラ"
+en = "cola"
+ru = "кола"
+uk = "кола"
+
+[[word]]
+ja = "ステーキ"
+en = "steak"
+ru = "стейк"
+uk = "стейк"
+
+[[word]]
+ja = "サンドイッチ"
+en = "sandwich"
+ru = "сэндвич"
+uk = "сендвіч"
+
+[[word]]
+ja = "スパゲッティ"
+en = "spaghetti"
+ru = "спагетти"
+uk = "спагеті"
+
+[[word]]
+ja = "トースト"
+en = "toast"
+ru = "тост"
+uk = "тост"
+
+[[word]]
+ja = "ヨーグルト"
+en = "yogurt"
+ru = "йогурт"
+uk = "йогурт"
+
+[[word]]
+ja = "ハム"
+en = "ham"
+ru = "ветчина"
+uk = "шинка"
+
+[[word]]
+ja = "ソーセージ"
+en = "sausage"
+ru = "сосиска, колбаса"
+uk = "сосиска, ковбаса"
+
+[[word]]
+ja = "ベーコン"
+en = "bacon"
+ru = "бекон"
+uk = "бекон"
+
+[[word]]
+ja = "シーフード"
+en = "seafood"
+ru = "морепродукты"
+uk = "морепродукти"
+
+[[word]]
+ja = "ソース"
+en = "sauce"
+ru = "соус"
+uk = "соус"
+
+[[word]]
+ja = "ジャム"
+en = "jam"
+ru = "варенье, джем"
+uk = "варення, джем"
+
+[[word]]
+ja = "ドレッシング"
+en = "dressing"
+ru = "заправка для салата"
+uk = "заправка для салату"
+
+[[word]]
+ja = "デザート"
+en = "dessert"
+ru = "десерт"
+uk = "десерт"
+
+[[word]]
+ja = "メニュー"
+en = "menu"
+ru = "меню"
+uk = "меню"
+
+[[word]]
+ja = "レストラン"
+en = "restaurant"
+ru = "ресторан"
+uk = "ресторан"
+
+[[word]]
+ja = "カフェ"
+en = "café"
+ru = "кафе"
+uk = "кафе"
+
+[[word]]
+ja = "コンビニ"
+en = "convenience store"
+ru = "круглосуточный магазин"
+uk = "цілодобовий магазин"
+
+[[word]]
+ja = "スーパー"
+en = "supermarket"
+ru = "супермаркет"
+uk = "супермаркет"
+
+[[word]]
+ja = "デパート"
+en = "department store"
+ru = "универмаг"
+uk = "універмаг"
+
+[[word]]
+ja = "レジ"
+en = "checkout counter"
+ru = "касса"
+uk = "каса"
+
+[[word]]
+ja = "セール"
+en = "sale"
+ru = "распродажа"
+uk = "розпродаж"
+
+[[word]]
+ja = "ホテル"
+en = "hotel"
+ru = "гостиница, отель"
+uk = "готель"
+
+[[word]]
+ja = "トイレ"
+en = "toilet"
+ru = "туалет"
+uk = "туалет"
+
+[[word]]
+ja = "エレベーター"
+en = "elevator"
+ru = "лифт"
+uk = "ліфт"
+
+[[word]]
+ja = "エスカレーター"
+en = "escalator"
+ru = "эскалатор"
+uk = "ескалатор"
+
+[[word]]
+ja = "タクシー"
+en = "taxi"
+ru = "такси"
+uk = "таксі"
+
+[[word]]
+ja = "バス"
+en = "bus"
+ru = "автобус"
+uk = "автобус"
+
+[[word]]
+ja = "ホーム"
+en = "platform; home"
+ru = "платформа; дом"
+uk = "платформа; дім"
+
+[[word]]
+ja = "ロッカー"
+en = "locker"
+ru = "камера хранения, шкафчик"
+uk = "камера схову, шафка"
+
+[[word]]
+ja = "チケット"
+en = "ticket"
+ru = "билет"
+uk = "квиток"
+
+[[word]]
+ja = "パスポート"
+en = "passport"
+ru = "паспорт"
+uk = "паспорт"
+
+[[word]]
+ja = "ツアー"
+en = "tour"
+ru = "тур, экскурсия"
+uk = "тур, екскурсія"
+
+[[word]]
+ja = "ガイド"
+en = "guide"
+ru = "гид"
+uk = "гід"
+
+[[word]]
+ja = "マップ"
+en = "map"
+ru = "карта"
+uk = "мапа"
+
+[[word]]
+ja = "ルート"
+en = "route"
+ru = "маршрут"
+uk = "маршрут"
+
+[[word]]
+ja = "ドライブ"
+en = "drive"
+ru = "поездка на машине"
+uk = "поїздка автівкою"
+
+[[word]]
+ja = "ガソリン"
+en = "gasoline"
+ru = "бензин"
+uk = "бензин"
+
+[[word]]
+ja = "スピード"
+en = "speed"
+ru = "скорость"
+uk = "швидкість"
+
+[[word]]
+ja = "ブレーキ"
+en = "brake"
+ru = "тормоз"
+uk = "гальмо"
+
+[[word]]
+ja = "ハンドル"
+en = "steering wheel"
+ru = "руль"
+uk = "кермо"
+
+[[word]]
+ja = "テレビ"
+en = "TV"
+ru = "телевизор"
+uk = "телевізор"
+
+[[word]]
+ja = "ラジオ"
+en = "radio"
+ru = "радио"
+uk = "радіо"
+
+[[word]]
+ja = "カメラ"
+en = "camera"
+ru = "фотоаппарат, камера"
+uk = "фотоапарат, камера"
+
+[[word]]
+ja = "パソコン"
+en = "PC"
+ru = "компьютер"
+uk = "комп'ютер"
+
+[[word]]
+ja = "コンピューター"
+en = "computer"
+ru = "компьютер"
+uk = "комп'ютер"
+
+[[word]]
+ja = "スマホ"
+en = "smartphone"
+ru = "смартфон"
+uk = "смартфон"
+
+[[word]]
+ja = "インターネット"
+en = "internet"
+ru = "интернет"
+uk = "інтернет"
+
+[[word]]
+ja = "メール"
+en = "email"
+ru = "электронная почта"
+uk = "електронна пошта"
+
+[[word]]
+ja = "アプリ"
+en = "app"
+ru = "приложение"
+uk = "застосунок"
+
+[[word]]
+ja = "パスワード"
+en = "password"
+ru = "пароль"
+uk = "пароль"
+
+[[word]]
+ja = "データ"
+en = "data"
+ru = "данные"
+uk = "дані"
+
+[[word]]
+ja = "ファイル"
+en = "file"
+ru = "файл"
+uk = "файл"
+
+[[word]]
+ja = "プリンター"
+en = "printer"
+ru = "принтер"
+uk = "принтер"
+
+[[word]]
+ja = "コピー"
+en = "copy"
+ru = "копия"
+uk = "копія"
+
+[[word]]
+ja = "ブログ"
+en = "blog"
+ru = "блог"
+uk = "блог"
+
+[[word]]
+ja = "ビデオ"
+en = "video"
+ru = "видео"
+uk = "відео"
+
+[[word]]
+ja = "ゲーム"
+en = "game"
+ru = "игра"
+uk = "гра"
+
+[[word]]
+ja = "ニュース"
+en = "news"
+ru = "новости"
+uk = "новини"
+
+[[word]]
+ja = "スポーツ"
+en = "sports"
+ru = "спорт"
+uk = "спорт"
+
+[[word]]
+ja = "サッカー"
+en = "soccer"
+ru = "футбол"
+uk = "футбол"
+
+[[word]]
+ja = "テニス"
+en = "tennis"
+ru = "теннис"
+uk = "теніс"
+
+[[word]]
+ja = "ゴルフ"
+en = "golf"
+ru = "гольф"
+uk = "гольф"
+
+[[word]]
+ja = "プール"
+en = "swimming pool"
+ru = "бассейн"
+uk = "басейн"
+
+[[word]]
+ja = "ジム"
+en = "gym"
+ru = "спортзал"
+uk = "спортзал"
+
+[[word]]
+ja = "ダンス"
+en = "dance"
+ru = "танец"
+uk = "танець"
+
+[[word]]
+ja = "ピアノ"
+en = "piano"
+ru = "пианино"
+uk = "піаніно"
+
+[[word]]
+ja = "ギター"
+en = "guitar"
+ru = "гитара"
+uk = "гітара"
+
+[[word]]
+ja = "コンサート"
+en = "concert"
+ru = "концерт"
+uk = "концерт"
+
+[[word]]
+ja = "ドラマ"
+en = "TV drama"
+ru = "сериал"
+uk = "серіал"
+
+[[word]]
+ja = "アニメ"
+en = "anime"
+ru = "аниме"
+uk = "аніме"
+
+[[word]]
+ja = "マンガ"
+en = "manga"
+ru = "манга"
+uk = "манга"
+
+[[word]]
+ja = "キャラクター"
+en = "character"
+ru = "персонаж"
+uk = "персонаж"
+
+[[word]]
+ja = "シャワー"
+en = "shower"
+ru = "душ"
+uk = "душ"
+
+[[word]]
+ja = "シャンプー"
+en = "shampoo"
+ru = "шампунь"
+uk = "шампунь"
+
+[[word]]
+ja = "タオル"
+en = "towel"
+ru = "полотенце"
+uk = "рушник"
+
+[[word]]
+ja = "ティッシュ"
+en = "tissue"
+ru = "бумажная салфетка"
+uk = "паперова серветка"
+
+[[word]]
+ja = "ベッド"
+en = "bed"
+ru = "кровать"
+uk = "ліжко"
+
+[[word]]
+ja = "テーブル"
+en = "table"
+ru = "стол"
+uk = "стіл"
+
+[[word]]
+ja = "ソファ"
+en = "sofa"
+ru = "диван"
+uk = "диван"
+
+[[word]]
+ja = "ドア"
+en = "door"
+ru = "дверь"
+uk = "двері"
+
+[[word]]
+ja = "カーテン"
+en = "curtain"
+ru = "штора"
+uk = "штора"
+
+[[word]]
+ja = "エアコン"
+en = "air conditioner"
+ru = "кондиционер"
+uk = "кондиціонер"
+
+[[word]]
+ja = "キッチン"
+en = "kitchen"
+ru = "кухня"
+uk = "кухня"
+
+[[word]]
+ja = "フォーク"
+en = "fork"
+ru = "вилка"
+uk = "виделка"
+
+[[word]]
+ja = "ナイフ"
+en = "knife"
+ru = "нож"
+uk = "ніж"
+
+[[word]]
+ja = "スプーン"
+en = "spoon"
+ru = "ложка"
+uk = "ложка"
+
+[[word]]
+ja = "コップ"
+en = "cup"
+ru = "стакан, чашка"
+uk = "склянка, чашка"
+
+[[word]]
+ja = "グラス"
+en = "glass"
+ru = "бокал"
+uk = "келих"
+
+[[word]]
+ja = "ボトル"
+en = "bottle"
+ru = "бутылка"
+uk = "пляшка"
+
+[[word]]
+ja = "アパート"
+en = "apartment"
+ru = "квартира (в малоэтажном доме)"
+uk = "квартира (у малоповерховому будинку)"
+
+[[word]]
+ja = "マンション"
+en = "condominium"
+ru = "квартира (в многоэтажном доме)"
+uk = "квартира (у багатоповерховому будинку)"
+
+[[word]]
+ja = "ビル"
+en = "building"
+ru = "здание"
+uk = "будівля"
+
+[[word]]
+ja = "ペン"
+en = "pen"
+ru = "ручка"
+uk = "ручка"
+
+[[word]]
+ja = "ノート"
+en = "notebook"
+ru = "тетрадь"
+uk = "зошит"
+
+[[word]]
+ja = "テスト"
+en = "test"
+ru = "тест, контрольная"
+uk = "тест, контрольна"
+
+[[word]]
+ja = "クラス"
+en = "class"
+ru = "класс"
+uk = "клас"
+
+[[word]]
+ja = "アルバイト"
+en = "part-time job"
+ru = "подработка"
+uk = "підробіток"
+
+[[word]]
+ja = "パーティー"
+en = "party"
+ru = "вечеринка"
+uk = "вечірка"
+
+[[word]]
+ja = "プレゼント"
+en = "present, gift"
+ru = "подарок"
+uk = "подарунок"
+
+[[word]]
+ja = "カード"
+en = "card"
+ru = "карта, открытка"
+uk = "картка, листівка"
+
+[[word]]
+ja = "ポケット"
+en = "pocket"
+ru = "карман"
+uk = "кишеня"
+
+[[word]]
+ja = "シャツ"
+en = "shirt"
+ru = "рубашка"
+uk = "сорочка"
+
+[[word]]
+ja = "ズボン"
+en = "trousers"
+ru = "брюки"
+uk = "штани"
+
+[[word]]
+ja = "スカート"
+en = "skirt"
+ru = "юбка"
+uk = "спідниця"
+
+[[word]]
+ja = "コート"
+en = "coat"
+ru = "пальто"
+uk = "пальто"
+
+[[word]]
+ja = "セーター"
+en = "sweater"
+ru = "свитер"
+uk = "светр"
+
+[[word]]
+ja = "ジャケット"
+en = "jacket"
+ru = "куртка, пиджак"
+uk = "куртка, піджак"
+
+[[word]]
+ja = "ネクタイ"
+en = "necktie"
+ru = "галстук"
+uk = "краватка"
+
+[[word]]
+ja = "バッグ"
+en = "bag"
+ru = "сумка"
+uk = "сумка"
+
+[[word]]
+ja = "ボタン"
+en = "button"
+ru = "пуговица, кнопка"
+uk = "ґудзик, кнопка"
+
+[[word]]
+ja = "サイズ"
+en = "size"
+ru = "размер"
+uk = "розмір"
+
+[[word]]
+ja = "デザイン"
+en = "design"
+ru = "дизайн"
+uk = "дизайн"
+
+[[word]]
+ja = "ファッション"
+en = "fashion"
+ru = "мода"
+uk = "мода"
+
+[[word]]
+ja = "チーム"
+en = "team"
+ru = "команда"
+uk = "команда"
+
+[[word]]
+ja = "リーダー"
+en = "leader"
+ru = "лидер"
+uk = "лідер"
+
+[[word]]
+ja = "メンバー"
+en = "member"
+ru = "участник"
+uk = "учасник"
+
+[[word]]
+ja = "プロジェクト"
+en = "project"
+ru = "проект"
+uk = "проєкт"
+
+[[word]]
+ja = "ミーティング"
+en = "meeting"
+ru = "встреча, совещание"
+uk = "зустріч, нарада"
+
+[[word]]
+ja = "スケジュール"
+en = "schedule"
+ru = "расписание"
+uk = "розклад"
+
+[[word]]
+ja = "ビジネス"
+en = "business"
+ru = "бизнес"
+uk = "бізнес"
+
+[[word]]
+ja = "サービス"
+en = "service"
+ru = "сервис, обслуживание"
+uk = "сервіс, обслуговування"
+
+[[word]]
+ja = "システム"
+en = "system"
+ru = "система"
+uk = "система"
+
+[[word]]
+ja = "チェック"
+en = "check"
+ru = "проверка"
+uk = "перевірка"
+
+[[word]]
+ja = "キャンセル"
+en = "cancel"
+ru = "отмена"
+uk = "скасування"
+
+[[word]]
+ja = "スタート"
+en = "start"
+ru = "старт"
+uk = "старт"
+
+[[word]]
+ja = "ゴール"
+en = "goal"
+ru = "цель, финиш"
+uk = "мета, фініш"
+
+[[word]]
+ja = "ルール"
+en = "rule"
+ru = "правило"
+uk = "правило"
+
+[[word]]
+ja = "ポイント"
+en = "point"
+ru = "пункт, баллы"
+uk = "пункт, бали"
+
+[[word]]
+ja = "レベル"
+en = "level"
+ru = "уровень"
+uk = "рівень"
+
+[[word]]
+ja = "ページ"
+en = "page"
+ru = "страница"
+uk = "сторінка"
+
+[[word]]
+ja = "グループ"
+en = "group"
+ru = "группа"
+uk = "група"
+
+[[word]]
+ja = "イベント"
+en = "event"
+ru = "мероприятие"
+uk = "захід"
+
+[[word]]
+ja = "フェスティバル"
+en = "festival"
+ru = "фестиваль"
+uk = "фестиваль"
+
+[[word]]
+ja = "クリスマス"
+en = "Christmas"
+ru = "Рождество"
+uk = "Різдво"
+
+[[word]]
+ja = "ハロウィン"
+en = "Halloween"
+ru = "Хэллоуин"
+uk = "Гелловін"
+
+[[word]]
+ja = "アイデア"
+en = "idea"
+ru = "идея"
+uk = "ідея"
+
+[[word]]
+ja = "イメージ"
+en = "image"
+ru = "образ, впечатление"
+uk = "образ, враження"
+
+[[word]]
+ja = "チャンス"
+en = "chance"
+ru = "шанс"
+uk = "шанс"
+
+[[word]]
+ja = "トラブル"
+en = "trouble"
+ru = "неприятность, проблема"
+uk = "неприємність, проблема"
+
+[[word]]
+ja = "ミス"
+en = "mistake"
+ru = "ошибка"
+uk = "помилка"
+
+[[word]]
+ja = "ベスト"
+en = "best"
+ru = "лучший"
+uk = "найкращий"
+
+[[word]]
+ja = "ストレス"
+en = "stress"
+ru = "стресс"
+uk = "стрес"
+
+[[word]]
+ja = "ダイエット"
+en = "diet"
+ru = "диета"
+uk = "дієта"
+
+[[word]]
+ja = "ビタミン"
+en = "vitamin"
+ru = "витамин"
+uk = "вітамін"
+
+[[word]]
+ja = "アレルギー"
+en = "allergy"
+ru = "аллергия"
+uk = "алергія"
+
+[[word]]
+ja = "マスク"
+en = "face mask"
+ru = "маска"
+uk = "маска"
+
+[[word]]
+ja = "ウイルス"
+en = "virus"
+ru = "вирус"
+uk = "вірус"
+
+[[word]]
+ja = "エンジニア"
+en = "engineer"
+ru = "инженер"
+uk = "інженер"
+
+[[word]]
+ja = "デザイナー"
+en = "designer"
+ru = "дизайнер"
+uk = "дизайнер"
+
+[[word]]
+ja = "ボランティア"
+en = "volunteer"
+ru = "волонтёр"
+uk = "волонтер"
+
+[[word]]
+ja = "アナウンス"
+en = "announcement"
+ru = "объявление"
+uk = "оголошення"
+
+[[word]]
+ja = "アメリカ"
+en = "America"
+ru = "Америка"
+uk = "Америка"
+
+[[word]]
+ja = "イギリス"
+en = "UK"
+ru = "Великобритания"
+uk = "Велика Британія"
+
+[[word]]
+ja = "フランス"
+en = "France"
+ru = "Франция"
+uk = "Франція"
+
+[[word]]
+ja = "ドイツ"
+en = "Germany"
+ru = "Германия"
+uk = "Німеччина"
+
+[[word]]
+ja = "イタリア"
+en = "Italy"
+ru = "Италия"
+uk = "Італія"
+
+[[word]]
+ja = "スペイン"
+en = "Spain"
+ru = "Испания"
+uk = "Іспанія"
+
+[[word]]
+ja = "カナダ"
+en = "Canada"
+ru = "Канада"
+uk = "Канада"
+
+[[word]]
+ja = "オーストラリア"
+en = "Australia"
+ru = "Австралия"
+uk = "Австралія"
+
+[[word]]
+ja = "ヨーロッパ"
+en = "Europe"
+ru = "Европа"
+uk = "Європа"
+
+[[word]]
+ja = "アジア"
+en = "Asia"
+ru = "Азия"
+uk = "Азія"
+
+[[word]]
+ja = "ロンドン"
+en = "London"
+ru = "Лондон"
+uk = "Лондон"
+
+[[word]]
+ja = "パリ"
+en = "Paris"
+ru = "Париж"
+uk = "Париж"
+
+[[word]]
+ja = "ニューヨーク"
+en = "New York"
+ru = "Нью-Йорк"
+uk = "Нью-Йорк"
+
+[[word]]
+ja = "メートル"
+en = "meter"
+ru = "метр"
+uk = "метр"
+
+[[word]]
+ja = "キロ"
+en = "kilo"
+ru = "кило (килограмм, километр)"
+uk = "кіло (кілограм, кілометр)"
+
+[[word]]
+ja = "グラム"
+en = "gram"
+ru = "грамм"
+uk = "грам"
+
+[[word]]
+ja = "パーセント"
+en = "percent"
+ru = "процент"
+uk = "відсоток"
+
+[[word]]
+ja = "ドル"
+en = "dollar"
+ru = "доллар"
+uk = "долар"
+
+[[word]]
+ja = "ユーロ"
+en = "euro"
+ru = "евро"
+uk = "євро"
+
+[[word]]
+ja = "ゼロ"
+en = "zero"
+ru = "ноль"
+uk = "нуль"
+
+[[word]]
+ja = "エネルギー"
+en = "energy"
+ru = "энергия"
+uk = "енергія"
+
+[[word]]
+ja = "ガス"
+en = "gas"
+ru = "газ"
+uk = "газ"
