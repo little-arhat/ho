@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import tomllib
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -13,6 +14,7 @@ from ho.kana import romaji
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
 
 Kind = Literal["say", "hear", "tip"]
+_COLOR = re.compile(r"#[0-9a-fA-F]{6}")
 
 
 @dataclass(frozen=True)
@@ -72,6 +74,18 @@ def _line(row: dict[str, Any], where: str) -> Line:
     return line
 
 
+def _topic(row: dict[str, Any], where: str) -> Topic:
+    try:
+        t = Topic(**row)
+    except TypeError as e:
+        raise ContentError(f"{where}: {e}") from e
+    if not (t.id and t.jp and t.en):
+        raise ContentError(f"{where}: id, jp and en are required")
+    if not (_COLOR.fullmatch(t.color) and _COLOR.fullmatch(t.color_dark)):
+        raise ContentError(f"{where}: colours must be #rrggbb")
+    return t
+
+
 def _phrase(row: dict[str, Any], topics: set[str], where: str) -> Phrase:
     fields = dict(row)
     answers = tuple(_line(a, f"{where} answer") for a in fields.pop("answers", ()))
@@ -98,14 +112,15 @@ def _phrase(row: dict[str, Any], topics: set[str], where: str) -> Phrase:
 
 def load(path: Path, verbs: tuple[Verb, ...]) -> Phrasebook:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
-    try:
-        topics = tuple(Topic(**t) for t in data["topic"])
-    except (KeyError, TypeError) as e:
-        raise ContentError(f"{path}: topics: {e}") from e
+    if set(data) != {"topic", "phrase"}:
+        raise ContentError(f"{path}: expected [[topic]] and [[phrase]] tables, found {sorted(data)}")
+    topics = tuple(_topic(row, f"{path}: topic #{i + 1}") for i, row in enumerate(data["topic"]))
     ids = {t.id for t in topics}
+    if len(ids) != len(topics):
+        raise ContentError(f"{path}: duplicate topic ids")
     phrases = tuple(
         _phrase(row, ids, f"{path}: phrase #{i + 1} {row.get('ja') or row.get('note', '')[:20]!r}")
-        for i, row in enumerate(data.get("phrase", []))
+        for i, row in enumerate(data["phrase"])
     )
     return Phrasebook(topics, phrases, verbs)
 

@@ -46,3 +46,36 @@ def test_find_verbs():
     assert [v.dict for v in find_verbs(["予約[よやく]したいです"], VERBS)] == ["予約[よやく]する"]
     assert find_verbs(["予約[よやく]は"], VERBS) == ()
     assert find_verbs(["乗[の]"], VERBS) == ()
+
+
+def test_kuru_compound_keeps_prefix():
+    from ho.verbs import Gloss, Verb
+    v = Verb("持[も]って来[く]る", "kuru", ("持|も",), Gloss("bring", "brought", "brought"))
+    rows = {f.label.split()[0]: f.ja for f in conjugate(v)}
+    assert rows["ます"] == "持[も]って来[き]ます"
+
+
+@pytest.mark.parametrize("body, message", [
+    ('dict="乗[の]る"\nkind="godan"\nmatch=["乗|の"]\nglos={base="r",past="r",participle="r"}', "needs exactly"),
+    ('dict="乗[の]る"\nkind="ichidan"\nmatch=["乗|の"]\ngloss={base="r",past="r",participle="r"}', None),
+    ('dict="乗[の]す"\nkind="ichidan"\nmatch=["乗|の"]\ngloss={base="r",past="r",participle="r"}', "does not end like"),
+    ('dict="お[お]る"\nkind="godan"\nmatch=["乗|の"]\ngloss={base="r",past="r",participle="r"}', "verb #1"),
+])
+def test_bad_rows(tmp_path, body, message):
+    from ho.errors import ContentError
+    f = tmp_path / "v.toml"
+    f.write_text("[[verb]]\n" + body + "\n")
+    if message is None:
+        load_verbs(f)
+        return
+    with pytest.raises(ContentError, match=message):
+        load_verbs(f)
+
+
+def test_duplicate_match_key(tmp_path):
+    from ho.errors import ContentError
+    row = '[[verb]]\ndict="{d}"\nkind="godan"\nmatch=["乗|の"]\ngloss={{base="r",past="r",participle="r"}}\n'
+    f = tmp_path / "v.toml"
+    f.write_text(row.format(d="乗[の]る") + row.format(d="乗[の]す"))
+    with pytest.raises(ContentError, match="already belongs"):
+        load_verbs(f)

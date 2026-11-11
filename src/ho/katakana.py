@@ -10,7 +10,7 @@ can say which mark was missed.
 from __future__ import annotations
 
 import tomllib
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from ho.errors import ContentError
@@ -60,10 +60,10 @@ class _Token:
 
 @dataclass(frozen=True)
 class Answers:
-    exact: list[list[str]]
-    near_long: list[list[str]]
-    near_gem: list[list[str]]
-    near_both: list[list[str]]
+    exact: tuple[tuple[str, ...], ...]
+    near_long: tuple[tuple[str, ...], ...]
+    near_gem: tuple[tuple[str, ...], ...]
+    near_both: tuple[tuple[str, ...], ...]
     typed: str
     macron: str
 
@@ -78,22 +78,26 @@ class Word:
 
 
 def _tokenize(word: str) -> list[_Token]:
+    """Split into morae; refuses anything the drill could not ask fairly."""
     out: list[_Token] = []
     gem = False
     i = 0
     while i < len(word):
         c = word[i]
         if c == "ッ":
+            if gem:
+                raise ContentError(f"{word!r}: ッッ")
             gem = True
             i += 1
             continue
         if c == "ー":
-            if out:
-                out[-1].long += 1
+            if gem or not out or out[-1].n:
+                raise ContentError(f"{word!r}: ー must follow a vowel sound")
+            out[-1].long += 1
             i += 1
             continue
         two = word[i : i + 2]
-        if len(two) == 2 and two in _COMBO:
+        if two in _COMBO:
             tok = _Token(_COMBO[two])
             i += 2
         elif c == "ン":
@@ -103,11 +107,14 @@ def _tokenize(word: str) -> list[_Token]:
             tok = _Token(_SINGLE[c])
             i += 1
         else:
-            tok = _Token((c.lower(),))
-            i += 1
+            raise ContentError(f"{word!r}: no romaji for {c!r}")
+        if gem and (tok.n or tok.spellings[0][0] in "aeiou"):
+            raise ContentError(f"{word!r}: ッ must come before a consonant")
         tok.gem = gem
         gem = False
         out.append(tok)
+    if gem:
+        raise ContentError(f"{word!r}: ッ at the end")
     return out
 
 
@@ -168,8 +175,8 @@ def _forms(tokens: list[_Token]) -> tuple[str, str]:
 def answers(ja: str) -> Answers:
     t = _tokenize(ja)
 
-    def alts(*, long: bool, gem: bool) -> list[list[str]]:
-        return [_alternatives(t, i, long=long, gem=gem) for i in range(len(t))]
+    def alts(*, long: bool, gem: bool) -> tuple[tuple[str, ...], ...]:
+        return tuple(tuple(_alternatives(t, i, long=long, gem=gem)) for i in range(len(t)))
 
     typed, mac = _forms(t)
     return Answers(alts(long=False, gem=False), alts(long=True, gem=False),
@@ -178,16 +185,24 @@ def answers(ja: str) -> Answers:
 
 def load(path: Path) -> tuple[Word, ...]:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
+    if set(data) != {"word"}:
+        raise ContentError(f"{path}: expected only [[word]] tables, found {sorted(data)}")
     seen: set[str] = set()
     out = []
-    for i, row in enumerate(data.get("word", [])):
+    for i, row in enumerate(data["word"]):
         where = f"{path}: word #{i + 1}"
         if set(row) != {"ja", "en", "ru", "uk"} or not all(row.values()):
             raise ContentError(f"{where}: needs exactly ja, en, ru, uk, all non-empty")
         if row["ja"] in seen:
             raise ContentError(f"{where}: duplicate {row['ja']!r}")
-        if not all("ァ" <= c <= "ヺ" or c == "ー" for c in row["ja"]):
-            raise ContentError(f"{where}: {row['ja']!r} is not all katakana")
         seen.add(row["ja"])
-        out.append(Word(**row, answers=answers(row["ja"])))
+        try:
+            out.append(Word(**row, answers=answers(row["ja"])))
+        except ContentError as e:
+            raise ContentError(f"{where}: {e}") from e
     return tuple(out)
+
+
+def view(words: tuple[Word, ...]) -> list[dict[str, object]]:
+    """The drill deck as the page's JSON."""
+    return [{"ja": w.ja, "en": w.en, "ru": w.ru, "uk": w.uk, **asdict(w.answers)} for w in words]

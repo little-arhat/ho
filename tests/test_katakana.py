@@ -3,6 +3,7 @@ from pathlib import Path
 
 import pytest
 
+from ho.errors import ContentError
 from ho.katakana import answers, load
 
 WORDS = load(Path(__file__).parent.parent / "content/katakana.toml")
@@ -57,3 +58,16 @@ def test_forms():
     a = answers("コーヒー")
     assert (a.typed, a.macron) == ("koohii", "kōhī")
     assert answers("パンヤ").typed == "pan'ya"
+
+
+@pytest.mark.parametrize("bad", ["ヰスキー", "アッ", "ーア", "ッン", "ッア", "ンー", "ッッカ"])
+def test_rejects_undrillable(bad):
+    with pytest.raises(ContentError):
+        answers(bad)
+
+
+def test_unknown_table_rejected(tmp_path):
+    f = tmp_path / "k.toml"
+    f.write_text('[[words]]\nja="パン"\nen="bread"\nru="хлеб"\nuk="хліб"\n')
+    with pytest.raises(ContentError, match="only \\[\\[word\\]\\]"):
+        load(f)

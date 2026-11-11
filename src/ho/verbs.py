@@ -11,7 +11,7 @@ import tomllib
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Literal
+from typing import Any, Literal
 
 from ho import furigana
 from ho.errors import ContentError
@@ -73,8 +73,10 @@ class _Stems:
 def _stems(v: Verb) -> _Stems:
     d = v.dict
     if v.kind == "kuru":
-        return _Stems(d, "来[き]", "来[こ]", "来[き]て", "来[き]た", "来[こ]られる",
-                      "来[こ]よう", "来[く]れば", "来[こ]られる", "来[こ]させる")
+        b = d.removesuffix("来[く]る")
+        return _Stems(d, b + "来[き]", b + "来[こ]", b + "来[き]て", b + "来[き]た",
+                      b + "来[こ]られる", b + "来[こ]よう", b + "来[く]れば", b + "来[こ]られる",
+                      b + "来[こ]させる")
     if v.kind == "suru":
         b = d.removesuffix("する")
         return _Stems(d, b + "し", b + "し", b + "して", b + "した", b + "できる",
@@ -132,30 +134,50 @@ def conjugate(v: Verb) -> tuple[Form, ...]:
     return tuple(Form(label, ja(s), meaning(v.gloss)) for label, ja, meaning in _ROWS_SPEC)
 
 
-def _check(v: Verb, where: str) -> None:
+_TAIL = {"suru": "する", "kuru": "来[く]る", "ichidan": "る"}
+_FIELDS = {"dict", "kind", "match", "gloss"}
+
+
+def _verb(row: dict[str, Any], where: str) -> Verb:
+    if set(row) != _FIELDS:
+        raise ContentError(f"{where}: needs exactly {sorted(_FIELDS)}, found {sorted(row)}")
+    try:
+        v = Verb(row["dict"], row["kind"], tuple(row["match"]), Gloss(**row["gloss"]))
+    except TypeError as e:
+        raise ContentError(f"{where}: {e}") from e
     if v.kind not in KINDS:
         raise ContentError(f"{where}: unknown kind {v.kind!r}")
-    tail = {"suru": "する", "kuru": "る", "ichidan": "る"}.get(v.kind)
+    tail = _TAIL.get(v.kind)
     wrong_tail = tail is not None and not v.dict.endswith(tail)
     wrong_ending = v.kind in ("godan", "iku") and v.dict[-1:] not in _ROWS
     if wrong_tail or wrong_ending:
         raise ContentError(f"{where}: {v.dict!r} does not end like a {v.kind} verb")
-    furigana.parse(v.dict)
-    for key in v.match:
-        if key.count("|") != 1:
-            raise ContentError(f"{where}: match key {key!r} is not '漢字|よみ'")
+    try:
+        furigana.parse(v.dict)
+    except ContentError as e:
+        raise ContentError(f"{where}: {e}") from e
+    if not v.match or any(key.count("|") != 1 for key in v.match):
+        raise ContentError(f"{where}: match keys must be '漢字|よみ', found {list(v.match)}")
+    return v
 
 
 def load_verbs(path: Path) -> tuple[Verb, ...]:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
-    out = []
-    for i, row in enumerate(data.get("verb", [])):
-        where = f"{path}: verb #{i + 1}"
-        try:
-            v = Verb(row["dict"], row["kind"], tuple(row["match"]), Gloss(**row["gloss"]))
-        except (KeyError, TypeError) as e:
-            raise ContentError(f"{where}: {e}") from e
-        _check(v, f"{where} {v.dict}")
+    if set(data) != {"verb"}:
+        raise ContentError(f"{path}: expected only [[verb]] tables, found {sorted(data)}")
+    out: list[Verb] = []
+    dicts: set[str] = set()
+    keys: dict[str, str] = {}
+    for i, row in enumerate(data["verb"]):
+        where = f"{path}: verb #{i + 1} {row.get('dict', '')!r}"
+        v = _verb(row, where)
+        if v.dict in dicts:
+            raise ContentError(f"{where}: duplicate verb")
+        dicts.add(v.dict)
+        for key in v.match:
+            if key in keys:
+                raise ContentError(f"{where}: match key {key!r} already belongs to {keys[key]!r}")
+            keys[key] = v.dict
         out.append(v)
     return tuple(out)
 

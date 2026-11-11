@@ -53,8 +53,10 @@ def test_embedded_data(site):
 def test_deterministic(site, tmp_path):
     again = tmp_path / "again"
     assert main(["--out", str(again)]) == 0
-    for rel in PAGES:
-        assert (site / rel).read_bytes() == (again / rel).read_bytes()
+    files = sorted(p.relative_to(site) for p in site.rglob("*") if p.is_file())
+    assert files == sorted(p.relative_to(again) for p in again.rglob("*") if p.is_file())
+    for rel in files:
+        assert (site / rel).read_bytes() == (again / rel).read_bytes(), rel
 
 
 def test_refuses_to_clear_foreign_dir(tmp_path):

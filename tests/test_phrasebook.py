@@ -24,7 +24,7 @@ def test_counts():
 
 def test_unknown_topic(tmp_path):
     f = tmp_path / "pb.toml"
-    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000"\ncolor_dark="#fff"\n'
+    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000000"\ncolor_dark="#ffffff"\n'
                  '[[phrase]]\ntopic="b"\nsection="s"\nkind="say"\nja="はい"\nen="yes"\nru="да"\nuk="так"\n')
     with pytest.raises(ContentError, match="phrase #1 'はい'.*unknown topic 'b'"):
         phrasebook.load(f, VERBS)
@@ -32,7 +32,7 @@ def test_unknown_topic(tmp_path):
 
 def test_bad_furigana_names_entry(tmp_path):
     f = tmp_path / "pb.toml"
-    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000"\ncolor_dark="#fff"\n'
+    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000000"\ncolor_dark="#ffffff"\n'
                  '[[phrase]]\ntopic="a"\nsection="s"\nkind="say"\nja="お[お]"\nen="o"\nru="о"\nuk="о"\n')
     with pytest.raises(ContentError, match="phrase #1"):
         phrasebook.load(f, VERBS)
@@ -58,3 +58,19 @@ def test_verb_view():
     assert v["wiktionary"] == "予約"
     assert len(v["forms"]) == 20
     assert v["forms"][1]["romaji"] == "yoyakushimasu"
+
+
+def test_bad_colour(tmp_path):
+    f = tmp_path / "pb.toml"
+    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="red;x"\ncolor_dark="#fff000"\n[[phrase]]\n'
+                 'topic="a"\nsection="s"\nkind="tip"\nnote="n"\n')
+    with pytest.raises(ContentError, match="colours"):
+        phrasebook.load(f, VERBS)
+
+
+def test_misspelled_table(tmp_path):
+    f = tmp_path / "pb.toml"
+    f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000000"\ncolor_dark="#ffffff"\n[[phrases]]\n'
+                 'topic="a"\nsection="s"\nkind="tip"\nnote="n"\n')
+    with pytest.raises(ContentError, match="expected"):
+        phrasebook.load(f, VERBS)

@@ -1,5 +1,6 @@
 // Rendering helpers shared by pages. Japanese arrives as segments
 // [[text], [base, reading], ...] prepared by the build; nothing here parses notation.
+import { LANGS } from "./prefs.js";
 
 export const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
@@ -13,5 +14,5 @@ export function plainText(segments) {
 
 // Translations as a definition list; CSS shows only the selected languages.
 export function translations(t) {
-  return `<dl class="tr">${["en", "ru", "uk"].filter((l) => t[l]).map((l) => `<dt class="tr-${l}">${l.toUpperCase()}</dt><dd class="tr-${l}">${esc(t[l])}</dd>`).join("")}</dl>`;
+  return `<dl class="tr">${LANGS.filter((l) => t[l]).map((l) => `<dt class="tr-${l}">${l.toUpperCase()}</dt><dd class="tr-${l}">${esc(t[l])}</dd>`).join("")}</dl>`;
 }

@@ -34,7 +34,7 @@ def _clear(out: Path) -> None:
 
 def write_site(pages: dict[str, str], out: Path) -> None:
     _clear(out)
-    shutil.copytree(ROOT / "web", out / "static")
+    shutil.copytree(ROOT / "web", out / "static", ignore=shutil.ignore_patterns(".*"))
     for rel, html in pages.items():
         target = out / rel
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -51,7 +51,7 @@ def main(argv: list[str] | None = None) -> int:
     except ContentError as e:
         print(f"content error: {e}", file=sys.stderr)
         return 1
-    write_site(render_site(content), args.out)
+    write_site(render_site(content, ROOT / "templates"), args.out)
     print(f"built {args.out}")
     return 0
 

@@ -1,14 +1,10 @@
 // Phrase book view. Data (parsed ruby, search text, verb tables) comes from the build.
+import { stored, store } from "./prefs.js";
 import { esc, plainText, ruby, translations } from "./ruby.js";
 
 const DATA = JSON.parse(document.getElementById("data").textContent);
 const TOPIC = Object.fromEntries(DATA.topics.map((t) => [t.id, t]));
 const $ = (id) => document.getElementById(id);
-
-const local = {
-  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
-  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* not persisted */ } },
-};
 
 // Search folds: case, ё/е, katakana/hiragana; romaji ignores long vowels and は=wa.
 const kataToHira = (s) => s.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -26,7 +22,7 @@ const phrases = DATA.phrases.map((p, id) => ({
   idxR: foldRomaji(p.romaji.join("") + " " + p.romaji.join(" ")),
 }));
 
-const st = { topic: local.get("ho.pb.topic", "all"), kind: "all", cas: local.get("ho.pb.cas", false), q: "" };
+const st = { topic: stored("ho.pb.topic", "all"), kind: "all", cas: stored("ho.pb.cas", false), q: "" };
 if (st.topic !== "all" && !TOPIC[st.topic]) st.topic = "all";
 
 const colorStyle = (t) => `--c-l:${t.color};--c-d:${t.color_dark}`;
@@ -41,7 +37,7 @@ function chip(id, label, jp, t) {
   if (t) b.style.cssText = colorStyle(t);
   b.innerHTML = (t ? "<i></i>" : "") + `<b lang="ja">${esc(jp)}</b>${esc(label)}`;
   b.addEventListener("click", () => {
-    st.topic = id; local.set("ho.pb.topic", id);
+    st.topic = id; store("ho.pb.topic", id);
     st.q = ""; $("q").value = "";
     render(); window.scrollTo({ top: 0 });
   });
@@ -59,7 +55,7 @@ function segmented(el, items, onClick) {
   }
 }
 segmented($("kinds"), [["all", "ALL"], ["say", "SAY"], ["hear", "HEAR"], ["tip", "TIPS"]], (k) => { st.kind = k; });
-segmented($("opts"), [["cas", "CASUAL"]], () => { st.cas = !st.cas; local.set("ho.pb.cas", st.cas); });
+segmented($("opts"), [["cas", "CASUAL"]], () => { st.cas = !st.cas; store("ho.pb.cas", st.cas); });
 
 function paintControls() {
   $("kinds").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(st.kind === b.dataset.k)));
