@@ -1,0 +1,1177 @@
+# Verbs the phrase book conjugates. `match` = "漢字|よみ" as the ruby occurs in a phrase.
+
+[[verb]]
+dict = "乗[の]る"
+kind = "godan"
+match = [
+    "乗|の",
+]
+
+[verb.gloss]
+base = "ride / get on"
+past = "rode"
+participle = "ridden"
+
+[[verb]]
+dict = "召[め]し上[あ]がる"
+kind = "godan"
+match = [
+    "召|め",
+]
+
+[verb.gloss]
+base = "eat (honorific)"
+past = "ate"
+participle = "eaten"
+
+[[verb]]
+dict = "下[さ]げる"
+kind = "ichidan"
+match = [
+    "下|さ",
+]
+
+[verb.gloss]
+base = "clear away"
+past = "cleared away"
+participle = "cleared"
+
+[[verb]]
+dict = "会[あ]う"
+kind = "godan"
+match = [
+    "会|あ",
+]
+
+[verb.gloss]
+base = "meet"
+past = "met"
+participle = "met"
+
+[[verb]]
+dict = "住[す]む"
+kind = "godan"
+match = [
+    "住|す",
+]
+
+[verb.gloss]
+base = "live"
+past = "lived"
+participle = "lived in"
+
+[[verb]]
+dict = "作[つく]る"
+kind = "godan"
+match = [
+    "作|つく",
+]
+
+[verb.gloss]
+base = "make"
+past = "made"
+participle = "made"
+
+[[verb]]
+dict = "休[やす]む"
+kind = "godan"
+match = [
+    "休|やす",
+]
+
+[verb.gloss]
+base = "rest / take a day off"
+past = "rested"
+participle = "—"
+
+[[verb]]
+dict = "任[まか]せる"
+kind = "ichidan"
+match = [
+    "任|まか",
+]
+
+[verb.gloss]
+base = "leave it to"
+past = "left it to"
+participle = "entrusted"
+
+[[verb]]
+dict = "使[つか]う"
+kind = "godan"
+match = [
+    "使|つか",
+]
+
+[verb.gloss]
+base = "use"
+past = "used"
+participle = "used"
+
+[[verb]]
+dict = "入[はい]る"
+kind = "godan"
+match = [
+    "入|はい",
+]
+
+[verb.gloss]
+base = "go in / contain"
+past = "went in"
+participle = "entered"
+
+[[verb]]
+dict = "出[で]る"
+kind = "ichidan"
+match = [
+    "出|で",
+]
+
+[verb.gloss]
+base = "come out / leave"
+past = "came out"
+participle = "—"
+
+[[verb]]
+dict = "分[わ]ける"
+kind = "ichidan"
+match = [
+    "分|わ",
+]
+
+[verb.gloss]
+base = "split / separate"
+past = "split"
+participle = "split"
+
+[[verb]]
+dict = "助[たす]かる"
+kind = "godan"
+match = [
+    "助|たす",
+]
+
+[verb.gloss]
+base = "be helped"
+past = "was helped"
+participle = "—"
+
+[[verb]]
+dict = "動[うご]く"
+kind = "godan"
+match = [
+    "動|うご",
+]
+
+[verb.gloss]
+base = "move / work"
+past = "moved"
+participle = "—"
+
+[[verb]]
+dict = "参[まい]る"
+kind = "godan"
+match = [
+    "参|まい",
+]
+
+[verb.gloss]
+base = "come (humble)"
+past = "came"
+participle = "—"
+
+[[verb]]
+dict = "取[と]る"
+kind = "godan"
+match = [
+    "取|と",
+]
+
+[verb.gloss]
+base = "take"
+past = "took"
+participle = "taken"
+
+[[verb]]
+dict = "合[あ]う"
+kind = "godan"
+match = [
+    "合|あ",
+]
+
+[verb.gloss]
+base = "match / be correct"
+past = "matched"
+participle = "—"
+
+[[verb]]
+dict = "呼[よ]ぶ"
+kind = "godan"
+match = [
+    "呼|よ",
+]
+
+[verb.gloss]
+base = "call"
+past = "called"
+participle = "called"
+
+[[verb]]
+dict = "当[あ]たる"
+kind = "godan"
+match = [
+    "当|あ",
+]
+
+[verb.gloss]
+base = "win / hit"
+past = "won"
+participle = "hit"
+
+[[verb]]
+dict = "待[ま]つ"
+kind = "godan"
+match = [
+    "待|ま",
+]
+
+[verb.gloss]
+base = "wait"
+past = "waited"
+participle = "—"
+
+[[verb]]
+dict = "忘[わす]れる"
+kind = "ichidan"
+match = [
+    "忘|わす",
+]
+
+[verb.gloss]
+base = "forget"
+past = "forgot"
+participle = "forgotten"
+
+[[verb]]
+dict = "急[いそ]ぐ"
+kind = "godan"
+match = [
+    "急|いそ",
+]
+
+[verb.gloss]
+base = "hurry"
+past = "hurried"
+participle = "—"
+
+[[verb]]
+dict = "払[はら]う"
+kind = "godan"
+match = [
+    "払|はら",
+]
+
+[verb.gloss]
+base = "pay"
+past = "paid"
+participle = "paid"
+
+[[verb]]
+dict = "支払[しはら]う"
+kind = "godan"
+match = [
+    "支払|しはら",
+]
+
+[verb.gloss]
+base = "pay"
+past = "paid"
+participle = "paid"
+
+[[verb]]
+dict = "扱[あつか]う"
+kind = "godan"
+match = [
+    "扱|あつか",
+]
+
+[verb.gloss]
+base = "handle"
+past = "handled"
+participle = "handled"
+
+[[verb]]
+dict = "抜[ぬ]く"
+kind = "godan"
+match = [
+    "抜|ぬ",
+]
+
+[verb.gloss]
+base = "leave out"
+past = "left out"
+participle = "left out"
+
+[[verb]]
+dict = "押[お]す"
+kind = "godan"
+match = [
+    "押|お",
+]
+
+[verb.gloss]
+base = "press / push"
+past = "pressed"
+participle = "pressed"
+
+[[verb]]
+dict = "持[も]つ"
+kind = "godan"
+match = [
+    "持|も",
+]
+
+[verb.gloss]
+base = "hold / have"
+past = "held"
+participle = "held"
+
+[[verb]]
+dict = "乗[の]り換[か]える"
+kind = "ichidan"
+match = [
+    "換|か",
+]
+
+[verb.gloss]
+base = "change trains"
+past = "changed trains"
+participle = "—"
+
+[[verb]]
+dict = "握[にぎ]る"
+kind = "godan"
+match = [
+    "握|にぎ",
+]
+
+[verb.gloss]
+base = "make (sushi) / grip"
+past = "made"
+participle = "made"
+
+[[verb]]
+dict = "撮[と]る"
+kind = "godan"
+match = [
+    "撮|と",
+]
+
+[verb.gloss]
+base = "take (a photo)"
+past = "took"
+participle = "taken"
+
+[[verb]]
+dict = "教[おし]える"
+kind = "ichidan"
+match = [
+    "教|おし",
+]
+
+[verb.gloss]
+base = "teach / tell"
+past = "told"
+participle = "told"
+
+[[verb]]
+dict = "敷[し]く"
+kind = "godan"
+match = [
+    "敷|し",
+]
+
+[verb.gloss]
+base = "lay out"
+past = "laid out"
+participle = "laid out"
+
+[[verb]]
+dict = "曲[ま]がる"
+kind = "godan"
+match = [
+    "曲|ま",
+]
+
+[verb.gloss]
+base = "turn"
+past = "turned"
+participle = "—"
+
+[[verb]]
+dict = "書[か]く"
+kind = "godan"
+match = [
+    "書|か",
+]
+
+[verb.gloss]
+base = "write"
+past = "wrote"
+participle = "written"
+
+[[verb]]
+dict = "替[か]える"
+kind = "ichidan"
+match = [
+    "替|か",
+]
+
+[verb.gloss]
+base = "change / swap"
+past = "changed"
+participle = "changed"
+
+[[verb]]
+dict = "来[く]る"
+kind = "kuru"
+match = [
+    "来|き",
+]
+
+[verb.gloss]
+base = "come"
+past = "came"
+participle = "—"
+
+[[verb]]
+dict = "止[と]まる"
+kind = "godan"
+match = [
+    "止|と",
+]
+
+[verb.gloss]
+base = "stop"
+past = "stopped"
+participle = "—"
+
+[[verb]]
+dict = "歩[ある]く"
+kind = "godan"
+match = [
+    "歩|ある",
+]
+
+[verb.gloss]
+base = "walk"
+past = "walked"
+participle = "—"
+
+[[verb]]
+dict = "決[き]まる"
+kind = "godan"
+match = [
+    "決|き",
+]
+
+[verb.gloss]
+base = "be decided"
+past = "was decided"
+participle = "—"
+
+[[verb]]
+dict = "温[あたた]める"
+kind = "ichidan"
+match = [
+    "温|あたた",
+]
+
+[verb.gloss]
+base = "heat up"
+past = "heated up"
+participle = "heated"
+
+[[verb]]
+dict = "焼[や]く"
+kind = "godan"
+match = [
+    "焼|や",
+]
+
+[verb.gloss]
+base = "grill / bake"
+past = "grilled"
+participle = "grilled"
+
+[[verb]]
+dict = "申[もう]す"
+kind = "godan"
+match = [
+    "申|もう",
+]
+
+[verb.gloss]
+base = "say (humble)"
+past = "said"
+participle = "—"
+
+[[verb]]
+dict = "疲[つか]れる"
+kind = "ichidan"
+match = [
+    "疲|つか",
+]
+
+[verb.gloss]
+base = "get tired"
+past = "got tired"
+participle = "—"
+
+[[verb]]
+dict = "突[つ]き当[あ]たる"
+kind = "godan"
+match = [
+    "突|つ",
+]
+
+[verb.gloss]
+base = "reach the end (of a street)"
+past = "reached the end"
+participle = "—"
+
+[[verb]]
+dict = "空[あ]く"
+kind = "godan"
+match = [
+    "空|あ",
+]
+
+[verb.gloss]
+base = "become free / empty"
+past = "became free"
+participle = "—"
+
+[[verb]]
+dict = "繰[く]り返[かえ]す"
+kind = "godan"
+match = [
+    "繰|く",
+]
+
+[verb.gloss]
+base = "repeat"
+past = "repeated"
+participle = "repeated"
+
+[[verb]]
+dict = "考[かんが]える"
+kind = "ichidan"
+match = [
+    "考|かんが",
+]
+
+[verb.gloss]
+base = "think"
+past = "thought"
+participle = "considered"
+
+[[verb]]
+dict = "聴[き]く"
+kind = "godan"
+match = [
+    "聴|き",
+]
+
+[verb.gloss]
+base = "listen"
+past = "listened"
+participle = "listened to"
+
+[[verb]]
+dict = "見[み]る"
+kind = "ichidan"
+match = [
+    "見|み",
+]
+
+[verb.gloss]
+base = "see / watch"
+past = "saw"
+participle = "seen"
+
+[[verb]]
+dict = "言[い]う"
+kind = "godan"
+match = [
+    "言|い",
+]
+
+[verb.gloss]
+base = "say"
+past = "said"
+participle = "said"
+
+[[verb]]
+dict = "話[はな]す"
+kind = "godan"
+match = [
+    "話|はな",
+]
+
+[verb.gloss]
+base = "speak"
+past = "spoke"
+participle = "spoken"
+
+[[verb]]
+dict = "読[よ]む"
+kind = "godan"
+match = [
+    "読|よ",
+]
+
+[verb.gloss]
+base = "read"
+past = "read"
+participle = "read"
+
+[[verb]]
+dict = "買[か]う"
+kind = "godan"
+match = [
+    "買|か",
+]
+
+[verb.gloss]
+base = "buy"
+past = "bought"
+participle = "bought"
+
+[[verb]]
+dict = "返[かえ]す"
+kind = "godan"
+match = [
+    "返|かえ",
+]
+
+[verb.gloss]
+base = "give back"
+past = "gave back"
+participle = "given back"
+
+[[verb]]
+dict = "迷[まよ]う"
+kind = "godan"
+match = [
+    "迷|まよ",
+]
+
+[verb.gloss]
+base = "get lost"
+past = "got lost"
+participle = "—"
+
+[[verb]]
+dict = "通[とお]る"
+kind = "godan"
+match = [
+    "通|とお",
+]
+
+[verb.gloss]
+base = "pass through"
+past = "passed through"
+participle = "—"
+
+[[verb]]
+dict = "乗[の]り過[す]ごす"
+kind = "godan"
+match = [
+    "過|す",
+]
+
+[verb.gloss]
+base = "miss one's stop"
+past = "missed one's stop"
+participle = "—"
+
+[[verb]]
+dict = "違[ちが]う"
+kind = "godan"
+match = [
+    "違|ちが",
+]
+
+[verb.gloss]
+base = "differ / be wrong"
+past = "was different"
+participle = "—"
+
+[[verb]]
+dict = "降[ふ]る"
+kind = "godan"
+match = [
+    "降|ふ",
+]
+
+[verb.gloss]
+base = "fall (rain, snow)"
+past = "fell"
+participle = "rained on"
+
+[[verb]]
+dict = "預[あず]かる"
+kind = "godan"
+match = [
+    "預|あず",
+]
+
+[verb.gloss]
+base = "look after (something)"
+past = "looked after"
+participle = "—"
+
+[[verb]]
+dict = "頑張[がんば]る"
+kind = "godan"
+match = [
+    "頑張|がんば",
+]
+
+[verb.gloss]
+base = "do one's best"
+past = "did one's best"
+participle = "—"
+
+[[verb]]
+dict = "願[ねが]う"
+kind = "godan"
+match = [
+    "願|ねが",
+]
+
+[verb.gloss]
+base = "ask / wish"
+past = "asked"
+participle = "—"
+
+[[verb]]
+dict = "食[た]べる"
+kind = "ichidan"
+match = [
+    "食|た",
+]
+
+[verb.gloss]
+base = "eat"
+past = "ate"
+participle = "eaten"
+
+[[verb]]
+dict = "飲[の]む"
+kind = "godan"
+match = [
+    "飲|の",
+]
+
+[verb.gloss]
+base = "drink"
+past = "drank"
+participle = "drunk"
+
+[[verb]]
+dict = "行[い]く"
+kind = "iku"
+match = [
+    "行|い",
+]
+
+[verb.gloss]
+base = "go"
+past = "went"
+participle = "—"
+
+[[verb]]
+dict = "歌[うた]う"
+kind = "godan"
+match = [
+    "歌|うた",
+]
+
+[verb.gloss]
+base = "sing"
+past = "sang"
+participle = "sung"
+
+[[verb]]
+dict = "帰[かえ]る"
+kind = "godan"
+match = [
+    "帰|かえ",
+]
+
+[verb.gloss]
+base = "go home"
+past = "went home"
+participle = "—"
+
+[[verb]]
+dict = "始[はじ]める"
+kind = "ichidan"
+match = [
+    "始|はじ",
+]
+
+[verb.gloss]
+base = "start"
+past = "started"
+participle = "started"
+
+[[verb]]
+dict = "配[くば]る"
+kind = "godan"
+match = [
+    "配|くば",
+]
+
+[verb.gloss]
+base = "hand out"
+past = "handed out"
+participle = "handed out"
+
+[[verb]]
+dict = "断[ことわ]る"
+kind = "godan"
+match = [
+    "断|ことわ",
+]
+
+[verb.gloss]
+base = "refuse / decline"
+past = "refused"
+participle = "refused"
+
+[[verb]]
+dict = "探[さが]す"
+kind = "godan"
+match = [
+    "探|さが",
+]
+
+[verb.gloss]
+base = "look for"
+past = "looked for"
+participle = "looked for"
+
+[[verb]]
+dict = "手伝[てつだ]う"
+kind = "godan"
+match = [
+    "手伝|てつだ",
+]
+
+[verb.gloss]
+base = "help"
+past = "helped"
+participle = "helped"
+
+[[verb]]
+dict = "開[あ]く"
+kind = "godan"
+match = [
+    "開|あ",
+]
+
+[verb.gloss]
+base = "open"
+past = "opened"
+participle = "—"
+
+[[verb]]
+dict = "触[さわ]る"
+kind = "godan"
+match = [
+    "触|さわ",
+]
+
+[verb.gloss]
+base = "touch"
+past = "touched"
+participle = "touched"
+
+[[verb]]
+dict = "切[き]る"
+kind = "godan"
+match = [
+    "切|き",
+]
+
+[verb.gloss]
+base = "cut / switch off"
+past = "cut"
+participle = "cut"
+
+[[verb]]
+dict = "脱[ぬ]ぐ"
+kind = "godan"
+match = [
+    "脱|ぬ",
+]
+
+[verb.gloss]
+base = "take off (shoes, clothes)"
+past = "took off"
+participle = "—"
+
+[[verb]]
+dict = "借[か]りる"
+kind = "ichidan"
+match = [
+    "借|か",
+]
+
+[verb.gloss]
+base = "borrow / rent"
+past = "borrowed"
+participle = "borrowed"
+
+[[verb]]
+dict = "売[う]る"
+kind = "godan"
+match = [
+    "売|う",
+]
+
+[verb.gloss]
+base = "sell"
+past = "sold"
+participle = "sold"
+
+[[verb]]
+dict = "知[し]る"
+kind = "godan"
+match = [
+    "知|し",
+]
+
+[verb.gloss]
+base = "know / find out"
+past = "knew"
+participle = "known"
+
+[[verb]]
+dict = "守[まも]る"
+kind = "godan"
+match = [
+    "守|まも",
+]
+
+[verb.gloss]
+base = "protect / keep (rules)"
+past = "protected"
+participle = "protected"
+
+[[verb]]
+dict = "予約[よやく]する"
+kind = "suru"
+match = [
+    "予約|よやく",
+]
+
+[verb.gloss]
+base = "reserve"
+past = "reserved"
+participle = "reserved"
+
+[[verb]]
+dict = "注文[ちゅうもん]する"
+kind = "suru"
+match = [
+    "注文|ちゅうもん",
+]
+
+[verb.gloss]
+base = "order"
+past = "ordered"
+participle = "ordered"
+
+[[verb]]
+dict = "確認[かくにん]する"
+kind = "suru"
+match = [
+    "確認|かくにん",
+]
+
+[verb.gloss]
+base = "check"
+past = "checked"
+participle = "checked"
+
+[[verb]]
+dict = "交換[こうかん]する"
+kind = "suru"
+match = [
+    "交換|こうかん",
+]
+
+[verb.gloss]
+base = "exchange"
+past = "exchanged"
+participle = "exchanged"
+
+[[verb]]
+dict = "勉強[べんきょう]する"
+kind = "suru"
+match = [
+    "勉強|べんきょう",
+]
+
+[verb.gloss]
+base = "study"
+past = "studied"
+participle = "studied"
+
+[[verb]]
+dict = "失礼[しつれい]する"
+kind = "suru"
+match = [
+    "失礼|しつれい",
+]
+
+[verb.gloss]
+base = "excuse oneself / leave"
+past = "left"
+participle = "—"
+
+[[verb]]
+dict = "承知[しょうち]する"
+kind = "suru"
+match = [
+    "承知|しょうち",
+]
+
+[verb.gloss]
+base = "understand (formal)"
+past = "understood"
+participle = "—"
+
+[[verb]]
+dict = "変更[へんこう]する"
+kind = "suru"
+match = [
+    "変更|へんこう",
+]
+
+[verb.gloss]
+base = "change"
+past = "changed"
+participle = "changed"
+
+[[verb]]
+dict = "遠慮[えんりょ]する"
+kind = "suru"
+match = [
+    "遠慮|えんりょ",
+]
+
+[verb.gloss]
+base = "hold back / decline"
+past = "declined"
+participle = "—"
+
+[[verb]]
+dict = "邪魔[じゃま]する"
+kind = "suru"
+match = [
+    "邪魔|じゃま",
+]
+
+[verb.gloss]
+base = "intrude / disturb"
+past = "intruded"
+participle = "disturbed"
+
+[[verb]]
+dict = "記入[きにゅう]する"
+kind = "suru"
+match = [
+    "記入|きにゅう",
+]
+
+[verb.gloss]
+base = "fill in"
+past = "filled in"
+participle = "filled in"
+
+[[verb]]
+dict = "試食[ししょく]する"
+kind = "suru"
+match = [
+    "試食|ししょく",
+]
+
+[verb.gloss]
+base = "taste a sample"
+past = "tasted"
+participle = "tasted"
+
+[[verb]]
+dict = "味見[あじみ]する"
+kind = "suru"
+match = [
+    "味見|あじみ",
+]
+
+[verb.gloss]
+base = "taste"
+past = "tasted"
+participle = "tasted"
+
+[[verb]]
+dict = "利用[りよう]する"
+kind = "suru"
+match = [
+    "利用|りよう",
+]
+
+[verb.gloss]
+base = "use"
+past = "used"
+participle = "used"
+
+[[verb]]
+dict = "対応[たいおう]する"
+kind = "suru"
+match = [
+    "対応|たいおう",
+]
+
+[verb.gloss]
+base = "deal with / accommodate"
+past = "dealt with"
+participle = "handled"
+
+[[verb]]
+dict = "拝見[はいけん]する"
+kind = "suru"
+match = [
+    "拝見|はいけん",
+]
+
+[verb.gloss]
+base = "look at (humble)"
+past = "looked"
+participle = "—"
+
+[[verb]]
+dict = "作業[さぎょう]する"
+kind = "suru"
+match = [
+    "作業|さぎょう",
+]
+
+[verb.gloss]
+base = "work (on a task)"
+past = "worked"
+participle = "—"

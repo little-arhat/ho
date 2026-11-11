@@ -1,0 +1,6738 @@
+# Phrase book. Ported from the claude.ai artifact 'Tabi Kotoba Phrasebook'.
+# Entry order is display order. Furigana: 漢字[かんじ].
+
+[[topic]]
+id = "basics"
+jp = "基本"
+en = "Essentials"
+color = "#6c7686"
+color_dark = "#8a93a3"
+
+[[topic]]
+id = "greet"
+jp = "挨拶"
+en = "Greetings & small talk"
+color = "#0f8a8a"
+color_dark = "#3cc2c2"
+
+[[topic]]
+id = "count"
+jp = "数え方"
+en = "Numbers & counters"
+color = "#b0306a"
+color_dark = "#e8689f"
+
+[[topic]]
+id = "travel"
+jp = "移動"
+en = "Travel & directions"
+color = "#2e9b4f"
+color_dark = "#4cc06e"
+
+[[topic]]
+id = "hotel"
+jp = "宿"
+en = "Hotel & ryokan"
+color = "#8a5a33"
+color_dark = "#c48a5c"
+
+[[topic]]
+id = "food"
+jp = "食事"
+en = "Restaurants & cafés"
+color = "#d0482c"
+color_dark = "#f06a4c"
+
+[[topic]]
+id = "diet"
+jp = "食の好み"
+en = "Allergies & preferences"
+color = "#c98a12"
+color_dark = "#e8aa34"
+
+[[topic]]
+id = "shop"
+jp = "買い物"
+en = "Supermarket & konbini"
+color = "#1f78c4"
+color_dark = "#4fa0e6"
+
+[[topic]]
+id = "culture"
+jp = "文化"
+en = "Museums, shows & temples"
+color = "#4a5bd0"
+color_dark = "#8f9cf2"
+
+[[topic]]
+id = "intro"
+jp = "自己紹介"
+en = "Small talk & why Japan"
+color = "#7a4fb3"
+color_dark = "#a582db"
+
+[[topic]]
+id = "anime"
+jp = "趣味"
+en = "Anime & music"
+color = "#d23f86"
+color_dark = "#f06aa8"
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "すみません"
+en = "Excuse me / sorry"
+ru = "Извините"
+uk = "Перепрошую"
+casual = "ごめん / あの…"
+note = "The most useful word in Japan: gets attention, apologises, and thanks someone for trouble taken."
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "ありがとうございます"
+en = "Thank you"
+ru = "Спасибо"
+uk = "Дякую"
+casual = "ありがとう"
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "お願[ねが]いします"
+en = "Please (when asking for something)"
+ru = "Пожалуйста (прошу)"
+uk = "Будь ласка (прошу)"
+casual = "お願[ねが]い"
+note = "Add after a noun: お水[みず]、お願[ねが]いします = Water, please."
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "大丈夫[だいじょうぶ]です"
+en = "I'm fine / No thanks"
+ru = "Всё в порядке / Не нужно"
+uk = "Усе гаразд / Не треба"
+casual = "大丈夫[だいじょうぶ]"
+note = "Also the standard soft way to decline a bag, a spoon, etc."
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "結構[けっこう]です"
+en = "No, thank you (firm)"
+ru = "Нет, спасибо (твёрдо)"
+uk = "Ні, дякую (твердо)"
+casual = "いらない"
+note = "Firmer than 大丈夫[だいじょうぶ]です. Good for street touts."
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "はい / いいえ"
+en = "Yes / No"
+ru = "Да / Нет"
+uk = "Так / Ні"
+casual = "うん / ううん"
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "わかりました"
+en = "I understand / Got it"
+ru = "Понял(а)"
+uk = "Зрозуміло"
+casual = "わかった"
+
+[[phrase]]
+topic = "basics"
+section = "Everyday must-haves"
+kind = "say"
+ja = "わかりません"
+en = "I don't understand"
+ru = "Не понимаю"
+uk = "Не розумію"
+casual = "わかんない"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "日本語[にほんご]は少[すこ]しだけ話[はな]せます"
+en = "I speak only a little Japanese"
+ru = "Я говорю по-японски совсем немного"
+uk = "Я трохи розмовляю японською"
+casual = "日本語[にほんご]ちょっとだけ話[はな]せる"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "もう一度[いちど]お願[ねが]いします"
+en = "Once more, please"
+ru = "Повторите, пожалуйста"
+uk = "Повторіть, будь ласка"
+casual = "もう一回[いっかい]言[い]って"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "ゆっくり話[はな]していただけますか"
+en = "Could you speak slowly?"
+ru = "Не могли бы вы говорить медленнее?"
+uk = "Чи не могли б ви говорити повільніше?"
+casual = "ゆっくり話[はな]して"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "英語[えいご]でも大丈夫[だいじょうぶ]ですか"
+en = "Is English OK?"
+ru = "Можно по-английски?"
+uk = "Можна англійською?"
+casual = "英語[えいご]でもいい？"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "書[か]いていただけますか"
+en = "Could you write it down?"
+ru = "Не могли бы вы написать?"
+uk = "Чи могли б ви написати?"
+casual = "書[か]いてくれる？"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "これは日本語[にほんご]で何[なん]と言[い]いますか"
+en = "How do you say this in Japanese?"
+ru = "Как это по-японски?"
+uk = "Як це японською?"
+casual = "これ日本語[にほんご]で何[なん]て言[い]う？"
+
+[[phrase]]
+topic = "basics"
+section = "When Japanese runs out"
+kind = "say"
+ja = "これは何[なん]ですか"
+en = "What is this?"
+ru = "Что это?"
+uk = "Що це?"
+casual = "これ何[なに]？"
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "hear"
+ja = "いらっしゃいませ"
+en = "Welcome (to the shop)"
+ru = "Добро пожаловать"
+uk = "Ласкаво просимо"
+note = "No reply needed. A small nod is enough."
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "hear"
+ja = "少々[しょうしょう]お待[ま]ちください"
+en = "Please wait a moment"
+ru = "Подождите немного"
+uk = "Зачекайте трохи"
+casual = "ちょっと待[ま]って"
+answers = [
+    { ja = "はい", en = "Yes / OK", ru = "Хорошо", uk = "Добре" },
+]
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "hear"
+ja = "かしこまりました"
+en = "Certainly / Understood"
+ru = "Слушаюсь / Понятно"
+uk = "Зрозуміло / Звісно"
+casual = "わかりました"
+note = "Very polite service form of わかりました."
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "hear"
+ja = "お待[ま]たせしました"
+en = "Sorry to keep you waiting"
+ru = "Извините за ожидание"
+uk = "Вибачте, що чекали"
+casual = "お待[ま]たせ"
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "hear"
+ja = "申[もう]し訳[わけ]ございません"
+en = "We are very sorry"
+ru = "Приносим извинения"
+uk = "Перепрошуємо"
+casual = "ごめんね"
+
+[[phrase]]
+topic = "basics"
+section = "Common staff phrases"
+kind = "say"
+ja = "お手洗[てあら]いはどこですか"
+en = "Where is the toilet?"
+ru = "Где туалет?"
+uk = "Де туалет?"
+casual = "トイレどこ？"
+note = "トイレはどこですか is also fine. Signs: 男[おとこ] men, 女[おんな] women."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "おはようございます"
+en = "Good morning"
+ru = "Доброе утро"
+uk = "Доброго ранку"
+casual = "おはよう"
+note = "Until about 10–11 am. At work it's used at the start of any shift, even at night."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "こんにちは"
+en = "Hello / Good afternoon"
+ru = "Здравствуйте / Добрый день"
+uk = "Добрий день"
+note = "Daytime. Rarely said to colleagues or family; it's for neighbours, shop staff, acquaintances."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "こんばんは"
+en = "Good evening"
+ru = "Добрый вечер"
+uk = "Добрий вечір"
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "どうも"
+en = "Hi / Thanks (all-purpose)"
+ru = "Привет / Спасибо (универсально)"
+uk = "Привіт / Дякую (універсально)"
+level = "neutral"
+note = "Short and safe with acquaintances. Works as a light thank-you too."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "お疲[つか]れ様[さま]です"
+en = "Hello (to colleagues) / Thanks for your work"
+ru = "Здравствуйте (коллегам) / Спасибо за работу"
+uk = "Привіт (колегам) / Дякую за роботу"
+casual = "お疲[つか]れ！"
+level = "work"
+note = "The default greeting between people who work together, any time of day."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "お久[ひさ]しぶりです"
+en = "Long time no see"
+ru = "Давно не виделись"
+uk = "Давно не бачились"
+casual = "久[ひさ]しぶり！"
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "ご無沙汰[ぶさた]しております"
+en = "It's been far too long (very formal)"
+ru = "Давно не виделись (очень вежливо)"
+uk = "Давно не бачились (дуже ввічливо)"
+level = "formal"
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "say"
+ja = "お元気[げんき]ですか"
+en = "How are you?"
+ru = "Как дела?"
+uk = "Як справи?"
+casual = "元気[げんき]？"
+note = "Used after a long gap, not as a daily 'how are you'."
+
+[[phrase]]
+topic = "greet"
+section = "Hello · by time and formality"
+kind = "hear"
+ja = "お元気[げんき]ですか"
+en = "How are you?"
+ru = "Как дела?"
+uk = "Як справи?"
+casual = "元気[げんき]？"
+note = "おかげさまで ('thanks to you') is the polite, warm answer."
+
+[[phrase.answers]]
+ja = "はい、元気[げんき]です。〇〇さんは？"
+en = "I'm well. And you?"
+ru = "Хорошо. А у вас?"
+uk = "Добре. А у вас?"
+
+[[phrase.answers]]
+ja = "おかげさまで"
+en = "I'm well, thank you"
+ru = "Хорошо, спасибо"
+uk = "Добре, дякую"
+
+[[phrase.answers]]
+ja = "まあまあです"
+en = "So-so"
+ru = "Так себе"
+uk = "Так собі"
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "はじめまして"
+en = "Nice to meet you (first meeting)"
+ru = "Приятно познакомиться"
+uk = "Приємно познайомитися"
+casual = "はじめまして"
+note = "Always the first word when meeting someone new, at any level of formality."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "〇〇と申[もう]します。どうぞよろしくお願[ねが]いいたします"
+en = "My name is 〇〇. I'm very pleased to meet you"
+ru = "Меня зовут 〇〇. Очень рад(а) знакомству"
+uk = "Мене звати 〇〇. Дуже радий(а) знайомству"
+casual = "〇〇です。よろしく！"
+level = "formal"
+note = "The full formal self-introduction: business, a host family, a teacher. Bow while saying the second half."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "どうぞよろしくお願[ねが]いします"
+en = "Pleased to meet you / I look forward to working with you"
+ru = "Рад(а) знакомству / Надеюсь на сотрудничество"
+uk = "Радий(а) знайомству / Сподіваюся на співпрацю"
+casual = "よろしく！"
+level = "polite"
+note = "どうぞ makes it warmer and more formal. Ladder: よろしく → よろしくお願[ねが]いします → どうぞよろしくお願[ねが]いします → どうぞよろしくお願[ねが]いいたします."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "よろしくお願[ねが]いします"
+en = "Nice to meet you / Please treat me well"
+ru = "Рад(а) знакомству"
+uk = "Радий(а) знайомству"
+casual = "よろしくね"
+level = "standard"
+note = "Also said when asking a favour or starting anything together: a class, a tour, a meal."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "こちらこそ、よろしくお願[ねが]いします"
+en = "Likewise, pleased to meet you"
+ru = "Взаимно, рад(а) знакомству"
+uk = "Навзаєм, радий(а) знайомству"
+casual = "こちらこそ！"
+note = "The reply when someone says よろしく to you first."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "〇〇と呼[よ]んでください"
+en = "Please call me 〇〇"
+ru = "Зовите меня 〇〇"
+uk = "Називайте мене 〇〇"
+casual = "〇〇って呼[よ]んで"
+note = "Never add さん to your own name."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "お会[あ]いできて嬉[うれ]しいです"
+en = "I'm glad to meet you"
+ru = "Рад(а) вас видеть"
+uk = "Радий(а) вас бачити"
+casual = "会[あ]えて嬉[うれ]しい！"
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "自己紹介[じこしょうかい]させていただきます"
+en = "Allow me to introduce myself"
+ru = "Позвольте представиться"
+uk = "Дозвольте представитися"
+casual = "自己紹介[じこしょうかい]するね"
+level = "formal"
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "こちらは友人[ゆうじん]の〇〇です"
+en = "This is my friend 〇〇"
+ru = "Это мой друг (подруга) 〇〇"
+uk = "Це мій друг (подруга) 〇〇"
+casual = "友達[ともだち]の〇〇だよ"
+note = "Family: 妻[つま] wife, 夫[おっと] husband, 息子[むすこ] son, 娘[むすめ] daughter."
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "hear"
+ja = "お名前[なまえ]は何[なん]とおっしゃいますか"
+en = "May I ask your name?"
+ru = "Как вас зовут? (вежливо)"
+uk = "Як вас звати? (ввічливо)"
+casual = "名前[なまえ]なんていうの？"
+answers = [
+    { ja = "〇〇と申[もう]します", en = "My name is 〇〇", ru = "Меня зовут 〇〇", uk = "Мене звати 〇〇" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "hear"
+ja = "どうぞよろしくお願[ねが]いします"
+en = "Pleased to meet you"
+ru = "Рад(а) знакомству"
+uk = "Радий(а) знайомству"
+casual = "よろしく！"
+answers = [
+    { ja = "こちらこそ、よろしくお願[ねが]いします", en = "Likewise", ru = "Взаимно", uk = "Навзаєм" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Introductions · by formality"
+kind = "say"
+ja = "名刺[めいし]をどうぞ"
+en = "Here is my business card"
+ru = "Вот моя визитка"
+uk = "Ось моя візитівка"
+note = "Give and receive with both hands, text facing the other person."
+
+[[phrase.answers]]
+ja = "頂戴[ちょうだい]します"
+en = "(Receiving) Thank you, I'll gladly take it"
+ru = "Спасибо, с благодарностью принимаю"
+uk = "Дякую, з вдячністю приймаю"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "失礼[しつれい]します"
+en = "Excuse me (entering, passing, leaving, hanging up)"
+ru = "Извините / Позвольте (войти, пройти, уйти)"
+uk = "Перепрошую / Дозвольте (увійти, пройти, піти)"
+level = "polite"
+note = "Say it when entering a room or office, squeezing past someone, leaving, or ending a phone call."
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "失礼[しつれい]ですが、〇〇さんですか"
+en = "Excuse me, but are you 〇〇?"
+ru = "Простите, вы 〇〇?"
+uk = "Перепрошую, ви 〇〇?"
+casual = "すみません、〇〇さん？"
+level = "polite"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "恐[おそ]れ入[い]りますが…"
+en = "Excuse me, but… (very polite request opener)"
+ru = "Извините за беспокойство, но…"
+uk = "Перепрошую за турботу, але…"
+casual = "すみませんが…"
+level = "formal"
+note = "Put it in front of any request to staff or strangers."
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "お手数[てすう]をおかけしますが、お願[ねが]いします"
+en = "Sorry for the trouble, but please…"
+ru = "Простите за хлопоты, но, пожалуйста…"
+uk = "Вибачте за клопіт, але, будь ласка…"
+casual = "面倒[めんどう]かけてごめん"
+level = "formal"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "少々[しょうしょう]よろしいですか"
+en = "Do you have a moment?"
+ru = "Можно вас на минутку?"
+uk = "Можна вас на хвилинку?"
+casual = "ちょっといい？"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "お忙[いそが]しいところすみません"
+en = "Sorry to bother you when you're busy"
+ru = "Простите, что отвлекаю"
+uk = "Вибачте, що відволікаю"
+casual = "忙[いそが]しいのにごめん"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "どうぞ"
+en = "Please, go ahead / Here you are"
+ru = "Пожалуйста (проходите / возьмите)"
+uk = "Будь ласка (проходьте / візьміть)"
+casual = "どうぞ"
+note = "Offering a seat, holding a door, handing something over."
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "お先[さき]にどうぞ"
+en = "After you"
+ru = "Проходите первым(-ой)"
+uk = "Проходьте першим(-ою)"
+casual = "お先[さき]にどうぞ"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "お世話[せわ]になっております"
+en = "(Business) Thank you for your continued support"
+ru = "(Деловое) Благодарю за сотрудничество"
+uk = "(Ділове) Дякую за співпрацю"
+level = "business"
+note = "The standard opener in work emails and calls."
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "色々[いろいろ]お世話[せわ]になりました"
+en = "Thank you for everything"
+ru = "Спасибо за всё"
+uk = "Дякую за все"
+casual = "色々[いろいろ]ありがとう"
+note = "When leaving a hotel, a host, a job, or after a trip."
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "〇〇さんによろしくお伝[つた]えください"
+en = "Please give my regards to 〇〇"
+ru = "Передайте привет 〇〇"
+uk = "Передайте вітання 〇〇"
+casual = "〇〇さんによろしく"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "say"
+ja = "お待[ま]たせしてすみません"
+en = "Sorry to keep you waiting"
+ru = "Извините, что заставил(а) ждать"
+uk = "Вибачте, що змусив(ла) чекати"
+casual = "待[ま]たせてごめん"
+
+[[phrase]]
+topic = "greet"
+section = "Polite set phrases"
+kind = "tip"
+note = "Names: add さん to other people's names (田中[たなか]さん), never to your own. Family names come first in Japan. Bows go with よろしくお願[ねが]いします and 失礼[しつれい]します; a slight nod is enough for a foreign visitor."
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "失礼[しつれい]いたします"
+en = "Goodbye (very formal, leaving)"
+ru = "До свидания (очень вежливо, уходя)"
+uk = "До побачення (дуже ввічливо, йдучи)"
+level = "formal"
+note = "Leaving an office or a formal visit. Also how you end a phone call."
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "失礼[しつれい]します"
+en = "Excuse me, I'll be going"
+ru = "Позвольте откланяться"
+uk = "Дозвольте піти"
+level = "polite"
+note = "Also said when entering a room or office."
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "それでは、また"
+en = "Well then, see you"
+ru = "Ну, до встречи"
+uk = "Ну, до зустрічі"
+casual = "じゃあ、また"
+level = "standard"
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "さようなら"
+en = "Goodbye (for a long time)"
+ru = "Прощайте / До свидания"
+uk = "Прощавайте / До побачення"
+level = "standard"
+note = "Sounds final. Adults rarely use it day to day; teachers and children do."
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "またね"
+en = "See you / Bye"
+ru = "Пока / Увидимся"
+uk = "Бувай / Побачимося"
+casual = "じゃあね / バイバイ"
+level = "casual"
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "お先[さき]に失礼[しつれい]します"
+en = "Excuse me for leaving first"
+ru = "Извините, я пойду первым(-ой)"
+uk = "Вибачте, я піду першим(-ою)"
+casual = "お先[さき]に！"
+level = "work"
+note = "Leaving work or a group before others. They answer お疲[つか]れ様[さま]でした."
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "お気[き]をつけて"
+en = "Take care (on your way)"
+ru = "Берегите себя / Счастливого пути"
+uk = "Бережіть себе / Щасливої дороги"
+casual = "気[き]をつけてね"
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "おやすみなさい"
+en = "Good night"
+ru = "Спокойной ночи"
+uk = "На добраніч"
+casual = "おやすみ"
+
+[[phrase]]
+topic = "greet"
+section = "Goodbye · by formality"
+kind = "say"
+ja = "良[よ]い一日[いちにち]を"
+en = "Have a good day"
+ru = "Хорошего дня"
+uk = "Гарного дня"
+note = "Fine, but less common than in English. 良[よ]い週末[しゅうまつ]を = have a good weekend."
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "いただきます"
+en = "(Said before eating)"
+ru = "(Перед едой) Приятного аппетита"
+uk = "(Перед їжею) Смачного"
+note = "Everyone says it, alone or not. Hands together is optional."
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "ごちそうさまでした"
+en = "(Said after eating) Thank you for the meal"
+ru = "(После еды) Спасибо, было вкусно"
+uk = "(Після їжі) Дякую, було смачно"
+casual = "ごちそうさま"
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "行[い]ってきます"
+en = "I'm off (leaving home)"
+ru = "Я пошёл (пошла)"
+uk = "Я пішов (пішла)"
+casual = "行[い]ってくる"
+
+[[phrase.answers]]
+ja = "行[い]ってらっしゃい"
+en = "Have a good one"
+ru = "Удачи / Ну, иди"
+uk = "Гарного дня / Іди"
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "ただいま"
+en = "I'm home"
+ru = "Я дома"
+uk = "Я вдома"
+answers = [
+    { ja = "おかえりなさい", en = "Welcome back", ru = "С возвращением", uk = "З поверненням" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "お邪魔[じゃま]します"
+en = "Sorry to intrude (entering someone's home)"
+ru = "Извините за вторжение (входя в гости)"
+uk = "Вибачте, що турбую (заходячи в гості)"
+note = "Leaving: お邪魔[じゃま]しました."
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "おめでとうございます"
+en = "Congratulations"
+ru = "Поздравляю"
+uk = "Вітаю"
+casual = "おめでとう！"
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "お大事[だいじ]に"
+en = "Get well soon / Take care"
+ru = "Выздоравливайте"
+uk = "Одужуйте"
+note = "To someone who is ill. Also what pharmacy staff say."
+
+[[phrase]]
+topic = "greet"
+section = "Set phrases of daily life"
+kind = "say"
+ja = "頑張[がんば]ってください"
+en = "Good luck / Do your best"
+ru = "Удачи / Держись"
+uk = "Успіхів / Тримайся"
+casual = "頑張[がんば]って！"
+note = "Answer: 頑張[がんば]ります (I'll do my best)."
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "どうも"
+en = "Thanks (light)"
+ru = "Спасибо (коротко)"
+uk = "Дякую (коротко)"
+level = "light"
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "ありがとうございます"
+en = "Thank you"
+ru = "Спасибо"
+uk = "Дякую"
+casual = "ありがとう"
+level = "standard"
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "どうもありがとうございます"
+en = "Thank you very much"
+ru = "Большое спасибо"
+uk = "Щиро дякую"
+casual = "本当[ほんとう]にありがとう"
+level = "warm"
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "本当[ほんとう]にありがとうございました"
+en = "Thank you so much (for what you did)"
+ru = "Огромное спасибо (за то, что сделали)"
+uk = "Величезне дякую (за те, що зробили)"
+casual = "マジでありがとう"
+level = "deep"
+note = "Past tense ました thanks someone for something already finished."
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "恐[おそ]れ入[い]ります"
+en = "Thank you / I'm obliged (very formal)"
+ru = "Премного благодарен (очень вежливо)"
+uk = "Красно дякую (дуже ввічливо)"
+level = "formal"
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "hear"
+ja = "どういたしまして"
+en = "You're welcome"
+ru = "Пожалуйста / Не за что"
+uk = "Будь ласка / Нема за що"
+casual = "いえいえ"
+note = "In practice people mostly say いえいえ or とんでもないです."
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "ごめんなさい"
+en = "I'm sorry"
+ru = "Простите"
+uk = "Вибачте"
+casual = "ごめん"
+level = "personal"
+note = "For personal apologies. To strangers and staff すみません is more natural."
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "失礼[しつれい]しました"
+en = "Pardon me / My mistake"
+ru = "Прошу прощения"
+uk = "Перепрошую"
+level = "polite"
+note = "Bumping into someone, wrong number, small slips."
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "say"
+ja = "申[もう]し訳[わけ]ありません"
+en = "I sincerely apologise"
+ru = "Приношу свои извинения"
+uk = "Щиро перепрошую"
+level = "formal"
+
+[[phrase]]
+topic = "greet"
+section = "Thanks & apologies · light to deep"
+kind = "hear"
+ja = "いえいえ、大丈夫[だいじょうぶ]ですよ"
+en = "No, no, it's fine"
+ru = "Ничего страшного"
+uk = "Нічого страшного"
+casual = "大丈夫[だいじょうぶ]だよ"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "はい、お願[ねが]いします"
+en = "Yes, please"
+ru = "Да, пожалуйста"
+uk = "Так, будь ласка"
+casual = "うん、お願[ねが]い"
+level = "standard"
+note = "The default 'yes' to any offer: a bag, heating, help, a refill."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "はい、ありがとうございます"
+en = "Yes, thank you"
+ru = "Да, спасибо"
+uk = "Так, дякую"
+casual = "うん、ありがとう"
+level = "standard"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "ぜひお願[ねが]いします"
+en = "Yes, I'd love that"
+ru = "С удовольствием"
+uk = "Із задоволенням"
+casual = "ぜひ！"
+level = "warm"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "じゃあ、お言葉[ことば]に甘[あま]えて"
+en = "Well then, if you insist. Thank you"
+ru = "Ну, раз вы настаиваете, спасибо"
+uk = "Ну, якщо ви наполягаєте, дякую"
+casual = "じゃあ、遠慮[えんりょ]なく"
+level = "polite"
+note = "Accepting kindness after a first polite refusal."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "いいえ、大丈夫[だいじょうぶ]です。ありがとうございます"
+en = "No, thank you, I'm fine"
+ru = "Нет, спасибо, не нужно"
+uk = "Ні, дякую, не треба"
+casual = "ううん、大丈夫[だいじょうぶ]、ありがとう"
+level = "standard"
+note = "The most useful polite 'no'. A small wave of the hand in front of your face says the same thing."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "今[いま]は大丈夫[だいじょうぶ]です"
+en = "I'm fine for now"
+ru = "Пока не нужно"
+uk = "Поки не треба"
+casual = "今[いま]はいいや"
+level = "soft"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "もう十分[じゅうぶん]です。ありがとうございます"
+en = "I've had plenty, thank you"
+ru = "Мне уже достаточно, спасибо"
+uk = "Мені вже досить, дякую"
+casual = "もう十分[じゅうぶん]"
+level = "standard"
+note = "Refusing more food or drink."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "いえいえ、そんな"
+en = "Oh no, I couldn't"
+ru = "Что вы, не стоит"
+uk = "Та що ви, не варто"
+casual = "いいよいいよ"
+level = "modest"
+note = "Ritual first refusal. People often decline once; if the offer is repeated, it's fine to accept."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "お気持[きも]ちだけいただきます"
+en = "Thank you, the thought is enough"
+ru = "Спасибо, мне достаточно вашего внимания"
+uk = "Дякую, мені досить вашої уваги"
+casual = "気持[きも]ちだけで嬉[うれ]しい"
+level = "formal"
+note = "Gracefully declining a gift or a favour."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "自分[じぶん]でやります"
+en = "I'll do it myself"
+ru = "Я сам(а)"
+uk = "Я сам(а)"
+casual = "自分[じぶん]でやるよ"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "say"
+ja = "見[み]ているだけです"
+en = "I'm just looking"
+ru = "Я просто смотрю"
+uk = "Я просто дивлюся"
+casual = "見[み]てるだけ"
+note = "In shops."
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "hear"
+ja = "よろしければ、どうぞ"
+en = "Please, help yourself / if you'd like"
+ru = "Пожалуйста, угощайтесь"
+uk = "Будь ласка, пригощайтеся"
+casual = "よかったらどうぞ"
+
+[[phrase.answers]]
+ja = "ありがとうございます、いただきます"
+en = "Thank you, I'll have some"
+ru = "Спасибо, с удовольствием"
+uk = "Дякую, із задоволенням"
+
+[[phrase.answers]]
+ja = "いえ、大丈夫[だいじょうぶ]です。ありがとうございます"
+en = "No, I'm fine, thank you"
+ru = "Нет, спасибо"
+uk = "Ні, дякую"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "hear"
+ja = "お手伝[てつだ]いしましょうか"
+en = "Shall I help you?"
+ru = "Вам помочь?"
+uk = "Вам допомогти?"
+casual = "手伝[てつだ]おうか？"
+
+[[phrase.answers]]
+ja = "ありがとうございます、助[たす]かります"
+en = "Thank you, that helps"
+ru = "Спасибо, очень выручите"
+uk = "Дякую, дуже допоможете"
+
+[[phrase.answers]]
+ja = "大丈夫[だいじょうぶ]です、ありがとうございます"
+en = "I'm OK, thank you"
+ru = "Справлюсь, спасибо"
+uk = "Впораюся, дякую"
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "hear"
+ja = "何[なに]かお探[さが]しですか"
+en = "Are you looking for something?"
+ru = "Вы что-то ищете?"
+uk = "Ви щось шукаєте?"
+casual = "何[なに]か探[さが]してる？"
+answers = [
+    { ja = "見[み]ているだけです", en = "Just looking", ru = "Просто смотрю", uk = "Просто дивлюся" },
+    { ja = "〇〇を探[さが]しています", en = "I'm looking for 〇〇", ru = "Я ищу 〇〇", uk = "Я шукаю 〇〇" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "hear"
+ja = "遠慮[えんりょ]しないでください"
+en = "Don't be shy, go ahead"
+ru = "Не стесняйтесь"
+uk = "Не соромтеся"
+casual = "遠慮[えんりょ]しないで"
+answers = [
+    { ja = "じゃあ、いただきます", en = "Then I'll have some", ru = "Тогда возьму", uk = "Тоді візьму" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "hear"
+ja = "もう一杯[いっぱい]いかがですか"
+en = "Another one?"
+ru = "Ещё одну?"
+uk = "Ще одну?"
+casual = "もう一杯[いっぱい]どう？"
+answers = [
+    { ja = "いただきます", en = "Yes, please", ru = "Да, с удовольствием", uk = "Так, із задоволенням" },
+    { ja = "もう十分[じゅうぶん]です", en = "I've had enough", ru = "Мне хватит", uk = "Мені досить" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Yes please · No thanks (answering offers)"
+kind = "tip"
+note = "Saying いいえ alone sounds blunt. Soften a no with 大丈夫[だいじょうぶ]です and a thank-you, or just 'ちょっと…'. A hand waved side to side in front of the face is the everyday 'no thanks' gesture."
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "はい、そうです"
+en = "Yes, that's right"
+ru = "Да, верно"
+uk = "Так, правильно"
+casual = "うん、そう"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "そうですね"
+en = "That's true / Right…"
+ru = "Да, правда / Ну…"
+uk = "Так, справді / Ну…"
+casual = "そうだね"
+note = "Also a thinking-aloud filler while you look for words."
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "なるほど"
+en = "I see / That makes sense"
+ru = "Понятно / Вот оно что"
+uk = "Зрозуміло / Ось воно що"
+casual = "なるほどね"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "もちろんです"
+en = "Of course"
+ru = "Конечно"
+uk = "Звісно"
+casual = "もちろん！"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "いいですよ"
+en = "Sure, that's fine"
+ru = "Хорошо, давайте"
+uk = "Добре, давайте"
+casual = "いいよ"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "承知[しょうち]しました"
+en = "Understood"
+ru = "Понял(а), принято"
+uk = "Зрозумів(ла), прийнято"
+casual = "了解[りょうかい]！"
+level = "formal"
+note = "了解[りょうかい]です is common among friends and colleagues, but avoid it with superiors and customers."
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "確[たし]かに"
+en = "Indeed / Good point"
+ru = "И правда"
+uk = "І справді"
+casual = "確[たし]かに"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "本当[ほんとう]ですか"
+en = "Really?"
+ru = "Правда?"
+uk = "Справді?"
+casual = "本当[ほんとう]？ / マジ？"
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "〇〇ということですか"
+en = "You mean 〇〇?"
+ru = "То есть 〇〇?"
+uk = "Тобто 〇〇?"
+casual = "〇〇ってこと？"
+note = "Use it to check you understood."
+
+[[phrase]]
+topic = "greet"
+section = "Agreeing & confirming"
+kind = "say"
+ja = "これで合[あ]っていますか"
+en = "Is this right?"
+ru = "Так правильно?"
+uk = "Так правильно?"
+casual = "これで合[あ]ってる？"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "ちょっと…"
+en = "That's a bit… (soft no)"
+ru = "Ну, это немного… (мягкий отказ)"
+uk = "Ну, це трохи… (м'яка відмова)"
+casual = "ちょっと…"
+level = "softest"
+note = "Trail off and hesitate. Everyone understands it as no."
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "今日[きょう]はちょっと都合[つごう]が悪[わる]くて…"
+en = "Today doesn't really work for me…"
+ru = "Сегодня мне не очень удобно…"
+uk = "Сьогодні мені не дуже зручно…"
+casual = "今日[きょう]はちょっと無理[むり]かも"
+level = "soft"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "また今度[こんど]お願[ねが]いします"
+en = "Maybe next time"
+ru = "Давайте в другой раз"
+uk = "Давайте наступного разу"
+casual = "また今度[こんど]ね"
+level = "soft"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "考[かんが]えておきます"
+en = "I'll think about it"
+ru = "Я подумаю"
+uk = "Я подумаю"
+casual = "考[かんが]えとく"
+level = "soft"
+note = "Often a polite no."
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "せっかくですが、今回[こんかい]は遠慮[えんりょ]しておきます"
+en = "Kind of you, but I'll pass this time"
+ru = "Спасибо, но в этот раз я откажусь"
+uk = "Дякую, але цього разу відмовлюся"
+casual = "今回[こんかい]はやめとく"
+level = "polite"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "大丈夫[だいじょうぶ]です"
+en = "No thanks (I'm fine)"
+ru = "Не нужно, спасибо"
+uk = "Не треба, дякую"
+casual = "大丈夫[だいじょうぶ]"
+level = "standard"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "結構[けっこう]です"
+en = "No, thank you (firm)"
+ru = "Нет, спасибо (твёрдо)"
+uk = "Ні, дякую (твердо)"
+casual = "いらない"
+level = "firm"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "いいえ、違[ちが]います"
+en = "No, that's not right"
+ru = "Нет, это не так"
+uk = "Ні, це не так"
+casual = "ううん、違[ちが]う"
+level = "direct"
+
+[[phrase]]
+topic = "greet"
+section = "Declining · soft to firm"
+kind = "say"
+ja = "それはできません"
+en = "I can't do that"
+ru = "Я не могу этого сделать"
+uk = "Я не можу цього зробити"
+casual = "それは無理[むり]"
+level = "firm"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "いい天気[てんき]ですね"
+en = "Nice weather, isn't it?"
+ru = "Хорошая погода, правда?"
+uk = "Гарна погода, правда?"
+casual = "いい天気[てんき]だね"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "今日[きょう]は暑[あつ]いですね"
+en = "It's hot today, isn't it?"
+ru = "Сегодня жарко, да?"
+uk = "Сьогодні спекотно, так?"
+casual = "暑[あつ]いね"
+note = "Cold = 寒[さむ]い. Humid = 蒸[む]し暑[あつ]い."
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "雨[あめ]が降[ふ]りそうですね"
+en = "Looks like rain"
+ru = "Похоже, будет дождь"
+uk = "Схоже, буде дощ"
+casual = "雨[あめ]降[ふ]りそうだね"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "最近[さいきん]どうですか"
+en = "How have things been lately?"
+ru = "Как в последнее время?"
+uk = "Як останнім часом?"
+casual = "最近[さいきん]どう？"
+answers = [
+    { ja = "忙[いそが]しいです", en = "Busy", ru = "Много дел", uk = "Багато справ" },
+    { ja = "相変[あいか]わらずです", en = "Same as ever", ru = "Всё по-старому", uk = "Усе по-старому" },
+]
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "hear"
+ja = "週末[しゅうまつ]は何[なに]をしましたか"
+en = "What did you do at the weekend?"
+ru = "Что делали на выходных?"
+uk = "Що робили на вихідних?"
+casual = "週末[しゅうまつ]何[なに]した？"
+
+[[phrase.answers]]
+ja = "家[いえ]でゆっくりしました"
+en = "I relaxed at home"
+ru = "Отдыхал(а) дома"
+uk = "Відпочивав(ла) вдома"
+
+[[phrase.answers]]
+ja = "鎌倉[かまくら]に行[い]きました"
+en = "I went to Kamakura"
+ru = "Ездил(а) в Камакуру"
+uk = "Їздив(ла) до Камакури"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "hear"
+ja = "お休[やす]みはどうでしたか"
+en = "How was your holiday?"
+ru = "Как отдохнули?"
+uk = "Як відпочили?"
+casual = "休[やす]みどうだった？"
+
+[[phrase.answers]]
+ja = "楽[たの]しかったです"
+en = "It was fun"
+ru = "Было весело"
+uk = "Було весело"
+
+[[phrase.answers]]
+ja = "あっという間[ま]でした"
+en = "It flew by"
+ru = "Пролетело мгновенно"
+uk = "Пролетіло миттєво"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "この辺[へん]にお住[す]まいですか"
+en = "Do you live around here?"
+ru = "Вы живёте поблизости?"
+uk = "Ви живете поблизу?"
+casual = "この辺[へん]に住[す]んでるの？"
+
+[[phrase]]
+topic = "greet"
+section = "Everyday small talk"
+kind = "say"
+ja = "おすすめはありますか"
+en = "Anything you'd recommend?"
+ru = "Что посоветуете?"
+uk = "Що порадите?"
+casual = "おすすめある？"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "えっ！"
+en = "Huh?! / What?!"
+ru = "А?! / Что?!"
+uk = "Га?! / Що?!"
+casual = "えっ！"
+note = "Surprise or 'did I hear that right?'"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "へえ"
+en = "Oh, really? / Interesting"
+ru = "Надо же / Ого"
+uk = "Ого / Ну треба ж"
+casual = "へえー"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "そうなんですか"
+en = "Is that so? / Oh, I see"
+ru = "Вот как?"
+uk = "Он як?"
+casual = "そうなんだ"
+note = "The most useful listening response. Use it a lot."
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "はい / ええ"
+en = "Yes / Mm-hm (I'm listening)"
+ru = "Да / Угу (слушаю)"
+uk = "Так / Угу (слухаю)"
+casual = "うん"
+note = "Aizuchi: Japanese listeners nod and say this every few seconds. Silence can seem like you're not following."
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "すごいですね"
+en = "Amazing / Impressive"
+ru = "Здорово / Впечатляет"
+uk = "Чудово / Вражає"
+casual = "すごい！"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "よかったですね"
+en = "That's great (for you) / What a relief"
+ru = "Как хорошо / Слава богу"
+uk = "Як добре / Слава богу"
+casual = "よかった！"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "残念[ざんねん]ですね"
+en = "That's a shame"
+ru = "Жаль"
+uk = "Шкода"
+casual = "残念[ざんねん]！"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "大変[たいへん]ですね"
+en = "That sounds tough"
+ru = "Тяжело вам"
+uk = "Важко вам"
+casual = "大変[たいへん]だね"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "やばい！"
+en = "Whoa! / Awesome! / Uh-oh"
+ru = "Ого! / Круто! / Ой-ой"
+uk = "Ого! / Круто! / Ой-ой"
+level = "slang"
+note = "Casual only. Means 'extreme', good or bad, depending on tone."
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "うそ！ / マジで？"
+en = "No way! / Seriously?"
+ru = "Да ладно! / Серьёзно?"
+uk = "Та ну! / Серйозно?"
+level = "slang"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "いいですね"
+en = "Sounds good / Nice"
+ru = "Здорово / Отлично"
+uk = "Класно / Чудово"
+casual = "いいね！"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "えーと… / あのー…"
+en = "Um… / Well…"
+ru = "Эээ… / Ну…"
+uk = "Еее… / Ну…"
+casual = "えっと…"
+note = "Fillers while you think. Much better than silence."
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "あ、そうだ"
+en = "Oh, right! (I just remembered)"
+ru = "А, точно! (вспомнил)"
+uk = "А, точно! (згадав)"
+casual = "あ、そうだ"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "まあまあです"
+en = "So-so"
+ru = "Так себе"
+uk = "Так собі"
+casual = "まあまあ"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "あれ？"
+en = "Huh? That's odd"
+ru = "Хм? Странно"
+uk = "Хм? Дивно"
+casual = "あれ？"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "よいしょ"
+en = "(Effort noise when lifting or standing up)"
+ru = "(Кряхтение, когда поднимаешь что-то)"
+uk = "(Кректання, коли піднімаєш щось)"
+casual = "よいしょ"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "say"
+ja = "いってえ！ / いたっ！"
+en = "Ouch!"
+ru = "Ой! Больно!"
+uk = "Ой! Боляче!"
+casual = "痛[いた]い！"
+level = "casual"
+
+[[phrase]]
+topic = "greet"
+section = "Interjections & listening noises"
+kind = "tip"
+note = "Bowing: a small nod for thanks and greetings, deeper and longer for apologies. You don't need to match a deep bow from shop staff."
+
+[[phrase]]
+topic = "count"
+section = "Numbers"
+kind = "say"
+ja = "一[いち] · 二[に] · 三[さん] · 四[よん] · 五[ご] · 六[ろく] · 七[なな] · 八[はち] · 九[きゅう] · 十[じゅう]"
+en = "1–10"
+ru = "1–10"
+uk = "1–10"
+note = "四[よん] is also し and 七[なな] also しち, but よん and なな are safer when speaking. 九[きゅう] is sometimes く."
+
+[[phrase.examples]]
+ja = "十一[じゅういち] · 二十[にじゅう] · 三十五[さんじゅうご]"
+en = "11 · 20 · 35"
+ru = "11 · 20 · 35"
+uk = "11 · 20 · 35"
+
+[[phrase]]
+topic = "count"
+section = "Numbers"
+kind = "say"
+ja = "百[ひゃく] · 千[せん] · 万[まん]"
+en = "100 · 1,000 · 10,000"
+ru = "100 · 1000 · 10 000"
+uk = "100 · 1000 · 10 000"
+note = "Japanese groups by 10,000 (万[まん]), not 1,000. 50,000 = 五万[ごまん]; 1,000,000 = 百万[ひゃくまん]."
+
+[[phrase.examples]]
+ja = "三百[さんびゃく] · 六百[ろっぴゃく] · 八百[はっぴゃく]"
+en = "300 · 600 · 800 (sound changes)"
+ru = "300 · 600 · 800 (меняется звук)"
+uk = "300 · 600 · 800 (змінюється звук)"
+
+[[phrase.examples]]
+ja = "三千[さんぜん] · 八千[はっせん]"
+en = "3,000 · 8,000"
+ru = "3000 · 8000"
+uk = "3000 · 8000"
+
+[[phrase]]
+topic = "count"
+section = "Numbers"
+kind = "say"
+ja = "百円[ひゃくえん] · 千円[せんえん] · 一万円[いちまんえん]"
+en = "100 yen · 1,000 yen · 10,000 yen"
+ru = "100 иен · 1000 иен · 10 000 иен"
+uk = "100 єн · 1000 єн · 10 000 єн"
+
+[[phrase.examples]]
+ja = "2,980円[えん]です"
+en = "That's 2,980 yen (にせんきゅうひゃくはちじゅう えん)"
+ru = "2980 иен"
+uk = "2980 єн"
+
+[[phrase.examples]]
+ja = "一万円[いちまんえん]でお願[ねが]いします"
+en = "Here's a 10,000 yen note"
+ru = "Вот, с десяти тысяч"
+uk = "Ось, з десяти тисяч"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一[ひと]つ · 二[ふた]つ · 三[みっ]つ · 四[よっ]つ · 五[いつ]つ"
+en = "General counter: 1, 2, 3, 4, 5 (things)"
+ru = "Общий счёт предметов: 1, 2, 3, 4, 5"
+uk = "Загальний лік предметів: 1, 2, 3, 4, 5"
+note = "6–10: 六[むっ]つ, 七[なな]つ, 八[やっ]つ, 九[ここの]つ, 十[とお]. How many? = いくつ. When unsure which counter to use, this one plus pointing always works (up to 10)."
+
+[[phrase.examples]]
+ja = "これを三[みっ]つください"
+en = "Three of these, please"
+ru = "Три таких, пожалуйста"
+uk = "Три таких, будь ласка"
+
+[[phrase.examples]]
+ja = "いくつですか"
+en = "How many?"
+ru = "Сколько?"
+uk = "Скільки?"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一杯[いっぱい] · 二杯[にはい] · 三杯[さんばい]"
+en = "Cups, glasses, bowls (杯)"
+ru = "Чашки, бокалы, миски (杯)"
+uk = "Чашки, келихи, миски (杯)"
+note = "四杯[よんはい], 五杯[ごはい], 六杯[ろっぱい], 十杯[じゅっぱい]. How many = 何杯[なんばい]. いっぱい also means 'full' (お腹[なか]いっぱい)."
+
+[[phrase.examples]]
+ja = "ビールをもう一杯[いっぱい]お願[ねが]いします"
+en = "One more beer, please"
+ru = "Ещё одно пиво, пожалуйста"
+uk = "Ще одне пиво, будь ласка"
+
+[[phrase.examples]]
+ja = "ご飯[はん]を二杯[にはい]食[た]べました"
+en = "I ate two bowls of rice"
+ru = "Я съел(а) две миски риса"
+uk = "Я з'їв(ла) дві миски рису"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一本[いっぽん] · 二本[にほん] · 三本[さんぼん]"
+en = "Long thin things: bottles, skewers, umbrellas, trains (本)"
+ru = "Длинные предметы: бутылки, шпажки, зонты, поезда (本)"
+uk = "Довгі предмети: пляшки, шпажки, парасолі, потяги (本)"
+note = "四本[よんほん], 五本[ごほん], 六本[ろっぽん], 八本[はっぽん], 十本[じゅっぽん]. How many = 何本[なんぼん]."
+
+[[phrase.examples]]
+ja = "瓶[びん]ビールを二本[にほん]ください"
+en = "Two bottles of beer, please"
+ru = "Две бутылки пива, пожалуйста"
+uk = "Дві пляшки пива, будь ласка"
+
+[[phrase.examples]]
+ja = "焼[や]き鳥[とり]を三本[さんぼん]お願[ねが]いします"
+en = "Three yakitori skewers, please"
+ru = "Три шпажки якитори"
+uk = "Три шпажки якіторі"
+
+[[phrase.examples]]
+ja = "次[つぎ]の一本[いっぽん]を待[ま]ちます"
+en = "I'll wait for the next train"
+ru = "Подожду следующий поезд"
+uk = "Почекаю наступний потяг"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一個[いっこ] · 二個[にこ] · 三個[さんこ]"
+en = "Small objects, pieces (個)"
+ru = "Небольшие предметы, штуки (個)"
+uk = "Невеликі предмети, штуки (個)"
+note = "六個[ろっこ], 八個[はっこ], 十個[じゅっこ]. How many = 何個[なんこ]. Often used instead of つ for food pieces."
+
+[[phrase.examples]]
+ja = "唐揚[からあ]げを五個[ごこ]ください"
+en = "Five pieces of karaage, please"
+ru = "Пять кусочков караагэ"
+uk = "П'ять шматочків караге"
+
+[[phrase.examples]]
+ja = "お一人様[ひとりさま]二個[にこ]までです"
+en = "Limit two per person"
+ru = "Не больше двух на человека"
+uk = "Не більше двох на людину"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一人前[いちにんまえ] · 二人前[ににんまえ]"
+en = "Portions, servings (人前)"
+ru = "Порции (人前)"
+uk = "Порції (人前)"
+note = "How many = 何人前[なんにんまえ]."
+
+[[phrase.examples]]
+ja = "ギョーザを二人前[ににんまえ]ください"
+en = "Two portions of gyoza, please"
+ru = "Две порции гёдза"
+uk = "Дві порції ґьодза"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一枚[いちまい] · 二枚[にまい] · 三枚[さんまい]"
+en = "Flat things: tickets, plates, paper, shirts, towels (枚)"
+ru = "Плоское: билеты, тарелки, бумага, рубашки (枚)"
+uk = "Пласке: квитки, тарілки, папір, сорочки (枚)"
+note = "Regular all the way: 四枚[よんまい], 五枚[ごまい]. How many = 何枚[なんまい]."
+
+[[phrase.examples]]
+ja = "大人[おとな]二枚[にまい]お願[ねが]いします"
+en = "Two adult tickets, please"
+ru = "Два взрослых билета"
+uk = "Два дорослі квитки"
+
+[[phrase.examples]]
+ja = "タオルをもう一枚[いちまい]ください"
+en = "One more towel, please"
+ru = "Ещё одно полотенце"
+uk = "Ще один рушник"
+
+[[phrase]]
+topic = "count"
+section = "Things & food"
+kind = "say"
+ja = "一膳[いちぜん] · 二膳[にぜん]"
+en = "Pairs of chopsticks (膳)"
+ru = "Пары палочек (膳)"
+uk = "Пари паличок (膳)"
+
+[[phrase.examples]]
+ja = "お箸[はし]を三膳[さんぜん]お願[ねが]いします"
+en = "Three pairs of chopsticks, please"
+ru = "Три пары палочек"
+uk = "Три пари паличок"
+
+[[phrase]]
+topic = "count"
+section = "People, age & animals"
+kind = "say"
+ja = "一人[ひとり] · 二人[ふたり] · 三人[さんにん] · 四人[よにん]"
+en = "People (人)"
+ru = "Люди (人)"
+uk = "Люди (人)"
+note = "From three on it's regular: 五人[ごにん], 六人[ろくにん]. How many = 何人[なんにん]; in shops staff say 何名様[なんめいさま]."
+
+[[phrase.examples]]
+ja = "四人[よにん]です"
+en = "There are four of us"
+ru = "Нас четверо"
+uk = "Нас четверо"
+
+[[phrase.examples]]
+ja = "大人[おとな]二人[ふたり]と子供[こども]一人[ひとり]です"
+en = "Two adults and one child"
+ru = "Двое взрослых и один ребёнок"
+uk = "Двоє дорослих і одна дитина"
+
+[[phrase]]
+topic = "count"
+section = "People, age & animals"
+kind = "say"
+ja = "一歳[いっさい] · 三歳[さんさい] · 八歳[はっさい] · 二十歳[はたち]"
+en = "Age (歳)"
+ru = "Возраст (歳)"
+uk = "Вік (歳)"
+note = "十歳[じゅっさい]. How old = 何歳[なんさい], politer: おいくつ. 20 is a special word: はたち."
+
+[[phrase.examples]]
+ja = "子供[こども]は五歳[ごさい]と八歳[はっさい]です"
+en = "My children are 5 and 8"
+ru = "Детям 5 и 8 лет"
+uk = "Дітям 5 і 8 років"
+
+[[phrase]]
+topic = "count"
+section = "People, age & animals"
+kind = "hear"
+ja = "お子[こ]さんはおいくつですか"
+en = "How old is your child?"
+ru = "Сколько лет ребёнку?"
+uk = "Скільки років дитині?"
+casual = "何歳[なんさい]？"
+
+[[phrase.answers]]
+ja = "六歳[ろくさい]です"
+en = "Six"
+ru = "Шесть"
+uk = "Шість"
+
+[[phrase.answers]]
+ja = "来月[らいげつ]で三歳[さんさい]になります"
+en = "Turning three next month"
+ru = "В следующем месяце будет три"
+uk = "Наступного місяця буде три"
+
+[[phrase]]
+topic = "count"
+section = "People, age & animals"
+kind = "say"
+ja = "一匹[いっぴき] · 二匹[にひき] · 三匹[さんびき]"
+en = "Small animals, fish (匹)"
+ru = "Небольшие животные, рыбы (匹)"
+uk = "Невеликі тварини, риби (匹)"
+note = "六匹[ろっぴき], 十匹[じゅっぴき]. How many = 何匹[なんびき]."
+
+[[phrase.examples]]
+ja = "猫[ねこ]を二匹[にひき]飼[か]っています"
+en = "I have two cats"
+ru = "У меня две кошки"
+uk = "У мене дві кішки"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一時[いちじ] · 四時[よじ] · 七時[しちじ] · 九時[くじ]"
+en = "Clock time (時)"
+ru = "Время на часах (時)"
+uk = "Час на годиннику (時)"
+note = "Half past = 半[はん]: 三時半[さんじはん]. Morning 午前[ごぜん], afternoon 午後[ごご]. What time = 何時[なんじ]."
+
+[[phrase.examples]]
+ja = "七時半[しちじはん]に予約[よやく]しています"
+en = "I have a booking at 7:30"
+ru = "У меня бронь на 7:30"
+uk = "У мене бронювання на 7:30"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一分[いっぷん] · 二分[にふん] · 三分[さんぷん] · 五分[ごふん] · 十分[じゅっぷん]"
+en = "Minutes (分)"
+ru = "Минуты (分)"
+uk = "Хвилини (分)"
+note = "The ending alternates ふん / ぷん: 四分[よんぷん], 六分[ろっぷん], 八分[はっぷん]. How many = 何分[なんぷん]."
+
+[[phrase.examples]]
+ja = "駅[えき]まで歩[ある]いて十分[じゅっぷん]です"
+en = "10 minutes' walk to the station"
+ru = "До станции 10 минут пешком"
+uk = "До станції 10 хвилин пішки"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一時間[いちじかん] · 二時間[にじかん] · 一時間半[いちじかんはん]"
+en = "Hours (duration, 時間)"
+ru = "Часы (продолжительность, 時間)"
+uk = "Години (тривалість, 時間)"
+
+[[phrase.examples]]
+ja = "どのくらいかかりますか"
+en = "How long does it take?"
+ru = "Сколько времени занимает?"
+uk = "Скільки часу займає?"
+
+[[phrase.examples]]
+ja = "二時間[にじかん]くらいです"
+en = "About two hours"
+ru = "Около двух часов"
+uk = "Близько двох годин"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一泊[いっぱく] · 二泊[にはく] · 三泊[さんぱく]"
+en = "Nights of a stay (泊)"
+ru = "Ночи проживания (泊)"
+uk = "Ночі проживання (泊)"
+note = "四泊[よんはく], 五泊[ごはく]. How many = 何泊[なんぱく]. A two-night stay = 二泊三日[にはくみっか]."
+
+[[phrase.examples]]
+ja = "二泊[にはく]でお願[ねが]いします"
+en = "Two nights, please"
+ru = "На две ночи"
+uk = "На дві ночі"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "hear"
+ja = "何泊[なんぱく]のご予定[よてい]ですか"
+en = "How many nights will you stay?"
+ru = "На сколько ночей?"
+uk = "На скільки ночей?"
+casual = "何泊[なんぱく]？"
+answers = [
+    { ja = "三泊[さんぱく]です", en = "Three nights", ru = "Три ночи", uk = "Три ночі" },
+    { ja = "一泊[いっぱく]だけです", en = "Just one night", ru = "Только одну ночь", uk = "Тільки одну ніч" },
+]
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一日[ついたち] · 二日[ふつか] · 三日[みっか] · 四日[よっか] · 五日[いつか]"
+en = "Dates: 1st–5th of the month (日)"
+ru = "Даты: 1–5 число (日)"
+uk = "Дати: 1–5 число (日)"
+note = "Also 八日[ようか] 8th, 十日[とおか] 10th, 二十日[はつか] 20th. Most others are regular: 十五日[じゅうごにち]. Duration 'one day' is 一日[いちにち]."
+
+[[phrase.examples]]
+ja = "十二月[じゅうにがつ]三日[みっか]に予約[よやく]したいです"
+en = "I'd like to book for 3 December"
+ru = "Хочу забронировать на 3 декабря"
+uk = "Хочу забронювати на 3 грудня"
+
+[[phrase]]
+topic = "count"
+section = "Time, dates & stays"
+kind = "say"
+ja = "一週間[いっしゅうかん] · 一[いっ]か月[げつ] · 一年[いちねん]"
+en = "A week · a month · a year"
+ru = "Неделя · месяц · год"
+uk = "Тиждень · місяць · рік"
+
+[[phrase.examples]]
+ja = "日本[にほん]に二週間[にしゅうかん]います"
+en = "I'm in Japan for two weeks"
+ru = "Я в Японии на две недели"
+uk = "Я в Японії на два тижні"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "say"
+ja = "一階[いっかい] · 二階[にかい] · 三階[さんがい]"
+en = "Floors (階)"
+ru = "Этажи (階)"
+uk = "Поверхи (階)"
+note = "Basement = 地下[ちか]: 地下一階[ちかいっかい] (B1). Which floor = 何階[なんがい]."
+
+[[phrase.examples]]
+ja = "トイレは何階[なんがい]ですか"
+en = "Which floor is the toilet on?"
+ru = "На каком этаже туалет?"
+uk = "На якому поверсі туалет?"
+
+[[phrase.examples]]
+ja = "三階[さんがい]です"
+en = "The 3rd floor"
+ru = "На третьем"
+uk = "На третьому"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "say"
+ja = "一回[いっかい] · 二回[にかい] · 三回目[さんかいめ]"
+en = "Times, occurrences (回)"
+ru = "Разы (回)"
+uk = "Рази (回)"
+note = "〜目[め] makes it ordinal: 二回目[にかいめ] = second time. How many times = 何回[なんかい]."
+
+[[phrase.examples]]
+ja = "日本[にほん]は三回目[さんかいめ]です"
+en = "It's my third time in Japan"
+ru = "Я в Японии в третий раз"
+uk = "Я в Японії втретє"
+
+[[phrase.examples]]
+ja = "もう一回[いっかい]お願[ねが]いします"
+en = "Once more, please"
+ru = "Ещё раз, пожалуйста"
+uk = "Ще раз, будь ласка"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "say"
+ja = "一台[いちだい] · 二台[にだい]"
+en = "Vehicles and machines (台)"
+ru = "Машины и техника (台)"
+uk = "Машини й техніка (台)"
+
+[[phrase.examples]]
+ja = "タクシーを二台[にだい]お願[ねが]いします"
+en = "Two taxis, please"
+ru = "Два такси, пожалуйста"
+uk = "Два таксі, будь ласка"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "say"
+ja = "一冊[いっさつ] · 二冊[にさつ]"
+en = "Books, magazines (冊)"
+ru = "Книги, журналы (冊)"
+uk = "Книги, журнали (冊)"
+
+[[phrase.examples]]
+ja = "この漫画[まんが]を全巻[ぜんかん]ください"
+en = "All volumes of this manga, please"
+ru = "Все тома этой манги, пожалуйста"
+uk = "Усі томи цієї манги, будь ласка"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "hear"
+ja = "おいくつですか"
+en = "How many? (or: how old?)"
+ru = "Сколько? (или: сколько лет?)"
+uk = "Скільки? (або: скільки років?)"
+casual = "いくつ？"
+
+[[phrase.answers]]
+ja = "二[ふた]つです"
+en = "Two"
+ru = "Две штуки"
+uk = "Дві штуки"
+
+[[phrase.answers]]
+ja = "一[ひと]つで大丈夫[だいじょうぶ]です"
+en = "Just one is fine"
+ru = "Одной достаточно"
+uk = "Однієї досить"
+
+[[phrase]]
+topic = "count"
+section = "Places & times"
+kind = "tip"
+note = "Sound changes cluster on 1, 3, 6, 8 and 10: いっ, さん→ば/ぶ/ぜ, ろっ, はっ, じゅっ. If you get the counter wrong, people will still understand. Holding up fingers works too, but remember 5 is an open hand."
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "東京[とうきょう]までの切符[きっぷ]を一枚[いちまい]ください"
+en = "One ticket to Tokyo, please"
+ru = "Один билет до Токио, пожалуйста"
+uk = "Один квиток до Токіо, будь ласка"
+casual = "東京[とうきょう]まで一枚[いちまい]"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "新幹線[しんかんせん]の指定席[していせき]を予約[よやく]したいです"
+en = "I'd like to reserve a Shinkansen seat"
+ru = "Хочу забронировать место в синкансэне"
+uk = "Хочу забронювати місце в шинкансені"
+casual = "新幹線[しんかんせん]の指定席[していせき]取[と]りたい"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "自由席[じゆうせき]でいいです"
+en = "Non-reserved is fine"
+ru = "Можно без места (свободный вагон)"
+uk = "Можна без місця (вільний вагон)"
+casual = "自由席[じゆうせき]でいい"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "窓側[まどがわ]の席[せき]をお願[ねが]いします"
+en = "Window seat, please"
+ru = "Место у окна, пожалуйста"
+uk = "Місце біля вікна, будь ласка"
+casual = "窓側[まどがわ]がいい"
+note = "Aisle = 通路側[つうろがわ]. On the Tokaido line to Osaka, seat E (right side) faces Mt Fuji."
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "往復[おうふく]でお願[ねが]いします"
+en = "Round trip, please"
+ru = "Туда и обратно, пожалуйста"
+uk = "Туди й назад, будь ласка"
+casual = "往復[おうふく]で"
+note = "One way = 片道[かたみち]."
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "大人[おとな]二枚[にまい]、子供[こども]一枚[いちまい]です"
+en = "Two adults, one child"
+ru = "Два взрослых, один детский"
+uk = "Два дорослих, один дитячий"
+casual = "大人[おとな]二枚[にまい]、子供[こども]一枚[いちまい]"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "隣同士[となりどうし]の席[せき]は空[あ]いていますか"
+en = "Are there seats together?"
+ru = "Есть места рядом?"
+uk = "Є місця поруч?"
+casual = "隣[となり]の席[せき]ある？"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "ICカードにチャージしたいです"
+en = "I want to top up my IC card"
+ru = "Хочу пополнить IC-карту"
+uk = "Хочу поповнити IC-картку"
+casual = "チャージしたい"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "say"
+ja = "JRパスで乗[の]れますか"
+en = "Can I ride with the JR Pass?"
+ru = "Можно проехать по JR Pass?"
+uk = "Можна проїхати з JR Pass?"
+casual = "JRパスで乗[の]れる？"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "hear"
+ja = "何時[なんじ]の電車[でんしゃ]になさいますか"
+en = "Which departure time would you like?"
+ru = "На какое время поезд?"
+uk = "На котру годину потяг?"
+casual = "何時[なんじ]の電車[でんしゃ]にする？"
+
+[[phrase.answers]]
+ja = "一番早[いちばんはや]いのをお願[ねが]いします"
+en = "The earliest one"
+ru = "Самый ранний"
+uk = "Найраніший"
+
+[[phrase.answers]]
+ja = "10時[じ]ごろのをお願[ねが]いします"
+en = "One around 10"
+ru = "Около десяти"
+uk = "Десь о десятій"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "hear"
+ja = "指定席[していせき]と自由席[じゆうせき]、どちらになさいますか"
+en = "Reserved or non-reserved?"
+ru = "Плацкарта с местом или без?"
+uk = "З місцем чи без?"
+answers = [
+    { ja = "指定席[していせき]で", en = "Reserved", ru = "С местом", uk = "З місцем" },
+    { ja = "自由席[じゆうせき]で", en = "Non-reserved", ru = "Без места", uk = "Без місця" },
+]
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "hear"
+ja = "窓側[まどがわ]と通路側[つうろがわ]、どちらがよろしいですか"
+en = "Window or aisle?"
+ru = "У окна или у прохода?"
+uk = "Біля вікна чи біля проходу?"
+answers = [
+    { ja = "窓側[まどがわ]で", en = "Window", ru = "У окна", uk = "Біля вікна" },
+    { ja = "どちらでも", en = "Either", ru = "Без разницы", uk = "Байдуже" },
+]
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "hear"
+ja = "満席[まんせき]です"
+en = "It's fully booked"
+ru = "Мест нет"
+uk = "Місць немає"
+casual = "いっぱいです"
+
+[[phrase.answers]]
+ja = "次[つぎ]の電車[でんしゃ]は空[あ]いていますか"
+en = "Is the next train available?"
+ru = "А на следующий есть?"
+uk = "А на наступний є?"
+
+[[phrase]]
+topic = "travel"
+section = "Buying tickets"
+kind = "hear"
+ja = "お支払[しはら]いはどうなさいますか"
+en = "How will you pay?"
+ru = "Как будете платить?"
+uk = "Як будете платити?"
+answers = [
+    { ja = "カードで", en = "By card", ru = "Картой", uk = "Карткою" },
+    { ja = "現金[げんきん]で", en = "Cash", ru = "Наличными", uk = "Готівкою" },
+]
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "何番線[なんばんせん]ですか"
+en = "Which platform?"
+ru = "Какая платформа?"
+uk = "Яка платформа?"
+casual = "何番線[なんばんせん]？"
+answers = [
+    { ja = "3番線[ばんせん]です", en = "Platform 3", ru = "Платформа 3", uk = "Платформа 3" },
+]
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "この電車[でんしゃ]は新宿[しんじゅく]に止[と]まりますか"
+en = "Does this train stop at Shinjuku?"
+ru = "Этот поезд останавливается в Синдзюку?"
+uk = "Цей потяг зупиняється в Сінджуку?"
+casual = "これ新宿[しんじゅく]止[と]まる？"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "乗[の]り換[か]えはどこですか"
+en = "Where do I transfer?"
+ru = "Где пересадка?"
+uk = "Де пересадка?"
+casual = "乗[の]り換[か]えどこ？"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "ここは空[あ]いていますか"
+en = "Is this seat free?"
+ru = "Здесь свободно?"
+uk = "Тут вільно?"
+casual = "ここ空[あ]いてる？"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "乗[の]り過[す]ごしてしまいました"
+en = "I missed my stop"
+ru = "Я проехал(а) свою остановку"
+uk = "Я проїхав(ла) свою зупинку"
+casual = "乗[の]り過[す]ごしちゃった"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "切符[きっぷ]をなくしてしまいました"
+en = "I lost my ticket"
+ru = "Я потерял(а) билет"
+uk = "Я загубив(ла) квиток"
+casual = "切符[きっぷ]なくした"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "say"
+ja = "忘[わす]れ物[もの]をしました"
+en = "I left something behind"
+ru = "Я забыл(а) вещь"
+uk = "Я забув(ла) річ"
+casual = "忘[わす]れ物[もの]しちゃった"
+note = "Station lost & found: 忘[わす]れ物[もの]センター."
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "hear"
+ja = "まもなく、1番線[ばんせん]に電車[でんしゃ]が参[まい]ります"
+en = "A train is arriving shortly at platform 1"
+ru = "Скоро на 1-й путь прибывает поезд"
+uk = "Незабаром на 1-шу колію прибуває потяг"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "hear"
+ja = "次[つぎ]は渋谷[しぶや]です"
+en = "Next stop: Shibuya"
+ru = "Следующая остановка — Сибуя"
+uk = "Наступна зупинка — Сібуя"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "hear"
+ja = "お出口[でぐち]は右側[みぎがわ]です"
+en = "Doors open on the right"
+ru = "Выход справа"
+uk = "Вихід праворуч"
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "hear"
+ja = "各駅停車[かくえきていしゃ] / 快速[かいそく] / 急行[きゅうこう]"
+en = "Local (all stops) / Rapid / Express"
+ru = "Все остановки / скорый / экспресс"
+uk = "Усі зупинки / швидкий / експрес"
+note = "Signs on the platform. Express trains skip stations: check before you board."
+
+[[phrase]]
+topic = "travel"
+section = "On the platform & train"
+kind = "tip"
+note = "Phones on silent (マナーモード) and no calls on trains. Queue at the floor markings and let people off first. Eating on local trains is frowned on; on the Shinkansen bento is normal. Luggage over 160 cm total needs an oversized-baggage seat reservation on the Tokaido/Sanyo Shinkansen."
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "浅草[あさくさ]への行[い]き方[かた]を教[おし]えていただけますか"
+en = "Could you tell me how to get to Asakusa?"
+ru = "Подскажите, как добраться до Асакусы?"
+uk = "Підкажіть, як дістатися до Асакуси?"
+casual = "浅草[あさくさ]ってどう行[い]くの？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "駅[えき]はどこですか"
+en = "Where is the station?"
+ru = "Где станция?"
+uk = "Де станція?"
+casual = "駅[えき]どこ？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "一番近[いちばんちか]いコンビニはどこですか"
+en = "Where is the nearest convenience store?"
+ru = "Где ближайший комбини?"
+uk = "Де найближчий магазин комбіні?"
+casual = "近[ちか]くにコンビニある？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "ここから歩[ある]いて行[い]けますか"
+en = "Can I walk there from here?"
+ru = "Можно дойти пешком?"
+uk = "Можна дійти пішки?"
+casual = "歩[ある]いて行[い]ける？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "地図[ちず]で教[おし]えてもらえますか"
+en = "Could you show me on the map?"
+ru = "Покажите на карте?"
+uk = "Покажете на мапі?"
+casual = "地図[ちず]で教[おし]えて"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "今[いま]、ここはどこですか"
+en = "Where am I now (on the map)?"
+ru = "Где я сейчас?"
+uk = "Де я зараз?"
+casual = "ここどこ？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "道[みち]に迷[まよ]ってしまいました"
+en = "I'm lost"
+ru = "Я заблудился(-ась)"
+uk = "Я заблукав(ла)"
+casual = "迷[まよ]っちゃった"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "say"
+ja = "何分[なんぷん]くらいかかりますか"
+en = "How many minutes does it take?"
+ru = "Сколько минут идти/ехать?"
+uk = "Скільки хвилин іти/їхати?"
+casual = "どのくらいかかる？"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "まっすぐ行[い]ってください"
+en = "Go straight"
+ru = "Идите прямо"
+uk = "Ідіть прямо"
+casual = "まっすぐ行[い]って"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "右[みぎ]に曲[ま]がってください"
+en = "Turn right"
+ru = "Поверните направо"
+uk = "Поверніть праворуч"
+casual = "右[みぎ]に曲[ま]がって"
+note = "Left = 左[ひだり]."
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "二[ふた]つ目[め]の信号[しんごう]を左[ひだり]です"
+en = "Left at the second traffic light"
+ru = "На втором светофоре налево"
+uk = "На другому світлофорі ліворуч"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "角[かど]を曲[ま]がったところです"
+en = "Just around the corner"
+ru = "Сразу за углом"
+uk = "Одразу за рогом"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "突[つ]き当[あ]たりです"
+en = "At the end of the street"
+ru = "В конце улицы"
+uk = "В кінці вулиці"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "向[む]かい側[がわ]です"
+en = "On the opposite side"
+ru = "На противоположной стороне"
+uk = "На протилежному боці"
+casual = "向[む]かい"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "〇〇の隣[となり]です"
+en = "Next to 〇〇"
+ru = "Рядом с 〇〇"
+uk = "Поруч із 〇〇"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "歩[ある]いて5分[ふん]くらいです"
+en = "About 5 minutes on foot"
+ru = "Минут пять пешком"
+uk = "Хвилин п'ять пішки"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "ちょっとわからないです"
+en = "Sorry, I'm not sure"
+ru = "Извините, не знаю"
+uk = "Вибачте, не знаю"
+casual = "ちょっとわかんない"
+
+[[phrase.answers]]
+ja = "わかりました、ありがとうございます"
+en = "OK, thanks anyway"
+ru = "Понятно, спасибо"
+uk = "Зрозуміло, дякую"
+
+[[phrase]]
+topic = "travel"
+section = "Asking for directions"
+kind = "hear"
+ja = "一緒[いっしょ]に行[い]きましょうか"
+en = "Shall I walk you there?"
+ru = "Давайте я вас проведу?"
+uk = "Давайте я вас проведу?"
+casual = "一緒[いっしょ]に行[い]こうか？"
+
+[[phrase.answers]]
+ja = "ありがとうございます、助[たす]かります"
+en = "Thank you, that's a big help"
+ru = "Спасибо, очень выручите"
+uk = "Дякую, дуже допоможете"
+
+[[phrase.answers]]
+ja = "大丈夫[だいじょうぶ]です、ありがとうございます"
+en = "No need, thank you"
+ru = "Не нужно, спасибо"
+uk = "Не треба, дякую"
+
+[[phrase]]
+topic = "travel"
+section = "Taxi"
+kind = "hear"
+ja = "どちらまでですか"
+en = "Where to?"
+ru = "Куда едем?"
+uk = "Куди їдемо?"
+
+[[phrase.answers]]
+ja = "ここまでお願[ねが]いします"
+en = "To here, please (show map)"
+ru = "Сюда, пожалуйста (показать)"
+uk = "Сюди, будь ласка (показати)"
+
+[[phrase.answers]]
+ja = "〇〇ホテルまでお願[ねが]いします"
+en = "To the 〇〇 Hotel"
+ru = "До отеля 〇〇"
+uk = "До готелю 〇〇"
+
+[[phrase]]
+topic = "travel"
+section = "Taxi"
+kind = "say"
+ja = "カードで払[はら]えますか"
+en = "Can I pay by card?"
+ru = "Можно картой?"
+uk = "Можна карткою?"
+casual = "カード使[つか]える？"
+
+[[phrase]]
+topic = "travel"
+section = "Taxi"
+kind = "say"
+ja = "ここで止[と]めてください"
+en = "Please stop here"
+ru = "Остановите здесь"
+uk = "Зупиніть тут"
+casual = "ここでいいです"
+
+[[phrase]]
+topic = "travel"
+section = "Taxi"
+kind = "say"
+ja = "急[いそ]いでいただけますか"
+en = "Could you hurry, please?"
+ru = "Можно побыстрее?"
+uk = "Можна швидше?"
+casual = "急[いそ]いでもらえる？"
+
+[[phrase]]
+topic = "travel"
+section = "Taxi"
+kind = "tip"
+note = "Taxi rear doors open and close automatically: don't touch them. A red 空車[くうしゃ] sign means the taxi is free."
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "say"
+ja = "チェックインをお願[ねが]いします。予約[よやく]した〇〇です"
+en = "Check-in, please. The booking is under 〇〇"
+ru = "Заселение, пожалуйста. Бронь на имя 〇〇"
+uk = "Заселення, будь ласка. Бронювання на ім'я 〇〇"
+casual = "チェックインで。〇〇です"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "hear"
+ja = "ご予約[よやく]のお名前[なまえ]をお願[ねが]いします"
+en = "The name on the reservation, please"
+ru = "Имя, на которое бронь?"
+uk = "Ім'я, на яке бронювання?"
+answers = [
+    { ja = "〇〇です", en = "It's 〇〇", ru = "〇〇", uk = "〇〇" },
+]
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "hear"
+ja = "パスポートを拝見[はいけん]してもよろしいですか"
+en = "May I see your passport?"
+ru = "Можно ваш паспорт?"
+uk = "Можна ваш паспорт?"
+answers = [
+    { ja = "はい、どうぞ", en = "Here you are", ru = "Да, пожалуйста", uk = "Так, будь ласка" },
+]
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "hear"
+ja = "こちらにご記入[きにゅう]ください"
+en = "Please fill this in"
+ru = "Заполните, пожалуйста"
+uk = "Заповніть, будь ласка"
+casual = "ここに書[か]いて"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "hear"
+ja = "お部屋[へや]は5階[かい]の503号室[ごうしつ]でございます"
+en = "Your room is 503 on the 5th floor"
+ru = "Ваш номер 503 на 5-м этаже"
+uk = "Ваш номер 503 на 5-му поверсі"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "hear"
+ja = "朝食[ちょうしょく]は7時[じ]から9時[じ]までです"
+en = "Breakfast is from 7 to 9"
+ru = "Завтрак с 7 до 9"
+uk = "Сніданок з 7 до 9"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "say"
+ja = "チェックアウトは何時[なんじ]ですか"
+en = "What time is check-out?"
+ru = "Во сколько выезд?"
+uk = "О котрій виселення?"
+casual = "チェックアウト何時[なんじ]？"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "say"
+ja = "レイトチェックアウトはできますか"
+en = "Is late check-out possible?"
+ru = "Можно поздний выезд?"
+uk = "Можна пізнє виселення?"
+casual = "遅[おそ]めにチェックアウトできる？"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "say"
+ja = "荷物[にもつ]を預[あず]かっていただけますか"
+en = "Could you keep my luggage?"
+ru = "Можно оставить багаж?"
+uk = "Можна залишити багаж?"
+casual = "荷物[にもつ]預[あず]かってもらえる？"
+
+[[phrase]]
+topic = "hotel"
+section = "Check-in & check-out"
+kind = "say"
+ja = "チェックアウトをお願[ねが]いします"
+en = "Check-out, please"
+ru = "Выезжаю, пожалуйста"
+uk = "Виселяюся, будь ласка"
+casual = "チェックアウトで"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "Wi-Fiのパスワードを教[おし]えてください"
+en = "What's the Wi-Fi password?"
+ru = "Какой пароль от Wi-Fi?"
+uk = "Який пароль від Wi-Fi?"
+casual = "Wi-Fiのパスワード何[なに]？"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "朝食[ちょうしょく]は何時[なんじ]からですか"
+en = "What time does breakfast start?"
+ru = "Со скольки завтрак?"
+uk = "З котрої сніданок?"
+casual = "朝[あさ]ごはん何時[なんじ]から？"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "タオルをもう一枚[いちまい]いただけますか"
+en = "Could I have one more towel?"
+ru = "Можно ещё одно полотенце?"
+uk = "Можна ще один рушник?"
+casual = "タオルもう一枚[いちまい]ほしい"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "エアコンが動[うご]きません"
+en = "The air conditioner doesn't work"
+ru = "Кондиционер не работает"
+uk = "Кондиціонер не працює"
+casual = "エアコン動[うご]かない"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "お湯[ゆ]が出[で]ません"
+en = "There's no hot water"
+ru = "Нет горячей воды"
+uk = "Немає гарячої води"
+casual = "お湯[ゆ]出[で]ない"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "部屋[へや]の鍵[かぎ]をなくしてしまいました"
+en = "I lost my room key"
+ru = "Я потерял(а) ключ от номера"
+uk = "Я загубив(ла) ключ від номера"
+casual = "鍵[かぎ]なくした"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "部屋[へや]を替[か]えていただけますか"
+en = "Could I change rooms?"
+ru = "Можно поменять номер?"
+uk = "Можна змінити номер?"
+casual = "部屋[へや]替[か]えてもらえる？"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "近[ちか]くにおすすめのレストランはありますか"
+en = "Any restaurant you'd recommend nearby?"
+ru = "Посоветуете ресторан поблизости?"
+uk = "Порадите ресторан поблизу?"
+casual = "近[ちか]くにおすすめの店[みせ]ある？"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "タクシーを呼[よ]んでいただけますか"
+en = "Could you call a taxi?"
+ru = "Можете вызвать такси?"
+uk = "Можете викликати таксі?"
+casual = "タクシー呼[よ]んでもらえる？"
+
+[[phrase]]
+topic = "hotel"
+section = "During the stay"
+kind = "say"
+ja = "コインランドリーはありますか"
+en = "Is there a coin laundry?"
+ru = "Есть прачечная?"
+uk = "Є пральня?"
+casual = "ランドリーある？"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "hear"
+ja = "夕食[ゆうしょく]は何時[なんじ]になさいますか"
+en = "What time would you like dinner?"
+ru = "На какое время ужин?"
+uk = "На котру годину вечеря?"
+
+[[phrase.answers]]
+ja = "7時[じ]でお願[ねが]いします"
+en = "7 o'clock, please"
+ru = "В 7, пожалуйста"
+uk = "О 7, будь ласка"
+
+[[phrase.answers]]
+ja = "何時[なんじ]がいいですか"
+en = "What times are available?"
+ru = "А какое время есть?"
+uk = "А який час є?"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "hear"
+ja = "お布団[ふとん]を敷[し]きに参[まい]ります"
+en = "We will come to lay out your futon"
+ru = "Мы придём постелить футон"
+uk = "Ми прийдемо постелити футон"
+answers = [
+    { ja = "お願[ねが]いします", en = "Please do", ru = "Хорошо, спасибо", uk = "Добре, дякую" },
+]
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "hear"
+ja = "大浴場[だいよくじょう]は夜[よる]11時[じ]までです"
+en = "The main bath is open until 11 pm"
+ru = "Общая баня открыта до 23:00"
+uk = "Спільна купальня працює до 23:00"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "say"
+ja = "大浴場[だいよくじょう]は何時[なんじ]まで使[つか]えますか"
+en = "Until what time can I use the main bath?"
+ru = "До скольки работает общая баня?"
+uk = "До котрої працює спільна купальня?"
+casual = "お風呂[ふろ]何時[なんじ]まで？"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "say"
+ja = "貸切風呂[かしきりぶろ]はありますか"
+en = "Is there a private bath?"
+ru = "Есть отдельная (семейная) баня?"
+uk = "Є окрема (сімейна) купальня?"
+casual = "貸切風呂[かしきりぶろ]ある？"
+note = "Ask 予約[よやく]は必要[ひつよう]ですか? (is a booking needed?). Good option with tattoos or kids."
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "say"
+ja = "タトゥーがあるのですが、温泉[おんせん]に入[はい]れますか"
+en = "I have a tattoo. Can I use the onsen?"
+ru = "У меня татуировка. Можно в онсэн?"
+uk = "У мене татуювання. Можна в онсен?"
+casual = "タトゥーあっても入[はい]れる？"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "say"
+ja = "浴衣[ゆかた]の着方[きかた]を教[おし]えていただけますか"
+en = "Could you show me how to wear the yukata?"
+ru = "Покажете, как надевать юкату?"
+uk = "Покажете, як одягати юкату?"
+casual = "浴衣[ゆかた]の着方[きかた]教[おし]えて"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "say"
+ja = "夕食[ゆうしょく]は部屋[へや]でいただけますか"
+en = "Can we have dinner in the room?"
+ru = "Можно ужин в номер?"
+uk = "Можна вечерю в номер?"
+casual = "部屋[へや]で食[た]べられる？"
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "tip"
+note = "Shoes off at the entrance (玄関[げんかん]). Slippers inside, but never on tatami. Separate toilet slippers stay in the toilet."
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "tip"
+note = "Yukata: left side over right. Right over left is for the deceased."
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "tip"
+note = "Onsen: wash and rinse fully at the shower stool before getting in. Small towel never goes in the water (rest it on your head). No swimsuits. 男[おとこ] = men, 女[おんな] = women; curtains often swap between morning and evening."
+
+[[phrase]]
+topic = "hotel"
+section = "Ryokan & onsen"
+kind = "tip"
+note = "No tipping. At a ryokan a 心付[こころづ]け (envelope for the attendant) is optional and old-fashioned."
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "何名様[なんめいさま]ですか"
+en = "How many people?"
+ru = "Сколько вас?"
+uk = "Скільки вас?"
+casual = "何人[なんにん]？"
+note = "Showing fingers works too."
+
+[[phrase.answers]]
+ja = "二人[ふたり]です"
+en = "Two"
+ru = "Двое"
+uk = "Двоє"
+
+[[phrase.answers]]
+ja = "一人[ひとり]です"
+en = "Just me"
+ru = "Один (одна)"
+uk = "Один (одна)"
+
+[[phrase.answers]]
+ja = "大人[おとな]二人[ふたり]と子供[こども]二人[ふたり]です"
+en = "Two adults, two children"
+ru = "Двое взрослых и двое детей"
+uk = "Двоє дорослих і двоє дітей"
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "ご予約[よやく]はされていますか"
+en = "Do you have a reservation?"
+ru = "У вас есть бронь?"
+uk = "У вас є бронювання?"
+casual = "予約[よやく]してる？"
+
+[[phrase.answers]]
+ja = "はい、7時[じ]に〇〇で予約[よやく]しています"
+en = "Yes, at 7 under 〇〇"
+ru = "Да, на 7 на имя 〇〇"
+uk = "Так, на 7 на ім'я 〇〇"
+
+[[phrase.answers]]
+ja = "いいえ、していません"
+en = "No, we don't"
+ru = "Нет"
+uk = "Ні"
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "say"
+ja = "予約[よやく]していないんですが、入[はい]れますか"
+en = "No reservation. Can we get in?"
+ru = "Мы без брони. Можно?"
+uk = "Ми без бронювання. Можна?"
+casual = "予約[よやく]してないけど入[はい]れる？"
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "ただいま満席[まんせき]です"
+en = "We're full right now"
+ru = "Сейчас мест нет"
+uk = "Зараз місць немає"
+casual = "今[いま]いっぱいです"
+
+[[phrase.answers]]
+ja = "どのくらい待[ま]ちますか"
+en = "How long is the wait?"
+ru = "Сколько ждать?"
+uk = "Скільки чекати?"
+
+[[phrase.answers]]
+ja = "じゃあ、また来[き]ます"
+en = "We'll come back"
+ru = "Тогда зайдём позже"
+uk = "Тоді зайдемо пізніше"
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "こちらにお名前[なまえ]を書[か]いてお待[ま]ちください"
+en = "Write your name here and wait"
+ru = "Запишите имя и подождите"
+uk = "Запишіть ім'я і зачекайте"
+note = "Waiting lists are on a clipboard or tablet at the door. Katakana or romaji both OK."
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "カウンター席[せき]でもよろしいですか"
+en = "Is the counter OK?"
+ru = "За стойкой подойдёт?"
+uk = "За стійкою підійде?"
+casual = "カウンターでいい？"
+answers = [
+    { ja = "大丈夫[だいじょうぶ]です", en = "That's fine", ru = "Подойдёт", uk = "Підійде" },
+    { ja = "テーブル席[せき]がいいです", en = "We'd prefer a table", ru = "Лучше столик", uk = "Краще столик" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "hear"
+ja = "こちらのお席[せき]へどうぞ"
+en = "This way to your seat"
+ru = "Проходите сюда"
+uk = "Проходьте сюди"
+
+[[phrase]]
+topic = "food"
+section = "Arriving"
+kind = "say"
+ja = "明日[あした]の7時[じ]に二人[ふたり]で予約[よやく]したいのですが"
+en = "I'd like to book for two tomorrow at 7"
+ru = "Хочу забронировать на двоих завтра на 7"
+uk = "Хочу забронювати на двох завтра на 7"
+casual = "明日[あした]7時[じ]に二人[ふたり]で予約[よやく]したい"
+note = "Phone booking. They'll ask お名前[なまえ]とお電話番号[でんわばんごう]を (name and phone number)."
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "すみません！"
+en = "Excuse me! (calling the waiter)"
+ru = "Извините! (подозвать официанта)"
+uk = "Перепрошую! (покликати офіціанта)"
+casual = "すみませーん"
+note = "Normal to call out across the room. If there's a bell button (呼[よ]び出[で]しボタン) on the table, press it instead."
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "メニューをお願[ねが]いします"
+en = "The menu, please"
+ru = "Меню, пожалуйста"
+uk = "Меню, будь ласка"
+casual = "メニューください"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "英語[えいご]のメニューはありますか"
+en = "Do you have an English menu?"
+ru = "Есть меню на английском?"
+uk = "Є меню англійською?"
+casual = "英語[えいご]のメニューある？"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "おすすめは何[なん]ですか"
+en = "What do you recommend?"
+ru = "Что посоветуете?"
+uk = "Що порадите?"
+casual = "おすすめは？"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "これはどんな料理[りょうり]ですか"
+en = "What kind of dish is this?"
+ru = "Что это за блюдо?"
+uk = "Що це за страва?"
+casual = "これってどんな料理[りょうり]？"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "辛[から]いですか"
+en = "Is it spicy?"
+ru = "Острое?"
+uk = "Гостре?"
+casual = "辛[から]い？"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "量[りょう]は多[おお]いですか"
+en = "Is it a big portion?"
+ru = "Порция большая?"
+uk = "Порція велика?"
+casual = "量[りょう]多[おお]い？"
+
+[[phrase]]
+topic = "food"
+section = "Calling staff & menu"
+kind = "say"
+ja = "写真[しゃしん]のこれをください"
+en = "This one in the picture, please"
+ru = "Вот это, с картинки"
+uk = "Ось це, з фото"
+casual = "これください"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "注文[ちゅうもん]をお願[ねが]いします"
+en = "We'd like to order"
+ru = "Мы готовы заказать"
+uk = "Ми готові замовити"
+casual = "注文[ちゅうもん]いいですか"
+level = "standard"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "これをください"
+en = "This, please (pointing)"
+ru = "Вот это, пожалуйста"
+uk = "Ось це, будь ласка"
+casual = "これ"
+level = "simple"
+note = "Point at the menu. Works everywhere."
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "これを一[ひと]つお願[ねが]いします"
+en = "One of these, please"
+ru = "Одну такую, пожалуйста"
+uk = "Одну таку, будь ласка"
+casual = "これ一[ひと]つ"
+level = "standard"
+note = "Counting: 一[ひと]つ、二[ふた]つ、三[みっ]つ、四[よっ]つ、五[いつ]つ."
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "これにします"
+en = "I'll have this"
+ru = "Я возьму это"
+uk = "Я візьму це"
+casual = "これにする"
+level = "standard"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "〇〇でお願[ねが]いします"
+en = "I'll go with 〇〇"
+ru = "Мне 〇〇"
+uk = "Мені 〇〇"
+casual = "〇〇で"
+level = "standard"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "同[おな]じものをお願[ねが]いします"
+en = "The same, please"
+ru = "То же самое"
+uk = "Те саме"
+casual = "同[おな]じの"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "ランチセットをお願[ねが]いします"
+en = "The lunch set, please"
+ru = "Ланч-сет, пожалуйста"
+uk = "Ланч-сет, будь ласка"
+casual = "ランチセットで"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "大盛[おおも]りにできますか"
+en = "Can I get a large portion?"
+ru = "Можно большую порцию?"
+uk = "Можна велику порцію?"
+casual = "大盛[おおも]りにできる？"
+note = "Often free for rice or noodles. Small = 少[すく]なめ."
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "お水[みず]をいただけますか"
+en = "Could I have some water?"
+ru = "Можно воды?"
+uk = "Можна води?"
+casual = "お水[みず]ください"
+note = "Water and tea are usually free. Staff may say お冷[ひや] for cold water."
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "取[と]り皿[ざら]をいただけますか"
+en = "Could we have small plates for sharing?"
+ru = "Можно тарелки, чтобы поделиться?"
+uk = "Можна тарілки, щоб поділитися?"
+casual = "取[と]り皿[ざら]ください"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "フォークはありますか"
+en = "Do you have a fork?"
+ru = "Есть вилка?"
+uk = "Є виделка?"
+casual = "フォークある？"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "say"
+ja = "子供用[こどもよう]の椅子[いす]はありますか"
+en = "Do you have a child seat?"
+ru = "Есть детский стульчик?"
+uk = "Є дитячий стільчик?"
+casual = "子供[こども]の椅子[いす]ある？"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "ご注文[ちゅうもん]はお決[き]まりですか"
+en = "Are you ready to order?"
+ru = "Вы готовы заказать?"
+uk = "Ви готові замовити?"
+casual = "決[き]まった？"
+
+[[phrase.answers]]
+ja = "はい、お願[ねが]いします"
+en = "Yes, please"
+ru = "Да"
+uk = "Так"
+
+[[phrase.answers]]
+ja = "もう少[すこ]し待[ま]ってください"
+en = "A little more time, please"
+ru = "Ещё минутку"
+uk = "Ще хвилинку"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "お飲[の]み物[もの]はいかがなさいますか"
+en = "What would you like to drink?"
+ru = "Что будете пить?"
+uk = "Що будете пити?"
+casual = "飲[の]み物[もの]どうする？"
+
+[[phrase.answers]]
+ja = "烏龍茶[ウーロンちゃ]をお願[ねが]いします"
+en = "Oolong tea, please"
+ru = "Улун, пожалуйста"
+uk = "Улун, будь ласка"
+
+[[phrase.answers]]
+ja = "生[なま]ビールを二[ふた]つ"
+en = "Two draught beers"
+ru = "Два разливных пива"
+uk = "Два розливних пива"
+
+[[phrase.answers]]
+ja = "お水[みず]で大丈夫[だいじょうぶ]です"
+en = "Water is fine"
+ru = "Воды достаточно"
+uk = "Води достатньо"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "お飲[の]み物[もの]は食前[しょくぜん]と食後[しょくご]、どちらになさいますか"
+en = "Drink before or after the meal?"
+ru = "Напиток до или после еды?"
+uk = "Напій до чи після їжі?"
+answers = [
+    { ja = "食後[しょくご]でお願[ねが]いします", en = "After, please", ru = "После", uk = "Після" },
+    { ja = "一緒[いっしょ]でお願[ねが]いします", en = "With the meal", ru = "Вместе с едой", uk = "Разом з їжею" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "ご飯[はん]は普通[ふつう]と大盛[おおも]り、どちらにしますか"
+en = "Regular or large rice?"
+ru = "Рис обычный или большой?"
+uk = "Рис звичайний чи великий?"
+answers = [
+    { ja = "普通[ふつう]で", en = "Regular", ru = "Обычный", uk = "Звичайний" },
+    { ja = "少[すく]なめで", en = "A bit less", ru = "Поменьше", uk = "Трохи менше" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "温[あたた]かいのと冷[つめ]たいの、どちらにしますか"
+en = "Hot or cold?"
+ru = "Горячий или холодный?"
+uk = "Гарячий чи холодний?"
+answers = [
+    { ja = "温[あたた]かいので", en = "Hot", ru = "Горячий", uk = "Гарячий" },
+    { ja = "冷[つめ]たいので", en = "Cold", ru = "Холодный", uk = "Холодний" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "ご注文[ちゅうもん]は以上[いじょう]でよろしいですか"
+en = "Will that be all?"
+ru = "Это всё?"
+uk = "Це все?"
+casual = "以上[いじょう]で大丈夫[だいじょうぶ]？"
+answers = [
+    { ja = "はい、以上[いじょう]です", en = "Yes, that's all", ru = "Да, всё", uk = "Так, усе" },
+    { ja = "あと、これもお願[ねが]いします", en = "And this one too", ru = "И ещё вот это", uk = "І ще ось це" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "ご注文[ちゅうもん]を繰[く]り返[かえ]します"
+en = "Let me repeat your order"
+ru = "Повторю ваш заказ"
+uk = "Повторю ваше замовлення"
+note = "Just listen and say はい at the end."
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "ラストオーダーになりますが"
+en = "It's last order time"
+ru = "Последний заказ"
+uk = "Останнє замовлення"
+
+[[phrase.answers]]
+ja = "大丈夫[だいじょうぶ]です"
+en = "We're fine"
+ru = "Нам ничего не нужно"
+uk = "Нам нічого не треба"
+
+[[phrase.answers]]
+ja = "これをもう一[ひと]つお願[ねが]いします"
+en = "One more of this"
+ru = "Ещё одну такую"
+uk = "Ще одну таку"
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "お下[さ]げしてもよろしいですか"
+en = "May I clear this?"
+ru = "Можно убрать?"
+uk = "Можна прибрати?"
+casual = "下[さ]げていい？"
+answers = [
+    { ja = "はい、お願[ねが]いします", en = "Yes, please", ru = "Да, пожалуйста", uk = "Так, будь ласка" },
+    { ja = "まだです", en = "Not yet", ru = "Ещё нет", uk = "Ще ні" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ordering · several ways"
+kind = "hear"
+ja = "お熱[あつ]いのでお気[き]をつけください"
+en = "It's hot, be careful"
+ru = "Осторожно, горячо"
+uk = "Обережно, гаряче"
+
+[[phrase]]
+topic = "food"
+section = "Ramen & ticket machines"
+kind = "say"
+ja = "食券[しょっけん]はどこで買[か]いますか"
+en = "Where do I buy the meal ticket?"
+ru = "Где купить талон на еду?"
+uk = "Де купити талон на їжу?"
+casual = "食券[しょっけん]どこ？"
+note = "Ticket machine (券売機[けんばいき]) near the door: pay, take ticket, hand it to staff."
+
+[[phrase]]
+topic = "food"
+section = "Ramen & ticket machines"
+kind = "hear"
+ja = "麺[めん]の硬[かた]さはどうしますか"
+en = "How firm do you want the noodles?"
+ru = "Какой твёрдости лапшу?"
+uk = "Якої твердості локшину?"
+casual = "麺[めん]の硬[かた]さは？"
+answers = [
+    { ja = "硬[かた]めで", en = "Firm", ru = "Потвёрже", uk = "Твердішу" },
+    { ja = "普通[ふつう]で", en = "Normal", ru = "Обычную", uk = "Звичайну" },
+    { ja = "柔[やわ]らかめで", en = "Soft", ru = "Помягче", uk = "М'якшу" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Ramen & ticket machines"
+kind = "hear"
+ja = "味[あじ]の濃[こ]さと油[あぶら]の量[りょう]はどうしますか"
+en = "How rich, and how much oil?"
+ru = "Насколько насыщенно и сколько масла?"
+uk = "Наскільки насичено і скільки олії?"
+
+[[phrase.answers]]
+ja = "全部[ぜんぶ]普通[ふつう]で"
+en = "All normal"
+ru = "Всё обычное"
+uk = "Усе звичайне"
+
+[[phrase.answers]]
+ja = "薄[うす]め、少[すく]なめで"
+en = "Lighter, less oil"
+ru = "Послабее, поменьше масла"
+uk = "Слабше, менше олії"
+
+[[phrase]]
+topic = "food"
+section = "Ramen & ticket machines"
+kind = "hear"
+ja = "替玉[かえだま]いかがですか"
+en = "Extra noodles?"
+ru = "Добавку лапши?"
+uk = "Добавку локшини?"
+casual = "替玉[かえだま]いる？"
+note = "Hakata-style tonkotsu shops. Keep some soup for the refill."
+
+[[phrase.answers]]
+ja = "替玉[かえだま]お願[ねが]いします"
+en = "Yes, extra noodles"
+ru = "Да, добавку"
+uk = "Так, добавку"
+
+[[phrase]]
+topic = "food"
+section = "Ramen & ticket machines"
+kind = "tip"
+note = "Slurping noodles is normal. Many ramen shops are fast: eat, pay (or you already did at the machine) and leave without lingering."
+
+[[phrase]]
+topic = "food"
+section = "Sushi counter"
+kind = "say"
+ja = "おまかせでお願[ねが]いします"
+en = "Chef's choice, please"
+ru = "На выбор шефа"
+uk = "На вибір шефа"
+casual = "おまかせで"
+
+[[phrase]]
+topic = "food"
+section = "Sushi counter"
+kind = "say"
+ja = "今日[きょう]のおすすめは何[なん]ですか"
+en = "What's good today?"
+ru = "Что сегодня советуете?"
+uk = "Що сьогодні радите?"
+casual = "今日[きょう]のおすすめは？"
+
+[[phrase]]
+topic = "food"
+section = "Sushi counter"
+kind = "say"
+ja = "サビ抜[ぬ]きでお願[ねが]いします"
+en = "Without wasabi, please"
+ru = "Без васаби, пожалуйста"
+uk = "Без васабі, будь ласка"
+casual = "サビ抜[ぬ]きで"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "とりあえず生[なま]で"
+en = "A draught beer to start"
+ru = "Для начала разливное"
+uk = "Для початку розливне"
+casual = "とりあえず生[なま]！"
+note = "Classic izakaya opener."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "乾杯[かんぱい]！"
+en = "Cheers!"
+ru = "За нас! / Будем!"
+uk = "Будьмо!"
+casual = "かんぱーい！"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "飲[の]み放題[ほうだい]はありますか"
+en = "Is there all-you-can-drink?"
+ru = "Есть безлимитные напитки?"
+uk = "Є безлімітні напої?"
+casual = "飲[の]み放題[ほうだい]ある？"
+note = "Usually 90–120 minutes, sometimes needs the whole table."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "日本酒[にほんしゅ]のおすすめはありますか"
+en = "Any sake you'd recommend?"
+ru = "Посоветуете саке?"
+uk = "Порадите саке?"
+casual = "おすすめの日本酒[にほんしゅ]ある？"
+
+[[phrase.answers]]
+ja = "辛口[からくち]がいいです"
+en = "I like it dry"
+ru = "Предпочитаю сухое"
+uk = "Люблю сухе"
+
+[[phrase.answers]]
+ja = "甘口[あまくち]がいいです"
+en = "I like it sweet"
+ru = "Предпочитаю сладкое"
+uk = "Люблю солодке"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "お通[とお]しです"
+en = "Your table appetizer"
+ru = "Обязательная закуска"
+uk = "Обов'язкова закуска"
+note = "Small dish you didn't order. It's a table charge (300–600 yen), not a mistake."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "お好[この]みでどうぞ"
+en = "Order as you like (à la carte)"
+ru = "Заказывайте на выбор"
+uk = "Замовляйте на вибір"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "ハイボールをお願[ねが]いします"
+en = "A highball, please"
+ru = "Хайбол, пожалуйста"
+uk = "Хайбол, будь ласка"
+casual = "ハイボールで"
+note = "Other izakaya staples: レモンサワー (lemon sour), ウーロンハイ (shochu + oolong), 梅酒[うめしゅ] (plum wine)."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "ノンアルコールの飲[の]み物[もの]はありますか"
+en = "Do you have non-alcoholic drinks?"
+ru = "Есть безалкогольные напитки?"
+uk = "Є безалкогольні напої?"
+casual = "ノンアルある？"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "とりあえず枝豆[えだまめ]と唐揚[からあ]げをお願[ねが]いします"
+en = "Edamame and fried chicken to start, please"
+ru = "Для начала эдамамэ и караагэ"
+uk = "Для початку едамаме і караге"
+casual = "とりあえず枝豆[えだまめ]と唐揚[からあ]げ"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "コース料理[りょうり]はありますか"
+en = "Do you have set courses?"
+ru = "Есть сет-меню?"
+uk = "Є сет-меню?"
+casual = "コースある？"
+note = "Courses often come bundled with 飲[の]み放題[ほうだい]."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "同[おな]じのをもう一杯[いっぱい]お願[ねが]いします"
+en = "Same again, please"
+ru = "Повторите, пожалуйста"
+uk = "Повторіть, будь ласка"
+casual = "おかわり！"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "お冷[ひや]をいただけますか"
+en = "Could I have some water?"
+ru = "Можно воды?"
+uk = "Можна води?"
+casual = "お冷[ひや]ください"
+note = "Ask for water between drinks. It's free."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "席料[せきりょう]はありますか"
+en = "Is there a seat charge?"
+ru = "Есть плата за место?"
+uk = "Є плата за місце?"
+casual = "チャージある？"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "お通[とお]しは断[ことわ]れますか"
+en = "Can we skip the table appetizer?"
+ru = "Можно отказаться от закуски?"
+uk = "Можна відмовитися від закуски?"
+casual = "お通[とお]しなしにできる？"
+note = "Usually the answer is no: it's the cover charge."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "say"
+ja = "禁煙[きんえん]ですか"
+en = "Is it non-smoking?"
+ru = "Здесь не курят?"
+uk = "Тут не курять?"
+casual = "タバコ大丈夫[だいじょうぶ]？"
+note = "Some small izakaya and bars still allow smoking. Smoking seat = 喫煙席[きつえんせき]."
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "飲[の]み放題[ほうだい]は2時間[じかん]制[せい]です"
+en = "All-you-can-drink is limited to 2 hours"
+ru = "Безлимит на 2 часа"
+uk = "Безліміт на 2 години"
+
+[[phrase.answers]]
+ja = "ラストオーダーは何時[なんじ]ですか"
+en = "When is last order?"
+ru = "Когда последний заказ?"
+uk = "Коли останнє замовлення?"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "焼[や]き鳥[とり]は塩[しお]とタレ、どちらにしますか"
+en = "Yakitori with salt or sauce?"
+ru = "Якитори с солью или с соусом?"
+uk = "Якіторі з сіллю чи з соусом?"
+casual = "塩[しお]とタレ、どっち？"
+answers = [
+    { ja = "塩[しお]でお願[ねが]いします", en = "Salt, please", ru = "С солью", uk = "З сіллю" },
+    { ja = "タレで", en = "Sauce", ru = "С соусом", uk = "З соусом" },
+    { ja = "おまかせで", en = "Your choice", ru = "На ваш выбор", uk = "На ваш вибір" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "お酒[さけ]は冷[ひや]と熱燗[あつかん]、どちらにしますか"
+en = "Sake cold or hot?"
+ru = "Саке холодное или горячее?"
+uk = "Саке холодне чи гаряче?"
+casual = "冷[ひや]と熱燗[あつかん]、どっち？"
+
+[[phrase.answers]]
+ja = "冷[ひや]で"
+en = "Cold"
+ru = "Холодное"
+uk = "Холодне"
+
+[[phrase.answers]]
+ja = "熱燗[あつかん]で"
+en = "Hot"
+ru = "Горячее"
+uk = "Гаряче"
+
+[[phrase.answers]]
+ja = "常温[じょうおん]で"
+en = "Room temperature"
+ru = "Комнатной температуры"
+uk = "Кімнатної температури"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "グラスと一合[いちごう]、どちらにしますか"
+en = "A glass or a tokkuri (180 ml)?"
+ru = "Бокал или токкури (180 мл)?"
+uk = "Келих чи токкурі (180 мл)?"
+
+[[phrase.answers]]
+ja = "グラスで"
+en = "A glass"
+ru = "Бокал"
+uk = "Келих"
+
+[[phrase.answers]]
+ja = "一合[いちごう]でお願[ねが]いします"
+en = "One go, please"
+ru = "Один го (180 мл)"
+uk = "Одне ґо (180 мл)"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "hear"
+ja = "締[し]めは何[なに]にしますか"
+en = "What would you like to finish with?"
+ru = "Чем закончим (рис/лапша)?"
+uk = "Чим завершимо (рис/локшина)?"
+casual = "締[し]め何[なに]にする？"
+note = "締[し]め = the closing dish: rice, noodles or ramen."
+
+[[phrase.answers]]
+ja = "お茶漬[ちゃづ]けをお願[ねが]いします"
+en = "Ochazuke (rice in tea), please"
+ru = "Отядзукэ (рис с чаем)"
+uk = "Очадзуке (рис із чаєм)"
+
+[[phrase.answers]]
+ja = "もうお腹[なか]いっぱいです"
+en = "I'm already full"
+ru = "Я уже сыт(а)"
+uk = "Я вже ситий(а)"
+
+[[phrase]]
+topic = "food"
+section = "Izakaya"
+kind = "tip"
+note = "Pour for others, not for yourself; someone will fill your glass. Lift your glass slightly with both hands when someone pours. A full glass signals you've had enough. Wait for 乾杯[かんぱい] before the first sip."
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "一人[ひとり]ですが、大丈夫[だいじょうぶ]ですか"
+en = "It's just me. Is that OK?"
+ru = "Я один (одна). Можно?"
+uk = "Я сам(а). Можна?"
+casual = "一人[ひとり]だけどいい？"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "チャージはいくらですか"
+en = "How much is the cover charge?"
+ru = "Сколько стоит вход (чардж)?"
+uk = "Скільки коштує вхід (чардж)?"
+casual = "チャージいくら？"
+note = "Many bars add a cover charge (チャージ), often 500–1,500 yen, sometimes with a small snack."
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "hear"
+ja = "チャージが1,000円[えん]かかりますが、よろしいですか"
+en = "There's a 1,000 yen cover charge. Is that OK?"
+ru = "Плата за вход 1000 иен. Хорошо?"
+uk = "Плата за вхід 1000 єн. Добре?"
+
+[[phrase.answers]]
+ja = "大丈夫[だいじょうぶ]です"
+en = "That's fine"
+ru = "Хорошо"
+uk = "Добре"
+
+[[phrase.answers]]
+ja = "じゃあ、今日[きょう]はやめておきます"
+en = "Then I'll skip it today"
+ru = "Тогда в другой раз"
+uk = "Тоді іншим разом"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "おすすめのウイスキーはありますか"
+en = "Any whisky you'd recommend?"
+ru = "Посоветуете виски?"
+uk = "Порадите віскі?"
+casual = "おすすめのウイスキーある？"
+
+[[phrase.answers]]
+ja = "日本[にほん]のウイスキーを飲[の]んでみたいです"
+en = "I'd like to try a Japanese whisky"
+ru = "Хочу попробовать японский виски"
+uk = "Хочу спробувати японське віскі"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "hear"
+ja = "飲[の]み方[かた]はどうなさいますか"
+en = "How would you like it?"
+ru = "Как подать?"
+uk = "Як подати?"
+casual = "飲[の]み方[かた]は？"
+
+[[phrase.answers]]
+ja = "ロックで"
+en = "On the rocks"
+ru = "Со льдом"
+uk = "З льодом"
+
+[[phrase.answers]]
+ja = "ストレートで"
+en = "Neat"
+ru = "Чистый"
+uk = "Чисте"
+
+[[phrase.answers]]
+ja = "水割[みずわ]りで"
+en = "With water"
+ru = "С водой"
+uk = "З водою"
+
+[[phrase.answers]]
+ja = "ハイボールで"
+en = "As a highball (with soda)"
+ru = "Хайболом (с содовой)"
+uk = "Хайболом (із содовою)"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "甘[あま]くないカクテルをお願[ねが]いします"
+en = "A cocktail that isn't sweet, please"
+ru = "Несладкий коктейль, пожалуйста"
+uk = "Несолодкий коктейль, будь ласка"
+casual = "甘[あま]くないのがいい"
+note = "Light = 軽[かる]め, strong = 強[つよ]め."
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "お酒[さけ]は弱[よわ]いです"
+en = "I can't hold my drink"
+ru = "Я быстро пьянею"
+uk = "Я швидко п'янію"
+casual = "お酒[さけ]弱[よわ]いんだ"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "最後[さいご]に一杯[いっぱい]だけお願[ねが]いします"
+en = "Just one last drink, please"
+ru = "Последний бокал, пожалуйста"
+uk = "Останній келих, будь ласка"
+casual = "最後[さいご]の一杯[いっぱい]！"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "say"
+ja = "もう一軒[いっけん]行[い]きませんか"
+en = "Shall we go to one more place?"
+ru = "Пойдём ещё куда-нибудь?"
+uk = "Підемо ще кудись?"
+casual = "もう一軒[いっけん]行[い]こう！"
+
+[[phrase.answers]]
+ja = "いいですね！"
+en = "Sure!"
+ru = "Давайте!"
+uk = "Давайте!"
+
+[[phrase.answers]]
+ja = "明日[あした]早[はや]いので、今日[きょう]はこれで失礼[しつれい]します"
+en = "I'm up early tomorrow, so I'll head off"
+ru = "Завтра рано вставать, я пойду"
+uk = "Завтра рано вставати, я піду"
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "hear"
+ja = "お隣[となり]、よろしいですか"
+en = "May I sit next to you?"
+ru = "Можно рядом?"
+uk = "Можна поруч?"
+casual = "隣[となり]いい？"
+answers = [
+    { ja = "どうぞ", en = "Go ahead", ru = "Пожалуйста", uk = "Будь ласка" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Bars"
+kind = "tip"
+note = "Some small bars are regulars-only (一見[いちげん]さんお断[ことわ]り, 'no first-time guests'). If staff say 会員制[かいいんせい]です (members only), just say 失礼[しつれい]しました and leave."
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "say"
+ja = "ホットコーヒーをお願[ねが]いします"
+en = "A hot coffee, please"
+ru = "Горячий кофе, пожалуйста"
+uk = "Гарячу каву, будь ласка"
+casual = "ホットで"
+note = "Iced = アイスコーヒー. Just saying ホット or アイス after the drink name works."
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "hear"
+ja = "店内[てんない]でお召[め]し上[あ]がりですか"
+en = "For here?"
+ru = "Здесь будете?"
+uk = "Тут будете?"
+casual = "店内[てんない]で？"
+note = "Also: こちらでお召[め]し上[あ]がりですか、お持[も]ち帰[かえ]りですか."
+answers = [
+    { ja = "店内[てんない]で", en = "For here", ru = "Здесь", uk = "Тут" },
+    { ja = "持[も]ち帰[かえ]りで", en = "To go", ru = "С собой", uk = "З собою" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "hear"
+ja = "サイズはいかがなさいますか"
+en = "What size?"
+ru = "Какой размер?"
+uk = "Який розмір?"
+casual = "サイズは？"
+answers = [
+    { ja = "Mでお願[ねが]いします", en = "Medium, please", ru = "Средний", uk = "Середній" },
+    { ja = "一番小[いちばんちい]さいので", en = "The smallest", ru = "Самый маленький", uk = "Найменший" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "hear"
+ja = "お砂糖[さとう]とミルクはお使[つか]いになりますか"
+en = "Sugar and milk?"
+ru = "Сахар и молоко нужны?"
+uk = "Цукор і молоко потрібні?"
+casual = "砂糖[さとう]とミルクいる？"
+answers = [
+    { ja = "いりません", en = "No thanks", ru = "Не нужно", uk = "Не треба" },
+    { ja = "ミルクだけお願[ねが]いします", en = "Just milk", ru = "Только молоко", uk = "Тільки молоко" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "say"
+ja = "オーツミルクに変更[へんこう]できますか"
+en = "Can I change to oat milk?"
+ru = "Можно на овсяном молоке?"
+uk = "Можна на вівсяному молоці?"
+casual = "オーツミルクにできる？"
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "say"
+ja = "コンセントは使[つか]えますか"
+en = "Can I use the power outlet?"
+ru = "Можно зарядиться?"
+uk = "Можна зарядитися?"
+casual = "コンセント使[つか]える？"
+
+[[phrase]]
+topic = "food"
+section = "Cafés"
+kind = "say"
+ja = "ここで少[すこ]し仕事[しごと]をしてもいいですか"
+en = "Is it OK to work here for a while?"
+ru = "Можно здесь немного поработать?"
+uk = "Можна тут трохи попрацювати?"
+casual = "ここで作業[さぎょう]していい？"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "お会計[かいけい]をお願[ねが]いします"
+en = "The bill, please"
+ru = "Счёт, пожалуйста"
+uk = "Рахунок, будь ласка"
+casual = "お会計[かいけい]で"
+level = "standard"
+note = "Safe everywhere."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "お勘定[かんじょう]をお願[ねが]いします"
+en = "The bill, please"
+ru = "Рассчитайте, пожалуйста"
+uk = "Розрахуйте, будь ласка"
+casual = "お勘定[かんじょう]"
+level = "izakaya"
+note = "Slightly old-school; sounds natural at izakaya and sushi counters."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "チェックお願[ねが]いします"
+en = "Check, please"
+ru = "Счёт, пожалуйста"
+uk = "Рахунок, будь ласка"
+casual = "チェックで"
+level = "casual"
+note = "Cafés and bars. Gesture: cross two index fingers into an X."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "ごちそうさまでした"
+en = "Thank you for the meal (when leaving)"
+ru = "Спасибо, было вкусно"
+uk = "Дякую, було смачно"
+casual = "ごちそうさま！"
+note = "Say it to staff or the chef on your way out. They'll answer ありがとうございました."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "別々[べつべつ]でお願[ねが]いします"
+en = "Separate bills, please"
+ru = "Раздельно, пожалуйста"
+uk = "Окремо, будь ласка"
+casual = "別々[べつべつ]で"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "まとめてお願[ねが]いします"
+en = "All together, please"
+ru = "Вместе, пожалуйста"
+uk = "Разом, будь ласка"
+casual = "まとめて"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "カードは使[つか]えますか"
+en = "Do you take cards?"
+ru = "Карты принимаете?"
+uk = "Картки приймаєте?"
+casual = "カード使[つか]える？"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "say"
+ja = "領収書[りょうしゅうしょ]をいただけますか"
+en = "Could I have a receipt?"
+ru = "Можно чек (квитанцию)?"
+uk = "Можна квитанцію?"
+casual = "領収書[りょうしゅうしょ]ください"
+note = "領収書[りょうしゅうしょ] = formal receipt for expenses. Ordinary receipt = レシート."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "お会計[かいけい]はレジでお願[ねが]いします"
+en = "Please pay at the register"
+ru = "Оплата на кассе"
+uk = "Оплата на касі"
+note = "Take the bill slip (伝票[でんぴょう]) from your table to the register."
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "お会計[かいけい]はご一緒[いっしょ]でよろしいですか"
+en = "All on one bill?"
+ru = "Вместе считать?"
+uk = "Разом рахувати?"
+casual = "一緒[いっしょ]でいい？"
+answers = [
+    { ja = "はい、一緒[いっしょ]で", en = "Yes, together", ru = "Да, вместе", uk = "Так, разом" },
+    { ja = "別々[べつべつ]でお願[ねが]いします", en = "Separately, please", ru = "Раздельно", uk = "Окремо" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "お支払[しはら]いは現金[げんきん]ですか、カードですか"
+en = "Cash or card?"
+ru = "Наличными или картой?"
+uk = "Готівкою чи карткою?"
+answers = [
+    { ja = "カードで", en = "Card", ru = "Картой", uk = "Карткою" },
+    { ja = "現金[げんきん]で", en = "Cash", ru = "Наличными", uk = "Готівкою" },
+    { ja = "PayPayで", en = "PayPay (QR)", ru = "Через PayPay", uk = "Через PayPay" },
+]
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "3,000円[えん]になります"
+en = "That comes to 3,000 yen"
+ru = "С вас 3000 иен"
+uk = "З вас 3000 єн"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "現金[げんきん]のみです"
+en = "Cash only"
+ru = "Только наличные"
+uk = "Тільки готівка"
+casual = "現金[げんきん]だけ"
+
+[[phrase.answers]]
+ja = "近[ちか]くにATMはありますか"
+en = "Is there an ATM nearby?"
+ru = "Рядом есть банкомат?"
+uk = "Поруч є банкомат?"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "hear"
+ja = "500円[えん]のお返[かえ]しです"
+en = "Here's 500 yen change"
+ru = "Ваша сдача 500 иен"
+uk = "Ваша решта 500 єн"
+
+[[phrase]]
+topic = "food"
+section = "Paying · several ways"
+kind = "tip"
+note = "No tipping, anywhere. Leaving money on the table means staff will chase you to return it. Put cash on the small tray (カルトン) rather than handing it over."
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "say"
+ja = "卵[たまご]アレルギーがあります"
+en = "I'm allergic to eggs"
+ru = "У меня аллергия на яйца"
+uk = "У мене алергія на яйця"
+casual = "卵[たまご]アレルギーなんです"
+note = "Swap the word: see the allergen list below."
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "say"
+ja = "これに卵[たまご]は入[はい]っていますか"
+en = "Does this contain egg?"
+ru = "Здесь есть яйцо?"
+uk = "Тут є яйце?"
+casual = "これ卵[たまご]入[はい]ってる？"
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "say"
+ja = "アレルギー表[ひょう]はありますか"
+en = "Do you have an allergen chart?"
+ru = "Есть таблица аллергенов?"
+uk = "Є таблиця алергенів?"
+casual = "アレルギー表[ひょう]ある？"
+note = "Chains (and most konbini) have one. Ask for it rather than relying on verbal answers."
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "say"
+ja = "ごく少量[しょうりょう]でも食[た]べられません"
+en = "I can't eat even a tiny amount"
+ru = "Нельзя даже совсем немного"
+uk = "Не можна навіть трошки"
+casual = "ちょっとでもダメなんです"
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "say"
+ja = "ナッツ類[るい]を使[つか]わずに作[つく]れますか"
+en = "Can you make it without nuts?"
+ru = "Можно приготовить без орехов?"
+uk = "Можна приготувати без горіхів?"
+casual = "ナッツなしで作[つく]れる？"
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "hear"
+ja = "確認[かくにん]してまいります"
+en = "I'll go and check"
+ru = "Сейчас уточню"
+uk = "Зараз уточню"
+casual = "確認[かくにん]するね"
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "hear"
+ja = "入[はい]っています / 入[はい]っていません"
+en = "It contains it / It doesn't"
+ru = "Есть / Нет"
+uk = "Є / Немає"
+casual = "入[はい]ってる / 入[はい]ってない"
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "hear"
+ja = "同[おな]じ厨房[ちゅうぼう]で扱[あつか]っています"
+en = "It's handled in the same kitchen"
+ru = "Готовится на той же кухне"
+uk = "Готується на тій самій кухні"
+note = "Cross-contamination warning. If you're seriously allergic, take it seriously."
+
+[[phrase]]
+topic = "diet"
+section = "Allergies"
+kind = "hear"
+ja = "申[もう]し訳[わけ]ございませんが、対応[たいおう]できません"
+en = "Sorry, we can't accommodate that"
+ru = "К сожалению, мы не можем это учесть"
+uk = "На жаль, ми не можемо це врахувати"
+
+[[phrase.answers]]
+ja = "わかりました、ありがとうございます"
+en = "I see, thank you"
+ru = "Понятно, спасибо"
+uk = "Зрозуміло, дякую"
+
+[[phrase]]
+topic = "diet"
+section = "Allergen words"
+kind = "say"
+ja = "卵[たまご] · 乳製品[にゅうせいひん] · 小麦[こむぎ]"
+en = "egg · dairy · wheat"
+ru = "яйцо · молочное · пшеница"
+uk = "яйце · молочне · пшениця"
+note = "Soy sauce contains wheat."
+
+[[phrase]]
+topic = "diet"
+section = "Allergen words"
+kind = "say"
+ja = "ピーナッツ · ナッツ · ごま"
+en = "peanut · tree nuts · sesame"
+ru = "арахис · орехи · кунжут"
+uk = "арахіс · горіхи · кунжут"
+
+[[phrase]]
+topic = "diet"
+section = "Allergen words"
+kind = "say"
+ja = "えび · かに · 貝[かい]"
+en = "shrimp · crab · shellfish"
+ru = "креветки · краб · моллюски"
+uk = "креветки · краб · молюски"
+note = "Crustaceans in general: 甲殻類[こうかくるい]."
+
+[[phrase]]
+topic = "diet"
+section = "Allergen words"
+kind = "say"
+ja = "そば · 魚[さかな] · 大豆[だいず]"
+en = "buckwheat · fish · soy"
+ru = "гречка · рыба · соя"
+uk = "гречка · риба · соя"
+note = "Soba is a common severe allergen here; shops often cook udon in the same water."
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "ベジタリアンです"
+en = "I'm vegetarian"
+ru = "Я вегетарианец(-ка)"
+uk = "Я вегетаріанець(-ка)"
+casual = "ベジタリアンなんだ"
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "肉[にく]と魚[さかな]を食[た]べません"
+en = "I don't eat meat or fish"
+ru = "Я не ем мясо и рыбу"
+uk = "Я не їм м'ясо і рибу"
+casual = "肉[にく]と魚[さかな]は食[た]べない"
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "お出汁[だし]にも魚[さかな]が入[はい]っていますか"
+en = "Is there fish in the broth too?"
+ru = "В бульоне тоже рыба?"
+uk = "У бульйоні теж риба?"
+casual = "出汁[だし]にも魚[さかな]入[はい]ってる？"
+note = "Most soups and sauces use bonito dashi, even 'vegetable' dishes."
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "豚肉[ぶたにく]が食[た]べられません"
+en = "I can't eat pork"
+ru = "Я не ем свинину"
+uk = "Я не їм свинину"
+casual = "豚肉[ぶたにく]ダメなんだ"
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "お酒[さけ]が飲[の]めません"
+en = "I don't drink alcohol"
+ru = "Я не пью алкоголь"
+uk = "Я не п'ю алкоголь"
+casual = "お酒[さけ]飲[の]めない"
+note = "ノンアルコール = non-alcoholic."
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "生[なま]ものが苦手[にがて]です"
+en = "I don't do well with raw food"
+ru = "Я не очень люблю сырое"
+uk = "Я не дуже люблю сире"
+casual = "生[なま]もの苦手[にがて]"
+note = "苦手[にがて] = 'not my thing'. Softer and more polite than 嫌[きら]い (hate)."
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "ネギ抜[ぬ]きにできますか"
+en = "Could you leave out the green onion?"
+ru = "Можно без зелёного лука?"
+uk = "Можна без зеленої цибулі?"
+casual = "ネギ抜[ぬ]きで"
+note = "Pattern: 〇〇抜[ぬ]き = without 〇〇."
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "辛[から]いのは苦手[にがて]です"
+en = "I can't handle spicy food"
+ru = "Я плохо переношу острое"
+uk = "Я погано переношу гостре"
+casual = "辛[から]いのダメ"
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "辛[から]めにできますか"
+en = "Can you make it spicier?"
+ru = "Можно поострее?"
+uk = "Можна гостріше?"
+casual = "辛[から]くできる？"
+
+[[phrase]]
+topic = "diet"
+section = "Preferences & diets"
+kind = "say"
+ja = "子供[こども]が食[た]べられる辛[から]くないものはありますか"
+en = "Anything mild that kids can eat?"
+ru = "Есть что-нибудь неострое для детей?"
+uk = "Є щось негостре для дітей?"
+casual = "子供[こども]向[む]けの辛[から]くないのある？"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "魚[さかな]はマグロとサーモンしか食[た]べられません"
+en = "For fish, I only eat tuna and salmon"
+ru = "Из рыбы я ем только тунца и лосося"
+uk = "З риби я їм тільки тунця й лосося"
+casual = "魚[さかな]はマグロとサーモンだけ"
+note = "Pattern: 〇〇しか食[た]べられません = I can eat only 〇〇. Swap in any item from the word lists below."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "それ以外[いがい]の魚[さかな]は食[た]べられません"
+en = "I can't eat any other fish"
+ru = "Другую рыбу я не ем"
+uk = "Іншу рибу я не їм"
+casual = "ほかの魚[さかな]はダメ"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "魚介類[ぎょかいるい]が食[た]べられません"
+en = "I can't eat seafood"
+ru = "Я не ем морепродукты"
+uk = "Я не їм морепродукти"
+casual = "魚介[ぎょかい]ダメなんだ"
+note = "魚介類[ぎょかいるい] covers fish and all seafood. To exclude only shellfish and similar: 貝[かい]、イカ、タコ、エビ、カニ."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "貝[かい]とイカとタコは食[た]べられません"
+en = "No shellfish, squid or octopus"
+ru = "Не ем моллюсков, кальмаров и осьминогов"
+uk = "Не їм молюсків, кальмарів і восьминогів"
+casual = "貝[かい]とイカとタコはダメ"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "魚卵[ぎょらん]は苦手[にがて]です"
+en = "I don't like fish roe"
+ru = "Не люблю икру"
+uk = "Не люблю ікру"
+casual = "魚卵[ぎょらん]は苦手[にがて]"
+note = "Roe: イクラ (salmon), たらこ / 明太子[めんたいこ] (pollock), 数[かず]の子[こ] (herring), とびこ (flying fish)."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "光[ひか]り物[もの]は苦手[にがて]です"
+en = "I don't like oily silver fish (mackerel, sardine, horse mackerel)"
+ru = "Не люблю «серебристую» рыбу (скумбрия, сардина, ставрида)"
+uk = "Не люблю «сріблясту» рибу (скумбрія, сардина, ставрида)"
+casual = "光[ひか]り物[もの]は苦手[にがて]"
+note = "Sushi term for silver-skinned fish: 鯖[さば], 鯵[あじ], 鰯[いわし], こはだ."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "肉[にく]は鶏肉[とりにく]しか食[た]べられません"
+en = "For meat, I only eat chicken"
+ru = "Из мяса я ем только курицу"
+uk = "З м'яса я їм тільки курку"
+casual = "肉[にく]は鶏[とり]だけ"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "牛肉[ぎゅうにく]は食[た]べません"
+en = "I don't eat beef"
+ru = "Я не ем говядину"
+uk = "Я не їм яловичину"
+casual = "牛[ぎゅう]は食[た]べない"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "ベーコンやハムも食[た]べません"
+en = "No bacon or ham either"
+ru = "Бекон и ветчину тоже не ем"
+uk = "Бекон і шинку теж не їм"
+casual = "ベーコンとかハムもダメ"
+note = "Worth saying explicitly: salads, pizza toast and fried rice often have them."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · what you eat"
+kind = "say"
+ja = "火[ひ]が通[とお]っていれば食[た]べられます"
+en = "I can eat it if it's cooked through"
+ru = "Если хорошо приготовлено, можно"
+uk = "Якщо добре приготовано, можна"
+casual = "焼[や]いてあれば大丈夫[だいじょうぶ]"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "これは何[なん]の魚[さかな]ですか"
+en = "What fish is this?"
+ru = "Что это за рыба?"
+uk = "Що це за риба?"
+casual = "これ何[なん]の魚[さかな]？"
+answers = [
+    { ja = "マグロです", en = "It's tuna", ru = "Тунец", uk = "Тунець" },
+    { ja = "鯛[たい]です", en = "Sea bream", ru = "Морской лещ (тай)", uk = "Морський лящ (тай)" },
+    { ja = "ブリです", en = "Yellowtail", ru = "Желтохвост (бури)", uk = "Жовтохвіст (бурі)" },
+]
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "これは何[なん]のお肉[にく]ですか"
+en = "What meat is this?"
+ru = "Что это за мясо?"
+uk = "Що це за м'ясо?"
+casual = "これ何[なん]の肉[にく]？"
+answers = [
+    { ja = "豚肉[ぶたにく]です", en = "Pork", ru = "Свинина", uk = "Свинина" },
+    { ja = "鶏肉[とりにく]です", en = "Chicken", ru = "Курица", uk = "Курка" },
+    { ja = "牛肉[ぎゅうにく]です", en = "Beef", ru = "Говядина", uk = "Яловичина" },
+]
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "この料理[りょうり]に魚介類[ぎょかいるい]は入[はい]っていますか"
+en = "Is there any seafood in this dish?"
+ru = "В этом блюде есть морепродукты?"
+uk = "У цій страві є морепродукти?"
+casual = "これ魚介[ぎょかい]入[はい]ってる？"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "お肉[にく]が入[はい]っていない料理[りょうり]はありますか"
+en = "Do you have dishes without meat?"
+ru = "Есть блюда без мяса?"
+uk = "Є страви без м'яса?"
+casual = "肉[にく]なしの料理[りょうり]ある？"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "スープに肉[にく]や魚[さかな]のだしは使[つか]っていますか"
+en = "Is the soup made with meat or fish stock?"
+ru = "Бульон на мясе или рыбе?"
+uk = "Бульйон на м'ясі чи рибі?"
+casual = "スープに肉[にく]とか魚[さかな]のだし入[はい]ってる？"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "鰹節[かつおぶし]なしにできますか"
+en = "Can you leave off the bonito flakes?"
+ru = "Можно без стружки тунца (кацуобуси)?"
+uk = "Можна без стружки тунця (кацуобусі)?"
+casual = "鰹節[かつおぶし]なしで"
+note = "The dancing flakes on okonomiyaki, takoyaki, tofu and salads."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "マグロとサーモンだけで握[にぎ]っていただけますか"
+en = "Could you make the sushi with only tuna and salmon?"
+ru = "Можно суши только с тунцом и лососем?"
+uk = "Можна суші тільки з тунцем і лососем?"
+casual = "マグロとサーモンだけでお願[ねが]い"
+note = "Sushi counter. Toppings are called ネタ."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "say"
+ja = "これを別[べつ]のネタに替[か]えていただけますか"
+en = "Could you swap this for a different topping?"
+ru = "Можно заменить на другую рыбу?"
+uk = "Можна замінити на іншу рибу?"
+casual = "これ別[べつ]のにできる？"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "hear"
+ja = "何[なに]か苦手[にがて]なものはございますか"
+en = "Is there anything you don't eat?"
+ru = "Есть что-то, чего вы не едите?"
+uk = "Є щось, чого ви не їсте?"
+casual = "苦手[にがて]なものある？"
+note = "Asked at omakase sushi and kaiseki dinners. Say it at the start, before the first piece."
+
+[[phrase.answers]]
+ja = "魚[さかな]はマグロとサーモンだけでお願[ねが]いします"
+en = "Only tuna and salmon for fish, please"
+ru = "Из рыбы только тунец и лосось, пожалуйста"
+uk = "З риби тільки тунець і лосось, будь ласка"
+
+[[phrase.answers]]
+ja = "貝類[かいるい]が食[た]べられません"
+en = "I can't eat shellfish"
+ru = "Я не ем моллюсков"
+uk = "Я не їм молюсків"
+
+[[phrase.answers]]
+ja = "特[とく]にありません"
+en = "Nothing in particular"
+ru = "Ничего такого"
+uk = "Нічого такого"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "hear"
+ja = "鶏[とり]がらスープを使[つか]っています"
+en = "It's made with chicken stock"
+ru = "Сварено на курином бульоне"
+uk = "Зварено на курячому бульйоні"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "hear"
+ja = "魚介系[ぎょかいけい]のスープです"
+en = "It's a seafood-based broth"
+ru = "Бульон на основе морепродуктов"
+uk = "Бульйон на основі морепродуктів"
+note = "Common in ramen, even ones that look like plain shoyu."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "hear"
+ja = "お肉[にく]は豚[ぶた]と鶏[とり]、どちらになさいますか"
+en = "Pork or chicken?"
+ru = "Свинину или курицу?"
+uk = "Свинину чи курку?"
+casual = "肉[にく]は豚[ぶた]と鶏[とり]、どっち？"
+
+[[phrase.answers]]
+ja = "鶏[とり]でお願[ねが]いします"
+en = "Chicken, please"
+ru = "Курицу, пожалуйста"
+uk = "Курку, будь ласка"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · asking about a dish"
+kind = "hear"
+ja = "ネタはお任[まか]せでよろしいですか"
+en = "Is the chef's choice of fish OK?"
+ru = "Рыбу на выбор шефа, хорошо?"
+uk = "Рибу на вибір шефа, добре?"
+
+[[phrase.answers]]
+ja = "マグロとサーモン以外[いがい]は食[た]べられないんです"
+en = "I can't eat anything except tuna and salmon"
+ru = "Я ем только тунца и лосося"
+uk = "Я їм тільки тунця й лосося"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "牛肉[ぎゅうにく] · 豚肉[ぶたにく] · 鶏肉[とりにく] · 羊[ひつじ]（ラム）"
+en = "beef · pork · chicken · lamb"
+ru = "говядина · свинина · курица · баранина"
+uk = "яловичина · свинина · курка · баранина"
+casual = "牛[ぎゅう] · 豚[ぶた] · 鶏[とり]"
+note = "In dish names: 豚[とん]カツ, 牛丼[ぎゅうどん], 焼[や]き鳥[とり] (chicken), ジンギスカン (lamb)."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "ホルモン · レバー · タン"
+en = "offal · liver · tongue"
+ru = "субпродукты · печень · язык"
+uk = "субпродукти · печінка · язик"
+note = "Yakiniku and yakitori menus."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "マグロ · 赤身[あかみ] · トロ · ネギトロ"
+en = "tuna · lean tuna · fatty tuna · minced tuna with green onion"
+ru = "тунец · постный тунец · жирный тунец · тунец с зелёным луком"
+uk = "тунець · пісний тунець · жирний тунець · тунець із зеленою цибулею"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "サーモン · 鮭[さけ] · イクラ"
+en = "salmon (raw, sushi) · salmon (cooked) · salmon roe"
+ru = "лосось (сырой) · лосось (жареный) · красная икра"
+uk = "лосось (сирий) · лосось (смажений) · червона ікра"
+note = "Menus use サーモン for raw and 鮭[さけ] for grilled. Both are salmon."
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "鯛[たい] · ブリ / ハマチ · 鯖[さば] · 鯵[あじ] · 鰯[いわし]"
+en = "sea bream · yellowtail · mackerel · horse mackerel · sardine"
+ru = "морской лещ · желтохвост · скумбрия · ставрида · сардина"
+uk = "морський лящ · жовтохвіст · скумбрія · ставрида · сардина"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "鰻[うなぎ] · 穴子[あなご] · 白身魚[しろみざかな]"
+en = "freshwater eel · sea eel · white fish"
+ru = "речной угорь · морской угорь · белая рыба"
+uk = "річковий вугор · морський вугор · біла риба"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "エビ · カニ · イカ · タコ"
+en = "shrimp · crab · squid · octopus"
+ru = "креветка · краб · кальмар · осьминог"
+uk = "креветка · краб · кальмар · восьминіг"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "say"
+ja = "ホタテ · 牡蠣[かき] · アサリ · ウニ"
+en = "scallop · oyster · clam · sea urchin"
+ru = "гребешок · устрица · моллюск асари · морской ёж"
+uk = "гребінець · устриця · молюск асарі · морський їжак"
+
+[[phrase]]
+topic = "diet"
+section = "Meat, fish & seafood · words on menus"
+kind = "tip"
+note = "Many people in Japan don't count dashi, bonito flakes or fish sauce as 'fish', and ham or bacon as 'meat'. Ask about each one by name: だしは? 鰹節[かつおぶし]は? ハムは?"
+
+[[phrase]]
+topic = "diet"
+section = "Reacting to food"
+kind = "say"
+ja = "とても美味[おい]しいです"
+en = "It's delicious"
+ru = "Очень вкусно"
+uk = "Дуже смачно"
+casual = "めっちゃ美味[おい]しい！ / うまい！"
+note = "うまい is casual and more common among men."
+
+[[phrase]]
+topic = "diet"
+section = "Reacting to food"
+kind = "say"
+ja = "お腹[なか]がいっぱいです"
+en = "I'm full"
+ru = "Я наелся(-лась)"
+uk = "Я наївся(-лася)"
+casual = "お腹[なか]いっぱい"
+
+[[phrase]]
+topic = "diet"
+section = "Reacting to food"
+kind = "say"
+ja = "初[はじ]めて食[た]べました"
+en = "It's my first time eating this"
+ru = "Ем это впервые"
+uk = "Їм це вперше"
+casual = "初[はじ]めて食[た]べた！"
+
+[[phrase]]
+topic = "diet"
+section = "Reacting to food"
+kind = "hear"
+ja = "お口[くち]に合[あ]いましたか"
+en = "Did you enjoy it?"
+ru = "Понравилось?"
+uk = "Сподобалося?"
+casual = "美味[おい]しかった？"
+
+[[phrase.answers]]
+ja = "はい、とても美味[おい]しかったです"
+en = "Yes, it was delicious"
+ru = "Да, очень вкусно"
+uk = "Так, дуже смачно"
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "袋[ふくろ]はご利用[りよう]ですか"
+en = "Do you need a bag?"
+ru = "Пакет нужен?"
+uk = "Пакет потрібен?"
+casual = "袋[ふくろ]いる？"
+note = "Bags cost 3–5 yen. Also heard: レジ袋[ふくろ]はいりますか."
+answers = [
+    { ja = "大丈夫[だいじょうぶ]です", en = "No thanks", ru = "Не нужно", uk = "Не треба" },
+    { ja = "お願[ねが]いします", en = "Yes, please", ru = "Да, пожалуйста", uk = "Так, будь ласка" },
+]
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "お弁当[べんとう]、温[あたた]めますか"
+en = "Shall I heat the bento?"
+ru = "Подогреть бенто?"
+uk = "Підігріти бенто?"
+casual = "温[あたた]める？"
+answers = [
+    { ja = "はい、お願[ねが]いします", en = "Yes, please", ru = "Да", uk = "Так" },
+    { ja = "そのままで大丈夫[だいじょうぶ]です", en = "No, as it is", ru = "Не нужно", uk = "Не треба" },
+]
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "お箸[はし]はおつけしますか"
+en = "Would you like chopsticks?"
+ru = "Палочки положить?"
+uk = "Паличок покласти?"
+casual = "お箸[はし]いる？"
+note = "Spoon = スプーン, fork = フォーク, wet towel = おしぼり."
+answers = [
+    { ja = "一膳[いちぜん]お願[ねが]いします", en = "One pair, please", ru = "Одну пару", uk = "Одну пару" },
+    { ja = "二膳[にぜん]お願[ねが]いします", en = "Two pairs", ru = "Две пары", uk = "Дві пари" },
+    { ja = "いりません", en = "No need", ru = "Не нужно", uk = "Не треба" },
+]
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "袋[ふくろ]、分[わ]けますか"
+en = "Shall I bag them separately?"
+ru = "Разложить по разным пакетам?"
+uk = "Розкласти в різні пакети?"
+note = "Usually hot and cold items."
+
+[[phrase.answers]]
+ja = "一緒[いっしょ]で大丈夫[だいじょうぶ]です"
+en = "Together is fine"
+ru = "Можно вместе"
+uk = "Можна разом"
+
+[[phrase.answers]]
+ja = "分[わ]けてください"
+en = "Separately, please"
+ru = "Отдельно, пожалуйста"
+uk = "Окремо, будь ласка"
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "ポイントカードはお持[も]ちですか"
+en = "Do you have a points card?"
+ru = "У вас есть карта лояльности?"
+uk = "У вас є картка лояльності?"
+casual = "ポイントカードある？"
+answers = [
+    { ja = "持[も]っていません", en = "I don't", ru = "Нет", uk = "Немає" },
+    { ja = "大丈夫[だいじょうぶ]です", en = "No thanks", ru = "Не нужно", uk = "Не треба" },
+]
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "お支払[しはら]い方法[ほうほう]はいかがなさいますか"
+en = "How would you like to pay?"
+ru = "Как будете оплачивать?"
+uk = "Як будете платити?"
+casual = "払[はら]い方[かた]は？"
+
+[[phrase.answers]]
+ja = "交通系[こうつうけい]ICで"
+en = "With my transit IC card (Suica/Pasmo)"
+ru = "Транспортной картой (Suica/Pasmo)"
+uk = "Транспортною карткою (Suica/Pasmo)"
+
+[[phrase.answers]]
+ja = "カードで"
+en = "Card"
+ru = "Картой"
+uk = "Карткою"
+
+[[phrase.answers]]
+ja = "現金[げんきん]で"
+en = "Cash"
+ru = "Наличными"
+uk = "Готівкою"
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "画面[がめん]をタッチしてください"
+en = "Please tap the screen"
+ru = "Нажмите на экран"
+uk = "Натисніть на екран"
+note = "You choose the payment method yourself on the customer screen."
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "年齢確認[ねんれいかくにん]のボタンを押[お]してください"
+en = "Please press the age confirmation button"
+ru = "Нажмите кнопку подтверждения возраста"
+uk = "Натисніть кнопку підтвердження віку"
+note = "For alcohol and tobacco. Press はい on the screen."
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "1,000円[えん]お預[あず]かりします"
+en = "I'll take 1,000 yen"
+ru = "Принимаю 1000 иен"
+uk = "Приймаю 1000 єн"
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "レシートはご利用[りよう]ですか"
+en = "Do you need the receipt?"
+ru = "Чек нужен?"
+uk = "Чек потрібен?"
+casual = "レシートいる？"
+answers = [
+    { ja = "大丈夫[だいじょうぶ]です", en = "No thanks", ru = "Не нужно", uk = "Не треба" },
+    { ja = "はい、お願[ねが]いします", en = "Yes, please", ru = "Да", uk = "Так" },
+]
+
+[[phrase]]
+topic = "shop"
+section = "At the register: what you'll hear"
+kind = "hear"
+ja = "こちら、お箸[はし]とおしぼりです"
+en = "Here are chopsticks and a wet towel"
+ru = "Вот палочки и салфетка"
+uk = "Ось палички і серветка"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "牛乳[ぎゅうにゅう]はどこにありますか"
+en = "Where is the milk?"
+ru = "Где молоко?"
+uk = "Де молоко?"
+casual = "牛乳[ぎゅうにゅう]どこ？"
+note = "Swap the item: パン bread, 卵[たまご] eggs, お米[こめ] rice, 水[みず] water, 電池[でんち] batteries."
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "これはいくらですか"
+en = "How much is this?"
+ru = "Сколько это стоит?"
+uk = "Скільки це коштує?"
+casual = "これいくら？"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "これを温[あたた]めていただけますか"
+en = "Could you heat this up?"
+ru = "Можете подогреть?"
+uk = "Можете підігріти?"
+casual = "これ温[あたた]めて"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "袋[ふくろ]をください"
+en = "A bag, please"
+ru = "Пакет, пожалуйста"
+uk = "Пакет, будь ласка"
+casual = "袋[ふくろ]ください"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "試食[ししょく]してもいいですか"
+en = "Can I try a sample?"
+ru = "Можно попробовать?"
+uk = "Можна скуштувати?"
+casual = "味見[あじみ]していい？"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "これの小[ちい]さいサイズはありますか"
+en = "Is there a smaller size?"
+ru = "Есть меньшего размера?"
+uk = "Є меншого розміру?"
+casual = "小[ちい]さいのある？"
+
+[[phrase]]
+topic = "shop"
+section = "What you can ask"
+kind = "say"
+ja = "免税[めんぜい]できますか"
+en = "Is tax-free available?"
+ru = "Можно без налога (tax-free)?"
+uk = "Можна без податку (tax-free)?"
+casual = "免税[めんぜい]できる？"
+note = "Drugstores and big shops. Bring your passport; usually 5,000 yen minimum."
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "税込[ぜいこみ] / 税抜[ぜいぬき]"
+en = "Tax included / before tax"
+ru = "С налогом / без налога"
+uk = "З податком / без податку"
+note = "Shelf tags often show the before-tax price large. Food tax is 8%, most other things 10%."
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "半額[はんがく] · 割引[わりびき] · 値引[ねび]き"
+en = "Half price · discount · marked down"
+ru = "Полцены · скидка · уценка"
+uk = "Пів ціни · знижка · уцінка"
+note = "Supermarket bento and sushi get discount stickers in the evening, often from 7–8 pm."
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "賞味期限[しょうみきげん] / 消費期限[しょうひきげん]"
+en = "Best before / Use by"
+ru = "Лучше до / Употребить до"
+uk = "Найкраще до / Вжити до"
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "お一人様[ひとりさま]一点限[いってんかぎ]り"
+en = "Limit one per customer"
+ru = "Не более одного в руки"
+uk = "Не більше одного в руки"
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "セルフレジ"
+en = "Self-checkout"
+ru = "Касса самообслуживания"
+uk = "Каса самообслуговування"
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "say"
+ja = "要冷蔵[ようれいぞう] · 冷凍[れいとう]"
+en = "Keep refrigerated · frozen"
+ru = "Хранить в холодильнике · заморожено"
+uk = "Зберігати в холодильнику · заморожене"
+
+[[phrase]]
+topic = "shop"
+section = "Labels & signs"
+kind = "tip"
+note = "Put money and cards on the tray at the register. Don't eat while walking in busy areas; konbini often have an eat-in corner (イートイン). Rubbish bins are rare outside, so carry your trash or use the konbini bins."
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "入場券[にゅうじょうけん]はどこで買[か]えますか"
+en = "Where can I buy admission tickets?"
+ru = "Где купить входные билеты?"
+uk = "Де купити вхідні квитки?"
+casual = "チケットどこで買[か]える？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "入場料[にゅうじょうりょう]はいくらですか"
+en = "How much is admission?"
+ru = "Сколько стоит вход?"
+uk = "Скільки коштує вхід?"
+casual = "入場料[にゅうじょうりょう]いくら？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "子供[こども]料金[りょうきん]はありますか"
+en = "Is there a child price?"
+ru = "Есть детский билет?"
+uk = "Є дитячий квиток?"
+casual = "子供[こども]料金[りょうきん]ある？"
+note = "Signs: 小学生[しょうがくせい] elementary-school age, 中学生[ちゅうがくせい] middle-school age, 未就学児[みしゅうがくじ] preschoolers (often free), 無料[むりょう] free."
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "学生割引[がくせいわりびき]はありますか"
+en = "Is there a student discount?"
+ru = "Есть скидка для студентов?"
+uk = "Є знижка для студентів?"
+casual = "学割[がくわり]ある？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "当日券[とうじつけん]はありますか"
+en = "Are there same-day tickets?"
+ru = "Есть билеты на сегодня?"
+uk = "Є квитки на сьогодні?"
+casual = "当日券[とうじつけん]ある？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "予約[よやく]が必要[ひつよう]ですか"
+en = "Do I need a reservation?"
+ru = "Нужно бронировать заранее?"
+uk = "Потрібно бронювати заздалегідь?"
+casual = "予約[よやく]いる？"
+note = "Popular places (Ghibli Museum, teamLab, special exhibitions) often sell timed tickets online only: 日時指定[にちじしてい]."
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "日時指定券[にちじしていけん]を持[も]っています"
+en = "I have a timed-entry ticket"
+ru = "У меня билет на определённое время"
+uk = "У мене квиток на визначений час"
+casual = "予約[よやく]してあるよ"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "再入場[さいにゅうじょう]はできますか"
+en = "Can I re-enter?"
+ru = "Можно выйти и вернуться?"
+uk = "Можна вийти й повернутися?"
+casual = "再入場[さいにゅうじょう]できる？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "say"
+ja = "荷物[にもつ]を預[あず]けるところはありますか"
+en = "Is there a cloakroom or lockers?"
+ru = "Есть камера хранения?"
+uk = "Є камера схову?"
+casual = "コインロッカーある？"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "hear"
+ja = "チケットを拝見[はいけん]します"
+en = "May I see your ticket?"
+ru = "Покажите билет"
+uk = "Покажіть квиток"
+casual = "チケット見[み]せて"
+
+[[phrase.answers]]
+ja = "はい、どうぞ"
+en = "Here you are"
+ru = "Вот, пожалуйста"
+uk = "Ось, будь ласка"
+
+[[phrase.answers]]
+ja = "スマホの画面[がめん]でもいいですか"
+en = "Is it OK on my phone screen?"
+ru = "Можно с экрана телефона?"
+uk = "Можна з екрана телефону?"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "hear"
+ja = "本日[ほんじつ]の分[ぶん]は完売[かんばい]しました"
+en = "Today's tickets are sold out"
+ru = "Билеты на сегодня распроданы"
+uk = "Квитки на сьогодні розпродані"
+casual = "今日[きょう]のは売[う]り切[き]れ"
+
+[[phrase.answers]]
+ja = "明日[あした]の分[ぶん]はありますか"
+en = "Are there any for tomorrow?"
+ru = "А на завтра есть?"
+uk = "А на завтра є?"
+
+[[phrase.answers]]
+ja = "キャンセル待[ま]ちはできますか"
+en = "Can I wait for cancellations?"
+ru = "Можно подождать возвратов?"
+uk = "Можна почекати на повернення?"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "hear"
+ja = "最終入場[さいしゅうにゅうじょう]は16時半[じはん]です"
+en = "Last entry is at 4:30"
+ru = "Последний вход в 16:30"
+uk = "Останній вхід о 16:30"
+
+[[phrase.answers]]
+ja = "閉館[へいかん]は何時[なんじ]ですか"
+en = "What time do you close?"
+ru = "Во сколько закрываетесь?"
+uk = "О котрій зачиняєтеся?"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "hear"
+ja = "再入場[さいにゅうじょう]はできません"
+en = "No re-entry"
+ru = "Повторный вход невозможен"
+uk = "Повторний вхід неможливий"
+
+[[phrase]]
+topic = "culture"
+section = "Tickets & entry"
+kind = "hear"
+ja = "本人確認[ほんにんかくにん]のため、身分証[みぶんしょう]をお願[ねが]いします"
+en = "ID check, please show your ID"
+ru = "Проверка личности, покажите документ"
+uk = "Перевірка особи, покажіть документ"
+note = "Big concerts often check that the ticket holder is the person attending. Tickets are usually non-transferable."
+
+[[phrase.answers]]
+ja = "パスポートでいいですか"
+en = "Is a passport OK?"
+ru = "Паспорт подойдёт?"
+uk = "Паспорт підійде?"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "今[いま]、どんな展示[てんじ]をやっていますか"
+en = "What exhibitions are on now?"
+ru = "Какие сейчас выставки?"
+uk = "Які зараз виставки?"
+casual = "今[いま]何[なん]の展示[てんじ]やってる？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "特別展[とくべつてん]は別[べつ]のチケットですか"
+en = "Is the special exhibition a separate ticket?"
+ru = "На спецвыставку отдельный билет?"
+uk = "На спецвиставку окремий квиток?"
+casual = "特別展[とくべつてん]は別料金[べつりょうきん]？"
+note = "特別展[とくべつてん] = special (temporary) exhibition; 常設展[じょうせつてん] = permanent collection."
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "今日[きょう]は何時[なんじ]まで開[あ]いていますか"
+en = "Until what time are you open today?"
+ru = "До скольки вы сегодня открыты?"
+uk = "До котрої ви сьогодні відчинені?"
+casual = "何時[なんじ]まで？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "休館日[きゅうかんび]はいつですか"
+en = "Which day are you closed?"
+ru = "В какой день выходной?"
+uk = "Який день вихідний?"
+casual = "休[やす]みいつ？"
+note = "Many museums close on Mondays; when Monday is a holiday they close on Tuesday instead."
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "英語[えいご]のパンフレットはありますか"
+en = "Do you have an English leaflet?"
+ru = "Есть буклет на английском?"
+uk = "Є буклет англійською?"
+casual = "英語[えいご]のパンフある？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "音声[おんせい]ガイドはありますか"
+en = "Is there an audio guide?"
+ru = "Есть аудиогид?"
+uk = "Є аудіогід?"
+casual = "音声[おんせい]ガイドある？"
+note = "Many are in English and Chinese; some museums have a free app or QR codes instead."
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "ガイドツアーはありますか"
+en = "Are there guided tours?"
+ru = "Есть экскурсии с гидом?"
+uk = "Є екскурсії з гідом?"
+casual = "ガイドツアーある？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "一番[いちばん]の見[み]どころはどこですか"
+en = "What are the highlights?"
+ru = "Что самое интересное?"
+uk = "Що найцікавіше?"
+casual = "見[み]どころは？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "全部[ぜんぶ]見[み]るのにどのくらいかかりますか"
+en = "How long does it take to see everything?"
+ru = "Сколько времени нужно, чтобы всё посмотреть?"
+uk = "Скільки часу потрібно, щоб усе подивитися?"
+casual = "全部[ぜんぶ]見[み]るのにどのくらい？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "今夜[こんや]の演目[えんもく]は何[なん]ですか"
+en = "What's the programme tonight?"
+ru = "Какая сегодня программа?"
+uk = "Яка сьогодні програма?"
+casual = "今夜[こんや]何[なに]やるの？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "開演[かいえん]は何時[なんじ]ですか"
+en = "What time does it start?"
+ru = "Во сколько начало?"
+uk = "О котрій початок?"
+casual = "何時[なんじ]から？"
+note = "開場[かいじょう] doors open, 開演[かいえん] start, 終演[しゅうえん] end, 休憩[きゅうけい] intermission."
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "say"
+ja = "休憩[きゅうけい]はありますか"
+en = "Is there an intermission?"
+ru = "Будет антракт?"
+uk = "Буде антракт?"
+casual = "休憩[きゅうけい]ある？"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "hear"
+ja = "開場[かいじょう]は18時[じ]、開演[かいえん]は18時半[じはん]です"
+en = "Doors open at 6, the show starts at 6:30"
+ru = "Вход с 18:00, начало в 18:30"
+uk = "Вхід з 18:00, початок о 18:30"
+
+[[phrase]]
+topic = "culture"
+section = "What's on"
+kind = "hear"
+ja = "ただいま休憩中[きゅうけいちゅう]です。後半[こうはん]は15分後[ふんご]に始[はじ]まります"
+en = "It's the intermission. The second half starts in 15 minutes"
+ru = "Сейчас антракт. Второе отделение через 15 минут"
+uk = "Зараз антракт. Друга частина за 15 хвилин"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "ここで写真[しゃしん]を撮[と]ってもいいですか"
+en = "May I take photos here?"
+ru = "Здесь можно фотографировать?"
+uk = "Тут можна фотографувати?"
+casual = "ここ撮[と]っていい？"
+note = "Signs often split the rules: one room allows photos, the next doesn't. Look for the camera icon."
+
+[[phrase.answers]]
+ja = "撮影可[さつえいか]です"
+en = "Photos are allowed"
+ru = "Фотографировать можно"
+uk = "Фотографувати можна"
+
+[[phrase.answers]]
+ja = "撮影禁止[さつえいきんし]です"
+en = "No photos"
+ru = "Фотографировать нельзя"
+uk = "Фотографувати не можна"
+
+[[phrase.answers]]
+ja = "フラッシュなしならいいですよ"
+en = "OK without flash"
+ru = "Можно без вспышки"
+uk = "Можна без спалаху"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "フラッシュなしでもだめですか"
+en = "Not even without flash?"
+ru = "Даже без вспышки нельзя?"
+uk = "Навіть без спалаху не можна?"
+casual = "フラッシュなしでもダメ？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "動画[どうが]を撮[と]ってもいいですか"
+en = "May I film video?"
+ru = "Можно снимать видео?"
+uk = "Можна знімати відео?"
+casual = "動画[どうが]いい？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "スマホで翻訳[ほんやく]してもいいですか"
+en = "May I use my phone to translate?"
+ru = "Можно переводить с помощью телефона?"
+uk = "Можна перекладати за допомогою телефону?"
+casual = "スマホで翻訳[ほんやく]していい？"
+note = "In museums, using a translation app quietly is fine. Where photos are banned, don't use camera translation; type or speak instead. In concert halls, keep the phone off during the show."
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "説明[せつめい]を翻訳用[ほんやくよう]に撮[と]ってもいいですか"
+en = "May I photograph the caption to translate it?"
+ru = "Можно сфотографировать описание для перевода?"
+uk = "Можна сфотографувати опис для перекладу?"
+casual = "説明[せつめい]、翻訳[ほんやく]したいから撮[と]っていい？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "この作品[さくひん]の英語[えいご]の説明[せつめい]はありますか"
+en = "Is there an English description of this work?"
+ru = "Есть описание этой работы на английском?"
+uk = "Є опис цієї роботи англійською?"
+casual = "これ英語[えいご]の説明[せつめい]ある？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "中[なか]で飲[の]み物[もの]を飲[の]んでもいいですか"
+en = "Can I drink inside?"
+ru = "Внутри можно пить?"
+uk = "Усередині можна пити?"
+casual = "中[なか]で飲[の]んでいい？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "ベビーカーで入[はい]れますか"
+en = "Can we go in with a stroller?"
+ru = "Можно с коляской?"
+uk = "Можна з візочком?"
+casual = "ベビーカー大丈夫[だいじょうぶ]？"
+note = "Many museums lend strollers and have an elevator route: エレベーター."
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "say"
+ja = "ミュージアムショップはどこですか"
+en = "Where is the museum shop?"
+ru = "Где музейный магазин?"
+uk = "Де музейна крамниця?"
+casual = "ショップどこ？"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "撮影[さつえい]はご遠慮[えんりょ]ください"
+en = "Please refrain from taking photos"
+ru = "Просим не фотографировать"
+uk = "Просимо не фотографувати"
+casual = "撮[と]らないで"
+
+[[phrase.answers]]
+ja = "すみません、知[し]りませんでした"
+en = "Sorry, I didn't know"
+ru = "Извините, я не знал(а)"
+uk = "Перепрошую, я не знав(ла)"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "作品[さくひん]に触[さわ]らないでください"
+en = "Please don't touch the works"
+ru = "Не трогайте экспонаты"
+uk = "Не торкайтеся експонатів"
+casual = "触[さわ]らないで"
+answers = [
+    { ja = "失礼[しつれい]しました", en = "My apologies", ru = "Прошу прощения", uk = "Перепрошую" },
+]
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "携帯電話[けいたいでんわ]の電源[でんげん]をお切[き]りください"
+en = "Please switch off your phones"
+ru = "Пожалуйста, выключите телефоны"
+uk = "Будь ласка, вимкніть телефони"
+casual = "スマホ切[き]って"
+note = "Before concerts and theatre. マナーモード (silent) is often not enough: ringing and screen glow both count."
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "大[おお]きなお荷物[にもつ]はロッカーにお預[あず]けください"
+en = "Please leave large bags in the lockers"
+ru = "Крупные вещи оставьте в шкафчиках"
+uk = "Великі речі залиште в шафках"
+answers = [
+    { ja = "ロッカーはどこですか", en = "Where are the lockers?", ru = "Где шкафчики?", uk = "Де шафки?" },
+]
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "順路[じゅんろ]はこちらです"
+en = "The route goes this way"
+ru = "Маршрут осмотра здесь"
+uk = "Маршрут огляду тут"
+
+[[phrase]]
+topic = "culture"
+section = "Inside: photos, phones & rules"
+kind = "hear"
+ja = "列[れつ]の最後尾[さいこうび]はこちらです"
+en = "The end of the line is here"
+ru = "Конец очереди здесь"
+uk = "Кінець черги тут"
+casual = "列[れつ]の最後[さいご]はここ"
+note = "At popular shows and exhibitions, staff hold 最後尾[さいこうび] signs at the end of the queue."
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "この席[せき]はどこですか"
+en = "Where is this seat? (show ticket)"
+ru = "Где это место? (показать билет)"
+uk = "Де це місце? (показати квиток)"
+casual = "この席[せき]どこ？"
+note = "Seat parts: 階[かい] floor, 列[れつ] row, 番[ばん] number, 扉[とびら] door."
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "hear"
+ja = "お席[せき]はこちらです"
+en = "Your seat is here"
+ru = "Ваше место здесь"
+uk = "Ваше місце тут"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "hear"
+ja = "公演中[こうえんちゅう]の途中入場[とちゅうにゅうじょう]はできません"
+en = "No entry once the performance has started"
+ru = "После начала вход невозможен"
+uk = "Після початку вхід неможливий"
+
+[[phrase.answers]]
+ja = "休憩[きゅうけい]まで待[ま]ちます"
+en = "I'll wait until the intermission"
+ru = "Подожду до антракта"
+uk = "Почекаю до антракту"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "グッズ売[う]り場[ば]はどこですか"
+en = "Where is the merch stand?"
+ru = "Где продают мерч?"
+uk = "Де продають мерч?"
+casual = "グッズどこ？"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "イヤホンガイドを借[か]りたいです"
+en = "I'd like to rent the earphone guide"
+ru = "Хочу взять аудиогид"
+uk = "Хочу взяти аудіогід"
+casual = "イヤホンガイド借[か]りたい"
+note = "Kabuki and noh theatres rent English commentary guides; kabuki also has a subtitle tablet: 字幕[じまく]ガイド."
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "一幕見席[ひとまくみせき]はありますか"
+en = "Are there single-act tickets?"
+ru = "Есть билеты на один акт?"
+uk = "Є квитки на одну дію?"
+casual = "幕見[まくみ]ある？"
+note = "Kabukiza in Tokyo sells cheap tickets for one act on the day."
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "立[た]ち見[み]はありますか"
+en = "Are there standing tickets?"
+ru = "Есть стоячие места?"
+uk = "Є стоячі місця?"
+casual = "立[た]ち見[み]ある？"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "hear"
+ja = "本日[ほんじつ]は満員御礼[まんいんおんれい]です"
+en = "Today is a full house"
+ru = "Сегодня аншлаг"
+uk = "Сьогодні аншлаг"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "素晴[すば]らしかったです"
+en = "That was wonderful"
+ru = "Это было великолепно"
+uk = "Це було чудово"
+casual = "最高[さいこう]だった！"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "say"
+ja = "感動[かんどう]しました"
+en = "I was really moved"
+ru = "Я очень тронут(а)"
+uk = "Я дуже зворушений(а)"
+casual = "感動[かんどう]した！"
+
+[[phrase]]
+topic = "culture"
+section = "Concerts, theatre & kabuki"
+kind = "tip"
+note = "Japanese audiences are very quiet: no talking, no phone screens, no photos or recording unless announced. Big-concert tickets are often sold by lottery (抽選[ちゅうせん]) and checked against ID at the door."
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "拝観料[はいかんりょう]はいくらですか"
+en = "How much is the temple admission?"
+ru = "Сколько стоит вход в храм?"
+uk = "Скільки коштує вхід до храму?"
+casual = "拝観料[はいかんりょう]いくら？"
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "御朱印[ごしゅいん]をいただけますか"
+en = "May I have a goshuin (temple stamp)?"
+ru = "Можно получить госюин (печать храма)?"
+uk = "Можна отримати ґошюїн (печатку храму)?"
+casual = "御朱印[ごしゅいん]お願[ねが]い"
+note = "Usually 300–500 yen, written in a special book: 御朱印帳[ごしゅいんちょう]."
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "お守[まも]りはどこで買[か]えますか"
+en = "Where can I buy a charm?"
+ru = "Где купить оберег?"
+uk = "Де купити оберіг?"
+casual = "お守[まも]りどこ？"
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "中[なか]に入[はい]ってもいいですか"
+en = "May I go inside?"
+ru = "Можно войти внутрь?"
+uk = "Можна зайти всередину?"
+casual = "中[なか]入[はい]っていい？"
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "靴[くつ]を脱[ぬ]いだほうがいいですか"
+en = "Should I take my shoes off?"
+ru = "Нужно снять обувь?"
+uk = "Треба зняти взуття?"
+casual = "靴[くつ]脱[ぬ]ぐ？"
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "hear"
+ja = "こちらで靴[くつ]をお脱[ぬ]ぎください"
+en = "Please take off your shoes here"
+ru = "Снимите обувь здесь"
+uk = "Зніміть взуття тут"
+casual = "靴[くつ]脱[ぬ]いでね"
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "say"
+ja = "撮影禁止[さつえいきんし] · 撮影可[さつえいか]"
+en = "No photography · Photos allowed"
+ru = "Съёмка запрещена · Съёмка разрешена"
+uk = "Зйомка заборонена · Зйомка дозволена"
+note = "Common signs. Also: 飲食禁止[いんしょくきんし] no food or drink, 立入禁止[たちいりきんし] no entry, 入口[いりぐち] entrance, 出口[でぐち] exit, 休館日[きゅうかんび] closed day."
+
+[[phrase]]
+topic = "culture"
+section = "Temples & shrines"
+kind = "tip"
+note = "Shrine (鳥居[とりい] gate): bow twice, clap twice, bow once (二礼二拍手一礼[にれいにはくしゅいちれい]). Temple: no clapping, just hands together. Rinse hands at the water basin (手水舎[ちょうずや]) on the way in. Photos are usually banned inside halls."
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "say"
+ja = "はじめまして。〇〇と申[もう]します"
+en = "Nice to meet you. My name is 〇〇"
+ru = "Приятно познакомиться. Меня зовут 〇〇"
+uk = "Приємно познайомитися. Мене звати 〇〇"
+casual = "はじめまして、〇〇です"
+note = "と申[もう]します is humble and polite. 〇〇です is neutral."
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "say"
+ja = "よろしくお願[ねが]いします"
+en = "Pleased to meet you / I look forward to it"
+ru = "Рад(а) знакомству"
+uk = "Радий(а) знайомству"
+casual = "よろしく！"
+note = "Said at the end of any introduction."
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "お名前[なまえ]は？"
+en = "Your name?"
+ru = "Как вас зовут?"
+uk = "Як вас звати?"
+casual = "名前[なまえ]は？"
+answers = [
+    { ja = "〇〇です", en = "I'm 〇〇", ru = "Меня зовут 〇〇", uk = "Мене звати 〇〇" },
+]
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "どちらから来[き]ましたか"
+en = "Where are you from?"
+ru = "Откуда вы?"
+uk = "Звідки ви?"
+casual = "どこから来[き]たの？"
+
+[[phrase.answers]]
+ja = "ウクライナから来[き]ました"
+en = "I'm from Ukraine"
+ru = "Я из Украины"
+uk = "Я з України"
+
+[[phrase.answers]]
+ja = "〇〇出身[しゅっしん]です"
+en = "I'm originally from 〇〇"
+ru = "Я родом из 〇〇"
+uk = "Я родом з 〇〇"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "日本[にほん]は初[はじ]めてですか"
+en = "Is this your first time in Japan?"
+ru = "Вы в Японии впервые?"
+uk = "Ви в Японії вперше?"
+casual = "日本[にほん]初[はじ]めて？"
+
+[[phrase.answers]]
+ja = "はい、初[はじ]めてです"
+en = "Yes, first time"
+ru = "Да, впервые"
+uk = "Так, уперше"
+
+[[phrase.answers]]
+ja = "いいえ、3回目[かいめ]です"
+en = "No, it's my third time"
+ru = "Нет, в третий раз"
+uk = "Ні, втретє"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "日本[にほん]に住[す]んでいるんですか"
+en = "Do you live in Japan?"
+ru = "Вы живёте в Японии?"
+uk = "Ви живете в Японії?"
+casual = "日本[にほん]に住[す]んでるの？"
+
+[[phrase.answers]]
+ja = "はい、東京[とうきょう]に住[す]んでいます"
+en = "Yes, I live in Tokyo"
+ru = "Да, живу в Токио"
+uk = "Так, живу в Токіо"
+
+[[phrase.answers]]
+ja = "いいえ、旅行[りょこう]で来[き]ています"
+en = "No, I'm travelling"
+ru = "Нет, я путешествую"
+uk = "Ні, я подорожую"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "どのくらい日本[にほん]にいますか"
+en = "How long are you in Japan?"
+ru = "Сколько вы уже/ещё в Японии?"
+uk = "Скільки ви вже/ще в Японії?"
+casual = "どのくらいいるの？"
+
+[[phrase.answers]]
+ja = "2週間[しゅうかん]です"
+en = "Two weeks"
+ru = "Две недели"
+uk = "Два тижні"
+
+[[phrase.answers]]
+ja = "1年[ねん]くらい住[す]んでいます"
+en = "I've lived here about a year"
+ru = "Живу около года"
+uk = "Живу близько року"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "お仕事[しごと]は何[なに]をされていますか"
+en = "What do you do for work?"
+ru = "Чем вы занимаетесь?"
+uk = "Чим ви займаєтеся?"
+casual = "仕事[しごと]何[なに]してるの？"
+
+[[phrase.answers]]
+ja = "IT関係[かんけい]の仕事[しごと]をしています"
+en = "I work in IT"
+ru = "Работаю в IT"
+uk = "Працюю в IT"
+
+[[phrase.answers]]
+ja = "エンジニアです"
+en = "I'm an engineer"
+ru = "Я инженер"
+uk = "Я інженер"
+
+[[phrase.answers]]
+ja = "金融[きんゆう]の仕事[しごと]です"
+en = "I work in finance"
+ru = "Работаю в финансах"
+uk = "Працюю у фінансах"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "日本語[にほんご]がお上手[じょうず]ですね"
+en = "Your Japanese is good!"
+ru = "Вы хорошо говорите по-японски!"
+uk = "Ви добре говорите японською!"
+casual = "日本語[にほんご]上手[じょうず]だね！"
+note = "Humble deflection is the expected reply, even if you're fluent."
+
+[[phrase.answers]]
+ja = "いえいえ、まだまだです"
+en = "Oh no, I still have a long way to go"
+ru = "Да что вы, мне ещё учиться и учиться"
+uk = "Та що ви, мені ще вчитися й вчитися"
+
+[[phrase.answers]]
+ja = "ありがとうございます、勉強中[べんきょうちゅう]です"
+en = "Thanks, I'm still learning"
+ru = "Спасибо, я ещё учусь"
+uk = "Дякую, я ще вчуся"
+
+[[phrase]]
+topic = "intro"
+section = "Introductions"
+kind = "hear"
+ja = "家族[かぞく]と来[き]ているんですか"
+en = "Are you here with family?"
+ru = "Вы с семьёй?"
+uk = "Ви з родиною?"
+casual = "家族[かぞく]と来[き]たの？"
+
+[[phrase.answers]]
+ja = "はい、家族[かぞく]と一緒[いっしょ]です"
+en = "Yes, with my family"
+ru = "Да, с семьёй"
+uk = "Так, з родиною"
+
+[[phrase.answers]]
+ja = "一人[ひとり]で来[き]ています"
+en = "I came alone"
+ru = "Я один (одна)"
+uk = "Я сам(а)"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "どうして日本[にほん]に来[き]たんですか"
+en = "Why did you come to Japan?"
+ru = "Почему вы приехали в Японию?"
+uk = "Чому ви приїхали до Японії?"
+casual = "なんで日本[にほん]に来[き]たの？"
+
+[[phrase.answers]]
+ja = "日本[にほん]の文化[ぶんか]が好[す]きだからです"
+en = "Because I love Japanese culture"
+ru = "Потому что люблю японскую культуру"
+uk = "Бо люблю японську культуру"
+
+[[phrase.answers]]
+ja = "仕事[しごと]で来[き]ました"
+en = "I came for work"
+ru = "Приехал(а) по работе"
+uk = "Приїхав(ла) по роботі"
+
+[[phrase.answers]]
+ja = "ずっと来[き]てみたかったんです"
+en = "I always wanted to come"
+ru = "Давно мечтал(а) приехать"
+uk = "Давно мріяв(ла) приїхати"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "どうして日本語[にほんご]を勉強[べんきょう]しているんですか"
+en = "Why are you studying Japanese?"
+ru = "Почему вы учите японский?"
+uk = "Чому ви вивчаєте японську?"
+casual = "なんで日本語[にほんご]勉強[べんきょう]してるの？"
+
+[[phrase.answers]]
+ja = "アニメがきっかけです"
+en = "Anime got me started"
+ru = "Всё началось с аниме"
+uk = "Усе почалося з аніме"
+
+[[phrase.answers]]
+ja = "日本[にほん]に住[す]んでいるので"
+en = "Because I live in Japan"
+ru = "Потому что живу в Японии"
+uk = "Бо живу в Японії"
+
+[[phrase.answers]]
+ja = "日本人[にほんじん]の友達[ともだち]ともっと話[はな]したいからです"
+en = "I want to talk more with Japanese friends"
+ru = "Хочу больше общаться с японскими друзьями"
+uk = "Хочу більше спілкуватися з японськими друзями"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "日本語[にほんご]はどのくらい勉強[べんきょう]していますか"
+en = "How long have you studied Japanese?"
+ru = "Сколько вы учите японский?"
+uk = "Скільки ви вчите японську?"
+casual = "日本語[にほんご]どのくらいやってるの？"
+
+[[phrase.answers]]
+ja = "1年[ねん]くらいです"
+en = "About a year"
+ru = "Около года"
+uk = "Близько року"
+
+[[phrase.answers]]
+ja = "始[はじ]めたばかりです"
+en = "I've only just started"
+ru = "Только начал(а)"
+uk = "Тільки почав(ла)"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "日本[にほん]で何[なに]が一番好[いちばんす]きですか"
+en = "What do you like most about Japan?"
+ru = "Что вам больше всего нравится в Японии?"
+uk = "Що вам найбільше подобається в Японії?"
+casual = "日本[にほん]で何[なに]が一番好[いちばんす]き？"
+
+[[phrase.answers]]
+ja = "電車[でんしゃ]が時間通[じかんどお]りなところです"
+en = "The trains run on time"
+ru = "Поезда ходят по расписанию"
+uk = "Потяги ходять за розкладом"
+
+[[phrase.answers]]
+ja = "温泉[おんせん]です"
+en = "Onsen"
+ru = "Онсэны"
+uk = "Онсени"
+
+[[phrase.answers]]
+ja = "食[た]べ物[もの]が全部[ぜんぶ]美味[おい]しいです"
+en = "All the food is delicious"
+ru = "Вся еда вкусная"
+uk = "Уся їжа смачна"
+
+[[phrase.answers]]
+ja = "安全[あんぜん]で清潔[せいけつ]なところです"
+en = "It's safe and clean"
+ru = "Безопасно и чисто"
+uk = "Безпечно й чисто"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "日本食[にほんしょく]は何[なに]が好[す]きですか"
+en = "Which Japanese food do you like?"
+ru = "Какую японскую еду любите?"
+uk = "Яку японську їжу любите?"
+casual = "何[なん]の食[た]べ物[もの]が好[す]き？"
+note = "Natto is the classic test question. Expect surprise either way."
+
+[[phrase.answers]]
+ja = "ラーメンが大好[だいす]きです"
+en = "I love ramen"
+ru = "Обожаю рамен"
+uk = "Обожнюю рамен"
+
+[[phrase.answers]]
+ja = "納豆[なっとう]も食[た]べられますよ"
+en = "I can even eat natto"
+ru = "Я даже натто ем"
+uk = "Я навіть натто їм"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "趣味[しゅみ]は何[なん]ですか"
+en = "What are your hobbies?"
+ru = "Какие у вас хобби?"
+uk = "Які у вас хобі?"
+casual = "趣味[しゅみ]は？"
+
+[[phrase.answers]]
+ja = "電車[でんしゃ]の写真[しゃしん]を撮[と]ることです"
+en = "Taking photos of trains"
+ru = "Фотографирую поезда"
+uk = "Фотографую потяги"
+
+[[phrase.answers]]
+ja = "ヨットに乗[の]ることです"
+en = "Sailing"
+ru = "Хожу под парусом"
+uk = "Ходжу під вітрилом"
+
+[[phrase.answers]]
+ja = "麻雀[マージャン]です"
+en = "Mahjong"
+ru = "Маджонг"
+uk = "Маджонг"
+
+[[phrase.answers]]
+ja = "電子工作[でんしこうさく]です"
+en = "Building electronics"
+ru = "Собираю электронику"
+uk = "Збираю електроніку"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "日本[にほん]のどこに行[い]きましたか"
+en = "Where in Japan have you been?"
+ru = "Где вы были в Японии?"
+uk = "Де ви були в Японії?"
+casual = "どこ行[い]った？"
+
+[[phrase.answers]]
+ja = "京都[きょうと]と大阪[おおさか]に行[い]きました"
+en = "Kyoto and Osaka"
+ru = "В Киото и Осаке"
+uk = "У Кіото й Осаці"
+
+[[phrase.answers]]
+ja = "北海道[ほっかいどう]に行[い]ってみたいです"
+en = "I'd like to go to Hokkaido"
+ru = "Хочу съездить на Хоккайдо"
+uk = "Хочу поїхати на Хоккайдо"
+
+[[phrase]]
+topic = "intro"
+section = "Why Japan, why Japanese"
+kind = "hear"
+ja = "おすすめの場所[ばしょ]、教[おし]えましょうか"
+en = "Shall I tell you some good places?"
+ru = "Подсказать хорошие места?"
+uk = "Підказати гарні місця?"
+casual = "おすすめ教[おし]えようか？"
+answers = [
+    { ja = "ぜひ教[おし]えてください！", en = "Yes, please!", ru = "Да, расскажите!", uk = "Так, розкажіть!" },
+]
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "say"
+ja = "LINEを交換[こうかん]しませんか"
+en = "Shall we exchange LINE?"
+ru = "Давайте обменяемся LINE?"
+uk = "Обміняємося LINE?"
+casual = "LINE交換[こうかん]しよう！"
+note = "LINE is the default messenger. Instagram is common too."
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "say"
+ja = "写真[しゃしん]を撮[と]ってもいいですか"
+en = "May I take a photo?"
+ru = "Можно сфотографировать?"
+uk = "Можна сфотографувати?"
+casual = "写真[しゃしん]撮[と]っていい？"
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "say"
+ja = "写真[しゃしん]を撮[と]っていただけますか"
+en = "Could you take a photo of us?"
+ru = "Можете нас сфотографировать?"
+uk = "Можете нас сфотографувати?"
+casual = "写真[しゃしん]撮[と]ってもらえる？"
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "say"
+ja = "お話[はなし]できて楽[たの]しかったです"
+en = "It was nice talking with you"
+ru = "Было приятно поговорить"
+uk = "Було приємно поговорити"
+casual = "話[はな]せて楽[たの]しかった！"
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "say"
+ja = "また会[あ]いましょう"
+en = "Let's meet again"
+ru = "Давайте ещё увидимся"
+uk = "Побачимося ще"
+casual = "またね！"
+
+[[phrase]]
+topic = "intro"
+section = "Keeping in touch"
+kind = "tip"
+note = "A light bow with your greeting is enough; no handshake needed unless offered. Exchanging business cards (名刺[めいし]): give and receive with both hands, read it, don't pocket it straight away."
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "アニメが大好[だいす]きです"
+en = "I love anime"
+ru = "Я обожаю аниме"
+uk = "Я обожнюю аніме"
+casual = "アニメめっちゃ好[す]き"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "一番好[いちばんす]きなアニメは〇〇です"
+en = "My favourite anime is 〇〇"
+ru = "Моё любимое аниме — 〇〇"
+uk = "Моє улюблене аніме — 〇〇"
+casual = "一番好[いちばんす]きなのは〇〇"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "hear"
+ja = "どんなアニメが好[す]きですか"
+en = "What kind of anime do you like?"
+ru = "Какое аниме вам нравится?"
+uk = "Яке аніме вам подобається?"
+casual = "どんなアニメが好[す]き？"
+
+[[phrase.answers]]
+ja = "ジブリ作品[さくひん]が好[す]きです"
+en = "I like Ghibli films"
+ru = "Люблю фильмы Ghibli"
+uk = "Люблю фільми Ghibli"
+
+[[phrase.answers]]
+ja = "SFやロボット系[けい]が好[す]きです"
+en = "Sci-fi and mecha"
+ru = "Фантастику и роботов"
+uk = "Фантастику й роботів"
+
+[[phrase.answers]]
+ja = "日常系[にちじょうけい]が好[す]きです"
+en = "Slice-of-life"
+ru = "Повседневность"
+uk = "Повсякденність"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "hear"
+ja = "推[お]しは誰[だれ]ですか"
+en = "Who's your favourite (character/idol)?"
+ru = "Кто ваш любимчик?"
+uk = "Хто ваш улюбленець?"
+casual = "推[お]し誰[だれ]？"
+note = "推[お]し = your 'pick', the character or idol you support."
+
+[[phrase.answers]]
+ja = "〇〇推[お]しです"
+en = "I'm a 〇〇 fan"
+ru = "Мой фаворит — 〇〇"
+uk = "Мій фаворит — 〇〇"
+
+[[phrase.answers]]
+ja = "箱推[はこお]しです"
+en = "I like the whole group"
+ru = "Люблю всю группу"
+uk = "Люблю всю групу"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "hear"
+ja = "今期[こんき]は何[なに]を見[み]ていますか"
+en = "What are you watching this season?"
+ru = "Что смотрите в этом сезоне?"
+uk = "Що дивитеся цього сезону?"
+casual = "今期[こんき]何[なに]見[み]てる？"
+
+[[phrase.answers]]
+ja = "〇〇を見[み]ています"
+en = "I'm watching 〇〇"
+ru = "Смотрю 〇〇"
+uk = "Дивлюся 〇〇"
+
+[[phrase.answers]]
+ja = "最近[さいきん]は見[み]られていないです"
+en = "I haven't had time lately"
+ru = "Последнее время не смотрю"
+uk = "Останнім часом не дивлюся"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "最近[さいきん]、面白[おもしろ]いアニメはありますか"
+en = "Any good anime lately?"
+ru = "Есть интересное аниме последнее время?"
+uk = "Є цікаве аніме останнім часом?"
+casual = "最近[さいきん]面白[おもしろ]いアニメある？"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "原作[げんさく]は読[よ]みましたか"
+en = "Have you read the original manga?"
+ru = "Вы читали оригинал (мангу)?"
+uk = "Ви читали оригінал (мангу)?"
+casual = "原作[げんさく]読[よ]んだ？"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "ネタバレしないでください！"
+en = "No spoilers, please!"
+ru = "Только без спойлеров!"
+uk = "Тільки без спойлерів!"
+casual = "ネタバレ禁止[きんし]！"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "声優[せいゆう]は誰[だれ]ですか"
+en = "Who's the voice actor?"
+ru = "Кто озвучивает?"
+uk = "Хто озвучує?"
+casual = "声優[せいゆう]誰[だれ]？"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "聖地巡礼[せいちじゅんれい]をしています"
+en = "I'm visiting real-life anime locations"
+ru = "Я посещаю места из аниме"
+uk = "Я відвідую місця з аніме"
+casual = "聖地巡礼中[せいちじゅんれいちゅう]！"
+note = "Literally 'pilgrimage to holy sites'. Locals near famous spots will know what you mean."
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "このキャラクターのグッズはありますか"
+en = "Do you have goods of this character?"
+ru = "Есть товары с этим персонажем?"
+uk = "Є товари з цим персонажем?"
+casual = "このキャラのグッズある？"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "say"
+ja = "限定品[げんていひん]はまだありますか"
+en = "Are the limited-edition items still available?"
+ru = "Лимитированные товары ещё есть?"
+uk = "Лімітовані товари ще є?"
+casual = "限定[げんてい]まだある？"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "hear"
+ja = "お一人様[ひとりさま]3点[てん]までです"
+en = "Limit three per person"
+ru = "Не более трёх в одни руки"
+uk = "Не більше трьох в одні руки"
+
+[[phrase]]
+topic = "anime"
+section = "Anime & manga"
+kind = "hear"
+ja = "整理券[せいりけん]をお配[くば]りしています"
+en = "We're handing out numbered tickets"
+ru = "Раздаём номерки"
+uk = "Роздаємо номерки"
+note = "For queues at popular stores and events. Take one and come back at your time."
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "hear"
+ja = "どんな音楽[おんがく]を聴[き]きますか"
+en = "What music do you listen to?"
+ru = "Какую музыку слушаете?"
+uk = "Яку музику слухаєте?"
+casual = "どんな音楽[おんがく]聴[き]く？"
+
+[[phrase.answers]]
+ja = "J-POPやシティポップが好[す]きです"
+en = "J-pop and city pop"
+ru = "J-pop и сити-поп"
+uk = "J-pop і сіті-поп"
+
+[[phrase.answers]]
+ja = "アニソンをよく聴[き]きます"
+en = "I listen to anime songs a lot"
+ru = "Часто слушаю аниме-песни"
+uk = "Часто слухаю аніме-пісні"
+
+[[phrase.answers]]
+ja = "ロックが好[す]きです"
+en = "Rock"
+ru = "Рок"
+uk = "Рок"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "日本[にほん]の音楽[おんがく]をよく聴[き]きます"
+en = "I often listen to Japanese music"
+ru = "Часто слушаю японскую музыку"
+uk = "Часто слухаю японську музику"
+casual = "日本[にほん]の音楽[おんがく]よく聴[き]く"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "好[す]きなバンドは〇〇です"
+en = "My favourite band is 〇〇"
+ru = "Моя любимая группа — 〇〇"
+uk = "Мій улюблений гурт — 〇〇"
+casual = "好[す]きなバンドは〇〇"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "この曲[きょく]、何[なん]という曲[きょく]ですか"
+en = "What's this song called?"
+ru = "Как называется эта песня?"
+uk = "Як називається ця пісня?"
+casual = "これ何[なん]て曲[きょく]？"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "ライブに行[い]ってみたいです"
+en = "I'd love to go to a live show"
+ru = "Хочу сходить на концерт"
+uk = "Хочу піти на концерт"
+casual = "ライブ行[い]ってみたい"
+note = "ライブ = concert. Tickets often go through a lottery (抽選[ちゅうせん])."
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "チケットが当[あ]たりました！"
+en = "I won the ticket lottery!"
+ru = "Я выиграл(а) билет в лотерее!"
+uk = "Я виграв(ла) квиток у лотереї!"
+casual = "チケット当[あ]たった！"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "hear"
+ja = "一緒[いっしょ]にカラオケ行[い]きませんか"
+en = "Want to go to karaoke together?"
+ru = "Пойдём в караоке?"
+uk = "Підемо в караоке?"
+casual = "カラオケ行[い]かない？"
+note = "ちょっと… with a trailing pause is the polite way to say no."
+
+[[phrase.answers]]
+ja = "いいですね、行[い]きましょう！"
+en = "Sounds good, let's go!"
+ru = "Отлично, пойдём!"
+uk = "Чудово, ходімо!"
+
+[[phrase.answers]]
+ja = "今日[きょう]はちょっと…"
+en = "Today's a bit…"
+ru = "Сегодня не очень…"
+uk = "Сьогодні не дуже…"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "hear"
+ja = "何[なに]を歌[うた]いますか"
+en = "What will you sing?"
+ru = "Что будете петь?"
+uk = "Що будете співати?"
+casual = "何[なに]歌[うた]う？"
+
+[[phrase.answers]]
+ja = "アニソンを歌[うた]います"
+en = "An anime song"
+ru = "Аниме-песню"
+uk = "Аніме-пісню"
+
+[[phrase.answers]]
+ja = "まずは聴[き]いてます"
+en = "I'll listen first"
+ru = "Сначала послушаю"
+uk = "Спочатку послухаю"
+
+[[phrase]]
+topic = "anime"
+section = "Music & karaoke"
+kind = "say"
+ja = "フリータイムでお願[ねが]いします"
+en = "Unlimited time, please (karaoke)"
+ru = "Безлимит по времени, пожалуйста"
+uk = "Безліміт за часом, будь ласка"
+casual = "フリータイムで"
+note = "Karaoke front desk. Otherwise say 1時間[じかん]で for one hour. ドリンクバー = free-flow drinks."
