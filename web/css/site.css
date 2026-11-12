@@ -140,6 +140,10 @@ button:focus-visible, a:focus-visible, .card:focus-visible, input:focus-visible 
 .card.open .more { display: grid; }
 .cas-inline { display: none; margin-top: 6px; font-size: 16px; color: var(--muted); }
 .showcas .cas-inline { display: block; }
+.rol { display: none; font: 500 13px/1.5 var(--f-mono); color: var(--muted); margin-top: 2px; }
+.showro .rol { display: block; }
+.showro .cas-ro { display: none; }
+.showro.showcas .cas-ro { display: block; }
 .cas-inline::before { content: "casual  "; font: 500 10px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; }
 .blk h4 { margin: 0 0 4px; font: 500 10px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .jps { font-size: 18px; line-height: 1.9; }

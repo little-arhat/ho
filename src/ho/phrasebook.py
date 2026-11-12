@@ -11,6 +11,7 @@ from typing import Any, Literal
 from ho import furigana
 from ho.errors import ContentError
 from ho.kana import romaji
+from ho.romaji import romanize
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
 
 Kind = Literal["say", "hear", "tip"]
@@ -143,7 +144,8 @@ def _verb_view(v: Verb) -> dict[str, Any]:
 
 
 def _line_view(line: Line) -> dict[str, Any]:
-    return {"ja": furigana.segments_json(line.ja), "en": line.en, "ru": line.ru, "uk": line.uk}
+    return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja),
+            "en": line.en, "ru": line.ru, "uk": line.uk}
 
 
 def _words(texts: tuple[str, ...]) -> list[list[str]]:
@@ -177,7 +179,9 @@ def view(pb: Phrasebook) -> dict[str, Any]:
             "section": p.section,
             "kind": p.kind,
             "ja": furigana.segments_json(p.ja),
+            "ro": romanize(p.ja),
             "casual": furigana.segments_json(p.casual),
+            "casual_ro": romanize(p.casual),
             "en": p.en, "ru": p.ru, "uk": p.uk,
             "note": furigana.segments_json(p.note),
             "level": p.level,
@@ -186,7 +190,6 @@ def view(pb: Phrasebook) -> dict[str, Any]:
             "words": _words(jp),
             "verbs": ids,
             "search": " ".join(s for s in search if s),
-            "romaji": [romaji(furigana.reading(t)) for t in jp],
         })
     topics = [asdict(t) for t in pb.topics]
     return {"topics": topics, "phrases": phrases, "verbs": verbs}

@@ -13,16 +13,21 @@ const foldRomaji = (s) => s.toLowerCase()
   .replace(/[āâ]/g, "a").replace(/[īî]/g, "i").replace(/[ūû]/g, "u").replace(/[ēê]/g, "e").replace(/[ōô]/g, "o")
   .replace(/ou|oo|uu|aa|ii|ee/g, (m) => m[0])
   .replace(/ha/g, "wa").replace(/[^a-z ]/g, "");
+// Indexed with and without word spaces, so "watashiwa" and "watashi wa" both match.
+const romajiIndex = (lines) => {
+  const s = foldRomaji(lines.filter(Boolean).join(" "));
+  return s + " " + s.replace(/ /g, "");
+};
 const ROMAJI_TERM = /^[a-zāīūēōâîûêô]+$/;
 
 const phrases = DATA.phrases.map((p, id) => ({
   ...p,
   id,
   idx: fold(p.search),
-  idxR: foldRomaji(p.romaji.join("") + " " + p.romaji.join(" ")),
+  idxR: romajiIndex([p.ro, p.casual_ro, ...p.answers.map((a) => a.ro), ...p.examples.map((a) => a.ro)]),
 }));
 
-const st = { topic: stored("ho.pb.topic", "all"), kind: "all", cas: stored("ho.pb.cas", false), q: "" };
+const st = { topic: stored("ho.pb.topic", "all"), kind: "all", cas: stored("ho.pb.cas", false), ro: stored("ho.pb.ro", false), q: "" };
 if (st.topic !== "all" && !TOPIC[st.topic]) st.topic = "all";
 
 const colorStyle = (t) => `--c-l:${t.color};--c-d:${t.color_dark}`;
@@ -55,20 +60,23 @@ function segmented(el, items, onClick) {
   }
 }
 segmented($("kinds"), [["all", "ALL"], ["say", "SAY"], ["hear", "HEAR"], ["tip", "TIPS"]], (k) => { st.kind = k; });
-segmented($("opts"), [["cas", "CASUAL"]], () => { st.cas = !st.cas; store("ho.pb.cas", st.cas); });
+segmented($("opts"), [["cas", "CASUAL"], ["ro", "RŌMAJI"]], (k) => { st[k] = !st[k]; store(`ho.pb.${k}`, st[k]); });
 
 function paintControls() {
   $("kinds").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(st.kind === b.dataset.k)));
-  $("opts").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(st.cas)));
+  $("opts").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(st[b.dataset.k])));
   const cur = st.q.trim() ? "all" : st.topic;
   chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", String(cur === b.dataset.t)));
   $("out").classList.toggle("showcas", st.cas);
+  $("out").classList.toggle("showro", st.ro);
 }
 
 const CHEVRON = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
 
+const ro = (s) => (s ? `<div class="rol">${esc(s)}</div>` : "");
+
 function lines(list) {
-  return `<div class="ans">${list.map((a) => `<div><div class="jps" lang="ja">${ruby(a.ja)}</div>${translations(a)}</div>`).join("")}</div>`;
+  return `<div class="ans">${list.map((a) => `<div><div class="jps" lang="ja">${ruby(a.ja)}</div>${ro(a.ro)}${translations(a)}</div>`).join("")}</div>`;
 }
 
 function verbTable(v) {
@@ -82,7 +90,7 @@ function verbTable(v) {
 // The expanded part of a card is built on first open.
 function more(p) {
   let h = "";
-  if (p.casual.length) h += `<div class="blk"><h4>${p.kind === "say" ? "Casual (friends)" : "Casual version you may hear"}</h4><div class="jps" lang="ja">${ruby(p.casual)}</div></div>`;
+  if (p.casual.length) h += `<div class="blk"><h4>${p.kind === "say" ? "Casual (friends)" : "Casual version you may hear"}</h4><div class="jps" lang="ja">${ruby(p.casual)}</div>${ro(p.casual_ro)}</div>`;
   if (p.answers.length) h += `<div class="blk"><h4>You can answer</h4>${lines(p.answers)}</div>`;
   if (p.examples.length) h += `<div class="blk"><h4>Examples</h4>${lines(p.examples)}</div>`;
   if (p.note.length) h += `<div class="blk"><h4>Note</h4><div class="note">${ruby(p.note)}</div></div>`;
@@ -98,8 +106,8 @@ function card(p) {
   const label = p.kind === "say" ? "言う · you say" : "聞く · you hear";
   return `<div class="card ${p.kind} tc" style="${colorStyle(t)}" tabindex="0" data-id="${p.id}">${CHEVRON}`
     + `<div class="kind ${p.kind}">${label}${p.level ? `<span class="lv">${esc(p.level)}</span>` : ""}</div>`
-    + `<div class="jpl" lang="ja">${ruby(p.ja)}</div>`
-    + (p.casual.length ? `<div class="cas-inline" lang="ja">${ruby(p.casual)}</div>` : "")
+    + `<div class="jpl" lang="ja">${ruby(p.ja)}</div>${ro(p.ro)}`
+    + (p.casual.length ? `<div class="cas-inline" lang="ja">${ruby(p.casual)}</div><div class="rol cas-ro">${esc(p.casual_ro)}</div>` : "")
     + translations(p) + `<div class="more"></div></div>`;
 }
 

@@ -11,5 +11,16 @@ def test_romaji():
     assert romaji("しゃしん") == "shashin"
     assert romaji("きょう") == "kyou"
     assert romaji("じゃあ") == "jaa"
-    assert romaji("コーヒー") == "kohi"
+    assert romaji("コーヒー") == "kōhī"
+    assert romaji("ー") == ""
     assert romaji("をください") == "okudasai"
+
+
+def test_romaji_loanword_sounds():
+    assert romaji("チェックイン") == "chekkuin"
+    assert romaji("パーティー") == "pātī"
+    assert romaji("ファイル") == "fairu"
+    assert romaji("ウィーン") == "wīn"
+    assert romaji("タトゥー") == "tatū"
+    assert romaji("ヴァイオリン") == "vaiorin"
+    assert romaji("ディズニー") == "dizunī"

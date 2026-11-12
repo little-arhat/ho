@@ -43,7 +43,7 @@ def test_search_fields():
     assert "туалет" in p["search"].lower()
     assert "お手洗いはどこですか" in p["search"]
     assert "おてあらいはどこですか" in p["search"]
-    assert p["romaji"][0] == "otearaihadokodesuka"
+    assert p["ro"] == "otearai wa doko desu ka"
     assert p["ja"][:2] == [["お"], ["手洗", "てあら"]]
 
 
