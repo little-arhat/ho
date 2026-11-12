@@ -15,7 +15,7 @@
 <header class="site">
   <a class="brand" href="{{ root or "./" }}"><span lang="ja">本</span> ho</a>
   <nav>
-    {% for item in nav %}<a href="{{ root }}{{ item.href }}"{% if item.page == page %} aria-current="page"{% endif %}>{{ item.label }}</a>{% endfor %}
+    {% for s in sections %}<a href="{{ root }}{{ s.href }}"{% if s.page == page %} aria-current="page"{% endif %}>{{ s.label }}</a>{% endfor %}
   </nav>
   <div class="prefs" id="prefs" aria-label="Display preferences"></div>
 </header>

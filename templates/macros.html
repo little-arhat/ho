@@ -1,0 +1,10 @@
+{# Learner-facing text in three languages; CSS shows the selected ones. #}
+{% macro tr(t, tag="span", cls="") -%}
+{%- for l in ["en", "ru", "uk"] -%}
+<{{ tag }} class="tl tr-{{ l }} {{ cls }}" data-l="{{ l | upper }}">{{ t[l] | ruby }}</{{ tag }}>
+{%- endfor -%}
+{%- endmacro %}
+
+{% macro line(x) -%}
+<div class="ex-line"><div class="ex-ja" lang="ja">{{ x.ja | ruby }}</div><div class="ex-tr">{{ tr(x.tr) }}</div></div>
+{%- endmacro %}

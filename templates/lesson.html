@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr, line %}
+{% block main %}
+<nav class="lesson-nav">
+  <a href="../">All lessons</a>
+  <span>
+    {% if prev %}<a href="../{{ "%02d" | format(prev) }}/">← 第{{ prev }}課</a>{% endif %}
+    {% if next %}<a href="../{{ "%02d" | format(next) }}/">第{{ next }}課 →</a>{% endif %}
+  </span>
+</nav>
+<header class="lesson-head">
+  <div class="lesson-no" lang="ja">第{{ lesson.number }}課</div>
+  <h1 lang="ja">{{ lesson.title_ja | ruby }}</h1>
+  <div class="lesson-en">{{ tr(lesson.title) }}</div>
+  <ul class="toc">
+    {% if lesson.rules %}<li><a href="#rules">Rules</a></li>{% endif %}
+    {% if lesson.exercises %}<li><a href="#exercises">Exercises</a></li>{% endif %}
+    {% if lesson.notes %}<li><a href="#notes">Teacher's notes</a></li>{% endif %}
+    {% if lesson.vocab %}<li><a href="#vocab">Vocabulary</a></li>{% endif %}
+  </ul>
+</header>
+
+{% if lesson.rules %}
+<section id="rules">
+  <h2 class="sec">Rules</h2>
+  <div class="rules">
+  {% for r in lesson.rules %}
+  <article class="rule" id="rule-{{ loop.index }}">
+    <h3 class="rule-title"><span class="rule-no">{{ loop.index }}</span>{{ tr(r.title) }}</h3>
+    {% if r.pattern %}
+    <div class="pattern" lang="ja">
+      {% for p in r.pattern %}
+      {% if p.slot %}<span class="slot" data-slot="{{ p.slot }}">{{ tr(p.label) }}</span>
+      {% else %}<span class="fixed">{{ p.ja | ruby }}</span>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="explain">{{ tr(r.explain, "p") }}</div>
+    {% if r.table %}
+    <div class="tw"><table class="rule-table" lang="ja">
+      <thead><tr>{% for h in r.table.head %}<th>{{ h | ruby }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for row in r.table.rows %}<tr>{% for c in row %}<td>{{ c | ruby }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    </table></div>
+    {% endif %}
+    {% if r.examples %}<div class="examples">{% for x in r.examples %}{{ line(x) }}{% endfor %}</div>{% endif %}
+  </article>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if lesson.exercises %}
+<section id="exercises">
+  <h2 class="sec">Exercises</h2>
+  <div id="exercise-list" class="exercises"></div>
+</section>
+{% endif %}
+
+{% if lesson.notes %}
+<section id="notes">
+  <h2 class="sec">Teacher's notes</h2>
+  {% for n in lesson.notes %}
+  <div class="note-card">{% if n.date %}<div class="note-date">{{ n.date }}</div>{% endif %}<div class="note-text">{{ n.text | ruby }}</div></div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if lesson.vocab %}
+<section id="vocab">
+  <h2 class="sec">Vocabulary <small>{{ lesson.vocab | length }}</small></h2>
+  <ul class="vocab">
+  {% for w in lesson.vocab %}
+    <li class="word">
+      <div class="word-ja" lang="ja">{{ w.furigana | ruby }}</div>
+      {% if w.kanji %}<div class="word-kana" lang="ja">{{ w.kana }}</div>{% endif %}
+      <div class="word-tr">{{ tr(w.tr) }}</div>
+      {% if w.note %}<div class="word-note">{{ tr(w.note) }}</div>{% endif %}
+      {% if w.example %}<div class="word-ex">{{ line(w.example) }}</div>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+{% if lesson.exercises %}
+<script type="application/json" id="data">{{ data }}</script>
+<script type="module" src="{{ root }}static/js/lesson.js"></script>
+{% endif %}
+{% endblock %}

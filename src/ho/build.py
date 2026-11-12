@@ -7,7 +7,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from ho import katakana, phrasebook
+from ho import katakana, lessons, phrasebook
 from ho.errors import ContentError
 from ho.site import Content, render_site
 from ho.verbs import load_verbs
@@ -19,6 +19,7 @@ MARKER = ".nojekyll"
 def load_content(content_dir: Path) -> Content:
     verbs = load_verbs(content_dir / "verbs.toml")
     return Content(
+        lessons=lessons.load_lessons(content_dir / "lessons"),
         phrasebook=phrasebook.load(content_dir / "phrasebook.toml", verbs),
         katakana=katakana.load(content_dir / "katakana.toml"),
     )
