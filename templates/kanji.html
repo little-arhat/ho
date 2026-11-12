@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr, reading %}
+{% macro tile(c) -%}
+<li><a class="k-tile" href="{{ c.char | hex }}/">
+  <span class="k-char" lang="ja">{{ c.char }}</span>
+  <span class="k-read">{{ reading(c.readings[0]) }}</span>
+  <span class="k-mean">{{ tr(c.meaning) }}</span>
+</a></li>
+{%- endmacro %}
+{% block main %}
+<h1 class="page-title">Kanji <small lang="ja">漢字</small></h1>
+<p class="lead"><a class="btn" href="drill/">Kanji drill →</a> Read words written in kanji, or pick the right kanji for a word.</p>
+
+<section>
+  <h2 class="sec">15-minute kanji book <small>{{ book | length }} kanji</small></h2>
+  <ol class="k-grid">{% for c in book %}{{ tile(c) }}{% endfor %}</ol>
+</section>
+
+{% for n, cards in by_lesson %}
+<section>
+  <h2 class="sec">From lesson {{ n }} <small>{{ cards | length }} kanji</small></h2>
+  <ol class="k-grid">{% for c in cards %}{{ tile(c) }}{% endfor %}</ol>
+</section>
+{% endfor %}
+
+<p class="credit">Stroke order: <a href="https://kanjivg.tagaini.net" rel="noopener">KanjiVG</a> (CC BY-SA 3.0). Readings checked against <a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" rel="noopener">KANJIDIC2</a> (CC BY-SA 4.0).</p>
+{% endblock %}

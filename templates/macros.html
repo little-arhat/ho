@@ -8,3 +8,9 @@
 {% macro line(x) -%}
 <div class="ex-line"><div class="ex-ja" lang="ja">{{ x.ja | ruby }}</div><div class="ex-tr">{{ tr(x.tr) }}</div></div>
 {%- endmacro %}
+
+{# A kanji reading as the 15-minute book prints it: okurigana after -, (secondary), special* #}
+{% macro reading(r) -%}
+{%- set parts = r.kana.split("-") -%}
+<span class="rd{% if r.secondary %} minor{% endif %}" lang="ja">{% if r.secondary %}({% endif %}{{ parts[0] }}{% if parts | length > 1 %}<span class="oku">{{ parts[1] }}</span>{% endif %}{% if r.special %}<sup title="special: only in set words">*</sup>{% endif %}{% if r.secondary %}){% endif %}</span>
+{%- endmacro %}

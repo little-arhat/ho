@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr, line, reading %}
+{% block main %}
+<nav class="lesson-nav">
+  <a href="../">All kanji</a>
+  <span>
+    {% if prev %}<a href="../{{ prev.char | hex }}/" lang="ja">← {{ prev.char }}</a>{% endif %}
+    {% if next %}<a href="../{{ next.char | hex }}/" lang="ja">{{ next.char }} →</a>{% endif %}
+  </span>
+</nav>
+<article class="kcard">
+  <header class="kc-head">
+    <div class="kc-char" lang="ja">{{ card.char }}</div>
+    <div class="kc-info">
+      {% if card.number %}<div class="kc-meta"><span class="kc-no">{{ "%03d" | format(card.number) }}</span> N{{ card.level }} · 15-minute book</div>{% endif %}
+      <div class="kc-mean">{{ tr(card.meaning) }}</div>
+      {% set kun = card.readings | rejectattr("on") | list %}{% set on = card.readings | selectattr("on") | list %}
+      {% if kun %}<div class="kc-rd"><span class="lbl">kun</span>{% for r in kun %}{{ reading(r) }}{% endfor %}</div>{% endif %}
+      {% if on %}<div class="kc-rd"><span class="lbl">on</span>{% for r in on %}{{ reading(r) }}{% endfor %}</div>{% endif %}
+      <div class="kc-meta">{{ frames | length }} strokes</div>
+    </div>
+  </header>
+
+  <ol class="strokes" aria-label="Stroke order">
+    {% for f in frames %}
+    <li><svg viewBox="0 0 109 109" role="img" aria-label="stroke {{ loop.index }}">
+      <path class="grid" d="M54.5 0V109M0 54.5H109"/>
+      {% for d in f %}<path class="{{ 'now' if loop.last else 'done' }}" d="{{ d }}"/>{% endfor %}
+    </svg><span>{{ loop.index }}</span></li>
+    {% endfor %}
+  </ol>
+
+  {% if card.words %}
+  <section>
+    <h2 class="sec">Words</h2>
+    <div class="kc-words">
+      {% for w in card.words %}
+      <div class="kc-word">
+        <div class="kw-ja" lang="ja">{{ w.ja | ruby }}</div>
+        <div class="kw-tr">{{ tr(w.tr) }}</div>
+        {{ line(w.example) }}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if lesson_words %}
+  <section>
+    <h2 class="sec">In the lessons</h2>
+    <ul class="kc-lw">
+      {% for w in lesson_words %}
+      <li><a href="../../lessons/{{ "%02d" | format(w.lesson) }}/#vocab"><span class="lw-no">{{ w.lesson }}</span></a><span class="lw-ja" lang="ja">{{ w.furigana | ruby }}</span><span class="lw-tr">{{ tr(w.tr) }}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+<p class="credit">Stroke order: <a href="https://kanjivg.tagaini.net" rel="noopener">KanjiVG</a> (CC BY-SA 3.0).</p>
+{% endblock %}

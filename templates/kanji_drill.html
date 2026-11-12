@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<nav class="lesson-nav"><a href="../">All kanji</a><span></span></nav>
+<h1 class="page-title">Kanji drill</h1>
+<div class="drill-controls">
+  <div class="seg" id="modes" role="group" aria-label="Mode">
+    <button type="button" data-k="read">READ: kanji → kana</button>
+    <button type="button" data-k="write">WRITE: kana → kanji</button>
+  </div>
+  <div class="seg" id="srcs" role="group" aria-label="Words from">
+    <button type="button" data-k="all">ALL</button>
+    <button type="button" data-k="book">BOOK</button>
+    {% for n in lessons %}<button type="button" data-k="{{ n }}">L{{ n }}</button>{% endfor %}
+  </div>
+</div>
+<div class="drill" id="drill" aria-live="polite">
+  <div class="dq" id="q"></div>
+  <div class="dopts" id="opts"></div>
+  <div class="dfb" id="fb"></div>
+  <div class="dnav"><span class="dscore" id="score"></span><button class="btn" type="button" id="next">Next</button></div>
+</div>
+<script type="application/json" id="data">{{ data }}</script>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ root }}static/js/kanji-drill.js"></script>{% endblock %}

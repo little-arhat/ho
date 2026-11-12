@@ -16,22 +16,9 @@ from typing import Any
 
 from ho import furigana
 from ho.errors import ContentError
+from ho.fields import LANGS, Line, Text, check_keys, japanese, line, translations
 
-LANGS = ("en", "ru", "uk")
 BLANK = "＿"
-
-
-@dataclass(frozen=True)
-class Text:
-    en: str
-    ru: str
-    uk: str
-
-
-@dataclass(frozen=True)
-class Line:
-    ja: str
-    tr: Text
 
 
 @dataclass(frozen=True)
@@ -99,89 +86,60 @@ class Lesson:
     vocab: tuple[Word, ...]
 
 
-def _keys(row: dict[str, Any], required: set[str], optional: set[str], where: str) -> None:
-    missing = required - set(row)
-    extra = set(row) - required - optional
-    if missing or extra:
-        raise ContentError(f"{where}: missing {sorted(missing)}, unknown {sorted(extra)}")
-
-
-def _japanese(text: str, where: str) -> str:
-    try:
-        furigana.parse(text)
-    except ContentError as e:
-        raise ContentError(f"{where}: {e}") from e
-    return text
-
-
-def _text(value: Any, where: str) -> Text:
-    if not isinstance(value, dict):
-        raise ContentError(f"{where}: expected {{en, ru, uk}}")
-    _keys(value, set(LANGS), set(), where)
-    if not all(isinstance(value[k], str) and value[k].strip() for k in LANGS):
-        raise ContentError(f"{where}: en, ru and uk must all be non-empty")
-    return Text(*(_japanese(value[k], where) for k in LANGS))
-
-
-def _line(row: dict[str, Any], where: str) -> Line:
-    _keys(row, {"ja", "en", "ru", "uk"}, set(), where)
-    return Line(_japanese(row["ja"], where), _text({k: row[k] for k in LANGS}, where))
-
-
 def _part(row: dict[str, Any], where: str) -> Part:
     if "ja" in row:
-        _keys(row, {"ja"}, set(), where)
-        return Part(ja=_japanese(row["ja"], where))
-    _keys(row, {"slot", "en", "ru", "uk"}, set(), where)
+        check_keys(row, {"ja"}, set(), where)
+        return Part(ja=japanese(row["ja"], where))
+    check_keys(row, {"slot", "en", "ru", "uk"}, set(), where)
     if not re.fullmatch(r"[a-z]+", row["slot"]):
         raise ContentError(f"{where}: slot id must be lowercase letters")
-    return Part(slot=row["slot"], label=_text({k: row[k] for k in LANGS}, where))
+    return Part(slot=row["slot"], label=translations({k: row[k] for k in LANGS}, where))
 
 
 def _table(row: dict[str, Any], where: str) -> Table:
-    _keys(row, {"head", "rows"}, set(), where)
-    head = tuple(_japanese(h, where) for h in row["head"])
-    rows = tuple(tuple(_japanese(c, where) for c in r) for r in row["rows"])
+    check_keys(row, {"head", "rows"}, set(), where)
+    head = tuple(japanese(h, where) for h in row["head"])
+    rows = tuple(tuple(japanese(c, where) for c in r) for r in row["rows"])
     if any(len(r) != len(head) for r in rows):
         raise ContentError(f"{where}: every row needs {len(head)} cells")
     return Table(head, rows)
 
 
 def _rule(row: dict[str, Any], where: str) -> Rule:
-    _keys(row, {"title", "explain"}, {"pattern", "table", "example"}, where)
+    check_keys(row, {"title", "explain"}, {"pattern", "table", "example"}, where)
     return Rule(
-        title=_text(row["title"], f"{where} title"),
-        explain=_text(row["explain"], f"{where} explain"),
+        title=translations(row["title"], f"{where} title"),
+        explain=translations(row["explain"], f"{where} explain"),
         pattern=tuple(_part(p, f"{where} pattern") for p in row.get("pattern", ())),
         table=_table(row["table"], f"{where} table") if "table" in row else None,
-        examples=tuple(_line(e, f"{where} example #{i + 1}") for i, e in enumerate(row.get("example", ()))),
+        examples=tuple(line(e, f"{where} example #{i + 1}") for i, e in enumerate(row.get("example", ()))),
     )
 
 
 def _exercise(row: dict[str, Any], where: str) -> Choice | Reorder:
     kind = row.get("kind")
     if kind == "choice":
-        _keys(row, {"kind", "ja", "options", "answer", "en", "ru", "uk"}, set(), where)
+        check_keys(row, {"kind", "ja", "options", "answer", "en", "ru", "uk"}, set(), where)
         if row["ja"].count(BLANK) != 1:
             raise ContentError(f"{where}: the sentence needs exactly one {BLANK}")
         if row["answer"] not in row["options"] or len(set(row["options"])) != len(row["options"]):
             raise ContentError(f"{where}: options must be distinct and include the answer")
-        return Choice(_japanese(row["ja"], where), tuple(_japanese(o, where) for o in row["options"]),
-                      row["answer"], _text({k: row[k] for k in LANGS}, where))
+        return Choice(japanese(row["ja"], where), tuple(japanese(o, where) for o in row["options"]),
+                      row["answer"], translations({k: row[k] for k in LANGS}, where))
     if kind == "reorder":
-        _keys(row, {"kind", "parts", "en", "ru", "uk"}, set(), where)
+        check_keys(row, {"kind", "parts", "en", "ru", "uk"}, set(), where)
         if len(row["parts"]) < 3 or len(set(row["parts"])) != len(row["parts"]):
             raise ContentError(f"{where}: needs at least 3 distinct parts")
-        return Reorder(tuple(_japanese(p, where) for p in row["parts"]), _text({k: row[k] for k in LANGS}, where))
+        return Reorder(tuple(japanese(p, where) for p in row["parts"]), translations({k: row[k] for k in LANGS}, where))
     raise ContentError(f"{where}: kind must be 'choice' or 'reorder'")
 
 
 def _note(row: dict[str, Any], where: str) -> Note:
-    _keys(row, {"text"}, {"date"}, where)
+    check_keys(row, {"text"}, {"date"}, where)
     date = row.get("date", "")
     if date and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(date)):
         raise ContentError(f"{where}: date must be YYYY-MM-DD")
-    return Note(str(date), _japanese(row["text"].strip(), where))
+    return Note(str(date), japanese(row["text"].strip(), where))
 
 
 VOCAB_COLUMNS = ("kanji", "kana", "furigana", "en", "ru", "uk", "note_en", "note_ru", "note_uk",
@@ -192,7 +150,7 @@ def _optional_text(row: dict[str, str], prefix: str, where: str) -> Text | None:
     values = {k: row[f"{prefix}_{k}"] for k in LANGS}
     if not any(values.values()):
         return None
-    return _text(values, f"{where} {prefix}")
+    return translations(values, f"{where} {prefix}")
 
 
 def load_vocab(path: Path) -> tuple[Word, ...]:
@@ -203,7 +161,7 @@ def load_vocab(path: Path) -> tuple[Word, ...]:
         out = []
         for line, row in enumerate(reader, start=2):
             where = f"{path}:{line}"
-            fg = _japanese(row["furigana"], where)
+            fg = japanese(row["furigana"], where)
             written = row["kanji"] or row["kana"]
             if furigana.plain(fg) != written or furigana.reading(fg) != row["kana"]:
                 raise ContentError(f"{where}: furigana {fg!r} does not give {written!r} / {row['kana']!r}")
@@ -212,11 +170,11 @@ def load_vocab(path: Path) -> tuple[Word, ...]:
                 tr = _optional_text(row, "example", where)
                 if tr is None:
                     raise ContentError(f"{where}: example needs en, ru and uk translations")
-                example = Line(_japanese(row["example"], where), tr)
+                example = Line(japanese(row["example"], where), tr)
             elif any(row[f"example_{k}"] for k in LANGS):
                 raise ContentError(f"{where}: example translation without an example")
             out.append(Word(row["kanji"], row["kana"], fg,
-                            _text({k: row[k] for k in LANGS}, where),
+                            translations({k: row[k] for k in LANGS}, where),
                             _optional_text(row, "note", where), example))
         return tuple(out)
 
@@ -224,14 +182,14 @@ def load_vocab(path: Path) -> tuple[Word, ...]:
 def load_lesson(path: Path) -> Lesson:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
     where = str(path)
-    _keys(data, {"number", "title", "grammar"}, {"rule", "exercise", "note"}, where)
+    check_keys(data, {"number", "title", "grammar"}, {"rule", "exercise", "note"}, where)
     if f"{data['number']:02d}.toml" != path.name:
         raise ContentError(f"{where}: number {data['number']} does not match the file name")
     vocab_path = path.with_name(f"{data['number']:02d}.vocab.csv")
     return Lesson(
         number=data["number"],
-        title=_text(data["title"], f"{where} title"),
-        grammar=_japanese(data["grammar"], f"{where} grammar"),
+        title=translations(data["title"], f"{where} title"),
+        grammar=japanese(data["grammar"], f"{where} grammar"),
         rules=tuple(_rule(r, f"{where} rule #{i + 1}") for i, r in enumerate(data.get("rule", ()))),
         exercises=tuple(_exercise(e, f"{where} exercise #{i + 1}") for i, e in enumerate(data.get("exercise", ()))),
         notes=tuple(_note(n, f"{where} note #{i + 1}") for i, n in enumerate(data.get("note", ()))),
