@@ -1,6 +1,6 @@
 number = 2
-title_ja = "ほんの気[き]持[も]ちです"
-title = { en = "It's just a small token", ru = "Это просто небольшой знак внимания", uk = "Це лише невеликий знак уваги" }
+title = { en = "Things: this, that, whose", ru = "Вещи: это, то, чьё", uk = "Речі: це, те, чиє" }
+grammar = "これ・この・の・何[なん]・そうです"
 
 [[rule]]
 title = { en = "これ・それ・あれ: this, that, that over there", ru = "これ・それ・あれ: это, то, вон то", uk = "これ・それ・あれ: це, те, он те" }

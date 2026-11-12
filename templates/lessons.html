@@ -6,8 +6,8 @@
   {% for l in lessons %}
   <li><a class="lesson-tile" href="{{ "%02d" | format(l.number) }}/">
     <span class="lesson-no" lang="ja">第{{ l.number }}課</span>
-    <span class="lesson-ja" lang="ja">{{ l.title_ja | ruby }}</span>
-    <span class="lesson-en">{{ tr(l.title) }}</span>
+    <span class="lesson-topic">{{ tr(l.title) }}</span>
+    <span class="lesson-grammar" lang="ja">{{ l.grammar | ruby }}</span>
     <span class="lesson-meta">{{ l.rules | length }} rules · {{ l.vocab | length }} words{% if l.exercises %} · {{ l.exercises | length }} exercises{% endif %}</span>
   </a></li>
   {% endfor %}

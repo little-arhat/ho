@@ -79,7 +79,7 @@ def pages(content: Content) -> tuple[Page, ...]:
     numbers = [lesson.number for lesson in content.lessons]
     for i, lesson in enumerate(content.lessons):
         out.append(Page(
-            f"lessons/{lesson.number:02d}/index.html", "lesson.html", f"Lesson {lesson.number}", "lessons",
+            f"lessons/{lesson.number:02d}/index.html", "lesson.html", f"{lesson.number}. {lesson.title.en}", "lessons",
             {"lesson": lesson,
              "prev": numbers[i - 1] if i > 0 else None,
              "next": numbers[i + 1] if i + 1 < len(numbers) else None},

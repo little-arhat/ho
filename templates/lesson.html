@@ -10,8 +10,8 @@
 </nav>
 <header class="lesson-head">
   <div class="lesson-no" lang="ja">第{{ lesson.number }}課</div>
-  <h1 lang="ja">{{ lesson.title_ja | ruby }}</h1>
-  <div class="lesson-en">{{ tr(lesson.title) }}</div>
+  <h1>{{ tr(lesson.title) }}</h1>
+  <div class="lesson-grammar" lang="ja">{{ lesson.grammar | ruby }}</div>
   <ul class="toc">
     {% if lesson.rules %}<li><a href="#rules">Rules</a></li>{% endif %}
     {% if lesson.exercises %}<li><a href="#exercises">Exercises</a></li>{% endif %}

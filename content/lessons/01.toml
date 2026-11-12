@@ -1,6 +1,6 @@
 number = 1
-title_ja = "初[はじ]めまして"
-title = { en = "Nice to meet you", ru = "Приятно познакомиться", uk = "Приємно познайомитися" }
+title = { en = "Introducing yourself", ru = "Знакомство", uk = "Знайомство" }
+grammar = "は・です・じゃ ありません・か・も・の・～さん"
 
 [[rule]]
 title = { en = "A is B: N₁ は N₂ です", ru = "A — это B: N₁ は N₂ です", uk = "A — це B: N₁ は N₂ です" }

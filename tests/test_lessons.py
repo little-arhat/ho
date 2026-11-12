@@ -6,7 +6,7 @@ from ho.errors import ContentError
 from ho.lessons import VOCAB_COLUMNS, exercises_view, load_lesson, load_lessons, load_vocab
 
 LESSONS = Path(__file__).parent.parent / "content/lessons"
-HEAD = 'number = 9\ntitle_ja = "テスト"\ntitle = { en = "t", ru = "т", uk = "т" }\n'
+HEAD = 'number = 9\ntitle = { en = "t", ru = "т", uk = "т" }\ngrammar = "は"\n'
 
 
 def write(tmp_path, body, name="09.toml"):

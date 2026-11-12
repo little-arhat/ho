@@ -1,6 +1,6 @@
 number = 6
-title_ja = "いっしょに行[い]きませんか"
-title = { en = "Won't you come along?", ru = "Не хотите пойти вместе?", uk = "Не хочете піти разом?" }
+title = { en = "Doing things, inviting", ru = "Действия и приглашения", uk = "Дії та запрошення" }
+grammar = "を・で・ませんか・ましょう・何[なに]か"
 
 [[rule]]
 title = { en = "N を V: the object", ru = "N を V: прямое дополнение", uk = "N を V: прямий додаток" }

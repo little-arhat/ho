@@ -1,6 +1,6 @@
 number = 4
-title_ja = "そちらは何[なん]時[じ]から何[なん]時[じ]までですか"
-title = { en = "What are your opening hours?", ru = "С какого часа до какого вы работаете?", uk = "З котрої до котрої ви працюєте?" }
+title = { en = "Time and the daily routine", ru = "Время и распорядок дня", uk = "Час і розпорядок дня" }
+grammar = "～時[じ]・ます・ました・に・から・まで"
 
 [[rule]]
 title = { en = "Telling the time: ～時～分", ru = "Время: ～時～分", uk = "Час: ～時～分" }

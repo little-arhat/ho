@@ -91,8 +91,8 @@ class Word:
 @dataclass(frozen=True)
 class Lesson:
     number: int
-    title_ja: str
     title: Text
+    grammar: str
     rules: tuple[Rule, ...]
     exercises: tuple[Choice | Reorder, ...]
     notes: tuple[Note, ...]
@@ -224,14 +224,14 @@ def load_vocab(path: Path) -> tuple[Word, ...]:
 def load_lesson(path: Path) -> Lesson:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
     where = str(path)
-    _keys(data, {"number", "title_ja", "title"}, {"rule", "exercise", "note"}, where)
+    _keys(data, {"number", "title", "grammar"}, {"rule", "exercise", "note"}, where)
     if f"{data['number']:02d}.toml" != path.name:
         raise ContentError(f"{where}: number {data['number']} does not match the file name")
     vocab_path = path.with_name(f"{data['number']:02d}.vocab.csv")
     return Lesson(
         number=data["number"],
-        title_ja=_japanese(data["title_ja"], where),
         title=_text(data["title"], f"{where} title"),
+        grammar=_japanese(data["grammar"], f"{where} grammar"),
         rules=tuple(_rule(r, f"{where} rule #{i + 1}") for i, r in enumerate(data.get("rule", ()))),
         exercises=tuple(_exercise(e, f"{where} exercise #{i + 1}") for i, e in enumerate(data.get("exercise", ()))),
         notes=tuple(_note(n, f"{where} note #{i + 1}") for i, n in enumerate(data.get("note", ()))),

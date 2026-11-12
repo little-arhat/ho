@@ -1,6 +1,6 @@
 number = 3
-title_ja = "これをください"
-title = { en = "I'll take this one", ru = "Дайте вот это", uk = "Дайте ось це" }
+title = { en = "Places and prices", ru = "Места и цены", uk = "Місця і ціни" }
+grammar = "ここ・こちら・どこ・いくら・～階[かい]"
 
 [[rule]]
 title = { en = "ここ・そこ・あそこ・どこ: places", ru = "ここ・そこ・あそこ・どこ: места", uk = "ここ・そこ・あそこ・どこ: місця" }
