@@ -1,0 +1,225 @@
+number = 6
+title_ja = "いっしょに行[い]きませんか"
+title = { en = "Won't you come along?", ru = "Не хотите пойти вместе?", uk = "Не хочете піти разом?" }
+
+[[rule]]
+title = { en = "N を V: the object", ru = "N を V: прямое дополнение", uk = "N を V: прямий додаток" }
+pattern = [
+  { slot = "person", en = "who", ru = "кто", uk = "хто" },
+  { ja = "は" },
+  { slot = "thing", en = "object", ru = "что", uk = "що" },
+  { ja = "を" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+]
+explain.en = "を (read o) marks what the action is done to: ごはんを 食べます = I eat a meal. Some verbs take a different particle: 友達に 会います (meet a friend) uses に."
+explain.ru = "を (читается «о») отмечает, на что направлено действие, как винительный падеж: ごはんを 食べます — ем еду. Некоторые глаголы берут другую частицу: 友達に 会います (встретиться с другом) — с に."
+explain.uk = "を (читається «о») позначає, на що спрямована дія, як знахідний відмінок: ごはんを 食べます — їм їжу. Деякі дієслова беруть іншу частку: 友達に 会います (зустрітися з другом) — з に."
+example = [
+  { ja = "わたしはジュースを飲[の]みます。", en = "I drink juice.", ru = "Я пью сок.", uk = "Я п'ю сік." },
+  { ja = "毎[まい]朝[あさ]新[しん]聞[ぶん]を読[よ]みます。", en = "I read the newspaper every morning.", ru = "Каждое утро я читаю газету.", uk = "Щоранку я читаю газету." },
+]
+
+[[rule]]
+title = { en = "N を します: do, play", ru = "N を します: делать, играть", uk = "N を します: робити, грати" }
+explain.en = "します (do) makes verbs from many nouns: テニスを します = play tennis, 宿題を します = do homework, お花見を します = go cherry-blossom viewing. Ask what someone does with 何を しますか."
+explain.ru = "します (делать) образует глаголы от многих существительных: テニスを します — играть в теннис, 宿題を します — делать уроки, お花見を します — любоваться сакурой. Вопрос: 何を しますか — что делаете?"
+explain.uk = "します (робити) утворює дієслова від багатьох іменників: テニスを します — грати в теніс, 宿題を します — робити уроки, お花見を します — милуватися сакурою. Питання: 何を しますか — що робите?"
+example = [
+  { ja = "日[にち]曜[よう]日[び]何[なに]をしますか。", en = "What do you do on Sundays?", ru = "Что вы делаете в воскресенье?", uk = "Що ви робите в неділю?" },
+  { ja = "テニスをします。", en = "I play tennis.", ru = "Играю в теннис.", uk = "Граю в теніс." },
+]
+
+[[rule]]
+title = { en = "Place で V: where the action happens", ru = "Место で V: где происходит действие", uk = "Місце で V: де відбувається дія" }
+pattern = [
+  { slot = "place", en = "place", ru = "место", uk = "місце" },
+  { ja = "で" },
+  { slot = "thing", en = "object", ru = "что", uk = "що" },
+  { ja = "を" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+]
+explain.en = "で after a place marks where an action takes place: デパートで 紅茶を 買いました = I bought tea at the department store. Do not confuse with へ (direction of movement): デパートへ 行きます = I go to the department store."
+explain.ru = "で после места отмечает, где происходит действие: デパートで 紅茶を 買いました — я купил чай в универмаге. Не путайте с へ (направление движения): デパートへ 行きます — иду в универмаг."
+explain.uk = "で після місця позначає, де відбувається дія: デパートで 紅茶を 買いました — я купив чай в універмазі. Не плутайте з へ (напрямок руху): デパートへ 行きます — іду до універмагу."
+example = [
+  { ja = "デパートで紅[こう]茶[ちゃ]を買[か]いました。", en = "I bought black tea at the department store.", ru = "Я купил чай в универмаге.", uk = "Я купив чай в універмазі." },
+  { ja = "どこで紅[こう]茶[ちゃ]を買[か]いましたか。", en = "Where did you buy the tea?", ru = "Где вы купили чай?", uk = "Де ви купили чай?" },
+]
+
+[[rule]]
+title = { en = "V ませんか: won't you…? (inviting)", ru = "V ませんか: не хотите ли…? (приглашение)", uk = "V ませんか: чи не хочете…? (запрошення)" }
+explain.en = "The negative question ～ませんか is a polite invitation: いっしょに 京都へ 行きませんか = won't you come to Kyoto with me? It is softer than a direct question, because it leaves room to say no."
+explain.ru = "Отрицательный вопрос ～ませんか — вежливое приглашение: いっしょに 京都へ 行きませんか — не хотите поехать со мной в Киото? Это мягче прямого вопроса: оставляет место для отказа, как русское «не хотите ли…»."
+explain.uk = "Заперечне питання ～ませんか — ввічливе запрошення: いっしょに 京都へ 行きませんか — чи не хочете поїхати зі мною до Кіото? Це м'якше за пряме питання: лишає місце для відмови, як українське «чи не хотіли б…»."
+example = [
+  { ja = "いっしょに京[きょう]都[と]へ行[い]きませんか。", en = "Won't you come to Kyoto with me?", ru = "Не хотите поехать со мной в Киото?", uk = "Чи не хочете поїхати зі мною до Кіото?" },
+  { ja = "ええ、いいですね。", en = "Yes, that sounds good.", ru = "Да, с удовольствием.", uk = "Так, залюбки." },
+]
+
+[[rule]]
+title = { en = "V ましょう: let's…", ru = "V ましょう: давайте…", uk = "V ましょう: давайте…" }
+explain.en = "～ましょう = let's do it. It answers an invitation or makes a suggestion when the other person is already on board: ちょっと 休みましょう = let's take a short break."
+explain.ru = "～ましょう — «давайте сделаем». Отвечает на приглашение или предлагает, когда собеседник уже согласен: ちょっと 休みましょう — давайте немного отдохнём."
+explain.uk = "～ましょう — «давайте зробимо». Відповідає на запрошення або пропонує, коли співрозмовник уже згоден: ちょっと 休みましょう — давайте трохи відпочинемо."
+example = [
+  { ja = "ちょっと休[やす]みましょう。", en = "Let's take a short break.", ru = "Давайте немного отдохнём.", uk = "Давайте трохи відпочинемо." },
+  { ja = "どこで会[あ]いましょうか。", en = "Where shall we meet?", ru = "Где встретимся?", uk = "Де зустрінемося?" },
+]
+
+[[rule]]
+title = { en = "Something, somewhere, someone: 何か・どこか・誰か", ru = "Что-то, где-то, кто-то: 何か・どこか・誰か", uk = "Щось, десь, хтось: 何か・どこか・誰か" }
+explain.en = "A question word + か makes an indefinite word: 何か = something / anything, どこか = somewhere / anywhere, 誰か = someone / anyone. Compare question word + も + negative (lesson 5): 何も しません = I do nothing."
+explain.ru = "Вопросительное слово + か даёт неопределённое слово: 何か — что-то / что-нибудь, どこか — где-то / куда-нибудь, 誰か — кто-то / кто-нибудь. Сравните: вопр. слово + も + отрицание (урок 5): 何も しません — ничего не делаю."
+explain.uk = "Питальне слово + か дає неозначене слово: 何か — щось / що-небудь, どこか — десь / кудись, 誰か — хтось / хто-небудь. Порівняйте: пит. слово + も + заперечення (урок 5): 何も しません — нічого не роблю."
+example = [
+  { ja = "いっしょに何[なに]かしませんか。", en = "Shall we do something together?", ru = "Давайте что-нибудь сделаем вместе?", uk = "Давайте щось зробимо разом?" },
+  { ja = "一[いっ]緒[しょ]にどこか行[い]きませんか。", en = "Shall we go somewhere together?", ru = "Не хотите куда-нибудь сходить вместе?", uk = "Чи не хочете кудись сходити разом?" },
+  { ja = "誰[だれ]かに会[あ]いたいです。", en = "I want to meet someone.", ru = "Я хочу с кем-нибудь встретиться.", uk = "Я хочу з кимось зустрітися." },
+]
+
+[[rule]]
+title = { en = "How often: いつも, よく, 時々, あまり, めったに, 一度も", ru = "Как часто: いつも, よく, 時々, あまり, めったに, 一度も", uk = "Як часто: いつも, よく, 時々, あまり, めったに, 一度も" }
+explain.en = "From always to never: いつも (always), よく (often), 時々 (sometimes) go with a positive verb. あまり (not much), めったに (rarely), 一度も (not once) need a negative verb: めったに 飲みません."
+explain.ru = "От «всегда» до «никогда»: いつも (всегда), よく (часто), 時々 (иногда) — с утвердительным глаголом. あまり (не очень), めったに (редко), 一度も (ни разу) — только с отрицательным: めったに 飲みません."
+explain.uk = "Від «завжди» до «ніколи»: いつも (завжди), よく (часто), 時々 (іноді) — зі ствердним дієсловом. あまり (не дуже), めったに (рідко), 一度も (жодного разу) — лише із заперечним: めったに 飲みません."
+example = [
+  { ja = "時[とき]々[どき]お酒[さけ]を飲[の]みます。", en = "I sometimes drink alcohol.", ru = "Иногда я пью алкоголь.", uk = "Іноді я п'ю алкоголь." },
+  { ja = "めったにテレビを見[み]ません。", en = "I rarely watch TV.", ru = "Я редко смотрю телевизор.", uk = "Я рідко дивлюся телевізор." },
+]
+
+[[rule]]
+title = { en = "Verb groups (ます form)", ru = "Группы глаголов (форма ます)", uk = "Групи дієслів (форма ます)" }
+explain.en = "Look at the sound just before ます. Group I: an い-row sound (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Group II: an え-row sound: たべます, ねます. A few group II verbs have an い-row sound and must be learned: みます, おきます, あびます, かります, きます (wear), できます, おります, います, たります. Group III: only します (and noun + します: べんきょうします) and きます (come)."
+explain.ru = "Смотрите на звук перед ます. Группа I: звук ряда い (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Группа II: звук ряда え: たべます, ねます. Некоторые глаголы группы II имеют звук ряда い, их надо запомнить: みます, おきます, あびます, かります, きます (надевать), できます, おります, います, たります. Группа III: только します (и сущ. + します: べんきょうします) и きます (приходить)."
+explain.uk = "Дивіться на звук перед ます. Група I: звук ряду い (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Група II: звук ряду え: たべます, ねます. Деякі дієслова групи II мають звук ряду い, їх треба запам'ятати: みます, おきます, あびます, かります, きます (вдягати), できます, おります, います, たります. Група III: лише します (та імен. + します: べんきょうします) і きます (приходити)."
+table = { head = ["group", "before ます", "examples"], rows = [
+  ["I", "い-row: い ち り み に び き ぎ し", "すいます、かえります、のみます、かきます、はなします"],
+  ["II", "え-row (+ exceptions)", "たべます、ねます、みます、おきます、います"],
+  ["III", "irregular", "します、べんきょうします、きます"],
+] }
+
+[[exercise]]
+kind = "choice"
+ja = "わたしはジュース＿飲[の]みます。"
+options = ["を", "で", "へ", "に"]
+answer = "を"
+en = "I drink juice."
+ru = "Я пью сок."
+uk = "Я п'ю сік."
+
+[[exercise]]
+kind = "choice"
+ja = "デパート＿紅[こう]茶[ちゃ]を買[か]いました。"
+options = ["で", "へ", "を", "と"]
+answer = "で"
+en = "I bought black tea at the department store."
+ru = "Я купил чай в универмаге."
+uk = "Я купив чай в універмазі."
+
+[[exercise]]
+kind = "choice"
+ja = "友[とも]達[だち]＿会[あ]います。"
+options = ["に", "を", "で"]
+answer = "に"
+en = "I meet a friend."
+ru = "Я встречаюсь с другом."
+uk = "Я зустрічаюся з другом."
+
+[[exercise]]
+kind = "choice"
+ja = "いっしょに京[きょう]都[と]へ＿か。"
+options = ["行[い]きません", "行[い]きました", "行[い]きます"]
+answer = "行[い]きません"
+en = "Won't you come to Kyoto with me?"
+ru = "Не хотите поехать со мной в Киото?"
+uk = "Чи не хочете поїхати зі мною до Кіото?"
+
+[[exercise]]
+kind = "choice"
+ja = "めったにテレビを＿。"
+options = ["見[み]ません", "見[み]ます", "見[み]ましょう"]
+answer = "見[み]ません"
+en = "I rarely watch TV."
+ru = "Я редко смотрю телевизор."
+uk = "Я рідко дивлюся телевізор."
+
+[[exercise]]
+kind = "choice"
+ja = "＿か食[た]べませんか。"
+options = ["何[なに]", "何[なに]も", "どこ"]
+answer = "何[なに]"
+en = "Shall we eat something?"
+ru = "Давайте что-нибудь съедим?"
+uk = "Давайте щось з'їмо?"
+
+[[exercise]]
+kind = "choice"
+ja = "たべます is a group ＿ verb."
+options = ["II", "I", "III"]
+answer = "II"
+en = "たべます (eat) is a group II verb."
+ru = "たべます (есть) — глагол группы II."
+uk = "たべます (їсти) — дієслово групи II."
+
+[[exercise]]
+kind = "reorder"
+parts = ["デパートで", "紅[こう]茶[ちゃ]を", "買[か]いました。"]
+en = "I bought black tea at the department store."
+ru = "Я купил чай в универмаге."
+uk = "Я купив чай в універмазі."
+
+[[note]]
+text = """
+何か something, anything
+どこか somewhere, anywhere
+誰か（だれ） someone, anyone
+
+いっしょに何かしませんか。
+Would you like doing anything together?
+一緒にどこか行きませんか？
+Would you like going anywhere together?
+
+ひとりぼっちです・さびしいです・どくしんです。
+I'm lonely.
+I want to meet someone.　誰かに会いたいです。
+"""
+
+[[note]]
+text = """
+おきます (get up, wake up)
+あびます (take (a shower))
+かります (borrow)
+きます (put on (clothes))
+できます (be able to, can)
+おります (get off (a train))
+います (exist, be (animate), have (a child), stay, be (somewhere))
+みます (see, look at, watch)
+たります (be enough, be sufficient)
+"""
+
+[[note]]
+text = """
+～ますけい
+たべます　よみます　べんきょうします
+見ます　いきます
+
+I グループ　い行
+① い ち り ＋ます：すいます　かえります　たちます
+② み に び ＋ます：のみます　とびます　しにます
+③ き ぎ ＋ます：いそぎます　かきます（書きます）
+※ いきます　話します　□します：かします
+
+II グループ　え行
+たべます　※ □ます：みます 見ます　ねます 寝ます
+※ except 食べます
+
+III グループ
+します：N＋します　おはなみをします　べんきょうします → 勉強します
+きます ※ 来ます　つれてきます
+"""
+
+[[note]]
+text = """
+デパート / あの みせ / とうきょう で 紅茶を 買いました。
+どこ … か。
+"""
