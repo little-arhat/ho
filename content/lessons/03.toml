@@ -1,0 +1,155 @@
+number = 3
+title_ja = "これをください"
+title = { en = "I'll take this one", ru = "Дайте вот это", uk = "Дайте ось це" }
+
+[[rule]]
+title = { en = "ここ・そこ・あそこ・どこ: places", ru = "ここ・そこ・あそこ・どこ: места", uk = "ここ・そこ・あそこ・どこ: місця" }
+pattern = [
+  { ja = "ここ / そこ / あそこ" },
+  { ja = "は" },
+  { slot = "place", en = "place", ru = "место", uk = "місце" },
+  { ja = "です" },
+]
+explain.en = "The place words follow the same three distances as これ・それ・あれ: ここ = here (near me), そこ = there (near you), あそこ = over there (away from both). どこ = where."
+explain.ru = "Слова места делят пространство так же, как これ・それ・あれ: ここ — здесь (у меня), そこ — там (у тебя), あそこ — вон там (далеко от обоих). どこ — где."
+explain.uk = "Слова місця ділять простір так само, як これ・それ・あれ: ここ — тут (біля мене), そこ — там (біля тебе), あそこ — он там (далеко від обох). どこ — де."
+example = [
+  { ja = "ここは教[きょう]室[しつ]です。", en = "This is the classroom.", ru = "Здесь аудитория.", uk = "Тут аудиторія." },
+  { ja = "受[うけ]付[つけ]はどこですか。", en = "Where is the reception desk?", ru = "Где рецепция?", uk = "Де рецепція?" },
+  { ja = "あそこです。", en = "Over there.", ru = "Вон там.", uk = "Он там." },
+]
+
+[[rule]]
+title = { en = "N は place です: where something is", ru = "N は место です: где находится", uk = "N は місце です: де знаходиться" }
+pattern = [
+  { slot = "thing", en = "thing / person", ru = "предмет / человек", uk = "предмет / людина" },
+  { ja = "は" },
+  { slot = "place", en = "place", ru = "место", uk = "місце" },
+  { ja = "です" },
+]
+explain.en = "Put the thing first and the place after は: 自動販売機は 2かいです = the vending machine is on the 2nd floor. Ask with どこ in the place slot."
+explain.ru = "Сначала предмет, после は — место: 自動販売機は 2かいです — торговый автомат на 2-м этаже. Спрашивают どこ на месте ответа."
+explain.uk = "Спершу предмет, після は — місце: 自動販売機は 2かいです — торговий автомат на 2-му поверсі. Питають どこ на місці відповіді."
+example = [
+  { ja = "自[じ]動[どう]販[はん]売[ばい]機[き]は２かいです。", en = "The vending machine is on the 2nd floor.", ru = "Торговый автомат на 2-м этаже.", uk = "Торговий автомат на 2-му поверсі." },
+  { ja = "佐[さ]藤[とう]さんはどこですか。", en = "Where is Ms. Sato?", ru = "Где Сато-сан?", uk = "Де Сато-сан?" },
+]
+
+[[rule]]
+title = { en = "こちら・そちら・あちら・どちら: the polite set", ru = "こちら・そちら・あちら・どちら: вежливый ряд", uk = "こちら・そちら・あちら・どちら: ввічливий ряд" }
+explain.en = "Literally directions (this way, that way). They are the polite form of ここ・そこ・あそこ・どこ, used by staff and with people you respect. どちら also asks for a country, company or school: お国は どちらですか = where are you from?"
+explain.ru = "Буквально — направления (сюда, туда). Это вежливая форма ここ・そこ・あそこ・どこ: так говорят продавцы и с уважаемыми людьми. どちら спрашивает и о стране, компании, школе: お国は どちらですか — откуда вы?"
+explain.uk = "Буквально — напрямки (сюди, туди). Це ввічлива форма ここ・そこ・あそこ・どこ: так кажуть продавці і з шанованими людьми. どちら питає і про країну, компанію, школу: お国は どちらですか — звідки ви?"
+example = [
+  { ja = "エレベーターはどちらですか。", en = "Which way is the elevator?", ru = "Где лифт?", uk = "Де ліфт?" },
+  { ja = "あちらです。", en = "Over that way.", ru = "Вон там.", uk = "Он там." },
+  { ja = "会[かい]社[しゃ]はどちらですか。— IMCです。", en = "Which company are you with? — IMC.", ru = "В какой компании вы работаете? — В IMC.", uk = "У якій компанії ви працюєте? — В IMC." },
+]
+
+[[rule]]
+title = { en = "N₁ の N₂: made in, made by", ru = "N₁ の N₂: чьего производства", uk = "N₁ の N₂: чийого виробництва" }
+pattern = [
+  { slot = "place", en = "country / maker", ru = "страна / фирма", uk = "країна / фірма" },
+  { ja = "の" },
+  { slot = "thing", en = "product", ru = "товар", uk = "товар" },
+]
+explain.en = "With a country or a company in front, の says where a thing comes from: にほんの 車 = a Japanese car, IMCの コンピューター = an IMC computer. Ask with どこの: これは どこの 車ですか."
+explain.ru = "Если впереди страна или фирма, の говорит, откуда вещь: にほんの 車 — японская машина, IMCの コンピューター — компьютер фирмы IMC. Вопрос: どこの: これは どこの 車ですか."
+explain.uk = "Якщо попереду країна чи фірма, の каже, звідки річ: にほんの 車 — японська машина, IMCの コンピューター — комп'ютер фірми IMC. Питання: どこの: これは どこの 車ですか."
+example = [
+  { ja = "これはにほんの車[くるま]です。", en = "This is a Japanese car.", ru = "Это японская машина.", uk = "Це японська машина." },
+  { ja = "それはどこのワインですか。— イタリアのワインです。", en = "Where is that wine from? — It's Italian wine.", ru = "Откуда это вино? — Итальянское.", uk = "Звідки це вино? — Італійське." },
+]
+
+[[rule]]
+title = { en = "いくら: how much", ru = "いくら: сколько стоит", uk = "いくら: скільки коштує" }
+pattern = [
+  { slot = "thing", en = "thing", ru = "предмет", uk = "предмет" },
+  { ja = "は" },
+  { slot = "number", en = "～えん / いくら", ru = "～えん / いくら", uk = "～えん / いくら" },
+  { ja = "です" },
+]
+explain.en = "Ask a price with いくらですか. Read prices with 円 (えん): 1,500えん = せんごひゃくえん, 13,000えん = いちまんさんぜんえん. Remember 10,000 = いちまん. The same pattern works with ユーロ and ドル."
+explain.ru = "Цену спрашивают いくらですか. Цены читают с 円 (えん): 1500 иен = せんごひゃくえん, 13 000 иен = いちまんさんぜんえん. Помните: 10 000 = いちまん. Так же с ユーロ и ドル."
+explain.uk = "Ціну питають いくらですか. Ціни читають з 円 (えん): 1500 єн = せんごひゃくえん, 13 000 єн = いちまんさんぜんえん. Пам'ятайте: 10 000 = いちまん. Так само з ユーロ і ドル."
+example = [
+  { ja = "このネクタイはいくらですか。", en = "How much is this necktie?", ru = "Сколько стоит этот галстук?", uk = "Скільки коштує ця краватка?" },
+  { ja = "５，８００円[えん]です。", en = "It's 5,800 yen.", ru = "5800 иен.", uk = "5800 єн." },
+  { ja = "これを見[み]せてください。", en = "Please show me this one.", ru = "Покажите, пожалуйста, это.", uk = "Покажіть, будь ласка, це." },
+]
+
+[[rule]]
+title = { en = "Floors: ～階", ru = "Этажи: ～階", uk = "Поверхи: ～階" }
+explain.en = "Floors are counted with 階. The reading changes: 1 いっかい, 3 さんがい, 6 ろっかい, 8 はっかい, 10 じゅっかい, and the question なんがい. Basement floors take 地下: ちか いっかい = B1."
+explain.ru = "Этажи считают счётным словом 階. Чтение меняется: 1 いっかい, 3 さんがい, 6 ろっかい, 8 はっかい, 10 じゅっかい, и вопрос なんがい. Подземные этажи — с 地下: ちか いっかい = B1."
+explain.uk = "Поверхи рахують лічильним словом 階. Читання змінюється: 1 いっかい, 3 さんがい, 6 ろっかい, 8 はっかい, 10 じゅっかい, і питання なんがい. Підземні поверхи — з 地下: ちか いっかい = B1."
+table = { head = ["", "-階[かい]"], rows = [
+  ["1", "いっかい"], ["2", "にかい"], ["3", "さんがい"], ["4", "よんかい"], ["5", "ごかい"],
+  ["6", "ろっかい"], ["7", "ななかい"], ["8", "はっかい"], ["9", "きゅうかい"], ["10", "じゅっかい、じっかい"],
+  ["?", "なんがい"],
+] }
+example = [
+  { ja = "トイレは何[なん]階[がい]ですか。", en = "What floor is the toilet on?", ru = "На каком этаже туалет?", uk = "На якому поверсі туалет?" },
+  { ja = "地[ち]下[か]一[いっ]階[かい]です。", en = "On the first basement floor.", ru = "На первом подземном этаже.", uk = "На першому підземному поверсі." },
+]
+
+[[exercise]]
+kind = "choice"
+ja = "受[うけ]付[つけ]は＿ですか。"
+options = ["どこ", "だれ", "なん"]
+answer = "どこ"
+en = "Where is the reception desk?"
+ru = "Где рецепция?"
+uk = "Де рецепція?"
+
+[[exercise]]
+kind = "choice"
+ja = "エレベーターは＿ですか。(polite)"
+options = ["どちら", "どれ", "どの"]
+answer = "どちら"
+en = "Which way is the elevator? (polite)"
+ru = "Где лифт? (вежливо)"
+uk = "Де ліфт? (ввічливо)"
+
+[[exercise]]
+kind = "choice"
+ja = "これは＿の車[くるま]ですか。— ドイツの車[くるま]です。"
+options = ["どこ", "どれ", "いくら"]
+answer = "どこ"
+en = "Where is this car from? — It's a German car."
+ru = "Это машина какой страны? — Немецкая."
+uk = "Це машина якої країни? — Німецька."
+
+[[exercise]]
+kind = "choice"
+ja = "このネクタイは＿ですか。— 1,500円[えん]です。"
+options = ["いくら", "なんがい", "どちら"]
+answer = "いくら"
+en = "How much is this necktie? — 1,500 yen."
+ru = "Сколько стоит этот галстук? — 1500 иен."
+uk = "Скільки коштує ця краватка? — 1500 єн."
+
+[[exercise]]
+kind = "choice"
+ja = "トイレは３＿です。"
+options = ["がい", "かい", "さい"]
+answer = "がい"
+en = "The toilet is on the 3rd floor."
+ru = "Туалет на 3-м этаже."
+uk = "Туалет на 3-му поверсі."
+
+[[exercise]]
+kind = "reorder"
+parts = ["ワインうりばは", "ちか", "いっかい", "です。"]
+en = "The wine counter is on the first basement floor."
+ru = "Винный отдел на первом подземном этаже."
+uk = "Винний відділ на першому підземному поверсі."
+
+[[note]]
+text = """
+練習A, 7.
+この ネクタイは 1,500えん / 5,800えん / 13,000えん です。
+… いくら …か。
+ユーロ
+ドル
+"""
