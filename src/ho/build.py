@@ -7,9 +7,9 @@ import shutil
 import sys
 from pathlib import Path
 
-from ho import kanji, katakana, lessons, phrasebook, refdata
+from ho import kanji, katakana, lessons, phrasebook, reading, refdata
 from ho.errors import ContentError
-from ho.site import Content, render_site
+from ho.site import Content, assets, render_site
 from ho.verbs import load_verbs
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -29,6 +29,7 @@ def load_content(content_dir: Path, ref_path: Path) -> Content:
         katakana=katakana.load(content_dir / "katakana.toml"),
         kanji=cards,
         strokes={c.char: ref[c.char].strokes for c in cards},
+        readings=reading.load_readings(content_dir / "reading", lesson_list),
     )
 
 
@@ -40,9 +41,12 @@ def _clear(out: Path) -> None:
     shutil.rmtree(out)
 
 
-def write_site(pages: dict[str, str], out: Path) -> None:
+def write_site(pages: dict[str, str], files: dict[str, Path], out: Path) -> None:
     _clear(out)
     shutil.copytree(ROOT / "web", out / "static", ignore=shutil.ignore_patterns(".*"))
+    for rel, source in files.items():
+        (out / rel).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, out / rel)
     for rel, html in pages.items():
         target = out / rel
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -59,8 +63,11 @@ def main(argv: list[str] | None = None) -> int:
     except ContentError as e:
         print(f"content error: {e}", file=sys.stderr)
         return 1
-    write_site(render_site(content, ROOT / "templates"), args.out)
+    write_site(render_site(content, ROOT / "templates"), assets(content), args.out)
     print(f"built {args.out}")
+    undrawn = [r.id for r in content.readings if r.image is None]
+    if undrawn:
+        print(f"reading texts without an illustration (run illustrate): {', '.join(undrawn)}")
     return 0
 
 

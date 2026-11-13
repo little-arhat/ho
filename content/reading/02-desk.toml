@@ -1,0 +1,33 @@
+lesson = 2
+title = { en = "On my desk", ru = "На моём столе", uk = "На моєму столі" }
+scene = "A tidy wooden desk seen from above: a laptop, a thick dictionary, a paperback book, a notebook and a few pencils, warm morning light."
+
+[[paragraph]]
+ja = "これ|は|私[わたし]|の|机[つくえ]|です|。"
+en = "This is my desk."
+ru = "Это мой стол."
+uk = "Це мій стіл."
+
+[[paragraph]]
+ja = "この|本[ほん]|は|日[に]本[ほん]語[ご]|の|本[ほん]|です|。|その|辞[じ]書[しょ]|は|英[えい]語[ご]|の|辞[じ]書[しょ]|です|。"
+en = "This book is a Japanese book. That dictionary is an English dictionary."
+ru = "Эта книга — на японском. Тот словарь — английский."
+uk = "Ця книга — японською. Той словник — англійський."
+
+[[paragraph]]
+ja = "あれ|は|パソコン|です|か|、|テレビ|です|か|。|パソコン|です|。"
+en = "Is that over there a computer or a TV? It's a computer."
+ru = "Вон то — компьютер или телевизор? Компьютер."
+uk = "Он те — комп'ютер чи телевізор? Комп'ютер."
+
+[[paragraph]]
+ja = "この|鉛[えん]筆[ぴつ]|は|誰[だれ]|の|です|か|。|ワン|さん|の|です|。"
+en = "Whose pencil is this? It's Mr. Wang's."
+ru = "Чей это карандаш? Ван-сана."
+uk = "Чий це олівець? Ван-сана."
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"

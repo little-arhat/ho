@@ -1,0 +1,57 @@
+lesson = 1
+title = { en = "Our class", ru = "Наш класс", uk = "Наш клас" }
+scene = "A small university classroom: a friendly teacher in his fifties stands by the board, three young students of different backgrounds sit at desks and smile."
+
+[[paragraph]]
+ja = "こちら|は|山[やま]田[だ]|先[せん]生[せい]|です|。|大[だい]学[がく]|の|先[せん]生[せい]|です|。"
+en = "This is Professor Yamada. He teaches at the university."
+ru = "Это профессор Ямада. Он преподаёт в университете."
+uk = "Це професор Ямада. Він викладає в університеті."
+
+[[paragraph]]
+ja = "私[わたし]たち|は|学[がく]生[せい]|です|。|ワン|さん|は|中[ちゅう]国[ごく]人[じん]|です|。"
+en = "We are students. Mr. Wang is Chinese."
+ru = "Мы студенты. Ван-сан — китаец."
+uk = "Ми студенти. Ван-сан — китаєць."
+
+[[paragraph]]
+ja = "カリナ|さん|も|学[がく]生[せい]|です|。|カリナ|さん|は|１９歳[さい]=歳[さい]|です|。"
+en = "Karina is a student too. Karina is nineteen."
+ru = "Карина тоже студентка. Карине девятнадцать лет."
+uk = "Карина теж студентка. Карині дев'ятнадцять років."
+
+[[paragraph]]
+ja = "皆[みな]さん|、|どうぞ よろしく お願[ねが]いします。"
+en = "Everyone, nice to meet you all."
+ru = "Всем приятно познакомиться."
+uk = "Усім приємно познайомитися."
+
+[[new]]
+ja = "山[やま]田[だ]"
+en = "Yamada (a surname)"
+ru = "Ямада (фамилия)"
+uk = "Ямада (прізвище)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+
+[[new]]
+ja = "中[ちゅう]国[ごく]人[じん]"
+en = "Chinese (person)"
+ru = "китаец"
+uk = "китаєць"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+
+[[new]]
+ja = "歳[さい]"
+en = "… years old"
+ru = "… лет (возраст)"
+uk = "… років (вік)"

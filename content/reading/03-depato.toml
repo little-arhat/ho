@@ -1,0 +1,27 @@
+lesson = 3
+title = { en = "At the department store", ru = "В универмаге", uk = "В універмазі" }
+scene = "Inside a bright Japanese department store: a shop assistant in a neat uniform shows a customer a rack of silk neckties; escalators in the background."
+
+[[paragraph]]
+ja = "ここ|は|デパート|です|。|靴[くつ]|の|売[う]り場[ば]|は|三[さん]階[がい]|です|。"
+en = "This is a department store. The shoe department is on the 3rd floor."
+ru = "Это универмаг. Обувной отдел на 3-м этаже."
+uk = "Це універмаг. Взуттєвий відділ на 3-му поверсі."
+
+[[paragraph]]
+ja = "子[こ]ども服[ふく]|は|何[なん]階[がい]|です|か|。|五[ご]階[かい]|です|。"
+en = "What floor is children's clothing on? The 5th floor."
+ru = "На каком этаже детская одежда? На 5-м."
+uk = "На якому поверсі дитячий одяг? На 5-му."
+
+[[paragraph]]
+ja = "トイレ|は|どこ|です|か|。|あちら|です|。"
+en = "Where is the toilet? Over there."
+ru = "Где туалет? Вон там."
+uk = "Де туалет? Он там."
+
+[[paragraph]]
+ja = "この|ネクタイ|は|いくら|です|か|。|３，０００円[えん]=円[えん]|です|。|イタリア|の|ネクタイ|です|。|じゃ|、|これ|を|ください。"
+en = "How much is this tie? It's 3,000 yen. It's an Italian tie. Then I'll take this one."
+ru = "Сколько стоит этот галстук? 3000 иен. Это итальянский галстук. Тогда дайте вот этот."
+uk = "Скільки коштує ця краватка? 3000 єн. Це італійська краватка. Тоді дайте цю."

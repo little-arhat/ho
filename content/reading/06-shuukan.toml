@@ -1,0 +1,27 @@
+lesson = 6
+title = { en = "My habits", ru = "Мои привычки", uk = "Мої звички" }
+scene = "A quiet public library on a Saturday: a person reading at a long wooden table, a letter and a pen beside the open book, sunlight through tall windows."
+
+[[paragraph]]
+ja = "私[わたし]|は|煙草[たばこ]|を|吸[す]いません=吸[す]います|。|お|酒[さけ]|も|めったに|飲[の]みません=飲[の]みます|。"
+en = "I don't smoke. I hardly ever drink alcohol either."
+ru = "Я не курю. Алкоголь тоже почти не пью."
+uk = "Я не курю. Алкоголь теж майже не п'ю."
+
+[[paragraph]]
+ja = "毎[まい]朝[あさ]|牛[ぎゅう]乳[にゅう]|を|飲[の]みます|。|時[とき]々[どき]|ジュース|も|飲[の]みます|。"
+en = "Every morning I drink milk. Sometimes I drink juice too."
+ru = "Каждое утро я пью молоко. Иногда и сок."
+uk = "Щоранку я п'ю молоко. Іноді й сік."
+
+[[paragraph]]
+ja = "土[ど]曜[よう]日[び]|は|いつも|図[と]書[しょ]館[かん]|で|本[ほん]|を|読[よ]みます|。|手[て]紙[がみ]|も|書[か]きます|。"
+en = "On Saturdays I always read books at the library. I write letters too."
+ru = "По субботам я всегда читаю в библиотеке. И пишу письма."
+uk = "Щосуботи я завжди читаю в бібліотеці. І пишу листи."
+
+[[paragraph]]
+ja = "日[にち]曜[よう]日[び]|は|デパート|で|靴[くつ]|を|買[か]います|。|そして|、|写[しゃ]真[しん]|を|撮[と]ります|。"
+en = "On Sundays I buy shoes at the department store. And I take photos."
+ru = "По воскресеньям покупаю обувь в универмаге. И фотографирую."
+uk = "Щонеділі купую взуття в універмазі. І фотографую."

@@ -1,0 +1,39 @@
+lesson = 5
+title = { en = "A trip to Kyoto", ru = "Поездка в Киото", uk = "Поїздка до Кіото" }
+scene = "Two friends with small backpacks on a train platform as a sleek white bullet train arrives, autumn maple trees beyond the station."
+
+[[paragraph]]
+ja = "来[らい]週[しゅう]|の|土[ど]曜[よう]日[び]|、|友[とも]達[だち]|と|京[きょう]都[と]|へ|行[い]きます|。"
+en = "Next Saturday I'm going to Kyoto with a friend."
+ru = "В следующую субботу я еду в Киото с другом."
+uk = "Наступної суботи я їду до Кіото з другом."
+
+[[paragraph]]
+ja = "駅[えき]|まで|バス|で|行[い]きます|。|それから|、|新[しん]幹[かん]線[せん]|で|行[い]きます|。"
+en = "I'll go to the station by bus. Then I'll go by Shinkansen."
+ru = "До станции поеду на автобусе. Потом — на синкансэне."
+uk = "До станції поїду автобусом. Потім — синкансеном."
+
+[[paragraph]]
+ja = "日[にち]曜[よう]日[び]|に|家[うち]|へ|帰[かえ]ります|。"
+en = "On Sunday I'll come back home."
+ru = "В воскресенье вернусь домой."
+uk = "У неділю повернуся додому."
+
+[[paragraph]]
+ja = "去[きょ]年[ねん]|は|一[ひと]人[り]で|行[い]きました=行[い]きます|。|今年[ことし]|は|友[とも]達[だち]|と|行[い]きます|。"
+en = "Last year I went alone. This year I'm going with a friend."
+ru = "В прошлом году я ездил один. В этом году еду с другом."
+uk = "Торік я їздив сам. Цього року їду з другом."
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+
+[[new]]
+ja = "それから"
+en = "and then, after that"
+ru = "а потом, затем"
+uk = "а потім, далі"

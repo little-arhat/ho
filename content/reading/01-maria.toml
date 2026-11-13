@@ -1,0 +1,45 @@
+lesson = 1
+title = { en = "Maria introduces herself", ru = "Мария представляется", uk = "Марія представляється" }
+scene = "A young woman with a name tag smiling and bowing slightly to a middle-aged man in a white doctor's coat, in a bright office lobby."
+
+[[paragraph]]
+ja = "初[はじ]めまして。|私[わたし]|は|マリア|です|。"
+en = "Nice to meet you. I'm Maria."
+ru = "Приятно познакомиться. Я Мария."
+uk = "Приємно познайомитися. Я Марія."
+
+[[paragraph]]
+ja = "私[わたし]|は|学[がく]生[せい]|じゃ ありません|。|エンジニア|です|。|IMCの社[しゃ]員[いん]|です|。"
+en = "I'm not a student. I'm an engineer. I work for IMC."
+ru = "Я не студентка. Я инженер. Я сотрудница IMC."
+uk = "Я не студентка. Я інженерка. Я співробітниця IMC."
+
+[[paragraph]]
+ja = "あの人[ひと]|は|田[た]中[なか]|さん|です|。|田[た]中[なか]|さん|は|医[い]者[しゃ]|です|。|病[びょう]院[いん]|の|先[せん]生[せい]|です|。"
+en = "That person is Mr. Tanaka. Mr. Tanaka is a doctor. He's a doctor at the hospital."
+ru = "Вон тот человек — Танака-сан. Танака-сан — врач. Он врач в больнице."
+uk = "Он та людина — Танака-сан. Танака-сан — лікар. Він лікар у лікарні."
+
+[[paragraph]]
+ja = "田[た]中[なか]|さん|は|日[に]本[ほん]人[じん]|です|。|私[わたし]|も|医[い]者[しゃ]|です|か|。|いいえ|、|違[ちが]います|。"
+en = "Mr. Tanaka is Japanese. Am I a doctor too? No, I'm not."
+ru = "Танака-сан — японец. Я тоже врач? Нет."
+uk = "Танака-сан — японець. Я теж лікарка? Ні."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+
+[[new]]
+ja = "違[ちが]います"
+en = "that's not right, no"
+ru = "нет, это не так"
+uk = "ні, це не так"

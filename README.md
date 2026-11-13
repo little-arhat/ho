@@ -15,9 +15,10 @@ What is on the site now:
   Search works in English, Russian, Ukrainian, Japanese or romaji.
 - **Katakana drill** — read a loanword, type it in romaji; it tells you when
   you missed a long vowel (ー) or a double consonant (ッ).
+- **Reading** — short texts in the words learned so far; tap a word for its
+  meaning and lesson.
 
-Coming: reading texts built from the vocabulary learned so far; an `/ingest`
-skill that turns new screenshots into lessons.
+Coming: an `/ingest` skill that turns new screenshots into lessons.
 
 Stroke order comes from [KanjiVG](https://kanjivg.tagaini.net) and readings
 are checked against KANJIDIC2 (both CC BY-SA, see `ref/NOTICE`).

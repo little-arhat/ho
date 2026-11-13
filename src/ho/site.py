@@ -11,11 +11,12 @@ from typing import Any
 import jinja2
 from markupsafe import Markup, escape
 
-from ho import furigana, kanji, katakana, lessons, phrasebook
+from ho import furigana, kanji, katakana, lessons, phrasebook, reading
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
 from ho.phrasebook import Phrasebook
+from ho.reading import Reading
 
 
 @dataclass(frozen=True)
@@ -25,6 +26,7 @@ class Content:
     katakana: tuple[Word, ...]
     kanji: tuple[Card, ...]
     strokes: dict[str, tuple[str, ...]]  # KanjiVG stroke paths for every card
+    readings: tuple[Reading, ...]
 
 
 @dataclass(frozen=True)
@@ -40,6 +42,7 @@ class Section:
 
 SECTIONS = (
     Section("lessons", "lessons/", "Lessons", "課", "Minna no Nihongo, lesson by lesson: rules, vocabulary, exercises."),
+    Section("reading", "reading/", "Reading", "読み物", "Short stories in the words learned so far; tap a word for its meaning."),
     Section("kanji", "kanji/", "Kanji", "漢字", "Every kanji in the lessons: readings, stroke order, words; a drill."),
     Section("phrasebook", "phrasebook/", "Phrase book", "旅の言葉",
             "Phrases to say and to recognise, with casual forms and conjugation."),
@@ -89,7 +92,26 @@ def pages(content: Content) -> tuple[Page, ...]:
              "next": numbers[i + 1] if i + 1 < len(numbers) else None},
             data=lessons.exercises_view(lesson)))
     out.extend(_kanji_pages(content))
+    out.extend(_reading_pages(content))
     return tuple(out)
+
+
+def _reading_pages(content: Content) -> list[Page]:
+    texts = content.readings
+    out = [Page("reading/index.html", "readings.html", "Reading", "reading", {
+        "by_lesson": [(n, [r for r in texts if r.lesson == n]) for n in sorted({r.lesson for r in texts})]})]
+    for i, r in enumerate(texts):
+        out.append(Page(f"reading/{r.id}/index.html", "reading.html", r.title.en, "reading", {
+            "text": r,
+            "prev": texts[i - 1] if i > 0 else None,
+            "next": texts[i + 1] if i + 1 < len(texts) else None,
+        }, data={"words": reading.words_view(r)}))
+    return out
+
+
+def assets(content: Content) -> dict[str, Path]:
+    """Files copied into the site as they are: published path → source."""
+    return {f"reading/{r.id}.jpg": r.image for r in content.readings if r.image is not None}
 
 
 def card_path(card: Card) -> str:

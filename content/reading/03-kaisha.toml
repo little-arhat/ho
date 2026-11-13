@@ -1,0 +1,27 @@
+lesson = 3
+title = { en = "My office", ru = "Мой офис", uk = "Мій офіс" }
+scene = "Cross-section illustration of a small four-storey office building: a reception desk on the ground floor, a canteen in the basement, a meeting room and offices above."
+
+[[paragraph]]
+ja = "ここ|は|私[わたし]|の|会[かい]社[しゃ]|です|。|受[うけ]付[つけ]|は|一[いっ]階[かい]|です|。"
+en = "This is my company. Reception is on the 1st floor."
+ru = "Это моя компания. Ресепшн на 1-м этаже."
+uk = "Це моя компанія. Рецепція на 1-му поверсі."
+
+[[paragraph]]
+ja = "食[しょく]堂[どう]|は|地[ち]下[か]|です|。|会[かい]議[ぎ]室[しつ]|は|二[に]階[かい]|です|。"
+en = "The canteen is in the basement. The meeting room is on the 2nd floor."
+ru = "Столовая в подвале. Переговорная на 2-м этаже."
+uk = "Їдальня в підвалі. Переговорна на 2-му поверсі."
+
+[[paragraph]]
+ja = "私[わたし]|の|部[へ]屋[や]|は|四[よん]階[かい]|です|。|事[じ]務[む]所[しょ]|も|四[よん]階[かい]|です|。"
+en = "My room is on the 4th floor. The office is on the 4th floor too."
+ru = "Мой кабинет на 4-м этаже. Офис тоже на 4-м."
+uk = "Мій кабінет на 4-му поверсі. Офіс теж на 4-му."
+
+[[paragraph]]
+ja = "会[かい]社[しゃ]|は|どちら|です|か|。|IMC|です|。|コンピューター|の|会[かい]社[しゃ]|です|。"
+en = "Which company are you with? IMC. It's a computer company."
+ru = "В какой компании вы работаете? В IMC. Это компьютерная компания."
+uk = "У якій компанії ви працюєте? В IMC. Це комп'ютерна компанія."

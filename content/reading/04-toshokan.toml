@@ -1,0 +1,27 @@
+lesson = 4
+title = { en = "Calling the library", ru = "Звонок в библиотеку", uk = "Дзвінок до бібліотеки" }
+scene = "A friendly librarian answering a desk phone in a calm public library, tall bookshelves behind her, a wall clock without numbers."
+
+[[paragraph]]
+ja = "図[と]書[しょ]館[かん]|は|何[なん]時[じ]|から|何[なん]時[じ]|まで|です|か|。"
+en = "From what time to what time is the library open?"
+ru = "С какого до какого часа работает библиотека?"
+uk = "З котрої до котрої працює бібліотека?"
+
+[[paragraph]]
+ja = "午[ご]前[ぜん]|九[く]時[じ]|から|午[ご]後[ご]|七[しち]時[じ]|まで|です|。"
+en = "From 9 a.m. to 7 p.m."
+ru = "С девяти утра до семи вечера."
+uk = "З дев'ятої ранку до сьомої вечора."
+
+[[paragraph]]
+ja = "休[やす]み|は|何[なん]曜[よう]日[び]|です|か|。|月[げつ]曜[よう]日[び]|です|。"
+en = "What day are you closed? Monday."
+ru = "В какой день выходной? В понедельник."
+uk = "Який день вихідний? Понеділок."
+
+[[paragraph]]
+ja = "美[び]術[じゅつ]館[かん]|の|休[やす]み|も|月[げつ]曜[よう]日[び]|です|。|どうもありがとうございました。"
+en = "The art museum is closed on Mondays too. Thank you very much."
+ru = "Музей тоже не работает по понедельникам. Большое спасибо."
+uk = "Музей теж не працює в понеділок. Щиро дякую."

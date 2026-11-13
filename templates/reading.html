@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr %}
+{% block main %}
+<nav class="lesson-nav">
+  <a href="../">All texts</a>
+  <span>
+    {% if prev %}<a href="../{{ prev.id }}/">← {{ prev.title.en }}</a>{% endif %}
+    {% if next %}<a href="../{{ next.id }}/">{{ next.title.en }} →</a>{% endif %}
+  </span>
+</nav>
+<article class="rtext">
+  <header class="lesson-head">
+    <div class="lesson-no">After lesson {{ text.lesson }}</div>
+    <h1>{{ tr(text.title) }}</h1>
+  </header>
+  {% if text.image %}<img class="rt-img" src="../{{ text.id }}.jpg" alt="">{% endif %}
+  <div class="rt-body" id="rt">
+    {% for p in text.paragraphs %}
+    <div class="rt-p">
+      <p class="rt-ja" lang="ja">{% for t in p.tokens %}{% if t.word is none %}{{ t.ja | ruby }}{% else %}<button type="button" class="rt-w{% if text.words[t.word].lesson is none %} new{% endif %}" data-w="{{ t.word }}">{{ t.ja | ruby }}</button>{% endif %}{% endfor %}</p>
+      <details class="rt-tr"><summary>Translation</summary>{{ tr(p.tr, "p") }}</details>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="rt-pop" id="pop" hidden></div>
+  <p class="rt-legend"><span class="rt-w">word</span> tap for its meaning · <span class="rt-w new">new word</span> not in the lessons yet</p>
+</article>
+<script type="application/json" id="data">{{ data }}</script>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ root }}static/js/reading.js"></script>{% endblock %}

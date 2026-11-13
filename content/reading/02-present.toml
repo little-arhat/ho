@@ -1,0 +1,39 @@
+lesson = 2
+title = { en = "Whose is it?", ru = "Чьё это?", uk = "Чиє це?" }
+scene = "Two colleagues at an office desk; one holds out a small wrapped box of chocolates, a wristwatch and a folded umbrella lie on the desk."
+
+[[paragraph]]
+ja = "これ|は|何[なん]|です|か|。|それ|は|時[と]計[けい]|です|。"
+en = "What is this? That's a watch."
+ru = "Что это? Это часы."
+uk = "Що це? Це годинник."
+
+[[paragraph]]
+ja = "誰[だれ]|の|時[と]計[けい]|です|か|。|私[わたし]|の|です|。"
+en = "Whose watch is it? It's mine."
+ru = "Чьи это часы? Мои."
+uk = "Чий це годинник? Мій."
+
+[[paragraph]]
+ja = "あの|傘[かさ]|も|マリア|さん|の|です|か|。|いいえ|、|違[ちが]います。|田[た]中[なか]|さん|の|傘[かさ]|です|。"
+en = "Is that umbrella Maria's too? No, it isn't. It's Mr. Tanaka's umbrella."
+ru = "Тот зонт тоже Марии? Нет. Это зонт Танаки-сан."
+uk = "Та парасолька теж Марії? Ні. Це парасолька Танаки-сан."
+
+[[paragraph]]
+ja = "これ|、|ほんの気[き]持[も]ちです。|チョコレート|です|。|どうもありがとうございます。"
+en = "Here, just a small token. It's chocolate. Thank you very much."
+ru = "Вот, небольшой знак внимания. Это шоколад. Большое спасибо."
+uk = "Ось, невеликий знак уваги. Це шоколад. Щиро дякую."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"

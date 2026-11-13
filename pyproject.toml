@@ -12,9 +12,11 @@ dependencies = [
 [project.scripts]
 build = "ho.build:main"
 refdata = "ho.refdata:main"
+illustrate = "ho.illustrate:main"
 
 [dependency-groups]
 dev = ["pytest>=8"]
+tools = ["pillow>=11"]
 
 [build-system]
 requires = ["hatchling"]

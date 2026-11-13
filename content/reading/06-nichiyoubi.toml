@@ -1,0 +1,33 @@
+lesson = 6
+title = { en = "Sunday", ru = "Воскресенье", uk = "Неділя" }
+scene = "Friends playing tennis in a leafy city park on a sunny Sunday morning, cherry trees in bloom along the path."
+
+[[paragraph]]
+ja = "日[にち]曜[よう]日[び]|の|朝[あさ]|、|パン|と|卵[たまご]|を|食[た]べました=食[た]べます|。|コーヒー|も|飲[の]みました=飲[の]みます|。"
+en = "On Sunday morning I ate bread and eggs. I drank coffee too."
+ru = "В воскресенье утром я съел хлеб и яйца. И выпил кофе."
+uk = "У неділю вранці я з'їв хліб і яйця. І випив кави."
+
+[[paragraph]]
+ja = "それから|、|公[こう]園[えん]|で|友[とも]達[だち]|と|テニス|を|しました=します|。"
+en = "Then I played tennis with a friend in the park."
+ru = "Потом играл в теннис с другом в парке."
+uk = "Потім грав у теніс із другом у парку."
+
+[[paragraph]]
+ja = "昼[ひる]ご飯[はん]|は|レストラン|で|魚[さかな]|と|野[や]菜[さい]|を|食[た]べました=食[た]べます|。|晩[ばん]|、|家[うち]|で|映[えい]画[が]|を|見[み]ました=見[み]ます|。"
+en = "For lunch I ate fish and vegetables at a restaurant. In the evening I watched a film at home."
+ru = "На обед ел рыбу с овощами в ресторане. Вечером смотрел фильм дома."
+uk = "На обід їв рибу з овочами в ресторані. Увечері дивився фільм удома."
+
+[[paragraph]]
+ja = "来[らい]週[しゅう]|、|一[いっ]緒[しょ]に|花[はな]見[み]|を|しませんか=します|。|いいですね。"
+en = "Next week, shall we go cherry-blossom viewing together? Sounds good."
+ru = "На следующей неделе не пойти ли вместе любоваться сакурой? Отличная идея."
+uk = "Наступного тижня може підемо разом милуватися сакурою? Чудова ідея."
+
+[[new]]
+ja = "公[こう]園[えん]"
+en = "park"
+ru = "парк"
+uk = "парк"
