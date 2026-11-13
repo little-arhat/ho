@@ -18,7 +18,7 @@ What is on the site now:
 - **Reading** — short texts in the words learned so far; tap a word for its
   meaning and lesson.
 
-Coming: an `/ingest` skill that turns new screenshots into lessons.
+New class material goes through the `/ingest` skill: drop photos into `inbox/`.
 
 Stroke order comes from [KanjiVG](https://kanjivg.tagaini.net) and readings
 are checked against KANJIDIC2 (both CC BY-SA, see `ref/NOTICE`).
