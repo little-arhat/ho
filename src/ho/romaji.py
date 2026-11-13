@@ -20,6 +20,7 @@ from ho import furigana
 from ho.kana import kata_to_hira, romaji
 
 _PARTICLE_SOUND = {"は": "wa", "へ": "e", "を": "o"}
+_SPOKEN_KANA = {"は": "わ", "へ": "え", "を": "を"}
 _PUNCT = {"。": ".", "、": ",", "？": "?", "！": "!", "…": "…", "・": "/", "～": "~", "「": "\"", "」": "\"", "（": "(", "）": ")"}
 _PUNCT_POS = {"補助記号", "空白"}
 _KANJI = re.compile(f"[{furigana.KANJI}]")
@@ -55,7 +56,8 @@ def _units(text: str) -> tuple[str, tuple[_Unit, ...]]:
 class _Word:
     start: int
     end: int
-    particle: bool
+    particle: bool  # は, へ or を, read as wa, e, o
+    function: bool  # a particle or です-like auxiliary: it ends the phrase it follows
     before: str = ""
     after: str = ""
 
@@ -114,8 +116,8 @@ def _split_runs(units: tuple[_Unit, ...], tokens: tuple[_Token, ...]) -> tuple[_
     return tuple(out)
 
 
-def romanize(text: str) -> str:
-    """Display romaji for a furigana-annotated line: 私[わたし]は学[がく]生[せい]です。 → watashi wa gakusei desu."""
+def _words(text: str) -> tuple[str, tuple[_Unit, ...], list[_Word]]:
+    """The line cut into words, with the punctuation that opens or closes each."""
     plain, units = _units(text)
     tokens = _tokens(plain)
     units = _split_runs(units, tokens)
@@ -126,7 +128,7 @@ def romanize(text: str) -> str:
     for t in tokens:
         f = t.node.feature
         if f.pos1 in _PUNCT_POS and all(c in _PUNCT or c.isspace() for c in t.node.surface):
-            marks = "".join(_PUNCT.get(c, "") for c in t.node.surface)
+            marks = t.node.surface.strip()
             if f.pos2 == "括弧開" or not words:
                 opening += marks
             else:
@@ -139,14 +141,43 @@ def romanize(text: str) -> str:
             last.end = t.end
             last.particle = False
         else:
-            words.append(_Word(t.start, t.end, f.pos1 == "助詞" and t.node.surface in _PARTICLE_SOUND, before=opening))
+            words.append(_Word(t.start, t.end, f.pos1 == "助詞" and t.node.surface in _PARTICLE_SOUND,
+                               f.pos1 in ("助詞", "助動詞"), before=opening))
             opening = ""
         prev = t.node
+    return plain, units, words
+
+
+def _kana(units: tuple[_Unit, ...], w: _Word) -> str:
+    return "".join(u.kana for u in units if w.start <= u.start < w.end)
+
+
+def _marks(text: str) -> str:
+    return "".join(_PUNCT.get(c, "") for c in text)
+
+
+def romanize(text: str) -> str:
+    """Display romaji for a furigana-annotated line: 私[わたし]は学[がく]生[せい]です。 → watashi wa gakusei desu."""
+    plain, units, words = _words(text)
     out = []
     for w in words:
-        if w.particle:
-            sound = _PARTICLE_SOUND[plain[w.start:w.end]]
-        else:
-            sound = romaji("".join(u.kana for u in units if w.start <= u.start < w.end))
-        out.append(w.before + unicodedata.normalize("NFKC", sound) + w.after)
+        sound = _PARTICLE_SOUND[plain[w.start:w.end]] if w.particle else romaji(_kana(units, w))
+        out.append(_marks(w.before) + unicodedata.normalize("NFKC", sound) + _marks(w.after))
     return " ".join(out)
+
+
+def speech(text: str) -> str:
+    """What the browser's Japanese voice is given: our own reading in kana, so it
+    never has to guess a kanji, in phrases (a word with its particles, as
+    children's books space them) with は and へ spelt as spoken (わ, え).
+    私[わたし]は学[がく]生[せい]です。 → わたしわ がくせいです。"""
+    plain, units, words = _words(text)
+    phrases: list[str] = []
+    for w in words:
+        sound = _SPOKEN_KANA[plain[w.start:w.end]] if w.particle else _kana(units, w)
+        piece = w.before + sound + w.after
+        if phrases and w.function and not w.before:
+            phrases[-1] += piece
+        else:
+            phrases.append(piece)
+    return " ".join(phrases)

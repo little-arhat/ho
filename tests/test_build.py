@@ -8,7 +8,9 @@ import pytest
 from ho.build import main
 
 ALLOWED_HOSTS = {"fonts.googleapis.com", "fonts.gstatic.com"}
-PAGES = ["index.html", "phrasebook/index.html", "katakana/index.html"]
+PAGES = ["index.html", "phrasebook/index.html", "katakana/index.html", "lessons/03/index.html",
+         "kanji/index.html", "kanji/65e5/index.html", "kanji/drill/index.html", "reading/index.html",
+         "reading/03-depato/index.html"]
 
 
 @pytest.fixture(scope="module")
@@ -26,16 +28,22 @@ def test_pages_exist(site):
 @pytest.mark.parametrize("page", PAGES)
 def test_links_are_relative_and_resolve(site, page):
     html = (site / page).read_text()
-    for url in re.findall(r'(?:href|src)="([^"]*)"', html):
+    for tag, url in re.findall(r'<(\w+)[^>]*?(?:href|src)="([^"]*)"', html):
         parsed = urlparse(url)
         if parsed.scheme:
-            assert parsed.hostname in ALLOWED_HOSTS, url
+            # Outbound links may go anywhere; anything the page loads only from the font hosts.
+            assert parsed.scheme == "https", url
+            assert tag == "a" or parsed.hostname in ALLOWED_HOSTS, url
             continue
         assert not url.startswith("/"), url
-        target = (site / page).parent / parsed.path
-        if url.endswith("/") or url == "":
-            target = target / "index.html"
+        target = site / page
+        if parsed.path:
+            target = (site / page).parent / parsed.path
+            if parsed.path.endswith("/"):
+                target = target / "index.html"
         assert target.resolve().is_file(), f"{page}: {url}"
+        if parsed.fragment:
+            assert f'id="{parsed.fragment}"' in target.read_text(), f"{page}: {url}"
 
 
 def data(site, page):

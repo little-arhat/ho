@@ -11,7 +11,7 @@ from typing import Any, Literal
 from ho import furigana
 from ho.errors import ContentError
 from ho.kana import romaji
-from ho.romaji import romanize
+from ho.romaji import romanize, speech
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
 
 Kind = Literal["say", "hear", "tip"]
@@ -144,7 +144,7 @@ def _verb_view(v: Verb) -> dict[str, Any]:
 
 
 def _line_view(line: Line) -> dict[str, Any]:
-    return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja),
+    return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja), "say": speech(line.ja),
             "en": line.en, "ru": line.ru, "uk": line.uk}
 
 
@@ -180,6 +180,7 @@ def view(pb: Phrasebook) -> dict[str, Any]:
             "kind": p.kind,
             "ja": furigana.segments_json(p.ja),
             "ro": romanize(p.ja),
+            "say": speech(p.ja),
             "casual": furigana.segments_json(p.casual),
             "casual_ro": romanize(p.casual),
             "en": p.en, "ru": p.ru, "uk": p.uk,

@@ -5,8 +5,13 @@
 {%- endfor -%}
 {%- endmacro %}
 
+{# A listen button: the device's Japanese voice reads our kana (see web/js/speech.js). #}
+{% macro say(ja) -%}
+<button type="button" class="listen" data-say="{{ ja | speech }}" aria-label="Listen"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></button>
+{%- endmacro %}
+
 {% macro line(x) -%}
-<div class="ex-line"><div class="ex-ja" lang="ja">{{ x.ja | ruby }}</div><div class="ex-tr">{{ tr(x.tr) }}</div></div>
+<div class="ex-line"><div class="ex-ja" lang="ja">{{ x.ja | ruby }}{{ say(x.ja) }}</div><div class="ex-tr">{{ tr(x.tr) }}</div></div>
 {%- endmacro %}
 
 {# A kanji reading as the 15-minute book prints it: okurigana after -, (secondary), special* #}

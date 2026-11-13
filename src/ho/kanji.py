@@ -22,6 +22,7 @@ from typing import Any
 from ho import furigana
 from ho.errors import ContentError
 from ho.kana import kata_to_hira, romaji
+from ho.romaji import speech
 from ho.fields import Line, Text, check_keys, japanese, line, translations
 from ho.lessons import Lesson
 from ho.refdata import KANJI_CHAR, NOT_KANJI, Kanji
@@ -270,6 +271,7 @@ def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...]) -> dict[str
     return {
         "words": [
             {"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
+             "say": speech(it.ja),
              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "src": it.source,
              "am": meaning_answers(it.tr), "ar": reading_answers(it.reading),
              "dr": distractors(items, i, "reading"), "dw": distractors(items, i, "written")}

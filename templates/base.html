@@ -10,6 +10,7 @@
 <link rel="icon" href="{{ root }}static/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{{ root }}static/css/site.css">
 <script type="module" src="{{ root }}static/js/prefs.js"></script>
+<script type="module" src="{{ root }}static/js/speech.js"></script>
 </head>
 <body class="page-{{ page }}">
 <header class="site">
@@ -22,6 +23,7 @@
 <main class="wrap">
 {% block main %}{% endblock %}
 </main>
+<footer class="site wrap">Sister project: <a href="https://github.com/little-arhat/perapera" rel="noopener">perapera</a>.</footer>
 {% block scripts %}{% endblock %}
 </body>
 </html>

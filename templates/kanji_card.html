@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import tr, line, reading %}
+{% from "macros.html" import tr, line, reading, say %}
 {% block main %}
 <nav class="lesson-nav">
   <a href="../">All kanji</a>
@@ -36,7 +36,7 @@
     <div class="kc-words">
       {% for w in card.words %}
       <div class="kc-word">
-        <div class="kw-ja" lang="ja">{{ w.ja | ruby }}</div>
+        <div class="kw-ja" lang="ja">{{ w.ja | ruby }}{{ say(w.ja) }}</div>
         <div class="kw-tr">{{ tr(w.tr) }}</div>
         {{ line(w.example) }}
       </div>
@@ -50,7 +50,7 @@
     <h2 class="sec">In the lessons</h2>
     <ul class="kc-lw">
       {% for w in lesson_words %}
-      <li><a href="../../lessons/{{ "%02d" | format(w.lesson) }}/#vocab"><span class="lw-no">{{ w.lesson }}</span></a><span class="lw-ja" lang="ja">{{ w.furigana | ruby }}</span><span class="lw-tr">{{ tr(w.tr) }}</span></li>
+      <li><a href="../../lessons/{{ "%02d" | format(w.lesson) }}/#vocab"><span class="lw-no">{{ w.lesson }}</span></a><span class="lw-ja" lang="ja">{{ w.furigana | ruby }}{{ say(w.furigana) }}</span><span class="lw-tr">{{ tr(w.tr) }}</span></li>
       {% endfor %}
     </ul>
   </section>

@@ -1,6 +1,6 @@
 import pytest
 
-from ho.romaji import romanize
+from ho.romaji import romanize, speech
 
 
 @pytest.mark.parametrize("text, expected", [
@@ -31,3 +31,13 @@ def test_ruby_run_split_only_when_readings_agree():
     assert romanize("一番好[いちばんす]き") == "ichiban suki"
     # A reading MeCab disagrees with keeps the run whole rather than guess a cut.
     assert romanize("一番好[ひとばんす]き") == "hitobansuki"
+
+
+@pytest.mark.parametrize("text, expected", [
+    ("私[わたし]は学[がく]生[せい]です。", "わたしわ がくせいです。"),
+    ("駅[えき]へ行[い]きます。", "えきえ いきます。"),
+    ("コーヒーを飲[の]みませんか。", "コーヒーを のみませんか。"),
+    ("今日[きょう]はいい天[てん]気[き]ですね", "きょうわ いい てんきですね"),
+])
+def test_speech_is_our_reading_in_phrases(text, expected):
+    assert speech(text) == expected

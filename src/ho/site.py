@@ -11,7 +11,7 @@ from typing import Any
 import jinja2
 from markupsafe import Markup, escape
 
-from ho import furigana, kanji, katakana, lessons, phrasebook, reading
+from ho import furigana, kanji, katakana, lessons, phrasebook, reading, romaji
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
@@ -153,6 +153,7 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
                              undefined=jinja2.StrictUndefined, keep_trailing_newline=True)
     env.filters["ruby"] = ruby
     env.filters["hex"] = lambda c: f"{ord(c):x}"
+    env.filters["speech"] = romaji.speech
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,
         data=embed_json(p.data) if p.data is not None else None, **p.context)

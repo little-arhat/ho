@@ -7,6 +7,7 @@
 import { stored, store } from "./prefs.js";
 import { fold } from "./match.js";
 import { esc, ruby, translations } from "./ruby.js";
+import { sayButton } from "./speech.js";
 
 const DATA = JSON.parse(document.getElementById("data").textContent);
 const $ = (id) => document.getElementById(id);
@@ -154,7 +155,7 @@ function reveal() {
   const it = items()[st.item];
   const head = st.what === "kanji"
     ? `<div class="dfb-ja" lang="ja">${esc(it.c)} <small>${esc(it.rd.join("、"))}</small></div>`
-    : `<div class="dfb-ja" lang="ja">${ruby(it.ja)}</div>`;
+    : `<div class="dfb-ja" lang="ja">${ruby(it.ja)}${sayButton(it.say)}</div>`;
   const src = st.what === "kanji"
     ? (it.no ? `15-minute book № ${it.no}` : "")
     : (it.src === "book" ? "15-minute book" : `Lesson ${esc(it.src)}`);

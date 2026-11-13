@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import tr, line %}
+{% from "macros.html" import tr, line, say %}
 {% block main %}
 <nav class="lesson-nav">
   <a href="../">All lessons</a>
@@ -71,7 +71,7 @@
   <ul class="vocab">
   {% for w in lesson.vocab %}
     <li class="word">
-      <div class="word-ja" lang="ja">{{ w.furigana | ruby }}</div>
+      <div class="word-ja" lang="ja">{{ w.furigana | ruby }}{{ say(w.furigana) }}</div>
       {% if w.kanji %}<div class="word-kana" lang="ja">{{ w.kana }}</div>{% endif %}
       <div class="word-tr">{{ tr(w.tr) }}</div>
       {% if w.note %}<div class="word-note">{{ tr(w.note) }}</div>{% endif %}
