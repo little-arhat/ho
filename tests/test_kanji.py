@@ -109,3 +109,18 @@ def test_distractors_prefer_shared_kanji():
 def test_refdata_kanji_has_strokes():
     k = REF["日"]
     assert isinstance(k, Kanji) and len(k.strokes) == 4 and "ニチ" in k.on
+
+
+def test_fold_matches_shared_cases():
+    import json
+    for given, expected in json.loads((ROOT / "tests/fold_cases.json").read_text()):
+        assert kanji.fold(given) == expected, given
+
+
+def test_meaning_answers():
+    got = kanji.meaning_answers(Text("to eat; food (in general)", "есть, еда", "їсти"))
+    assert {"eat", "toeat", "food", "foodingeneral", "есть", "еда", "їсти"} <= set(got)
+
+
+def test_reading_answers():
+    assert set(kanji.reading_answers("きんようび")) == {"きんようび", "kinyoubi"}

@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import re
 import tomllib
+import unicodedata
 from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
@@ -20,6 +21,7 @@ from typing import Any
 
 from ho import furigana
 from ho.errors import ContentError
+from ho.kana import kata_to_hira, romaji
 from ho.fields import Line, Text, check_keys, japanese, line, translations
 from ho.lessons import Lesson
 from ho.refdata import KANJI_CHAR, NOT_KANJI, Kanji
@@ -222,9 +224,59 @@ def distractors(items: tuple[DrillItem, ...], i: int, field: str, n: int = 8) ->
     return list(out.values())[:n]
 
 
-def drill_view(items: tuple[DrillItem, ...]) -> dict[str, Any]:
-    return {"items": [
-        {"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading,
-         "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "src": it.source,
-         "dr": distractors(items, i, "reading"), "dw": distractors(items, i, "written")}
-        for i, it in enumerate(items)]}
+def fold(text: str) -> str:
+    """How typed answers compare: width, case, ё/е, katakana/hiragana and every
+    space or punctuation mark folded away. web/js/kanji-drill.js folds input
+    the same way (tests pin both to the same cases)."""
+    t = kata_to_hira(unicodedata.normalize("NFKC", text).lower().replace("ё", "е"))
+    return re.sub(r"[\W_]+", "", t)
+
+
+_PARENS = re.compile(r"\([^)]*\)")
+_LEADING = re.compile(r"^(?:to|a|an|the) ", re.IGNORECASE)
+
+
+def meaning_answers(meaning: Text) -> tuple[str, ...]:
+    """Typed meanings accepted for a gloss, in any of the three languages:
+    each part between , ; / on its own, with or without its (…) remark, and
+    without a leading "to" / article ("to eat" → eat)."""
+    out: dict[str, None] = {}
+    for gloss in (meaning.en, meaning.ru, meaning.uk):
+        for part in re.split(r"[,;/]", _PARENS.sub(lambda m: m.group(0).replace(",", " "), gloss)):
+            for variant in (part, _PARENS.sub("", part)):
+                variant = variant.strip()
+                for v in (variant, _LEADING.sub("", variant)):
+                    if fold(v):
+                        out[fold(v)] = None
+    return tuple(out)
+
+
+def reading_answers(reading: str) -> tuple[str, ...]:
+    """A reading typed in kana, or in Hepburn romaji (an apostrophe after n is optional)."""
+    ro = romaji(reading)
+    return tuple(dict.fromkeys(fold(x) for x in (reading, ro, ro.replace("ō", "ou").replace("ū", "uu"))))
+
+
+def kanji_sets(cards: Iterable[Card], lessons: Iterable[Lesson]) -> dict[str, list[str]]:
+    """Named subsets for the drill: the book's kanji in its order, and each lesson's vocabulary kanji."""
+    sets = {"book": [c.char for c in cards if c.number is not None]}
+    for lesson in lessons:
+        sets[str(lesson.number)] = list(dict.fromkeys(c for w in lesson.vocab for c in kanji_in(w.kanji)))
+    return sets
+
+
+def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...]) -> dict[str, Any]:
+    items = drill_items(cards, lessons)
+    return {
+        "words": [
+            {"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
+             "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "src": it.source,
+             "am": meaning_answers(it.tr), "ar": reading_answers(it.reading),
+             "dr": distractors(items, i, "reading"), "dw": distractors(items, i, "written")}
+            for i, it in enumerate(items)],
+        "kanji": [
+            {"c": c.char, "no": c.number, "rd": [r.kana for r in c.readings if not r.secondary][:3],
+             "en": c.meaning.en, "ru": c.meaning.ru, "uk": c.meaning.uk, "am": meaning_answers(c.meaning)}
+            for c in cards],
+        "sets": kanji_sets(cards, lessons),
+    }

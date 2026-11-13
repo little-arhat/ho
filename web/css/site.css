@@ -382,3 +382,32 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .pop-src { font: 500 11px var(--f-mono); color: var(--muted); margin-top: 4px; }
 .rt-legend { font-size: 12px; color: var(--muted); margin-top: 24px; }
 .rt-legend .rt-w { cursor: default; }
+
+/* Kanji index filter, book numbers; drill controls */
+.k-filter { flex-wrap: wrap; width: fit-content; margin: 8px 0 4px; }
+.k-tile { position: relative; }
+.k-tile.book { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
+.k-no { position: absolute; top: 6px; left: 8px; font: 500 10px var(--f-mono); background: var(--fg); color: var(--bg); border-radius: 999px; padding: 0 6px; }
+.drill-controls { display: grid; gap: 8px; }
+.dc-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.dc-lbl { font: 500 10px var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .1em; width: 52px; }
+.dc-range { font-size: 13px; color: var(--muted); }
+.dc-range input { width: 64px; font: 500 15px var(--f-mono); padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+.dc-hint { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+.linkish { background: none; border: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font: inherit; padding: 0; }
+.pick-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); gap: 4px; max-height: 260px; overflow: auto; padding: 2px; }
+.pick-grid button { position: relative; font: 500 20px/1 var(--f-jp); padding: 10px 0 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
+.pick-grid button small { position: absolute; top: 1px; left: 3px; font: 500 8px var(--f-mono); color: var(--muted); }
+.pick-grid button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.dc-pool { font: 500 12px var(--f-mono); color: var(--muted); }
+.dq-mean { font-size: 20px; }
+.dq-mean .tr { justify-content: center; }
+.dopts.wide { grid-template-columns: 1fr; }
+.dopts.wide .opt { font: 500 15px/1.35 var(--f-body); }
+.dtype { display: flex; gap: 8px; }
+.dtype input { flex: 1; min-width: 0; font: 500 18px var(--f-body); padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); }
+.dtype input.no { border-color: #b3261e; }
+.dfb-ja small { font: 500 15px var(--f-jp); color: var(--muted); }
+
+/* The hidden attribute always wins over a component display rule. */
+[hidden] { display: none !important; }

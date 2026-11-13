@@ -3,19 +3,39 @@
 <nav class="lesson-nav"><a href="../">All kanji</a><span></span></nav>
 <h1 class="page-title">Kanji drill</h1>
 <div class="drill-controls">
-  <div class="seg" id="modes" role="group" aria-label="Mode">
-    <button type="button" data-k="read">READ: kanji → kana</button>
-    <button type="button" data-k="write">WRITE: kana → kanji</button>
+  <div class="dc-row"><span class="dc-lbl">Drill</span>
+    <div class="seg" id="what" role="group" aria-label="Drill">
+      <button type="button" data-k="kanji">KANJI</button>
+      <button type="button" data-k="words">WORDS</button>
+    </div>
   </div>
-  <div class="seg" id="srcs" role="group" aria-label="Words from">
-    <button type="button" data-k="all">ALL</button>
-    <button type="button" data-k="book">BOOK</button>
-    {% for n in lessons %}<button type="button" data-k="{{ n }}">L{{ n }}</button>{% endfor %}
+  <div class="dc-row"><span class="dc-lbl">Task</span><div class="seg" id="modes" role="group" aria-label="Task"></div></div>
+  <div class="dc-row"><span class="dc-lbl">From</span>
+    <div class="seg" id="which" role="group" aria-label="Which kanji">
+      <button type="button" data-k="all">ALL</button>
+      <button type="button" data-k="book">15-MIN BOOK</button>
+      {% for n in lessons %}<button type="button" data-k="{{ n }}">L{{ n }}</button>{% endfor %}
+      <button type="button" data-k="custom">PICK…</button>
+    </div>
   </div>
+  <div class="dc-row" id="range-row" hidden><span class="dc-lbl">Book №</span>
+    <label class="dc-range">from <input type="number" id="from" min="1" inputmode="numeric"></label>
+    <label class="dc-range">to <input type="number" id="to" min="1" inputmode="numeric"></label>
+  </div>
+  <div id="pick-row" hidden>
+    <p class="dc-hint">Tap kanji to include them. <button type="button" class="linkish" id="pick-none">Clear</button></p>
+    <div class="pick-grid" id="pick" lang="ja"></div>
+  </div>
+  <div class="dc-pool" id="pool"></div>
 </div>
 <div class="drill" id="drill" aria-live="polite">
   <div class="dq" id="q"></div>
   <div class="dopts" id="opts"></div>
+  <form class="dtype" id="typed" hidden autocomplete="off">
+    <input id="answer" type="text" autocapitalize="off" autocorrect="off" spellcheck="false">
+    <button class="btn" type="submit">Check</button>
+    <button class="btn" type="button" id="reveal">Show</button>
+  </form>
   <div class="dfb" id="fb"></div>
   <div class="dnav"><span class="dscore" id="score"></span><button class="btn" type="button" id="next">Next</button></div>
 </div>

@@ -1,4 +1,12 @@
-// Romaji answer checking. The accepted spellings per token come from the build.
+// Answer checking. Accepted answers come from the build.
+
+// Typed meanings and readings: width, case, ё/е, katakana/hiragana and all
+// spaces and punctuation folded away. Must match ho.kanji.fold in Python.
+export const fold = (s) => s.normalize("NFKC").toLowerCase().replace(/ё/g, "е")
+  .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
+  .replace(/[^\p{L}\p{N}]+/gu, "");
+
+// Romaji answers for the katakana drill: the accepted spellings per token.
 
 export function normalize(s) {
   return s.normalize("NFKC").toLowerCase()

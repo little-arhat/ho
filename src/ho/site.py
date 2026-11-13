@@ -123,13 +123,15 @@ def _kanji_pages(content: Content) -> list[Page]:
     first_lesson = {c: ws[0].lesson for c, ws in words.items()}
     cards = content.kanji
     index = Page("kanji/index.html", "kanji.html", "Kanji", "kanji", {
+        "in_lessons": {c: sorted({w.lesson for w in ws}) for c, ws in words.items()},
+        "lessons": [lesson.number for lesson in content.lessons],
         "book": [c for c in cards if c.number is not None],
         "by_lesson": [(n, [c for c in cards if c.number is None and first_lesson.get(c.char) == n])
                       for n in sorted({first_lesson[c.char] for c in cards if c.number is None})],
     })
     drill = Page("kanji/drill/index.html", "kanji_drill.html", "Kanji drill", "kanji",
                  {"lessons": [lesson.number for lesson in content.lessons]},
-                 data=kanji.drill_view(kanji.drill_items(cards, content.lessons)))
+                 data=kanji.drill_view(cards, content.lessons))
     out = [index, drill]
     for i, card in enumerate(cards):
         out.append(Page(card_path(card), "kanji_card.html", f"{card.char} · kanji", "kanji", {
