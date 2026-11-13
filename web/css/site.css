@@ -45,7 +45,7 @@ html[data-furigana="off"] rt { display: none; }
 /* Translations: only the selected languages show. */
 html:not([data-langs~="en"]) .tr-en,
 html:not([data-langs~="ru"]) .tr-ru,
-html:not([data-langs~="uk"]) .tr-uk { display: none; }
+html:not([data-langs~="uk"]) .tr-uk { display: none !important; } /* a language toggle beats any component display rule */
 
 /* Header */
 header.site {
@@ -238,7 +238,6 @@ span.tl { display: block; }
 .lesson-no { font: 700 13px var(--f-jp); color: var(--accent); }
 .lesson-topic { font: 700 19px/1.35 var(--f-body); margin: 4px 0 2px; }
 .lesson-topic .tl, .lesson-head h1 .tl { display: inline; }
-.lesson-topic .tl + .tl::before, .lesson-head h1 .tl + .tl::before { content: " · "; color: var(--muted); font-weight: 400; }
 .lesson-grammar { font: 500 15px/2 var(--f-jp); color: var(--muted); }
 .lesson-meta { font: 500 11px var(--f-mono); color: var(--muted); margin-top: 4px; }
 
@@ -254,7 +253,6 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .rule { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; min-width: 0; }
 .rule-title { font: 600 17px var(--f-body); margin: 0 0 10px; display: flex; gap: 10px; align-items: baseline; }
 .rule-title .tl { display: inline; }
-.rule-title .tl + .tl::before { content: " · "; color: var(--muted); }
 .rule-no { flex: 0 0 auto; font: 700 12px var(--f-mono); color: var(--bg); background: var(--accent); border-radius: 6px; padding: 1px 7px; }
 .pattern { display: flex; flex-wrap: wrap; gap: 6px; align-items: stretch; margin: 0 0 12px; }
 .pattern .fixed { font: 700 22px/1.6 var(--f-jp); padding: 4px 6px; border-bottom: 3px solid var(--fg); }
@@ -318,7 +316,6 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .kc-no { background: var(--fg); color: var(--bg); border-radius: 999px; padding: 1px 8px; }
 .kc-mean { font: 600 18px/1.35 var(--f-body); }
 .kc-mean .tl { display: inline; }
-.kc-mean .tl + .tl::before { content: " · "; color: var(--muted); font-weight: 400; }
 .kc-rd { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font: 500 20px var(--f-jp); }
 .kc-rd .lbl { font: 500 10px var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .1em; width: 28px; }
 .rd .oku { color: var(--muted); }
@@ -342,7 +339,6 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .lw-ja { font: 500 17px/1.9 var(--f-jp); }
 .lw-tr { font-size: 13px; }
 .lw-tr .tl { display: inline; }
-.lw-tr .tl + .tl::before { content: " · "; color: var(--muted); }
 
 .drill-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .drill-controls .seg { flex-wrap: wrap; }
@@ -368,7 +364,6 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .rd-title .tl + .tl { font-weight: 400; color: var(--muted); font-size: 14px; }
 .rtext { position: relative; max-width: 760px; }
 .rtext h1 .tl { display: inline; }
-.rtext h1 .tl + .tl::before { content: " · "; color: var(--muted); font-weight: 400; }
 .rt-img { width: 100%; border-radius: 12px; margin: 16px 0 4px; display: block; }
 .rt-p { margin: 18px 0; }
 .rt-ja { font: 500 22px/2.2 var(--f-jp); margin: 0; }
@@ -411,3 +406,8 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 
 /* The hidden attribute always wins over a component display rule. */
 [hidden] { display: none !important; }
+
+/* Titles in several languages sit side by side, spaced by the container's gap:
+   a separator drawn by a sibling would be left dangling when a language is hidden. */
+.lesson-topic, .lesson-head h1, .rtext h1, .kc-mean, .lw-tr { display: flex; flex-wrap: wrap; column-gap: .6em; align-items: baseline; }
+.rule-title { flex-wrap: wrap; column-gap: .6em; }
