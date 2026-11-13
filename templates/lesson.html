@@ -72,7 +72,8 @@
   {% for w in lesson.vocab %}
     <li class="word">
       <div class="word-ja" lang="ja">{{ w.furigana | ruby }}{{ say(w.furigana) }}</div>
-      {% if w.kanji %}<div class="word-kana" lang="ja">{{ w.kana }}</div>{% endif %}
+      {% if w.kanji %}<div class="word-kana" lang="ja">{{ w.kana }}</div>
+      <div class="word-k" lang="ja">{% for c in w.kanji | kanji %}<a href="../../kanji/{{ c | hex }}/" title="kanji card">{{ c }}</a>{% endfor %}</div>{% endif %}
       <div class="word-tr">{{ tr(w.tr) }}</div>
       {% if w.note %}<div class="word-note">{{ tr(w.note) }}</div>{% endif %}
       {% if w.example %}<div class="word-ex">{{ line(w.example) }}</div>{% endif %}

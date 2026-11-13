@@ -65,6 +65,9 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     write_site(render_site(content, ROOT / "templates"), assets(content), args.out)
     print(f"built {args.out}")
+    uncarded = sorted(refdata.content_kanji(ROOT / "content") - {c.char for c in content.kanji} - refdata.NOT_KANJI, key=ord)
+    if uncarded:
+        print(f"kanji used in examples or the phrase book without a card yet ({len(uncarded)}): {''.join(uncarded)}")
     undrawn = [r.id for r in content.readings if r.image is None]
     if undrawn:
         print(f"reading texts without an illustration (run illustrate): {', '.join(undrawn)}")

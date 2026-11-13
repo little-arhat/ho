@@ -62,8 +62,11 @@ def stroke_paths(svg: bytes) -> tuple[str, ...]:
     return tuple(p.get("d") or "" for p in group.iter(f"{SVG}path"))
 
 
+CONTENT_TEXT = ("*.toml", "*.csv")  # content files that hold Japanese; pictures sit beside them
+
+
 def content_kanji(content: Path) -> set[str]:
-    return {c for p in sorted(content.rglob("*")) if p.is_file()
+    return {c for pattern in CONTENT_TEXT for p in sorted(content.rglob(pattern))
             for c in KANJI_CHAR.findall(p.read_text(encoding="utf-8"))}
 
 

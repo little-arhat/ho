@@ -417,3 +417,8 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .listen:hover { color: var(--accent); border-color: var(--accent); }
 html:not([data-speech="on"]) .listen { display: none; }
 footer.site { font-size: 12px; color: var(--muted); padding: 32px 16px 24px; }
+
+/* Links from words to their kanji cards */
+.word-k, .pop-k { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.word-k a, .pop-k a { font: 500 15px/1 var(--f-jp); padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; color: var(--fg); text-decoration: none; background: var(--surface); }
+.word-k a:hover, .pop-k a:hover { border-color: var(--accent); color: var(--accent); }

@@ -8,6 +8,7 @@ let open = null;
 function show(b) {
   const w = words[+b.dataset.w];
   pop.innerHTML = `<div class="pop-ja" lang="ja">${ruby(w.ja)}</div>${translations(w)}`
+    + (w.k.length ? `<div class="pop-k" lang="ja">${w.k.map((c) => `<a href="../../kanji/${c.codePointAt(0).toString(16)}/">${esc(c)}</a>`).join("")}</div>` : "")
     + `<div class="pop-src">${w.lesson === null ? "new word" : `lesson ${esc(w.lesson)}`}</div>`;
   pop.hidden = false;
   const r = b.getBoundingClientRect(), host = pop.offsetParent.getBoundingClientRect();

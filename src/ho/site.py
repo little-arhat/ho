@@ -105,7 +105,7 @@ def _reading_pages(content: Content) -> list[Page]:
             "text": r,
             "prev": texts[i - 1] if i > 0 else None,
             "next": texts[i + 1] if i + 1 < len(texts) else None,
-        }, data={"words": reading.words_view(r)}))
+        }, data={"words": reading.words_view(r, {c.char for c in content.kanji})}))
     return out
 
 
@@ -154,6 +154,7 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["ruby"] = ruby
     env.filters["hex"] = lambda c: f"{ord(c):x}"
     env.filters["speech"] = romaji.speech
+    env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,
         data=embed_json(p.data) if p.data is not None else None, **p.context)
