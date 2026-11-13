@@ -67,6 +67,33 @@ example = [
 ]
 
 [[rule]]
+title = { en = "N でも V ませんか / V ましょうか: softer invitations, offers", ru = "N でも V ませんか / V ましょうか: мягкое приглашение, предложение помощи", uk = "N でも V ませんか / V ましょうか: м'яке запрошення, пропозиція допомоги" }
+pattern = [
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { ja = "でも" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+  { ja = "ませんか" },
+]
+explain.en = "でも after a noun in an invitation means \"…or something\": it keeps the offer light (コーヒーでも 飲みませんか = how about a coffee or something?). でも replaces を. ～ましょうか with か offers to do something for the other person: 消しましょうか = shall I turn it off?"
+explain.ru = "でも после существительного в приглашении значит «…или что-нибудь такое» и делает его ненавязчивым (コーヒーでも 飲みませんか — не выпить ли кофе или чего-нибудь?). でも заменяет を. ～ましょうか с か предлагает что-то сделать для собеседника: 消しましょうか — выключить?"
+explain.uk = "でも після іменника в запрошенні означає «…чи щось таке» і робить його ненав'язливим (コーヒーでも 飲みませんか — може, вип'ємо кави чи чогось?). でも заміняє を. ～ましょうか з か пропонує щось зробити для співрозмовника: 消しましょうか — вимкнути?"
+example = [
+  { ja = "コーヒーでも飲[の]みませんか。", en = "How about a coffee or something?", ru = "Не выпить ли кофе или чего-нибудь?", uk = "Може, вип'ємо кави чи чогось?" },
+  { ja = "すしでも食[た]べませんか。", en = "How about some sushi or something?", ru = "Не поесть ли суши или чего-нибудь?", uk = "Може, поїмо суші чи щось таке?" },
+  { ja = "テレビを消[け]しましょうか。", en = "Shall I turn off the TV?", ru = "Выключить телевизор?", uk = "Вимкнути телевізор?" },
+]
+
+[[rule]]
+title = { en = "Order of events: 先に… 次に…, それから", ru = "Порядок действий: 先に… 次に…, それから", uk = "Порядок дій: 先に… 次に…, それから" }
+explain.en = "先に (さきに) = first, 次に (つぎに) = next, それから = and then, after that. Don't mix it up with これから = from now on, starting now."
+explain.ru = "先に (さきに) — сначала, 次に (つぎに) — затем, それから — а потом, после этого. Не путайте с これから — с этого момента, сейчас начнём."
+explain.uk = "先に (さきに) — спершу, 次に (つぎに) — далі, それから — а потім, після цього. Не плутайте з これから — відтепер, зараз почнемо."
+example = [
+  { ja = "先[さき]に宿[しゅく]題[だい]をします。次[つぎ]に、晩[ばん]ご飯[はん]を食[た]べます。", en = "First I do my homework. Next, I have dinner.", ru = "Сначала делаю домашнее задание. Затем ужинаю.", uk = "Спершу роблю домашнє завдання. Далі вечеряю." },
+  { ja = "それからCDを聞[き]きます。", en = "After that I listen to a CD.", ru = "А потом слушаю CD.", uk = "А потім слухаю CD." },
+]
+
+[[rule]]
 title = { en = "Something, somewhere, someone: 何か・どこか・誰か", ru = "Что-то, где-то, кто-то: 何か・どこか・誰か", uk = "Щось, десь, хтось: 何か・どこか・誰か" }
 explain.en = "A question word + か makes an indefinite word: 何か = something / anything, どこか = somewhere / anywhere, 誰か = someone / anyone. Compare question word + も + negative (lesson 5): 何も しません = I do nothing."
 explain.ru = "Вопросительное слово + か даёт неопределённое слово: 何か — что-то / что-нибудь, どこか — где-то / куда-нибудь, 誰か — кто-то / кто-нибудь. Сравните: вопр. слово + も + отрицание (урок 5): 何も しません — ничего не делаю."
@@ -168,6 +195,24 @@ en = "I bought black tea at the department store."
 ru = "Я купил чай в универмаге."
 uk = "Я купив чай в універмазі."
 
+[[exercise]]
+kind = "choice"
+ja = "コーヒー＿飲[の]みませんか。"
+options = ["でも", "を", "は", "に"]
+answer = "でも"
+en = "How about a coffee or something?"
+ru = "Не выпить ли кофе или чего-нибудь?"
+uk = "Може, вип'ємо кави чи чогось?"
+
+[[exercise]]
+kind = "choice"
+ja = "宿[しゅく]題[だい]をします。＿、CDを聞[き]きます。"
+options = ["それから", "これから", "どこか"]
+answer = "それから"
+en = "I do my homework. After that, I listen to a CD."
+ru = "Делаю домашнее задание. Потом слушаю CD."
+uk = "Роблю домашнє завдання. Потім слухаю CD."
+
 [[note]]
 text = """
 何か something, anything
@@ -222,4 +267,32 @@ III グループ
 text = """
 デパート / あの みせ / とうきょう で 紅茶を 買いました。
 どこ … か。
+"""
+
+[[note]]
+date = 2026-11-13
+text = """
+これから
+それから　CDを　聞きます。
+
+先に、・・・。次に、
+さきに、・・・。つぎに、
+"""
+
+[[note]]
+date = 2026-11-13
+text = """
+いっしょに　京都へ　いき　ませんか。
+　　　　　　お花見を　し
+　　　　　　お茶を　のみ
+Would you like ___ing together?
+コーヒーでも飲みませんか？
+すしでも食べませんか？
+
+あそこで　やすみ　ましょう。
+食堂へ　いき
+3時に　あい
+Let's___.
+
+消しましょうか。
 """
