@@ -677,16 +677,6 @@ readings = ["あと", "うし-ろ", "ゴ", "コウ"]
 meaning = { en = "after; behind", ru = "после; позади", uk = "після; позаду" }
 
 [[kanji]]
-char = "朝"
-readings = ["あさ", "チョウ"]
-meaning = { en = "morning", ru = "утро", uk = "ранок" }
-
-[[kanji]]
-char = "昼"
-readings = ["ひる", "チュウ"]
-meaning = { en = "daytime, noon", ru = "день, полдень", uk = "день, полудень" }
-
-[[kanji]]
 char = "晩"
 readings = ["バン"]
 meaning = { en = "evening", ru = "вечер", uk = "вечір" }
@@ -710,26 +700,6 @@ meaning = { en = "bright; next (day)", ru = "светлый; следующий 
 char = "毎"
 readings = ["マイ"]
 meaning = { en = "every", ru = "каждый", uk = "кожен" }
-
-[[kanji]]
-char = "曜"
-readings = ["ヨウ"]
-meaning = { en = "day of the week", ru = "день недели", uk = "день тижня" }
-
-[[kanji]]
-char = "木"
-readings = ["き", "モク", "ボク"]
-meaning = { en = "tree; Thursday", ru = "дерево; четверг", uk = "дерево; четвер" }
-
-[[kanji]]
-char = "金"
-readings = ["かね", "キン"]
-meaning = { en = "money; gold; Friday", ru = "деньги; золото; пятница", uk = "гроші; золото; п'ятниця" }
-
-[[kanji]]
-char = "土"
-readings = ["つち", "ド"]
-meaning = { en = "earth, soil; Saturday", ru = "земля, почва; суббота", uk = "земля, ґрунт; субота" }
 
 [[kanji]]
 char = "番"

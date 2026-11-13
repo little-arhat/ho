@@ -728,3 +728,130 @@ example = { ja = "水[みず]を飲[の]みます。", en = "I drink water.", ru
 ja = "水[すい]泳[えい]します"
 tr = { en = "to swim (swimming)", ru = "плавать (плавание)", uk = "плавати (плавання)" }
 example = { ja = "水[すい]泳[えい]を習[なら]います。", en = "I take swimming lessons.", ru = "Я учусь плавать.", uk = "Я вчуся плавати." }
+
+[[kanji]]
+char = "木"
+number = 43
+level = 5
+readings = ["き", "モク", "(ボク)"]
+meaning = { en = "tree; Thursday", ru = "дерево; четверг", uk = "дерево; четвер" }
+
+[[kanji.word]]
+ja = "木[もく]曜[よう]日[び]"
+tr = { en = "Thursday", ru = "четверг", uk = "четвер" }
+example = { ja = "９月[がつ]８日[ようか]は木[もく]曜[よう]日[び]です。", en = "September 8 is a Thursday.", ru = "8 сентября — четверг.", uk = "8 вересня — четвер." }
+
+[[kanji.word]]
+ja = "木[き]"
+tr = { en = "tree", ru = "дерево", uk = "дерево" }
+example = { ja = "庭[にわ]に木[き]があります。", en = "There is a tree in the garden.", ru = "В саду есть дерево.", uk = "У саду є дерево." }
+
+[[kanji]]
+char = "金"
+number = 44
+level = 5
+readings = ["かね", "キン"]
+meaning = { en = "money; gold; Friday", ru = "деньги; золото; пятница", uk = "гроші; золото; п'ятниця" }
+
+[[kanji.word]]
+ja = "金[きん]曜[よう]日[び]"
+tr = { en = "Friday", ru = "пятница", uk = "п'ятниця" }
+example = { ja = "金[きん]曜[よう]日[び]勉[べん]強[きょう]しますか。", en = "Do you study on Friday?", ru = "Вы занимаетесь в пятницу?", uk = "Ви вчитеся в п'ятницю?" }
+
+[[kanji.word]]
+ja = "お金[かね]"
+tr = { en = "money", ru = "деньги", uk = "гроші" }
+example = { ja = "お金[かね]がありません。", en = "I have no money.", ru = "У меня нет денег.", uk = "У мене немає грошей." }
+
+[[kanji.word]]
+ja = "金[きん]"
+tr = { en = "gold", ru = "золото", uk = "золото" }
+example = { ja = "金[きん]の時[と]計[けい]をもらいました。", en = "I was given a gold watch.", ru = "Мне подарили золотые часы.", uk = "Мені подарували золотий годинник." }
+
+[[kanji]]
+char = "土"
+number = 45
+level = 5
+readings = ["つち", "ド", "(ト)"]
+meaning = { en = "soil, earth; Saturday", ru = "земля, почва; суббота", uk = "земля, ґрунт; субота" }
+
+[[kanji.word]]
+ja = "土[ど]曜[よう]日[び]"
+tr = { en = "Saturday", ru = "суббота", uk = "субота" }
+example = { ja = "土[ど]曜[よう]日[び]休[やす]みますか。", en = "Do you take Saturday off?", ru = "В субботу вы отдыхаете?", uk = "У суботу ви відпочиваєте?" }
+
+[[kanji.word]]
+ja = "土[つち]"
+tr = { en = "soil", ru = "почва", uk = "ґрунт" }
+example = { ja = "土[つち]の中[なか]に虫[むし]がいます。", en = "There are insects in the soil.", ru = "В земле живут насекомые.", uk = "У землі живуть комахи." }
+
+[[kanji.word]]
+ja = "お土産[みやげ]"
+tr = { en = "souvenir, present", ru = "сувенир, гостинец", uk = "сувенір, гостинець" }
+example = { ja = "京[きょう]都[と]でお土産[みやげ]を買[か]います。", en = "I buy souvenirs in Kyoto.", ru = "Покупаю сувениры в Киото.", uk = "Купую сувеніри в Кіото." }
+
+[[kanji]]
+char = "曜"
+number = 46
+level = 4
+readings = ["ヨウ"]
+meaning = { en = "day of the week", ru = "день недели", uk = "день тижня" }
+
+[[kanji.word]]
+ja = "日[にち]曜[よう]日[び]"
+tr = { en = "Sunday", ru = "воскресенье", uk = "неділя" }
+example = { ja = "日[にち]曜[よう]日[び]映[えい]画[が]を見[み]ます。", en = "I watch a film on Sunday.", ru = "В воскресенье смотрю фильм.", uk = "У неділю дивлюся фільм." }
+
+[[kanji.word]]
+ja = "何[なん]曜[よう]日[び]"
+tr = { en = "what day of the week", ru = "какой день недели", uk = "який день тижня" }
+example = { ja = "きょうは何[なん]曜[よう]日[び]ですか。", en = "What day is it today?", ru = "Какой сегодня день недели?", uk = "Який сьогодні день тижня?" }
+
+[[kanji]]
+char = "朝"
+number = 47
+level = 4
+readings = ["あさ", "チョウ"]
+meaning = { en = "morning", ru = "утро", uk = "ранок" }
+
+[[kanji.word]]
+ja = "朝[あさ]"
+tr = { en = "morning", ru = "утро", uk = "ранок" }
+example = { ja = "きのうの朝[あさ]６時[じ]に起[お]きました。", en = "Yesterday morning I got up at six.", ru = "Вчера утром я встал в шесть.", uk = "Учора вранці я встав о шостій." }
+
+[[kanji.word]]
+ja = "朝[あさ]ご飯[はん]"
+tr = { en = "breakfast", ru = "завтрак", uk = "сніданок" }
+example = { ja = "朝[あさ]ご飯[はん]を食[た]べます。", en = "I eat breakfast.", ru = "Завтракаю.", uk = "Снідаю." }
+
+[[kanji.word]]
+ja = "毎[まい]朝[あさ]"
+tr = { en = "every morning", ru = "каждое утро", uk = "щоранку" }
+example = { ja = "毎[まい]朝[あさ]７時[じ]に起[お]きます。", en = "I get up at seven every morning.", ru = "Каждое утро встаю в семь.", uk = "Щоранку встаю о сьомій." }
+
+[[kanji.word]]
+ja = "朝[ちょう]食[しょく]"
+tr = { en = "breakfast (formal)", ru = "завтрак (офиц.)", uk = "сніданок (офіц.)" }
+example = { ja = "朝[ちょう]食[しょく]は９時[じ]からです。", en = "Breakfast is from nine.", ru = "Завтрак с девяти.", uk = "Сніданок з дев'ятої." }
+
+[[kanji]]
+char = "昼"
+number = 48
+level = 4
+readings = ["ひる", "チュウ"]
+meaning = { en = "noon, daytime", ru = "полдень, день", uk = "полудень, день" }
+
+[[kanji.word]]
+ja = "昼[ひる]"
+tr = { en = "noon", ru = "полдень", uk = "полудень" }
+example = { ja = "昼[ひる]１２時[じ]から１時[じ]まで休[やす]みます。", en = "At midday I take a break from twelve to one.", ru = "Днём отдыхаю с двенадцати до часу.", uk = "Удень відпочиваю з дванадцятої до першої." }
+
+[[kanji.word]]
+ja = "昼[ひる]ごはん"
+tr = { en = "lunch", ru = "обед", uk = "обід" }
+example = { ja = "昼[ひる]ごはんを食[た]べます。", en = "I eat lunch.", ru = "Обедаю.", uk = "Обідаю." }
+
+[[kanji.word]]
+ja = "昼[ちゅう]食[しょく]"
+tr = { en = "lunch (formal)", ru = "обед (офиц.)", uk = "обід (офіц.)" }
+example = { ja = "昼[ちゅう]食[しょく]は１２時[じ]からです。", en = "Lunch is from twelve.", ru = "Обед с двенадцати.", uk = "Обід з дванадцятої." }
