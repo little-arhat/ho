@@ -1,0 +1,27 @@
+lesson = 7
+title = { en = "Christmas presents", ru = "Рождественские подарки", uk = "Різдвяні подарунки" }
+scene = "A cosy living room at Christmas: a family exchanging wrapped presents by a small decorated tree, a bouquet of flowers and a folded shirt among the gifts."
+
+[[paragraph]]
+ja = "クリスマス|に|父[ちち]|に|シャツ|を|あげました=あげます|。|母[はは]|に|花[はな]|を|あげました=あげます|。"
+en = "At Christmas I gave my father a shirt. I gave my mother flowers."
+ru = "На Рождество я подарил папе рубашку. Маме подарил цветы."
+uk = "На Різдво я подарував татові сорочку. Мамі подарував квіти."
+
+[[paragraph]]
+ja = "私[わたし]|は|友[とも]達[だち]|に|本[ほん]|を|もらいました=もらいます|。|英[えい]語[ご]|の|本[ほん]|です|。|すてきですね|。"
+en = "I got a book from a friend. It's an English book. How nice!"
+ru = "Я получил от друга книгу. Книгу на английском. Как мило!"
+uk = "Я отримав від друга книгу. Книгу англійською. Як гарно!"
+
+[[paragraph]]
+ja = "年[ねん]賀[が]状[じょう]|は|もう|書[か]きました=書[か]きます|か|。|いいえ|、|まだ|です|。"
+en = "Have you written your New Year's cards yet? No, not yet."
+ru = "Новогодние открытки уже написали? Нет, ещё нет."
+uk = "Новорічні листівки вже написали? Ні, ще ні."
+
+[[paragraph]]
+ja = "これから|、|日[に]本[ほん]語[ご]|で|書[か]きます|。"
+en = "I'll write them now, in Japanese."
+ru = "Сейчас напишу — по-японски."
+uk = "Зараз напишу — японською."

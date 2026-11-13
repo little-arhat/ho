@@ -6,7 +6,7 @@ My Japanese study book. It follows the *Minna no Nihongo* lessons.
 
 What is on the site now:
 
-- **Lessons** 1–6 — rules in EN / RU / UK, pattern diagrams, examples,
+- **Lessons** 1–7 — rules in EN / RU / UK, pattern diagrams, examples,
   exercises, teacher's notes and vocabulary.
 - **Kanji** — a card per kanji (readings, stroke order, words) and a drill
   both ways: kanji → kana, kana → kanji.

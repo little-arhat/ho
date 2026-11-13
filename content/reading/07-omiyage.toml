@@ -1,0 +1,21 @@
+lesson = 7
+title = { en = "A souvenir from Spain", ru = "Сувенир из Испании", uk = "Сувенір з Іспанії" }
+scene = "A guest standing in the doorway of a Japanese home holding out a small gift bag, the host smiling and inviting them in, slippers ready in the entrance."
+
+[[paragraph]]
+ja = "先[せん]月[げつ]|、|ヨーロッパ|へ|旅[りょ]行[こう]|しました=します|。|スペイン|で|お土産[みやげ]|を|買[か]いました=買[か]います|。"
+en = "Last month I travelled to Europe. In Spain I bought souvenirs."
+ru = "В прошлом месяце я ездил в Европу. В Испании купил сувениры."
+uk = "Минулого місяця я їздив до Європи. В Іспанії купив сувеніри."
+
+[[paragraph]]
+ja = "日[にち]曜[よう]日[び]|、|友[とも]達[だち]|の|家[うち]|へ|行[い]きました=行[い]きます|。|ごめんください|。|いらっしゃい|。|どうぞお上[あ]がりください|。"
+en = "On Sunday I went to a friend's home. \"Hello, anyone home?\" \"Welcome. Please come in.\""
+ru = "В воскресенье я пошёл к другу домой. «Есть кто дома?» — «Добро пожаловать. Проходите»."
+uk = "У неділю я пішов до друга додому. «Є хтось удома?» — «Ласкаво просимо. Проходьте»."
+
+[[paragraph]]
+ja = "友[とも]達[だち]|に|お土産[みやげ]|を|あげました=あげます|。|コーヒー|は|いかがですか|。|いただきます|。"
+en = "I gave my friend the souvenir. \"How about some coffee?\" \"Thank you, I'd love some.\""
+ru = "Я подарил другу сувенир. «Не хотите кофе?» — «Спасибо, с удовольствием»."
+uk = "Я подарував другові сувенір. «Чи не бажаєте кави?» — «Дякую, залюбки»."

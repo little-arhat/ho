@@ -1024,3 +1024,70 @@ meaning = { en = "together (一緒); cord", ru = "вместе (一緒); шну�
 char = "度"
 readings = ["ド"]
 meaning = { en = "times; degree", ru = "раз; градус", uk = "раз; градус" }
+
+# Lesson 7
+
+[[kanji]]
+char = "切"
+readings = ["き-ります", "セツ"]
+meaning = { en = "to cut", ru = "резать", uk = "різати" }
+
+[[kanji]]
+char = "送"
+readings = ["おく-ります", "ソウ"]
+meaning = { en = "to send", ru = "отправлять", uk = "надсилати" }
+
+[[kanji]]
+char = "貸"
+readings = ["か-します", "タイ"]
+meaning = { en = "to lend", ru = "одалживать", uk = "позичати (комусь)" }
+
+[[kanji]]
+char = "借"
+readings = ["か-ります", "シャク"]
+meaning = { en = "to borrow", ru = "брать взаймы", uk = "позичати (у когось)" }
+
+[[kanji]]
+char = "習"
+readings = ["なら-います", "シュウ"]
+meaning = { en = "to learn", ru = "учиться", uk = "вчитися" }
+
+[[kanji]]
+char = "賀"
+readings = ["ガ"]
+meaning = { en = "congratulations", ru = "поздравление", uk = "привітання" }
+
+[[kanji]]
+char = "状"
+readings = ["ジョウ"]
+meaning = { en = "letter; condition", ru = "письмо; состояние", uk = "лист; стан" }
+
+[[kanji]]
+char = "消"
+readings = ["け-します", "き-えます", "ショウ"]
+meaning = { en = "to erase; to turn off", ru = "стирать; выключать", uk = "стирати; вимикати" }
+
+[[kanji]]
+char = "荷"
+readings = ["に", "カ"]
+meaning = { en = "load, baggage", ru = "груз, багаж", uk = "вантаж, багаж" }
+
+[[kanji]]
+char = "符"
+readings = ["フ"]
+meaning = { en = "ticket; sign", ru = "билет; знак", uk = "квиток; знак" }
+
+[[kanji]]
+char = "父"
+readings = ["ちち", "フ"]
+meaning = { en = "father", ru = "отец", uk = "батько" }
+
+[[kanji]]
+char = "母"
+readings = ["はは", "ボ"]
+meaning = { en = "mother", ru = "мать", uk = "мати" }
+
+[[kanji]]
+char = "産"
+readings = ["う-みます", "サン"]
+meaning = { en = "to give birth; product", ru = "рожать; продукт", uk = "народжувати; продукт" }
