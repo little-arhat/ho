@@ -1,5 +1,5 @@
 // Phrase book view. Data (parsed ruby, search text, verb tables) comes from the build.
-import { stored, store } from "./prefs.js";
+import { prefs, stored, store } from "./prefs.js";
 import { esc, plainText, ruby, translations } from "./ruby.js";
 import { sayButton } from "./speech.js";
 
@@ -162,7 +162,7 @@ $("out").addEventListener("click", (e) => {
       else b.textContent = txt;
     } else {
       $("showbig").innerHTML = ruby(p.ja);
-      $("showsub").textContent = p.en;
+      $("showsub").textContent = p[prefs().langs[0]];
       $("show").hidden = false;
     }
     return;

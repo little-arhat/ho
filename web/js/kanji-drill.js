@@ -4,7 +4,7 @@
 // after fold(), the same folding the build applied to the accepted answers.
 // Close distractors for words come from the build. Nothing is saved but
 // the chosen settings.
-import { stored, store } from "./prefs.js";
+import { LANGS, stored, store } from "./prefs.js";
 import { fold } from "./match.js";
 import { esc, ruby, translations } from "./ruby.js";
 import { sayButton } from "./speech.js";
@@ -12,7 +12,6 @@ import { sayButton } from "./speech.js";
 const DATA = JSON.parse(document.getElementById("data").textContent);
 const $ = (id) => document.getElementById(id);
 const OPTIONS = 4;
-const LANGS = ["en", "ru", "uk"];
 
 
 // Task id → [label, prompt, answer]; "pick" answers choose 1 of 4, "type" answers are typed.
@@ -144,7 +143,7 @@ function ask() {
   const label = (j) => {
     const x = items()[j];
     if (field === "r") return `<span lang="ja">${esc(x.r)}</span>`;
-    if (field === "m") return esc(LANGS.map((l) => x[l]).join(" · "));
+    if (field === "m") return LANGS.map((l) => `<span class="tl tr-${l}">${esc(x[l])}</span>`).join("");
     return `<span lang="ja">${esc(written(x))}</span>`;
   };
   $("opts").className = "dopts" + (field === "m" ? " wide" : "");
