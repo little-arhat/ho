@@ -138,7 +138,7 @@ def test_cloze_skips_sentences_where_the_kanji_is_not_once_in_ruby():
 def test_write_view_has_sentences_and_words():
     from ho.lessons import load_lessons
     cards = kanji.load_cards(ROOT / "content/kanji")
-    v = kanji.write_view(cards, load_lessons(ROOT / "content/lessons"))
+    v = kanji.write_view(cards, load_lessons(ROOT / "content/lessons"), lambda text: "")
     sei = next(k for k in v["kanji"] if k["c"] == "生")
     assert sei["sents"] and all(sum(1 for x in s["s"] if len(x) == 3) == 1 for s in sei["sents"])
     assert any(w["w"] == "学生" for w in v["words"])

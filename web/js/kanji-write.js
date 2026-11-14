@@ -6,6 +6,7 @@
 import { stored, store } from "./prefs.js";
 import { esc, ruby, translations } from "./ruby.js";
 import { kanjiSubset } from "./kanji-subset.js";
+import { sayButton } from "./speech.js";
 
 const DATA = JSON.parse(document.getElementById("data").textContent);
 const $ = (id) => document.getElementById(id);
@@ -29,8 +30,10 @@ function prompts() {
     if (want("meaning")) out.push({ kind: "meaning", k });
     if (want("sentence")) k.sents.forEach((s) => out.push({ kind: "sentence", k, s }));
   }
-  if (want("word")) {
-    for (const w of DATA.words) if (w.k.length && w.k.every(inSet)) out.push({ kind: "word", w });
+  for (const w of DATA.words) {
+    if (!w.k.length || !w.k.every(inSet)) continue;
+    if (want("word")) out.push({ kind: "word", w });
+    if (want("listen")) out.push({ kind: "listen", w });
   }
   return out;
 }
@@ -46,12 +49,15 @@ function restart() {
   next();
 }
 
-const answerOf = (p) => (p.kind === "word" ? p.w.w : p.kind === "sentence" ? p.s.s.find((x) => x[2])[0] : p.k.c);
+const answerOf = (p) => (p.w ? p.w.w : p.kind === "sentence" ? p.s.s.find((x) => x[2])[0] : p.k.c);
 
 function promptHtml(p) {
   if (p.kind === "meaning") {
     return `<div class="wq-kind">Write the kanji for</div><div class="dq-mean">${translations(p.k)}</div>`
       + `<div class="wq-hint" lang="ja">${esc(p.k.rd.join("・"))}</div>`;
+  }
+  if (p.kind === "listen") {
+    return `<div class="wq-kind">Write what you hear, in kanji</div><div class="wq-listen">${sayButton(p.w.say, p.w.clip)}</div>`;
   }
   if (p.kind === "word") {
     return `<div class="wq-kind">Write in kanji</div><div class="dq-ja" lang="ja">${esc(p.w.r)}</div>${translations(p.w)}`;
@@ -83,6 +89,7 @@ function next() {
     $("reveal").hidden = true;
   } else {
     $("q").innerHTML = promptHtml(st.item);
+    if (st.item.kind === "listen") $("q").querySelector(".listen")?.click();
   }
   paint();
 }
@@ -105,7 +112,7 @@ async function reveal() {
   const p = st.item;
   const target = answerOf(p);
   const chars = [...new Set([...target].filter((c) => KANJI.test(c)))];
-  const head = p.kind === "word" ? ruby(p.w.ja) : p.kind === "sentence" ? ruby([p.s.s.find((x) => x[2]).slice(0, 2)]) : esc(target);
+  const head = p.w ? ruby(p.w.ja) + (p.kind === "listen" ? translations(p.w) : "") : p.kind === "sentence" ? ruby([p.s.s.find((x) => x[2]).slice(0, 2)]) : esc(target);
   $("answer").innerHTML = `<div class="wa-big" lang="ja">${head}</div>`
     + chars.map((c) => `<div class="wa-char"><a lang="ja" href="../${c.codePointAt(0).toString(16)}/">${esc(c)}</a><ol class="strokes" data-c="${esc(c)}"></ol></div>`).join("");
   $("reveal").hidden = true; $("again").hidden = false; $("good").hidden = false;

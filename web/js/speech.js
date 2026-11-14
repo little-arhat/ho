@@ -20,7 +20,8 @@ function play(clip) {
   playing?.pause();
   synth?.cancel();
   playing = new Audio(new URL(`../../audio/${clip}.m4a`, import.meta.url));
-  playing.play();
+  // A clip stopped by the next one rejects its play() with AbortError: expected, not a failure.
+  playing.play().catch((e) => { if (e.name !== "AbortError") throw e; });
 }
 
 export function say(text) {

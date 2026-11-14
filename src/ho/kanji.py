@@ -309,7 +309,8 @@ def cloze(sentence: str, char: str) -> list[list[str]] | None:
             for i, s in enumerate(segs)]
 
 
-def write_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], sentences_per_kanji: int = 4) -> dict[str, Any]:
+def write_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], clip: Callable[[str], str],
+               sentences_per_kanji: int = 4) -> dict[str, Any]:
     """The handwriting drill: per kanji its meaning, readings and a few sentences
     with it blanked; words to write whole. Stroke order is fetched per kanji."""
     lines = example_lines(cards, lessons)
@@ -325,6 +326,6 @@ def write_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], sentences_p
         kanji_rows.append({"c": c.char, "no": c.number, "rd": [r.kana for r in c.readings if not r.secondary][:3],
                            "en": c.meaning.en, "ru": c.meaning.ru, "uk": c.meaning.uk, "sents": sents})
     words = [{"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
-              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk}
+              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "say": speech(it.ja), "clip": clip(it.ja)}
              for it in drill_items(cards, lessons)]
     return {"kanji": kanji_rows, "words": words, "sets": kanji_sets(cards, lessons)}

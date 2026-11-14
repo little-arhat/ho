@@ -166,7 +166,7 @@ def _kanji_pages(content: Content) -> list[Page]:
                  data=kanji.drill_view(cards, content.lessons, clip_of(content)))
     write = Page("kanji/write/index.html", "kanji_write.html", "Kanji writing", "kanji",
                  {"lessons": [lesson.number for lesson in content.lessons]},
-                 data=kanji.write_view(cards, content.lessons))
+                 data=kanji.write_view(cards, content.lessons, clip_of(content)))
     out = [index, drill, write]
     for i, card in enumerate(cards):
         out.append(Page(card_path(card), "kanji_card.html", f"{card.char} · kanji", "kanji", {
