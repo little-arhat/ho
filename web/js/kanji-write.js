@@ -97,7 +97,11 @@ function next() {
 const strokeCache = new Map();
 function strokes(c) {
   if (!strokeCache.has(c)) {
-    strokeCache.set(c, fetch(`../${c.codePointAt(0).toString(16)}/strokes.json`).then((r) => (r.ok ? r.json() : [])));
+    const url = `../${c.codePointAt(0).toString(16)}/strokes.json`;
+    strokeCache.set(c, fetch(url).then((r) => {
+      if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+      return r.json();
+    }));
   }
   return strokeCache.get(c);
 }
@@ -117,13 +121,20 @@ async function reveal() {
     + chars.map((c) => `<div class="wa-char"><a lang="ja" href="../${c.codePointAt(0).toString(16)}/">${esc(c)}</a><ol class="strokes" data-c="${esc(c)}"></ol></div>`).join("");
   $("reveal").hidden = true; $("again").hidden = false; $("good").hidden = false;
   paint();
+  $("good").focus();
   for (const c of chars) {
-    const paths = await strokes(c);
-    const list = $("answer").querySelector(`ol[data-c="${c}"]`);
-    if (list) list.innerHTML = paths.map((_, i) => frame(paths, i)).join("");
+    let paths;
+    try {
+      paths = await strokes(c);
+    } catch (e) {
+      strokeCache.delete(c);  // let the next reveal try again
+      if (st.item === p) $("answer").querySelector(`ol[data-c="${c}"]`).outerHTML = `<p class="dfb-src">Stroke order didn't load (${esc(e.message)}).</p>`;
+      continue;
+    }
+    if (st.item !== p) return;  // moved on while loading: this belongs to an earlier prompt
+    $("answer").querySelector(`ol[data-c="${c}"]`).innerHTML = paths.map((_, i) => frame(paths, i)).join("");
     if (chars.length === 1 && st.pad) $("guide").innerHTML = paths.map((d) => `<path d="${d}"/>`).join("");
   }
-  $("good").focus();
 }
 
 function grade(good) {
