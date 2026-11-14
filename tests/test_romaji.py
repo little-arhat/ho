@@ -41,3 +41,19 @@ def test_ruby_run_split_only_when_readings_agree():
 ])
 def test_speech_is_our_reading_in_phrases(text, expected):
     assert speech(text) == expected
+
+
+def test_audio_accepts_engine_spelling_and_rejects_misreading():
+    from ho.audio import agrees
+    assert agrees("私[わたし]は学[がく]生[せい]です。", "ワタシワガクセエデス")
+    assert agrees("コーヒーを飲[の]みませんか。", "コオヒイオノミマセンカ")
+    assert agrees("１，０００円[えん]です", "センエンデス")  # digits: any sounds
+    assert not agrees("何[なに]をしますか", "ナンオシマスカ")
+    assert agrees("サーモン · 鮭[さけ] · イクラ", "サアモンサケイクラ")  # punctuation never splits a vowel pair
+    assert agrees("ICカードで", "アイシイカアドデ")  # Latin: any sounds
+
+
+def test_greetings_say_wa():
+    assert romanize("こんにちは") == "konnichiwa"
+    assert speech("こんばんは") == "こんばんわ"
+    assert romanize("母[はは]は") == "haha wa"  # only the particle changes

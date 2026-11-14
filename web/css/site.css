@@ -415,7 +415,7 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 /* Listen buttons (only when the device has a Japanese voice) */
 .listen { display: inline-grid; place-items: center; width: 30px; height: 30px; margin-left: 6px; vertical-align: middle; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); cursor: pointer; padding: 0; }
 .listen:hover { color: var(--accent); border-color: var(--accent); }
-html:not([data-speech="on"]) .listen { display: none; }
+html:not([data-speech="on"]) .listen:not([data-clip]) { display: none; }
 footer.site { font-size: 12px; color: var(--muted); padding: 32px 16px 24px; }
 
 /* Links from words to their kanji cards */

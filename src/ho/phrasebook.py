@@ -6,6 +6,7 @@ import re
 import tomllib
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from collections.abc import Callable
 from typing import Any, Literal
 
 from ho import furigana
@@ -143,8 +144,8 @@ def _verb_view(v: Verb) -> dict[str, Any]:
     }
 
 
-def _line_view(line: Line) -> dict[str, Any]:
-    return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja), "say": speech(line.ja),
+def _line_view(line: Line, clip: Callable[[str], str]) -> dict[str, Any]:
+    return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja), "say": speech(line.ja), "clip": clip(line.ja),
             "en": line.en, "ru": line.ru, "uk": line.uk}
 
 
@@ -157,7 +158,7 @@ def _words(texts: tuple[str, ...]) -> list[list[str]]:
     return [[base, ruby] for base, ruby in seen.items()]
 
 
-def view(pb: Phrasebook) -> dict[str, Any]:
+def view(pb: Phrasebook, clip: Callable[[str], str]) -> dict[str, Any]:
     """The phrase book as the page's JSON: parsed ruby, search text, verb tables."""
     verb_index: dict[str, int] = {}
     verbs: list[dict[str, Any]] = []
@@ -181,13 +182,14 @@ def view(pb: Phrasebook) -> dict[str, Any]:
             "ja": furigana.segments_json(p.ja),
             "ro": romanize(p.ja),
             "say": speech(p.ja),
+            "clip": clip(p.ja),
             "casual": furigana.segments_json(p.casual),
             "casual_ro": romanize(p.casual),
             "en": p.en, "ru": p.ru, "uk": p.uk,
             "note": furigana.segments_json(p.note),
             "level": p.level,
-            "answers": [_line_view(a) for a in p.answers],
-            "examples": [_line_view(a) for a in p.examples],
+            "answers": [_line_view(a, clip) for a in p.answers],
+            "examples": [_line_view(a, clip) for a in p.examples],
             "words": _words(jp),
             "verbs": ids,
             "search": " ".join(s for s in search if s),

@@ -1,0 +1,1845 @@
+# Cards for kanji met in examples, the phrase book and reading texts, beyond
+# the book and lesson vocabulary. Readings are the two most common on and kun
+# readings from KANJIDIC2, kun in dictionary form (た-べる), not the book's
+# ます form; meanings are ours. Promote a card to book.toml when the book
+# reaches it, or to lessons.toml when a lesson's vocabulary does.
+
+[[kanji]]
+char = "丈"
+readings = ["たけ", "だけ", "ジョウ"]
+meaning = { en = "length; sturdy (大丈夫)", ru = "длина; прочный (大丈夫)", uk = "довжина; міцний (大丈夫)" }
+
+[[kanji]]
+char = "丼"
+readings = ["どんぶり", "トン", "タン"]
+meaning = { en = "bowl of rice with topping", ru = "миска риса с начинкой", uk = "миска рису з начинкою" }
+
+[[kanji]]
+char = "久"
+readings = ["ひさ-しい", "キュウ", "ク"]
+meaning = { en = "long time", ru = "долгое время", uk = "довгий час" }
+
+[[kanji]]
+char = "乾"
+readings = ["かわ-く", "かわ-かす", "カン", "ケン"]
+meaning = { en = "dry", ru = "сухой", uk = "сухий" }
+
+[[kanji]]
+char = "了"
+readings = ["リョウ"]
+meaning = { en = "finish, complete", ru = "завершать", uk = "завершувати" }
+
+[[kanji]]
+char = "予"
+readings = ["あらかじ-め", "ヨ", "シャ"]
+meaning = { en = "beforehand", ru = "заранее", uk = "заздалегідь" }
+
+[[kanji]]
+char = "交"
+readings = ["まじ-わる", "まじ-える", "コウ"]
+meaning = { en = "mix; exchange; cross", ru = "смешиваться; обмен; пересекать", uk = "змішуватися; обмін; перетинати" }
+
+[[kanji]]
+char = "京"
+readings = ["みやこ", "キョウ", "ケイ"]
+meaning = { en = "capital (city)", ru = "столица", uk = "столиця" }
+
+[[kanji]]
+char = "仕"
+readings = ["つか-える", "シ", "ジ"]
+meaning = { en = "serve; do (仕事 work)", ru = "служить; делать (仕事 работа)", uk = "служити; робити (仕事 робота)" }
+
+[[kanji]]
+char = "以"
+readings = ["もっ-て", "イ"]
+meaning = { en = "by means of; since", ru = "посредством; с (какого-то момента)", uk = "за допомогою; з (якогось моменту)" }
+
+[[kanji]]
+char = "任"
+readings = ["まか-せる", "まか-す", "ニン"]
+meaning = { en = "duty; entrust", ru = "обязанность; поручать", uk = "обов'язок; доручати" }
+
+[[kanji]]
+char = "伝"
+readings = ["つた-わる", "つた-える", "デン", "テン"]
+meaning = { en = "convey; tell", ru = "передавать; сообщать", uk = "передавати; повідомляти" }
+
+[[kanji]]
+char = "住"
+readings = ["す-む", "す-まう", "ジュウ", "ヂュウ"]
+meaning = { en = "live, dwell", ru = "жить, проживать", uk = "жити, мешкати" }
+
+[[kanji]]
+char = "佐"
+readings = ["サ"]
+meaning = { en = "assist (佐藤 Satō)", ru = "помогать (佐藤 Сато)", uk = "допомагати (佐藤 Сато)" }
+
+[[kanji]]
+char = "作"
+readings = ["つく-る", "つく-り", "サク", "サ"]
+meaning = { en = "make", ru = "делать, создавать", uk = "робити, створювати" }
+
+[[kanji]]
+char = "使"
+readings = ["つか-う", "つか-い", "シ"]
+meaning = { en = "use", ru = "использовать", uk = "використовувати" }
+
+[[kanji]]
+char = "供"
+readings = ["そな-える", "とも", "キョウ", "ク"]
+meaning = { en = "offer; companion (子供 child)", ru = "предлагать; спутник (子供 ребёнок)", uk = "пропонувати; супутник (子供 дитина)" }
+
+[[kanji]]
+char = "係"
+readings = ["かか-る", "かかり", "ケイ"]
+meaning = { en = "person in charge; relation", ru = "ответственный; связь", uk = "відповідальний; зв'язок" }
+
+[[kanji]]
+char = "信"
+readings = ["シン"]
+meaning = { en = "trust, believe", ru = "доверие, верить", uk = "довіра, вірити" }
+
+[[kanji]]
+char = "倉"
+readings = ["くら", "ソウ"]
+meaning = { en = "storehouse", ru = "склад, амбар", uk = "склад, комора" }
+
+[[kanji]]
+char = "個"
+readings = ["コ", "カ"]
+meaning = { en = "individual; counter for things", ru = "отдельный; счётное для предметов", uk = "окремий; лічильне для предметів" }
+
+[[kanji]]
+char = "倒"
+readings = ["たお-れる", "たお-す", "トウ"]
+meaning = { en = "fall over", ru = "падать, опрокидываться", uk = "падати, перекидатися" }
+
+[[kanji]]
+char = "値"
+readings = ["ね", "あたい", "チ"]
+meaning = { en = "price, value", ru = "цена, ценность", uk = "ціна, вартість" }
+
+[[kanji]]
+char = "側"
+readings = ["かわ", "がわ", "ソク"]
+meaning = { en = "side", ru = "сторона", uk = "бік" }
+
+[[kanji]]
+char = "傷"
+readings = ["きず", "いた-む", "ショウ"]
+meaning = { en = "wound; scratch", ru = "рана; царапина", uk = "рана; подряпина" }
+
+[[kanji]]
+char = "優"
+readings = ["やさ-しい", "すぐ-れる", "ユウ", "ウ"]
+meaning = { en = "gentle; excellent", ru = "нежный; превосходный", uk = "лагідний; чудовий" }
+
+[[kanji]]
+char = "兄"
+readings = ["あに", "ケイ", "キョウ"]
+meaning = { en = "elder brother", ru = "старший брат", uk = "старший брат" }
+
+[[kanji]]
+char = "光"
+readings = ["ひか-る", "ひかり", "コウ"]
+meaning = { en = "light", ru = "свет", uk = "світло" }
+
+[[kanji]]
+char = "免"
+readings = ["まぬか-れる", "まぬが-れる", "メン"]
+meaning = { en = "exempt", ru = "освобождать", uk = "звільняти" }
+
+[[kanji]]
+char = "児"
+readings = ["こ", "ジ", "ニ"]
+meaning = { en = "child", ru = "ребёнок", uk = "дитина" }
+
+[[kanji]]
+char = "入"
+readings = ["い-る", "い-れる", "ニュウ", "ジュ"]
+meaning = { en = "enter; put in", ru = "входить; вкладывать", uk = "входити; вкладати" }
+
+[[kanji]]
+char = "全"
+readings = ["まった-く", "すべ-て", "ゼン"]
+meaning = { en = "all, whole", ru = "весь, целый", uk = "весь, цілий" }
+
+[[kanji]]
+char = "公"
+readings = ["おおやけ", "コウ", "ク"]
+meaning = { en = "public", ru = "общественный", uk = "громадський" }
+
+[[kanji]]
+char = "内"
+readings = ["うち", "ナイ", "ダイ"]
+meaning = { en = "inside", ru = "внутри", uk = "всередині" }
+
+[[kanji]]
+char = "冊"
+readings = ["ふみ", "サツ", "サク"]
+meaning = { en = "counter for books", ru = "счётное для книг", uk = "лічильне для книг" }
+
+[[kanji]]
+char = "冷"
+readings = ["つめ-たい", "ひ-える", "レイ"]
+meaning = { en = "cold, cool", ru = "холодный", uk = "холодний" }
+
+[[kanji]]
+char = "凍"
+readings = ["こお-る", "こご-える", "トウ"]
+meaning = { en = "freeze", ru = "замерзать", uk = "замерзати" }
+
+[[kanji]]
+char = "出"
+readings = ["で-る", "だ-す", "シュツ", "スイ"]
+meaning = { en = "go out; take out", ru = "выходить; вынимать", uk = "виходити; виймати" }
+
+[[kanji]]
+char = "列"
+readings = ["レツ", "レ"]
+meaning = { en = "row, line", ru = "ряд, очередь", uk = "ряд, черга" }
+
+[[kanji]]
+char = "別"
+readings = ["わか-れる", "わ-ける", "ベツ"]
+meaning = { en = "separate, different", ru = "отдельный, другой", uk = "окремий, інший" }
+
+[[kanji]]
+char = "利"
+readings = ["き-く", "リ"]
+meaning = { en = "benefit; use", ru = "выгода; использовать", uk = "вигода; використовувати" }
+
+[[kanji]]
+char = "制"
+readings = ["セイ"]
+meaning = { en = "system; control", ru = "система; контроль", uk = "система; контроль" }
+
+[[kanji]]
+char = "券"
+readings = ["ケン"]
+meaning = { en = "ticket", ru = "билет, талон", uk = "квиток, талон" }
+
+[[kanji]]
+char = "割"
+readings = ["わ-る", "わり", "カツ"]
+meaning = { en = "divide; discount; ratio", ru = "делить; скидка; доля", uk = "ділити; знижка; частка" }
+
+[[kanji]]
+char = "助"
+readings = ["たす-ける", "たす-かる", "ジョ"]
+meaning = { en = "help", ru = "помогать", uk = "допомагати" }
+
+[[kanji]]
+char = "勘"
+readings = ["カン"]
+meaning = { en = "intuition; check (お勘定 bill)", ru = "чутьё; проверка (お勘定 счёт)", uk = "чуття; перевірка (お勘定 рахунок)" }
+
+[[kanji]]
+char = "北"
+readings = ["きた", "ホク"]
+meaning = { en = "north", ru = "север", uk = "північ" }
+
+[[kanji]]
+char = "匹"
+readings = ["ひき", "ヒツ"]
+meaning = { en = "counter for small animals", ru = "счётное для мелких животных", uk = "лічильне для дрібних тварин" }
+
+[[kanji]]
+char = "印"
+readings = ["しるし", "しる-す", "イン"]
+meaning = { en = "mark, stamp", ru = "знак, печать", uk = "знак, печатка" }
+
+[[kanji]]
+char = "原"
+readings = ["はら", "ゲン"]
+meaning = { en = "origin; field", ru = "исток; равнина", uk = "джерело; рівнина" }
+
+[[kanji]]
+char = "厨"
+readings = ["くりや", "シュウ", "ズ"]
+meaning = { en = "kitchen", ru = "кухня", uk = "кухня" }
+
+[[kanji]]
+char = "参"
+readings = ["まい-る", "まじわる", "サン", "シン"]
+meaning = { en = "go, visit (humble)", ru = "идти, посещать (скромно)", uk = "іти, відвідувати (скромно)" }
+
+[[kanji]]
+char = "収"
+readings = ["おさ-める", "おさ-まる", "シュウ"]
+meaning = { en = "obtain, collect", ru = "получать, собирать", uk = "отримувати, збирати" }
+
+[[kanji]]
+char = "取"
+readings = ["と-る", "と-り", "シュ"]
+meaning = { en = "take", ru = "брать", uk = "брати" }
+
+[[kanji]]
+char = "口"
+readings = ["くち", "コウ", "ク"]
+meaning = { en = "mouth; opening", ru = "рот; отверстие", uk = "рот; отвір" }
+
+[[kanji]]
+char = "召"
+readings = ["め-す", "ショウ"]
+meaning = { en = "call; eat, wear (honorific)", ru = "звать; есть, носить (почтит.)", uk = "кликати; їсти, носити (шанобл.)" }
+
+[[kanji]]
+char = "可"
+readings = ["カ", "コク"]
+meaning = { en = "possible, allowed", ru = "возможный, допустимый", uk = "можливий, допустимий" }
+
+[[kanji]]
+char = "台"
+readings = ["うてな", "われ", "ダイ", "タイ"]
+meaning = { en = "stand; counter for machines and vehicles", ru = "подставка; счётное для машин", uk = "підставка; лічильне для машин" }
+
+[[kanji]]
+char = "右"
+readings = ["みぎ", "ウ", "ユウ"]
+meaning = { en = "right", ru = "правый", uk = "правий" }
+
+[[kanji]]
+char = "各"
+readings = ["おのおの", "カク"]
+meaning = { en = "each", ru = "каждый", uk = "кожен" }
+
+[[kanji]]
+char = "同"
+readings = ["おな-じ", "ドウ"]
+meaning = { en = "same", ru = "одинаковый", uk = "однаковий" }
+
+[[kanji]]
+char = "向"
+readings = ["む-く", "む-い", "コウ"]
+meaning = { en = "face toward", ru = "быть обращённым к", uk = "бути зверненим до" }
+
+[[kanji]]
+char = "呂"
+readings = ["せぼね", "ロ", "リョ"]
+meaning = { en = "backbone (風呂 bath)", ru = "хребет (風呂 ванна)", uk = "хребет (風呂 ванна)" }
+
+[[kanji]]
+char = "味"
+readings = ["あじ", "あじ-わう", "ミ"]
+meaning = { en = "taste", ru = "вкус", uk = "смак" }
+
+[[kanji]]
+char = "呼"
+readings = ["よ-ぶ", "コ"]
+meaning = { en = "call", ru = "звать", uk = "кликати" }
+
+[[kanji]]
+char = "唐"
+readings = ["から", "トウ"]
+meaning = { en = "Tang China; foreign (唐揚げ fried chicken)", ru = "Китай эпохи Тан; заморский (唐揚げ жареная курица)", uk = "Китай доби Тан; заморський (唐揚げ смажена курка)" }
+
+[[kanji]]
+char = "喫"
+readings = ["の-む", "キツ"]
+meaning = { en = "consume (喫煙 smoking)", ru = "потреблять (喫煙 курение)", uk = "споживати (喫煙 куріння)" }
+
+[[kanji]]
+char = "回"
+readings = ["まわ-る", "まわ-す", "カイ", "エ"]
+meaning = { en = "times; turn around", ru = "раз; вращаться", uk = "раз; обертатися" }
+
+[[kanji]]
+char = "団"
+readings = ["かたまり", "まる-い", "ダン", "トン"]
+meaning = { en = "group", ru = "группа", uk = "група" }
+
+[[kanji]]
+char = "基"
+readings = ["もと", "もとい", "キ"]
+meaning = { en = "base, foundation", ru = "основа", uk = "основа" }
+
+[[kanji]]
+char = "塩"
+readings = ["しお", "エン"]
+meaning = { en = "salt", ru = "соль", uk = "сіль" }
+
+[[kanji]]
+char = "声"
+readings = ["こえ", "セイ", "ショウ"]
+meaning = { en = "voice", ru = "голос", uk = "голос" }
+
+[[kanji]]
+char = "夕"
+readings = ["ゆう", "セキ"]
+meaning = { en = "evening", ru = "вечер", uk = "вечір" }
+
+[[kanji]]
+char = "外"
+readings = ["そと", "ほか", "ガイ", "ゲ"]
+meaning = { en = "outside", ru = "снаружи, вне", uk = "зовні, поза" }
+
+[[kanji]]
+char = "太"
+readings = ["ふと-い", "ふと-る", "タイ", "タ"]
+meaning = { en = "fat, thick", ru = "толстый", uk = "товстий" }
+
+[[kanji]]
+char = "夫"
+readings = ["おっと", "それ", "フ", "フウ"]
+meaning = { en = "husband", ru = "муж", uk = "чоловік (муж)" }
+
+[[kanji]]
+char = "好"
+readings = ["この-む", "す-く", "コウ"]
+meaning = { en = "like, fond of", ru = "нравиться", uk = "подобатися" }
+
+[[kanji]]
+char = "妻"
+readings = ["つま", "サイ"]
+meaning = { en = "wife", ru = "жена", uk = "дружина" }
+
+[[kanji]]
+char = "始"
+readings = ["はじ-める", "はじ-まる", "シ"]
+meaning = { en = "begin", ru = "начинать", uk = "починати" }
+
+[[kanji]]
+char = "娘"
+readings = ["むすめ", "こ", "ジョウ"]
+meaning = { en = "daughter; girl", ru = "дочь; девушка", uk = "донька; дівчина" }
+
+[[kanji]]
+char = "嫌"
+readings = ["きら-う", "きら-い", "ケン", "ゲン"]
+meaning = { en = "dislike", ru = "не любить", uk = "не любити" }
+
+[[kanji]]
+char = "嬉"
+readings = ["うれ-しい", "たの-しむ", "キ"]
+meaning = { en = "glad", ru = "радостный", uk = "радісний" }
+
+[[kanji]]
+char = "字"
+readings = ["あざ", "あざな", "ジ"]
+meaning = { en = "character, letter", ru = "знак, буква", uk = "знак, літера" }
+
+[[kanji]]
+char = "守"
+readings = ["まも-る", "まも-り", "シュ", "ス"]
+meaning = { en = "protect; keep", ru = "защищать; соблюдать", uk = "захищати; дотримуватися" }
+
+[[kanji]]
+char = "安"
+readings = ["やす-い", "やす-まる", "アン"]
+meaning = { en = "cheap; peaceful", ru = "дешёвый; спокойный", uk = "дешевий; спокійний" }
+
+[[kanji]]
+char = "完"
+readings = ["カン"]
+meaning = { en = "complete", ru = "завершённый", uk = "завершений" }
+
+[[kanji]]
+char = "定"
+readings = ["さだ-める", "さだ-まる", "テイ", "ジョウ"]
+meaning = { en = "fix, decide", ru = "определять", uk = "визначати" }
+
+[[kanji]]
+char = "富"
+readings = ["と-む", "とみ", "フ", "フウ"]
+meaning = { en = "wealth, rich", ru = "богатство", uk = "багатство" }
+
+[[kanji]]
+char = "寒"
+readings = ["さむ-い", "カン"]
+meaning = { en = "cold (weather)", ru = "холодный (о погоде)", uk = "холодний (про погоду)" }
+
+[[kanji]]
+char = "対"
+readings = ["あいて", "こた-える", "タイ", "ツイ"]
+meaning = { en = "opposite; versus", ru = "напротив; против", uk = "навпроти; проти" }
+
+[[kanji]]
+char = "就"
+readings = ["つ-く", "つ-ける", "シュウ", "ジュ"]
+meaning = { en = "take up (a post)", ru = "занимать (должность)", uk = "обіймати (посаду)" }
+
+[[kanji]]
+char = "尾"
+readings = ["お", "ビ"]
+meaning = { en = "tail", ru = "хвост", uk = "хвіст" }
+
+[[kanji]]
+char = "居"
+readings = ["い-る", "お-る", "キョ", "コ"]
+meaning = { en = "be, stay", ru = "находиться, жить", uk = "перебувати, жити" }
+
+[[kanji]]
+char = "展"
+readings = ["テン"]
+meaning = { en = "unfold; exhibit", ru = "раскрывать; выставка", uk = "розгортати; виставка" }
+
+[[kanji]]
+char = "山"
+readings = ["やま", "サン", "セン"]
+meaning = { en = "mountain", ru = "гора", uk = "гора" }
+
+[[kanji]]
+char = "巡"
+readings = ["めぐ-る", "めぐ-り", "ジュン"]
+meaning = { en = "go around", ru = "обходить", uk = "обходити" }
+
+[[kanji]]
+char = "工"
+readings = ["コウ", "ク"]
+meaning = { en = "craft, work", ru = "ремесло, работа", uk = "ремесло, робота" }
+
+[[kanji]]
+char = "左"
+readings = ["ひだり", "サ", "シャ"]
+meaning = { en = "left", ru = "левый", uk = "лівий" }
+
+[[kanji]]
+char = "巻"
+readings = ["ま-く", "まき", "カン", "ケン"]
+meaning = { en = "roll; volume", ru = "свиток; том", uk = "сувій; том" }
+
+[[kanji]]
+char = "布"
+readings = ["ぬの", "し-く", "フ", "ホ"]
+meaning = { en = "cloth", ru = "ткань", uk = "тканина" }
+
+[[kanji]]
+char = "席"
+readings = ["むしろ", "セキ"]
+meaning = { en = "seat", ru = "место (сиденье)", uk = "місце (сидіння)" }
+
+[[kanji]]
+char = "帯"
+readings = ["お-びる", "おび", "タイ"]
+meaning = { en = "belt, sash; zone", ru = "пояс; зона", uk = "пояс; зона" }
+
+[[kanji]]
+char = "常"
+readings = ["つね", "ジョウ"]
+meaning = { en = "usual, always", ru = "обычный, всегда", uk = "звичайний, завжди" }
+
+[[kanji]]
+char = "幕"
+readings = ["とばり", "マク", "バク"]
+meaning = { en = "curtain; act (of a play)", ru = "занавес; акт (пьесы)", uk = "завіса; дія (п'єси)" }
+
+[[kanji]]
+char = "弁"
+readings = ["かんむり", "わきま-える", "ベン", "ヘン"]
+meaning = { en = "speech; valve (お弁当 lunch box)", ru = "речь; клапан (お弁当 обед в коробке)", uk = "мова; клапан (お弁当 обід у коробці)" }
+
+[[kanji]]
+char = "引"
+readings = ["ひ-く", "ひ-ける", "イン"]
+meaning = { en = "pull", ru = "тянуть", uk = "тягнути" }
+
+[[kanji]]
+char = "弟"
+readings = ["おとうと", "テイ", "ダイ"]
+meaning = { en = "younger brother", ru = "младший брат", uk = "молодший брат" }
+
+[[kanji]]
+char = "弱"
+readings = ["よわ-い", "よわ-る", "ジャク"]
+meaning = { en = "weak", ru = "слабый", uk = "слабкий" }
+
+[[kanji]]
+char = "張"
+readings = ["は-る", "チョウ"]
+meaning = { en = "stretch; counter for flat things", ru = "натягивать; счётное для плоских вещей", uk = "натягувати; лічильне для пласких речей" }
+
+[[kanji]]
+char = "当"
+readings = ["あ-たる", "あ-たり", "トウ"]
+meaning = { en = "hit; right, proper", ru = "попадать; правильный", uk = "влучати; правильний" }
+
+[[kanji]]
+char = "影"
+readings = ["かげ", "エイ"]
+meaning = { en = "shadow", ru = "тень", uk = "тінь" }
+
+[[kanji]]
+char = "往"
+readings = ["い-く", "いにしえ", "オウ"]
+meaning = { en = "go (往復 round trip)", ru = "идти (往復 туда и обратно)", uk = "іти (往復 туди й назад)" }
+
+[[kanji]]
+char = "待"
+readings = ["ま-つ", "タイ"]
+meaning = { en = "wait", ru = "ждать", uk = "чекати" }
+
+[[kanji]]
+char = "御"
+readings = ["ギョ", "ゴ"]
+meaning = { en = "honorable (prefix)", ru = "почтительная приставка", uk = "шаноблива приставка" }
+
+[[kanji]]
+char = "復"
+readings = ["また", "フク"]
+meaning = { en = "return; repeat", ru = "возвращаться; повторять", uk = "повертатися; повторювати" }
+
+[[kanji]]
+char = "心"
+readings = ["こころ", "シン"]
+meaning = { en = "heart, mind", ru = "сердце, душа", uk = "серце, душа" }
+
+[[kanji]]
+char = "必"
+readings = ["かなら-ず", "ヒツ"]
+meaning = { en = "certainly, must", ru = "обязательно", uk = "обов'язково" }
+
+[[kanji]]
+char = "忘"
+readings = ["わす-れる", "ボウ"]
+meaning = { en = "forget", ru = "забывать", uk = "забувати" }
+
+[[kanji]]
+char = "忙"
+readings = ["いそが-しい", "せわ-しい", "ボウ", "モウ"]
+meaning = { en = "busy", ru = "занятой", uk = "зайнятий" }
+
+[[kanji]]
+char = "応"
+readings = ["あた-る", "まさに", "オウ", "ヨウ"]
+meaning = { en = "respond", ru = "отвечать, откликаться", uk = "відповідати, відгукуватися" }
+
+[[kanji]]
+char = "快"
+readings = ["こころよ-い", "カイ"]
+meaning = { en = "pleasant", ru = "приятный", uk = "приємний" }
+
+[[kanji]]
+char = "念"
+readings = ["ネン"]
+meaning = { en = "thought; wish", ru = "мысль; желание", uk = "думка; бажання" }
+
+[[kanji]]
+char = "恐"
+readings = ["おそ-れる", "おそ-る", "キョウ"]
+meaning = { en = "fear", ru = "страх", uk = "страх" }
+
+[[kanji]]
+char = "息"
+readings = ["いき", "ソク"]
+meaning = { en = "breath", ru = "дыхание", uk = "дихання" }
+
+[[kanji]]
+char = "悪"
+readings = ["わる-い", "あ-し", "アク", "オ"]
+meaning = { en = "bad", ru = "плохой", uk = "поганий" }
+
+[[kanji]]
+char = "感"
+readings = ["カン"]
+meaning = { en = "feeling", ru = "чувство", uk = "почуття" }
+
+[[kanji]]
+char = "慮"
+readings = ["おもんぱく-る", "おもんぱか-る", "リョ"]
+meaning = { en = "consideration", ru = "соображение", uk = "міркування" }
+
+[[kanji]]
+char = "憩"
+readings = ["いこ-い", "いこ-う", "ケイ"]
+meaning = { en = "rest", ru = "отдых", uk = "відпочинок" }
+
+[[kanji]]
+char = "戴"
+readings = ["いただ-く", "タイ"]
+meaning = { en = "receive (頂戴 please give)", ru = "получать (頂戴 дай, пожалуйста)", uk = "отримувати (頂戴 дай, будь ласка)" }
+
+[[kanji]]
+char = "扉"
+readings = ["とびら", "ヒ"]
+meaning = { en = "door", ru = "дверь", uk = "двері" }
+
+[[kanji]]
+char = "払"
+readings = ["はら-う", "フツ", "ヒツ"]
+meaning = { en = "pay", ru = "платить", uk = "платити" }
+
+[[kanji]]
+char = "扱"
+readings = ["あつか-い", "あつか-う", "ソウ", "キュウ"]
+meaning = { en = "handle, treat", ru = "обращаться с", uk = "поводитися з" }
+
+[[kanji]]
+char = "承"
+readings = ["うけたまわ-る", "う-ける", "ショウ", "ジョウ"]
+meaning = { en = "accept, hear (humble)", ru = "принимать, слышать (скромно)", uk = "приймати, чути (скромно)" }
+
+[[kanji]]
+char = "抜"
+readings = ["ぬ-く", "ぬ-き", "バツ", "ハツ"]
+meaning = { en = "pull out; leave out", ru = "вытаскивать; пропускать", uk = "витягати; пропускати" }
+
+[[kanji]]
+char = "押"
+readings = ["お-す", "お-さえる", "オウ"]
+meaning = { en = "push", ru = "толкать, нажимать", uk = "штовхати, натискати" }
+
+[[kanji]]
+char = "抽"
+readings = ["チュウ"]
+meaning = { en = "draw, extract", ru = "вытягивать", uk = "витягати" }
+
+[[kanji]]
+char = "拍"
+readings = ["ハク", "ヒョウ"]
+meaning = { en = "clap; beat", ru = "хлопать; такт", uk = "плескати; такт" }
+
+[[kanji]]
+char = "拝"
+readings = ["おが-む", "おろが-む", "ハイ"]
+meaning = { en = "worship; look (humble)", ru = "поклоняться; смотреть (скромно)", uk = "поклонятися; дивитися (скромно)" }
+
+[[kanji]]
+char = "拶"
+readings = ["せま-る", "サツ"]
+meaning = { en = "greeting (挨拶)", ru = "приветствие (挨拶)", uk = "привітання (挨拶)" }
+
+[[kanji]]
+char = "指"
+readings = ["ゆび", "さ-す", "シ"]
+meaning = { en = "finger; point", ru = "палец; указывать", uk = "палець; вказувати" }
+
+[[kanji]]
+char = "挨"
+readings = ["ひら-く", "アイ"]
+meaning = { en = "greeting (挨拶)", ru = "приветствие (挨拶)", uk = "привітання (挨拶)" }
+
+[[kanji]]
+char = "探"
+readings = ["さぐ-る", "さが-す", "タン"]
+meaning = { en = "search", ru = "искать", uk = "шукати" }
+
+[[kanji]]
+char = "推"
+readings = ["お-す", "スイ"]
+meaning = { en = "push; infer; recommend", ru = "толкать; предполагать; рекомендовать", uk = "штовхати; припускати; рекомендувати" }
+
+[[kanji]]
+char = "揚"
+readings = ["あ-げる", "あ-がる", "ヨウ"]
+meaning = { en = "raise; deep-fry", ru = "поднимать; жарить во фритюре", uk = "піднімати; смажити у фритюрі" }
+
+[[kanji]]
+char = "換"
+readings = ["か-える", "か-わる", "カン"]
+meaning = { en = "exchange", ru = "обменивать", uk = "обмінювати" }
+
+[[kanji]]
+char = "握"
+readings = ["にぎ-る", "アク"]
+meaning = { en = "grip", ru = "сжимать", uk = "стискати" }
+
+[[kanji]]
+char = "携"
+readings = ["たずさ-える", "たずさ-わる", "ケイ"]
+meaning = { en = "carry (携帯 mobile)", ru = "носить с собой (携帯 мобильный)", uk = "носити з собою (携帯 мобільний)" }
+
+[[kanji]]
+char = "支"
+readings = ["ささ-える", "つか-える", "シ"]
+meaning = { en = "support; branch", ru = "поддерживать; ветвь", uk = "підтримувати; гілка" }
+
+[[kanji]]
+char = "放"
+readings = ["はな-す", "はな-つ", "ホウ"]
+meaning = { en = "release", ru = "отпускать", uk = "відпускати" }
+
+[[kanji]]
+char = "数"
+readings = ["かず", "かぞ-える", "スウ", "ス"]
+meaning = { en = "number; count", ru = "число; считать", uk = "число; рахувати" }
+
+[[kanji]]
+char = "整"
+readings = ["ととの-える", "ととの-う", "セイ"]
+meaning = { en = "arrange, put in order", ru = "упорядочивать", uk = "упорядковувати" }
+
+[[kanji]]
+char = "敷"
+readings = ["し-く", "フ"]
+meaning = { en = "spread out (a futon)", ru = "расстилать (футон)", uk = "розстеляти (футон)" }
+
+[[kanji]]
+char = "断"
+readings = ["た-つ", "ことわ-る", "ダン"]
+meaning = { en = "refuse; cut off", ru = "отказывать; обрывать", uk = "відмовляти; обривати" }
+
+[[kanji]]
+char = "早"
+readings = ["はや-い", "はや", "ソウ", "サッ"]
+meaning = { en = "early; fast", ru = "рано; быстро", uk = "рано; швидко" }
+
+[[kanji]]
+char = "晴"
+readings = ["は-れる", "は-れ", "セイ"]
+meaning = { en = "clear (weather)", ru = "ясный (о погоде)", uk = "ясний (про погоду)" }
+
+[[kanji]]
+char = "暑"
+readings = ["あつ-い", "ショ"]
+meaning = { en = "hot (weather)", ru = "жаркий (о погоде)", uk = "спекотний (про погоду)" }
+
+[[kanji]]
+char = "曲"
+readings = ["ま-がる", "ま-げる", "キョク"]
+meaning = { en = "bend; tune, song", ru = "сгибать; мелодия", uk = "згинати; мелодія" }
+
+[[kanji]]
+char = "更"
+readings = ["さら", "さら-に", "コウ"]
+meaning = { en = "renew; further", ru = "обновлять; ещё больше", uk = "оновлювати; ще більше" }
+
+[[kanji]]
+char = "替"
+readings = ["か-える", "か-わる", "タイ"]
+meaning = { en = "replace, exchange", ru = "заменять, менять", uk = "заміняти, міняти" }
+
+[[kanji]]
+char = "最"
+readings = ["もっと-も", "つま", "サイ", "シュ"]
+meaning = { en = "most", ru = "самый", uk = "найбільш" }
+
+[[kanji]]
+char = "期"
+readings = ["キ", "ゴ"]
+meaning = { en = "period, term", ru = "период, срок", uk = "період, строк" }
+
+[[kanji]]
+char = "未"
+readings = ["いま-だ", "ま-だ", "ミ", "ビ"]
+meaning = { en = "not yet", ru = "ещё не", uk = "ще не" }
+
+[[kanji]]
+char = "末"
+readings = ["すえ", "うら", "マツ", "バツ"]
+meaning = { en = "end", ru = "конец", uk = "кінець" }
+
+[[kanji]]
+char = "朱"
+readings = ["あけ", "シュ"]
+meaning = { en = "vermilion", ru = "киноварь, алый", uk = "кіновар, червоний" }
+
+[[kanji]]
+char = "村"
+readings = ["むら", "ソン"]
+meaning = { en = "village", ru = "деревня", uk = "село" }
+
+[[kanji]]
+char = "杯"
+readings = ["さかずき", "ハイ"]
+meaning = { en = "cupful; counter for cups and glasses", ru = "чашка; счётное для чашек и бокалов", uk = "чашка; лічильне для чашок і келихів" }
+
+[[kanji]]
+char = "東"
+readings = ["ひがし", "トウ"]
+meaning = { en = "east", ru = "восток", uk = "схід" }
+
+[[kanji]]
+char = "枚"
+readings = ["マイ", "バイ"]
+meaning = { en = "counter for flat things", ru = "счётное для плоских предметов", uk = "лічильне для пласких предметів" }
+
+[[kanji]]
+char = "枝"
+readings = ["えだ", "シ"]
+meaning = { en = "branch", ru = "ветка", uk = "гілка" }
+
+[[kanji]]
+char = "柔"
+readings = ["やわ-らか", "やわ-らかい", "ジュウ", "ニュウ"]
+meaning = { en = "soft", ru = "мягкий", uk = "м'який" }
+
+[[kanji]]
+char = "梅"
+readings = ["うめ", "バイ"]
+meaning = { en = "plum", ru = "слива умэ", uk = "слива уме" }
+
+[[kanji]]
+char = "業"
+readings = ["わざ", "ギョウ", "ゴウ"]
+meaning = { en = "business; work", ru = "дело; работа", uk = "справа; робота" }
+
+[[kanji]]
+char = "楽"
+readings = ["たの-しい", "たの-しむ", "ガク", "ラク"]
+meaning = { en = "pleasure; easy; music", ru = "удовольствие; лёгкий; музыка", uk = "задоволення; легкий; музика" }
+
+[[kanji]]
+char = "構"
+readings = ["かま-える", "かま-う", "コウ"]
+meaning = { en = "construct; mind (構いません it's fine)", ru = "строить; обращать внимание (構いません ничего)", uk = "будувати; зважати (構いません нічого)" }
+
+[[kanji]]
+char = "様"
+readings = ["さま", "さん", "ヨウ", "ショウ"]
+meaning = { en = "Mr./Ms. (polite); manner", ru = "господин/госпожа (вежл.); манера", uk = "пан/пані (ввічл.); манера" }
+
+[[kanji]]
+char = "歌"
+readings = ["うた", "うた-う", "カ"]
+meaning = { en = "song; sing", ru = "песня; петь", uk = "пісня; співати" }
+
+[[kanji]]
+char = "止"
+readings = ["と-まる", "と-める", "シ"]
+meaning = { en = "stop", ru = "останавливать(ся)", uk = "зупиняти(ся)" }
+
+[[kanji]]
+char = "残"
+readings = ["のこ-る", "のこ-す", "ザン", "サン"]
+meaning = { en = "remain, leave over", ru = "оставаться, остаток", uk = "залишатися, залишок" }
+
+[[kanji]]
+char = "殻"
+readings = ["から", "がら", "カク", "コク"]
+meaning = { en = "shell, husk", ru = "скорлупа, оболочка", uk = "шкаралупа, оболонка" }
+
+[[kanji]]
+char = "毛"
+readings = ["け", "モウ"]
+meaning = { en = "hair, fur", ru = "волос, шерсть", uk = "волосина, шерсть" }
+
+[[kanji]]
+char = "氏"
+readings = ["うじ", "シ"]
+meaning = { en = "Mr. (formal); surname", ru = "г-н (офиц.); фамилия", uk = "п. (офіц.); прізвище" }
+
+[[kanji]]
+char = "汁"
+readings = ["しる", "つゆ", "ジュウ"]
+meaning = { en = "soup; juice", ru = "суп; сок", uk = "суп; сік" }
+
+[[kanji]]
+char = "池"
+readings = ["いけ", "チ"]
+meaning = { en = "pond", ru = "пруд", uk = "ставок" }
+
+[[kanji]]
+char = "汰"
+readings = ["おご-る", "にご-る", "タ", "タイ"]
+meaning = { en = "sift (ご無沙汰 long silence)", ru = "отсеивать (ご無沙汰 давно не виделись)", uk = "відсіювати (ご無沙汰 давно не бачились)" }
+
+[[kanji]]
+char = "決"
+readings = ["き-める", "き-まる", "ケツ"]
+meaning = { en = "decide", ru = "решать", uk = "вирішувати" }
+
+[[kanji]]
+char = "沙"
+readings = ["すな", "よなげる", "サ", "シャ"]
+meaning = { en = "sand (ご無沙汰)", ru = "песок (ご無沙汰)", uk = "пісок (ご無沙汰)" }
+
+[[kanji]]
+char = "油"
+readings = ["あぶら", "ユ", "ユウ"]
+meaning = { en = "oil", ru = "масло", uk = "олія" }
+
+[[kanji]]
+char = "泉"
+readings = ["いずみ", "セン"]
+meaning = { en = "spring (water)", ru = "родник", uk = "джерело" }
+
+[[kanji]]
+char = "泊"
+readings = ["と-まる", "と-める", "ハク"]
+meaning = { en = "stay overnight", ru = "ночевать", uk = "ночувати" }
+
+[[kanji]]
+char = "法"
+readings = ["のり", "ホウ", "ハッ"]
+meaning = { en = "law; method", ru = "закон; метод", uk = "закон; метод" }
+
+[[kanji]]
+char = "注"
+readings = ["そそ-ぐ", "さ-す", "チュウ"]
+meaning = { en = "pour; note; order (注文)", ru = "наливать; примечание; заказ (注文)", uk = "наливати; примітка; замовлення (注文)" }
+
+[[kanji]]
+char = "泳"
+readings = ["およ-ぐ", "エイ"]
+meaning = { en = "swim", ru = "плавать", uk = "плавати" }
+
+[[kanji]]
+char = "浅"
+readings = ["あさ-い", "セン"]
+meaning = { en = "shallow", ru = "мелкий", uk = "мілкий" }
+
+[[kanji]]
+char = "浴"
+readings = ["あ-びる", "あ-びせる", "ヨク"]
+meaning = { en = "bathe", ru = "купаться", uk = "купатися" }
+
+[[kanji]]
+char = "海"
+readings = ["うみ", "カイ"]
+meaning = { en = "sea", ru = "море", uk = "море" }
+
+[[kanji]]
+char = "清"
+readings = ["きよ-い", "きよ-まる", "セイ", "ショウ"]
+meaning = { en = "pure, clean", ru = "чистый", uk = "чистий" }
+
+[[kanji]]
+char = "渋"
+readings = ["しぶ", "しぶ-い", "ジュウ", "シュウ"]
+meaning = { en = "astringent; traffic jam (渋滞)", ru = "терпкий; пробка (渋滞)", uk = "терпкий; затор (渋滞)" }
+
+[[kanji]]
+char = "温"
+readings = ["あたた-か", "あたた-かい", "オン"]
+meaning = { en = "warm", ru = "тёплый", uk = "теплий" }
+
+[[kanji]]
+char = "湯"
+readings = ["ゆ", "トウ"]
+meaning = { en = "hot water", ru = "горячая вода", uk = "гаряча вода" }
+
+[[kanji]]
+char = "満"
+readings = ["み-ちる", "み-つ", "マン", "バン"]
+meaning = { en = "full", ru = "полный", uk = "повний" }
+
+[[kanji]]
+char = "源"
+readings = ["みなもと", "ゲン"]
+meaning = { en = "source", ru = "источник", uk = "джерело" }
+
+[[kanji]]
+char = "演"
+readings = ["エン"]
+meaning = { en = "perform", ru = "исполнять", uk = "виконувати" }
+
+[[kanji]]
+char = "漢"
+readings = ["カン"]
+meaning = { en = "China (漢字 kanji)", ru = "Китай (漢字 кандзи)", uk = "Китай (漢字 кандзі)" }
+
+[[kanji]]
+char = "漫"
+readings = ["みだり-に", "そぞ-ろ", "マン"]
+meaning = { en = "comic (漫画)", ru = "комикс (漫画)", uk = "комікс (漫画)" }
+
+[[kanji]]
+char = "漬"
+readings = ["つ-ける", "つ-かる", "シ"]
+meaning = { en = "pickle", ru = "мариновать", uk = "маринувати" }
+
+[[kanji]]
+char = "潔"
+readings = ["いさぎよ-い", "ケツ"]
+meaning = { en = "clean, pure", ru = "чистый, безупречный", uk = "чистий, бездоганний" }
+
+[[kanji]]
+char = "濃"
+readings = ["こ-い", "ノウ"]
+meaning = { en = "thick, strong (taste)", ru = "густой, крепкий", uk = "густий, міцний" }
+
+[[kanji]]
+char = "点"
+readings = ["つ-ける", "つ-く", "テン"]
+meaning = { en = "point, dot", ru = "точка", uk = "точка" }
+
+[[kanji]]
+char = "烏"
+readings = ["からす", "いずくんぞ", "ウ", "オ"]
+meaning = { en = "crow", ru = "ворона", uk = "ворона" }
+
+[[kanji]]
+char = "無"
+readings = ["な-い", "ム", "ブ"]
+meaning = { en = "nothing, without", ru = "ничто, без", uk = "ніщо, без" }
+
+[[kanji]]
+char = "焼"
+readings = ["や-く", "や-き", "ショウ"]
+meaning = { en = "grill, bake", ru = "жарить, печь", uk = "смажити, пекти" }
+
+[[kanji]]
+char = "熱"
+readings = ["あつ-い", "ネツ"]
+meaning = { en = "heat; fever", ru = "жар; температура", uk = "жар; температура" }
+
+[[kanji]]
+char = "燗"
+readings = ["かん-する", "ラン", "カン"]
+meaning = { en = "warm sake", ru = "подогретое сакэ", uk = "підігріте саке" }
+
+[[kanji]]
+char = "片"
+readings = ["かた", "ヘン"]
+meaning = { en = "one side; piece", ru = "одна сторона; кусок", uk = "один бік; шматок" }
+
+[[kanji]]
+char = "牡"
+readings = ["おす", "ボ", "ボウ"]
+meaning = { en = "male (牡蠣 oyster)", ru = "самец (牡蠣 устрица)", uk = "самець (牡蠣 устриця)" }
+
+[[kanji]]
+char = "猫"
+readings = ["ねこ", "ビョウ"]
+meaning = { en = "cat", ru = "кошка", uk = "кішка" }
+
+[[kanji]]
+char = "玄"
+readings = ["くろ", "くろ-い", "ゲン"]
+meaning = { en = "dark; entrance (玄関)", ru = "тёмный; прихожая (玄関)", uk = "темний; передпокій (玄関)" }
+
+[[kanji]]
+char = "玉"
+readings = ["たま", "ギョク"]
+meaning = { en = "ball; jewel", ru = "шар; драгоценность", uk = "куля; коштовність" }
+
+[[kanji]]
+char = "現"
+readings = ["あらわ-れる", "あらわ-す", "ゲン"]
+meaning = { en = "present, appear", ru = "настоящий, появляться", uk = "теперішній, з'являтися" }
+
+[[kanji]]
+char = "理"
+readings = ["ことわり", "リ"]
+meaning = { en = "reason, logic", ru = "причина, логика", uk = "причина, логіка" }
+
+[[kanji]]
+char = "瓶"
+readings = ["かめ", "ビン", "ヘイ"]
+meaning = { en = "bottle", ru = "бутылка", uk = "пляшка" }
+
+[[kanji]]
+char = "甘"
+readings = ["あま-い", "あま-える", "カン"]
+meaning = { en = "sweet", ru = "сладкий", uk = "солодкий" }
+
+[[kanji]]
+char = "由"
+readings = ["よし", "よ-る", "ユ", "ユウ"]
+meaning = { en = "reason; freedom (自由)", ru = "причина; свобода (自由)", uk = "причина; свобода (自由)" }
+
+[[kanji]]
+char = "甲"
+readings = ["きのえ", "コウ", "カン"]
+meaning = { en = "shell; first (in order)", ru = "панцирь; первый (по порядку)", uk = "панцир; перший (за порядком)" }
+
+[[kanji]]
+char = "男"
+readings = ["おとこ", "お", "ダン", "ナン"]
+meaning = { en = "man, male", ru = "мужчина", uk = "чоловік" }
+
+[[kanji]]
+char = "疲"
+readings = ["つか-れる", "つか-らす", "ヒ"]
+meaning = { en = "tired", ru = "усталый", uk = "втомлений" }
+
+[[kanji]]
+char = "痛"
+readings = ["いた-い", "いた-む", "ツウ"]
+meaning = { en = "pain", ru = "боль", uk = "біль" }
+
+[[kanji]]
+char = "白"
+readings = ["しろ", "しろ-い", "ハク", "ビャク"]
+meaning = { en = "white", ru = "белый", uk = "білий" }
+
+[[kanji]]
+char = "皿"
+readings = ["さら", "ベイ"]
+meaning = { en = "plate, dish", ru = "тарелка", uk = "тарілка" }
+
+[[kanji]]
+char = "盛"
+readings = ["も-る", "さか-る", "セイ", "ジョウ"]
+meaning = { en = "heap up; serve", ru = "насыпать горкой; накладывать", uk = "насипати; накладати" }
+
+[[kanji]]
+char = "相"
+readings = ["ソウ", "ショウ"]
+meaning = { en = "mutual; partner", ru = "взаимный; партнёр", uk = "взаємний; партнер" }
+
+[[kanji]]
+char = "着"
+readings = ["き-る", "き-せる", "チャク", "ジャク"]
+meaning = { en = "wear; arrive", ru = "надевать; прибывать", uk = "одягати; прибувати" }
+
+[[kanji]]
+char = "知"
+readings = ["し-る", "し-らせる", "チ"]
+meaning = { en = "know", ru = "знать", uk = "знати" }
+
+[[kanji]]
+char = "砂"
+readings = ["すな", "サ", "シャ"]
+meaning = { en = "sand", ru = "песок", uk = "пісок" }
+
+[[kanji]]
+char = "硬"
+readings = ["かた-い", "コウ"]
+meaning = { en = "hard", ru = "твёрдый", uk = "твердий" }
+
+[[kanji]]
+char = "確"
+readings = ["たし-か", "たし-かめる", "カク", "コウ"]
+meaning = { en = "certain; check", ru = "точный; проверять", uk = "певний; перевіряти" }
+
+[[kanji]]
+char = "示"
+readings = ["しめ-す", "ジ", "シ"]
+meaning = { en = "show", ru = "показывать", uk = "показувати" }
+
+[[kanji]]
+char = "票"
+readings = ["ヒョウ"]
+meaning = { en = "ticket; vote", ru = "билет; голос", uk = "квиток; голос" }
+
+[[kanji]]
+char = "禁"
+readings = ["キン"]
+meaning = { en = "forbid", ru = "запрещать", uk = "забороняти" }
+
+[[kanji]]
+char = "科"
+readings = ["カ"]
+meaning = { en = "department; course", ru = "отделение; курс", uk = "відділення; курс" }
+
+[[kanji]]
+char = "移"
+readings = ["うつ-る", "うつ-す", "イ"]
+meaning = { en = "move, shift", ru = "перемещать", uk = "переміщати" }
+
+[[kanji]]
+char = "税"
+readings = ["ゼイ"]
+meaning = { en = "tax", ru = "налог", uk = "податок" }
+
+[[kanji]]
+char = "稿"
+readings = ["わら", "したがき", "コウ"]
+meaning = { en = "draft, manuscript", ru = "черновик, рукопись", uk = "чернетка, рукопис" }
+
+[[kanji]]
+char = "穴"
+readings = ["あな", "ケツ"]
+meaning = { en = "hole", ru = "дыра", uk = "діра" }
+
+[[kanji]]
+char = "突"
+readings = ["つ-く", "トツ", "カ"]
+meaning = { en = "thrust; sudden", ru = "толкать; внезапный", uk = "штовхати; раптовий" }
+
+[[kanji]]
+char = "窓"
+readings = ["まど", "てんまど", "ソウ", "ス"]
+meaning = { en = "window", ru = "окно", uk = "вікно" }
+
+[[kanji]]
+char = "立"
+readings = ["た-つ", "た-てる", "リツ", "リュウ"]
+meaning = { en = "stand", ru = "стоять", uk = "стояти" }
+
+[[kanji]]
+char = "算"
+readings = ["そろ", "サン"]
+meaning = { en = "calculate", ru = "считать, вычислять", uk = "рахувати, обчислювати" }
+
+[[kanji]]
+char = "箱"
+readings = ["はこ", "ソウ"]
+meaning = { en = "box", ru = "коробка", uk = "коробка" }
+
+[[kanji]]
+char = "箸"
+readings = ["はし", "チョ", "チャク"]
+meaning = { en = "chopsticks", ru = "палочки для еды", uk = "палички для їжі" }
+
+[[kanji]]
+char = "節"
+readings = ["ふし", "のっと", "セツ", "セチ"]
+meaning = { en = "joint; season; section", ru = "сустав; сезон; раздел", uk = "суглоб; сезон; розділ" }
+
+[[kanji]]
+char = "米"
+readings = ["こめ", "よね", "ベイ", "マイ"]
+meaning = { en = "rice; America", ru = "рис; Америка", uk = "рис; Америка" }
+
+[[kanji]]
+char = "糖"
+readings = ["トウ"]
+meaning = { en = "sugar", ru = "сахар", uk = "цукор" }
+
+[[kanji]]
+char = "系"
+readings = ["ケイ"]
+meaning = { en = "system; lineage", ru = "система; род", uk = "система; рід" }
+
+[[kanji]]
+char = "約"
+readings = ["つづ-まる", "つづ-める", "ヤク"]
+meaning = { en = "promise; approximately", ru = "обещание; примерно", uk = "обіцянка; приблизно" }
+
+[[kanji]]
+char = "納"
+readings = ["おさ-める", "おさ-まる", "ノウ", "ナッ"]
+meaning = { en = "deliver; supply", ru = "поставлять; вносить", uk = "постачати; вносити" }
+
+[[kanji]]
+char = "素"
+readings = ["もと", "ソ", "ス"]
+meaning = { en = "element; plain", ru = "элемент; простой", uk = "елемент; простий" }
+
+[[kanji]]
+char = "結"
+readings = ["むす-ぶ", "ゆ-う", "ケツ", "ケチ"]
+meaning = { en = "tie; bind", ru = "связывать", uk = "зв'язувати" }
+
+[[kanji]]
+char = "締"
+readings = ["し-まる", "し-まり", "テイ"]
+meaning = { en = "tighten; close", ru = "затягивать; закрывать", uk = "затягувати; закривати" }
+
+[[kanji]]
+char = "練"
+readings = ["ね-る", "ね-り", "レン"]
+meaning = { en = "practise", ru = "тренироваться", uk = "тренуватися" }
+
+[[kanji]]
+char = "繰"
+readings = ["く-る", "ソウ"]
+meaning = { en = "reel; repeat (繰り返す)", ru = "наматывать; повторять (繰り返す)", uk = "намотувати; повторювати (繰り返す)" }
+
+[[kanji]]
+char = "羊"
+readings = ["ひつじ", "ヨウ"]
+meaning = { en = "sheep", ru = "овца", uk = "вівця" }
+
+[[kanji]]
+char = "翻"
+readings = ["ひるがえ-る", "ひるがえ-す", "ホン", "ハン"]
+meaning = { en = "flip; translate (翻訳)", ru = "переворачивать; переводить (翻訳)", uk = "перевертати; перекладати (翻訳)" }
+
+[[kanji]]
+char = "考"
+readings = ["かんが-える", "かんが-え", "コウ"]
+meaning = { en = "think", ru = "думать", uk = "думати" }
+
+[[kanji]]
+char = "聖"
+readings = ["ひじり", "セイ", "ショウ"]
+meaning = { en = "holy", ru = "святой", uk = "святий" }
+
+[[kanji]]
+char = "聴"
+readings = ["き-く", "ゆる-す", "チョウ", "テイ"]
+meaning = { en = "listen", ru = "слушать", uk = "слухати" }
+
+[[kanji]]
+char = "脱"
+readings = ["ぬ-ぐ", "ぬ-げる", "ダツ"]
+meaning = { en = "take off; escape", ru = "снимать; избегать", uk = "знімати; уникати" }
+
+[[kanji]]
+char = "腹"
+readings = ["はら", "フク"]
+meaning = { en = "belly", ru = "живот", uk = "живіт" }
+
+[[kanji]]
+char = "膳"
+readings = ["かしわ", "すす-める", "ゼン", "セン"]
+meaning = { en = "tray; set meal", ru = "поднос; комплексный обед", uk = "таця; комплексний обід" }
+
+[[kanji]]
+char = "舎"
+readings = ["やど-る", "シャ", "セキ"]
+meaning = { en = "building; countryside (田舎)", ru = "здание; деревня (田舎)", uk = "будівля; село (田舎)" }
+
+[[kanji]]
+char = "良"
+readings = ["よ-い", "い-い", "リョウ"]
+meaning = { en = "good", ru = "хороший", uk = "добрий" }
+
+[[kanji]]
+char = "色"
+readings = ["いろ", "ショク", "シキ"]
+meaning = { en = "colour", ru = "цвет", uk = "колір" }
+
+[[kanji]]
+char = "苦"
+readings = ["くる-しい", "くる-しむ", "ク"]
+meaning = { en = "bitter; suffering", ru = "горький; страдание", uk = "гіркий; страждання" }
+
+[[kanji]]
+char = "葉"
+readings = ["は", "ヨウ"]
+meaning = { en = "leaf", ru = "лист (дерева)", uk = "листок" }
+
+[[kanji]]
+char = "蒸"
+readings = ["む-す", "む-れる", "ジョウ", "セイ"]
+meaning = { en = "steam", ru = "пар; готовить на пару", uk = "пара; готувати на парі" }
+
+[[kanji]]
+char = "蔵"
+readings = ["くら", "おさ-める", "ゾウ", "ソウ"]
+meaning = { en = "storehouse", ru = "хранилище", uk = "сховище" }
+
+[[kanji]]
+char = "薄"
+readings = ["うす-い", "うす-める", "ハク"]
+meaning = { en = "thin; weak (taste)", ru = "тонкий; слабый (о вкусе)", uk = "тонкий; слабкий (про смак)" }
+
+[[kanji]]
+char = "薬"
+readings = ["くすり", "ヤク"]
+meaning = { en = "medicine", ru = "лекарство", uk = "ліки" }
+
+[[kanji]]
+char = "藤"
+readings = ["ふじ", "トウ", "ドウ"]
+meaning = { en = "wisteria (佐藤 Satō)", ru = "глициния (佐藤 Сато)", uk = "гліцинія (佐藤 Сато)" }
+
+[[kanji]]
+char = "虫"
+readings = ["むし", "チュウ", "キ"]
+meaning = { en = "insect", ru = "насекомое", uk = "комаха" }
+
+[[kanji]]
+char = "融"
+readings = ["と-ける", "と-かす", "ユウ"]
+meaning = { en = "melt; dissolve", ru = "таять; растворяться", uk = "танути; розчинятися" }
+
+[[kanji]]
+char = "蠣"
+readings = ["かき", "レイ"]
+meaning = { en = "oyster (牡蠣)", ru = "устрица (牡蠣)", uk = "устриця (牡蠣)" }
+
+[[kanji]]
+char = "衣"
+readings = ["ころも", "きぬ", "イ", "エ"]
+meaning = { en = "clothing", ru = "одежда", uk = "одяг" }
+
+[[kanji]]
+char = "表"
+readings = ["おもて", "あらわ-す", "ヒョウ"]
+meaning = { en = "surface; table; express", ru = "поверхность; таблица; выражать", uk = "поверхня; таблиця; виражати" }
+
+[[kanji]]
+char = "要"
+readings = ["い-る", "かなめ", "ヨウ"]
+meaning = { en = "need; main point", ru = "нужно; суть", uk = "потрібно; суть" }
+
+[[kanji]]
+char = "観"
+readings = ["み-る", "しめ-す", "カン"]
+meaning = { en = "view, see", ru = "вид, смотреть", uk = "вигляд, дивитися" }
+
+[[kanji]]
+char = "角"
+readings = ["かど", "つの", "カク"]
+meaning = { en = "corner; angle", ru = "угол", uk = "кут" }
+
+[[kanji]]
+char = "解"
+readings = ["と-く", "と-かす", "カイ", "ゲ"]
+meaning = { en = "untie; solve", ru = "развязывать; решать", uk = "розв'язувати; вирішувати" }
+
+[[kanji]]
+char = "触"
+readings = ["ふ-れる", "さわ-る", "ショク"]
+meaning = { en = "touch", ru = "трогать", uk = "торкатися" }
+
+[[kanji]]
+char = "言"
+readings = ["い-う", "こと", "ゲン", "ゴン"]
+meaning = { en = "say; word", ru = "говорить; слово", uk = "казати; слово" }
+
+[[kanji]]
+char = "記"
+readings = ["しる-す", "キ"]
+meaning = { en = "record, write down", ru = "записывать", uk = "записувати" }
+
+[[kanji]]
+char = "設"
+readings = ["もう-ける", "セツ"]
+meaning = { en = "establish, set up", ru = "устанавливать", uk = "встановлювати" }
+
+[[kanji]]
+char = "証"
+readings = ["あかし", "ショウ"]
+meaning = { en = "proof, certificate", ru = "доказательство, свидетельство", uk = "доказ, свідоцтво" }
+
+[[kanji]]
+char = "試"
+readings = ["こころ-みる", "ため-す", "シ"]
+meaning = { en = "try, test", ru = "пробовать, испытание", uk = "пробувати, випробування" }
+
+[[kanji]]
+char = "認"
+readings = ["みと-める", "したた-める", "ニン"]
+meaning = { en = "recognise, approve", ru = "признавать, одобрять", uk = "визнавати, схвалювати" }
+
+[[kanji]]
+char = "説"
+readings = ["と-く", "セツ", "ゼイ"]
+meaning = { en = "explain; theory", ru = "объяснять; теория", uk = "пояснювати; теорія" }
+
+[[kanji]]
+char = "課"
+readings = ["カ"]
+meaning = { en = "lesson; section", ru = "урок; отдел", uk = "урок; відділ" }
+
+[[kanji]]
+char = "謙"
+readings = ["へりくだ-る", "ケン"]
+meaning = { en = "humble", ru = "скромный", uk = "скромний" }
+
+[[kanji]]
+char = "譲"
+readings = ["ゆず-る", "ジョウ"]
+meaning = { en = "yield, hand over", ru = "уступать, передавать", uk = "поступатися, передавати" }
+
+[[kanji]]
+char = "谷"
+readings = ["たに", "きわ-まる", "コク"]
+meaning = { en = "valley", ru = "долина", uk = "долина" }
+
+[[kanji]]
+char = "豆"
+readings = ["まめ", "トウ", "ズ"]
+meaning = { en = "bean", ru = "боб", uk = "біб" }
+
+[[kanji]]
+char = "豚"
+readings = ["ぶた", "トン"]
+meaning = { en = "pig, pork", ru = "свинья, свинина", uk = "свиня, свинина" }
+
+[[kanji]]
+char = "貝"
+readings = ["かい", "バイ"]
+meaning = { en = "shellfish", ru = "моллюск, ракушка", uk = "молюск, черепашка" }
+
+[[kanji]]
+char = "販"
+readings = ["ハン"]
+meaning = { en = "sell", ru = "продавать", uk = "продавати" }
+
+[[kanji]]
+char = "費"
+readings = ["つい-やす", "つい-える", "ヒ"]
+meaning = { en = "expense", ru = "расход", uk = "витрата" }
+
+[[kanji]]
+char = "賞"
+readings = ["ほ-める", "ショウ"]
+meaning = { en = "prize", ru = "приз", uk = "приз" }
+
+[[kanji]]
+char = "赤"
+readings = ["あか", "あか-い", "セキ", "シャク"]
+meaning = { en = "red", ru = "красный", uk = "червоний" }
+
+[[kanji]]
+char = "趣"
+readings = ["おもむき", "おもむ-く", "シュ"]
+meaning = { en = "interest; hobby (趣味)", ru = "интерес; хобби (趣味)", uk = "інтерес; хобі (趣味)" }
+
+[[kanji]]
+char = "路"
+readings = ["みち", "ロ", "ル"]
+meaning = { en = "road", ru = "дорога", uk = "дорога" }
+
+[[kanji]]
+char = "身"
+readings = ["み", "シン"]
+meaning = { en = "body; oneself", ru = "тело; сам", uk = "тіло; сам" }
+
+[[kanji]]
+char = "軒"
+readings = ["のき", "ケン"]
+meaning = { en = "counter for buildings; eaves", ru = "счётное для домов; карниз", uk = "лічильне для будинків; карниз" }
+
+[[kanji]]
+char = "軽"
+readings = ["かる-い", "かろ-やか", "ケイ", "キョウ"]
+meaning = { en = "light (not heavy)", ru = "лёгкий (не тяжёлый)", uk = "легкий (не важкий)" }
+
+[[kanji]]
+char = "辛"
+readings = ["から-い", "つら-い", "シン"]
+meaning = { en = "spicy; hard", ru = "острый; тяжёлый", uk = "гострий; важкий" }
+
+[[kanji]]
+char = "辺"
+readings = ["あた-り", "ほと-り", "ヘン"]
+meaning = { en = "area, vicinity", ru = "окрестность", uk = "околиця" }
+
+[[kanji]]
+char = "込"
+readings = ["こ-む", "こ-み"]
+meaning = { en = "crowded; put in", ru = "переполненный; вкладывать", uk = "переповнений; вкладати" }
+
+[[kanji]]
+char = "近"
+readings = ["ちか-い", "キン", "コン"]
+meaning = { en = "near", ru = "близкий", uk = "близький" }
+
+[[kanji]]
+char = "返"
+readings = ["かえ-す", "かえ-る", "ヘン"]
+meaning = { en = "return", ru = "возвращать", uk = "повертати" }
+
+[[kanji]]
+char = "迷"
+readings = ["まよ-う", "メイ"]
+meaning = { en = "be lost; hesitate", ru = "заблудиться; колебаться", uk = "заблукати; вагатися" }
+
+[[kanji]]
+char = "途"
+readings = ["みち", "ト"]
+meaning = { en = "way, route", ru = "путь", uk = "шлях" }
+
+[[kanji]]
+char = "速"
+readings = ["はや-い", "はや-める", "ソク"]
+meaning = { en = "fast", ru = "быстрый", uk = "швидкий" }
+
+[[kanji]]
+char = "遅"
+readings = ["おく-れる", "おく-らす", "チ"]
+meaning = { en = "late; slow", ru = "поздний; медленный", uk = "пізній; повільний" }
+
+[[kanji]]
+char = "運"
+readings = ["はこ-ぶ", "ウン"]
+meaning = { en = "carry; luck", ru = "нести; удача", uk = "нести; удача" }
+
+[[kanji]]
+char = "過"
+readings = ["す-ぎる", "す-ごす", "カ"]
+meaning = { en = "pass; exceed", ru = "проходить; превышать", uk = "минати; перевищувати" }
+
+[[kanji]]
+char = "道"
+readings = ["みち", "いう", "ドウ", "トウ"]
+meaning = { en = "road, way", ru = "дорога, путь", uk = "дорога, шлях" }
+
+[[kanji]]
+char = "遠"
+readings = ["とお-い", "エン", "オン"]
+meaning = { en = "far", ru = "далёкий", uk = "далекий" }
+
+[[kanji]]
+char = "選"
+readings = ["えら-ぶ", "え-る", "セン"]
+meaning = { en = "choose", ru = "выбирать", uk = "вибирати" }
+
+[[kanji]]
+char = "邪"
+readings = ["よこし-ま", "ジャ"]
+meaning = { en = "wrong; evil (お邪魔 bother)", ru = "дурной; зло (お邪魔 помеха)", uk = "лихий; зло (お邪魔 завада)" }
+
+[[kanji]]
+char = "都"
+readings = ["みやこ", "ト", "ツ"]
+meaning = { en = "capital; city", ru = "столица; город", uk = "столиця; місто" }
+
+[[kanji]]
+char = "配"
+readings = ["くば-る", "ハイ"]
+meaning = { en = "distribute; worry (心配)", ru = "распределять; волноваться (心配)", uk = "розподіляти; хвилюватися (心配)" }
+
+[[kanji]]
+char = "量"
+readings = ["はか-る", "リョウ"]
+meaning = { en = "quantity", ru = "количество", uk = "кількість" }
+
+[[kanji]]
+char = "鎌"
+readings = ["かま", "レン", "ケン"]
+meaning = { en = "sickle (鎌倉 Kamakura)", ru = "серп (鎌倉 Камакура)", uk = "серп (鎌倉 Камакура)" }
+
+[[kanji]]
+char = "長"
+readings = ["なが-い", "おさ", "チョウ"]
+meaning = { en = "long; chief", ru = "длинный; глава", uk = "довгий; голова" }
+
+[[kanji]]
+char = "閉"
+readings = ["と-じる", "と-ざす", "ヘイ"]
+meaning = { en = "close, shut", ru = "закрывать", uk = "закривати" }
+
+[[kanji]]
+char = "開"
+readings = ["ひら-く", "ひら-き", "カイ"]
+meaning = { en = "open", ru = "открывать", uk = "відкривати" }
+
+[[kanji]]
+char = "関"
+readings = ["せき", "かか-わる", "カン"]
+meaning = { en = "barrier; relation", ru = "застава; связь", uk = "застава; зв'язок" }
+
+[[kanji]]
+char = "降"
+readings = ["お-りる", "お-ろす", "コウ", "ゴ"]
+meaning = { en = "descend; get off; fall (rain)", ru = "спускаться; выходить; идти (о дожде)", uk = "спускатися; виходити; падати (про дощ)" }
+
+[[kanji]]
+char = "限"
+readings = ["かぎ-る", "かぎ-り", "ゲン"]
+meaning = { en = "limit", ru = "предел", uk = "межа" }
+
+[[kanji]]
+char = "隣"
+readings = ["とな-る", "となり", "リン"]
+meaning = { en = "next door, neighbour", ru = "соседний, сосед", uk = "сусідній, сусід" }
+
+[[kanji]]
+char = "雀"
+readings = ["すずめ", "ジャク", "ジャン"]
+meaning = { en = "sparrow (麻雀 mahjong)", ru = "воробей (麻雀 маджонг)", uk = "горобець (麻雀 маджонг)" }
+
+[[kanji]]
+char = "雨"
+readings = ["あめ", "ウ"]
+meaning = { en = "rain", ru = "дождь", uk = "дощ" }
+
+[[kanji]]
+char = "面"
+readings = ["おも", "おもて", "メン", "ベン"]
+meaning = { en = "face; surface", ru = "лицо; поверхность", uk = "обличчя; поверхня" }
+
+[[kanji]]
+char = "韓"
+readings = ["から", "いげた", "カン"]
+meaning = { en = "Korea", ru = "Корея", uk = "Корея" }
+
+[[kanji]]
+char = "音"
+readings = ["おと", "ね", "オン", "イン"]
+meaning = { en = "sound", ru = "звук", uk = "звук" }
+
+[[kanji]]
+char = "頂"
+readings = ["いただ-く", "いただき", "チョウ"]
+meaning = { en = "top; receive (humble)", ru = "вершина; получать (скромно)", uk = "вершина; отримувати (скромно)" }
+
+[[kanji]]
+char = "順"
+readings = ["ジュン"]
+meaning = { en = "order, turn", ru = "порядок, очередь", uk = "порядок, черга" }
+
+[[kanji]]
+char = "預"
+readings = ["あず-ける", "あず-かる", "ヨ"]
+meaning = { en = "deposit, leave with", ru = "сдавать на хранение", uk = "здавати на зберігання" }
+
+[[kanji]]
+char = "頑"
+readings = ["かたく-な", "ガン"]
+meaning = { en = "stubborn (頑張る do one's best)", ru = "упорный (頑張る стараться)", uk = "упертий (頑張る старатися)" }
+
+[[kanji]]
+char = "領"
+readings = ["えり", "リョウ"]
+meaning = { en = "territory; receipt (領収書)", ru = "территория; квитанция (領収書)", uk = "територія; квитанція (領収書)" }
+
+[[kanji]]
+char = "額"
+readings = ["ひたい", "ガク"]
+meaning = { en = "forehead; amount", ru = "лоб; сумма", uk = "лоб; сума" }
+
+[[kanji]]
+char = "類"
+readings = ["たぐ-い", "ルイ"]
+meaning = { en = "kind, sort", ru = "вид, род", uk = "вид, рід" }
+
+[[kanji]]
+char = "風"
+readings = ["かぜ", "フウ", "フ"]
+meaning = { en = "wind; style; bath (風呂)", ru = "ветер; стиль; ванна (風呂)", uk = "вітер; стиль; ванна (風呂)" }
+
+[[kanji]]
+char = "飼"
+readings = ["か-う", "シ"]
+meaning = { en = "keep (an animal)", ru = "держать (животное)", uk = "тримати (тварину)" }
+
+[[kanji]]
+char = "魔"
+readings = ["マ"]
+meaning = { en = "demon (お邪魔 bother)", ru = "демон (お邪魔 помеха)", uk = "демон (お邪魔 завада)" }
+
+[[kanji]]
+char = "鮭"
+readings = ["さけ", "しゃけ", "カイ", "ケイ"]
+meaning = { en = "salmon", ru = "лосось", uk = "лосось" }
+
+[[kanji]]
+char = "鯖"
+readings = ["さば", "セイ", "ショウ"]
+meaning = { en = "mackerel", ru = "скумбрия", uk = "скумбрія" }
+
+[[kanji]]
+char = "鯛"
+readings = ["たい", "チョウ"]
+meaning = { en = "sea bream", ru = "морской лещ", uk = "морський лящ" }
+
+[[kanji]]
+char = "鯵"
+readings = ["あじ", "ソウ"]
+meaning = { en = "horse mackerel", ru = "ставрида", uk = "ставрида" }
+
+[[kanji]]
+char = "鰯"
+readings = ["いわし"]
+meaning = { en = "sardine", ru = "сардина", uk = "сардина" }
+
+[[kanji]]
+char = "鰹"
+readings = ["かつお", "ケン"]
+meaning = { en = "bonito", ru = "тунец-бонито", uk = "тунець-боніто" }
+
+[[kanji]]
+char = "鰻"
+readings = ["うなぎ", "マン", "バン"]
+meaning = { en = "eel", ru = "угорь", uk = "вугор" }
+
+[[kanji]]
+char = "鳥"
+readings = ["とり", "チョウ"]
+meaning = { en = "bird", ru = "птица", uk = "птах" }
+
+[[kanji]]
+char = "鶏"
+readings = ["にわとり", "とり", "ケイ"]
+meaning = { en = "chicken", ru = "курица", uk = "курка" }
+
+[[kanji]]
+char = "麦"
+readings = ["むぎ", "バク"]
+meaning = { en = "wheat, barley", ru = "пшеница, ячмень", uk = "пшениця, ячмінь" }
+
+[[kanji]]
+char = "麺"
+readings = ["むぎこ", "メン", "ベン"]
+meaning = { en = "noodles", ru = "лапша", uk = "локшина" }
+
+[[kanji]]
+char = "麻"
+readings = ["あさ", "マ", "マア"]
+meaning = { en = "hemp (麻雀 mahjong)", ru = "конопля (麻雀 маджонг)", uk = "коноплі (麻雀 маджонг)" }
+
+[[kanji]]
+char = "齢"
+readings = ["よわい", "とし", "レイ"]
+meaning = { en = "age", ru = "возраст", uk = "вік" }
+
+[[kanji]]
+char = "龍"
+readings = ["たつ", "リュウ", "リョウ"]
+meaning = { en = "dragon", ru = "дракон", uk = "дракон" }
+
+[[kanji]]
+char = "滞"
+readings = ["とどこお-る", "タイ"]
+meaning = { en = "stay; be delayed (渋滞 traffic jam)", ru = "задерживаться (渋滞 пробка)", uk = "затримуватися (渋滞 затор)" }

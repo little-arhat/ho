@@ -14,7 +14,7 @@ from __future__ import annotations
 import re
 import tomllib
 import unicodedata
-from collections.abc import Iterable
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -266,12 +266,12 @@ def kanji_sets(cards: Iterable[Card], lessons: Iterable[Lesson]) -> dict[str, li
     return sets
 
 
-def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...]) -> dict[str, Any]:
+def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], clip: Callable[[str], str]) -> dict[str, Any]:
     items = drill_items(cards, lessons)
     return {
         "words": [
             {"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
-             "say": speech(it.ja),
+             "say": speech(it.ja), "clip": clip(it.ja),
              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "src": it.source,
              "am": meaning_answers(it.tr), "ar": reading_answers(it.reading),
              "dr": distractors(items, i, "reading"), "dw": distractors(items, i, "written")}

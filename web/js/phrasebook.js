@@ -77,7 +77,7 @@ const CHEVRON = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fi
 const ro = (s) => (s ? `<div class="rol">${esc(s)}</div>` : "");
 
 function lines(list) {
-  return `<div class="ans">${list.map((a) => `<div><div class="jps" lang="ja">${ruby(a.ja)}${sayButton(a.say)}</div>${ro(a.ro)}${translations(a)}</div>`).join("")}</div>`;
+  return `<div class="ans">${list.map((a) => `<div><div class="jps" lang="ja">${ruby(a.ja)}${sayButton(a.say, a.clip)}</div>${ro(a.ro)}${translations(a)}</div>`).join("")}</div>`;
 }
 
 function verbTable(v) {
@@ -107,7 +107,7 @@ function card(p) {
   const label = p.kind === "say" ? "言う · you say" : "聞く · you hear";
   return `<div class="card ${p.kind} tc" style="${colorStyle(t)}" tabindex="0" data-id="${p.id}">${CHEVRON}`
     + `<div class="kind ${p.kind}">${label}${p.level ? `<span class="lv">${esc(p.level)}</span>` : ""}</div>`
-    + `<div class="jpl" lang="ja">${ruby(p.ja)}${sayButton(p.say)}</div>${ro(p.ro)}`
+    + `<div class="jpl" lang="ja">${ruby(p.ja)}${sayButton(p.say, p.clip)}</div>${ro(p.ro)}`
     + (p.casual.length ? `<div class="cas-inline" lang="ja">${ruby(p.casual)}</div><div class="rol cas-ro">${esc(p.casual_ro)}</div>` : "")
     + translations(p) + `<div class="more"></div></div>`;
 }

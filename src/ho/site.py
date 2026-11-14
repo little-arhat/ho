@@ -11,7 +11,7 @@ from typing import Any
 import jinja2
 from markupsafe import Markup, escape
 
-from ho import furigana, kanji, katakana, lessons, phrasebook, reading, romaji
+from ho import audio, furigana, kanji, katakana, lessons, phrasebook, reading, romaji
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
@@ -27,6 +27,8 @@ class Content:
     kanji: tuple[Card, ...]
     strokes: dict[str, tuple[str, ...]]  # KanjiVG stroke paths for every card
     readings: tuple[Reading, ...]
+    clips: frozenset[str]  # recorded lines (audio.key) found in audio_dir
+    audio_dir: Path
 
 
 @dataclass(frozen=True)
@@ -79,7 +81,7 @@ def pages(content: Content) -> tuple[Page, ...]:
         Page("index.html", "home.html", "Home", "home"),
         Page("lessons/index.html", "lessons.html", "Lessons", "lessons", {"lessons": content.lessons}),
         Page("phrasebook/index.html", "phrasebook.html", "Phrase book", "phrasebook",
-             data=phrasebook.view(content.phrasebook)),
+             data=phrasebook.view(content.phrasebook, clip_of(content))),
         Page("katakana/index.html", "katakana.html", "Katakana drill", "katakana",
              data=katakana.view(content.katakana)),
     ]
@@ -111,7 +113,35 @@ def _reading_pages(content: Content) -> list[Page]:
 
 def assets(content: Content) -> dict[str, Path]:
     """Files copied into the site as they are: published path → source."""
-    return {f"reading/{r.id}.jpg": r.image for r in content.readings if r.image is not None}
+    pictures = {f"reading/{r.id}.jpg": r.image for r in content.readings if r.image is not None}
+    used = {audio.key(t) for t in spoken_texts(content)} & content.clips
+    return pictures | {f"audio/{k}.m4a": content.audio_dir / f"{k}.m4a" for k in sorted(used)}
+
+
+def spoken_texts(content: Content) -> list[str]:
+    """Every Japanese line the site has a listen button for (furigana notation)."""
+    out: list[str] = []
+    for lesson in content.lessons:
+        out += [x.ja for r in lesson.rules for x in r.examples]
+        for w in lesson.vocab:
+            out.append(w.furigana)
+            if w.example:
+                out.append(w.example.ja)
+    for card in content.kanji:
+        out += [x for w in card.words for x in (w.ja, w.example.ja)]
+    for r in content.readings:
+        out += ["".join(t.ja for t in p.tokens) for p in r.paragraphs]
+    for p in content.phrasebook.phrases:
+        out += [p.ja, *(a.ja for a in p.answers + p.examples)]
+    return list(dict.fromkeys(t for t in out if t))
+
+
+def clip_of(content: Content):
+    """The recorded clip for a line, or "" when there is none (the page uses the device voice)."""
+    def clip(text: str) -> str:
+        k = audio.key(text)
+        return k if k in content.clips else ""
+    return clip
 
 
 def card_path(card: Card) -> str:
@@ -127,11 +157,13 @@ def _kanji_pages(content: Content) -> list[Page]:
         "lessons": [lesson.number for lesson in content.lessons],
         "book": [c for c in cards if c.number is not None],
         "by_lesson": [(n, [c for c in cards if c.number is None and first_lesson.get(c.char) == n])
-                      for n in sorted({first_lesson[c.char] for c in cards if c.number is None})],
+                      for n in sorted({first_lesson[c.char] for c in cards
+                                       if c.number is None and c.char in first_lesson})],
+        "elsewhere": [c for c in cards if c.number is None and c.char not in first_lesson],
     })
     drill = Page("kanji/drill/index.html", "kanji_drill.html", "Kanji drill", "kanji",
                  {"lessons": [lesson.number for lesson in content.lessons]},
-                 data=kanji.drill_view(cards, content.lessons))
+                 data=kanji.drill_view(cards, content.lessons, clip_of(content)))
     out = [index, drill]
     for i, card in enumerate(cards):
         out.append(Page(card_path(card), "kanji_card.html", f"{card.char} · kanji", "kanji", {
@@ -154,6 +186,7 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["ruby"] = ruby
     env.filters["hex"] = lambda c: f"{ord(c):x}"
     env.filters["speech"] = romaji.speech
+    env.filters["clip"] = clip_of(content)
     env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,

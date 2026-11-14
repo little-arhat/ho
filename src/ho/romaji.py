@@ -19,8 +19,8 @@ import fugashi
 from ho import furigana
 from ho.kana import kata_to_hira, romaji
 
-_PARTICLE_SOUND = {"は": "wa", "へ": "e", "を": "o"}
-_SPOKEN_KANA = {"は": "わ", "へ": "え", "を": "を"}
+_HEARD = {("は", "わ"), ("へ", "え")}  # spelt / said: the topic and direction particles, こんにちは
+_LONG_MARK = set("あいうえお")  # MeCab writes a long vowel as ー where we write the vowel
 _PUNCT = {"。": ".", "、": ",", "？": "?", "！": "!", "…": "…", "・": "/", "～": "~", "「": "\"", "」": "\"", "（": "(", "）": ")"}
 _PUNCT_POS = {"補助記号", "空白"}
 _KANJI = re.compile(f"[{furigana.KANJI}]")
@@ -56,8 +56,8 @@ def _units(text: str) -> tuple[str, tuple[_Unit, ...]]:
 class _Word:
     start: int
     end: int
-    particle: bool  # は, へ or を, read as wa, e, o
     function: bool  # a particle or です-like auxiliary: it ends the phrase it follows
+    pron: str = ""  # MeCab's pronunciation of the word, in hiragana ("" if unknown)
     before: str = ""
     after: str = ""
 
@@ -136,20 +136,38 @@ def _words(text: str) -> tuple[str, tuple[_Unit, ...], list[_Word]]:
             prev = None
             continue
         last = words[-1] if words else None
+        pron = kata_to_hira(f.pron or "") if f.pron and f.pron != "*" else ""
         if last and last.end == t.start and not last.after and (
                 t.start not in boundaries or (prev is not None and _joins_previous(t.node, prev))):
             last.end = t.end
-            last.particle = False
+            last.pron = last.pron + pron if last.pron and pron else ""
         else:
-            words.append(_Word(t.start, t.end, f.pos1 == "助詞" and t.node.surface in _PARTICLE_SOUND,
-                               f.pos1 in ("助詞", "助動詞"), before=opening))
+            words.append(_Word(t.start, t.end, f.pos1 in ("助詞", "助動詞"), pron, before=opening))
             opening = ""
         prev = t.node
     return plain, units, words
 
 
+def _spoken(kana: str, pron: str) -> str:
+    """Our kana with は/へ turned into わ/え where MeCab hears them so (先生は, こんにちは),
+    trusted only when its pronunciation otherwise says exactly our kana."""
+    if len(kana) != len(pron):
+        return kana
+    out = []
+    for ours, heard in zip(kana, pron, strict=True):
+        o = kata_to_hira(ours)
+        if (o, heard) in _HEARD:
+            out.append(heard)
+        elif o == heard or (heard == "ー" and o in _LONG_MARK) or (o == "を" and heard == "お"):
+            out.append(ours)
+        else:
+            return kana
+    return "".join(out)
+
+
 def _kana(units: tuple[_Unit, ...], w: _Word) -> str:
-    return "".join(u.kana for u in units if w.start <= u.start < w.end)
+    """The word as it is said, in our kana (katakana words stay katakana)."""
+    return _spoken("".join(u.kana for u in units if w.start <= u.start < w.end), w.pron)
 
 
 def _marks(text: str) -> str:
@@ -161,7 +179,7 @@ def romanize(text: str) -> str:
     plain, units, words = _words(text)
     out = []
     for w in words:
-        sound = _PARTICLE_SOUND[plain[w.start:w.end]] if w.particle else romaji(_kana(units, w))
+        sound = romaji(_kana(units, w))
         out.append(_marks(w.before) + unicodedata.normalize("NFKC", sound) + _marks(w.after))
     return " ".join(out)
 
@@ -174,7 +192,7 @@ def speech(text: str) -> str:
     plain, units, words = _words(text)
     phrases: list[str] = []
     for w in words:
-        sound = _SPOKEN_KANA[plain[w.start:w.end]] if w.particle else _kana(units, w)
+        sound = _kana(units, w)
         piece = w.before + sound + w.after
         if phrases and w.function and not w.before:
             phrases[-1] += piece

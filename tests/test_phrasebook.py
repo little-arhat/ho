@@ -9,7 +9,7 @@ from ho.verbs import load_verbs
 CONTENT = Path(__file__).parent.parent / "content"
 VERBS = load_verbs(CONTENT / "verbs.toml")
 PB = phrasebook.load(CONTENT / "phrasebook.toml", VERBS)
-VIEW = phrasebook.view(PB)
+VIEW = phrasebook.view(PB, lambda text: "")
 
 
 def find(ja):

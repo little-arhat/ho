@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 MARKER = ".nojekyll"
 
 
-def load_content(content_dir: Path, ref_path: Path) -> Content:
+def load_content(content_dir: Path, ref_path: Path, audio_dir: Path) -> Content:
     verbs = load_verbs(content_dir / "verbs.toml")
     lesson_list = lessons.load_lessons(content_dir / "lessons")
     cards = kanji.load_cards(content_dir / "kanji")
@@ -30,6 +30,8 @@ def load_content(content_dir: Path, ref_path: Path) -> Content:
         kanji=cards,
         strokes={c.char: ref[c.char].strokes for c in cards},
         readings=reading.load_readings(content_dir / "reading", lesson_list),
+        clips=frozenset(p.stem for p in audio_dir.glob("*.m4a")),
+        audio_dir=audio_dir,
     )
 
 
@@ -59,7 +61,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out", type=Path, default=ROOT / "_site")
     args = parser.parse_args(argv)
     try:
-        content = load_content(ROOT / "content", ROOT / "ref" / "kanji.json")
+        content = load_content(ROOT / "content", ROOT / "ref" / "kanji.json", ROOT / "audio")
     except ContentError as e:
         print(f"content error: {e}", file=sys.stderr)
         return 1
