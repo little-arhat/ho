@@ -282,3 +282,49 @@ def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], clip: Calla
             for c in cards],
         "sets": kanji_sets(cards, lessons),
     }
+
+
+def example_lines(cards: Iterable[Card], lessons: Iterable[Lesson]) -> tuple[Line, ...]:
+    """Every translated Japanese sentence the site teaches with: lesson rule and
+    vocabulary examples, and the kanji cards' example sentences."""
+    out: dict[str, Line] = {}
+    for lesson in lessons:
+        for line_ in [x for r in lesson.rules for x in r.examples] + [w.example for w in lesson.vocab if w.example]:
+            out.setdefault(line_.ja, line_)
+    for card in cards:
+        for w in card.words:
+            out.setdefault(w.example.ja, w.example)
+    return tuple(out.values())
+
+
+def cloze(sentence: str, char: str) -> list[list[str]] | None:
+    """A sentence with the one ruby run holding `char` turned into the blank to
+    write: [[text], [base, reading], [answer, reading, "?"]]. None when the
+    character is not in exactly one ruby run (unreadable, or ambiguous)."""
+    segs = furigana.parse(sentence)
+    hits = [i for i, s in enumerate(segs) if s.ruby is not None and char in s.text]
+    if len(hits) != 1:
+        return None
+    return [[s.text, s.ruby, "?"] if i == hits[0] else ([s.text] if s.ruby is None else [s.text, s.ruby])
+            for i, s in enumerate(segs)]
+
+
+def write_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], sentences_per_kanji: int = 4) -> dict[str, Any]:
+    """The handwriting drill: per kanji its meaning, readings and a few sentences
+    with it blanked; words to write whole. Stroke order is fetched per kanji."""
+    lines = example_lines(cards, lessons)
+    kanji_rows = []
+    for c in cards:
+        sents = []
+        for line_ in lines:
+            blanked = cloze(line_.ja, c.char)
+            if blanked is not None:
+                sents.append({"s": blanked, "en": line_.tr.en, "ru": line_.tr.ru, "uk": line_.tr.uk})
+            if len(sents) == sentences_per_kanji:
+                break
+        kanji_rows.append({"c": c.char, "no": c.number, "rd": [r.kana for r in c.readings if not r.secondary][:3],
+                           "en": c.meaning.en, "ru": c.meaning.ru, "uk": c.meaning.uk, "sents": sents})
+    words = [{"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
+              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk}
+             for it in drill_items(cards, lessons)]
+    return {"kanji": kanji_rows, "words": words, "sets": kanji_sets(cards, lessons)}

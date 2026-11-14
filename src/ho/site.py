@@ -164,7 +164,10 @@ def _kanji_pages(content: Content) -> list[Page]:
     drill = Page("kanji/drill/index.html", "kanji_drill.html", "Kanji drill", "kanji",
                  {"lessons": [lesson.number for lesson in content.lessons]},
                  data=kanji.drill_view(cards, content.lessons, clip_of(content)))
-    out = [index, drill]
+    write = Page("kanji/write/index.html", "kanji_write.html", "Kanji writing", "kanji",
+                 {"lessons": [lesson.number for lesson in content.lessons]},
+                 data=kanji.write_view(cards, content.lessons))
+    out = [index, drill, write]
     for i, card in enumerate(cards):
         out.append(Page(card_path(card), "kanji_card.html", f"{card.char} · kanji", "kanji", {
             "card": card,
@@ -191,4 +194,10 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,
         data=embed_json(p.data) if p.data is not None else None, **p.context)
-    return {p.path: render(p) for p in pages(content)}
+    return {p.path: render(p) for p in pages(content)} | data_files(content)
+
+
+def data_files(content: Content) -> dict[str, str]:
+    """JSON a page fetches on demand: each card's stroke paths, for the writing drill."""
+    return {f"kanji/{ord(c.char):x}/strokes.json": json.dumps(content.strokes[c.char], separators=(",", ":"))
+            for c in content.kanji}

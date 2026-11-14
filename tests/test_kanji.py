@@ -124,3 +124,21 @@ def test_meaning_answers():
 
 def test_reading_answers():
     assert set(kanji.reading_answers("きんようび")) == {"きんようび", "kinyoubi"}
+
+
+def test_cloze_blanks_the_run_holding_the_kanji():
+    assert kanji.cloze("学[がく]生[せい]です。", "生") == [["学", "がく"], ["生", "せい", "?"], ["です。"]]
+
+
+def test_cloze_skips_sentences_where_the_kanji_is_not_once_in_ruby():
+    assert kanji.cloze("日[に]本[ほん]の日[ひ]", "日") is None  # twice: which one?
+    assert kanji.cloze("です。", "日") is None
+
+
+def test_write_view_has_sentences_and_words():
+    from ho.lessons import load_lessons
+    cards = kanji.load_cards(ROOT / "content/kanji")
+    v = kanji.write_view(cards, load_lessons(ROOT / "content/lessons"))
+    sei = next(k for k in v["kanji"] if k["c"] == "生")
+    assert sei["sents"] and all(sum(1 for x in s["s"] if len(x) == 3) == 1 for s in sei["sents"])
+    assert any(w["w"] == "学生" for w in v["words"])

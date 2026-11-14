@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block main %}
+<nav class="lesson-nav"><a href="../">All kanji</a><a href="../drill/">Kanji drill →</a></nav>
+<h1 class="page-title">Kanji writing</h1>
+<p class="lead">Read the prompt, write the kanji by hand (on paper, or in the box), then reveal and check the strokes.</p>
+<div class="drill-controls">
+  <div class="dc-row"><span class="dc-lbl">Prompt</span>
+    <div class="seg" id="kinds" role="group" aria-label="Prompt">
+      <button type="button" data-k="mix">MIX</button>
+      <button type="button" data-k="meaning">MEANING</button>
+      <button type="button" data-k="word">WORD IN KANA</button>
+      <button type="button" data-k="sentence">SENTENCE</button>
+    </div>
+  </div>
+  {% include "_kanji_from.html" %}
+  <div class="dc-pool" id="pool"></div>
+</div>
+<div class="drill wdrill">
+  <div class="dq" id="q" aria-live="polite"></div>
+  <div class="wpad-row">
+    <div class="wpad" id="pad">
+      <canvas id="canvas" aria-label="Writing box"></canvas>
+      <svg class="wguide" id="guide" viewBox="0 0 109 109" aria-hidden="true"></svg>
+    </div>
+    <div class="wpad-tools">
+      <button class="btn" type="button" id="clear">Clear</button>
+      <label class="wtoggle"><input type="checkbox" id="padon"> Write on screen</label>
+    </div>
+  </div>
+  <div class="wanswer" id="answer" aria-live="polite"></div>
+  <div class="dnav">
+    <span class="dscore" id="score"></span>
+    <span class="wbtns">
+      <button class="btn" type="button" id="reveal">Reveal</button>
+      <button class="btn" type="button" id="again" hidden>Again later</button>
+      <button class="btn primary" type="button" id="good" hidden>Got it</button>
+    </span>
+  </div>
+</div>
+<script type="application/json" id="data">{{ data }}</script>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ root }}static/js/kanji-write.js"></script>{% endblock %}

@@ -7,6 +7,7 @@
 import { LANGS, stored, store } from "./prefs.js";
 import { fold } from "./match.js";
 import { esc, ruby, translations } from "./ruby.js";
+import { kanjiSubset } from "./kanji-subset.js";
 import { sayButton } from "./speech.js";
 
 const DATA = JSON.parse(document.getElementById("data").textContent);
@@ -31,27 +32,14 @@ const MODES = {
   ],
 };
 
-const bookNo = Object.fromEntries(DATA.kanji.filter((k) => k.no).map((k) => [k.c, k.no]));
-const bookMax = Math.max(...Object.values(bookNo));
-
 const st = {
   what: stored("ho.kd.what", "words"),
   mode: stored("ho.kd.mode2", "k2r"),
-  which: stored("ho.kd.which", "all"),
-  from: stored("ho.kd.from", 1),
-  to: stored("ho.kd.to", bookMax),
-  picked: new Set(stored("ho.kd.picked", [])),
   item: null, done: false, missed: false, right: 0, asked: 0,
 };
 if (!MODES[st.what]) st.what = "words";
-if (!(st.which in DATA.sets) && !["all", "custom"].includes(st.which)) st.which = "all";
-
-function kanjiSet() {
-  if (st.which === "all") return null;
-  if (st.which === "custom") return st.picked;
-  if (st.which === "book") return new Set(DATA.sets.book.filter((c) => bookNo[c] >= st.from && bookNo[c] <= st.to));
-  return new Set(DATA.sets[st.which]);
-}
+const subset = kanjiSubset(DATA, "ho.kd", () => { st.right = 0; st.asked = 0; st.item = null; ask(); });
+const kanjiSet = subset.set;
 
 function pool() {
   const set = kanjiSet();
@@ -90,10 +78,6 @@ function wrongOptions(i, ids, field) {
 function paint() {
   $("what").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.k === st.what)));
   $("modes").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.k === st.mode)));
-  $("which").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.k === st.which)));
-  $("range-row").hidden = st.which !== "book";
-  $("pick-row").hidden = st.which !== "custom";
-  $("pick").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(st.picked.has(b.dataset.c))));
   const set = kanjiSet();
   const nk = set ? DATA.kanji.filter((k) => set.has(k.c)).length : DATA.kanji.length;
   const nw = DATA.words.filter((w) => !set || w.k.every((c) => set.has(c))).length;
@@ -118,7 +102,7 @@ function ask() {
   paint();
   $("fb").innerHTML = "";
   if (!ids.length) {
-    $("q").textContent = st.which === "custom" ? "Pick some kanji above." : "Nothing here yet.";
+    $("q").textContent = subset.isCustom() ? "Pick some kanji above." : "Nothing here yet.";
     $("opts").innerHTML = ""; $("typed").hidden = true; $("next").hidden = true;
     return;
   }
@@ -202,26 +186,8 @@ function choose(el, key, after) {
   });
 }
 
-$("pick").innerHTML = DATA.kanji.map((k) => `<button type="button" data-c="${esc(k.c)}">${k.no ? `<small>${k.no}</small>` : ""}${esc(k.c)}</button>`).join("");
-$("pick").addEventListener("click", (e) => {
-  const b = e.target.closest("button[data-c]");
-  if (!b) return;
-  const c = b.dataset.c;
-  if (st.picked.has(c)) st.picked.delete(c); else st.picked.add(c);
-  store("ho.kd.picked", [...st.picked]);
-  st.item = null; ask();
-});
-$("pick-none").addEventListener("click", () => { st.picked.clear(); store("ho.kd.picked", []); ask(); });
-for (const id of ["from", "to"]) {
-  $(id).max = bookMax; $(id).value = st[id];
-  $(id).addEventListener("change", () => {
-    st[id] = Math.min(bookMax, Math.max(1, +$(id).value || 1)); $(id).value = st[id];
-    store(`ho.kd.${id}`, st[id]); st.item = null; ask();
-  });
-}
 choose($("what"), "what", renderModes);
 choose($("modes"), "mode");
-choose($("which"), "which");
 $("opts").addEventListener("click", (e) => { const b = e.target.closest(".opt"); if (b) answerPick(b); });
 $("typed").addEventListener("submit", answerTyped);
 $("reveal").addEventListener("click", () => { if (!st.done) { st.missed = true; finish(false); } });

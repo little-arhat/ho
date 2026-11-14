@@ -8,8 +8,8 @@ What is on the site now:
 
 - **Lessons** 1–7 — rules in EN / RU / UK, pattern diagrams, examples,
   exercises, teacher's notes and vocabulary.
-- **Kanji** — a card per kanji (readings, stroke order, words) and a drill
-  both ways: kanji → kana, kana → kanji.
+- **Kanji** — a card per kanji (readings, stroke order, words), a drill
+  both ways, and handwriting practice from meanings, kana or sentences.
 - **Phrase book** — phrases to say and to recognise, by topic, with casual
   forms, likely answers, notes, verb conjugation tables and dictionary links.
   Search works in English, Russian, Ukrainian, Japanese or romaji.
