@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <h1 class="home-title"><span lang="ja">日本語</span> study book</h1>
-<p class="lede">Lessons following Minna no Nihongo, with drills and a phrase book.</p>
+<p class="lede">Lessons following Minna no Nihongo, with reading, kanji drills, handwriting practice and a phrase book. 🔊 reads any line aloud.</p>
 <ul class="tiles">
   {% for s in sections %}
   <li><a class="tile" href="{{ root }}{{ s.href }}"><span class="tile-jp" lang="ja">{{ s.jp }}</span><span class="tile-en">{{ s.label }}</span><span class="tile-sub">{{ s.blurb }}</span></a></li>

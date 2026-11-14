@@ -45,7 +45,7 @@ class Section:
 SECTIONS = (
     Section("lessons", "lessons/", "Lessons", "課", "Minna no Nihongo, lesson by lesson: rules, vocabulary, exercises."),
     Section("reading", "reading/", "Reading", "読み物", "Short stories in the words learned so far; tap a word for its meaning."),
-    Section("kanji", "kanji/", "Kanji", "漢字", "Every kanji in the lessons: readings, stroke order, words; a drill."),
+    Section("kanji", "kanji/", "Kanji", "漢字", "Every kanji on the site: readings, stroke order, words; a drill and handwriting practice."),
     Section("phrasebook", "phrasebook/", "Phrase book", "旅の言葉",
             "Phrases to say and to recognise, with casual forms and conjugation."),
     Section("katakana", "katakana/", "Katakana", "カタカナ", "Read loanwords and type them in romaji."),
