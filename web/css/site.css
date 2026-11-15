@@ -380,6 +380,10 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 
 /* Kanji index filter, book numbers; drill controls */
 .k-filter { flex-wrap: wrap; width: fit-content; margin: 8px 0 4px; }
+.k-tools { display: flex; gap: 8px; align-items: center; margin-top: 8px; max-width: 640px; }
+.k-search { flex: 1; margin: 0; }
+.k-ro { display: none; font: 500 11px var(--f-mono); color: var(--muted); }
+.showro .k-ro { display: block; }
 .k-tile { position: relative; }
 .k-tile.book { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
 .k-no { position: absolute; top: 6px; left: 8px; font: 500 10px var(--f-mono); background: var(--fg); color: var(--bg); border-radius: 999px; padding: 0 6px; }

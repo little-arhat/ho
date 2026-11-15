@@ -191,6 +191,8 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["speech"] = romaji.speech
     env.filters["clip"] = clip_of(content)
     env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
+    env.filters["reading_romaji"] = kanji.reading_romaji
+    env.filters["search_index"] = kanji.search_index
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,
         data=embed_json(p.data) if p.data is not None else None, **p.context)

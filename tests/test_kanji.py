@@ -142,3 +142,16 @@ def test_write_view_has_sentences_and_words():
     sei = next(k for k in v["kanji"] if k["c"] == "生")
     assert sei["sents"] and all(sum(1 for x in s["s"] if len(x) == 3) == 1 for s in sei["sents"])
     assert any(w["w"] == "学生" for w in v["words"])
+
+
+def test_reading_romaji_keeps_okurigana_apart():
+    assert kanji.reading_romaji(kanji.parse_reading("まな-ぶ", "t")) == "mana-bu"
+    assert kanji.reading_romaji(kanji.parse_reading("ガク", "t")) == "gaku"
+
+
+def test_search_index_finds_by_kanji_kana_romaji_and_meaning():
+    card = kanji.Card("学", 1, 5, (kanji.parse_reading("ガク", "t"), kanji.parse_reading("まな-ぶ", "t")),
+                      Text("study, learning", "учёба", "навчання"), ())
+    idx = kanji.search_index(card)
+    for q in ["学", "がく", "ガク", "まなぶ", "manabu", "gaku", "study", "учеба", "навчання"]:
+        assert kanji.fold(q) in idx, q

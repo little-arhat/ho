@@ -258,6 +258,19 @@ def reading_answers(reading: str) -> tuple[str, ...]:
     return tuple(dict.fromkeys(fold(x) for x in (reading, ro, ro.replace("ō", "ou").replace("ū", "uu"))))
 
 
+def reading_romaji(r: Reading) -> str:
+    """A card reading in Hepburn romaji, okurigana kept apart: まな-ぶ → mana-bu."""
+    return "-".join(romaji(part) for part in r.kana.split("-"))
+
+
+def search_index(card: Card) -> str:
+    """What finds a card in the kanji list: the kanji, each reading in kana or
+    romaji, each meaning in any language; folded entries joined by spaces."""
+    entries = [fold(card.char), *(a for r in card.readings for a in reading_answers(r.kana.replace("-", ""))),
+               *meaning_answers(card.meaning)]
+    return " ".join(dict.fromkeys(entries))
+
+
 def kanji_sets(cards: Iterable[Card], lessons: Iterable[Lesson]) -> dict[str, list[str]]:
     """Named subsets for the drill: the book's kanji in its order, and each lesson's vocabulary kanji."""
     sets = {"book": [c.char for c in cards if c.number is not None]}
