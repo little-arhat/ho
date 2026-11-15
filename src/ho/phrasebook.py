@@ -11,6 +11,7 @@ from typing import Any, Literal
 
 from ho import furigana
 from ho.errors import ContentError
+from ho.fields import check_alphabets
 from ho.kana import romaji
 from ho.romaji import romanize, speech
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
@@ -73,6 +74,7 @@ def _line(row: dict[str, Any], where: str) -> Line:
         raise ContentError(f"{where}: {e}") from e
     if not all((line.ja, line.en, line.ru, line.uk)):
         raise ContentError(f"{where}: ja, en, ru and uk are all required")
+    check_alphabets(line.ru, line.uk, where)
     return line
 
 
@@ -98,6 +100,7 @@ def _phrase(row: dict[str, Any], topics: set[str], where: str) -> Phrase:
         raise ContentError(f"{where}: {e}") from e
     if p.topic not in topics:
         raise ContentError(f"{where}: unknown topic {p.topic!r}")
+    check_alphabets(p.ru, p.uk, where)
     if p.kind not in ("say", "hear", "tip"):
         raise ContentError(f"{where}: unknown kind {p.kind!r}")
     if p.kind == "tip" and not p.note:

@@ -4,6 +4,7 @@ it was reading when it fails."""
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from typing import Any
 
@@ -41,12 +42,26 @@ def japanese(text: str, where: str) -> str:
     return text
 
 
+_RU_ONLY = re.compile("[ыэъёЫЭЪЁ]")
+_UK_ONLY = re.compile("[іїєґІЇЄҐ]")
+
+
+def check_alphabets(ru: str, uk: str, where: str) -> None:
+    """Catch a translation pasted into the wrong language: Ukrainian has no
+    ы э ъ ё, Russian has no і ї є ґ."""
+    if m := _UK_ONLY.search(ru):
+        raise ContentError(f"{where}: ru has the Ukrainian letter {m.group(0)!r}: {ru!r}")
+    if m := _RU_ONLY.search(uk):
+        raise ContentError(f"{where}: uk has the Russian letter {m.group(0)!r}: {uk!r}")
+
+
 def translations(value: Any, where: str) -> Text:
     if not isinstance(value, dict):
         raise ContentError(f"{where}: expected {{en, ru, uk}}")
     check_keys(value, set(LANGS), set(), where)
     if not all(isinstance(value[k], str) and value[k].strip() for k in LANGS):
         raise ContentError(f"{where}: en, ru and uk must all be non-empty")
+    check_alphabets(value["ru"], value["uk"], where)
     return Text(*(japanese(value[k], where) for k in LANGS))
 
 

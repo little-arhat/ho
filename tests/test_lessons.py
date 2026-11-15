@@ -67,3 +67,11 @@ def test_vocab_example_needs_translations(tmp_path):
     f.write_text(",".join(VOCAB_COLUMNS) + "\n私,わたし,私[わたし],I,я,я,,,,私[わたし]です。,I am.,,\n")
     with pytest.raises(ContentError, match="example"):
         load_vocab(f)
+
+
+def test_translation_in_the_wrong_alphabet_is_caught():
+    from ho.fields import translations
+    with pytest.raises(ContentError, match="uk has the Russian letter"):
+        translations({"en": "student", "ru": "студент", "uk": "студенты"}, "w")
+    with pytest.raises(ContentError, match="ru has the Ukrainian letter"):
+        translations({"en": "child", "ru": "дітина", "uk": "дитина"}, "w")

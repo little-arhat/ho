@@ -14,6 +14,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from ho.errors import ContentError
+from ho.fields import check_alphabets
 
 
 def _table(spec: str) -> dict[str, tuple[str, ...]]:
@@ -193,6 +194,7 @@ def load(path: Path) -> tuple[Word, ...]:
         where = f"{path}: word #{i + 1}"
         if set(row) != {"ja", "en", "ru", "uk"} or not all(row.values()):
             raise ContentError(f"{where}: needs exactly ja, en, ru, uk, all non-empty")
+        check_alphabets(row["ru"], row["uk"], where)
         if row["ja"] in seen:
             raise ContentError(f"{where}: duplicate {row['ja']!r}")
         seen.add(row["ja"])
