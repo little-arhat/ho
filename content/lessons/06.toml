@@ -94,6 +94,22 @@ example = [
 ]
 
 [[rule]]
+title = { en = "N の 後で: after N", ru = "N の 後で: после N", uk = "N の 後で: після N" }
+pattern = [
+  { slot = "event", en = "event", ru = "событие", uk = "подія" },
+  { ja = "の後[あと]で" },
+  { slot = "action", en = "what you do", ru = "что делаете", uk = "що робите" },
+]
+explain.en = "後で (あとで) = later. After an event noun with の it means \"after\": 授業の 後で = after class, 食事の 後で = after the meal. The whole phrase sits where a time word would: 授業の 後で 散歩します = after class I take a walk."
+explain.ru = "後で (あとで) — потом. После существительного-события с の — «после»: 授業の 後で — после занятия, 食事の 後で — после еды. Вся группа стоит там, где стояло бы слово времени: 授業の 後で 散歩します — после занятия гуляю."
+explain.uk = "後で (あとで) — потім. Після іменника-події з の — «після»: 授業の 後で — після заняття, 食事の 後で — після їжі. Уся група стоїть там, де стояло б слово часу: 授業の 後で 散歩します — після заняття гуляю."
+example = [
+  { ja = "日[に]本[ほん]語[ご]の授[じゅ]業[ぎょう]の後[あと]で、何[なに]をしますか。", en = "What do you do after the Japanese class?", ru = "Что вы делаете после урока японского?", uk = "Що ви робите після уроку японської?" },
+  { ja = "授[じゅ]業[ぎょう]の後[あと]で、公[こう]園[えん]を散[さん]歩[ぽ]します。", en = "After class I take a walk in the park.", ru = "После занятия я гуляю в парке.", uk = "Після заняття я гуляю в парку." },
+  { ja = "後[あと]で質[しつ]問[もん]します。", en = "I'll ask a question later.", ru = "Я задам вопрос потом.", uk = "Я поставлю питання потім." },
+]
+
+[[rule]]
 title = { en = "Something, somewhere, someone: 何か・どこか・誰か", ru = "Что-то, где-то, кто-то: 何か・どこか・誰か", uk = "Щось, десь, хтось: 何か・どこか・誰か" }
 explain.en = "A question word + か makes an indefinite word: 何か = something / anything, どこか = somewhere / anywhere, 誰か = someone / anyone. Compare question word + も + negative (lesson 5): 何も しません = I do nothing."
 explain.ru = "Вопросительное слово + か даёт неопределённое слово: 何か — что-то / что-нибудь, どこか — где-то / куда-нибудь, 誰か — кто-то / кто-нибудь. Сравните: вопр. слово + も + отрицание (урок 5): 何も しません — ничего не делаю."
@@ -213,6 +229,22 @@ en = "I do my homework. After that, I listen to a CD."
 ru = "Делаю домашнее задание. Потом слушаю CD."
 uk = "Роблю домашнє завдання. Потім слухаю CD."
 
+[[exercise]]
+kind = "choice"
+ja = "授[じゅ]業[ぎょう]＿後[あと]で、散[さん]歩[ぽ]します。"
+options = ["の", "を", "に", "で"]
+answer = "の"
+en = "After class I take a walk."
+ru = "После занятия я гуляю."
+uk = "Після заняття я гуляю."
+
+[[exercise]]
+kind = "reorder"
+parts = ["日[に]本[ほん]語[ご]の授[じゅ]業[ぎょう]の", "後[あと]で", "何[なに]を", "しますか。"]
+en = "What do you do after the Japanese class?"
+ru = "Что вы делаете после урока японского?"
+uk = "Що ви робите після уроку японської?"
+
 [[note]]
 text = """
 何か something, anything
@@ -295,4 +327,18 @@ Would you like ___ing together?
 Let's___.
 
 消しましょうか。
+"""
+
+[[note]]
+date = 2026-11-16
+text = """
+散歩　さんぽします
+授業　じゅぎょう/　クラス
+
+日本語の授業　のあとで　なにをしますか
+
+後で　after...
+N の　後で
+
+質問　しつもん　question
 """

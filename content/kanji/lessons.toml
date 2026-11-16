@@ -1010,6 +1010,26 @@ char = "度"
 readings = ["ド"]
 meaning = { en = "times; degree", ru = "раз; градус", uk = "раз; градус" }
 
+[[kanji]]
+char = "散"
+readings = ["ち-ります", "サン"]
+meaning = { en = "scatter; stroll (散歩)", ru = "рассеиваться; прогулка (散歩)", uk = "розсіюватися; прогулянка (散歩)" }
+
+[[kanji]]
+char = "授"
+readings = ["さず-けます", "ジュ"]
+meaning = { en = "give, teach (授業 class)", ru = "давать, обучать (授業 занятие)", uk = "давати, навчати (授業 заняття)" }
+
+[[kanji]]
+char = "業"
+readings = ["わざ", "ギョウ", "ゴウ"]
+meaning = { en = "business; work; class (授業)", ru = "дело; работа; занятие (授業)", uk = "справа; робота; заняття (授業)" }
+
+[[kanji]]
+char = "質"
+readings = ["シツ", "シチ"]
+meaning = { en = "quality; question (質問)", ru = "качество; вопрос (質問)", uk = "якість; питання (質問)" }
+
 # Lesson 7
 
 [[kanji]]

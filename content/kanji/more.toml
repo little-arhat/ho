@@ -860,11 +860,6 @@ readings = ["うめ", "バイ"]
 meaning = { en = "plum", ru = "слива умэ", uk = "слива уме" }
 
 [[kanji]]
-char = "業"
-readings = ["わざ", "ギョウ", "ゴウ"]
-meaning = { en = "business; work", ru = "дело; работа", uk = "справа; робота" }
-
-[[kanji]]
 char = "楽"
 readings = ["たの-しい", "たの-しむ", "ガク", "ラク"]
 meaning = { en = "pleasure; easy; music", ru = "удовольствие; лёгкий; музыка", uk = "задоволення; легкий; музика" }
