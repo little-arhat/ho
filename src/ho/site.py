@@ -11,12 +11,13 @@ from typing import Any
 import jinja2
 from markupsafe import Markup, escape
 
-from ho import audio, furigana, kanji, katakana, lessons, phrasebook, reading, romaji
+from ho import audio, furigana, kanji, katakana, lessons, phrasebook, reading, romaji, words
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
 from ho.phrasebook import Phrasebook
 from ho.reading import Reading
+from ho.words import Topic
 
 
 @dataclass(frozen=True)
@@ -27,6 +28,7 @@ class Content:
     kanji: tuple[Card, ...]
     strokes: dict[str, tuple[str, ...]]  # KanjiVG stroke paths for every card
     readings: tuple[Reading, ...]
+    topics: tuple[Topic, ...]  # the book's reference word lists
     clips: frozenset[str]  # recorded lines (audio.key) found in audio_dir
     audio_dir: Path
 
@@ -44,6 +46,7 @@ class Section:
 
 SECTIONS = (
     Section("lessons", "lessons/", "Lessons", "課", "Minna no Nihongo, lesson by lesson: rules, vocabulary, exercises."),
+    Section("words", "words/", "Words", "単語", "Every word on the site, by lesson and topic; search in any language or romaji."),
     Section("reading", "reading/", "Reading", "読み物", "Short stories in the words learned so far; tap a word for its meaning."),
     Section("kanji", "kanji/", "Kanji", "漢字", "Every kanji on the site: readings, stroke order, words; a drill and handwriting practice."),
     Section("phrasebook", "phrasebook/", "Phrase book", "旅の言葉",
@@ -94,8 +97,22 @@ def pages(content: Content) -> tuple[Page, ...]:
              "next": numbers[i + 1] if i + 1 < len(numbers) else None},
             data=lessons.exercises_view(lesson)))
     out.extend(_kanji_pages(content))
+    out.append(_words_page(content))
     out.extend(_reading_pages(content))
     return tuple(out)
+
+
+def word_groups(content: Content) -> tuple[words.Group, ...]:
+    return words.groups(content.lessons, content.topics, content.kanji, content.readings)
+
+
+def _words_page(content: Content) -> Page:
+    groups = word_groups(content)
+    return Page("words/index.html", "words.html", "Words", "words", {
+        "groups": groups,
+        "filters": [("all", "ALL"), *((g.id, g.label) for g in groups)],
+        "carded": {c.char for c in content.kanji},
+    })
 
 
 def _reading_pages(content: Content) -> list[Page]:
@@ -131,6 +148,7 @@ def spoken_texts(content: Content) -> list[str]:
         out += [x for w in card.words for x in (w.ja, w.example.ja)]
     for r in content.readings:
         out += ["".join(t.ja for t in p.tokens) for p in r.paragraphs]
+    out += [e.ja for g in word_groups(content) for e in g.entries]
     for p in content.phrasebook.phrases:
         out += [p.ja, *(a.ja for a in p.answers + p.examples)]
     return list(dict.fromkeys(t for t in out if t))
@@ -149,17 +167,20 @@ def card_path(card: Card) -> str:
 
 
 def _kanji_pages(content: Content) -> list[Page]:
-    words = kanji.lesson_words(content.lessons)
-    first_lesson = {c: ws[0].lesson for c, ws in words.items()}
+    by_kanji = kanji.lesson_words(content.lessons)
+    first_lesson = {c: ws[0].lesson for c, ws in by_kanji.items()}
     cards = content.kanji
+    elsewhere = [c for c in cards if c.number is None and c.char not in first_lesson]
     index = Page("kanji/index.html", "kanji.html", "Kanji", "kanji", {
-        "in_lessons": {c: sorted({w.lesson for w in ws}) for c, ws in words.items()},
-        "lessons": [lesson.number for lesson in content.lessons],
+        "in_lessons": {c: sorted({w.lesson for w in ws}) for c, ws in by_kanji.items()},
+        "filters": [("all", "ALL"), ("book", "15-MIN BOOK"),
+                    *((f"l{lesson.number}", f"L{lesson.number}") for lesson in content.lessons),
+                    *([("other", "ELSEWHERE")] if elsewhere else [])],
         "book": [c for c in cards if c.number is not None],
         "by_lesson": [(n, [c for c in cards if c.number is None and first_lesson.get(c.char) == n])
                       for n in sorted({first_lesson[c.char] for c in cards
                                        if c.number is None and c.char in first_lesson})],
-        "elsewhere": [c for c in cards if c.number is None and c.char not in first_lesson],
+        "elsewhere": elsewhere,
     })
     drill = Page("kanji/drill/index.html", "kanji_drill.html", "Kanji drill", "kanji",
                  {"lessons": [lesson.number for lesson in content.lessons]},
@@ -172,7 +193,7 @@ def _kanji_pages(content: Content) -> list[Page]:
         out.append(Page(card_path(card), "kanji_card.html", f"{card.char} · kanji", "kanji", {
             "card": card,
             "frames": kanji.stroke_frames(content.strokes[card.char]),
-            "lesson_words": words.get(card.char, ()),
+            "lesson_words": by_kanji.get(card.char, ()),
             "prev": cards[i - 1] if i > 0 else None,
             "next": cards[i + 1] if i + 1 < len(cards) else None,
         }))
@@ -192,7 +213,9 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["clip"] = clip_of(content)
     env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
     env.filters["reading_romaji"] = kanji.reading_romaji
-    env.filters["search_index"] = kanji.search_index
+    env.filters["kanji_search"] = kanji.search_index
+    env.filters["word_search"] = words.search_index
+    env.filters["romanize"] = romaji.romanize
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,
         data=embed_json(p.data) if p.data is not None else None, **p.context)

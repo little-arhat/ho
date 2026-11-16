@@ -1,0 +1,16 @@
+{# Search, romaji and group filter for a list page (kanji, words); web/js/list-filter.js drives it.
+   Items are li[data-s][data-f] inside section.ix-sec; romaji lines carry .ix-ro.
+   filters: [(key, label)], "all" first. #}
+{% macro list_tools(store, filters, placeholder) -%}
+<div class="ix-tools" id="ixtools" data-store="{{ store }}">
+  <label class="search ix-search">
+    <span class="sr">Search</span>
+    <input id="ixq" type="search" placeholder="{{ placeholder }}" autocomplete="off">
+  </label>
+  <div class="seg" role="group" aria-label="Options"><button type="button" id="ixro">ROMAJI</button></div>
+</div>
+<div class="seg ix-filter" id="ixfilter" role="group" aria-label="Show">
+  {% for key, label in filters %}<button type="button" data-f="{{ key }}">{{ label }}</button>{% endfor %}
+</div>
+<p class="empty" id="ixnone" hidden>Nothing matches. Try another word, or switch the filter to ALL.</p>
+{%- endmacro %}

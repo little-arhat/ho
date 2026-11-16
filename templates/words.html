@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr, say %}
+{% from "_list_tools.html" import list_tools %}
+{% block main %}
+<h1 class="page-title">Words <small lang="ja">単語</small></h1>
+<p class="lead">Every word on the site: each lesson's vocabulary, the book's reference lists, and the words kanji cards and reading texts add.</p>
+{{ list_tools("ho.wd", filters, "Search: 食べます, たべます, tabemasu, eat, есть…") }}
+
+{% for g in groups %}
+<section class="ix-sec">
+  <h2 class="sec">{{ g.kicker }} · {{ tr(g.title) }} <small>{{ g.entries | length }}</small></h2>
+  <ul class="vocab wd-list">
+  {% for e in g.entries %}
+    <li class="word" data-s="{{ e | word_search }}" data-f="{{ g.id }}">
+      <div class="word-ja" lang="ja">{{ e.ja | ruby }}{{ say(e.ja) }}</div>
+      <div class="word-ro ix-ro">{{ e.ja | romanize }}</div>
+      {%- set ks = (e.ja | kanji) | select("in", carded) | list %}
+      {% if ks %}<div class="word-k" lang="ja">{% for c in ks %}<a href="../kanji/{{ c | hex }}/" title="kanji card">{{ c }}</a>{% endfor %}</div>{% endif %}
+      <div class="word-tr">{{ tr(e.tr) }}</div>
+      {% if e.note %}<div class="word-note">{{ tr(e.note) }}</div>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ root }}static/js/list-filter.js"></script>{% endblock %}

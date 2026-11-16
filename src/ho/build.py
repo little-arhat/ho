@@ -7,7 +7,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from ho import kanji, katakana, lessons, phrasebook, reading, refdata
+from ho import kanji, katakana, lessons, phrasebook, reading, refdata, words
 from ho.errors import ContentError
 from ho.site import Content, assets, render_site
 from ho.verbs import load_verbs
@@ -30,6 +30,7 @@ def load_content(content_dir: Path, ref_path: Path, audio_dir: Path) -> Content:
         kanji=cards,
         strokes={c.char: ref[c.char].strokes for c in cards},
         readings=reading.load_readings(content_dir / "reading", lesson_list),
+        topics=words.load_topics(content_dir / "words", [lesson.number for lesson in lesson_list]),
         clips=frozenset(p.stem for p in audio_dir.glob("*.m4a")),
         audio_dir=audio_dir,
     )

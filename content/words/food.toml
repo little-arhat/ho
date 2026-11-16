@@ -1,0 +1,4 @@
+# Reference words from the book, a topic list beside the lessons (not drilled
+# as lesson vocabulary). The words are in food.csv, vocabulary columns.
+title = { en = "Food", ru = "Еда", uk = "Їжа" }
+lesson = 6  # the book prints this list with lesson 6

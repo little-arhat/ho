@@ -10,7 +10,7 @@ from ho.build import main
 ALLOWED_HOSTS = {"fonts.googleapis.com", "fonts.gstatic.com"}
 PAGES = ["index.html", "phrasebook/index.html", "katakana/index.html", "lessons/03/index.html",
          "kanji/index.html", "kanji/65e5/index.html", "kanji/drill/index.html", "reading/index.html",
-         "reading/03-depato/index.html"]
+         "reading/03-depato/index.html", "words/index.html"]
 
 
 @pytest.fixture(scope="module")

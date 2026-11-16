@@ -1,47 +1,35 @@
 {% extends "base.html" %}
 {% from "macros.html" import tr, reading %}
+{% from "_list_tools.html" import list_tools %}
 {% macro tile(c) -%}
 {%- set ls = in_lessons.get(c.char, []) -%}
-<li data-s="{{ c | search_index }}" data-f="{% if c.number %}book {% endif %}{% if not c.number and not ls %}other {% endif %}{% for n in ls %}l{{ n }} {% endfor %}"><a class="k-tile{% if c.number %} book{% endif %}" href="{{ c.char | hex }}/">
+<li data-s="{{ c | kanji_search }}" data-f="{% if c.number %}book {% endif %}{% if not c.number and not ls %}other {% endif %}{% for n in ls %}l{{ n }} {% endfor %}"><a class="k-tile{% if c.number %} book{% endif %}" href="{{ c.char | hex }}/">
   {% if c.number %}<span class="k-no">{{ "%03d" | format(c.number) }}</span>{% endif %}
   <span class="k-char" lang="ja">{{ c.char }}</span>
   <span class="k-read">{{ reading(c.readings[0]) }}</span>
-  <span class="k-ro">{{ c.readings[0] | reading_romaji }}</span>
+  <span class="k-ro ix-ro">{{ c.readings[0] | reading_romaji }}</span>
   <span class="k-mean">{{ tr(c.meaning) }}</span>
 </a></li>
 {%- endmacro %}
 {% block main %}
 <h1 class="page-title">Kanji <small lang="ja">漢字</small></h1>
 <p class="lead"><a class="btn" href="drill/">Kanji drill →</a> <a class="btn" href="write/">Writing practice →</a> Kanji → meaning or reading, meaning or kana → kanji; all kanji or any subset.</p>
-<div class="k-tools">
-  <label class="search k-search">
-    <span class="sr">Search</span>
-    <input id="kq" type="search" placeholder="Search: 学, まなぶ, manabu, study, учиться…" autocomplete="off">
-  </label>
-  <div class="seg" role="group" aria-label="Options"><button type="button" id="kro">ROMAJI</button></div>
-</div>
-<div class="seg k-filter" id="kfilter" role="group" aria-label="Show">
-  <button type="button" data-f="all">ALL</button>
-  <button type="button" data-f="book">15-MIN BOOK</button>
-  {% for n in lessons %}<button type="button" data-f="l{{ n }}">L{{ n }}</button>{% endfor %}
-  {% if elsewhere %}<button type="button" data-f="other">ELSEWHERE</button>{% endif %}
-</div>
-<p class="empty" id="knone" hidden>No kanji match. Try another word, or switch the filter to ALL.</p>
+{{ list_tools("ho.ki", filters, "Search: 学, がく, gaku, study, учёба…") }}
 
-<section class="k-sec">
+<section class="k-sec ix-sec">
   <h2 class="sec">15-minute kanji book <small>numbered as in the book</small></h2>
   <ol class="k-grid">{% for c in book %}{{ tile(c) }}{% endfor %}</ol>
 </section>
 
 {% for n, cards in by_lesson %}
-<section class="k-sec">
+<section class="k-sec ix-sec">
   <h2 class="sec">Not in the book yet · first in lesson {{ n }}</h2>
   <ol class="k-grid">{% for c in cards %}{{ tile(c) }}{% endfor %}</ol>
 </section>
 {% endfor %}
 
 {% if elsewhere %}
-<section class="k-sec">
+<section class="k-sec ix-sec">
   <h2 class="sec">Elsewhere on the site · examples, phrase book, reading <small>{{ elsewhere | length }} kanji</small></h2>
   <ol class="k-grid">{% for c in elsewhere %}{{ tile(c) }}{% endfor %}</ol>
 </section>
@@ -49,4 +37,4 @@
 
 <p class="credit">Stroke order: <a href="https://kanjivg.tagaini.net" rel="noopener">KanjiVG</a> (CC BY-SA 3.0). Readings checked against <a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" rel="noopener">KANJIDIC2</a> (CC BY-SA 4.0).</p>
 {% endblock %}
-{% block scripts %}<script type="module" src="{{ root }}static/js/kanji-index.js"></script>{% endblock %}
+{% block scripts %}<script type="module" src="{{ root }}static/js/list-filter.js"></script>{% endblock %}
