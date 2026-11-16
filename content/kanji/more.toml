@@ -1843,3 +1843,18 @@ meaning = { en = "dragon", ru = "дракон", uk = "дракон" }
 char = "滞"
 readings = ["とどこお-る", "タイ"]
 meaning = { en = "stay; be delayed (渋滞 traffic jam)", ru = "задерживаться (渋滞 пробка)", uk = "затримуватися (渋滞 затор)" }
+
+[[kanji]]
+char = "震"
+readings = ["ふる-える", "シン"]
+meaning = { en = "quake, shake (地震 earthquake)", ru = "трясти (地震 землетрясение)", uk = "трясти (地震 землетрус)" }
+
+[[kanji]]
+char = "賀"
+readings = ["ガ"]
+meaning = { en = "congratulations (年賀状 New Year's card)", ru = "поздравление (年賀状 новогодняя открытка)", uk = "привітання (年賀状 новорічна листівка)" }
+
+[[kanji]]
+char = "状"
+readings = ["ジョウ"]
+meaning = { en = "letter; condition", ru = "письмо; состояние", uk = "лист; стан" }

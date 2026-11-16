@@ -652,11 +652,6 @@ readings = ["ジュツ"]
 meaning = { en = "art, technique", ru = "искусство, техника", uk = "мистецтво, техніка" }
 
 [[kanji]]
-char = "今"
-readings = ["いま", "コン"]
-meaning = { en = "now", ru = "сейчас", uk = "зараз" }
-
-[[kanji]]
 char = "分"
 readings = ["わ-かります", "フン", "ブン"]
 meaning = { en = "minute; part; to understand", ru = "минута; часть; понимать", uk = "хвилина; частина; розуміти" }
@@ -675,16 +670,6 @@ meaning = { en = "noon", ru = "полдень", uk = "полудень" }
 char = "後"
 readings = ["あと", "うし-ろ", "ゴ", "コウ"]
 meaning = { en = "after; behind", ru = "после; позади", uk = "після; позаду" }
-
-[[kanji]]
-char = "晩"
-readings = ["バン"]
-meaning = { en = "evening", ru = "вечер", uk = "вечір" }
-
-[[kanji]]
-char = "夜"
-readings = ["よる", "よ", "ヤ"]
-meaning = { en = "night", ru = "ночь", uk = "ніч" }
 
 [[kanji]]
 char = "昨"
@@ -1053,16 +1038,6 @@ readings = ["なら-います", "シュウ"]
 meaning = { en = "to learn", ru = "учиться", uk = "вчитися" }
 
 [[kanji]]
-char = "賀"
-readings = ["ガ"]
-meaning = { en = "congratulations", ru = "поздравление", uk = "привітання" }
-
-[[kanji]]
-char = "状"
-readings = ["ジョウ"]
-meaning = { en = "letter; condition", ru = "письмо; состояние", uk = "лист; стан" }
-
-[[kanji]]
 char = "消"
 readings = ["け-します", "き-えます", "ショウ"]
 meaning = { en = "to erase; to turn off", ru = "стирать; выключать", uk = "стирати; вимикати" }
@@ -1091,3 +1066,8 @@ meaning = { en = "mother", ru = "мать", uk = "мати" }
 char = "産"
 readings = ["う-みます", "サン"]
 meaning = { en = "to give birth; product", ru = "рожать; продукт", uk = "народжувати; продукт" }
+
+[[kanji]]
+char = "正"
+readings = ["ただ-しい", "ショウ", "セイ"]
+meaning = { en = "correct; New Year (正月)", ru = "правильный; Новый год (正月)", uk = "правильний; Новий рік (正月)" }

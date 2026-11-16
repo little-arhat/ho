@@ -855,3 +855,84 @@ example = { ja = "昼[ひる]ごはんを食[た]べます。", en = "I eat lunc
 ja = "昼[ちゅう]食[しょく]"
 tr = { en = "lunch (formal)", ru = "обед (офиц.)", uk = "обід (офіц.)" }
 example = { ja = "昼[ちゅう]食[しょく]は１２時[じ]からです。", en = "Lunch is from twelve.", ru = "Обед с двенадцати.", uk = "Обід з дванадцятої." }
+
+[[kanji]]
+char = "晩"
+number = 49
+level = 4
+readings = ["バン"]
+meaning = { en = "evening, night", ru = "вечер", uk = "вечір" }
+
+[[kanji.word]]
+ja = "毎[まい]晩[ばん]"
+tr = { en = "every night", ru = "каждый вечер", uk = "щовечора" }
+example = { ja = "毎[まい]晩[ばん]　１１時[じ]に寝[ね]ます。", en = "I go to bed at eleven every night.", ru = "Каждый вечер ложусь спать в одиннадцать.", uk = "Щовечора лягаю спати об одинадцятій." }
+
+[[kanji.word]]
+ja = "晩[ばん]ごはん"
+tr = { en = "dinner", ru = "ужин", uk = "вечеря" }
+example = { ja = "きのう、晩[ばん]ごはんを食[た]べませんでした。", en = "Yesterday I didn't eat dinner.", ru = "Вчера я не ужинал.", uk = "Учора я не вечеряв." }
+
+[[kanji.word]]
+ja = "今[こん]晩[ばん]"
+tr = { en = "this evening", ru = "сегодня вечером", uk = "сьогодні ввечері" }
+example = { ja = "今[こん]晩[ばん]　勉[べん]強[きょう]しますか。", en = "Are you studying this evening?", ru = "Сегодня вечером будете заниматься?", uk = "Сьогодні ввечері будете вчитися?" }
+
+[[kanji]]
+char = "夜"
+number = 50
+level = 4
+readings = ["よる", "よ", "ヤ"]
+meaning = { en = "night", ru = "ночь", uk = "ніч" }
+
+[[kanji.word]]
+ja = "夜[よる]"
+tr = { en = "night", ru = "ночь", uk = "ніч" }
+example = { ja = "わたしは夜[よる]　１０時[じ]半[はん]に寝[ね]ます。", en = "I go to bed at half past ten at night.", ru = "Я ложусь спать в половине одиннадцатого вечера.", uk = "Я лягаю спати о пів на одинадцяту вечора." }
+
+[[kanji.word]]
+ja = "夜[よ]中[なか]"
+tr = { en = "midnight, the middle of the night", ru = "полночь, среди ночи", uk = "північ, серед ночі" }
+example = { ja = "夜[よ]中[なか]に地[じ]震[しん]がありました。", en = "There was an earthquake in the middle of the night.", ru = "Ночью было землетрясение.", uk = "Уночі був землетрус." }
+
+[[kanji.word]]
+ja = "真[ま]夜[よ]中[なか]"
+tr = { en = "dead of night", ru = "глубокая ночь", uk = "глибока ніч" }
+example = { ja = "真[ま]夜[よ]中[なか]まで勉[べん]強[きょう]しました。", en = "I studied until the dead of night.", ru = "Я занимался до глубокой ночи.", uk = "Я вчився до глибокої ночі." }
+
+[[kanji.word]]
+ja = "今[こん]夜[や]"
+tr = { en = "tonight", ru = "сегодня ночью", uk = "сьогодні вночі" }
+example = { ja = "今[こん]夜[や]は寒[さむ]いです。", en = "It's cold tonight.", ru = "Сегодня ночью холодно.", uk = "Сьогодні вночі холодно." }
+
+[[kanji]]
+char = "今"
+number = 51
+level = 5
+readings = ["いま", "コン"]
+meaning = { en = "now", ru = "сейчас", uk = "зараз" }
+
+[[kanji.word]]
+ja = "今[いま]"
+tr = { en = "now", ru = "сейчас", uk = "зараз" }
+example = { ja = "今[いま]　何[なん]時[じ]ですか。", en = "What time is it now?", ru = "Который сейчас час?", uk = "Котра зараз година?" }
+
+[[kanji.word]]
+ja = "今[こん]月[げつ]"
+tr = { en = "this month", ru = "в этом месяце", uk = "цього місяця" }
+example = { ja = "今[こん]月[げつ]　国[くに]へ帰[かえ]ります。", en = "This month I'm going back to my country.", ru = "В этом месяце я возвращаюсь на родину.", uk = "Цього місяця я повертаюся на батьківщину." }
+
+[[kanji.word]]
+ja = "今[こん]度[ど]"
+tr = { en = "next time; this coming", ru = "в следующий раз; ближайший", uk = "наступного разу; найближчий" }
+example = { ja = "今[こん]度[ど]の日[にち]曜[よう]日[び]　新[しん]宿[じゅく]へ行[い]きます。", en = "This coming Sunday I'm going to Shinjuku.", ru = "В это воскресенье я поеду в Синдзюку.", uk = "Цієї неділі я поїду до Сіндзюку." }
+
+[[kanji.word]]
+ja = "今日[きょう]"
+tr = { en = "today", ru = "сегодня", uk = "сьогодні" }
+example = { ja = "今日[きょう]は月[げつ]曜[よう]日[び]です。", en = "Today is Monday.", ru = "Сегодня понедельник.", uk = "Сьогодні понеділок." }
+
+[[kanji.word]]
+ja = "今年[ことし]"
+tr = { en = "this year", ru = "в этом году", uk = "цього року" }
+example = { ja = "今年[ことし]　日[に]本[ほん]へ行[い]きます。", en = "This year I'm going to Japan.", ru = "В этом году я поеду в Японию.", uk = "Цього року я поїду до Японії." }
