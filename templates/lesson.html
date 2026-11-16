@@ -67,7 +67,7 @@
 
 {% if lesson.vocab %}
 <section id="vocab">
-  <h2 class="sec">Vocabulary <small>{{ lesson.vocab | length }}</small></h2>
+  <h2 class="sec">Vocabulary <small>{{ lesson.vocab | length }}</small> <a class="deck-dl" href="../../anki/{{ deck }}" download>Anki deck ↓</a></h2>
   <ul class="vocab">
   {% for w in lesson.vocab %}
     <li class="word">

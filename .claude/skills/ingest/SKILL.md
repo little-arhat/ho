@@ -17,6 +17,7 @@ Read every image in `inbox/` before editing anything. Sort each one into:
 | Teacher's slides / notes | typed or handwritten drills, substitution tables, underlines | `content/lessons/NN.toml` `[[note]]`, plus rules/exercises it teaches |
 | MnN lesson page | 文型, 例文, 練習A/B/C, 会話 | `content/lessons/NN.toml` rules, examples, exercises (our own wording) |
 | MnN vocab page | 語彙 list, page tab number | `content/lessons/NN.vocab.csv` |
+| MnN reference words | "Reference Words & Information", a themed picture list | `content/words/<id>.toml` (title, lesson) + `<id>.csv` (vocab columns) |
 | 15-minute kanji book | numbered card `043 ⑤`, stroke boxes, word table | `content/kanji/book.toml` |
 
 The lesson is the **MnN chapter**, from the page tab, page number or content, never the file name. If a slide's lesson is unclear, it belongs to the most recent lesson unless its grammar says otherwise. Say which lesson you chose and why.

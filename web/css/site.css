@@ -117,7 +117,7 @@ button:focus-visible, a:focus-visible, .card:focus-visible, input:focus-visible 
 .board .en { font: 600 13px var(--f-body); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
 .sec {
   font: 600 12px var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
-  margin: 20px 0 8px; display: flex; gap: 8px; align-items: center;
+  margin: 20px 0 8px; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center;
 }
 .sec::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .list { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); align-items: start; }
@@ -385,7 +385,9 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .ix-search { flex: 1; margin: 0; }
 .ix-ro { display: none; font: 500 11px var(--f-mono); color: var(--muted); }
 .showro .ix-ro { display: block; }
+.wd-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); }
 .wd-list .word-ja { font-size: 18px; }
+.deck-dl { font: 500 12px var(--f-body); margin-left: 8px; color: var(--accent); white-space: nowrap; }
 .k-tile { position: relative; }
 .k-tile.book { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
 .k-no { position: absolute; top: 6px; left: 8px; font: 500 10px var(--f-mono); background: var(--fg); color: var(--bg); border-radius: 999px; padding: 0 6px; }

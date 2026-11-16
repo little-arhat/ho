@@ -3,12 +3,14 @@
 {% from "_list_tools.html" import list_tools %}
 {% block main %}
 <h1 class="page-title">Words <small lang="ja">単語</small></h1>
-<p class="lead">Every word on the site: each lesson's vocabulary, the book's reference lists, and the words kanji cards and reading texts add.</p>
+<p class="lead">Every word on the site: each lesson's vocabulary, the book's reference lists, and the words kanji cards and reading texts add.
+<a class="btn" href="../anki/{{ all_deck }}" download>All lessons as an Anki deck ↓</a></p>
 {{ list_tools("ho.wd", filters, "Search: 食べます, たべます, tabemasu, eat, есть…") }}
 
 {% for g in groups %}
 <section class="ix-sec">
-  <h2 class="sec">{{ g.kicker }} · {{ tr(g.title) }} <small>{{ g.entries | length }}</small></h2>
+  <h2 class="sec">{{ g.kicker }} · {{ tr(g.title) }} <small>{{ g.entries | length }}</small>
+    {%- if g.id in decks %} <a class="deck-dl" href="../anki/{{ decks[g.id] }}" download>Anki deck ↓</a>{% endif %}</h2>
   <ul class="vocab wd-list">
   {% for e in g.entries %}
     <li class="word" data-s="{{ e | word_search }}" data-f="{{ g.id }}">

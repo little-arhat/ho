@@ -8,6 +8,11 @@ What is on the site now:
 
 - **Lessons** 1–7 — rules in EN / RU / UK, pattern diagrams, examples,
   exercises, teacher's notes and vocabulary.
+- **Words** — every word on the site by lesson, plus the book's reference
+  lists (food, …); search in any language, kana or romaji. Each lesson and
+  list is an Anki deck to download, and so are all of them together; decks
+  are rebuilt on every deploy, and re-importing one updates your cards
+  without losing their reviews.
 - **Kanji** — a card per kanji (readings, stroke order, words), a drill
   both ways, and handwriting practice from meanings, kana or sentences.
 - **Phrase book** — phrases to say and to recognise, by topic, with casual
