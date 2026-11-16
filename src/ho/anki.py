@@ -92,34 +92,63 @@ def decks(groups: Iterable[Group], clip: Callable[[str], str]) -> tuple[Deck, ..
     return tuple(out)
 
 
+# The look of the author's own vocab deck: white on black, a textbook font
+# for Japanese. The fonts are not shipped (the textbook font may not be
+# redistributed): Anki finds them in a collection that already holds them as
+# media (_NotoSansJP-Medium.otf, _HGSKyokashotai.ttf) and falls back to
+# system fonts otherwise.
 _CSS = """
-.card { font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; font-size: 20px; text-align: center;
-        color: #1d1d1f; background: #fbfaf7; line-height: 1.4; }
-.nightMode.card, .night_mode .card { color: #ecebe6; background: #1c1c1e; }
-.jp { font-size: 52px; margin: 12px 0 4px; }
-.ro { font: 15px ui-monospace, monospace; opacity: .6; }
-.tr div { margin: 2px 0; }
-.ru, .uk { font-size: 17px; opacity: .75; }
-.note { font-size: 14px; opacity: .6; margin-top: 6px; }
-.ex { font-size: 24px; margin-top: 16px; }
-.ex-tr { font-size: 15px; opacity: .7; }
-hr#answer { opacity: .3; }
+@font-face { font-family: 'notosans'; src: url('_NotoSansJP-Medium.otf') format('opentype'); }
+@font-face { font-family: 'textbook'; src: url('_HGSKyokashotai.ttf'); }
+
+.card {
+  font-family: 'notosans', system-ui, -apple-system, 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+div { padding-top: 5px; padding-bottom: 5px; }
+
+.japanese { font-family: 'textbook', 'Hiragino Mincho ProN', serif; }
+.word { font-size: 60px; }
+.sentence { font-size: 36px; }
+.romaji { font-size: 14px; color: #999; }
+.english { font-size: 28px; }
+.russian { font-size: 24px; color: #6cb6ff; }
+.ukrainian { font-size: 24px; color: #f2c94c; }
+.context { font-size: 16px; color: #aaa; }
+.sentence-english { font-size: 18px; color: #bbb; }
 """
 
-_MEANING = """<div class="tr"><div class="en">{{EN}}</div><div class="ru">{{RU}}</div><div class="uk">{{UK}}</div></div>
-{{#NoteEN}}<div class="note">{{NoteEN}} · {{NoteRU}} · {{NoteUK}}</div>{{/NoteEN}}"""
-_WORD = """<div class="jp">{{furigana:Furigana}}</div><div class="ro">{{Romaji}}</div>{{Audio}}"""
-_EXAMPLE = """{{#Example}}<div class="ex">{{furigana:Example}}{{ExampleAudio}}</div>
-<div class="ex-tr">{{ExampleEN}}<br>{{ExampleRU}}<br>{{ExampleUK}}</div>{{/Example}}"""
+_MEANING = """
+<div class="english">{{EN}}</div>
+<div class="russian">{{RU}}</div>
+<div class="ukrainian">{{UK}}</div>
+{{#NoteEN}}<div class="context">{{NoteEN}}<br>{{NoteRU}}<br>{{NoteUK}}</div>{{/NoteEN}}
+"""
+
+_ANSWER = """
+<div class="japanese word">{{furigana:Furigana}}</div>
+<div class="romaji">{{Romaji}}</div>
+""" + _MEANING + """
+{{#Example}}
+<div class="japanese sentence">{{furigana:Example}}</div>
+<div class="sentence-english">{{ExampleEN}}<br>{{ExampleRU}}<br>{{ExampleUK}}</div>
+{{/Example}}
+"""
 
 MODEL = genanki.Model(
     _id("model", "word"), "ho word",
     fields=[{"name": f} for f in FIELDS],
     templates=[
-        {"name": "Recognition", "qfmt": '<div class="jp">{{Written}}</div>',
-         "afmt": _WORD + '<hr id="answer">' + _MEANING + _EXAMPLE},
-        {"name": "Production", "qfmt": _MEANING,
-         "afmt": '{{FrontSide}}<hr id="answer">' + _WORD + _EXAMPLE},
+        {"name": "Recognition",
+         "qfmt": """
+<div class="japanese word">{{Written}}</div>
+{{#Example}}<div class="japanese sentence">{{kanji:Example}}</div>{{/Example}}
+""",
+         "afmt": "{{Audio}}{{ExampleAudio}}" + _ANSWER},
+        {"name": "Production", "qfmt": _MEANING, "afmt": "{{Audio}}{{ExampleAudio}}" + _ANSWER},
     ],
     css=_CSS,
 )
