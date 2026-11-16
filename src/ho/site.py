@@ -11,7 +11,17 @@ from typing import Any
 import jinja2
 from markupsafe import Markup, escape
 
-from ho import audio, furigana, kanji, katakana, lessons, phrasebook, reading, romaji, words
+from ho import (
+    audio,
+    furigana,
+    kanji,
+    katakana,
+    lessons,
+    phrasebook,
+    reading,
+    romaji,
+    words,
+)
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
