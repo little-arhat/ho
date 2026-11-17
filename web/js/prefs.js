@@ -4,7 +4,7 @@
 
 export const LANGS = ["en", "ru", "uk", "es"]; // the order of src/ho/fields.py LANGS
 const KEY = "ho.prefs";
-const DEFAULT = { langs: ["en", "ru", "uk", "es"], furigana: true };
+const DEFAULT = { langs: ["en"], furigana: true }; // as <html data-langs> in templates/base.html
 
 // Per-browser storage for small conveniences; null/defaults when unavailable.
 export function stored(key, fallback) {

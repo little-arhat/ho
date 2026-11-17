@@ -29,5 +29,6 @@ Stroke order comes from [KanjiVG](https://kanjivg.tagaini.net) and readings
 are checked against KANJIDIC2 (both CC BY-SA, see `ref/NOTICE`).
 
 The language buttons (EN / RU / UK / ES) and the ふりがな button in the header
-apply to the whole site and are remembered in the browser. The 🔊 buttons play a
+apply to the whole site and are remembered in the browser; at first only
+English shows. The 🔊 buttons play a
 recorded voice (VOICEVOX:No.7), or the device's own Japanese voice.
