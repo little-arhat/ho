@@ -1,140 +1,151 @@
 number = 6
-title = { en = "Doing things, inviting", ru = "Действия и приглашения", uk = "Дії та запрошення" }
+title = { en = "Doing things, inviting", ru = "Действия и приглашения", uk = "Дії та запрошення", es = "Hacer cosas, invitar" }
 grammar = "を・で・ませんか・ましょう・何[なに]か"
 
 [[rule]]
-title = { en = "N を V: the object", ru = "N を V: прямое дополнение", uk = "N を V: прямий додаток" }
+title = { en = "N を V: the object", ru = "N を V: прямое дополнение", uk = "N を V: прямий додаток", es = "N を V: el complemento directo" }
 pattern = [
-  { slot = "person", en = "who", ru = "кто", uk = "хто" },
+  { slot = "person", en = "who", ru = "кто", uk = "хто", es = "quién" },
   { ja = "は" },
-  { slot = "thing", en = "object", ru = "что", uk = "що" },
+  { slot = "thing", en = "object", ru = "что", uk = "що", es = "complemento directo" },
   { ja = "を" },
-  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово", es = "verbo" },
 ]
 explain.en = "を (read o) marks what the action is done to: ごはんを 食べます = I eat a meal. Some verbs take a different particle: 友達に 会います (meet a friend) uses に."
 explain.ru = "を (читается «о») отмечает, на что направлено действие, как винительный падеж: ごはんを 食べます — ем еду. Некоторые глаголы берут другую частицу: 友達に 会います (встретиться с другом) — с に."
 explain.uk = "を (читається «о») позначає, на що спрямована дія, як знахідний відмінок: ごはんを 食べます — їм їжу. Деякі дієслова беруть іншу частку: 友達に 会います (зустрітися з другом) — з に."
+explain.es = "を (se lee o) marca aquello sobre lo que recae la acción: ごはんを 食べます = como. Algunos verbos llevan otra partícula: 友達に 会います (ver a un amigo) usa に."
 example = [
-  { ja = "わたしはジュースを飲[の]みます。", en = "I drink juice.", ru = "Я пью сок.", uk = "Я п'ю сік." },
-  { ja = "毎[まい]朝[あさ]新[しん]聞[ぶん]を読[よ]みます。", en = "I read the newspaper every morning.", ru = "Каждое утро я читаю газету.", uk = "Щоранку я читаю газету." },
+  { ja = "わたしはジュースを飲[の]みます。", en = "I drink juice.", ru = "Я пью сок.", uk = "Я п'ю сік.", es = "Bebo zumo." },
+  { ja = "毎[まい]朝[あさ]新[しん]聞[ぶん]を読[よ]みます。", en = "I read the newspaper every morning.", ru = "Каждое утро я читаю газету.", uk = "Щоранку я читаю газету.", es = "Leo el periódico cada mañana." },
 ]
 
 [[rule]]
-title = { en = "N を します: do, play", ru = "N を します: делать, играть", uk = "N を します: робити, грати" }
+title = { en = "N を します: do, play", ru = "N を します: делать, играть", uk = "N を します: робити, грати", es = "N を します: hacer, jugar" }
 explain.en = "します (do) makes verbs from many nouns: テニスを します = play tennis, 宿題を します = do homework, お花見を します = go cherry-blossom viewing. Ask what someone does with 何を しますか."
 explain.ru = "します (делать) образует глаголы от многих существительных: テニスを します — играть в теннис, 宿題を します — делать уроки, お花見を します — любоваться сакурой. Вопрос: 何を しますか — что делаете?"
 explain.uk = "します (робити) утворює дієслова від багатьох іменників: テニスを します — грати в теніс, 宿題を します — робити уроки, お花見を します — милуватися сакурою. Питання: 何を しますか — що робите?"
+explain.es = "します (hacer) forma verbos a partir de muchos sustantivos: テニスを します = jugar al tenis, 宿題を します = hacer los deberes, お花見を します = ir a ver los cerezos en flor. Para preguntar qué hace alguien: 何を しますか."
 example = [
-  { ja = "日[にち]曜[よう]日[び]何[なに]をしますか。", en = "What do you do on Sundays?", ru = "Что вы делаете в воскресенье?", uk = "Що ви робите в неділю?" },
-  { ja = "テニスをします。", en = "I play tennis.", ru = "Играю в теннис.", uk = "Граю в теніс." },
+  { ja = "日[にち]曜[よう]日[び]何[なに]をしますか。", en = "What do you do on Sundays?", ru = "Что вы делаете в воскресенье?", uk = "Що ви робите в неділю?", es = "¿Qué haces los domingos?" },
+  { ja = "テニスをします。", en = "I play tennis.", ru = "Играю в теннис.", uk = "Граю в теніс.", es = "Juego al tenis." },
 ]
 
 [[rule]]
-title = { en = "Place で V: where the action happens", ru = "Место で V: где происходит действие", uk = "Місце で V: де відбувається дія" }
+title = { en = "Place で V: where the action happens", ru = "Место で V: где происходит действие", uk = "Місце で V: де відбувається дія", es = "Lugar で V: dónde ocurre la acción" }
 pattern = [
-  { slot = "place", en = "place", ru = "место", uk = "місце" },
+  { slot = "place", en = "place", ru = "место", uk = "місце", es = "lugar" },
   { ja = "で" },
-  { slot = "thing", en = "object", ru = "что", uk = "що" },
+  { slot = "thing", en = "object", ru = "что", uk = "що", es = "complemento directo" },
   { ja = "を" },
-  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово", es = "verbo" },
 ]
 explain.en = "で after a place marks where an action takes place: デパートで 紅茶を 買いました = I bought tea at the department store. Do not confuse with へ (direction of movement): デパートへ 行きます = I go to the department store."
 explain.ru = "で после места отмечает, где происходит действие: デパートで 紅茶を 買いました — я купил чай в универмаге. Не путайте с へ (направление движения): デパートへ 行きます — иду в универмаг."
 explain.uk = "で після місця позначає, де відбувається дія: デパートで 紅茶を 買いました — я купив чай в універмазі. Не плутайте з へ (напрямок руху): デパートへ 行きます — іду до універмагу."
+explain.es = "で después de un lugar marca dónde ocurre una acción: デパートで 紅茶を 買いました = compré té en los grandes almacenes. No lo confundas con へ (dirección del movimiento): デパートへ 行きます = voy a los grandes almacenes."
 example = [
-  { ja = "デパートで紅[こう]茶[ちゃ]を買[か]いました。", en = "I bought black tea at the department store.", ru = "Я купил чай в универмаге.", uk = "Я купив чай в універмазі." },
-  { ja = "どこで紅[こう]茶[ちゃ]を買[か]いましたか。", en = "Where did you buy the tea?", ru = "Где вы купили чай?", uk = "Де ви купили чай?" },
+  { ja = "デパートで紅[こう]茶[ちゃ]を買[か]いました。", en = "I bought black tea at the department store.", ru = "Я купил чай в универмаге.", uk = "Я купив чай в універмазі.", es = "Compré té negro en los grandes almacenes." },
+  { ja = "どこで紅[こう]茶[ちゃ]を買[か]いましたか。", en = "Where did you buy the tea?", ru = "Где вы купили чай?", uk = "Де ви купили чай?", es = "¿Dónde compraste el té?" },
 ]
 
 [[rule]]
-title = { en = "V ませんか: won't you…? (inviting)", ru = "V ませんか: не хотите ли…? (приглашение)", uk = "V ませんか: чи не хочете…? (запрошення)" }
+title = { en = "V ませんか: won't you…? (inviting)", ru = "V ませんか: не хотите ли…? (приглашение)", uk = "V ませんか: чи не хочете…? (запрошення)", es = "V ませんか: ¿por qué no…? (invitar)" }
 explain.en = "The negative question ～ませんか is a polite invitation: いっしょに 京都へ 行きませんか = won't you come to Kyoto with me? It is softer than a direct question, because it leaves room to say no."
 explain.ru = "Отрицательный вопрос ～ませんか — вежливое приглашение: いっしょに 京都へ 行きませんか — не хотите поехать со мной в Киото? Это мягче прямого вопроса: оставляет место для отказа, как русское «не хотите ли…»."
 explain.uk = "Заперечне питання ～ませんか — ввічливе запрошення: いっしょに 京都へ 行きませんか — чи не хочете поїхати зі мною до Кіото? Це м'якше за пряме питання: лишає місце для відмови, як українське «чи не хотіли б…»."
+explain.es = "La pregunta negativa ～ませんか es una invitación cortés: いっしょに 京都へ 行きませんか = ¿por qué no vienes a Kioto conmigo? Es más suave que una pregunta directa, porque deja sitio para decir que no."
 example = [
-  { ja = "いっしょに京[きょう]都[と]へ行[い]きませんか。", en = "Won't you come to Kyoto with me?", ru = "Не хотите поехать со мной в Киото?", uk = "Чи не хочете поїхати зі мною до Кіото?" },
-  { ja = "ええ、いいですね。", en = "Yes, that sounds good.", ru = "Да, с удовольствием.", uk = "Так, залюбки." },
+  { ja = "いっしょに京[きょう]都[と]へ行[い]きませんか。", en = "Won't you come to Kyoto with me?", ru = "Не хотите поехать со мной в Киото?", uk = "Чи не хочете поїхати зі мною до Кіото?", es = "¿Por qué no vienes a Kioto conmigo?" },
+  { ja = "ええ、いいですね。", en = "Yes, that sounds good.", ru = "Да, с удовольствием.", uk = "Так, залюбки.", es = "Sí, buena idea." },
 ]
 
 [[rule]]
-title = { en = "V ましょう: let's…", ru = "V ましょう: давайте…", uk = "V ましょう: давайте…" }
+title = { en = "V ましょう: let's…", ru = "V ましょう: давайте…", uk = "V ましょう: давайте…", es = "V ましょう: vamos a…" }
 explain.en = "～ましょう = let's do it. It answers an invitation or makes a suggestion when the other person is already on board: ちょっと 休みましょう = let's take a short break."
 explain.ru = "～ましょう — «давайте сделаем». Отвечает на приглашение или предлагает, когда собеседник уже согласен: ちょっと 休みましょう — давайте немного отдохнём."
 explain.uk = "～ましょう — «давайте зробимо». Відповідає на запрошення або пропонує, коли співрозмовник уже згоден: ちょっと 休みましょう — давайте трохи відпочинемо."
+explain.es = "～ましょう = hagámoslo. Responde a una invitación o propone algo cuando el otro ya está de acuerdo: ちょっと 休みましょう = descansemos un poco."
 example = [
-  { ja = "ちょっと休[やす]みましょう。", en = "Let's take a short break.", ru = "Давайте немного отдохнём.", uk = "Давайте трохи відпочинемо." },
-  { ja = "どこで会[あ]いましょうか。", en = "Where shall we meet?", ru = "Где встретимся?", uk = "Де зустрінемося?" },
+  { ja = "ちょっと休[やす]みましょう。", en = "Let's take a short break.", ru = "Давайте немного отдохнём.", uk = "Давайте трохи відпочинемо.", es = "Descansemos un poco." },
+  { ja = "どこで会[あ]いましょうか。", en = "Where shall we meet?", ru = "Где встретимся?", uk = "Де зустрінемося?", es = "¿Dónde quedamos?" },
 ]
 
 [[rule]]
-title = { en = "N でも V ませんか / V ましょうか: softer invitations, offers", ru = "N でも V ませんか / V ましょうか: мягкое приглашение, предложение помощи", uk = "N でも V ませんか / V ましょうか: м'яке запрошення, пропозиція допомоги" }
+title = { en = "N でも V ませんか / V ましょうか: softer invitations, offers", ru = "N でも V ませんか / V ましょうか: мягкое приглашение, предложение помощи", uk = "N でも V ませんか / V ましょうか: м'яке запрошення, пропозиція допомоги", es = "N でも V ませんか / V ましょうか: invitaciones más suaves, ofrecimientos" }
 pattern = [
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "でも" },
-  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово", es = "verbo" },
   { ja = "ませんか" },
 ]
 explain.en = "でも after a noun in an invitation means \"…or something\": it keeps the offer light (コーヒーでも 飲みませんか = how about a coffee or something?). でも replaces を. ～ましょうか with か offers to do something for the other person: 消しましょうか = shall I turn it off?"
 explain.ru = "でも после существительного в приглашении значит «…или что-нибудь такое» и делает его ненавязчивым (コーヒーでも 飲みませんか — не выпить ли кофе или чего-нибудь?). でも заменяет を. ～ましょうか с か предлагает что-то сделать для собеседника: 消しましょうか — выключить?"
 explain.uk = "でも після іменника в запрошенні означає «…чи щось таке» і робить його ненав'язливим (コーヒーでも 飲みませんか — може, вип'ємо кави чи чогось?). でも заміняє を. ～ましょうか з か пропонує щось зробити для співрозмовника: 消しましょうか — вимкнути?"
+explain.es = "でも después de un sustantivo en una invitación significa «…o algo»: hace la oferta más ligera (コーヒーでも 飲みませんか = ¿tomamos un café o algo?). でも sustituye a を. ～ましょうか con か ofrece hacer algo por el otro: 消しましょうか = ¿la apago?"
 example = [
-  { ja = "コーヒーでも飲[の]みませんか。", en = "How about a coffee or something?", ru = "Не выпить ли кофе или чего-нибудь?", uk = "Може, вип'ємо кави чи чогось?" },
-  { ja = "すしでも食[た]べませんか。", en = "How about some sushi or something?", ru = "Не поесть ли суши или чего-нибудь?", uk = "Може, поїмо суші чи щось таке?" },
-  { ja = "テレビを消[け]しましょうか。", en = "Shall I turn off the TV?", ru = "Выключить телевизор?", uk = "Вимкнути телевізор?" },
+  { ja = "コーヒーでも飲[の]みませんか。", en = "How about a coffee or something?", ru = "Не выпить ли кофе или чего-нибудь?", uk = "Може, вип'ємо кави чи чогось?", es = "¿Tomamos un café o algo?" },
+  { ja = "すしでも食[た]べませんか。", en = "How about some sushi or something?", ru = "Не поесть ли суши или чего-нибудь?", uk = "Може, поїмо суші чи щось таке?", es = "¿Comemos sushi o algo?" },
+  { ja = "テレビを消[け]しましょうか。", en = "Shall I turn off the TV?", ru = "Выключить телевизор?", uk = "Вимкнути телевізор?", es = "¿Apago la tele?" },
 ]
 
 [[rule]]
-title = { en = "Order of events: 先に… 次に…, それから", ru = "Порядок действий: 先に… 次に…, それから", uk = "Порядок дій: 先に… 次に…, それから" }
+title = { en = "Order of events: 先に… 次に…, それから", ru = "Порядок действий: 先に… 次に…, それから", uk = "Порядок дій: 先に… 次に…, それから", es = "Orden de los hechos: 先に… 次に…, それから" }
 explain.en = "先に (さきに) = first, 次に (つぎに) = next, それから = and then, after that. Don't mix it up with これから = from now on, starting now."
 explain.ru = "先に (さきに) — сначала, 次に (つぎに) — затем, それから — а потом, после этого. Не путайте с これから — с этого момента, сейчас начнём."
 explain.uk = "先に (さきに) — спершу, 次に (つぎに) — далі, それから — а потім, після цього. Не плутайте з これから — відтепер, зараз почнемо."
+explain.es = "先に (さきに) = primero, 次に (つぎに) = después, それから = y luego, después de eso. No lo confundas con これから = a partir de ahora."
 example = [
-  { ja = "先[さき]に宿[しゅく]題[だい]をします。次[つぎ]に、晩[ばん]ご飯[はん]を食[た]べます。", en = "First I do my homework. Next, I have dinner.", ru = "Сначала делаю домашнее задание. Затем ужинаю.", uk = "Спершу роблю домашнє завдання. Далі вечеряю." },
-  { ja = "それからCDを聞[き]きます。", en = "After that I listen to a CD.", ru = "А потом слушаю CD.", uk = "А потім слухаю CD." },
+  { ja = "先[さき]に宿[しゅく]題[だい]をします。次[つぎ]に、晩[ばん]ご飯[はん]を食[た]べます。", en = "First I do my homework. Next, I have dinner.", ru = "Сначала делаю домашнее задание. Затем ужинаю.", uk = "Спершу роблю домашнє завдання. Далі вечеряю.", es = "Primero hago los deberes. Después ceno." },
+  { ja = "それからCDを聞[き]きます。", en = "After that I listen to a CD.", ru = "А потом слушаю CD.", uk = "А потім слухаю CD.", es = "Luego escucho un CD." },
 ]
 
 [[rule]]
-title = { en = "N の 後で: after N", ru = "N の 後で: после N", uk = "N の 後で: після N" }
+title = { en = "N の 後で: after N", ru = "N の 後で: после N", uk = "N の 後で: після N", es = "N の 後で: después de N" }
 pattern = [
-  { slot = "event", en = "event", ru = "событие", uk = "подія" },
+  { slot = "event", en = "event", ru = "событие", uk = "подія", es = "evento" },
   { ja = "の後[あと]で" },
-  { slot = "action", en = "what you do", ru = "что делаете", uk = "що робите" },
+  { slot = "action", en = "what you do", ru = "что делаете", uk = "що робите", es = "lo que haces" },
 ]
 explain.en = "後で (あとで) = later. After an event noun with の it means \"after\": 授業の 後で = after class, 食事の 後で = after the meal. The whole phrase sits where a time word would: 授業の 後で 散歩します = after class I take a walk."
 explain.ru = "後で (あとで) — потом. После существительного-события с の — «после»: 授業の 後で — после занятия, 食事の 後で — после еды. Вся группа стоит там, где стояло бы слово времени: 授業の 後で 散歩します — после занятия гуляю."
 explain.uk = "後で (あとで) — потім. Після іменника-події з の — «після»: 授業の 後で — після заняття, 食事の 後で — після їжі. Уся група стоїть там, де стояло б слово часу: 授業の 後で 散歩します — після заняття гуляю."
+explain.es = "後で (あとで) = luego. Tras un sustantivo de evento con の significa «después de»: 授業の 後で = después de clase, 食事の 後で = después de comer. Toda la expresión va donde iría una palabra de tiempo: 授業の 後で 散歩します = después de clase doy un paseo."
 example = [
-  { ja = "日[に]本[ほん]語[ご]の授[じゅ]業[ぎょう]の後[あと]で、何[なに]をしますか。", en = "What do you do after the Japanese class?", ru = "Что вы делаете после урока японского?", uk = "Що ви робите після уроку японської?" },
-  { ja = "授[じゅ]業[ぎょう]の後[あと]で、公[こう]園[えん]を散[さん]歩[ぽ]します。", en = "After class I take a walk in the park.", ru = "После занятия я гуляю в парке.", uk = "Після заняття я гуляю в парку." },
-  { ja = "後[あと]で質[しつ]問[もん]します。", en = "I'll ask a question later.", ru = "Я задам вопрос потом.", uk = "Я поставлю питання потім." },
+  { ja = "日[に]本[ほん]語[ご]の授[じゅ]業[ぎょう]の後[あと]で、何[なに]をしますか。", en = "What do you do after the Japanese class?", ru = "Что вы делаете после урока японского?", uk = "Що ви робите після уроку японської?", es = "¿Qué haces después de la clase de japonés?" },
+  { ja = "授[じゅ]業[ぎょう]の後[あと]で、公[こう]園[えん]を散[さん]歩[ぽ]します。", en = "After class I take a walk in the park.", ru = "После занятия я гуляю в парке.", uk = "Після заняття я гуляю в парку.", es = "Después de clase doy un paseo por el parque." },
+  { ja = "後[あと]で質[しつ]問[もん]します。", en = "I'll ask a question later.", ru = "Я задам вопрос потом.", uk = "Я поставлю питання потім.", es = "Luego haré una pregunta." },
 ]
 
 [[rule]]
-title = { en = "Something, somewhere, someone: 何か・どこか・誰か", ru = "Что-то, где-то, кто-то: 何か・どこか・誰か", uk = "Щось, десь, хтось: 何か・どこか・誰か" }
+title = { en = "Something, somewhere, someone: 何か・どこか・誰か", ru = "Что-то, где-то, кто-то: 何か・どこか・誰か", uk = "Щось, десь, хтось: 何か・どこか・誰か", es = "Algo, algún sitio, alguien: 何か・どこか・誰か" }
 explain.en = "A question word + か makes an indefinite word: 何か = something / anything, どこか = somewhere / anywhere, 誰か = someone / anyone. Compare question word + も + negative (lesson 5): 何も しません = I do nothing."
 explain.ru = "Вопросительное слово + か даёт неопределённое слово: 何か — что-то / что-нибудь, どこか — где-то / куда-нибудь, 誰か — кто-то / кто-нибудь. Сравните: вопр. слово + も + отрицание (урок 5): 何も しません — ничего не делаю."
 explain.uk = "Питальне слово + か дає неозначене слово: 何か — щось / що-небудь, どこか — десь / кудись, 誰か — хтось / хто-небудь. Порівняйте: пит. слово + も + заперечення (урок 5): 何も しません — нічого не роблю."
+explain.es = "Una palabra interrogativa + か forma un indefinido: 何か = algo, どこか = algún sitio, 誰か = alguien. Compáralo con palabra interrogativa + も + negativo (lección 5): 何も しません = no hago nada."
 example = [
-  { ja = "いっしょに何[なに]かしませんか。", en = "Shall we do something together?", ru = "Давайте что-нибудь сделаем вместе?", uk = "Давайте щось зробимо разом?" },
-  { ja = "一[いっ]緒[しょ]にどこか行[い]きませんか。", en = "Shall we go somewhere together?", ru = "Не хотите куда-нибудь сходить вместе?", uk = "Чи не хочете кудись сходити разом?" },
-  { ja = "誰[だれ]かに会[あ]いたいです。", en = "I want to meet someone.", ru = "Я хочу с кем-нибудь встретиться.", uk = "Я хочу з кимось зустрітися." },
+  { ja = "いっしょに何[なに]かしませんか。", en = "Shall we do something together?", ru = "Давайте что-нибудь сделаем вместе?", uk = "Давайте щось зробимо разом?", es = "¿Hacemos algo juntos?" },
+  { ja = "一[いっ]緒[しょ]にどこか行[い]きませんか。", en = "Shall we go somewhere together?", ru = "Не хотите куда-нибудь сходить вместе?", uk = "Чи не хочете кудись сходити разом?", es = "¿Vamos a algún sitio juntos?" },
+  { ja = "誰[だれ]かに会[あ]いたいです。", en = "I want to meet someone.", ru = "Я хочу с кем-нибудь встретиться.", uk = "Я хочу з кимось зустрітися.", es = "Quiero ver a alguien." },
 ]
 
 [[rule]]
-title = { en = "How often: いつも, よく, 時々, あまり, めったに, 一度も", ru = "Как часто: いつも, よく, 時々, あまり, めったに, 一度も", uk = "Як часто: いつも, よく, 時々, あまり, めったに, 一度も" }
+title = { en = "How often: いつも, よく, 時々, あまり, めったに, 一度も", ru = "Как часто: いつも, よく, 時々, あまり, めったに, 一度も", uk = "Як часто: いつも, よく, 時々, あまり, めったに, 一度も", es = "Con qué frecuencia: いつも, よく, 時々, あまり, めったに, 一度も" }
 explain.en = "From always to never: いつも (always), よく (often), 時々 (sometimes) go with a positive verb. あまり (not much), めったに (rarely), 一度も (not once) need a negative verb: めったに 飲みません."
 explain.ru = "От «всегда» до «никогда»: いつも (всегда), よく (часто), 時々 (иногда) — с утвердительным глаголом. あまり (не очень), めったに (редко), 一度も (ни разу) — только с отрицательным: めったに 飲みません."
 explain.uk = "Від «завжди» до «ніколи»: いつも (завжди), よく (часто), 時々 (іноді) — зі ствердним дієсловом. あまり (не дуже), めったに (рідко), 一度も (жодного разу) — лише із заперечним: めったに 飲みません."
+explain.es = "De siempre a nunca: いつも (siempre), よく (a menudo), 時々 (a veces) van con verbo en afirmativo. あまり (no mucho), めったに (casi nunca), 一度も (ni una vez) necesitan verbo en negativo: めったに 飲みません."
 example = [
-  { ja = "時[とき]々[どき]お酒[さけ]を飲[の]みます。", en = "I sometimes drink alcohol.", ru = "Иногда я пью алкоголь.", uk = "Іноді я п'ю алкоголь." },
-  { ja = "めったにテレビを見[み]ません。", en = "I rarely watch TV.", ru = "Я редко смотрю телевизор.", uk = "Я рідко дивлюся телевізор." },
+  { ja = "時[とき]々[どき]お酒[さけ]を飲[の]みます。", en = "I sometimes drink alcohol.", ru = "Иногда я пью алкоголь.", uk = "Іноді я п'ю алкоголь.", es = "A veces bebo alcohol." },
+  { ja = "めったにテレビを見[み]ません。", en = "I rarely watch TV.", ru = "Я редко смотрю телевизор.", uk = "Я рідко дивлюся телевізор.", es = "Casi nunca veo la tele." },
 ]
 
 [[rule]]
-title = { en = "Verb groups (ます form)", ru = "Группы глаголов (форма ます)", uk = "Групи дієслів (форма ます)" }
+title = { en = "Verb groups (ます form)", ru = "Группы глаголов (форма ます)", uk = "Групи дієслів (форма ます)", es = "Grupos verbales (forma ます)" }
 explain.en = "Look at the sound just before ます. Group I: an い-row sound (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Group II: an え-row sound: たべます, ねます. A few group II verbs have an い-row sound and must be learned: みます, おきます, あびます, かります, きます (wear), できます, おります, います, たります. Group III: only します (and noun + します: べんきょうします) and きます (come)."
 explain.ru = "Смотрите на звук перед ます. Группа I: звук ряда い (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Группа II: звук ряда え: たべます, ねます. Некоторые глаголы группы II имеют звук ряда い, их надо запомнить: みます, おきます, あびます, かります, きます (надевать), できます, おります, います, たります. Группа III: только します (и сущ. + します: べんきょうします) и きます (приходить)."
 explain.uk = "Дивіться на звук перед ます. Група I: звук ряду い (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Група II: звук ряду え: たべます, ねます. Деякі дієслова групи II мають звук ряду い, їх треба запам'ятати: みます, おきます, あびます, かります, きます (вдягати), できます, おります, います, たります. Група III: лише します (та імен. + します: べんきょうします) і きます (приходити)."
+explain.es = "Mira el sonido justo antes de ます. Grupo I: un sonido de la fila い (い, ち, り, み, に, び, き, ぎ, し): すいます, たちます, かえります, のみます, よびます, かきます, いそぎます, はなします. Grupo II: un sonido de la fila え: たべます, ねます. Unos pocos verbos del grupo II tienen sonido de la fila い y hay que aprenderlos: みます, おきます, あびます, かります, きます (ponerse), できます, おります, います, たります. Grupo III: solo します (y sustantivo + します: べんきょうします) y きます (venir)."
 table = { head = ["group", "before ます", "examples"], rows = [
   ["I", "い-row: い ち り み に び き ぎ し", "すいます、かえります、のみます、かきます、はなします"],
   ["II", "え-row (+ exceptions)", "たべます、ねます、みます、おきます、います"],
@@ -149,6 +160,7 @@ answer = "を"
 en = "I drink juice."
 ru = "Я пью сок."
 uk = "Я п'ю сік."
+es = "Bebo zumo."
 
 [[exercise]]
 kind = "choice"
@@ -158,6 +170,7 @@ answer = "で"
 en = "I bought black tea at the department store."
 ru = "Я купил чай в универмаге."
 uk = "Я купив чай в універмазі."
+es = "Compré té negro en los grandes almacenes."
 
 [[exercise]]
 kind = "choice"
@@ -167,6 +180,7 @@ answer = "に"
 en = "I meet a friend."
 ru = "Я встречаюсь с другом."
 uk = "Я зустрічаюся з другом."
+es = "Veo a un amigo."
 
 [[exercise]]
 kind = "choice"
@@ -176,6 +190,7 @@ answer = "行[い]きません"
 en = "Won't you come to Kyoto with me?"
 ru = "Не хотите поехать со мной в Киото?"
 uk = "Чи не хочете поїхати зі мною до Кіото?"
+es = "¿Por qué no vienes a Kioto conmigo?"
 
 [[exercise]]
 kind = "choice"
@@ -185,6 +200,7 @@ answer = "見[み]ません"
 en = "I rarely watch TV."
 ru = "Я редко смотрю телевизор."
 uk = "Я рідко дивлюся телевізор."
+es = "Casi nunca veo la tele."
 
 [[exercise]]
 kind = "choice"
@@ -194,6 +210,7 @@ answer = "何[なに]"
 en = "Shall we eat something?"
 ru = "Давайте что-нибудь съедим?"
 uk = "Давайте щось з'їмо?"
+es = "¿Comemos algo?"
 
 [[exercise]]
 kind = "choice"
@@ -203,6 +220,7 @@ answer = "II"
 en = "たべます (eat) is a group II verb."
 ru = "たべます (есть) — глагол группы II."
 uk = "たべます (їсти) — дієслово групи II."
+es = "たべます (comer) es un verbo del grupo II."
 
 [[exercise]]
 kind = "reorder"
@@ -210,6 +228,7 @@ parts = ["デパートで", "紅[こう]茶[ちゃ]を", "買[か]いました�
 en = "I bought black tea at the department store."
 ru = "Я купил чай в универмаге."
 uk = "Я купив чай в універмазі."
+es = "Compré té negro en los grandes almacenes."
 
 [[exercise]]
 kind = "choice"
@@ -219,6 +238,7 @@ answer = "でも"
 en = "How about a coffee or something?"
 ru = "Не выпить ли кофе или чего-нибудь?"
 uk = "Може, вип'ємо кави чи чогось?"
+es = "¿Tomamos un café o algo?"
 
 [[exercise]]
 kind = "choice"
@@ -228,6 +248,7 @@ answer = "それから"
 en = "I do my homework. After that, I listen to a CD."
 ru = "Делаю домашнее задание. Потом слушаю CD."
 uk = "Роблю домашнє завдання. Потім слухаю CD."
+es = "Hago los deberes. Luego escucho un CD."
 
 [[exercise]]
 kind = "choice"
@@ -237,6 +258,7 @@ answer = "の"
 en = "After class I take a walk."
 ru = "После занятия я гуляю."
 uk = "Після заняття я гуляю."
+es = "Después de clase doy un paseo."
 
 [[exercise]]
 kind = "reorder"
@@ -244,6 +266,7 @@ parts = ["日[に]本[ほん]語[ご]の授[じゅ]業[ぎょう]の", "後[あ�
 en = "What do you do after the Japanese class?"
 ru = "Что вы делаете после урока японского?"
 uk = "Що ви робите після уроку японської?"
+es = "¿Qué haces después de la clase de japonés?"
 
 [[note]]
 text = """

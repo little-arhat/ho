@@ -1,6 +1,6 @@
-{# Learner-facing text in three languages; CSS shows the selected ones. #}
+{# Learner-facing text in every language; CSS shows the selected ones. #}
 {% macro tr(t, tag="span", cls="") -%}
-{%- for l in ["en", "ru", "uk"] -%}
+{%- for l in LANGS -%}
 <{{ tag }} class="tl tr-{{ l }} {{ cls }}" data-l="{{ l | upper }}">{{ t[l] | ruby }}</{{ tag }}>
 {%- endfor -%}
 {%- endmacro %}

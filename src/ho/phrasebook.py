@@ -4,14 +4,14 @@ from __future__ import annotations
 
 import re
 import tomllib
+from collections.abc import Callable
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from collections.abc import Callable
 from typing import Any, Literal
 
 from ho import furigana
 from ho.errors import ContentError
-from ho.fields import check_alphabets
+from ho.fields import LANGS, check_alphabets
 from ho.kana import romaji
 from ho.romaji import romanize, speech
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
@@ -37,6 +37,7 @@ class Line:
     en: str
     ru: str
     uk: str
+    es: str
 
 
 @dataclass(frozen=True)
@@ -49,6 +50,7 @@ class Phrase:
     en: str = ""
     ru: str = ""
     uk: str = ""
+    es: str = ""
     note: str = ""
     level: str = ""
     answers: tuple[Line, ...] = ()
@@ -67,14 +69,18 @@ class Phrasebook:
     verbs: tuple[Verb, ...]
 
 
+def _langs(x: Line | Phrase) -> dict[str, str]:
+    return {k: getattr(x, k) for k in LANGS}
+
+
 def _line(row: dict[str, Any], where: str) -> Line:
     try:
         line = Line(**row)
     except TypeError as e:
         raise ContentError(f"{where}: {e}") from e
-    if not all((line.ja, line.en, line.ru, line.uk)):
-        raise ContentError(f"{where}: ja, en, ru and uk are all required")
-    check_alphabets(line.ru, line.uk, where)
+    if not all((line.ja, *_langs(line).values())):
+        raise ContentError(f"{where}: ja, {', '.join(LANGS)} are all required")
+    check_alphabets(_langs(line), where)
     return line
 
 
@@ -100,13 +106,13 @@ def _phrase(row: dict[str, Any], topics: set[str], where: str) -> Phrase:
         raise ContentError(f"{where}: {e}") from e
     if p.topic not in topics:
         raise ContentError(f"{where}: unknown topic {p.topic!r}")
-    check_alphabets(p.ru, p.uk, where)
+    check_alphabets(_langs(p), where)
     if p.kind not in ("say", "hear", "tip"):
         raise ContentError(f"{where}: unknown kind {p.kind!r}")
     if p.kind == "tip" and not p.note:
         raise ContentError(f"{where}: a tip needs a note")
-    if p.kind != "tip" and not all((p.ja, p.en, p.ru, p.uk)):
-        raise ContentError(f"{where}: ja, en, ru and uk are all required")
+    if p.kind != "tip" and not all((p.ja, *_langs(p).values())):
+        raise ContentError(f"{where}: ja, {', '.join(LANGS)} are all required")
     for text in (*p.japanese(), p.note):
         try:
             furigana.parse(text)
@@ -149,7 +155,7 @@ def _verb_view(v: Verb) -> dict[str, Any]:
 
 def _line_view(line: Line, clip: Callable[[str], str]) -> dict[str, Any]:
     return {"ja": furigana.segments_json(line.ja), "ro": romanize(line.ja), "say": speech(line.ja), "clip": clip(line.ja),
-            "en": line.en, "ru": line.ru, "uk": line.uk}
+            **_langs(line)}
 
 
 def _words(texts: tuple[str, ...]) -> list[list[str]]:
@@ -176,8 +182,8 @@ def view(pb: Phrasebook, clip: Callable[[str], str]) -> dict[str, Any]:
             ids.append(verb_index[v.dict])
         lines = p.answers + p.examples
         search = [*(furigana.plain(t) for t in jp), *(furigana.reading(t) for t in jp),
-                  p.en, p.ru, p.uk, furigana.plain(p.note),
-                  *(x for a in lines for x in (a.en, a.ru, a.uk))]
+                  *_langs(p).values(), furigana.plain(p.note),
+                  *(x for a in lines for x in _langs(a).values())]
         phrases.append({
             "topic": p.topic,
             "section": p.section,
@@ -188,7 +194,7 @@ def view(pb: Phrasebook, clip: Callable[[str], str]) -> dict[str, Any]:
             "clip": clip(p.ja),
             "casual": furigana.segments_json(p.casual),
             "casual_ro": romanize(p.casual),
-            "en": p.en, "ru": p.ru, "uk": p.uk,
+            **_langs(p),
             "note": furigana.segments_json(p.note),
             "level": p.level,
             "answers": [_line_view(a, clip) for a in p.answers],

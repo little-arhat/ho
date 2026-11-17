@@ -45,7 +45,7 @@ def test_search_index_finds_by_writing_kana_romaji_and_meaning(content):
 
 
 def test_topic_needs_its_word_list(tmp_path):
-    (tmp_path / "x.toml").write_text('title = { en = "X", ru = "Х", uk = "Х" }\nlesson = 1\n')
+    (tmp_path / "x.toml").write_text('title = { en = "X", ru = "Х", uk = "Х", es = "X" }\nlesson = 1\n')
     with pytest.raises(ContentError, match="x.csv"):
         words.load_topics(tmp_path, [1])
 
@@ -57,7 +57,7 @@ def test_word_list_needs_its_topic(tmp_path):
 
 
 def test_topic_lesson_must_exist(tmp_path):
-    (tmp_path / "x.toml").write_text('title = { en = "X", ru = "Х", uk = "Х" }\nlesson = 9\n')
+    (tmp_path / "x.toml").write_text('title = { en = "X", ru = "Х", uk = "Х", es = "X" }\nlesson = 9\n')
     (tmp_path / "x.csv").write_text(HEADER)
     with pytest.raises(ContentError, match="lesson 9"):
         words.load_topics(tmp_path, [1])

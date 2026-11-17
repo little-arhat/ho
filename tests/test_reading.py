@@ -9,11 +9,11 @@ from ho.reading import load_reading, load_readings
 ROOT = Path(__file__).parent.parent
 LESSONS = load_lessons(ROOT / "content/lessons")
 
-HEAD = 'lesson = 1\ntitle = { en = "t", ru = "т", uk = "т" }\nscene = "s"\n'
+HEAD = 'lesson = 1\ntitle = { en = "t", ru = "т", uk = "т", es = "t" }\nscene = "s"\n'
 
 
 def text(tmp_path, paragraphs, new="", name="01-t.toml"):
-    body = HEAD + "".join(f'[[paragraph]]\nja = "{p}"\nen = "e"\nru = "р"\nuk = "у"\n' for p in paragraphs) + new
+    body = HEAD + "".join(f'[[paragraph]]\nja = "{p}"\nen = "e"\nru = "р"\nuk = "у"\nes = "s"\n' for p in paragraphs) + new
     f = tmp_path / name
     f.write_text(body)
     return f
@@ -48,13 +48,13 @@ def test_later_lesson_word_is_an_error(tmp_path):
 
 
 def test_declared_new_word(tmp_path):
-    new = '[[new]]\nja = "京[きょう]都[と]"\nen = "Kyoto"\nru = "Киото"\nuk = "Кіото"\n'
+    new = '[[new]]\nja = "京[きょう]都[と]"\nen = "Kyoto"\nru = "Киото"\nuk = "Кіото"\nes = "Kioto"\n'
     r = load_reading(text(tmp_path, ["京[きょう]都[と]|です"], new), LESSONS)
     assert r.words[0].lesson is None
 
 
 def test_unused_new_word_is_an_error(tmp_path):
-    new = '[[new]]\nja = "京[きょう]都[と]"\nen = "Kyoto"\nru = "Киото"\nuk = "Кіото"\n'
+    new = '[[new]]\nja = "京[きょう]都[と]"\nen = "Kyoto"\nru = "Киото"\nuk = "Кіото"\nes = "Kioto"\n'
     with pytest.raises(ContentError, match="never used"):
         load_reading(text(tmp_path, ["私[わたし]|です"], new), LESSONS)
 

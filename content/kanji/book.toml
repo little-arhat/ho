@@ -10,929 +10,929 @@ char = "一"
 number = 1
 level = 5
 readings = ["ひと", "ひと-つ", "ひと-り*", "イチ", "イツ"]
-meaning = { en = "one", ru = "один", uk = "один" }
+meaning = { en = "one", ru = "один", uk = "один", es = "uno" }
 
 [[kanji]]
 char = "二"
 number = 2
 level = 5
 readings = ["ふた", "ふた-つ", "ふた-り*", "ニ"]
-meaning = { en = "two", ru = "два", uk = "два" }
+meaning = { en = "two", ru = "два", uk = "два", es = "dos" }
 
 [[kanji]]
 char = "三"
 number = 3
 level = 5
 readings = ["み", "みっ-つ", "サン"]
-meaning = { en = "three", ru = "три", uk = "три" }
+meaning = { en = "three", ru = "три", uk = "три", es = "tres" }
 
 [[kanji]]
 char = "四"
 number = 4
 level = 5
 readings = ["よ", "よっ-つ", "よん", "シ"]
-meaning = { en = "four", ru = "четыре", uk = "чотири" }
+meaning = { en = "four", ru = "четыре", uk = "чотири", es = "cuatro" }
 
 [[kanji]]
 char = "五"
 number = 5
 level = 5
 readings = ["いつ", "いつ-つ", "ゴ"]
-meaning = { en = "five", ru = "пять", uk = "п'ять" }
+meaning = { en = "five", ru = "пять", uk = "п'ять", es = "cinco" }
 
 [[kanji]]
 char = "六"
 number = 6
 level = 5
 readings = ["む", "むっ-つ", "むい*", "ロク"]
-meaning = { en = "six", ru = "шесть", uk = "шість" }
+meaning = { en = "six", ru = "шесть", uk = "шість", es = "seis" }
 
 [[kanji]]
 char = "七"
 number = 7
 level = 5
 readings = ["なな", "なな-つ", "なの*", "シチ"]
-meaning = { en = "seven", ru = "семь", uk = "сім" }
+meaning = { en = "seven", ru = "семь", uk = "сім", es = "siete" }
 
 [[kanji]]
 char = "八"
 number = 8
 level = 5
 readings = ["や", "やっ-つ", "よう*", "ハチ"]
-meaning = { en = "eight", ru = "восемь", uk = "вісім" }
+meaning = { en = "eight", ru = "восемь", uk = "вісім", es = "ocho" }
 
 [[kanji]]
 char = "九"
 number = 9
 level = 5
 readings = ["ここの-つ", "キュウ", "ク"]
-meaning = { en = "nine", ru = "девять", uk = "дев'ять" }
+meaning = { en = "nine", ru = "девять", uk = "дев'ять", es = "nueve" }
 
 [[kanji]]
 char = "十"
 number = 10
 level = 5
 readings = ["とお", "ジュウ", "ジッ"]
-meaning = { en = "ten", ru = "десять", uk = "десять" }
+meaning = { en = "ten", ru = "десять", uk = "десять", es = "diez" }
 
 [[kanji]]
 char = "百"
 number = 11
 level = 5
 readings = ["ヒャク"]
-meaning = { en = "hundred", ru = "сто", uk = "сто" }
+meaning = { en = "hundred", ru = "сто", uk = "сто", es = "cien" }
 
 [[kanji]]
 char = "千"
 number = 12
 level = 5
 readings = ["(ち)", "セン"]
-meaning = { en = "thousand", ru = "тысяча", uk = "тисяча" }
+meaning = { en = "thousand", ru = "тысяча", uk = "тисяча", es = "mil" }
 
 [[kanji]]
 char = "日"
 number = 13
 level = 5
 readings = ["ひ", "か", "ニチ", "(ジツ)"]
-meaning = { en = "day; sun; Japan", ru = "день; солнце; Япония", uk = "день; сонце; Японія" }
+meaning = { en = "day; sun; Japan", ru = "день; солнце; Япония", uk = "день; сонце; Японія", es = "día; sol; Japón" }
 
 [[kanji.word]]
 ja = "日[に]本[ほん]人[じん]"
-tr = { en = "Japanese (person)", ru = "японец", uk = "японець" }
-example = { ja = "わたしは日[に]本[ほん]人[じん]です。", en = "I am Japanese.", ru = "Я японец.", uk = "Я японець." }
+tr = { en = "Japanese (person)", ru = "японец", uk = "японець", es = "japonés (persona)" }
+example = { ja = "わたしは日[に]本[ほん]人[じん]です。", en = "I am Japanese.", ru = "Я японец.", uk = "Я японець.", es = "Soy japonés." }
 
 [[kanji.word]]
 ja = "日[にち]曜[よう]日[び]"
-tr = { en = "Sunday", ru = "воскресенье", uk = "неділя" }
-example = { ja = "きょうは日[にち]曜[よう]日[び]です。", en = "Today is Sunday.", ru = "Сегодня воскресенье.", uk = "Сьогодні неділя." }
+tr = { en = "Sunday", ru = "воскресенье", uk = "неділя", es = "domingo" }
+example = { ja = "きょうは日[にち]曜[よう]日[び]です。", en = "Today is Sunday.", ru = "Сегодня воскресенье.", uk = "Сьогодні неділя.", es = "Hoy es domingo." }
 
 [[kanji.word]]
 ja = "母[はは]の日[ひ]"
-tr = { en = "Mother's Day", ru = "День матери", uk = "День матері" }
-example = { ja = "ことしの母[はは]の日[ひ]は５月[がつ]７日[なのか]です。", en = "This year Mother's Day is on May 7.", ru = "В этом году День матери — 7 мая.", uk = "Цього року День матері — 7 травня." }
+tr = { en = "Mother's Day", ru = "День матери", uk = "День матері", es = "Día de la Madre" }
+example = { ja = "ことしの母[はは]の日[ひ]は５月[がつ]７日[なのか]です。", en = "This year Mother's Day is on May 7.", ru = "В этом году День матери — 7 мая.", uk = "Цього року День матері — 7 травня.", es = "Este año el Día de la Madre es el 7 de mayo." }
 
 [[kanji]]
 char = "本"
 number = 14
 level = 5
 readings = ["(もと)", "ホン"]
-meaning = { en = "book; origin; counter for long things", ru = "книга; основа; счётное для длинных предметов", uk = "книга; основа; лічильне для довгих предметів" }
+meaning = { en = "book; origin; counter for long things", ru = "книга; основа; счётное для длинных предметов", uk = "книга; основа; лічильне для довгих предметів", es = "libro; origen; contador de cosas largas" }
 
 [[kanji.word]]
 ja = "本[ほん]"
-tr = { en = "book", ru = "книга", uk = "книга" }
-example = { ja = "これは本[ほん]です。", en = "This is a book.", ru = "Это книга.", uk = "Це книга." }
+tr = { en = "book", ru = "книга", uk = "книга", es = "libro" }
+example = { ja = "これは本[ほん]です。", en = "This is a book.", ru = "Это книга.", uk = "Це книга.", es = "Esto es un libro." }
 
 [[kanji.word]]
 ja = "～本[ほん]"
-tr = { en = "counter for long things", ru = "счётное для длинных предметов", uk = "лічильне для довгих предметів" }
-example = { ja = "えんぴつが２本[ほん]（３本[ぼん]・８本[ぽん]）あります。", en = "There are two (three, eight) pencils.", ru = "Есть два (три, восемь) карандаша.", uk = "Є два (три, вісім) олівці." }
+tr = { en = "counter for long things", ru = "счётное для длинных предметов", uk = "лічильне для довгих предметів", es = "contador de cosas largas" }
+example = { ja = "えんぴつが２本[ほん]（３本[ぼん]・８本[ぽん]）あります。", en = "There are two (three, eight) pencils.", ru = "Есть два (три, восемь) карандаша.", uk = "Є два (три, вісім) олівці.", es = "Hay dos (tres, ocho) lápices." }
 
 [[kanji]]
 char = "人"
 number = 15
 level = 5
 readings = ["ひと", "ジン", "ニン"]
-meaning = { en = "person", ru = "человек", uk = "людина" }
+meaning = { en = "person", ru = "человек", uk = "людина", es = "persona" }
 
 [[kanji.word]]
 ja = "人[ひと]"
-tr = { en = "person", ru = "человек", uk = "людина" }
-example = { ja = "あの人[ひと]は日[に]本[ほん]人[じん]ですか。", en = "Is that person Japanese?", ru = "Тот человек японец?", uk = "Та людина японець?" }
+tr = { en = "person", ru = "человек", uk = "людина", es = "persona" }
+example = { ja = "あの人[ひと]は日[に]本[ほん]人[じん]ですか。", en = "Is that person Japanese?", ru = "Тот человек японец?", uk = "Та людина японець?", es = "¿Esa persona es japonesa?" }
 
 [[kanji.word]]
 ja = "中[ちゅう]国[ごく]人[じん]"
-tr = { en = "Chinese (person)", ru = "китаец", uk = "китаєць" }
-example = { ja = "いいえ、中[ちゅう]国[ごく]人[じん]です。", en = "No, Chinese.", ru = "Нет, китаец.", uk = "Ні, китаєць." }
+tr = { en = "Chinese (person)", ru = "китаец", uk = "китаєць", es = "chino (persona)" }
+example = { ja = "いいえ、中[ちゅう]国[ごく]人[じん]です。", en = "No, Chinese.", ru = "Нет, китаец.", uk = "Ні, китаєць.", es = "No, es chino." }
 
 [[kanji.word]]
 ja = "～人[にん]"
-tr = { en = "counter for people", ru = "счётное для людей", uk = "лічильне для людей" }
-example = { ja = "田[た]中[なか]さんは子[こ]どもが３人[にん]います。", en = "Mr. Tanaka has three children.", ru = "У Танаки-сан трое детей.", uk = "У Танаки-сан троє дітей." }
+tr = { en = "counter for people", ru = "счётное для людей", uk = "лічильне для людей", es = "contador de personas" }
+example = { ja = "田[た]中[なか]さんは子[こ]どもが３人[にん]います。", en = "Mr. Tanaka has three children.", ru = "У Танаки-сан трое детей.", uk = "У Танаки-сан троє дітей.", es = "El señor Tanaka tiene tres hijos." }
 
 [[kanji]]
 char = "中"
 number = 16
 level = 5
 readings = ["なか", "チュウ"]
-meaning = { en = "middle; inside", ru = "середина; внутри", uk = "середина; всередині" }
+meaning = { en = "middle; inside", ru = "середина; внутри", uk = "середина; всередині", es = "medio; dentro" }
 
 [[kanji.word]]
 ja = "中[ちゅう]国[ごく]人[じん]"
-tr = { en = "Chinese (person)", ru = "китаец", uk = "китаєць" }
-example = { ja = "ヤンさんは中[ちゅう]国[ごく]人[じん]です。", en = "Mr. Yang is Chinese.", ru = "Ян-сан — китаец.", uk = "Ян-сан — китаєць." }
+tr = { en = "Chinese (person)", ru = "китаец", uk = "китаєць", es = "chino (persona)" }
+example = { ja = "ヤンさんは中[ちゅう]国[ごく]人[じん]です。", en = "Mr. Yang is Chinese.", ru = "Ян-сан — китаец.", uk = "Ян-сан — китаєць.", es = "El señor Yang es chino." }
 
 [[kanji.word]]
 ja = "中[なか]"
-tr = { en = "in, inside", ru = "внутри", uk = "всередині" }
-example = { ja = "つくえの中[なか]に何[なに]がありますか。", en = "What is in the desk?", ru = "Что лежит в столе?", uk = "Що лежить у столі?" }
+tr = { en = "in, inside", ru = "внутри", uk = "всередині", es = "en, dentro" }
+example = { ja = "つくえの中[なか]に何[なに]がありますか。", en = "What is in the desk?", ru = "Что лежит в столе?", uk = "Що лежить у столі?", es = "¿Qué hay dentro del escritorio?" }
 
 [[kanji.word]]
 ja = "一[いち]日[にち]中[じゅう]"
-tr = { en = "all day", ru = "весь день", uk = "увесь день" }
-example = { ja = "きのうは一[いち]日[にち]中[じゅう]勉[べん]強[きょう]しました。", en = "Yesterday I studied all day.", ru = "Вчера я занимался весь день.", uk = "Учора я вчився увесь день." }
+tr = { en = "all day", ru = "весь день", uk = "увесь день", es = "todo el día" }
+example = { ja = "きのうは一[いち]日[にち]中[じゅう]勉[べん]強[きょう]しました。", en = "Yesterday I studied all day.", ru = "Вчера я занимался весь день.", uk = "Учора я вчився увесь день.", es = "Ayer estudié todo el día." }
 
 [[kanji]]
 char = "国"
 number = 17
 level = 5
 readings = ["くに", "コク"]
-meaning = { en = "country", ru = "страна", uk = "країна" }
+meaning = { en = "country", ru = "страна", uk = "країна", es = "país" }
 
 [[kanji.word]]
 ja = "中[ちゅう]国[ごく]"
-tr = { en = "China", ru = "Китай", uk = "Китай" }
-example = { ja = "中[ちゅう]国[ごく]は大[おお]きい国[くに]です。", en = "China is a big country.", ru = "Китай — большая страна.", uk = "Китай — велика країна." }
+tr = { en = "China", ru = "Китай", uk = "Китай", es = "China" }
+example = { ja = "中[ちゅう]国[ごく]は大[おお]きい国[くに]です。", en = "China is a big country.", ru = "Китай — большая страна.", uk = "Китай — велика країна.", es = "China es un país grande." }
 
 [[kanji.word]]
 ja = "国[くに]"
-tr = { en = "country", ru = "страна", uk = "країна" }
-example = { ja = "アメリカも大[おお]きい国[くに]です。", en = "America is a big country too.", ru = "Америка тоже большая страна.", uk = "Америка теж велика країна." }
+tr = { en = "country", ru = "страна", uk = "країна", es = "país" }
+example = { ja = "アメリカも大[おお]きい国[くに]です。", en = "America is a big country too.", ru = "Америка тоже большая страна.", uk = "Америка теж велика країна.", es = "Estados Unidos también es un país grande." }
 
 [[kanji.word]]
 ja = "韓[かん]国[こく]"
-tr = { en = "South Korea", ru = "Южная Корея", uk = "Південна Корея" }
-example = { ja = "リーさんは韓[かん]国[こく]から来[き]ました。", en = "Ms. Lee came from South Korea.", ru = "Ли-сан приехала из Южной Кореи.", uk = "Лі-сан приїхала з Південної Кореї." }
+tr = { en = "South Korea", ru = "Южная Корея", uk = "Південна Корея", es = "Corea del Sur" }
+example = { ja = "リーさんは韓[かん]国[こく]から来[き]ました。", en = "Ms. Lee came from South Korea.", ru = "Ли-сан приехала из Южной Кореи.", uk = "Лі-сан приїхала з Південної Кореї.", es = "La señora Lee vino de Corea del Sur." }
 
 [[kanji]]
 char = "田"
 number = 18
 level = 4
 readings = ["た", "(デン)"]
-meaning = { en = "rice field", ru = "рисовое поле", uk = "рисове поле" }
+meaning = { en = "rice field", ru = "рисовое поле", uk = "рисове поле", es = "arrozal" }
 
 [[kanji.word]]
 ja = "田[た]中[なか]"
-tr = { en = "Tanaka (surname)", ru = "Танака (фамилия)", uk = "Танака (прізвище)" }
-example = { ja = "わたしは田[た]中[なか]です。", en = "I am Tanaka.", ru = "Я Танака.", uk = "Я Танака." }
+tr = { en = "Tanaka (surname)", ru = "Танака (фамилия)", uk = "Танака (прізвище)", es = "Tanaka (apellido)" }
+example = { ja = "わたしは田[た]中[なか]です。", en = "I am Tanaka.", ru = "Я Танака.", uk = "Я Танака.", es = "Soy Tanaka." }
 
 [[kanji.word]]
 ja = "山[やま]田[だ]さん"
-tr = { en = "Mr./Ms. Yamada", ru = "Ямада-сан", uk = "Ямада-сан" }
-example = { ja = "あの人[ひと]は山[やま]田[だ]さんですか。", en = "Is that person Mr. Yamada?", ru = "Тот человек — Ямада-сан?", uk = "Та людина — Ямада-сан?" }
+tr = { en = "Mr./Ms. Yamada", ru = "Ямада-сан", uk = "Ямада-сан", es = "el señor / la señora Yamada" }
+example = { ja = "あの人[ひと]は山[やま]田[だ]さんですか。", en = "Is that person Mr. Yamada?", ru = "Тот человек — Ямада-сан?", uk = "Та людина — Ямада-сан?", es = "¿Esa persona es el señor Yamada?" }
 
 [[kanji.word]]
 ja = "田[た]"
-tr = { en = "rice field", ru = "рисовое поле", uk = "рисове поле" }
-example = { ja = "田[た]で米[こめ]を作[つく]ります。", en = "Rice is grown in rice fields.", ru = "На рисовом поле выращивают рис.", uk = "На рисовому полі вирощують рис." }
+tr = { en = "rice field", ru = "рисовое поле", uk = "рисове поле", es = "arrozal" }
+example = { ja = "田[た]で米[こめ]を作[つく]ります。", en = "Rice is grown in rice fields.", ru = "На рисовом поле выращивают рис.", uk = "На рисовому полі вирощують рис.", es = "El arroz se cultiva en arrozales." }
 
 [[kanji]]
 char = "何"
 number = 19
 level = 5
 readings = ["なに", "なん*", "(カ)"]
-meaning = { en = "what", ru = "что", uk = "що" }
+meaning = { en = "what", ru = "что", uk = "що", es = "qué" }
 
 [[kanji.word]]
 ja = "何[なん]歳[さい]"
-tr = { en = "how old", ru = "сколько лет", uk = "скільки років" }
-example = { ja = "ジョンさんは何[なん]歳[さい]ですか。", en = "How old is John?", ru = "Сколько лет Джону?", uk = "Скільки років Джонові?" }
+tr = { en = "how old", ru = "сколько лет", uk = "скільки років", es = "cuántos años" }
+example = { ja = "ジョンさんは何[なん]歳[さい]ですか。", en = "How old is John?", ru = "Сколько лет Джону?", uk = "Скільки років Джонові?", es = "¿Cuántos años tiene John?" }
 
 [[kanji.word]]
 ja = "何[なん]"
-tr = { en = "what", ru = "что", uk = "що" }
-example = { ja = "あれは何[なん]ですか。", en = "What is that over there?", ru = "Что это вон там?", uk = "Що це он там?" }
+tr = { en = "what", ru = "что", uk = "що", es = "qué" }
+example = { ja = "あれは何[なん]ですか。", en = "What is that over there?", ru = "Что это вон там?", uk = "Що це он там?", es = "¿Qué es aquello de allí?" }
 
 [[kanji.word]]
 ja = "何[なに]"
-tr = { en = "what", ru = "что", uk = "що" }
-example = { ja = "あしたは何[なに]をしますか。", en = "What will you do tomorrow?", ru = "Что вы будете делать завтра?", uk = "Що ви робитимете завтра?" }
+tr = { en = "what", ru = "что", uk = "що", es = "qué" }
+example = { ja = "あしたは何[なに]をしますか。", en = "What will you do tomorrow?", ru = "Что вы будете делать завтра?", uk = "Що ви робитимете завтра?", es = "¿Qué vas a hacer mañana?" }
 
 [[kanji]]
 char = "先"
 number = 20
 level = 5
 readings = ["さき", "セン"]
-meaning = { en = "ahead; previous", ru = "впереди; прежний", uk = "попереду; попередній" }
+meaning = { en = "ahead; previous", ru = "впереди; прежний", uk = "попереду; попередній", es = "delante; anterior" }
 
 [[kanji.word]]
 ja = "先[せん]生[せい]"
-tr = { en = "teacher", ru = "учитель", uk = "вчитель" }
-example = { ja = "メアリーさんは先[せん]生[せい]です。", en = "Mary is a teacher.", ru = "Мэри — учительница.", uk = "Мері — вчителька." }
+tr = { en = "teacher", ru = "учитель", uk = "вчитель", es = "profesor" }
+example = { ja = "メアリーさんは先[せん]生[せい]です。", en = "Mary is a teacher.", ru = "Мэри — учительница.", uk = "Мері — вчителька.", es = "Mary es profesora." }
 
 [[kanji.word]]
 ja = "先[さき]に"
-tr = { en = "first; go ahead", ru = "сначала; вперёд", uk = "спершу; уперед" }
-example = { ja = "「どうぞお先[さき]に。」", en = "\"After you.\"", ru = "«Проходите, пожалуйста».", uk = "«Прошу, проходьте»." }
+tr = { en = "first; go ahead", ru = "сначала; вперёд", uk = "спершу; уперед", es = "primero; adelante" }
+example = { ja = "「どうぞお先[さき]に。」", en = "\"After you.\"", ru = "«Проходите, пожалуйста».", uk = "«Прошу, проходьте».", es = "«Pase usted.»" }
 
 [[kanji]]
 char = "生"
 number = 21
 level = 5
 readings = ["い-きます", "う-まれます", "(なま)", "セイ", "ショウ"]
-meaning = { en = "life; to live; to be born; raw", ru = "жизнь; жить; рождаться; сырой", uk = "життя; жити; народжуватися; сирий" }
+meaning = { en = "life; to live; to be born; raw", ru = "жизнь; жить; рождаться; сырой", uk = "життя; жити; народжуватися; сирий", es = "vida; vivir; nacer; crudo" }
 
 [[kanji.word]]
 ja = "学[がく]生[せい]"
-tr = { en = "student", ru = "студент", uk = "студент" }
-example = { ja = "わたしは学[がく]生[せい]です。", en = "I am a student.", ru = "Я студент.", uk = "Я студент." }
+tr = { en = "student", ru = "студент", uk = "студент", es = "estudiante" }
+example = { ja = "わたしは学[がく]生[せい]です。", en = "I am a student.", ru = "Я студент.", uk = "Я студент.", es = "Soy estudiante." }
 
 [[kanji.word]]
 ja = "誕[たん]生[じょう]日[び]"
-tr = { en = "birthday", ru = "день рождения", uk = "день народження" }
-example = { ja = "誕[たん]生[じょう]日[び]は３月[がつ]１９日[にち]です。", en = "My birthday is March 19.", ru = "Мой день рождения — 19 марта.", uk = "Мій день народження — 19 березня." }
+tr = { en = "birthday", ru = "день рождения", uk = "день народження", es = "cumpleaños" }
+example = { ja = "誕[たん]生[じょう]日[び]は３月[がつ]１９日[にち]です。", en = "My birthday is March 19.", ru = "Мой день рождения — 19 марта.", uk = "Мій день народження — 19 березня.", es = "Mi cumpleaños es el 19 de marzo." }
 
 [[kanji.word]]
 ja = "生[い]きます"
-tr = { en = "to live", ru = "жить", uk = "жити" }
-example = { ja = "わたしは１００歳[さい]まで生[い]きたいです。", en = "I want to live to 100.", ru = "Я хочу дожить до ста лет.", uk = "Я хочу дожити до ста років." }
+tr = { en = "to live", ru = "жить", uk = "жити", es = "vivir" }
+example = { ja = "わたしは１００歳[さい]まで生[い]きたいです。", en = "I want to live to 100.", ru = "Я хочу дожить до ста лет.", uk = "Я хочу дожити до ста років.", es = "Quiero vivir hasta los 100." }
 
 [[kanji.word]]
 ja = "生[う]まれます"
-tr = { en = "to be born", ru = "рождаться", uk = "народжуватися" }
-example = { ja = "わたしはパリで生[う]まれました。", en = "I was born in Paris.", ru = "Я родился в Париже.", uk = "Я народився в Парижі." }
+tr = { en = "to be born", ru = "рождаться", uk = "народжуватися", es = "nacer" }
+example = { ja = "わたしはパリで生[う]まれました。", en = "I was born in Paris.", ru = "Я родился в Париже.", uk = "Я народився в Парижі.", es = "Nací en París." }
 
 [[kanji]]
 char = "学"
 number = 22
 level = 5
 readings = ["(まな-びます)", "ガク"]
-meaning = { en = "study; learning", ru = "учёба; наука", uk = "навчання; наука" }
+meaning = { en = "study; learning", ru = "учёба; наука", uk = "навчання; наука", es = "estudio; aprendizaje" }
 
 [[kanji.word]]
 ja = "学[がく]生[せい]"
-tr = { en = "student", ru = "студент", uk = "студент" }
-example = { ja = "パクさんも学[がく]生[せい]です。", en = "Mr. Park is a student too.", ru = "Пак-сан тоже студент.", uk = "Пак-сан теж студент." }
+tr = { en = "student", ru = "студент", uk = "студент", es = "estudiante" }
+example = { ja = "パクさんも学[がく]生[せい]です。", en = "Mr. Park is a student too.", ru = "Пак-сан тоже студент.", uk = "Пак-сан теж студент.", es = "El señor Park también es estudiante." }
 
 [[kanji.word]]
 ja = "学[がっ]校[こう]"
-tr = { en = "school", ru = "школа", uk = "школа" }
-example = { ja = "あれは学[がっ]校[こう]です。", en = "That over there is a school.", ru = "Вон то — школа.", uk = "Он те — школа." }
+tr = { en = "school", ru = "школа", uk = "школа", es = "escuela" }
+example = { ja = "あれは学[がっ]校[こう]です。", en = "That over there is a school.", ru = "Вон то — школа.", uk = "Он те — школа.", es = "Aquello de allí es una escuela." }
 
 [[kanji.word]]
 ja = "小[しょう]学[がっ]校[こう]"
-tr = { en = "elementary school", ru = "начальная школа", uk = "початкова школа" }
-example = { ja = "リンダさんは小[しょう]学[がっ]校[こう]の先[せん]生[せい]です。", en = "Linda is an elementary school teacher.", ru = "Линда — учительница начальной школы.", uk = "Лінда — вчителька початкової школи." }
+tr = { en = "elementary school", ru = "начальная школа", uk = "початкова школа", es = "escuela primaria" }
+example = { ja = "リンダさんは小[しょう]学[がっ]校[こう]の先[せん]生[せい]です。", en = "Linda is an elementary school teacher.", ru = "Линда — учительница начальной школы.", uk = "Лінда — вчителька початкової школи.", es = "Linda es profesora de primaria." }
 
 [[kanji]]
 char = "校"
 number = 23
 level = 5
 readings = ["コウ"]
-meaning = { en = "school", ru = "школа", uk = "школа" }
+meaning = { en = "school", ru = "школа", uk = "школа", es = "escuela" }
 
 [[kanji.word]]
 ja = "学[がっ]校[こう]"
-tr = { en = "school", ru = "школа", uk = "школа" }
-example = { ja = "あの人[ひと]は学[がっ]校[こう]の先[せん]生[せい]ですか。", en = "Is that person a schoolteacher?", ru = "Тот человек — школьный учитель?", uk = "Та людина — шкільний учитель?" }
+tr = { en = "school", ru = "школа", uk = "школа", es = "escuela" }
+example = { ja = "あの人[ひと]は学[がっ]校[こう]の先[せん]生[せい]ですか。", en = "Is that person a schoolteacher?", ru = "Тот человек — школьный учитель?", uk = "Та людина — шкільний учитель?", es = "¿Esa persona es profesor de escuela?" }
 
 [[kanji.word]]
 ja = "中[ちゅう]学[がっ]校[こう]"
-tr = { en = "junior high school", ru = "средняя школа (7–9 класс)", uk = "середня школа (7–9 клас)" }
-example = { ja = "あれは中[ちゅう]学[がっ]校[こう]ですか。いいえ、高[こう]校[こう]です。", en = "Is that a junior high school? No, a high school.", ru = "Это средняя школа? Нет, старшая.", uk = "Це середня школа? Ні, старша." }
+tr = { en = "junior high school", ru = "средняя школа (7–9 класс)", uk = "середня школа (7–9 клас)", es = "escuela secundaria" }
+example = { ja = "あれは中[ちゅう]学[がっ]校[こう]ですか。いいえ、高[こう]校[こう]です。", en = "Is that a junior high school? No, a high school.", ru = "Это средняя школа? Нет, старшая.", uk = "Це середня школа? Ні, старша.", es = "¿Eso es una escuela secundaria? No, es un instituto." }
 
 [[kanji.word]]
 ja = "高[こう]校[こう]生[せい]"
-tr = { en = "high school student", ru = "старшеклассник", uk = "старшокласник" }
-example = { ja = "弟[おとうと]は高[こう]校[こう]生[せい]です。", en = "My younger brother is a high school student.", ru = "Мой младший брат — старшеклассник.", uk = "Мій молодший брат — старшокласник." }
+tr = { en = "high school student", ru = "старшеклассник", uk = "старшокласник", es = "estudiante de bachillerato" }
+example = { ja = "弟[おとうと]は高[こう]校[こう]生[せい]です。", en = "My younger brother is a high school student.", ru = "Мой младший брат — старшеклассник.", uk = "Мій молодший брат — старшокласник.", es = "Mi hermano menor es estudiante de bachillerato." }
 
 [[kanji]]
 char = "門"
 number = 24
 level = 4
 readings = ["(かど)", "モン"]
-meaning = { en = "gate", ru = "ворота", uk = "ворота" }
+meaning = { en = "gate", ru = "ворота", uk = "ворота", es = "puerta, portón" }
 
 [[kanji.word]]
 ja = "専[せん]門[もん]"
-tr = { en = "speciality, field of study", ru = "специальность", uk = "спеціальність" }
-example = { ja = "わたしの専[せん]門[もん]はコンピューターです。", en = "My field is computers.", ru = "Моя специальность — компьютеры.", uk = "Моя спеціальність — комп'ютери." }
+tr = { en = "speciality, field of study", ru = "специальность", uk = "спеціальність", es = "especialidad, campo de estudio" }
+example = { ja = "わたしの専[せん]門[もん]はコンピューターです。", en = "My field is computers.", ru = "Моя специальность — компьютеры.", uk = "Моя спеціальність — комп'ютери.", es = "Mi especialidad es la informática." }
 
 [[kanji.word]]
 ja = "門[もん]"
-tr = { en = "gate", ru = "ворота", uk = "ворота" }
-example = { ja = "あれは東[とう]京[きょう]大[だい]学[がく]の門[もん]です。", en = "That is the gate of the University of Tokyo.", ru = "Это ворота Токийского университета.", uk = "Це ворота Токійського університету." }
+tr = { en = "gate", ru = "ворота", uk = "ворота", es = "puerta, portón" }
+example = { ja = "あれは東[とう]京[きょう]大[だい]学[がく]の門[もん]です。", en = "That is the gate of the University of Tokyo.", ru = "Это ворота Токийского университета.", uk = "Це ворота Токійського університету.", es = "Esa es la puerta de la Universidad de Tokio." }
 
 [[kanji]]
 char = "時"
 number = 25
 level = 5
 readings = ["とき", "ジ"]
-meaning = { en = "time; hour", ru = "время; час", uk = "час; година" }
+meaning = { en = "time; hour", ru = "время; час", uk = "час; година", es = "tiempo; hora" }
 
 [[kanji.word]]
 ja = "時[と]計[けい]"
-tr = { en = "watch, clock", ru = "часы", uk = "годинник" }
-example = { ja = "これはだれの時[と]計[けい]ですか。", en = "Whose watch is this?", ru = "Чьи это часы?", uk = "Чий це годинник?" }
+tr = { en = "watch, clock", ru = "часы", uk = "годинник", es = "reloj" }
+example = { ja = "これはだれの時[と]計[けい]ですか。", en = "Whose watch is this?", ru = "Чьи это часы?", uk = "Чий це годинник?", es = "¿De quién es este reloj?" }
 
 [[kanji.word]]
 ja = "何[なん]時[じ]"
-tr = { en = "what time", ru = "который час", uk = "котра година" }
-example = { ja = "毎[まい]朝[あさ]何[なん]時[じ]に起[お]きますか。", en = "What time do you get up every morning?", ru = "Во сколько вы встаёте каждое утро?", uk = "О котрій ви встаєте щоранку?" }
+tr = { en = "what time", ru = "который час", uk = "котра година", es = "qué hora" }
+example = { ja = "毎[まい]朝[あさ]何[なん]時[じ]に起[お]きますか。", en = "What time do you get up every morning?", ru = "Во сколько вы встаёте каждое утро?", uk = "О котрій ви встаєте щоранку?", es = "¿A qué hora te levantas cada mañana?" }
 
 [[kanji.word]]
 ja = "時[とき]々[どき]"
-tr = { en = "sometimes", ru = "иногда", uk = "іноді" }
-example = { ja = "時[とき]々[どき]映[えい]画[が]を見[み]ます。", en = "I sometimes watch films.", ru = "Иногда я смотрю фильмы.", uk = "Іноді я дивлюся фільми." }
+tr = { en = "sometimes", ru = "иногда", uk = "іноді", es = "a veces" }
+example = { ja = "時[とき]々[どき]映[えい]画[が]を見[み]ます。", en = "I sometimes watch films.", ru = "Иногда я смотрю фильмы.", uk = "Іноді я дивлюся фільми.", es = "A veces veo películas." }
 
 [[kanji]]
 char = "計"
 number = 26
 level = 4
 readings = ["はか-ります", "ケイ"]
-meaning = { en = "measure; plan; total", ru = "измерять; план; итог", uk = "вимірювати; план; підсумок" }
+meaning = { en = "measure; plan; total", ru = "измерять; план; итог", uk = "вимірювати; план; підсумок", es = "medir; plan; total" }
 
 [[kanji.word]]
 ja = "計[はか]ります"
-tr = { en = "to time, to measure", ru = "измерять, засекать", uk = "вимірювати, засікати" }
-example = { ja = "時[じ]間[かん]を計[はか]ります。", en = "I time it.", ru = "Засекаю время.", uk = "Засікаю час." }
+tr = { en = "to time, to measure", ru = "измерять, засекать", uk = "вимірювати, засікати", es = "cronometrar, medir" }
+example = { ja = "時[じ]間[かん]を計[はか]ります。", en = "I time it.", ru = "Засекаю время.", uk = "Засікаю час.", es = "Lo cronometro." }
 
 [[kanji.word]]
 ja = "計[けい]算[さん]します"
-tr = { en = "to calculate", ru = "считать, вычислять", uk = "рахувати, обчислювати" }
-example = { ja = "今[いま]計[けい]算[さん]します。", en = "I'll calculate it now.", ru = "Сейчас посчитаю.", uk = "Зараз порахую." }
+tr = { en = "to calculate", ru = "считать, вычислять", uk = "рахувати, обчислювати", es = "calcular" }
+example = { ja = "今[いま]計[けい]算[さん]します。", en = "I'll calculate it now.", ru = "Сейчас посчитаю.", uk = "Зараз порахую.", es = "Lo calculo ahora." }
 
 [[kanji.word]]
 ja = "計[けい]画[かく]します"
-tr = { en = "to plan", ru = "планировать", uk = "планувати" }
-example = { ja = "旅[りょ]行[こう]を計[けい]画[かく]します。", en = "I'm planning a trip.", ru = "Планирую поездку.", uk = "Планую подорож." }
+tr = { en = "to plan", ru = "планировать", uk = "планувати", es = "planear" }
+example = { ja = "旅[りょ]行[こう]を計[けい]画[かく]します。", en = "I'm planning a trip.", ru = "Планирую поездку.", uk = "Планую подорож.", es = "Estoy planeando un viaje." }
 
 [[kanji]]
 char = "辞"
 number = 27
 level = 3
 readings = ["や-めます", "ジ"]
-meaning = { en = "word; to resign", ru = "слово; уходить (с работы)", uk = "слово; звільнятися" }
+meaning = { en = "word; to resign", ru = "слово; уходить (с работы)", uk = "слово; звільнятися", es = "palabra; dimitir" }
 
 [[kanji.word]]
 ja = "辞[じ]書[しょ]"
-tr = { en = "dictionary", ru = "словарь", uk = "словник" }
-example = { ja = "これはわたしの辞[じ]書[しょ]です。", en = "This is my dictionary.", ru = "Это мой словарь.", uk = "Це мій словник." }
+tr = { en = "dictionary", ru = "словарь", uk = "словник", es = "diccionario" }
+example = { ja = "これはわたしの辞[じ]書[しょ]です。", en = "This is my dictionary.", ru = "Это мой словарь.", uk = "Це мій словник.", es = "Este es mi diccionario." }
 
 [[kanji.word]]
 ja = "辞[や]めます"
-tr = { en = "to resign, to quit (stop doing something)", ru = "уходить (с работы), бросать", uk = "звільнятися, кидати" }
-example = { ja = "去[きょ]年[ねん]会[かい]社[しゃ]を辞[や]めました。", en = "I quit my company last year.", ru = "В прошлом году я ушёл из компании.", uk = "Торік я звільнився з компанії." }
+tr = { en = "to resign, to quit (stop doing something)", ru = "уходить (с работы), бросать", uk = "звільнятися, кидати", es = "dimitir, dejar (de hacer algo)" }
+example = { ja = "去[きょ]年[ねん]会[かい]社[しゃ]を辞[や]めました。", en = "I quit my company last year.", ru = "В прошлом году я ушёл из компании.", uk = "Торік я звільнився з компанії.", es = "El año pasado dejé mi empresa." }
 
 [[kanji]]
 char = "書"
 number = 28
 level = 5
 readings = ["か-きます", "ショ"]
-meaning = { en = "to write; document", ru = "писать; документ", uk = "писати; документ" }
+meaning = { en = "to write; document", ru = "писать; документ", uk = "писати; документ", es = "escribir; documento" }
 
 [[kanji.word]]
 ja = "書[か]きます"
-tr = { en = "to write", ru = "писать", uk = "писати" }
-example = { ja = "手[て]紙[がみ]を書[か]きます。", en = "I write a letter.", ru = "Пишу письмо.", uk = "Пишу листа." }
+tr = { en = "to write", ru = "писать", uk = "писати", es = "escribir" }
+example = { ja = "手[て]紙[がみ]を書[か]きます。", en = "I write a letter.", ru = "Пишу письмо.", uk = "Пишу листа.", es = "Escribo una carta." }
 
 [[kanji.word]]
 ja = "書[しょ]類[るい]"
-tr = { en = "document", ru = "документ", uk = "документ" }
-example = { ja = "これは会[かい]社[しゃ]の書[しょ]類[るい]です。", en = "This is a company document.", ru = "Это документ компании.", uk = "Це документ компанії." }
+tr = { en = "document", ru = "документ", uk = "документ", es = "documento" }
+example = { ja = "これは会[かい]社[しゃ]の書[しょ]類[るい]です。", en = "This is a company document.", ru = "Это документ компании.", uk = "Це документ компанії.", es = "Este es un documento de la empresa." }
 
 [[kanji.word]]
 ja = "図[と]書[しょ]館[かん]"
-tr = { en = "library", ru = "библиотека", uk = "бібліотека" }
-example = { ja = "図[と]書[しょ]館[かん]はどこですか。", en = "Where is the library?", ru = "Где библиотека?", uk = "Де бібліотека?" }
+tr = { en = "library", ru = "библиотека", uk = "бібліотека", es = "biblioteca" }
+example = { ja = "図[と]書[しょ]館[かん]はどこですか。", en = "Where is the library?", ru = "Где библиотека?", uk = "Де бібліотека?", es = "¿Dónde está la biblioteca?" }
 
 [[kanji]]
 char = "手"
 number = 29
 level = 5
 readings = ["て", "シュ"]
-meaning = { en = "hand", ru = "рука", uk = "рука" }
+meaning = { en = "hand", ru = "рука", uk = "рука", es = "mano" }
 
 [[kanji.word]]
 ja = "切[きっ]手[て]"
-tr = { en = "stamp", ru = "марка", uk = "марка" }
-example = { ja = "５０円[えん]の切[きっ]手[て]を２枚[まい]ください。", en = "Two 50-yen stamps, please.", ru = "Две марки по 50 иен, пожалуйста.", uk = "Дві марки по 50 єн, будь ласка." }
+tr = { en = "stamp", ru = "марка", uk = "марка", es = "sello" }
+example = { ja = "５０円[えん]の切[きっ]手[て]を２枚[まい]ください。", en = "Two 50-yen stamps, please.", ru = "Две марки по 50 иен, пожалуйста.", uk = "Дві марки по 50 єн, будь ласка.", es = "Dos sellos de 50 yenes, por favor." }
 
 [[kanji.word]]
 ja = "手[て]"
-tr = { en = "hand", ru = "рука", uk = "рука" }
-example = { ja = "手[て]を洗[あら]います。", en = "I wash my hands.", ru = "Мою руки.", uk = "Мию руки." }
+tr = { en = "hand", ru = "рука", uk = "рука", es = "mano" }
+example = { ja = "手[て]を洗[あら]います。", en = "I wash my hands.", ru = "Мою руки.", uk = "Мию руки.", es = "Me lavo las manos." }
 
 [[kanji.word]]
 ja = "運[うん]転[てん]手[しゅ]"
-tr = { en = "driver", ru = "водитель", uk = "водій" }
-example = { ja = "わたしはタクシーの運[うん]転[てん]手[しゅ]です。", en = "I am a taxi driver.", ru = "Я таксист.", uk = "Я таксист." }
+tr = { en = "driver", ru = "водитель", uk = "водій", es = "conductor" }
+example = { ja = "わたしはタクシーの運[うん]転[てん]手[しゅ]です。", en = "I am a taxi driver.", ru = "Я таксист.", uk = "Я таксист.", es = "Soy taxista." }
 
 [[kanji]]
 char = "紙"
 number = 30
 level = 4
 readings = ["かみ", "シ"]
-meaning = { en = "paper", ru = "бумага", uk = "папір" }
+meaning = { en = "paper", ru = "бумага", uk = "папір", es = "papel" }
 
 [[kanji.word]]
 ja = "紙[かみ]"
-tr = { en = "paper", ru = "бумага", uk = "папір" }
-example = { ja = "これは紙[かみ]ですか。", en = "Is this paper?", ru = "Это бумага?", uk = "Це папір?" }
+tr = { en = "paper", ru = "бумага", uk = "папір", es = "papel" }
+example = { ja = "これは紙[かみ]ですか。", en = "Is this paper?", ru = "Это бумага?", uk = "Це папір?", es = "¿Esto es papel?" }
 
 [[kanji.word]]
 ja = "手[て]紙[がみ]"
-tr = { en = "letter", ru = "письмо", uk = "лист" }
-example = { ja = "それはあなたの手[て]紙[がみ]ですか。", en = "Is that your letter?", ru = "Это ваше письмо?", uk = "Це ваш лист?" }
+tr = { en = "letter", ru = "письмо", uk = "лист", es = "carta" }
+example = { ja = "それはあなたの手[て]紙[がみ]ですか。", en = "Is that your letter?", ru = "Это ваше письмо?", uk = "Це ваш лист?", es = "¿Esa es tu carta?" }
 
 [[kanji.word]]
 ja = "用[よう]紙[し]"
-tr = { en = "form (paper)", ru = "бланк", uk = "бланк" }
-example = { ja = "これは原[げん]稿[こう]用[よう]紙[し]です。", en = "This is composition paper.", ru = "Это бумага для сочинений (в клетку).", uk = "Це папір для творів (у клітинку)." }
+tr = { en = "form (paper)", ru = "бланк", uk = "бланк", es = "formulario (papel)" }
+example = { ja = "これは原[げん]稿[こう]用[よう]紙[し]です。", en = "This is composition paper.", ru = "Это бумага для сочинений (в клетку).", uk = "Це папір для творів (у клітинку).", es = "Esto es papel de redacción." }
 
 [[kanji]]
 char = "糸"
 number = 31
 level = 4
 readings = ["いと", "(シ)"]
-meaning = { en = "thread", ru = "нить", uk = "нитка" }
+meaning = { en = "thread", ru = "нить", uk = "нитка", es = "hilo" }
 
 [[kanji.word]]
 ja = "毛[け]糸[いと]"
-tr = { en = "yarn, wool", ru = "шерстяная пряжа", uk = "вовняна пряжа" }
-example = { ja = "これはオーストラリアの毛[け]糸[いと]です。", en = "This is Australian wool.", ru = "Это австралийская шерсть.", uk = "Це австралійська вовна." }
+tr = { en = "yarn, wool", ru = "шерстяная пряжа", uk = "вовняна пряжа", es = "lana" }
+example = { ja = "これはオーストラリアの毛[け]糸[いと]です。", en = "This is Australian wool.", ru = "Это австралийская шерсть.", uk = "Це австралійська вовна.", es = "Esta es lana australiana." }
 
 [[kanji.word]]
 ja = "糸[いと]"
-tr = { en = "thread, string", ru = "нитка", uk = "нитка" }
-example = { ja = "糸[いと]を切[き]ります。", en = "I cut the thread.", ru = "Отрезаю нитку.", uk = "Відрізаю нитку." }
+tr = { en = "thread, string", ru = "нитка", uk = "нитка", es = "hilo, cuerda" }
+example = { ja = "糸[いと]を切[き]ります。", en = "I cut the thread.", ru = "Отрезаю нитку.", uk = "Відрізаю нитку.", es = "Corto el hilo." }
 
 [[kanji]]
 char = "万"
 number = 32
 level = 5
 readings = ["マン", "(バン)"]
-meaning = { en = "ten thousand", ru = "десять тысяч", uk = "десять тисяч" }
+meaning = { en = "ten thousand", ru = "десять тысяч", uk = "десять тисяч", es = "diez mil" }
 
 [[kanji.word]]
 ja = "１万[まん]円[えん]"
-tr = { en = "ten thousand yen", ru = "десять тысяч иен", uk = "десять тисяч єн" }
-example = { ja = "その時[と]計[けい]は１万[まん]円[えん]です。", en = "That watch is 10,000 yen.", ru = "Эти часы стоят 10 000 иен.", uk = "Цей годинник коштує 10 000 єн." }
+tr = { en = "ten thousand yen", ru = "десять тысяч иен", uk = "десять тисяч єн", es = "diez mil yenes" }
+example = { ja = "その時[と]計[けい]は１万[まん]円[えん]です。", en = "That watch is 10,000 yen.", ru = "Эти часы стоят 10 000 иен.", uk = "Цей годинник коштує 10 000 єн.", es = "Ese reloj cuesta 10 000 yenes." }
 
 [[kanji.word]]
 ja = "万[まん]一[いち]"
-tr = { en = "in case of emergency, if by any chance", ru = "на крайний случай", uk = "на випадок чого" }
-example = { ja = "万[まん]一[いち]の場[ば]合[あい]は、すぐ火[ひ]を止[と]めます。", en = "In an emergency, turn off the gas at once.", ru = "В экстренном случае сразу выключите газ.", uk = "У разі небезпеки одразу вимкніть газ." }
+tr = { en = "in case of emergency, if by any chance", ru = "на крайний случай", uk = "на випадок чого", es = "en caso de emergencia, si por casualidad" }
+example = { ja = "万[まん]一[いち]の場[ば]合[あい]は、すぐ火[ひ]を止[と]めます。", en = "In an emergency, turn off the gas at once.", ru = "В экстренном случае сразу выключите газ.", uk = "У разі небезпеки одразу вимкніть газ.", es = "En una emergencia, cierra el gas enseguida." }
 
 [[kanji]]
 char = "円"
 number = 33
 level = 5
 readings = ["エン"]
-meaning = { en = "yen; circle", ru = "иена; круг", uk = "єна; коло" }
+meaning = { en = "yen; circle", ru = "иена; круг", uk = "єна; коло", es = "yen; círculo" }
 
 [[kanji.word]]
 ja = "４万[まん]円[えん]"
-tr = { en = "forty thousand yen", ru = "сорок тысяч иен", uk = "сорок тисяч єн" }
-example = { ja = "このテレビは４万[まん]円[えん]です。", en = "This TV is 40,000 yen.", ru = "Этот телевизор стоит 40 000 иен.", uk = "Цей телевізор коштує 40 000 єн." }
+tr = { en = "forty thousand yen", ru = "сорок тысяч иен", uk = "сорок тисяч єн", es = "cuarenta mil yenes" }
+example = { ja = "このテレビは４万[まん]円[えん]です。", en = "This TV is 40,000 yen.", ru = "Этот телевизор стоит 40 000 иен.", uk = "Цей телевізор коштує 40 000 єн.", es = "Este televisor cuesta 40 000 yenes." }
 
 [[kanji.word]]
 ja = "円[えん]"
-tr = { en = "yen", ru = "иена", uk = "єна" }
-example = { ja = "円[えん]をドルに換[か]えます。", en = "I change yen into dollars.", ru = "Меняю иены на доллары.", uk = "Міняю єни на долари." }
+tr = { en = "yen", ru = "иена", uk = "єна", es = "yen" }
+example = { ja = "円[えん]をドルに換[か]えます。", en = "I change yen into dollars.", ru = "Меняю иены на доллары.", uk = "Міняю єни на долари.", es = "Cambio yenes por dólares." }
 
 [[kanji]]
 char = "会"
 number = 34
 level = 5
 readings = ["あ-います", "カイ"]
-meaning = { en = "to meet; meeting", ru = "встречаться; собрание", uk = "зустрічатися; збори" }
+meaning = { en = "to meet; meeting", ru = "встречаться; собрание", uk = "зустрічатися; збори", es = "encontrarse; reunión" }
 
 [[kanji.word]]
 ja = "会[あ]います"
-tr = { en = "to meet", ru = "встречаться", uk = "зустрічатися" }
-example = { ja = "５時[じ]に新[しん]宿[じゅく]で会[あ]いませんか。", en = "Shall we meet in Shinjuku at five?", ru = "Давайте встретимся в Синдзюку в пять?", uk = "Може, зустрінемося в Сіндзюку о п'ятій?" }
+tr = { en = "to meet", ru = "встречаться", uk = "зустрічатися", es = "quedar, encontrarse" }
+example = { ja = "５時[じ]に新[しん]宿[じゅく]で会[あ]いませんか。", en = "Shall we meet in Shinjuku at five?", ru = "Давайте встретимся в Синдзюку в пять?", uk = "Може, зустрінемося в Сіндзюку о п'ятій?", es = "¿Quedamos en Shinjuku a las cinco?" }
 
 [[kanji.word]]
 ja = "会[かい]議[ぎ]"
-tr = { en = "meeting, conference", ru = "совещание", uk = "нарада" }
-example = { ja = "あした会[かい]議[ぎ]があります。", en = "There is a meeting tomorrow.", ru = "Завтра совещание.", uk = "Завтра нарада." }
+tr = { en = "meeting, conference", ru = "совещание", uk = "нарада", es = "reunión, conferencia" }
+example = { ja = "あした会[かい]議[ぎ]があります。", en = "There is a meeting tomorrow.", ru = "Завтра совещание.", uk = "Завтра нарада.", es = "Mañana hay una reunión." }
 
 [[kanji.word]]
 ja = "会[かい]話[わ]"
-tr = { en = "conversation", ru = "разговор", uk = "розмова" }
-example = { ja = "会[かい]話[わ]のクラスです。", en = "It's a conversation class.", ru = "Это урок разговорной речи.", uk = "Це урок розмовної мови." }
+tr = { en = "conversation", ru = "разговор", uk = "розмова", es = "conversación" }
+example = { ja = "会[かい]話[わ]のクラスです。", en = "It's a conversation class.", ru = "Это урок разговорной речи.", uk = "Це урок розмовної мови.", es = "Es una clase de conversación." }
 
 [[kanji]]
 char = "社"
 number = 35
 level = 5
 readings = ["シャ"]
-meaning = { en = "company; society; shrine", ru = "компания; общество; святилище", uk = "компанія; суспільство; святилище" }
+meaning = { en = "company; society; shrine", ru = "компания; общество; святилище", uk = "компанія; суспільство; святилище", es = "empresa; sociedad; santuario" }
 
 [[kanji.word]]
 ja = "会[かい]社[しゃ]"
-tr = { en = "company", ru = "компания", uk = "компанія" }
-example = { ja = "あれは時[と]計[けい]の会[かい]社[しゃ]です。", en = "That is a watch company.", ru = "Это часовая компания.", uk = "Це годинникова компанія." }
+tr = { en = "company", ru = "компания", uk = "компанія", es = "empresa" }
+example = { ja = "あれは時[と]計[けい]の会[かい]社[しゃ]です。", en = "That is a watch company.", ru = "Это часовая компания.", uk = "Це годинникова компанія.", es = "Esa es una empresa de relojes." }
 
 [[kanji.word]]
 ja = "社[しゃ]会[かい]"
-tr = { en = "society", ru = "общество", uk = "суспільство" }
-example = { ja = "日[に]本[ほん]の社[しゃ]会[かい]について勉[べん]強[きょう]します。", en = "I study Japanese society.", ru = "Я изучаю японское общество.", uk = "Я вивчаю японське суспільство." }
+tr = { en = "society", ru = "общество", uk = "суспільство", es = "sociedad" }
+example = { ja = "日[に]本[ほん]の社[しゃ]会[かい]について勉[べん]強[きょう]します。", en = "I study Japanese society.", ru = "Я изучаю японское общество.", uk = "Я вивчаю японське суспільство.", es = "Estudio la sociedad japonesa." }
 
 [[kanji.word]]
 ja = "社[しゃ]会[かい]人[じん]"
-tr = { en = "working adult (no longer a student)", ru = "работающий взрослый (уже не студент)", uk = "доросла людина, що працює (вже не студент)" }
-example = { ja = "兄[あに]は去[きょ]年[ねん]社[しゃ]会[かい]人[じん]になりました。", en = "My older brother started working last year.", ru = "Мой старший брат в прошлом году начал работать.", uk = "Мій старший брат торік почав працювати." }
+tr = { en = "working adult (no longer a student)", ru = "работающий взрослый (уже не студент)", uk = "доросла людина, що працює (вже не студент)", es = "adulto que trabaja (ya no es estudiante)" }
+example = { ja = "兄[あに]は去[きょ]年[ねん]社[しゃ]会[かい]人[じん]になりました。", en = "My older brother started working last year.", ru = "Мой старший брат в прошлом году начал работать.", uk = "Мій старший брат торік почав працювати.", es = "Mi hermano mayor empezó a trabajar el año pasado." }
 
 [[kanji.word]]
 ja = "会[かい]社[しゃ]員[いん]"
-tr = { en = "office worker", ru = "служащий компании", uk = "службовець компанії" }
-example = { ja = "わたしは会[かい]社[しゃ]員[いん]です。", en = "I am an office worker.", ru = "Я служащий компании.", uk = "Я службовець компанії." }
+tr = { en = "office worker", ru = "служащий компании", uk = "службовець компанії", es = "empleado de oficina" }
+example = { ja = "わたしは会[かい]社[しゃ]員[いん]です。", en = "I am an office worker.", ru = "Я служащий компании.", uk = "Я службовець компанії.", es = "Soy empleado de oficina." }
 
 [[kanji.word]]
 ja = "社[しゃ]長[ちょう]"
-tr = { en = "company president (cf. 課長 かちょう section chief, 部長 ぶちょう department head)", ru = "президент компании (ср. 課長 かちょう — начальник отдела, 部長 ぶちょう — начальник департамента)", uk = "президент компанії (пор. 課長 かちょう — начальник відділу, 部長 ぶちょう — начальник департаменту)" }
-example = { ja = "社[しゃ]長[ちょう]は大[おお]阪[さか]へ行[い]きます。", en = "The president is going to Osaka.", ru = "Президент компании едет в Осаку.", uk = "Президент компанії їде до Осаки." }
+tr = { en = "company president (cf. 課長 かちょう section chief, 部長 ぶちょう department head)", ru = "президент компании (ср. 課長 かちょう — начальник отдела, 部長 ぶちょう — начальник департамента)", uk = "президент компанії (пор. 課長 かちょう — начальник відділу, 部長 ぶちょう — начальник департаменту)", es = "presidente de la empresa (cf. 課長 かちょう jefe de sección, 部長 ぶちょう jefe de departamento)" }
+example = { ja = "社[しゃ]長[ちょう]は大[おお]阪[さか]へ行[い]きます。", en = "The president is going to Osaka.", ru = "Президент компании едет в Осаку.", uk = "Президент компанії їде до Осаки.", es = "El presidente va a Osaka." }
 
 [[kanji]]
 char = "受"
 number = 36
 level = 3
 readings = ["う-けます", "う-かります", "(ジュ)"]
-meaning = { en = "to receive; to take (a test)", ru = "получать; сдавать (экзамен)", uk = "отримувати; складати (іспит)" }
+meaning = { en = "to receive; to take (a test)", ru = "получать; сдавать (экзамен)", uk = "отримувати; складати (іспит)", es = "recibir; presentarse (a un examen)" }
 
 [[kanji.word]]
 ja = "受[うけ]付[つけ]"
-tr = { en = "reception desk", ru = "регистратура, ресепшн", uk = "реєстратура, рецепція" }
-example = { ja = "受[うけ]付[つけ]は２階[かい]です。", en = "Reception is on the 2nd floor.", ru = "Ресепшн на 2-м этаже.", uk = "Рецепція на 2-му поверсі." }
+tr = { en = "reception desk", ru = "регистратура, ресепшн", uk = "реєстратура, рецепція", es = "recepción" }
+example = { ja = "受[うけ]付[つけ]は２階[かい]です。", en = "Reception is on the 2nd floor.", ru = "Ресепшн на 2-м этаже.", uk = "Рецепція на 2-му поверсі.", es = "La recepción está en el 2.º piso." }
 
 [[kanji.word]]
 ja = "受[う]けます"
-tr = { en = "to take (an exam), to receive", ru = "сдавать (экзамен), получать", uk = "складати (іспит), отримувати" }
-example = { ja = "漢[かん]字[じ]のテストを受[う]けます。", en = "I'm taking a kanji test.", ru = "Я сдаю тест по кандзи.", uk = "Я складаю тест з кандзі." }
+tr = { en = "to take (an exam), to receive", ru = "сдавать (экзамен), получать", uk = "складати (іспит), отримувати", es = "presentarse (a un examen), recibir" }
+example = { ja = "漢[かん]字[じ]のテストを受[う]けます。", en = "I'm taking a kanji test.", ru = "Я сдаю тест по кандзи.", uk = "Я складаю тест з кандзі.", es = "Voy a hacer un examen de kanji." }
 
 [[kanji]]
 char = "付"
 number = 37
 level = 3
 readings = ["つ-けます", "つ-きます", "(フ)"]
-meaning = { en = "to attach; to stick", ru = "прикреплять; прилипать", uk = "прикріплювати; прилипати" }
+meaning = { en = "to attach; to stick", ru = "прикреплять; прилипать", uk = "прикріплювати; прилипати", es = "pegar; adherir" }
 
 [[kanji.word]]
 ja = "受[うけ]付[つけ]"
-tr = { en = "reception desk", ru = "регистратура, ресепшн", uk = "реєстратура, рецепція" }
-example = { ja = "受[うけ]付[つけ]はどこですか。", en = "Where is the reception desk?", ru = "Где ресепшн?", uk = "Де рецепція?" }
+tr = { en = "reception desk", ru = "регистратура, ресепшн", uk = "реєстратура, рецепція", es = "recepción" }
+example = { ja = "受[うけ]付[つけ]はどこですか。", en = "Where is the reception desk?", ru = "Где ресепшн?", uk = "Де рецепція?", es = "¿Dónde está la recepción?" }
 
 [[kanji.word]]
 ja = "付[つ]けます"
-tr = { en = "to put on, to apply", ru = "наносить, прикладывать", uk = "наносити, прикладати" }
-example = { ja = "薬[くすり]を付[つ]けます。", en = "I put on some ointment.", ru = "Наношу мазь.", uk = "Наношу мазь." }
+tr = { en = "to put on, to apply", ru = "наносить, прикладывать", uk = "наносити, прикладати", es = "aplicar, poner" }
+example = { ja = "薬[くすり]を付[つ]けます。", en = "I put on some ointment.", ru = "Наношу мазь.", uk = "Наношу мазь.", es = "Me pongo pomada." }
 
 [[kanji.word]]
 ja = "付[つ]きます"
-tr = { en = "to stick to, to get (a mark)", ru = "прилипать, появляться (о следе)", uk = "прилипати, з'являтися (про слід)" }
-example = { ja = "この机[つくえ]は傷[きず]が付[つ]きません。", en = "This desk doesn't scratch.", ru = "На этом столе не остаётся царапин.", uk = "На цьому столі не лишається подряпин." }
+tr = { en = "to stick to, to get (a mark)", ru = "прилипать, появляться (о следе)", uk = "прилипати, з'являтися (про слід)", es = "pegarse, quedar (una marca)" }
+example = { ja = "この机[つくえ]は傷[きず]が付[つ]きません。", en = "This desk doesn't scratch.", ru = "На этом столе не остаётся царапин.", uk = "На цьому столі не лишається подряпин.", es = "A este escritorio no se le marcan rayas." }
 
 [[kanji]]
 char = "教"
 number = 38
 level = 4
 readings = ["おし-えます", "(おそ-わります)", "キョウ"]
-meaning = { en = "to teach", ru = "учить, преподавать", uk = "навчати, викладати" }
+meaning = { en = "to teach", ru = "учить, преподавать", uk = "навчати, викладати", es = "enseñar" }
 
 [[kanji.word]]
 ja = "教[きょう]室[しつ]"
-tr = { en = "classroom", ru = "класс, аудитория", uk = "клас, аудиторія" }
-example = { ja = "教[きょう]室[しつ]はどこですか。", en = "Where is the classroom?", ru = "Где аудитория?", uk = "Де аудиторія?" }
+tr = { en = "classroom", ru = "класс, аудитория", uk = "клас, аудиторія", es = "aula" }
+example = { ja = "教[きょう]室[しつ]はどこですか。", en = "Where is the classroom?", ru = "Где аудитория?", uk = "Де аудиторія?", es = "¿Dónde está el aula?" }
 
 [[kanji.word]]
 ja = "教[きょう]科[か]書[しょ]"
-tr = { en = "textbook", ru = "учебник", uk = "підручник" }
-example = { ja = "これは教[きょう]科[か]書[しょ]です。", en = "This is a textbook.", ru = "Это учебник.", uk = "Це підручник." }
+tr = { en = "textbook", ru = "учебник", uk = "підручник", es = "libro de texto" }
+example = { ja = "これは教[きょう]科[か]書[しょ]です。", en = "This is a textbook.", ru = "Это учебник.", uk = "Це підручник.", es = "Esto es un libro de texto." }
 
 [[kanji.word]]
 ja = "教[おし]えます"
-tr = { en = "to teach", ru = "учить, преподавать", uk = "навчати, викладати" }
-example = { ja = "リーさんに日[に]本[ほん]語[ご]を教[おし]えます。", en = "I teach Japanese to Ms. Lee.", ru = "Я учу Ли-сан японскому.", uk = "Я навчаю Лі-сан японської." }
+tr = { en = "to teach", ru = "учить, преподавать", uk = "навчати, викладати", es = "enseñar" }
+example = { ja = "リーさんに日[に]本[ほん]語[ご]を教[おし]えます。", en = "I teach Japanese to Ms. Lee.", ru = "Я учу Ли-сан японскому.", uk = "Я навчаю Лі-сан японської.", es = "Le enseño japonés a la señora Lee." }
 
 [[kanji]]
 char = "室"
 number = 39
 level = 4
 readings = ["シツ"]
-meaning = { en = "room", ru = "комната", uk = "кімната" }
+meaning = { en = "room", ru = "комната", uk = "кімната", es = "habitación, sala" }
 
 [[kanji.word]]
 ja = "教[きょう]室[しつ]"
-tr = { en = "classroom", ru = "класс, аудитория", uk = "клас, аудиторія" }
-example = { ja = "教[きょう]室[しつ]にだれがいますか。", en = "Who is in the classroom?", ru = "Кто в аудитории?", uk = "Хто в аудиторії?" }
+tr = { en = "classroom", ru = "класс, аудитория", uk = "клас, аудиторія", es = "aula" }
+example = { ja = "教[きょう]室[しつ]にだれがいますか。", en = "Who is in the classroom?", ru = "Кто в аудитории?", uk = "Хто в аудиторії?", es = "¿Quién está en el aula?" }
 
 [[kanji.word]]
 ja = "会[かい]議[ぎ]室[しつ]"
-tr = { en = "conference room", ru = "переговорная", uk = "переговорна" }
-example = { ja = "会[かい]議[ぎ]室[しつ]はどこですか。", en = "Where is the conference room?", ru = "Где переговорная?", uk = "Де переговорна?" }
+tr = { en = "conference room", ru = "переговорная", uk = "переговорна", es = "sala de reuniones" }
+example = { ja = "会[かい]議[ぎ]室[しつ]はどこですか。", en = "Where is the conference room?", ru = "Где переговорная?", uk = "Де переговорна?", es = "¿Dónde está la sala de reuniones?" }
 
 [[kanji]]
 char = "月"
 number = 40
 level = 5
 readings = ["つき", "ゲツ", "ガツ"]
-meaning = { en = "moon; month; Monday", ru = "луна; месяц; понедельник", uk = "місяць (на небі); місяць; понеділок" }
+meaning = { en = "moon; month; Monday", ru = "луна; месяц; понедельник", uk = "місяць (на небі); місяць; понеділок", es = "luna; mes; lunes" }
 
 [[kanji.word]]
 ja = "月[げつ]曜[よう]日[び]"
-tr = { en = "Monday", ru = "понедельник", uk = "понеділок" }
-example = { ja = "月[げつ]曜[よう]日[び]働[はたら]きますか。", en = "Do you work on Monday?", ru = "Вы работаете в понедельник?", uk = "Ви працюєте в понеділок?" }
+tr = { en = "Monday", ru = "понедельник", uk = "понеділок", es = "lunes" }
+example = { ja = "月[げつ]曜[よう]日[び]働[はたら]きますか。", en = "Do you work on Monday?", ru = "Вы работаете в понедельник?", uk = "Ви працюєте в понеділок?", es = "¿Trabajas el lunes?" }
 
 [[kanji.word]]
 ja = "１か月[げつ]"
-tr = { en = "one month (also written 1ヶ月)", ru = "один месяц (пишут и 1ヶ月)", uk = "один місяць (пишуть і 1ヶ月)" }
-example = { ja = "１か月[げつ]勉[べん]強[きょう]しました。", en = "I studied for a month.", ru = "Я занимался месяц.", uk = "Я вчився місяць." }
+tr = { en = "one month (also written 1ヶ月)", ru = "один месяц (пишут и 1ヶ月)", uk = "один місяць (пишуть і 1ヶ月)", es = "un mes (también se escribe 1ヶ月)" }
+example = { ja = "１か月[げつ]勉[べん]強[きょう]しました。", en = "I studied for a month.", ru = "Я занимался месяц.", uk = "Я вчився місяць.", es = "Estudié durante un mes." }
 
 [[kanji.word]]
 ja = "１月[がつ]"
-tr = { en = "January", ru = "январь", uk = "січень" }
-example = { ja = "誕[たん]生[じょう]日[び]は１月[がつ]３日[みっか]です。", en = "My birthday is January 3.", ru = "Мой день рождения — 3 января.", uk = "Мій день народження — 3 січня." }
+tr = { en = "January", ru = "январь", uk = "січень", es = "enero" }
+example = { ja = "誕[たん]生[じょう]日[び]は１月[がつ]３日[みっか]です。", en = "My birthday is January 3.", ru = "Мой день рождения — 3 января.", uk = "Мій день народження — 3 січня.", es = "Mi cumpleaños es el 3 de enero." }
 
 [[kanji.word]]
 ja = "毎[まい]月[つき]"
-tr = { en = "every month", ru = "каждый месяц", uk = "щомісяця" }
-example = { ja = "毎[まい]月[つき]京[きょう]都[と]へ行[い]きます。", en = "I go to Kyoto every month.", ru = "Каждый месяц я езжу в Киото.", uk = "Щомісяця я їжджу до Кіото." }
+tr = { en = "every month", ru = "каждый месяц", uk = "щомісяця", es = "cada mes" }
+example = { ja = "毎[まい]月[つき]京[きょう]都[と]へ行[い]きます。", en = "I go to Kyoto every month.", ru = "Каждый месяц я езжу в Киото.", uk = "Щомісяця я їжджу до Кіото.", es = "Voy a Kioto cada mes." }
 
 [[kanji.word]]
 ja = "月[つき]"
-tr = { en = "the moon", ru = "луна", uk = "місяць (на небі)" }
-example = { ja = "今[こん]夜[や]は月[つき]がきれいです。", en = "The moon is beautiful tonight.", ru = "Сегодня вечером красивая луна.", uk = "Сьогодні ввечері гарний місяць." }
+tr = { en = "the moon", ru = "луна", uk = "місяць (на небі)", es = "la luna" }
+example = { ja = "今[こん]夜[や]は月[つき]がきれいです。", en = "The moon is beautiful tonight.", ru = "Сегодня вечером красивая луна.", uk = "Сьогодні ввечері гарний місяць.", es = "La luna está preciosa esta noche." }
 
 [[kanji]]
 char = "火"
 number = 41
 level = 5
 readings = ["ひ", "カ"]
-meaning = { en = "fire; Tuesday", ru = "огонь; вторник", uk = "вогонь; вівторок" }
+meaning = { en = "fire; Tuesday", ru = "огонь; вторник", uk = "вогонь; вівторок", es = "fuego; martes" }
 
 [[kanji.word]]
 ja = "火[か]曜[よう]日[び]"
-tr = { en = "Tuesday", ru = "вторник", uk = "вівторок" }
-example = { ja = "９月[がつ]６日[むいか]は火[か]曜[よう]日[び]です。", en = "September 6 is a Tuesday.", ru = "6 сентября — вторник.", uk = "6 вересня — вівторок." }
+tr = { en = "Tuesday", ru = "вторник", uk = "вівторок", es = "martes" }
+example = { ja = "９月[がつ]６日[むいか]は火[か]曜[よう]日[び]です。", en = "September 6 is a Tuesday.", ru = "6 сентября — вторник.", uk = "6 вересня — вівторок.", es = "El 6 de septiembre es martes." }
 
 [[kanji.word]]
 ja = "火[ひ]"
-tr = { en = "fire", ru = "огонь", uk = "вогонь" }
-example = { ja = "たばこに火[ひ]をつけます。", en = "I light a cigarette.", ru = "Прикуриваю сигарету.", uk = "Підпалюю цигарку." }
+tr = { en = "fire", ru = "огонь", uk = "вогонь", es = "fuego" }
+example = { ja = "たばこに火[ひ]をつけます。", en = "I light a cigarette.", ru = "Прикуриваю сигарету.", uk = "Підпалюю цигарку.", es = "Enciendo un cigarrillo." }
 
 [[kanji.word]]
 ja = "火[か]山[ざん]"
-tr = { en = "volcano", ru = "вулкан", uk = "вулкан" }
-example = { ja = "富[ふ]士[じ]山[さん]は火[か]山[ざん]です。", en = "Mt. Fuji is a volcano.", ru = "Фудзи — вулкан.", uk = "Фудзі — вулкан." }
+tr = { en = "volcano", ru = "вулкан", uk = "вулкан", es = "volcán" }
+example = { ja = "富[ふ]士[じ]山[さん]は火[か]山[ざん]です。", en = "Mt. Fuji is a volcano.", ru = "Фудзи — вулкан.", uk = "Фудзі — вулкан.", es = "El monte Fuji es un volcán." }
 
 [[kanji]]
 char = "水"
 number = 42
 level = 5
 readings = ["みず", "スイ"]
-meaning = { en = "water; Wednesday", ru = "вода; среда", uk = "вода; середа" }
+meaning = { en = "water; Wednesday", ru = "вода; среда", uk = "вода; середа", es = "agua; miércoles" }
 
 [[kanji.word]]
 ja = "水[すい]曜[よう]日[び]"
-tr = { en = "Wednesday", ru = "среда", uk = "середа" }
-example = { ja = "９月[がつ]７日[なのか]は水[すい]曜[よう]日[び]です。", en = "September 7 is a Wednesday.", ru = "7 сентября — среда.", uk = "7 вересня — середа." }
+tr = { en = "Wednesday", ru = "среда", uk = "середа", es = "miércoles" }
+example = { ja = "９月[がつ]７日[なのか]は水[すい]曜[よう]日[び]です。", en = "September 7 is a Wednesday.", ru = "7 сентября — среда.", uk = "7 вересня — середа.", es = "El 7 de septiembre es miércoles." }
 
 [[kanji.word]]
 ja = "水[みず]"
-tr = { en = "water", ru = "вода", uk = "вода" }
-example = { ja = "水[みず]を飲[の]みます。", en = "I drink water.", ru = "Пью воду.", uk = "П'ю воду." }
+tr = { en = "water", ru = "вода", uk = "вода", es = "agua" }
+example = { ja = "水[みず]を飲[の]みます。", en = "I drink water.", ru = "Пью воду.", uk = "П'ю воду.", es = "Bebo agua." }
 
 [[kanji.word]]
 ja = "水[すい]泳[えい]します"
-tr = { en = "to swim (swimming)", ru = "плавать (плавание)", uk = "плавати (плавання)" }
-example = { ja = "水[すい]泳[えい]を習[なら]います。", en = "I take swimming lessons.", ru = "Я учусь плавать.", uk = "Я вчуся плавати." }
+tr = { en = "to swim (swimming)", ru = "плавать (плавание)", uk = "плавати (плавання)", es = "nadar (natación)" }
+example = { ja = "水[すい]泳[えい]を習[なら]います。", en = "I take swimming lessons.", ru = "Я учусь плавать.", uk = "Я вчуся плавати.", es = "Doy clases de natación." }
 
 [[kanji]]
 char = "木"
 number = 43
 level = 5
 readings = ["き", "モク", "(ボク)"]
-meaning = { en = "tree; Thursday", ru = "дерево; четверг", uk = "дерево; четвер" }
+meaning = { en = "tree; Thursday", ru = "дерево; четверг", uk = "дерево; четвер", es = "árbol; jueves" }
 
 [[kanji.word]]
 ja = "木[もく]曜[よう]日[び]"
-tr = { en = "Thursday", ru = "четверг", uk = "четвер" }
-example = { ja = "９月[がつ]８日[ようか]は木[もく]曜[よう]日[び]です。", en = "September 8 is a Thursday.", ru = "8 сентября — четверг.", uk = "8 вересня — четвер." }
+tr = { en = "Thursday", ru = "четверг", uk = "четвер", es = "jueves" }
+example = { ja = "９月[がつ]８日[ようか]は木[もく]曜[よう]日[び]です。", en = "September 8 is a Thursday.", ru = "8 сентября — четверг.", uk = "8 вересня — четвер.", es = "El 8 de septiembre es jueves." }
 
 [[kanji.word]]
 ja = "木[き]"
-tr = { en = "tree", ru = "дерево", uk = "дерево" }
-example = { ja = "庭[にわ]に木[き]があります。", en = "There is a tree in the garden.", ru = "В саду есть дерево.", uk = "У саду є дерево." }
+tr = { en = "tree", ru = "дерево", uk = "дерево", es = "árbol" }
+example = { ja = "庭[にわ]に木[き]があります。", en = "There is a tree in the garden.", ru = "В саду есть дерево.", uk = "У саду є дерево.", es = "Hay un árbol en el jardín." }
 
 [[kanji]]
 char = "金"
 number = 44
 level = 5
 readings = ["かね", "キン"]
-meaning = { en = "money; gold; Friday", ru = "деньги; золото; пятница", uk = "гроші; золото; п'ятниця" }
+meaning = { en = "money; gold; Friday", ru = "деньги; золото; пятница", uk = "гроші; золото; п'ятниця", es = "dinero; oro; viernes" }
 
 [[kanji.word]]
 ja = "金[きん]曜[よう]日[び]"
-tr = { en = "Friday", ru = "пятница", uk = "п'ятниця" }
-example = { ja = "金[きん]曜[よう]日[び]勉[べん]強[きょう]しますか。", en = "Do you study on Friday?", ru = "Вы занимаетесь в пятницу?", uk = "Ви вчитеся в п'ятницю?" }
+tr = { en = "Friday", ru = "пятница", uk = "п'ятниця", es = "viernes" }
+example = { ja = "金[きん]曜[よう]日[び]勉[べん]強[きょう]しますか。", en = "Do you study on Friday?", ru = "Вы занимаетесь в пятницу?", uk = "Ви вчитеся в п'ятницю?", es = "¿Estudias el viernes?" }
 
 [[kanji.word]]
 ja = "お金[かね]"
-tr = { en = "money", ru = "деньги", uk = "гроші" }
-example = { ja = "お金[かね]がありません。", en = "I have no money.", ru = "У меня нет денег.", uk = "У мене немає грошей." }
+tr = { en = "money", ru = "деньги", uk = "гроші", es = "dinero" }
+example = { ja = "お金[かね]がありません。", en = "I have no money.", ru = "У меня нет денег.", uk = "У мене немає грошей.", es = "No tengo dinero." }
 
 [[kanji.word]]
 ja = "金[きん]"
-tr = { en = "gold", ru = "золото", uk = "золото" }
-example = { ja = "金[きん]の時[と]計[けい]をもらいました。", en = "I was given a gold watch.", ru = "Мне подарили золотые часы.", uk = "Мені подарували золотий годинник." }
+tr = { en = "gold", ru = "золото", uk = "золото", es = "oro" }
+example = { ja = "金[きん]の時[と]計[けい]をもらいました。", en = "I was given a gold watch.", ru = "Мне подарили золотые часы.", uk = "Мені подарували золотий годинник.", es = "Me regalaron un reloj de oro." }
 
 [[kanji]]
 char = "土"
 number = 45
 level = 5
 readings = ["つち", "ド", "(ト)"]
-meaning = { en = "soil, earth; Saturday", ru = "земля, почва; суббота", uk = "земля, ґрунт; субота" }
+meaning = { en = "soil, earth; Saturday", ru = "земля, почва; суббота", uk = "земля, ґрунт; субота", es = "tierra, suelo; sábado" }
 
 [[kanji.word]]
 ja = "土[ど]曜[よう]日[び]"
-tr = { en = "Saturday", ru = "суббота", uk = "субота" }
-example = { ja = "土[ど]曜[よう]日[び]休[やす]みますか。", en = "Do you take Saturday off?", ru = "В субботу вы отдыхаете?", uk = "У суботу ви відпочиваєте?" }
+tr = { en = "Saturday", ru = "суббота", uk = "субота", es = "sábado" }
+example = { ja = "土[ど]曜[よう]日[び]休[やす]みますか。", en = "Do you take Saturday off?", ru = "В субботу вы отдыхаете?", uk = "У суботу ви відпочиваєте?", es = "¿Libras el sábado?" }
 
 [[kanji.word]]
 ja = "土[つち]"
-tr = { en = "soil", ru = "почва", uk = "ґрунт" }
-example = { ja = "土[つち]の中[なか]に虫[むし]がいます。", en = "There are insects in the soil.", ru = "В земле живут насекомые.", uk = "У землі живуть комахи." }
+tr = { en = "soil", ru = "почва", uk = "ґрунт", es = "tierra" }
+example = { ja = "土[つち]の中[なか]に虫[むし]がいます。", en = "There are insects in the soil.", ru = "В земле живут насекомые.", uk = "У землі живуть комахи.", es = "Hay insectos en la tierra." }
 
 [[kanji.word]]
 ja = "お土産[みやげ]"
-tr = { en = "souvenir, present", ru = "сувенир, гостинец", uk = "сувенір, гостинець" }
-example = { ja = "京[きょう]都[と]でお土産[みやげ]を買[か]います。", en = "I buy souvenirs in Kyoto.", ru = "Покупаю сувениры в Киото.", uk = "Купую сувеніри в Кіото." }
+tr = { en = "souvenir, present", ru = "сувенир, гостинец", uk = "сувенір, гостинець", es = "recuerdo, regalo" }
+example = { ja = "京[きょう]都[と]でお土産[みやげ]を買[か]います。", en = "I buy souvenirs in Kyoto.", ru = "Покупаю сувениры в Киото.", uk = "Купую сувеніри в Кіото.", es = "Compro recuerdos en Kioto." }
 
 [[kanji]]
 char = "曜"
 number = 46
 level = 4
 readings = ["ヨウ"]
-meaning = { en = "day of the week", ru = "день недели", uk = "день тижня" }
+meaning = { en = "day of the week", ru = "день недели", uk = "день тижня", es = "día de la semana" }
 
 [[kanji.word]]
 ja = "日[にち]曜[よう]日[び]"
-tr = { en = "Sunday", ru = "воскресенье", uk = "неділя" }
-example = { ja = "日[にち]曜[よう]日[び]映[えい]画[が]を見[み]ます。", en = "I watch a film on Sunday.", ru = "В воскресенье смотрю фильм.", uk = "У неділю дивлюся фільм." }
+tr = { en = "Sunday", ru = "воскресенье", uk = "неділя", es = "domingo" }
+example = { ja = "日[にち]曜[よう]日[び]映[えい]画[が]を見[み]ます。", en = "I watch a film on Sunday.", ru = "В воскресенье смотрю фильм.", uk = "У неділю дивлюся фільм.", es = "El domingo veo una película." }
 
 [[kanji.word]]
 ja = "何[なん]曜[よう]日[び]"
-tr = { en = "what day of the week", ru = "какой день недели", uk = "який день тижня" }
-example = { ja = "きょうは何[なん]曜[よう]日[び]ですか。", en = "What day is it today?", ru = "Какой сегодня день недели?", uk = "Який сьогодні день тижня?" }
+tr = { en = "what day of the week", ru = "какой день недели", uk = "який день тижня", es = "qué día de la semana" }
+example = { ja = "きょうは何[なん]曜[よう]日[び]ですか。", en = "What day is it today?", ru = "Какой сегодня день недели?", uk = "Який сьогодні день тижня?", es = "¿Qué día es hoy?" }
 
 [[kanji]]
 char = "朝"
 number = 47
 level = 4
 readings = ["あさ", "チョウ"]
-meaning = { en = "morning", ru = "утро", uk = "ранок" }
+meaning = { en = "morning", ru = "утро", uk = "ранок", es = "mañana (parte del día)" }
 
 [[kanji.word]]
 ja = "朝[あさ]"
-tr = { en = "morning", ru = "утро", uk = "ранок" }
-example = { ja = "きのうの朝[あさ]６時[じ]に起[お]きました。", en = "Yesterday morning I got up at six.", ru = "Вчера утром я встал в шесть.", uk = "Учора вранці я встав о шостій." }
+tr = { en = "morning", ru = "утро", uk = "ранок", es = "mañana (parte del día)" }
+example = { ja = "きのうの朝[あさ]６時[じ]に起[お]きました。", en = "Yesterday morning I got up at six.", ru = "Вчера утром я встал в шесть.", uk = "Учора вранці я встав о шостій.", es = "Ayer por la mañana me levanté a las seis." }
 
 [[kanji.word]]
 ja = "朝[あさ]ご飯[はん]"
-tr = { en = "breakfast", ru = "завтрак", uk = "сніданок" }
-example = { ja = "朝[あさ]ご飯[はん]を食[た]べます。", en = "I eat breakfast.", ru = "Завтракаю.", uk = "Снідаю." }
+tr = { en = "breakfast", ru = "завтрак", uk = "сніданок", es = "desayuno" }
+example = { ja = "朝[あさ]ご飯[はん]を食[た]べます。", en = "I eat breakfast.", ru = "Завтракаю.", uk = "Снідаю.", es = "Desayuno." }
 
 [[kanji.word]]
 ja = "毎[まい]朝[あさ]"
-tr = { en = "every morning", ru = "каждое утро", uk = "щоранку" }
-example = { ja = "毎[まい]朝[あさ]７時[じ]に起[お]きます。", en = "I get up at seven every morning.", ru = "Каждое утро встаю в семь.", uk = "Щоранку встаю о сьомій." }
+tr = { en = "every morning", ru = "каждое утро", uk = "щоранку", es = "cada mañana" }
+example = { ja = "毎[まい]朝[あさ]７時[じ]に起[お]きます。", en = "I get up at seven every morning.", ru = "Каждое утро встаю в семь.", uk = "Щоранку встаю о сьомій.", es = "Me levanto a las siete cada mañana." }
 
 [[kanji.word]]
 ja = "朝[ちょう]食[しょく]"
-tr = { en = "breakfast (formal)", ru = "завтрак (офиц.)", uk = "сніданок (офіц.)" }
-example = { ja = "朝[ちょう]食[しょく]は９時[じ]からです。", en = "Breakfast is from nine.", ru = "Завтрак с девяти.", uk = "Сніданок з дев'ятої." }
+tr = { en = "breakfast (formal)", ru = "завтрак (офиц.)", uk = "сніданок (офіц.)", es = "desayuno (formal)" }
+example = { ja = "朝[ちょう]食[しょく]は９時[じ]からです。", en = "Breakfast is from nine.", ru = "Завтрак с девяти.", uk = "Сніданок з дев'ятої.", es = "El desayuno es a partir de las nueve." }
 
 [[kanji]]
 char = "昼"
 number = 48
 level = 4
 readings = ["ひる", "チュウ"]
-meaning = { en = "noon, daytime", ru = "полдень, день", uk = "полудень, день" }
+meaning = { en = "noon, daytime", ru = "полдень, день", uk = "полудень, день", es = "mediodía, de día" }
 
 [[kanji.word]]
 ja = "昼[ひる]"
-tr = { en = "noon", ru = "полдень", uk = "полудень" }
-example = { ja = "昼[ひる]１２時[じ]から１時[じ]まで休[やす]みます。", en = "At midday I take a break from twelve to one.", ru = "Днём отдыхаю с двенадцати до часу.", uk = "Удень відпочиваю з дванадцятої до першої." }
+tr = { en = "noon", ru = "полдень", uk = "полудень", es = "mediodía" }
+example = { ja = "昼[ひる]１２時[じ]から１時[じ]まで休[やす]みます。", en = "At midday I take a break from twelve to one.", ru = "Днём отдыхаю с двенадцати до часу.", uk = "Удень відпочиваю з дванадцятої до першої.", es = "A mediodía descanso de doce a una." }
 
 [[kanji.word]]
 ja = "昼[ひる]ごはん"
-tr = { en = "lunch", ru = "обед", uk = "обід" }
-example = { ja = "昼[ひる]ごはんを食[た]べます。", en = "I eat lunch.", ru = "Обедаю.", uk = "Обідаю." }
+tr = { en = "lunch", ru = "обед", uk = "обід", es = "almuerzo" }
+example = { ja = "昼[ひる]ごはんを食[た]べます。", en = "I eat lunch.", ru = "Обедаю.", uk = "Обідаю.", es = "Almuerzo." }
 
 [[kanji.word]]
 ja = "昼[ちゅう]食[しょく]"
-tr = { en = "lunch (formal)", ru = "обед (офиц.)", uk = "обід (офіц.)" }
-example = { ja = "昼[ちゅう]食[しょく]は１２時[じ]からです。", en = "Lunch is from twelve.", ru = "Обед с двенадцати.", uk = "Обід з дванадцятої." }
+tr = { en = "lunch (formal)", ru = "обед (офиц.)", uk = "обід (офіц.)", es = "almuerzo (formal)" }
+example = { ja = "昼[ちゅう]食[しょく]は１２時[じ]からです。", en = "Lunch is from twelve.", ru = "Обед с двенадцати.", uk = "Обід з дванадцятої.", es = "El almuerzo es a partir de las doce." }
 
 [[kanji]]
 char = "晩"
 number = 49
 level = 4
 readings = ["バン"]
-meaning = { en = "evening, night", ru = "вечер", uk = "вечір" }
+meaning = { en = "evening, night", ru = "вечер", uk = "вечір", es = "tarde, noche" }
 
 [[kanji.word]]
 ja = "毎[まい]晩[ばん]"
-tr = { en = "every night", ru = "каждый вечер", uk = "щовечора" }
-example = { ja = "毎[まい]晩[ばん]　１１時[じ]に寝[ね]ます。", en = "I go to bed at eleven every night.", ru = "Каждый вечер ложусь спать в одиннадцать.", uk = "Щовечора лягаю спати об одинадцятій." }
+tr = { en = "every night", ru = "каждый вечер", uk = "щовечора", es = "cada noche" }
+example = { ja = "毎[まい]晩[ばん]　１１時[じ]に寝[ね]ます。", en = "I go to bed at eleven every night.", ru = "Каждый вечер ложусь спать в одиннадцать.", uk = "Щовечора лягаю спати об одинадцятій.", es = "Me acuesto a las once cada noche." }
 
 [[kanji.word]]
 ja = "晩[ばん]ごはん"
-tr = { en = "dinner", ru = "ужин", uk = "вечеря" }
-example = { ja = "きのう、晩[ばん]ごはんを食[た]べませんでした。", en = "Yesterday I didn't eat dinner.", ru = "Вчера я не ужинал.", uk = "Учора я не вечеряв." }
+tr = { en = "dinner", ru = "ужин", uk = "вечеря", es = "cena" }
+example = { ja = "きのう、晩[ばん]ごはんを食[た]べませんでした。", en = "Yesterday I didn't eat dinner.", ru = "Вчера я не ужинал.", uk = "Учора я не вечеряв.", es = "Ayer no cené." }
 
 [[kanji.word]]
 ja = "今[こん]晩[ばん]"
-tr = { en = "this evening", ru = "сегодня вечером", uk = "сьогодні ввечері" }
-example = { ja = "今[こん]晩[ばん]　勉[べん]強[きょう]しますか。", en = "Are you studying this evening?", ru = "Сегодня вечером будете заниматься?", uk = "Сьогодні ввечері будете вчитися?" }
+tr = { en = "this evening", ru = "сегодня вечером", uk = "сьогодні ввечері", es = "esta tarde" }
+example = { ja = "今[こん]晩[ばん]　勉[べん]強[きょう]しますか。", en = "Are you studying this evening?", ru = "Сегодня вечером будете заниматься?", uk = "Сьогодні ввечері будете вчитися?", es = "¿Estudias esta tarde?" }
 
 [[kanji]]
 char = "夜"
 number = 50
 level = 4
 readings = ["よる", "よ", "ヤ"]
-meaning = { en = "night", ru = "ночь", uk = "ніч" }
+meaning = { en = "night", ru = "ночь", uk = "ніч", es = "noche" }
 
 [[kanji.word]]
 ja = "夜[よる]"
-tr = { en = "night", ru = "ночь", uk = "ніч" }
-example = { ja = "わたしは夜[よる]　１０時[じ]半[はん]に寝[ね]ます。", en = "I go to bed at half past ten at night.", ru = "Я ложусь спать в половине одиннадцатого вечера.", uk = "Я лягаю спати о пів на одинадцяту вечора." }
+tr = { en = "night", ru = "ночь", uk = "ніч", es = "noche" }
+example = { ja = "わたしは夜[よる]　１０時[じ]半[はん]に寝[ね]ます。", en = "I go to bed at half past ten at night.", ru = "Я ложусь спать в половине одиннадцатого вечера.", uk = "Я лягаю спати о пів на одинадцяту вечора.", es = "Por la noche me acuesto a las diez y media." }
 
 [[kanji.word]]
 ja = "夜[よ]中[なか]"
-tr = { en = "midnight, the middle of the night", ru = "полночь, среди ночи", uk = "північ, серед ночі" }
-example = { ja = "夜[よ]中[なか]に地[じ]震[しん]がありました。", en = "There was an earthquake in the middle of the night.", ru = "Ночью было землетрясение.", uk = "Уночі був землетрус." }
+tr = { en = "midnight, the middle of the night", ru = "полночь, среди ночи", uk = "північ, серед ночі", es = "medianoche, plena noche" }
+example = { ja = "夜[よ]中[なか]に地[じ]震[しん]がありました。", en = "There was an earthquake in the middle of the night.", ru = "Ночью было землетрясение.", uk = "Уночі був землетрус.", es = "Hubo un terremoto en plena noche." }
 
 [[kanji.word]]
 ja = "真[ま]夜[よ]中[なか]"
-tr = { en = "dead of night", ru = "глубокая ночь", uk = "глибока ніч" }
-example = { ja = "真[ま]夜[よ]中[なか]まで勉[べん]強[きょう]しました。", en = "I studied until the dead of night.", ru = "Я занимался до глубокой ночи.", uk = "Я вчився до глибокої ночі." }
+tr = { en = "dead of night", ru = "глубокая ночь", uk = "глибока ніч", es = "altas horas de la noche" }
+example = { ja = "真[ま]夜[よ]中[なか]まで勉[べん]強[きょう]しました。", en = "I studied until the dead of night.", ru = "Я занимался до глубокой ночи.", uk = "Я вчився до глибокої ночі.", es = "Estudié hasta altas horas de la noche." }
 
 [[kanji.word]]
 ja = "今[こん]夜[や]"
-tr = { en = "tonight", ru = "сегодня ночью", uk = "сьогодні вночі" }
-example = { ja = "今[こん]夜[や]は寒[さむ]いです。", en = "It's cold tonight.", ru = "Сегодня ночью холодно.", uk = "Сьогодні вночі холодно." }
+tr = { en = "tonight", ru = "сегодня ночью", uk = "сьогодні вночі", es = "esta noche" }
+example = { ja = "今[こん]夜[や]は寒[さむ]いです。", en = "It's cold tonight.", ru = "Сегодня ночью холодно.", uk = "Сьогодні вночі холодно.", es = "Esta noche hace frío." }
 
 [[kanji]]
 char = "今"
 number = 51
 level = 5
 readings = ["いま", "コン"]
-meaning = { en = "now", ru = "сейчас", uk = "зараз" }
+meaning = { en = "now", ru = "сейчас", uk = "зараз", es = "ahora" }
 
 [[kanji.word]]
 ja = "今[いま]"
-tr = { en = "now", ru = "сейчас", uk = "зараз" }
-example = { ja = "今[いま]　何[なん]時[じ]ですか。", en = "What time is it now?", ru = "Который сейчас час?", uk = "Котра зараз година?" }
+tr = { en = "now", ru = "сейчас", uk = "зараз", es = "ahora" }
+example = { ja = "今[いま]　何[なん]時[じ]ですか。", en = "What time is it now?", ru = "Который сейчас час?", uk = "Котра зараз година?", es = "¿Qué hora es ahora?" }
 
 [[kanji.word]]
 ja = "今[こん]月[げつ]"
-tr = { en = "this month", ru = "в этом месяце", uk = "цього місяця" }
-example = { ja = "今[こん]月[げつ]　国[くに]へ帰[かえ]ります。", en = "This month I'm going back to my country.", ru = "В этом месяце я возвращаюсь на родину.", uk = "Цього місяця я повертаюся на батьківщину." }
+tr = { en = "this month", ru = "в этом месяце", uk = "цього місяця", es = "este mes" }
+example = { ja = "今[こん]月[げつ]　国[くに]へ帰[かえ]ります。", en = "This month I'm going back to my country.", ru = "В этом месяце я возвращаюсь на родину.", uk = "Цього місяця я повертаюся на батьківщину.", es = "Este mes vuelvo a mi país." }
 
 [[kanji.word]]
 ja = "今[こん]度[ど]"
-tr = { en = "next time; this coming", ru = "в следующий раз; ближайший", uk = "наступного разу; найближчий" }
-example = { ja = "今[こん]度[ど]の日[にち]曜[よう]日[び]　新[しん]宿[じゅく]へ行[い]きます。", en = "This coming Sunday I'm going to Shinjuku.", ru = "В это воскресенье я поеду в Синдзюку.", uk = "Цієї неділі я поїду до Сіндзюку." }
+tr = { en = "next time; this coming", ru = "в следующий раз; ближайший", uk = "наступного разу; найближчий", es = "la próxima vez; este próximo" }
+example = { ja = "今[こん]度[ど]の日[にち]曜[よう]日[び]　新[しん]宿[じゅく]へ行[い]きます。", en = "This coming Sunday I'm going to Shinjuku.", ru = "В это воскресенье я поеду в Синдзюку.", uk = "Цієї неділі я поїду до Сіндзюку.", es = "Este domingo voy a Shinjuku." }
 
 [[kanji.word]]
 ja = "今日[きょう]"
-tr = { en = "today", ru = "сегодня", uk = "сьогодні" }
-example = { ja = "今日[きょう]は月[げつ]曜[よう]日[び]です。", en = "Today is Monday.", ru = "Сегодня понедельник.", uk = "Сьогодні понеділок." }
+tr = { en = "today", ru = "сегодня", uk = "сьогодні", es = "hoy" }
+example = { ja = "今日[きょう]は月[げつ]曜[よう]日[び]です。", en = "Today is Monday.", ru = "Сегодня понедельник.", uk = "Сьогодні понеділок.", es = "Hoy es lunes." }
 
 [[kanji.word]]
 ja = "今年[ことし]"
-tr = { en = "this year", ru = "в этом году", uk = "цього року" }
-example = { ja = "今年[ことし]　日[に]本[ほん]へ行[い]きます。", en = "This year I'm going to Japan.", ru = "В этом году я поеду в Японию.", uk = "Цього року я поїду до Японії." }
+tr = { en = "this year", ru = "в этом году", uk = "цього року", es = "este año" }
+example = { ja = "今年[ことし]　日[に]本[ほん]へ行[い]きます。", en = "This year I'm going to Japan.", ru = "В этом году я поеду в Японию.", uk = "Цього року я поїду до Японії.", es = "Este año voy a Japón." }

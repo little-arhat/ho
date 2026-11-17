@@ -68,6 +68,6 @@ def test_rejects_undrillable(bad):
 
 def test_unknown_table_rejected(tmp_path):
     f = tmp_path / "k.toml"
-    f.write_text('[[words]]\nja="パン"\nen="bread"\nru="хлеб"\nuk="хліб"\n')
+    f.write_text('[[words]]\nja="パン"\nen="bread"\nru="хлеб"\nuk="хліб"\nes="pan"\n')
     with pytest.raises(ContentError, match="only \\[\\[word\\]\\]"):
         load(f)

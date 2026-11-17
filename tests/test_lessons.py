@@ -6,7 +6,7 @@ from ho.errors import ContentError
 from ho.lessons import VOCAB_COLUMNS, exercises_view, load_lesson, load_lessons, load_vocab
 
 LESSONS = Path(__file__).parent.parent / "content/lessons"
-HEAD = 'number = 9\ntitle = { en = "t", ru = "т", uk = "т" }\ngrammar = "は"\n'
+HEAD = 'number = 9\ntitle = { en = "t", ru = "т", uk = "т", es = "t" }\ngrammar = "は"\n'
 
 
 def write(tmp_path, body, name="09.toml"):
@@ -31,6 +31,7 @@ answer = "の"
 en = "e"
 ru = "р"
 uk = "у"
+es = "s"
 ''')
     (x,) = exercises_view(load_lesson(f))
     assert x["before"] == [["私", "わたし"]]
@@ -38,11 +39,11 @@ uk = "у"
 
 
 @pytest.mark.parametrize(("body", "message"), [
-    ('[[exercise]]\nkind="choice"\nja="はい"\noptions=["a","b"]\nanswer="a"\nen="e"\nru="р"\nuk="у"\n', "exactly one"),
-    ('[[exercise]]\nkind="choice"\nja="＿です"\noptions=["a","b"]\nanswer="c"\nen="e"\nru="р"\nuk="у"\n', "include the answer"),
-    ('[[exercise]]\nkind="reorder"\nparts=["a","b"]\nen="e"\nru="р"\nuk="у"\n', "at least 3"),
-    ('[[rule]]\ntitle={en="e",ru="р",uk=""}\nexplain={en="e",ru="р",uk="у"}\n', "non-empty"),
-    ('[[rule]]\ntitle={en="e",ru="р",uk="у"}\nexplain={en="e",ru="р",uk="у"}\nexmple=[]\n', "unknown"),
+    ('[[exercise]]\nkind="choice"\nja="はい"\noptions=["a","b"]\nanswer="a"\nen="e"\nru="р"\nuk="у"\nes="s"\n', "exactly one"),
+    ('[[exercise]]\nkind="choice"\nja="＿です"\noptions=["a","b"]\nanswer="c"\nen="e"\nru="р"\nuk="у"\nes="s"\n', "include the answer"),
+    ('[[exercise]]\nkind="reorder"\nparts=["a","b"]\nen="e"\nru="р"\nuk="у"\nes="s"\n', "at least 3"),
+    ('[[rule]]\ntitle={en="e",ru="р",uk="",es="s"}\nexplain={en="e",ru="р",uk="у",es="s"}\n', "non-empty"),
+    ('[[rule]]\ntitle={en="e",ru="р",uk="у",es="s"}\nexplain={en="e",ru="р",uk="у",es="s"}\nexmple=[]\n', "unknown"),
     ('[[note]]\ndate="11/11"\ntext="x"\n', "YYYY-MM-DD"),
 ])
 def test_rejects(tmp_path, body, message):
@@ -57,21 +58,23 @@ def test_number_must_match_file(tmp_path):
 
 def test_vocab_furigana_must_match(tmp_path):
     f = tmp_path / "v.csv"
-    f.write_text(",".join(VOCAB_COLUMNS) + "\n私,わたくし,私[わたし],I,я,я,,,,,,,\n")
+    f.write_text(",".join(VOCAB_COLUMNS) + "\n私,わたくし,私[わたし],I,я,я,yo,,,,,,,,,\n")
     with pytest.raises(ContentError, match="does not give"):
         load_vocab(f)
 
 
 def test_vocab_example_needs_translations(tmp_path):
     f = tmp_path / "v.csv"
-    f.write_text(",".join(VOCAB_COLUMNS) + "\n私,わたし,私[わたし],I,я,я,,,,私[わたし]です。,I am.,,\n")
+    f.write_text(",".join(VOCAB_COLUMNS) + "\n私,わたし,私[わたし],I,я,я,yo,,,,,私[わたし]です。,I am.,,,\n")
     with pytest.raises(ContentError, match="example"):
         load_vocab(f)
 
 
 def test_translation_in_the_wrong_alphabet_is_caught():
     from ho.fields import translations
-    with pytest.raises(ContentError, match="uk has the Russian letter"):
-        translations({"en": "student", "ru": "студент", "uk": "студенты"}, "w")
-    with pytest.raises(ContentError, match="ru has the Ukrainian letter"):
-        translations({"en": "child", "ru": "дітина", "uk": "дитина"}, "w")
+    with pytest.raises(ContentError, match="uk has the letter"):
+        translations({"en": "student", "ru": "студент", "uk": "студенты", "es": "estudiante"}, "w")
+    with pytest.raises(ContentError, match="ru has the letter"):
+        translations({"en": "child", "ru": "дітина", "uk": "дитина", "es": "niño"}, "w")
+    with pytest.raises(ContentError, match="es has the letter"):
+        translations({"en": "child", "ru": "ребёнок", "uk": "дитина", "es": "дитина"}, "w")

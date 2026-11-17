@@ -1,70 +1,75 @@
 number = 7
-title = { en = "Giving and receiving; by means of", ru = "Дарить и получать; с помощью чего", uk = "Дарувати й отримувати; за допомогою чого" }
+title = { en = "Giving and receiving; by means of", ru = "Дарить и получать; с помощью чего", uk = "Дарувати й отримувати; за допомогою чого", es = "Dar y recibir; por medio de" }
 grammar = "で（道具）・～語[ご]で・あげます・もらいます・もう～ました・まだです"
 
 [[rule]]
-title = { en = "Tool / means で: with, by, in (a language)", ru = "Инструмент / средство で: чем, на каком языке", uk = "Інструмент / засіб で: чим, якою мовою" }
+title = { en = "Tool / means で: with, by, in (a language)", ru = "Инструмент / средство で: чем, на каком языке", uk = "Інструмент / засіб で: чим, якою мовою", es = "Herramienta / medio で: con, por, en (un idioma)" }
 pattern = [
-  { slot = "thing", en = "tool / language", ru = "инструмент / язык", uk = "інструмент / мова" },
+  { slot = "thing", en = "tool / language", ru = "инструмент / язык", uk = "інструмент / мова", es = "herramienta / idioma" },
   { ja = "で" },
-  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово" },
+  { slot = "verb", en = "verb", ru = "глагол", uk = "дієслово", es = "verbo" },
 ]
 explain.en = "で after a tool or method says what you do it with: はしで 食べます = I eat with chopsticks. Languages work the same way: 日本語で 書きます = I write in Japanese. (Lesson 5's で for transport is the same idea.)"
 explain.ru = "で после инструмента или способа говорит, чем делают: はしで 食べます — ем палочками. С языками так же: 日本語で 書きます — пишу по-японски. (で транспорта из 5-го урока — та же идея.)"
 explain.uk = "で після інструмента чи способу каже, чим роблять: はしで 食べます — їм паличками. З мовами так само: 日本語で 書きます — пишу японською. (で транспорту з 5-го уроку — та сама ідея.)"
+explain.es = "で después de una herramienta o un método dice con qué lo haces: はしで 食べます = como con palillos. Con los idiomas funciona igual: 日本語で 書きます = escribo en japonés. (El で del transporte de la lección 5 es la misma idea.)"
 example = [
-  { ja = "はしで食[た]べます。", en = "I eat with chopsticks.", ru = "Ем палочками.", uk = "Їм паличками." },
-  { ja = "はさみで紙[かみ]を切[き]ります。", en = "I cut paper with scissors.", ru = "Режу бумагу ножницами.", uk = "Ріжу папір ножицями." },
-  { ja = "日[に]本[ほん]語[ご]でレポートを書[か]きます。", en = "I write the report in Japanese.", ru = "Пишу доклад по-японски.", uk = "Пишу доповідь японською." },
+  { ja = "はしで食[た]べます。", en = "I eat with chopsticks.", ru = "Ем палочками.", uk = "Їм паличками.", es = "Como con palillos." },
+  { ja = "はさみで紙[かみ]を切[き]ります。", en = "I cut paper with scissors.", ru = "Режу бумагу ножницами.", uk = "Ріжу папір ножицями.", es = "Corto papel con tijeras." },
+  { ja = "日[に]本[ほん]語[ご]でレポートを書[か]きます。", en = "I write the report in Japanese.", ru = "Пишу доклад по-японски.", uk = "Пишу доповідь японською.", es = "Escribo el informe en japonés." },
 ]
 
 [[rule]]
-title = { en = "Word は ～語で 何ですか: what is it in …?", ru = "Слово は ～語で 何ですか: как это на …?", uk = "Слово は ～語で 何ですか: як це …?" }
+title = { en = "Word は ～語で 何ですか: what is it in …?", ru = "Слово は ～語で 何ですか: как это на …?", uk = "Слово は ～語で 何ですか: як це …?", es = "Palabra は ～語で 何ですか: ¿cómo se dice en …?" }
 explain.en = "Ask for a word in another language with ～語で 何ですか. The answer repeats the pattern: 「Thank you」は 日本語で 何ですか。—「ありがとう」です。"
 explain.ru = "Как сказать слово на другом языке: ～語で 何ですか. Ответ: 「Thank you」は 日本語で 何ですか。—「ありがとう」です。"
 explain.uk = "Як сказати слово іншою мовою: ～語で 何ですか. Відповідь: 「Thank you」は 日本語で 何ですか。—「ありがとう」です。"
+explain.es = "Para preguntar una palabra en otro idioma: ～語で 何ですか. La respuesta repite el patrón: 「Thank you」は 日本語で 何ですか。—「ありがとう」です。"
 example = [
-  { ja = "「Thank you」は日[に]本[ほん]語[ご]で何[なん]ですか。", en = "What is \"thank you\" in Japanese?", ru = "Как будет «спасибо» по-японски?", uk = "Як буде «дякую» японською?" },
-  { ja = "「ありがとう」です。", en = "It's ありがとう.", ru = "«Аригато».", uk = "«Арігато»." },
+  { ja = "「Thank you」は日[に]本[ほん]語[ご]で何[なん]ですか。", en = "What is \"thank you\" in Japanese?", ru = "Как будет «спасибо» по-японски?", uk = "Як буде «дякую» японською?", es = "¿Cómo se dice «gracias» en japonés?" },
+  { ja = "「ありがとう」です。", en = "It's ありがとう.", ru = "«Аригато».", uk = "«Арігато».", es = "Se dice ありがとう." },
 ]
 
 [[rule]]
-title = { en = "Person に あげます / もらいます: give, receive", ru = "Человек に あげます / もらいます: дарить, получать", uk = "Людина に あげます / もらいます: дарувати, отримувати" }
+title = { en = "Person に あげます / もらいます: give, receive", ru = "Человек に あげます / もらいます: дарить, получать", uk = "Людина に あげます / もらいます: дарувати, отримувати", es = "Persona に あげます / もらいます: dar, recibir" }
 pattern = [
-  { slot = "person", en = "person", ru = "человек", uk = "людина" },
+  { slot = "person", en = "person", ru = "человек", uk = "людина", es = "persona" },
   { ja = "に" },
-  { slot = "thing", en = "thing", ru = "вещь", uk = "річ" },
+  { slot = "thing", en = "thing", ru = "вещь", uk = "річ", es = "cosa" },
   { ja = "を" },
-  { slot = "verb", en = "あげます / もらいます…", ru = "あげます / もらいます…", uk = "あげます / もらいます…" },
+  { slot = "verb", en = "あげます / もらいます…", ru = "あげます / もらいます…", uk = "あげます / もらいます…", es = "あげます / もらいます…" },
 ]
 explain.en = "に marks the other person. With あげます (give), かします (lend), おしえます (teach), に is who gets it; with もらいます (receive), かります (borrow), ならいます (learn), に is who it comes from (から also works). 電話を かけます (call) also takes に."
 explain.ru = "に отмечает другого человека. С あげます (дарить), かします (одалживать), おしえます (учить) に — кому; с もらいます (получать), かります (брать взаймы), ならいます (учиться) に — от кого (можно и から). 電話を かけます (звонить) тоже берёт に."
 explain.uk = "に позначає іншу людину. З あげます (дарувати), かします (позичати комусь), おしえます (навчати) に — кому; з もらいます (отримувати), かります (позичати в когось), ならいます (вчитися) に — від кого (можна й から). 電話を かけます (дзвонити) теж бере に."
+explain.es = "に marca a la otra persona. Con あげます (dar), かします (prestar), おしえます (enseñar), に es quien lo recibe; con もらいます (recibir), かります (tomar prestado), ならいます (aprender), に es de quien viene (también vale から). 電話を かけます (llamar) también lleva に."
 example = [
-  { ja = "わたしは木[き]村[むら]さんに花[はな]をあげました。", en = "I gave Ms. Kimura flowers.", ru = "Я подарил Кимуре-сан цветы.", uk = "Я подарував Кімурі-сан квіти." },
-  { ja = "わたしはカリナさんにチョコレートをもらいました。", en = "I got chocolate from Karina.", ru = "Я получил шоколад от Карины.", uk = "Я отримав шоколад від Карини." },
-  { ja = "わたしは山[やま]田[だ]さんに日[に]本[ほん]語[ご]を習[なら]います。", en = "I learn Japanese from Mr. Yamada.", ru = "Я учу японский у Ямады-сан.", uk = "Я вчу японську в Ямади-сан." },
+  { ja = "わたしは木[き]村[むら]さんに花[はな]をあげました。", en = "I gave Ms. Kimura flowers.", ru = "Я подарил Кимуре-сан цветы.", uk = "Я подарував Кімурі-сан квіти.", es = "Le di flores a la señora Kimura." },
+  { ja = "わたしはカリナさんにチョコレートをもらいました。", en = "I got chocolate from Karina.", ru = "Я получил шоколад от Карины.", uk = "Я отримав шоколад від Карини.", es = "Karina me dio chocolate." },
+  { ja = "わたしは山[やま]田[だ]さんに日[に]本[ほん]語[ご]を習[なら]います。", en = "I learn Japanese from Mr. Yamada.", ru = "Я учу японский у Ямады-сан.", uk = "Я вчу японську в Ямади-сан.", es = "Aprendo japonés con el señor Yamada." },
 ]
 
 [[rule]]
-title = { en = "もう V ました / まだです: already / not yet", ru = "もう V ました / まだです: уже / ещё нет", uk = "もう V ました / まだです: уже / ще ні" }
+title = { en = "もう V ました / まだです: already / not yet", ru = "もう V ました / まだです: уже / ещё нет", uk = "もう V ました / まだです: уже / ще ні", es = "もう V ました / まだです: ya / todavía no" }
 explain.en = "もう ～ましたか asks if something is already done. Yes: はい、もう ～ました. No: いいえ、まだです (not yet) — not ～ませんでした, which would mean you didn't do it at all."
 explain.ru = "もう ～ましたか — уже сделали? Да: はい、もう ～ました. Нет: いいえ、まだです (ещё нет) — а не ～ませんでした, что значило бы «не сделал вовсе»."
 explain.uk = "もう ～ましたか — уже зробили? Так: はい、もう ～ました. Ні: いいえ、まだです (ще ні) — а не ～ませんでした, що означало б «не зробив узагалі»."
+explain.es = "もう ～ましたか pregunta si algo ya está hecho. Sí: はい、もう ～ました. No: いいえ、まだです (todavía no) — no ～ませんでした, que significaría que no lo hiciste en absoluto."
 example = [
-  { ja = "もう荷[に]物[もつ]を送[おく]りましたか。", en = "Have you sent the package yet?", ru = "Вы уже отправили посылку?", uk = "Ви вже надіслали посилку?" },
-  { ja = "はい、もう送[おく]りました。", en = "Yes, I already sent it.", ru = "Да, уже отправил.", uk = "Так, уже надіслав." },
-  { ja = "いいえ、まだです。", en = "No, not yet.", ru = "Нет, ещё нет.", uk = "Ні, ще ні." },
+  { ja = "もう荷[に]物[もつ]を送[おく]りましたか。", en = "Have you sent the package yet?", ru = "Вы уже отправили посылку?", uk = "Ви вже надіслали посилку?", es = "¿Ya has enviado el paquete?" },
+  { ja = "はい、もう送[おく]りました。", en = "Yes, I already sent it.", ru = "Да, уже отправил.", uk = "Так, уже надіслав.", es = "Sí, ya lo he enviado." },
+  { ja = "いいえ、まだです。", en = "No, not yet.", ru = "Нет, ещё нет.", uk = "Ні, ще ні.", es = "No, todavía no." },
 ]
 
 [[rule]]
-title = { en = "Visiting someone's home", ru = "В гостях", uk = "У гостях" }
+title = { en = "Visiting someone's home", ru = "В гостях", uk = "У гостях", es = "De visita en una casa" }
 explain.en = "At the door: ごめんください (hello, anyone home?). The host: いらっしゃい, どうぞ お上がり ください (come in). Coming in: 失礼します. Offered something: ～は いかがですか (how about…?); before eating: いただきます."
 explain.ru = "У двери: ごめんください (есть кто дома?). Хозяин: いらっしゃい, どうぞ お上がり ください (проходите). Входя: 失礼します. Угощая: ～は いかがですか (не хотите ли…?); перед едой: いただきます."
 explain.uk = "Біля дверей: ごめんください (є хтось удома?). Господар: いらっしゃい, どうぞ お上がり ください (проходьте). Заходячи: 失礼します. Пригощаючи: ～は いかがですか (чи не бажаєте…?); перед їжею: いただきます."
+explain.es = "En la puerta: ごめんください (¿hola, hay alguien?). El anfitrión: いらっしゃい, どうぞ お上がり ください (pase). Al entrar: 失礼します. Si te ofrecen algo: ～は いかがですか (¿qué tal…?); antes de comer: いただきます."
 example = [
-  { ja = "コーヒーはいかがですか。", en = "Would you like some coffee?", ru = "Не хотите кофе?", uk = "Чи не бажаєте кави?" },
-  { ja = "ありがとうございます。いただきます。", en = "Thank you. (before eating or drinking)", ru = "Спасибо. (перед едой)", uk = "Дякую. (перед їжею)" },
+  { ja = "コーヒーはいかがですか。", en = "Would you like some coffee?", ru = "Не хотите кофе?", uk = "Чи не бажаєте кави?", es = "¿Quiere un café?" },
+  { ja = "ありがとうございます。いただきます。", en = "Thank you. (before eating or drinking)", ru = "Спасибо. (перед едой)", uk = "Дякую. (перед їжею)", es = "Gracias. (antes de comer o beber)" },
 ]
 
 [[exercise]]
@@ -75,6 +80,7 @@ answer = "で"
 en = "I eat with chopsticks."
 ru = "Ем палочками."
 uk = "Їм паличками."
+es = "Como con palillos."
 
 [[exercise]]
 kind = "choice"
@@ -84,6 +90,7 @@ answer = "に"
 en = "I gave my mother flowers."
 ru = "Я подарил маме цветы."
 uk = "Я подарував мамі квіти."
+es = "Le di flores a mi madre."
 
 [[exercise]]
 kind = "choice"
@@ -93,6 +100,7 @@ answer = "まだです"
 en = "Have you had lunch yet? — No, not yet."
 ru = "Вы уже пообедали? — Нет, ещё нет."
 uk = "Ви вже пообідали? — Ні, ще ні."
+es = "¿Ya has almorzado? — No, todavía no."
 
 [[exercise]]
 kind = "choice"
@@ -102,6 +110,7 @@ answer = "借[か]りました"
 en = "I borrowed a book from a friend."
 ru = "Я взял книгу у друга."
 uk = "Я позичив книгу в друга."
+es = "Un amigo me prestó un libro."
 
 [[exercise]]
 kind = "choice"
@@ -111,6 +120,7 @@ answer = "で"
 en = "What is \"thank you\" in Japanese?"
 ru = "Как будет «спасибо» по-японски?"
 uk = "Як буде «дякую» японською?"
+es = "¿Cómo se dice «gracias» en japonés?"
 
 [[exercise]]
 kind = "reorder"
@@ -118,3 +128,4 @@ parts = ["わたしは", "父[ちち]に", "ネクタイを", "あげました�
 en = "I gave my father a tie."
 ru = "Я подарил папе галстук."
 uk = "Я подарував татові краватку."
+es = "Le di una corbata a mi padre."

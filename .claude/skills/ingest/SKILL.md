@@ -25,12 +25,12 @@ The lesson is the **MnN chapter**, from the page tab, page number or content, ne
 ## 2. Write content (formats are enforced by the loaders)
 
 - Japanese is always furigana notation: `会[かい]社[しゃ]`. The ruby base is the kanji run right before `[`.
-- Learner-facing text always has `en`, `ru`, `uk`. Draft RU/UK yourself; tell the user they are drafts.
+- Learner-facing text always has `en`, `ru`, `uk`, `es`. Draft RU/UK/ES yourself; tell the user they are drafts.
 - **Teacher's notes**: verbatim, no names, `date = YYYY-MM-DD` set to today. Keep the layout with full-width spaces.
 - **Rules**: state the rule explicitly (what the slides only show by example). Add a `pattern` when there is a slot structure. Add 1–2 `[[exercise]]`s (`choice` with `＿`, or `reorder`) per new point.
-- **Kanji book pages**: one `[[kanji]]` per card, with `number`, `level` (the circled N-level), `readings` exactly as printed (hiragana = kun, katakana = on, `-` before okurigana, `(…)` secondary, `…*` special), `meaning` in 3 languages, and every word row as `[[kanji.word]]` with its example sentence translated. Transcribe handwritten additions too, as extra words. If the kanji already has a card in `content/kanji/lessons.toml`, move it (delete it there).
-- **Vocab from an Anki CSV**: write the TSV of `uk, note_ru, note_uk, example_ru, example_uk` per row (`-` in note_ru drops a scan-only note), then `uv run ank-import ANK.csv N TSV`.
-- New lesson? `content/lessons/NN.toml` needs `number`, `title` (the topic, 3 languages) and `grammar` (a short Japanese list of the points).
+- **Kanji book pages**: one `[[kanji]]` per card, with `number`, `level` (the circled N-level), `readings` exactly as printed (hiragana = kun, katakana = on, `-` before okurigana, `(…)` secondary, `…*` special), `meaning` in 4 languages, and every word row as `[[kanji.word]]` with its example sentence translated. Transcribe handwritten additions too, as extra words. If the kanji already has a card in `content/kanji/lessons.toml`, move it (delete it there).
+- **Vocab from an Anki CSV**: write the TSV of `uk, es, note_ru, note_uk, note_es, example_ru, example_uk, example_es` per row (`-` in note_ru drops a scan-only note), then `uv run ank-import ANK.csv N TSV`.
+- New lesson? `content/lessons/NN.toml` needs `number`, `title` (the topic, 4 languages) and `grammar` (a short Japanese list of the points).
 - A new kanji anywhere in content that is not jōyō needs `uv run refdata <kanjivg-main.zip> <kanjidic2.xml.gz>` (download from the KanjiVG releases and EDRDG).
 
 ## 3. Reading texts (when a lesson's vocab grows)

@@ -21,11 +21,11 @@ from typing import Any
 
 from ho import furigana
 from ho.errors import ContentError
+from ho.fields import Line, Text, by_lang, check_keys, japanese, line, translations
 from ho.kana import kata_to_hira, romaji
-from ho.romaji import speech
-from ho.fields import Line, Text, check_keys, japanese, line, translations
 from ho.lessons import Lesson
 from ho.refdata import KANJI_CHAR, NOT_KANJI, Kanji
+from ho.romaji import speech
 
 _HIRAGANA = re.compile(r"[ぁ-ゖ]+(-[ぁ-ゖ]+)?")
 _KATAKANA = re.compile(r"[ァ-ヺー]+")
@@ -225,11 +225,15 @@ def distractors(items: tuple[DrillItem, ...], i: int, field: str, n: int = 8) ->
     return list(out.values())[:n]
 
 
+_ACCENTS = str.maketrans("áéíóúü", "aeiouu")
+
+
 def fold(text: str) -> str:
-    """How typed answers compare: width, case, ё/е, katakana/hiragana and every
-    space or punctuation mark folded away. web/js/kanji-drill.js folds input
-    the same way (tests pin both to the same cases)."""
-    t = kata_to_hira(unicodedata.normalize("NFKC", text).lower().replace("ё", "е"))
+    """How typed answers compare: width, case, ё/е, Spanish accents (á/a, ü/u;
+    ñ stays a letter of its own), katakana/hiragana and every space or
+    punctuation mark folded away. web/js/match.js folds input the same way
+    (tests pin both to the same cases)."""
+    t = kata_to_hira(unicodedata.normalize("NFKC", text).lower().replace("ё", "е").translate(_ACCENTS))
     return re.sub(r"[\W_]+", "", t)
 
 
@@ -238,11 +242,11 @@ _LEADING = re.compile(r"^(?:to|a|an|the) ", re.IGNORECASE)
 
 
 def meaning_answers(meaning: Text) -> tuple[str, ...]:
-    """Typed meanings accepted for a gloss, in any of the three languages:
+    """Typed meanings accepted for a gloss, in any of its languages:
     each part between , ; / on its own, with or without its (…) remark, and
     without a leading "to" / article ("to eat" → eat)."""
     out: dict[str, None] = {}
-    for gloss in (meaning.en, meaning.ru, meaning.uk):
+    for gloss in by_lang(meaning).values():
         for part in re.split(r"[,;/]", _PARENS.sub(lambda m: m.group(0).replace(",", " "), gloss)):
             for variant in (part, _PARENS.sub("", part)):
                 variant = variant.strip()
@@ -285,13 +289,13 @@ def drill_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], clip: Calla
         "words": [
             {"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
              "say": speech(it.ja), "clip": clip(it.ja),
-             "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "src": it.source,
+             **by_lang(it.tr), "src": it.source,
              "am": meaning_answers(it.tr), "ar": reading_answers(it.reading),
              "dr": distractors(items, i, "reading"), "dw": distractors(items, i, "written")}
             for i, it in enumerate(items)],
         "kanji": [
             {"c": c.char, "no": c.number, "rd": [r.kana for r in c.readings if not r.secondary][:3],
-             "en": c.meaning.en, "ru": c.meaning.ru, "uk": c.meaning.uk, "am": meaning_answers(c.meaning)}
+             **by_lang(c.meaning), "am": meaning_answers(c.meaning)}
             for c in cards],
         "sets": kanji_sets(cards, lessons),
     }
@@ -333,12 +337,12 @@ def write_view(cards: tuple[Card, ...], lessons: tuple[Lesson, ...], clip: Calla
         for line_ in lines:
             blanked = cloze(line_.ja, c.char)
             if blanked is not None:
-                sents.append({"s": blanked, "en": line_.tr.en, "ru": line_.tr.ru, "uk": line_.tr.uk})
+                sents.append({"s": blanked, **by_lang(line_.tr)})
             if len(sents) == sentences_per_kanji:
                 break
         kanji_rows.append({"c": c.char, "no": c.number, "rd": [r.kana for r in c.readings if not r.secondary][:3],
-                           "en": c.meaning.en, "ru": c.meaning.ru, "uk": c.meaning.uk, "sents": sents})
+                           **by_lang(c.meaning), "sents": sents})
     words = [{"ja": furigana.segments_json(it.ja), "w": it.written, "r": it.reading, "k": kanji_in(it.written),
-              "en": it.tr.en, "ru": it.tr.ru, "uk": it.tr.uk, "say": speech(it.ja), "clip": clip(it.ja)}
+              **by_lang(it.tr), "say": speech(it.ja), "clip": clip(it.ja)}
              for it in drill_items(cards, lessons)]
     return {"kanji": kanji_rows, "words": words, "sets": kanji_sets(cards, lessons)}

@@ -90,7 +90,7 @@ def _part(row: dict[str, Any], where: str) -> Part:
     if "ja" in row:
         check_keys(row, {"ja"}, set(), where)
         return Part(ja=japanese(row["ja"], where))
-    check_keys(row, {"slot", "en", "ru", "uk"}, set(), where)
+    check_keys(row, {"slot", *LANGS}, set(), where)
     if not re.fullmatch(r"[a-z]+", row["slot"]):
         raise ContentError(f"{where}: slot id must be lowercase letters")
     return Part(slot=row["slot"], label=translations({k: row[k] for k in LANGS}, where))
@@ -119,7 +119,7 @@ def _rule(row: dict[str, Any], where: str) -> Rule:
 def _exercise(row: dict[str, Any], where: str) -> Choice | Reorder:
     kind = row.get("kind")
     if kind == "choice":
-        check_keys(row, {"kind", "ja", "options", "answer", "en", "ru", "uk"}, set(), where)
+        check_keys(row, {"kind", "ja", "options", "answer", *LANGS}, set(), where)
         if row["ja"].count(BLANK) != 1:
             raise ContentError(f"{where}: the sentence needs exactly one {BLANK}")
         if row["answer"] not in row["options"] or len(set(row["options"])) != len(row["options"]):
@@ -127,7 +127,7 @@ def _exercise(row: dict[str, Any], where: str) -> Choice | Reorder:
         return Choice(japanese(row["ja"], where), tuple(japanese(o, where) for o in row["options"]),
                       row["answer"], translations({k: row[k] for k in LANGS}, where))
     if kind == "reorder":
-        check_keys(row, {"kind", "parts", "en", "ru", "uk"}, set(), where)
+        check_keys(row, {"kind", "parts", *LANGS}, set(), where)
         if len(row["parts"]) < 3 or len(set(row["parts"])) != len(row["parts"]):
             raise ContentError(f"{where}: needs at least 3 distinct parts")
         return Reorder(tuple(japanese(p, where) for p in row["parts"]), translations({k: row[k] for k in LANGS}, where))
@@ -142,8 +142,8 @@ def _note(row: dict[str, Any], where: str) -> Note:
     return Note(str(date), japanese(row["text"].strip(), where))
 
 
-VOCAB_COLUMNS = ("kanji", "kana", "furigana", "en", "ru", "uk", "note_en", "note_ru", "note_uk",
-                 "example", "example_en", "example_ru", "example_uk")
+VOCAB_COLUMNS = ("kanji", "kana", "furigana", *LANGS, *(f"note_{k}" for k in LANGS),
+                 "example", *(f"example_{k}" for k in LANGS))
 
 
 def _optional_text(row: dict[str, str], prefix: str, where: str) -> Text | None:
@@ -169,7 +169,7 @@ def load_vocab(path: Path) -> tuple[Word, ...]:
             if row["example"]:
                 tr = _optional_text(row, "example", where)
                 if tr is None:
-                    raise ContentError(f"{where}: example needs en, ru and uk translations")
+                    raise ContentError(f"{where}: example needs translations")
                 example = Line(japanese(row["example"], where), tr)
             elif any(row[f"example_{k}"] for k in LANGS):
                 raise ContentError(f"{where}: example translation without an example")

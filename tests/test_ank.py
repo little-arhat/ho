@@ -2,6 +2,7 @@ import pytest
 
 from ho.ank import convert, rows
 from ho.errors import ContentError
+from ho.lessons import VOCAB_COLUMNS
 
 
 def test_convert_moves_base_to_kanji_run():
@@ -20,14 +21,17 @@ ROW = {"kanji": "飲みます", "kana": "のみます", "furigana": "飲[の]み
 
 
 def test_rows_merge_translations():
-    (r,) = rows([ROW], [["пити", "словарная форма: 飲む", "словникова форма: 飲む", "Пью чай.", "П'ю чай."]])
-    assert r[:6] == ["飲みます", "のみます", "飲[の]みます", "drink", "пить", "пити"]
-    assert r[9:] == ["お茶[ちゃ]を飲[の]みます。", "I drink tea.", "Пью чай.", "П'ю чай."]
+    (r,) = rows([ROW], [["пити", "beber", "словарная форма: 飲む", "словникова форма: 飲む", "forma de diccionario: 飲む",
+                         "Пью чай.", "П'ю чай.", "Bebo té."]])
+    assert r[:7] == ["飲みます", "のみます", "飲[の]みます", "drink", "пить", "пити", "beber"]
+    assert r[7:11] == ["dictionary form: 飲む", "словарная форма: 飲む", "словникова форма: 飲む", "forma de diccionario: 飲む"]
+    assert r[11:] == ["お茶[ちゃ]を飲[の]みます。", "I drink tea.", "Пью чай.", "П'ю чай.", "Bebo té."]
+    assert len(r) == len(VOCAB_COLUMNS)
 
 
 def test_dash_drops_note():
-    (r,) = rows([ROW], [["пити", "-", "", "Пью чай.", "П'ю чай."]])
-    assert r[6:9] == ["", "", ""]
+    (r,) = rows([ROW], [["пити", "beber", "-", "", "", "Пью чай.", "П'ю чай.", "Bebo té."]])
+    assert r[7:11] == ["", "", "", ""]
 
 
 def test_line_count_must_match():

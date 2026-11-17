@@ -7,9 +7,9 @@ example,example_translation,example_audio, with Anki furigana (the base is
 the text after the preceding space: `お 茶[ちゃ]`). It becomes
 content/lessons/NN.vocab.csv in ho's notation (the base is the kanji run).
 
-Anki has no Ukrainian and no Russian for notes and examples, so
+Anki has no Ukrainian or Spanish, and no Russian for notes and examples, so
 TRANSLATIONS.tsv supplies them: one line per CSV row, in order,
-`uk<TAB>note_ru<TAB>note_uk<TAB>example_ru<TAB>example_uk`. A note_ru of
+`uk<TAB>es<TAB>note_ru<TAB>note_uk<TAB>note_es<TAB>example_ru<TAB>example_uk<TAB>example_es`. A note_ru of
 "-" drops that row's note (Anki notes about the scan, not the word).
 Every conversion is checked to keep the same text and reading.
 """
@@ -62,18 +62,17 @@ def rows(ank: list[dict[str, str]], extra: list[list[str]]) -> list[list[str]]:
         raise ContentError(f"{len(extra)} translation lines for {len(ank)} rows")
     out = []
     for i, (r, more) in enumerate(zip(ank, extra, strict=True)):
-        uk, note_ru, note_uk, ex_ru, ex_uk = (more + [""] * 5)[:5]
+        uk, es, note_ru, note_uk, note_es, ex_ru, ex_uk, ex_es = (more + [""] * 8)[:8]
         fg = convert(r["furigana"])
         if _squeeze(furigana.plain(fg)) != _squeeze(r["kanji"] or r["kana"]) \
                 or _squeeze(furigana.reading(fg)) != _squeeze(r["kana"]):
             raise ContentError(f"row {i + 2}: furigana does not match kanji/kana")
         note = "" if note_ru == "-" else r["context"]
-        notes = [_note(t) for t in (note, note_ru, note_uk)] if note else ["", "", ""]
+        notes = [_note(t) for t in (note, note_ru, note_uk, note_es)] if note else ["", "", "", ""]
         example = convert(r["example"]) if r["example"] else ""
         out.append([furigana.plain(fg) if r["kanji"] else "", furigana.reading(fg), fg,
-                    r["translation"], r["russian"], uk, *notes,
-                    example, r["example_translation"] if example else "",
-                    ex_ru if example else "", ex_uk if example else ""])
+                    r["translation"], r["russian"], uk, es, *notes,
+                    example, *((r["example_translation"], ex_ru, ex_uk, ex_es) if example else ("", "", "", ""))])
     return out
 
 

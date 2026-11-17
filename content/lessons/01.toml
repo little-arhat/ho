@@ -1,115 +1,123 @@
 number = 1
-title = { en = "Introducing yourself", ru = "Знакомство", uk = "Знайомство" }
+title = { en = "Introducing yourself", ru = "Знакомство", uk = "Знайомство", es = "Presentarse" }
 grammar = "は・です・じゃ ありません・か・も・の・～さん"
 
 [[rule]]
-title = { en = "A is B: N₁ は N₂ です", ru = "A — это B: N₁ は N₂ です", uk = "A — це B: N₁ は N₂ です" }
+title = { en = "A is B: N₁ は N₂ です", ru = "A — это B: N₁ は N₂ です", uk = "A — це B: N₁ は N₂ です", es = "A es B: N₁ は N₂ です" }
 pattern = [
-  { slot = "thing", en = "topic", ru = "тема", uk = "тема" },
+  { slot = "thing", en = "topic", ru = "тема", uk = "тема", es = "tema" },
   { ja = "は" },
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "です" },
 ]
 explain.en = "は (read wa) marks the topic: what you are talking about. です closes a polite statement: \"is / am / are\". Japanese has no articles and no plural, and です does not change for person."
 explain.ru = "は (читается «ва») отмечает тему — то, о чём идёт речь. です завершает вежливое утверждение: «есть, является». Артиклей и множественного числа нет, です не меняется по лицам — как «это …» в русском."
 explain.uk = "は (читається «ва») позначає тему — те, про що йдеться. です завершує ввічливе твердження: «є, є ним». Артиклів і множини немає, です не змінюється за особами — як «це …» в українській."
+explain.es = "は (se lee wa) marca el tema: de qué se habla. です cierra una afirmación cortés: «es / soy / son». El japonés no tiene artículos ni plural, y です no cambia según la persona."
 example = [
-  { ja = "私[わたし]はマイク・ミラーです。", en = "I am Mike Miller.", ru = "Я Майк Миллер.", uk = "Я Майк Міллер." },
-  { ja = "私[わたし]は会[かい]社[しゃ]員[いん]です。", en = "I am a company employee.", ru = "Я служащий компании.", uk = "Я працівник компанії." },
+  { ja = "私[わたし]はマイク・ミラーです。", en = "I am Mike Miller.", ru = "Я Майк Миллер.", uk = "Я Майк Міллер.", es = "Soy Mike Miller." },
+  { ja = "私[わたし]は会[かい]社[しゃ]員[いん]です。", en = "I am a company employee.", ru = "Я служащий компании.", uk = "Я працівник компанії.", es = "Soy empleado de una empresa." },
 ]
 
 [[rule]]
-title = { en = "Is not: N₁ は N₂ じゃ ありません", ru = "Не является: N₁ は N₂ じゃ ありません", uk = "Не є: N₁ は N₂ じゃ ありません" }
+title = { en = "Is not: N₁ は N₂ じゃ ありません", ru = "Не является: N₁ は N₂ じゃ ありません", uk = "Не є: N₁ は N₂ じゃ ありません", es = "No es: N₁ は N₂ じゃ ありません" }
 pattern = [
-  { slot = "thing", en = "topic", ru = "тема", uk = "тема" },
+  { slot = "thing", en = "topic", ru = "тема", uk = "тема", es = "tema" },
   { ja = "は" },
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "じゃ ありません" },
 ]
 explain.en = "The negative of です. じゃ ありません is spoken; では ありません is the same, more formal and written."
 explain.ru = "Отрицание です. じゃ ありません — разговорный вариант; では ありません — то же самое, официальнее и в письменной речи."
 explain.uk = "Заперечення です. じゃ ありません — розмовний варіант; では ありません — те саме, офіційніше й у письмовому мовленні."
+explain.es = "La negación de です. じゃ ありません es oral; では ありません es lo mismo, más formal y escrito."
 example = [
-  { ja = "サントスさんは学[がく]生[せい]じゃ ありません。", en = "Mr. Santos is not a student.", ru = "Сантос-сан не студент.", uk = "Сантос-сан не студент." },
+  { ja = "サントスさんは学[がく]生[せい]じゃ ありません。", en = "Mr. Santos is not a student.", ru = "Сантос-сан не студент.", uk = "Сантос-сан не студент.", es = "El señor Santos no es estudiante." },
 ]
 
 [[rule]]
-title = { en = "Questions: … か", ru = "Вопрос: … か", uk = "Питання: … か" }
+title = { en = "Questions: … か", ru = "Вопрос: … か", uk = "Питання: … か", es = "Preguntas: … か" }
 pattern = [
-  { slot = "thing", en = "statement", ru = "утверждение", uk = "твердження" },
+  { slot = "thing", en = "statement", ru = "утверждение", uk = "твердження", es = "afirmación" },
   { ja = "か" },
 ]
 explain.en = "Add か at the end of a sentence to make it a question. Word order does not change, and there is no question mark in careful writing. Answer with はい、そうです (yes) or いいえ、… じゃ ありません (no). A question word (だれ, なんさい) goes where the answer would stand."
 explain.ru = "Добавьте か в конце предложения — и это вопрос. Порядок слов не меняется. Ответ: はい、そうです (да) или いいえ、… じゃ ありません (нет). Вопросительное слово (だれ, なんさい) ставится туда, где будет ответ."
 explain.uk = "Додайте か у кінці речення — і це питання. Порядок слів не змінюється. Відповідь: はい、そうです (так) або いいえ、… じゃ ありません (ні). Питальне слово (だれ, なんさい) стоїть там, де буде відповідь."
+explain.es = "Añade か al final de la frase para hacer una pregunta. El orden de las palabras no cambia y, en la escritura cuidada, no se pone signo de interrogación. Responde con はい、そうです (sí) o いいえ、… じゃ ありません (no). La palabra interrogativa (だれ, なんさい) va donde iría la respuesta."
 example = [
-  { ja = "ミラーさんは会[かい]社[しゃ]員[いん]ですか。", en = "Is Mr. Miller a company employee?", ru = "Миллер-сан служащий компании?", uk = "Міллер-сан працівник компанії?" },
-  { ja = "はい、そうです。", en = "Yes, he is.", ru = "Да, это так.", uk = "Так, це так." },
-  { ja = "あの方[かた]はどなたですか。", en = "Who is that person?", ru = "Кто тот человек? (вежливо)", uk = "Хто та людина? (ввічливо)" },
+  { ja = "ミラーさんは会[かい]社[しゃ]員[いん]ですか。", en = "Is Mr. Miller a company employee?", ru = "Миллер-сан служащий компании?", uk = "Міллер-сан працівник компанії?", es = "¿El señor Miller es empleado de una empresa?" },
+  { ja = "はい、そうです。", en = "Yes, he is.", ru = "Да, это так.", uk = "Так, це так.", es = "Sí, lo es." },
+  { ja = "あの方[かた]はどなたですか。", en = "Who is that person?", ru = "Кто тот человек? (вежливо)", uk = "Хто та людина? (ввічливо)", es = "¿Quién es esa persona?" },
 ]
 
 [[rule]]
-title = { en = "Also: N も", ru = "Тоже: N も", uk = "Також: N も" }
+title = { en = "Also: N も", ru = "Тоже: N も", uk = "Також: N も", es = "También: N も" }
 pattern = [
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "も" },
-  { slot = "thing", en = "…です", ru = "…です", uk = "…です" },
+  { slot = "thing", en = "…です", ru = "…です", uk = "…です", es = "…です" },
 ]
 explain.en = "も means \"also, too\". It replaces は: ミラーさんも会社員です, not ミラーさんはも."
 explain.ru = "も значит «тоже, также». Он заменяет は: ミラーさんも会社員です, а не ミラーさんはも."
 explain.uk = "も означає «теж, також». Він замінює は: ミラーさんも会社員です, а не ミラーさんはも."
+explain.es = "も significa «también». Sustituye a は: ミラーさんも会社員です, no ミラーさんはも."
 example = [
-  { ja = "ミラーさんは会[かい]社[しゃ]員[いん]です。グプタさんも会[かい]社[しゃ]員[いん]です。", en = "Mr. Miller is a company employee. Mr. Gupta is also a company employee.", ru = "Миллер-сан служащий компании. Гупта-сан тоже служащий компании.", uk = "Міллер-сан працівник компанії. Гупта-сан теж працівник компанії." },
+  { ja = "ミラーさんは会[かい]社[しゃ]員[いん]です。グプタさんも会[かい]社[しゃ]員[いん]です。", en = "Mr. Miller is a company employee. Mr. Gupta is also a company employee.", ru = "Миллер-сан служащий компании. Гупта-сан тоже служащий компании.", uk = "Міллер-сан працівник компанії. Гупта-сан теж працівник компанії.", es = "El señor Miller es empleado de una empresa. El señor Gupta también es empleado de una empresa." },
 ]
 
 [[rule]]
-title = { en = "N₁ の N₂: of, belonging to, about", ru = "N₁ の N₂: чей, о чём", uk = "N₁ の N₂: чий, про що" }
+title = { en = "N₁ の N₂: of, belonging to, about", ru = "N₁ の N₂: чей, о чём", uk = "N₁ の N₂: чий, про що", es = "N₁ の N₂: de, que pertenece a, sobre" }
 pattern = [
-  { slot = "thing", en = "N₁ (owner, group, topic)", ru = "N₁ (владелец, группа, тема)", uk = "N₁ (власник, група, тема)" },
+  { slot = "thing", en = "N₁ (owner, group, topic)", ru = "N₁ (владелец, группа, тема)", uk = "N₁ (власник, група, тема)", es = "N₁ (dueño, grupo, tema)" },
   { ja = "の" },
-  { slot = "thing", en = "N₂ (the thing)", ru = "N₂ (сам предмет)", uk = "N₂ (сам предмет)" },
+  { slot = "thing", en = "N₂ (the thing)", ru = "N₂ (сам предмет)", uk = "N₂ (сам предмет)", es = "N₂ (la cosa)" },
 ]
 explain.en = "の joins two nouns; the first describes the second. The order is the reverse of English \"of\": はは の ほん = mother's book, じどうしゃ の ほん = a book about cars, IMC の しゃいん = an IMC employee."
 explain.ru = "の соединяет два существительных; первое описывает второе, как родительный падеж: はは の ほん = книга мамы, じどうしゃ の ほん = книга об автомобилях, IMC の しゃいん = сотрудник IMC."
 explain.uk = "の з'єднує два іменники; перший описує другий, як родовий відмінок: はは の ほん = книга мами, じどうしゃ の ほん = книга про автомобілі, IMC の しゃいん = працівник IMC."
+explain.es = "の une dos sustantivos; el primero describe al segundo. El orden es el inverso del español «de»: はは の ほん = el libro de mi madre, じどうしゃ の ほん = un libro sobre coches, IMC の しゃいん = un empleado de IMC."
 example = [
-  { ja = "ミラーさんはIMCの社[しゃ]員[いん]です。", en = "Mr. Miller is an IMC employee.", ru = "Миллер-сан — сотрудник IMC.", uk = "Міллер-сан — працівник IMC." },
-  { ja = "母[はは]の本[ほん]", en = "my mother's book", ru = "книга мамы", uk = "книга мами" },
-  { ja = "じどうしゃの本[ほん]", en = "a book about cars", ru = "книга об автомобилях", uk = "книга про автомобілі" },
+  { ja = "ミラーさんはIMCの社[しゃ]員[いん]です。", en = "Mr. Miller is an IMC employee.", ru = "Миллер-сан — сотрудник IMC.", uk = "Міллер-сан — працівник IMC.", es = "El señor Miller es empleado de IMC." },
+  { ja = "母[はは]の本[ほん]", en = "my mother's book", ru = "книга мамы", uk = "книга мами", es = "el libro de mi madre" },
+  { ja = "じどうしゃの本[ほん]", en = "a book about cars", ru = "книга об автомобилях", uk = "книга про автомобілі", es = "un libro sobre coches" },
 ]
 
 [[rule]]
-title = { en = "～さん: names and titles", ru = "～さん: имена и обращения", uk = "～さん: імена та звертання" }
+title = { en = "～さん: names and titles", ru = "～さん: имена и обращения", uk = "～さん: імена та звертання", es = "～さん: nombres y tratamientos" }
 explain.en = "Add さん after another person's family or given name: 田中さん. Never after your own name. Children get ～ちゃん, boys often ～くん. Some titles replace さん: 先生 (teacher, doctor)."
 explain.ru = "さん ставится после фамилии или имени другого человека: 田中さん. Никогда — после своего имени. Детям — ～ちゃん, мальчикам часто ～くん. Некоторые звания заменяют さん: 先生 (учитель, врач)."
 explain.uk = "さん ставиться після прізвища чи імені іншої людини: 田中さん. Ніколи — після свого імені. Дітям — ～ちゃん, хлопчикам часто ～くん. Деякі звання замінюють さん: 先生 (учитель, лікар)."
+explain.es = "Añade さん tras el apellido o el nombre de otra persona: 田中さん. Nunca tras tu propio nombre. A los niños se les dice ～ちゃん, a los chicos a menudo ～くん. Algunos títulos sustituyen a さん: 先生 (profesor, médico)."
 
 [[rule]]
-title = { en = "Age: ～さい, なんさい / おいくつ", ru = "Возраст: ～さい, なんさい / おいくつ", uk = "Вік: ～さい, なんさい / おいくつ" }
+title = { en = "Age: ～さい, なんさい / おいくつ", ru = "Возраст: ～さい, なんさい / おいくつ", uk = "Вік: ～さい, なんさい / おいくつ", es = "Edad: ～さい, なんさい / おいくつ" }
 pattern = [
-  { slot = "person", en = "person", ru = "человек", uk = "людина" },
+  { slot = "person", en = "person", ru = "человек", uk = "людина", es = "persona" },
   { ja = "は" },
-  { slot = "question", en = "なんさい / おいくつ", ru = "なんさい / おいくつ", uk = "なんさい / おいくつ" },
+  { slot = "question", en = "なんさい / おいくつ", ru = "なんさい / おいくつ", uk = "なんさい / おいくつ", es = "なんさい / おいくつ" },
   { ja = "ですか" },
 ]
 explain.en = "Count years with the counter 歳 (さい). Ask ～は なんさいですか (plain) or ～は おいくつですか (polite, with respect). Watch the sound changes at 1, 8 and 10; 20 years old has its own word, はたち."
 explain.ru = "Годы считают счётным словом 歳 (さい). Спрашивают ～は なんさいですか (просто) или ～は おいくつですか (вежливо, с уважением). Следите за изменением звука на 1, 8 и 10; 20 лет — отдельное слово はたち."
 explain.uk = "Роки рахують лічильним словом 歳 (さい). Питають ～は なんさいですか (просто) або ～は おいくつですか (ввічливо, з повагою). Стежте за зміною звуку на 1, 8 і 10; 20 років — окреме слово はたち."
+explain.es = "Los años se cuentan con el contador 歳 (さい). Pregunta ～は なんさいですか (neutro) o ～は おいくつですか (cortés, con respeto). Fíjate en los cambios de sonido en 1, 8 y 10; los 20 años tienen su propia palabra, はたち."
 table = { head = ["", "-歳[さい]"], rows = [
   ["1", "いっさい"], ["2", "にさい"], ["3", "さんさい"], ["4", "よんさい"], ["5", "ごさい"],
   ["6", "ろくさい"], ["7", "ななさい"], ["8", "はっさい"], ["9", "きゅうさい"], ["10", "じゅっさい、じっさい"],
   ["20", "はたち"], ["?", "なんさい、おいくつ"],
 ] }
 example = [
-  { ja = "テレサちゃんは何[なん]歳[さい]ですか。", en = "How old is Teresa?", ru = "Сколько лет Терезе?", uk = "Скільки років Терезі?" },
-  { ja = "九[きゅう]歳[さい]です。", en = "She is nine.", ru = "Девять лет.", uk = "Дев'ять років." },
+  { ja = "テレサちゃんは何[なん]歳[さい]ですか。", en = "How old is Teresa?", ru = "Сколько лет Терезе?", uk = "Скільки років Терезі?", es = "¿Cuántos años tiene Teresa?" },
+  { ja = "九[きゅう]歳[さい]です。", en = "She is nine.", ru = "Девять лет.", uk = "Дев'ять років.", es = "Tiene nueve." },
 ]
 
 [[rule]]
-title = { en = "Numbers", ru = "Числа", uk = "Числа" }
+title = { en = "Numbers", ru = "Числа", uk = "Числа", es = "Números" }
 explain.en = "Japanese counts in units of ten thousand (万), not thousands: 10,000 = いちまん, 100,000 = じゅうまん, 1,000,000 = ひゃくまん. 4 is usually よん and 9 usually きゅう (し and く sound like death and suffering). 7 is なな or しち. Sound changes: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく, 3,000 さんぜん, 8,000 はっせん. Zero is ゼロ or れい; in phone numbers often まる."
 explain.ru = "Японцы считают десятками тысяч (万), а не тысячами: 10 000 = いちまん, 100 000 = じゅうまん, 1 000 000 = ひゃくまん. 4 обычно よん, 9 обычно きゅう (し и く звучат как «смерть» и «страдание»). 7 — なな или しち. Изменения звука: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく, 3000 さんぜん, 8000 はっせん. Ноль — ゼロ или れい; в номерах телефонов часто まる."
 explain.uk = "Японці рахують десятками тисяч (万), а не тисячами: 10 000 = いちまん, 100 000 = じゅうまん, 1 000 000 = ひゃくまん. 4 зазвичай よん, 9 зазвичай きゅう (し і く звучать як «смерть» і «страждання»). 7 — なな або しち. Зміни звуку: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく, 3000 さんぜん, 8000 はっせん. Нуль — ゼロ або れい; у номерах телефонів часто まる."
+explain.es = "El japonés cuenta en unidades de diez mil (万), no de mil: 10 000 = いちまん, 100 000 = じゅうまん, 1 000 000 = ひゃくまん. El 4 suele ser よん y el 9 suele ser きゅう (し y く suenan como «muerte» y «sufrimiento»). El 7 es なな o しち. Cambios de sonido: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく, 3000 さんぜん, 8000 はっせん. El cero es ゼロ o れい; en los números de teléfono, a menudo まる."
 table = { head = ["", "", "", ""], rows = [
   ["1 いち", "11 じゅういち", "100 ひゃく", "1,000 せん"],
   ["2 に", "12 じゅうに", "200 にひゃく", "2,000 にせん"],
@@ -123,8 +131,8 @@ table = { head = ["", "", "", ""], rows = [
   ["10 じゅう", "20 にじゅう", "10,000 いちまん", "100,000,000 いちおく"],
 ] }
 example = [
-  { ja = "17.5 じゅうななてんご", en = "17.5 (point = てん)", ru = "17,5 (запятая = てん)", uk = "17,5 (кома = てん)" },
-  { ja = "½ にぶんの いち", en = "one half: \"one of two parts\"", ru = "одна вторая: «одна из двух частей»", uk = "одна друга: «одна з двох частин»" },
+  { ja = "17.5 じゅうななてんご", en = "17.5 (point = てん)", ru = "17,5 (запятая = てん)", uk = "17,5 (кома = てん)", es = "17,5 (coma = てん)" },
+  { ja = "½ にぶんの いち", en = "one half: \"one of two parts\"", ru = "одна вторая: «одна из двух частей»", uk = "одна друга: «одна з двох частин»", es = "un medio: «una de dos partes»" },
 ]
 
 [[exercise]]
@@ -135,6 +143,7 @@ answer = "は"
 en = "I am a company employee."
 ru = "Я служащий компании."
 uk = "Я працівник компанії."
+es = "Soy empleado de una empresa."
 
 [[exercise]]
 kind = "choice"
@@ -144,6 +153,7 @@ answer = "の"
 en = "Mr. Miller is an IMC employee."
 ru = "Миллер-сан — сотрудник IMC."
 uk = "Міллер-сан — працівник IMC."
+es = "El señor Miller es empleado de IMC."
 
 [[exercise]]
 kind = "choice"
@@ -153,6 +163,7 @@ answer = "も"
 en = "Mr. Santos is a student. Mr. Wang is a student too."
 ru = "Сантос-сан студент. Ван-сан тоже студент."
 uk = "Сантос-сан студент. Ван-сан теж студент."
+es = "El señor Santos es estudiante. El señor Wang también es estudiante."
 
 [[exercise]]
 kind = "choice"
@@ -162,6 +173,7 @@ answer = "どなた"
 en = "Who is that person? (polite)"
 ru = "Кто тот человек? (вежливо)"
 uk = "Хто та людина? (ввічливо)"
+es = "¿Quién es esa persona? (cortés)"
 
 [[exercise]]
 kind = "choice"
@@ -171,6 +183,7 @@ answer = "じゃ ありません"
 en = "No, I am not a student."
 ru = "Нет, я не студент."
 uk = "Ні, я не студент."
+es = "No, no soy estudiante."
 
 [[exercise]]
 kind = "reorder"
@@ -178,6 +191,7 @@ parts = ["私[わたし]は", "IMCの", "社[しゃ]員[いん]", "です。"]
 en = "I am an IMC employee."
 ru = "Я сотрудник IMC."
 uk = "Я працівник IMC."
+es = "Soy empleado de IMC."
 
 [[exercise]]
 kind = "reorder"
@@ -185,6 +199,7 @@ parts = ["あの人[ひと]は", "何[なん]歳[さい]", "ですか。"]
 en = "How old is that person?"
 ru = "Сколько лет тому человеку?"
 uk = "Скільки років тій людині?"
+es = "¿Cuántos años tiene esa persona?"
 
 [[note]]
 text = """

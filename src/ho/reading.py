@@ -24,7 +24,7 @@ from typing import Any
 
 from ho import furigana
 from ho.errors import ContentError
-from ho.fields import LANGS, Text, check_keys, japanese, translations
+from ho.fields import LANGS, Text, by_lang, check_keys, japanese, translations
 from ho.kanji import kanji_in
 from ho.lessons import Lesson
 
@@ -137,6 +137,6 @@ def load_readings(directory: Path, lessons: tuple[Lesson, ...]) -> tuple[Reading
 
 def words_view(r: Reading, cards: set[str]) -> list[dict[str, Any]]:
     """The tappable words; `k` lists the word's kanji that have a card."""
-    return [{"ja": furigana.segments_json(w.ja), "en": w.tr.en, "ru": w.tr.ru, "uk": w.tr.uk,
+    return [{"ja": furigana.segments_json(w.ja), **by_lang(w.tr),
              "lesson": w.lesson, "k": [c for c in dict.fromkeys(kanji_in(w.ja)) if c in cards]}
             for w in r.words]

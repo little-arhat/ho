@@ -1,5 +1,5 @@
 """Shared content fields: Japanese in furigana notation, and learner-facing
-text in English, Russian and Ukrainian. Each parser names the file and entry
+text in English, Russian, Ukrainian and Spanish. Each parser names the file and entry
 it was reading when it fails."""
 
 from __future__ import annotations
@@ -11,7 +11,7 @@ from typing import Any
 from ho import furigana
 from ho.errors import ContentError
 
-LANGS = ("en", "ru", "uk")
+LANGS = ("en", "ru", "uk", "es")
 
 
 @dataclass(frozen=True)
@@ -19,6 +19,7 @@ class Text:
     en: str
     ru: str
     uk: str
+    es: str
 
 
 @dataclass(frozen=True)
@@ -42,29 +43,37 @@ def japanese(text: str, where: str) -> str:
     return text
 
 
-_RU_ONLY = re.compile("[ыэъёЫЭЪЁ]")
-_UK_ONLY = re.compile("[іїєґІЇЄҐ]")
+# Letters a translation in that language never has (Japanese aside).
+_FOREIGN = {
+    "ru": re.compile("[іїєґІЇЄҐ]"),
+    "uk": re.compile("[ыэъёЫЭЪЁ]"),
+    "es": re.compile("[\u0400-\u04ff]"),
+}
 
 
-def check_alphabets(ru: str, uk: str, where: str) -> None:
+def check_alphabets(tr: dict[str, str], where: str) -> None:
     """Catch a translation pasted into the wrong language: Ukrainian has no
-    ы э ъ ё, Russian has no і ї є ґ."""
-    if m := _UK_ONLY.search(ru):
-        raise ContentError(f"{where}: ru has the Ukrainian letter {m.group(0)!r}: {ru!r}")
-    if m := _RU_ONLY.search(uk):
-        raise ContentError(f"{where}: uk has the Russian letter {m.group(0)!r}: {uk!r}")
+    ы э ъ ё, Russian has no і ї є ґ, Spanish no Cyrillic at all."""
+    for lang, foreign in _FOREIGN.items():
+        if m := foreign.search(tr[lang]):
+            raise ContentError(f"{where}: {lang} has the letter {m.group(0)!r}: {tr[lang]!r}")
 
 
 def translations(value: Any, where: str) -> Text:
     if not isinstance(value, dict):
-        raise ContentError(f"{where}: expected {{en, ru, uk}}")
+        raise ContentError(f"{where}: expected {{{', '.join(LANGS)}}}")
     check_keys(value, set(LANGS), set(), where)
     if not all(isinstance(value[k], str) and value[k].strip() for k in LANGS):
-        raise ContentError(f"{where}: en, ru and uk must all be non-empty")
-    check_alphabets(value["ru"], value["uk"], where)
+        raise ContentError(f"{where}: {', '.join(LANGS)} must all be non-empty")
+    check_alphabets(value, where)
     return Text(*(japanese(value[k], where) for k in LANGS))
 
 
 def line(row: dict[str, Any], where: str) -> Line:
-    check_keys(row, {"ja", "en", "ru", "uk"}, set(), where)
+    check_keys(row, {"ja", *LANGS}, set(), where)
     return Line(japanese(row["ja"], where), translations({k: row[k] for k in LANGS}, where))
+
+
+def by_lang(tr: Text) -> dict[str, str]:
+    """A translation as page JSON: one key per language."""
+    return {k: getattr(tr, k) for k in LANGS}

@@ -6,1185 +6,1383 @@ ja = "コーヒー"
 en = "coffee"
 ru = "кофе"
 uk = "кава"
+es = "café"
 
 [[word]]
 ja = "ビール"
 en = "beer"
 ru = "пиво"
 uk = "пиво"
+es = "cerveza"
 
 [[word]]
 ja = "パン"
 en = "bread"
 ru = "хлеб"
 uk = "хліб"
+es = "pan"
 
 [[word]]
 ja = "ジュース"
 en = "juice"
 ru = "сок"
 uk = "сік"
+es = "zumo"
 
 [[word]]
 ja = "ミルク"
 en = "milk"
 ru = "молоко"
 uk = "молоко"
+es = "leche"
 
 [[word]]
 ja = "ケーキ"
 en = "cake"
 ru = "торт, пирожное"
 uk = "торт, тістечко"
+es = "pastel"
 
 [[word]]
 ja = "チーズ"
 en = "cheese"
 ru = "сыр"
 uk = "сир"
+es = "queso"
 
 [[word]]
 ja = "バター"
 en = "butter"
 ru = "сливочное масло"
 uk = "вершкове масло"
+es = "mantequilla"
 
 [[word]]
 ja = "サラダ"
 en = "salad"
 ru = "салат"
 uk = "салат"
+es = "ensalada"
 
 [[word]]
 ja = "スープ"
 en = "soup"
 ru = "суп"
 uk = "суп"
+es = "sopa"
 
 [[word]]
 ja = "ラーメン"
 en = "ramen"
 ru = "рамэн"
 uk = "рамен"
+es = "ramen"
 
 [[word]]
 ja = "カレー"
 en = "curry"
 ru = "карри"
 uk = "карі"
+es = "curri"
 
 [[word]]
 ja = "ハンバーガー"
 en = "hamburger"
 ru = "гамбургер"
 uk = "гамбургер"
+es = "hamburguesa"
 
 [[word]]
 ja = "ピザ"
 en = "pizza"
 ru = "пицца"
 uk = "піца"
+es = "pizza"
 
 [[word]]
 ja = "アイスクリーム"
 en = "ice cream"
 ru = "мороженое"
 uk = "морозиво"
+es = "helado"
 
 [[word]]
 ja = "チョコレート"
 en = "chocolate"
 ru = "шоколад"
 uk = "шоколад"
+es = "chocolate"
 
 [[word]]
 ja = "トマト"
 en = "tomato"
 ru = "помидор"
 uk = "помідор"
+es = "tomate"
 
 [[word]]
 ja = "レモン"
 en = "lemon"
 ru = "лимон"
 uk = "лимон"
+es = "limón"
 
 [[word]]
 ja = "バナナ"
 en = "banana"
 ru = "банан"
 uk = "банан"
+es = "plátano"
 
 [[word]]
 ja = "オレンジ"
 en = "orange"
 ru = "апельсин"
 uk = "апельсин"
+es = "naranja"
 
 [[word]]
 ja = "メロン"
 en = "melon"
 ru = "дыня"
 uk = "диня"
+es = "melón"
 
 [[word]]
 ja = "パイナップル"
 en = "pineapple"
 ru = "ананас"
 uk = "ананас"
+es = "piña"
 
 [[word]]
 ja = "ワイン"
 en = "wine"
 ru = "вино"
 uk = "вино"
+es = "vino"
 
 [[word]]
 ja = "ウイスキー"
 en = "whisky"
 ru = "виски"
 uk = "віскі"
+es = "whisky"
 
 [[word]]
 ja = "コーラ"
 en = "cola"
 ru = "кола"
 uk = "кола"
+es = "cola"
 
 [[word]]
 ja = "ステーキ"
 en = "steak"
 ru = "стейк"
 uk = "стейк"
+es = "filete"
 
 [[word]]
 ja = "サンドイッチ"
 en = "sandwich"
 ru = "сэндвич"
 uk = "сендвіч"
+es = "sándwich"
 
 [[word]]
 ja = "スパゲッティ"
 en = "spaghetti"
 ru = "спагетти"
 uk = "спагеті"
+es = "espaguetis"
 
 [[word]]
 ja = "トースト"
 en = "toast"
 ru = "тост"
 uk = "тост"
+es = "tostada"
 
 [[word]]
 ja = "ヨーグルト"
 en = "yogurt"
 ru = "йогурт"
 uk = "йогурт"
+es = "yogur"
 
 [[word]]
 ja = "ハム"
 en = "ham"
 ru = "ветчина"
 uk = "шинка"
+es = "jamón"
 
 [[word]]
 ja = "ソーセージ"
 en = "sausage"
 ru = "сосиска, колбаса"
 uk = "сосиска, ковбаса"
+es = "salchicha"
 
 [[word]]
 ja = "ベーコン"
 en = "bacon"
 ru = "бекон"
 uk = "бекон"
+es = "beicon"
 
 [[word]]
 ja = "シーフード"
 en = "seafood"
 ru = "морепродукты"
 uk = "морепродукти"
+es = "marisco"
 
 [[word]]
 ja = "ソース"
 en = "sauce"
 ru = "соус"
 uk = "соус"
+es = "salsa"
 
 [[word]]
 ja = "ジャム"
 en = "jam"
 ru = "варенье, джем"
 uk = "варення, джем"
+es = "mermelada"
 
 [[word]]
 ja = "ドレッシング"
 en = "dressing"
 ru = "заправка для салата"
 uk = "заправка для салату"
+es = "aliño"
 
 [[word]]
 ja = "デザート"
 en = "dessert"
 ru = "десерт"
 uk = "десерт"
+es = "postre"
 
 [[word]]
 ja = "メニュー"
 en = "menu"
 ru = "меню"
 uk = "меню"
+es = "menú"
 
 [[word]]
 ja = "レストラン"
 en = "restaurant"
 ru = "ресторан"
 uk = "ресторан"
+es = "restaurante"
 
 [[word]]
 ja = "カフェ"
 en = "café"
 ru = "кафе"
 uk = "кафе"
+es = "cafetería"
 
 [[word]]
 ja = "コンビニ"
 en = "convenience store"
 ru = "круглосуточный магазин"
 uk = "цілодобовий магазин"
+es = "tienda de conveniencia"
 
 [[word]]
 ja = "スーパー"
 en = "supermarket"
 ru = "супермаркет"
 uk = "супермаркет"
+es = "supermercado"
 
 [[word]]
 ja = "デパート"
 en = "department store"
 ru = "универмаг"
 uk = "універмаг"
+es = "grandes almacenes"
 
 [[word]]
 ja = "レジ"
 en = "checkout counter"
 ru = "касса"
 uk = "каса"
+es = "caja (para pagar)"
 
 [[word]]
 ja = "セール"
 en = "sale"
 ru = "распродажа"
 uk = "розпродаж"
+es = "rebajas"
 
 [[word]]
 ja = "ホテル"
 en = "hotel"
 ru = "гостиница, отель"
 uk = "готель"
+es = "hotel"
 
 [[word]]
 ja = "トイレ"
 en = "toilet"
 ru = "туалет"
 uk = "туалет"
+es = "baño, aseo"
 
 [[word]]
 ja = "エレベーター"
 en = "elevator"
 ru = "лифт"
 uk = "ліфт"
+es = "ascensor"
 
 [[word]]
 ja = "エスカレーター"
 en = "escalator"
 ru = "эскалатор"
 uk = "ескалатор"
+es = "escalera mecánica"
 
 [[word]]
 ja = "タクシー"
 en = "taxi"
 ru = "такси"
 uk = "таксі"
+es = "taxi"
 
 [[word]]
 ja = "バス"
 en = "bus"
 ru = "автобус"
 uk = "автобус"
+es = "autobús"
 
 [[word]]
 ja = "ホーム"
 en = "platform; home"
 ru = "платформа; дом"
 uk = "платформа; дім"
+es = "andén; hogar"
 
 [[word]]
 ja = "ロッカー"
 en = "locker"
 ru = "камера хранения, шкафчик"
 uk = "камера схову, шафка"
+es = "taquilla (consigna)"
 
 [[word]]
 ja = "チケット"
 en = "ticket"
 ru = "билет"
 uk = "квиток"
+es = "billete"
 
 [[word]]
 ja = "パスポート"
 en = "passport"
 ru = "паспорт"
 uk = "паспорт"
+es = "pasaporte"
 
 [[word]]
 ja = "ツアー"
 en = "tour"
 ru = "тур, экскурсия"
 uk = "тур, екскурсія"
+es = "excursión"
 
 [[word]]
 ja = "ガイド"
 en = "guide"
 ru = "гид"
 uk = "гід"
+es = "guía"
 
 [[word]]
 ja = "マップ"
 en = "map"
 ru = "карта"
 uk = "мапа"
+es = "mapa"
 
 [[word]]
 ja = "ルート"
 en = "route"
 ru = "маршрут"
 uk = "маршрут"
+es = "ruta"
 
 [[word]]
 ja = "ドライブ"
 en = "drive"
 ru = "поездка на машине"
 uk = "поїздка автівкою"
+es = "paseo en coche"
 
 [[word]]
 ja = "ガソリン"
 en = "gasoline"
 ru = "бензин"
 uk = "бензин"
+es = "gasolina"
 
 [[word]]
 ja = "スピード"
 en = "speed"
 ru = "скорость"
 uk = "швидкість"
+es = "velocidad"
 
 [[word]]
 ja = "ブレーキ"
 en = "brake"
 ru = "тормоз"
 uk = "гальмо"
+es = "freno"
 
 [[word]]
 ja = "ハンドル"
 en = "steering wheel"
 ru = "руль"
 uk = "кермо"
+es = "volante"
 
 [[word]]
 ja = "テレビ"
 en = "TV"
 ru = "телевизор"
 uk = "телевізор"
+es = "televisión"
 
 [[word]]
 ja = "ラジオ"
 en = "radio"
 ru = "радио"
 uk = "радіо"
+es = "radio"
 
 [[word]]
 ja = "カメラ"
 en = "camera"
 ru = "фотоаппарат, камера"
 uk = "фотоапарат, камера"
+es = "cámara"
 
 [[word]]
 ja = "パソコン"
 en = "PC"
 ru = "компьютер"
 uk = "комп'ютер"
+es = "PC"
 
 [[word]]
 ja = "コンピューター"
 en = "computer"
 ru = "компьютер"
 uk = "комп'ютер"
+es = "ordenador"
 
 [[word]]
 ja = "スマホ"
 en = "smartphone"
 ru = "смартфон"
 uk = "смартфон"
+es = "smartphone"
 
 [[word]]
 ja = "インターネット"
 en = "internet"
 ru = "интернет"
 uk = "інтернет"
+es = "internet"
 
 [[word]]
 ja = "メール"
 en = "email"
 ru = "электронная почта"
 uk = "електронна пошта"
+es = "correo electrónico"
 
 [[word]]
 ja = "アプリ"
 en = "app"
 ru = "приложение"
 uk = "застосунок"
+es = "app"
 
 [[word]]
 ja = "パスワード"
 en = "password"
 ru = "пароль"
 uk = "пароль"
+es = "contraseña"
 
 [[word]]
 ja = "データ"
 en = "data"
 ru = "данные"
 uk = "дані"
+es = "datos"
 
 [[word]]
 ja = "ファイル"
 en = "file"
 ru = "файл"
 uk = "файл"
+es = "archivo"
 
 [[word]]
 ja = "プリンター"
 en = "printer"
 ru = "принтер"
 uk = "принтер"
+es = "impresora"
 
 [[word]]
 ja = "コピー"
 en = "copy"
 ru = "копия"
 uk = "копія"
+es = "copia"
 
 [[word]]
 ja = "ブログ"
 en = "blog"
 ru = "блог"
 uk = "блог"
+es = "blog"
 
 [[word]]
 ja = "ビデオ"
 en = "video"
 ru = "видео"
 uk = "відео"
+es = "vídeo"
 
 [[word]]
 ja = "ゲーム"
 en = "game"
 ru = "игра"
 uk = "гра"
+es = "juego"
 
 [[word]]
 ja = "ニュース"
 en = "news"
 ru = "новости"
 uk = "новини"
+es = "noticias"
 
 [[word]]
 ja = "スポーツ"
 en = "sports"
 ru = "спорт"
 uk = "спорт"
+es = "deportes"
 
 [[word]]
 ja = "サッカー"
 en = "soccer"
 ru = "футбол"
 uk = "футбол"
+es = "fútbol"
 
 [[word]]
 ja = "テニス"
 en = "tennis"
 ru = "теннис"
 uk = "теніс"
+es = "tenis"
 
 [[word]]
 ja = "ゴルフ"
 en = "golf"
 ru = "гольф"
 uk = "гольф"
+es = "golf"
 
 [[word]]
 ja = "プール"
 en = "swimming pool"
 ru = "бассейн"
 uk = "басейн"
+es = "piscina"
 
 [[word]]
 ja = "ジム"
 en = "gym"
 ru = "спортзал"
 uk = "спортзал"
+es = "gimnasio"
 
 [[word]]
 ja = "ダンス"
 en = "dance"
 ru = "танец"
 uk = "танець"
+es = "baile"
 
 [[word]]
 ja = "ピアノ"
 en = "piano"
 ru = "пианино"
 uk = "піаніно"
+es = "piano"
 
 [[word]]
 ja = "ギター"
 en = "guitar"
 ru = "гитара"
 uk = "гітара"
+es = "guitarra"
 
 [[word]]
 ja = "コンサート"
 en = "concert"
 ru = "концерт"
 uk = "концерт"
+es = "concierto"
 
 [[word]]
 ja = "ドラマ"
 en = "TV drama"
 ru = "сериал"
 uk = "серіал"
+es = "serie de televisión"
 
 [[word]]
 ja = "アニメ"
 en = "anime"
 ru = "аниме"
 uk = "аніме"
+es = "anime"
 
 [[word]]
 ja = "マンガ"
 en = "manga"
 ru = "манга"
 uk = "манга"
+es = "manga"
 
 [[word]]
 ja = "キャラクター"
 en = "character"
 ru = "персонаж"
 uk = "персонаж"
+es = "personaje"
 
 [[word]]
 ja = "シャワー"
 en = "shower"
 ru = "душ"
 uk = "душ"
+es = "ducha"
 
 [[word]]
 ja = "シャンプー"
 en = "shampoo"
 ru = "шампунь"
 uk = "шампунь"
+es = "champú"
 
 [[word]]
 ja = "タオル"
 en = "towel"
 ru = "полотенце"
 uk = "рушник"
+es = "toalla"
 
 [[word]]
 ja = "ティッシュ"
 en = "tissue"
 ru = "бумажная салфетка"
 uk = "паперова серветка"
+es = "pañuelo de papel"
 
 [[word]]
 ja = "ベッド"
 en = "bed"
 ru = "кровать"
 uk = "ліжко"
+es = "cama"
 
 [[word]]
 ja = "テーブル"
 en = "table"
 ru = "стол"
 uk = "стіл"
+es = "mesa"
 
 [[word]]
 ja = "ソファ"
 en = "sofa"
 ru = "диван"
 uk = "диван"
+es = "sofá"
 
 [[word]]
 ja = "ドア"
 en = "door"
 ru = "дверь"
 uk = "двері"
+es = "puerta"
 
 [[word]]
 ja = "カーテン"
 en = "curtain"
 ru = "штора"
 uk = "штора"
+es = "cortina"
 
 [[word]]
 ja = "エアコン"
 en = "air conditioner"
 ru = "кондиционер"
 uk = "кондиціонер"
+es = "aire acondicionado"
 
 [[word]]
 ja = "キッチン"
 en = "kitchen"
 ru = "кухня"
 uk = "кухня"
+es = "cocina"
 
 [[word]]
 ja = "フォーク"
 en = "fork"
 ru = "вилка"
 uk = "виделка"
+es = "tenedor"
 
 [[word]]
 ja = "ナイフ"
 en = "knife"
 ru = "нож"
 uk = "ніж"
+es = "cuchillo"
 
 [[word]]
 ja = "スプーン"
 en = "spoon"
 ru = "ложка"
 uk = "ложка"
+es = "cuchara"
 
 [[word]]
 ja = "コップ"
 en = "cup"
 ru = "стакан, чашка"
 uk = "склянка, чашка"
+es = "taza"
 
 [[word]]
 ja = "グラス"
 en = "glass"
 ru = "бокал"
 uk = "келих"
+es = "vaso"
 
 [[word]]
 ja = "ボトル"
 en = "bottle"
 ru = "бутылка"
 uk = "пляшка"
+es = "botella"
 
 [[word]]
 ja = "アパート"
 en = "apartment"
 ru = "квартира (в малоэтажном доме)"
 uk = "квартира (у малоповерховому будинку)"
+es = "apartamento"
 
 [[word]]
 ja = "マンション"
 en = "condominium"
 ru = "квартира (в многоэтажном доме)"
 uk = "квартира (у багатоповерховому будинку)"
+es = "piso (de propiedad)"
 
 [[word]]
 ja = "ビル"
 en = "building"
 ru = "здание"
 uk = "будівля"
+es = "edificio"
 
 [[word]]
 ja = "ペン"
 en = "pen"
 ru = "ручка"
 uk = "ручка"
+es = "bolígrafo"
 
 [[word]]
 ja = "ノート"
 en = "notebook"
 ru = "тетрадь"
 uk = "зошит"
+es = "cuaderno"
 
 [[word]]
 ja = "テスト"
 en = "test"
 ru = "тест, контрольная"
 uk = "тест, контрольна"
+es = "examen"
 
 [[word]]
 ja = "クラス"
 en = "class"
 ru = "класс"
 uk = "клас"
+es = "clase"
 
 [[word]]
 ja = "アルバイト"
 en = "part-time job"
 ru = "подработка"
 uk = "підробіток"
+es = "trabajo a tiempo parcial"
 
 [[word]]
 ja = "パーティー"
 en = "party"
 ru = "вечеринка"
 uk = "вечірка"
+es = "fiesta"
 
 [[word]]
 ja = "プレゼント"
 en = "present, gift"
 ru = "подарок"
 uk = "подарунок"
+es = "regalo"
 
 [[word]]
 ja = "カード"
 en = "card"
 ru = "карта, открытка"
 uk = "картка, листівка"
+es = "tarjeta"
 
 [[word]]
 ja = "ポケット"
 en = "pocket"
 ru = "карман"
 uk = "кишеня"
+es = "bolsillo"
 
 [[word]]
 ja = "シャツ"
 en = "shirt"
 ru = "рубашка"
 uk = "сорочка"
+es = "camisa"
 
 [[word]]
 ja = "ズボン"
 en = "trousers"
 ru = "брюки"
 uk = "штани"
+es = "pantalones"
 
 [[word]]
 ja = "スカート"
 en = "skirt"
 ru = "юбка"
 uk = "спідниця"
+es = "falda"
 
 [[word]]
 ja = "コート"
 en = "coat"
 ru = "пальто"
 uk = "пальто"
+es = "abrigo"
 
 [[word]]
 ja = "セーター"
 en = "sweater"
 ru = "свитер"
 uk = "светр"
+es = "jersey"
 
 [[word]]
 ja = "ジャケット"
 en = "jacket"
 ru = "куртка, пиджак"
 uk = "куртка, піджак"
+es = "chaqueta"
 
 [[word]]
 ja = "ネクタイ"
 en = "necktie"
 ru = "галстук"
 uk = "краватка"
+es = "corbata"
 
 [[word]]
 ja = "バッグ"
 en = "bag"
 ru = "сумка"
 uk = "сумка"
+es = "bolso"
 
 [[word]]
 ja = "ボタン"
 en = "button"
 ru = "пуговица, кнопка"
 uk = "ґудзик, кнопка"
+es = "botón"
 
 [[word]]
 ja = "サイズ"
 en = "size"
 ru = "размер"
 uk = "розмір"
+es = "talla"
 
 [[word]]
 ja = "デザイン"
 en = "design"
 ru = "дизайн"
 uk = "дизайн"
+es = "diseño"
 
 [[word]]
 ja = "ファッション"
 en = "fashion"
 ru = "мода"
 uk = "мода"
+es = "moda"
 
 [[word]]
 ja = "チーム"
 en = "team"
 ru = "команда"
 uk = "команда"
+es = "equipo"
 
 [[word]]
 ja = "リーダー"
 en = "leader"
 ru = "лидер"
 uk = "лідер"
+es = "líder"
 
 [[word]]
 ja = "メンバー"
 en = "member"
 ru = "участник"
 uk = "учасник"
+es = "miembro"
 
 [[word]]
 ja = "プロジェクト"
 en = "project"
 ru = "проект"
 uk = "проєкт"
+es = "proyecto"
 
 [[word]]
 ja = "ミーティング"
 en = "meeting"
 ru = "встреча, совещание"
 uk = "зустріч, нарада"
+es = "reunión"
 
 [[word]]
 ja = "スケジュール"
 en = "schedule"
 ru = "расписание"
 uk = "розклад"
+es = "horario, agenda"
 
 [[word]]
 ja = "ビジネス"
 en = "business"
 ru = "бизнес"
 uk = "бізнес"
+es = "negocios"
 
 [[word]]
 ja = "サービス"
 en = "service"
 ru = "сервис, обслуживание"
 uk = "сервіс, обслуговування"
+es = "servicio"
 
 [[word]]
 ja = "システム"
 en = "system"
 ru = "система"
 uk = "система"
+es = "sistema"
 
 [[word]]
 ja = "チェック"
 en = "check"
 ru = "проверка"
 uk = "перевірка"
+es = "comprobación"
 
 [[word]]
 ja = "キャンセル"
 en = "cancel"
 ru = "отмена"
 uk = "скасування"
+es = "cancelar"
 
 [[word]]
 ja = "スタート"
 en = "start"
 ru = "старт"
 uk = "старт"
+es = "comienzo"
 
 [[word]]
 ja = "ゴール"
 en = "goal"
 ru = "цель, финиш"
 uk = "мета, фініш"
+es = "meta"
 
 [[word]]
 ja = "ルール"
 en = "rule"
 ru = "правило"
 uk = "правило"
+es = "regla"
 
 [[word]]
 ja = "ポイント"
 en = "point"
 ru = "пункт, баллы"
 uk = "пункт, бали"
+es = "punto"
 
 [[word]]
 ja = "レベル"
 en = "level"
 ru = "уровень"
 uk = "рівень"
+es = "nivel"
 
 [[word]]
 ja = "ページ"
 en = "page"
 ru = "страница"
 uk = "сторінка"
+es = "página"
 
 [[word]]
 ja = "グループ"
 en = "group"
 ru = "группа"
 uk = "група"
+es = "grupo"
 
 [[word]]
 ja = "イベント"
 en = "event"
 ru = "мероприятие"
 uk = "захід"
+es = "evento"
 
 [[word]]
 ja = "フェスティバル"
 en = "festival"
 ru = "фестиваль"
 uk = "фестиваль"
+es = "festival"
 
 [[word]]
 ja = "クリスマス"
 en = "Christmas"
 ru = "Рождество"
 uk = "Різдво"
+es = "Navidad"
 
 [[word]]
 ja = "ハロウィン"
 en = "Halloween"
 ru = "Хэллоуин"
 uk = "Гелловін"
+es = "Halloween"
 
 [[word]]
 ja = "アイデア"
 en = "idea"
 ru = "идея"
 uk = "ідея"
+es = "idea"
 
 [[word]]
 ja = "イメージ"
 en = "image"
 ru = "образ, впечатление"
 uk = "образ, враження"
+es = "imagen"
 
 [[word]]
 ja = "チャンス"
 en = "chance"
 ru = "шанс"
 uk = "шанс"
+es = "oportunidad"
 
 [[word]]
 ja = "トラブル"
 en = "trouble"
 ru = "неприятность, проблема"
 uk = "неприємність, проблема"
+es = "problema"
 
 [[word]]
 ja = "ミス"
 en = "mistake"
 ru = "ошибка"
 uk = "помилка"
+es = "error"
 
 [[word]]
 ja = "ベスト"
 en = "best"
 ru = "лучший"
 uk = "найкращий"
+es = "lo mejor"
 
 [[word]]
 ja = "ストレス"
 en = "stress"
 ru = "стресс"
 uk = "стрес"
+es = "estrés"
 
 [[word]]
 ja = "ダイエット"
 en = "diet"
 ru = "диета"
 uk = "дієта"
+es = "dieta"
 
 [[word]]
 ja = "ビタミン"
 en = "vitamin"
 ru = "витамин"
 uk = "вітамін"
+es = "vitamina"
 
 [[word]]
 ja = "アレルギー"
 en = "allergy"
 ru = "аллергия"
 uk = "алергія"
+es = "alergia"
 
 [[word]]
 ja = "マスク"
 en = "face mask"
 ru = "маска"
 uk = "маска"
+es = "mascarilla"
 
 [[word]]
 ja = "ウイルス"
 en = "virus"
 ru = "вирус"
 uk = "вірус"
+es = "virus"
 
 [[word]]
 ja = "エンジニア"
 en = "engineer"
 ru = "инженер"
 uk = "інженер"
+es = "ingeniero"
 
 [[word]]
 ja = "デザイナー"
 en = "designer"
 ru = "дизайнер"
 uk = "дизайнер"
+es = "diseñador"
 
 [[word]]
 ja = "ボランティア"
 en = "volunteer"
 ru = "волонтёр"
 uk = "волонтер"
+es = "voluntario"
 
 [[word]]
 ja = "アナウンス"
 en = "announcement"
 ru = "объявление"
 uk = "оголошення"
+es = "anuncio"
 
 [[word]]
 ja = "アメリカ"
 en = "America"
 ru = "Америка"
 uk = "Америка"
+es = "Estados Unidos"
 
 [[word]]
 ja = "イギリス"
 en = "UK"
 ru = "Великобритания"
 uk = "Велика Британія"
+es = "Reino Unido"
 
 [[word]]
 ja = "フランス"
 en = "France"
 ru = "Франция"
 uk = "Франція"
+es = "Francia"
 
 [[word]]
 ja = "ドイツ"
 en = "Germany"
 ru = "Германия"
 uk = "Німеччина"
+es = "Alemania"
 
 [[word]]
 ja = "イタリア"
 en = "Italy"
 ru = "Италия"
 uk = "Італія"
+es = "Italia"
 
 [[word]]
 ja = "スペイン"
 en = "Spain"
 ru = "Испания"
 uk = "Іспанія"
+es = "España"
 
 [[word]]
 ja = "カナダ"
 en = "Canada"
 ru = "Канада"
 uk = "Канада"
+es = "Canadá"
 
 [[word]]
 ja = "オーストラリア"
 en = "Australia"
 ru = "Австралия"
 uk = "Австралія"
+es = "Australia"
 
 [[word]]
 ja = "ヨーロッパ"
 en = "Europe"
 ru = "Европа"
 uk = "Європа"
+es = "Europa"
 
 [[word]]
 ja = "アジア"
 en = "Asia"
 ru = "Азия"
 uk = "Азія"
+es = "Asia"
 
 [[word]]
 ja = "ロンドン"
 en = "London"
 ru = "Лондон"
 uk = "Лондон"
+es = "Londres"
 
 [[word]]
 ja = "パリ"
 en = "Paris"
 ru = "Париж"
 uk = "Париж"
+es = "París"
 
 [[word]]
 ja = "ニューヨーク"
 en = "New York"
 ru = "Нью-Йорк"
 uk = "Нью-Йорк"
+es = "Nueva York"
 
 [[word]]
 ja = "メートル"
 en = "meter"
 ru = "метр"
 uk = "метр"
+es = "metro"
 
 [[word]]
 ja = "キロ"
 en = "kilo"
 ru = "кило (килограмм, километр)"
 uk = "кіло (кілограм, кілометр)"
+es = "kilo"
 
 [[word]]
 ja = "グラム"
 en = "gram"
 ru = "грамм"
 uk = "грам"
+es = "gramo"
 
 [[word]]
 ja = "パーセント"
 en = "percent"
 ru = "процент"
 uk = "відсоток"
+es = "por ciento"
 
 [[word]]
 ja = "ドル"
 en = "dollar"
 ru = "доллар"
 uk = "долар"
+es = "dólar"
 
 [[word]]
 ja = "ユーロ"
 en = "euro"
 ru = "евро"
 uk = "євро"
+es = "euro"
 
 [[word]]
 ja = "ゼロ"
 en = "zero"
 ru = "ноль"
 uk = "нуль"
+es = "cero"
 
 [[word]]
 ja = "エネルギー"
 en = "energy"
 ru = "энергия"
 uk = "енергія"
+es = "energía"
 
 [[word]]
 ja = "ガス"
 en = "gas"
 ru = "газ"
 uk = "газ"
+es = "gas"

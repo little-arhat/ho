@@ -25,7 +25,7 @@ def test_counts():
 def test_unknown_topic(tmp_path):
     f = tmp_path / "pb.toml"
     f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000000"\ncolor_dark="#ffffff"\n'
-                 '[[phrase]]\ntopic="b"\nsection="s"\nkind="say"\nja="はい"\nen="yes"\nru="да"\nuk="так"\n')
+                 '[[phrase]]\ntopic="b"\nsection="s"\nkind="say"\nja="はい"\nen="yes"\nru="да"\nuk="так"\nes="sí"\n')
     with pytest.raises(ContentError, match="phrase #1 'はい'.*unknown topic 'b'"):
         phrasebook.load(f, VERBS)
 
@@ -33,7 +33,7 @@ def test_unknown_topic(tmp_path):
 def test_bad_furigana_names_entry(tmp_path):
     f = tmp_path / "pb.toml"
     f.write_text('[[topic]]\nid="a"\njp="あ"\nen="A"\ncolor="#000000"\ncolor_dark="#ffffff"\n'
-                 '[[phrase]]\ntopic="a"\nsection="s"\nkind="say"\nja="お[お]"\nen="o"\nru="о"\nuk="о"\n')
+                 '[[phrase]]\ntopic="a"\nsection="s"\nkind="say"\nja="お[お]"\nen="o"\nru="о"\nuk="о"\nes="o"\n')
     with pytest.raises(ContentError, match="phrase #1"):
         phrasebook.load(f, VERBS)
 

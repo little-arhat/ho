@@ -8,11 +8,11 @@ from ho import anki
 from ho.fields import Line, Text
 from ho.words import Entry, Group, Kind
 
-T = Text("e", "р", "у")
+T = Text("e", "р", "у", "s")
 
 
 def group(id_, kind, lesson, entries):
-    return Group(id_, kind, lesson, id_.upper(), "k", Text("Title", "Т", "Т"), tuple(entries))
+    return Group(id_, kind, lesson, id_.upper(), "k", Text("Title", "Т", "Т", "T"), tuple(entries))
 
 
 def test_anki_furigana_puts_a_space_before_each_ruby_base_after_text():
@@ -30,7 +30,7 @@ def test_the_existing_deck_and_note_type_are_kept():
 
 
 def test_note_is_keyed_by_written_and_kana_and_tagged_with_its_lesson():
-    e = Entry("食[た]べます", T, Text("dictionary form: 食べる", "с", "с"), Line("朝[あさ]ごはんを食[た]べます。", T))
+    e = Entry("食[た]べます", T, Text("dictionary form: 食べる", "с", "с", "s"), Line("朝[あさ]ごはんを食[た]べます。", T))
     n = anki.note(e, 6, lambda text: "abc" if text == "食[た]べます" else "")
     fields = dict(zip(anki.FIELDS, n.fields, strict=True))
     assert n.guid == genanki.guid_for("食べます", "たべます")

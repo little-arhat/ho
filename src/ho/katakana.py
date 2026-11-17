@@ -14,7 +14,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from ho.errors import ContentError
-from ho.fields import check_alphabets
+from ho.fields import LANGS, check_alphabets
 
 
 def _table(spec: str) -> dict[str, tuple[str, ...]]:
@@ -75,6 +75,7 @@ class Word:
     en: str
     ru: str
     uk: str
+    es: str
     answers: Answers = field(compare=False)
 
 
@@ -192,9 +193,9 @@ def load(path: Path) -> tuple[Word, ...]:
     out = []
     for i, row in enumerate(data["word"]):
         where = f"{path}: word #{i + 1}"
-        if set(row) != {"ja", "en", "ru", "uk"} or not all(row.values()):
-            raise ContentError(f"{where}: needs exactly ja, en, ru, uk, all non-empty")
-        check_alphabets(row["ru"], row["uk"], where)
+        if set(row) != {"ja", *LANGS} or not all(row.values()):
+            raise ContentError(f"{where}: needs exactly ja, {', '.join(LANGS)}, all non-empty")
+        check_alphabets(row, where)
         if row["ja"] in seen:
             raise ContentError(f"{where}: duplicate {row['ja']!r}")
         seen.add(row["ja"])
@@ -207,4 +208,4 @@ def load(path: Path) -> tuple[Word, ...]:
 
 def view(words: tuple[Word, ...]) -> list[dict[str, object]]:
     """The drill deck as the page's JSON."""
-    return [{"ja": w.ja, "en": w.en, "ru": w.ru, "uk": w.uk, **asdict(w.answers)} for w in words]
+    return [{"ja": w.ja, **{k: getattr(w, k) for k in LANGS}, **asdict(w.answers)} for w in words]

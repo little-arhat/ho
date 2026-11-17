@@ -74,8 +74,10 @@ class Group:
     entries: tuple[Entry, ...]
 
 
-CARDS_TITLE = Text("Words on kanji cards", "Слова с карточек кандзи", "Слова з карток кандзі")
-READING_TITLE = Text("New words in reading texts", "Новые слова из текстов для чтения", "Нові слова з текстів для читання")
+CARDS_TITLE = Text("Words on kanji cards", "Слова с карточек кандзи", "Слова з карток кандзі",
+                   "Palabras de las tarjetas de kanji")
+READING_TITLE = Text("New words in reading texts", "Новые слова из текстов для чтения", "Нові слова з текстів для читання",
+                     "Palabras nuevas de los textos de lectura")
 
 
 def _key(ja: str) -> str:

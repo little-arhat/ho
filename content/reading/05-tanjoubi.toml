@@ -1,5 +1,5 @@
 lesson = 5
-title = { en = "Birthdays", ru = "Дни рождения", uk = "Дні народження" }
+title = { en = "Birthdays", ru = "Дни рождения", uk = "Дні народження", es = "Cumpleaños" }
 scene = "A young couple walking along a sunny beach in spring, holding hands, a small train passing on a coastal line in the distance."
 
 [[paragraph]]
@@ -7,33 +7,39 @@ ja = "私[わたし]|の|誕[たん]生[じょう]日[び]|は|四[し]月[が�
 en = "My birthday is April 3."
 ru = "Мой день рождения — 3 апреля."
 uk = "Мій день народження — 3 квітня."
+es = "Mi cumpleaños es el 3 de abril."
 
 [[paragraph]]
 ja = "誕[たん]生[じょう]日[び]|に|彼[かの]女[じょ]|と|電[でん]車[しゃ]|で|海[うみ]|へ|行[い]きました=行[い]きます|。"
 en = "On my birthday I went to the sea by train with my girlfriend."
 ru = "В день рождения я ездил с девушкой на море на электричке."
 uk = "На день народження я їздив із дівчиною до моря електричкою."
+es = "El día de mi cumpleaños fui al mar en tren con mi novia."
 
 [[paragraph]]
 ja = "彼[かの]女[じょ]|の|誕[たん]生[じょう]日[び]|は|いつ|です|か|。|九[く]月[がつ]|二十日[はつか]|です|。"
 en = "When is her birthday? September 20."
 ru = "Когда её день рождения? 20 сентября."
 uk = "Коли її день народження? 20 вересня."
+es = "¿Cuándo es su cumpleaños? El 20 de septiembre."
 
 [[paragraph]]
 ja = "来[らい]月[げつ]|、|彼[かの]女[じょ]|の|家[か]族[ぞく]|が|日[に]本[ほん]|へ|来[き]ます|。"
 en = "Next month her family is coming to Japan."
 ru = "В следующем месяце её семья приедет в Японию."
 uk = "Наступного місяця її родина приїде до Японії."
+es = "El mes que viene su familia viene a Japón."
 
 [[new]]
 ja = "海[うみ]"
 en = "sea"
 ru = "море"
 uk = "море"
+es = "mar"
 
 [[new]]
 ja = "日[に]本[ほん]"
 en = "Japan"
 ru = "Япония"
 uk = "Японія"
+es = "Japón"

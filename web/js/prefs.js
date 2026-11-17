@@ -2,9 +2,9 @@
 // whether furigana shows. Applied as attributes on <html>; CSS does the hiding.
 // Stored in localStorage when it is available; the page works without it.
 
-export const LANGS = ["en", "ru", "uk"];
+export const LANGS = ["en", "ru", "uk", "es"]; // the order of src/ho/fields.py LANGS
 const KEY = "ho.prefs";
-const DEFAULT = { langs: ["en", "ru", "uk"], furigana: true };
+const DEFAULT = { langs: ["en", "ru", "uk", "es"], furigana: true };
 
 // Per-browser storage for small conveniences; null/defaults when unavailable.
 export function stored(key, fallback) {

@@ -1,94 +1,101 @@
 number = 2
-title = { en = "Things: this, that, whose", ru = "Вещи: это, то, чьё", uk = "Речі: це, те, чиє" }
+title = { en = "Things: this, that, whose", ru = "Вещи: это, то, чьё", uk = "Речі: це, те, чиє", es = "Cosas: esto, eso, de quién" }
 grammar = "これ・この・の・何[なん]・そうです"
 
 [[rule]]
-title = { en = "これ・それ・あれ: this, that, that over there", ru = "これ・それ・あれ: это, то, вон то", uk = "これ・それ・あれ: це, те, он те" }
+title = { en = "これ・それ・あれ: this, that, that over there", ru = "これ・それ・あれ: это, то, вон то", uk = "これ・それ・あれ: це, те, он те", es = "これ・それ・あれ: esto, eso, aquello" }
 pattern = [
   { ja = "これ / それ / あれ" },
   { ja = "は" },
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "です" },
 ]
 explain.en = "These stand alone, in place of a noun. これ = a thing near me (the speaker). それ = a thing near you (the listener). あれ = a thing away from both of us. If I hand you the thing, I call it これ and you call it それ."
 explain.ru = "Эти слова стоят сами по себе, вместо существительного. これ — предмет рядом со мной (говорящим). それ — рядом с тобой (слушающим). あれ — далеко от нас обоих. Если я протягиваю вам вещь, для меня это これ, а для вас それ."
 explain.uk = "Ці слова стоять самі по собі, замість іменника. これ — предмет біля мене (мовця). それ — біля тебе (слухача). あれ — далеко від нас обох. Якщо я простягаю вам річ, для мене це これ, а для вас それ."
+explain.es = "Van solos, en lugar de un sustantivo. これ = una cosa cerca de mí (el que habla). それ = una cosa cerca de ti (el que escucha). あれ = una cosa lejos de los dos. Si te doy la cosa, yo la llamo これ y tú la llamas それ."
 example = [
-  { ja = "これは本[ほん]です。", en = "This is a book.", ru = "Это книга.", uk = "Це книга." },
-  { ja = "それは辞[じ]書[しょ]ですか。", en = "Is that a dictionary?", ru = "Это словарь?", uk = "Це словник?" },
+  { ja = "これは本[ほん]です。", en = "This is a book.", ru = "Это книга.", uk = "Це книга.", es = "Esto es un libro." },
+  { ja = "それは辞[じ]書[しょ]ですか。", en = "Is that a dictionary?", ru = "Это словарь?", uk = "Це словник?", es = "¿Eso es un diccionario?" },
 ]
 
 [[rule]]
-title = { en = "この・その・あの + noun", ru = "この・その・あの + сущ.", uk = "この・その・あの + імен." }
+title = { en = "この・その・あの + noun", ru = "この・その・あの + сущ.", uk = "この・その・あの + імен.", es = "この・その・あの + sustantivo" }
 pattern = [
   { ja = "この / その / あの" },
-  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен." },
+  { slot = "thing", en = "noun", ru = "сущ.", uk = "імен.", es = "sustantivo" },
   { ja = "は" },
-  { slot = "thing", en = "…です", ru = "…です", uk = "…です" },
+  { slot = "thing", en = "…です", ru = "…です", uk = "…です", es = "…です" },
 ]
 explain.en = "この, その, あの never stand alone: a noun always follows (この本 = this book). Same distances as これ, それ, あれ. Wrong: このは. Right: これは or この本は."
 explain.ru = "この, その, あの никогда не стоят одни: за ними всегда идёт существительное (この本 = эта книга). Расстояние то же, что у これ, それ, あれ. Неправильно: このは. Правильно: これは или この本は."
 explain.uk = "この, その, あの ніколи не стоять самі: за ними завжди йде іменник (この本 = ця книга). Відстань та сама, що в これ, それ, あれ. Неправильно: このは. Правильно: これは або この本は."
+explain.es = "この, その, あの nunca van solos: siempre les sigue un sustantivo (この本 = este libro). Las mismas distancias que これ, それ, あれ. Mal: このは. Bien: これは o この本は."
 example = [
-  { ja = "この本[ほん]は私[わたし]のです。", en = "This book is mine.", ru = "Эта книга моя.", uk = "Ця книга моя." },
-  { ja = "あの人[ひと]はだれですか。", en = "Who is that person over there?", ru = "Кто вон тот человек?", uk = "Хто он та людина?" },
+  { ja = "この本[ほん]は私[わたし]のです。", en = "This book is mine.", ru = "Эта книга моя.", uk = "Ця книга моя.", es = "Este libro es mío." },
+  { ja = "あの人[ひと]はだれですか。", en = "Who is that person over there?", ru = "Кто вон тот человек?", uk = "Хто он та людина?", es = "¿Quién es aquella persona?" },
 ]
 
 [[rule]]
-title = { en = "N の: whose; の standing for the thing", ru = "N の: чей; の вместо предмета", uk = "N の: чий; の замість предмета" }
+title = { en = "N の: whose; の standing for the thing", ru = "N の: чей; の вместо предмета", uk = "N の: чий; の замість предмета", es = "N の: de quién; の en lugar de la cosa" }
 pattern = [
-  { slot = "person", en = "owner", ru = "владелец", uk = "власник" },
+  { slot = "person", en = "owner", ru = "владелец", uk = "власник", es = "dueño" },
   { ja = "の" },
-  { slot = "thing", en = "(thing)", ru = "(предмет)", uk = "(предмет)" },
+  { slot = "thing", en = "(thing)", ru = "(предмет)", uk = "(предмет)", es = "(cosa)" },
   { ja = "です" },
 ]
 explain.en = "わたしの かばん = my bag. When the thing is already clear, drop it and keep の: あれは わたしのです = that one is mine. Ask about the owner with だれの: これは だれのですか."
 explain.ru = "わたしの かばん — моя сумка. Если предмет уже понятен, его опускают и оставляют の: あれは わたしのです — то моё. Спросить, чьё: だれの: これは だれのですか."
 explain.uk = "わたしの かばん — моя сумка. Якщо предмет уже зрозумілий, його опускають і лишають の: あれは わたしのです — то моє. Спитати, чиє: だれの: これは だれのですか."
+explain.es = "わたしの かばん = mi bolso. Cuando la cosa ya está clara, se omite y se deja の: あれは わたしのです = aquello es mío. Para preguntar por el dueño, だれの: これは だれのですか."
 example = [
-  { ja = "あれはわたしのかばんです。", en = "That over there is my bag.", ru = "Вон то — моя сумка.", uk = "Он те — моя сумка." },
-  { ja = "あれはわたしのです。", en = "That over there is mine.", ru = "Вон то — моё.", uk = "Он те — моє." },
-  { ja = "このかぎはだれのですか。", en = "Whose key is this?", ru = "Чей это ключ?", uk = "Чий це ключ?" },
+  { ja = "あれはわたしのかばんです。", en = "That over there is my bag.", ru = "Вон то — моя сумка.", uk = "Он те — моя сумка.", es = "Aquello de allí es mi bolso." },
+  { ja = "あれはわたしのです。", en = "That over there is mine.", ru = "Вон то — моё.", uk = "Он те — моє.", es = "Aquello de allí es mío." },
+  { ja = "このかぎはだれのですか。", en = "Whose key is this?", ru = "Чей это ключ?", uk = "Чий це ключ?", es = "¿De quién es esta llave?" },
 ]
 
 [[rule]]
-title = { en = "N₁ の N₂: what kind / about what", ru = "N₁ の N₂: какой / о чём", uk = "N₁ の N₂: який / про що" }
+title = { en = "N₁ の N₂: what kind / about what", ru = "N₁ の N₂: какой / о чём", uk = "N₁ の N₂: який / про що", es = "N₁ の N₂: de qué tipo / sobre qué" }
 explain.en = "の also says what something is about or what kind it is: コンピューターの本 = a book about computers, 日本語の本 = a Japanese(-language) book, 車の雑誌 = a car magazine. Ask with 何の: これは 何の本ですか."
 explain.ru = "の также говорит, о чём предмет или какого он рода: コンピューターの本 — книга о компьютерах, 日本語の本 — книга на японском, 車の雑誌 — автомобильный журнал. Вопрос: 何の: これは 何の本ですか."
 explain.uk = "の також каже, про що предмет або якого він роду: コンピューターの本 — книга про комп'ютери, 日本語の本 — книга японською, 車の雑誌 — автомобільний журнал. Питання: 何の: これは 何の本ですか."
+explain.es = "の también dice de qué trata algo o de qué tipo es: コンピューターの本 = un libro sobre ordenadores, 日本語の本 = un libro en japonés, 車の雑誌 = una revista de coches. Se pregunta con 何の: これは 何の本ですか."
 example = [
-  { ja = "これは車[くるま]の本[ほん]です。", en = "This is a book about cars.", ru = "Это книга об автомобилях.", uk = "Це книга про автомобілі." },
-  { ja = "それは何[なん]の雑[ざっ]誌[し]ですか。", en = "What is that magazine about?", ru = "О чём этот журнал?", uk = "Про що цей журнал?" },
+  { ja = "これは車[くるま]の本[ほん]です。", en = "This is a book about cars.", ru = "Это книга об автомобилях.", uk = "Це книга про автомобілі.", es = "Este es un libro sobre coches." },
+  { ja = "それは何[なん]の雑[ざっ]誌[し]ですか。", en = "What is that magazine about?", ru = "О чём этот журнал?", uk = "Про що цей журнал?", es = "¿De qué trata esa revista?" },
 ]
 
 [[rule]]
-title = { en = "なん: what", ru = "なん: что", uk = "なん: що" }
+title = { en = "なん: what", ru = "なん: что", uk = "なん: що", es = "なん: qué" }
 explain.en = "何 is read なん before です, の and counters (なんですか, なんの, なんさい), and なに elsewhere (なにを). It stands exactly where the answer will stand."
 explain.ru = "何 читается なん перед です, の и счётными словами (なんですか, なんの, なんさい), а в остальных случаях なに (なにを). Стоит там же, где будет ответ."
 explain.uk = "何 читається なん перед です, の і лічильними словами (なんですか, なんの, なんさい), а в інших випадках なに (なにを). Стоїть там само, де буде відповідь."
+explain.es = "何 se lee なん delante de です, の y los contadores (なんですか, なんの, なんさい), y なに en los demás casos (なにを). Va exactamente donde irá la respuesta."
 example = [
-  { ja = "これは何[なん]ですか。", en = "What is this?", ru = "Что это?", uk = "Що це?" },
-  { ja = "名[めい]刺[し]です。", en = "It's a business card.", ru = "Это визитная карточка.", uk = "Це візитівка." },
+  { ja = "これは何[なん]ですか。", en = "What is this?", ru = "Что это?", uk = "Що це?", es = "¿Qué es esto?" },
+  { ja = "名[めい]刺[し]です。", en = "It's a business card.", ru = "Это визитная карточка.", uk = "Це візитівка.", es = "Es una tarjeta de visita." },
 ]
 
 [[rule]]
-title = { en = "Either-or: …ですか、…ですか", ru = "Или-или: …ですか、…ですか", uk = "Або-або: …ですか、…ですか" }
+title = { en = "Either-or: …ですか、…ですか", ru = "Или-или: …ですか、…ですか", uk = "Або-або: …ですか、…ですか", es = "Una cosa u otra: …ですか、…ですか" }
 explain.en = "Two questions side by side ask \"A or B?\". Answer with the right one; はい / いいえ do not fit here."
 explain.ru = "Два вопроса подряд спрашивают «A или B?». Отвечают нужным вариантом; はい / いいえ здесь не подходят."
 explain.uk = "Два питання поспіль питають «A чи B?». Відповідають потрібним варіантом; はい / いいえ тут не підходять."
+explain.es = "Dos preguntas seguidas preguntan «¿A o B?». Se responde con la correcta; はい / いいえ no encajan aquí."
 example = [
-  { ja = "それはボールペンですか、シャープペンシルですか。", en = "Is that a ballpoint pen or a mechanical pencil?", ru = "Это шариковая ручка или механический карандаш?", uk = "Це кулькова ручка чи механічний олівець?" },
-  { ja = "シャープペンシルです。", en = "It's a mechanical pencil.", ru = "Механический карандаш.", uk = "Механічний олівець." },
+  { ja = "それはボールペンですか、シャープペンシルですか。", en = "Is that a ballpoint pen or a mechanical pencil?", ru = "Это шариковая ручка или механический карандаш?", uk = "Це кулькова ручка чи механічний олівець?", es = "¿Eso es un bolígrafo o un portaminas?" },
+  { ja = "シャープペンシルです。", en = "It's a mechanical pencil.", ru = "Механический карандаш.", uk = "Механічний олівець.", es = "Es un portaminas." },
 ]
 
 [[rule]]
-title = { en = "そうです / 違います: yes it is / no it isn't", ru = "そうです / 違います: да / нет", uk = "そうです / 違います: так / ні" }
+title = { en = "そうです / 違います: yes it is / no it isn't", ru = "そうです / 違います: да / нет", uk = "そうです / 違います: так / ні", es = "そうです / 違います: sí lo es / no lo es" }
 explain.en = "To a yes-no question about a noun, answer はい、そうです (yes, it is) or いいえ、違います (no, it isn't). そうですか with falling tone means \"I see\"."
 explain.ru = "На вопрос «да или нет» о существительном отвечают はい、そうです (да, так) или いいえ、違います (нет, не так). そうですか с понижением тона значит «понятно»."
 explain.uk = "На питання «так чи ні» про іменник відповідають はい、そうです (так) або いいえ、違います (ні, не так). そうですか зі зниженням тону означає «зрозуміло»."
+explain.es = "A una pregunta de sí o no sobre un sustantivo, responde はい、そうです (sí, lo es) o いいえ、違います (no, no lo es). そうですか con entonación descendente significa «ya veo»."
 example = [
-  { ja = "それはテレホンカードですか。", en = "Is that a telephone card?", ru = "Это телефонная карта?", uk = "Це телефонна картка?" },
-  { ja = "いいえ、違[ちが]います。", en = "No, it isn't.", ru = "Нет, не так.", uk = "Ні, не так." },
+  { ja = "それはテレホンカードですか。", en = "Is that a telephone card?", ru = "Это телефонная карта?", uk = "Це телефонна картка?", es = "¿Eso es una tarjeta telefónica?" },
+  { ja = "いいえ、違[ちが]います。", en = "No, it isn't.", ru = "Нет, не так.", uk = "Ні, не так.", es = "No, no lo es." },
 ]
 
 [[exercise]]
@@ -99,6 +106,7 @@ answer = "この"
 en = "This book is mine."
 ru = "Эта книга моя."
 uk = "Ця книга моя."
+es = "Este libro es mío."
 
 [[exercise]]
 kind = "choice"
@@ -108,6 +116,7 @@ answer = "それ"
 en = "That (near you) is a dictionary."
 ru = "Это (у тебя) словарь."
 uk = "Це (біля тебе) словник."
+es = "Eso (cerca de ti) es un diccionario."
 
 [[exercise]]
 kind = "choice"
@@ -117,6 +126,7 @@ answer = "の"
 en = "That over there is Ms. Sato's bag."
 ru = "Вон то — сумка Сато-сан."
 uk = "Он те — сумка Сато-сан."
+es = "Aquello es el bolso de la señora Sato."
 
 [[exercise]]
 kind = "choice"
@@ -126,6 +136,7 @@ answer = "だれ"
 en = "Whose key is this?"
 ru = "Чей этот ключ?"
 uk = "Чий цей ключ?"
+es = "¿De quién es esta llave?"
 
 [[exercise]]
 kind = "choice"
@@ -135,6 +146,7 @@ answer = "何[なん]"
 en = "What is this book about? — It's a book about computers."
 ru = "О чём эта книга? — О компьютерах."
 uk = "Про що ця книга? — Про комп'ютери."
+es = "¿De qué trata este libro? — Es un libro sobre ordenadores."
 
 [[exercise]]
 kind = "reorder"
@@ -142,6 +154,7 @@ parts = ["あれは", "せんせいの", "です。"]
 en = "That over there is the teacher's."
 ru = "Вон то — учителя."
 uk = "Он те — вчителя."
+es = "Aquello es del profesor."
 
 [[exercise]]
 kind = "reorder"
@@ -149,6 +162,7 @@ parts = ["この", "てちょうは", "わたしの", "です。"]
 en = "This pocket notebook is mine."
 ru = "Эта записная книжка моя."
 uk = "Цей записник мій."
+es = "Esta agenda de bolsillo es mía."
 
 [[note]]
 text = """

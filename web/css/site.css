@@ -45,7 +45,8 @@ html[data-furigana="off"] rt { display: none; }
 /* Translations: only the selected languages show. */
 html:not([data-langs~="en"]) .tr-en,
 html:not([data-langs~="ru"]) .tr-ru,
-html:not([data-langs~="uk"]) .tr-uk { display: none !important; } /* a language toggle beats any component display rule */
+html:not([data-langs~="uk"]) .tr-uk,
+html:not([data-langs~="es"]) .tr-es { display: none !important; } /* a language toggle beats any component display rule */
 
 /* Header */
 header.site {
@@ -224,10 +225,10 @@ svg .mute { display: none; }
   .kt-band, .chev { transition: none; }
 }
 
-/* Three-language text: block labels only when more than one language shows. */
+/* Translated text: block labels only when more than one language shows. */
 p.tl { margin: 0 0 6px; }
 p.tl::before { content: attr(data-l); font: 500 10px var(--f-mono); color: var(--muted); margin-right: 8px; }
-html[data-langs="en"] p.tl::before, html[data-langs="ru"] p.tl::before, html[data-langs="uk"] p.tl::before { content: none; }
+html:not([data-langs*=" "]) p.tl::before { content: none; }
 span.tl { display: block; }
 
 /* Lessons index */

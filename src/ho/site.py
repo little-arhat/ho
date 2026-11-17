@@ -23,6 +23,7 @@ from ho import (
     romaji,
     words,
 )
+from ho.fields import LANGS
 from ho.kanji import Card
 from ho.katakana import Word
 from ho.lessons import Lesson
@@ -226,6 +227,7 @@ def _root(path: str) -> str:
 def render_site(content: Content, templates: Path) -> dict[str, str]:
     env = jinja2.Environment(loader=jinja2.FileSystemLoader(templates), autoescape=True,
                              undefined=jinja2.StrictUndefined, keep_trailing_newline=True)
+    env.globals["LANGS"] = LANGS
     env.filters["ruby"] = ruby
     env.filters["hex"] = lambda c: f"{ord(c):x}"
     env.filters["speech"] = romaji.speech

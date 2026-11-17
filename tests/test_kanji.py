@@ -23,12 +23,12 @@ char = "生"
 number = 21
 level = 5
 readings = ["い-きます", "(なま)", "セイ"]
-meaning = { en = "life", ru = "жизнь", uk = "життя" }
+meaning = { en = "life", ru = "жизнь", uk = "життя", es = "vida" }
 
 [[kanji.word]]
 ja = "学[がく]生[せい]"
-tr = { en = "student", ru = "студент", uk = "студент" }
-example = { ja = "わたしは学[がく]生[せい]です。", en = "I am a student.", ru = "Я студент.", uk = "Я студент." }
+tr = { en = "student", ru = "студент", uk = "студент", es = "estudiante" }
+example = { ja = "わたしは学[がく]生[せい]です。", en = "I am a student.", ru = "Я студент.", uk = "Я студент.", es = "Soy estudiante." }
 '''
 
 
@@ -92,7 +92,7 @@ def test_stroke_frames():
 
 
 def item(written, reading):
-    return kanji.DrillItem(f"{written}", written, reading, Text("x", "х", "х"), "1")
+    return kanji.DrillItem(f"{written}", written, reading, Text("x", "х", "х", "x"), "1")
 
 
 def test_distractors_never_share_spelling_or_reading():
@@ -118,7 +118,7 @@ def test_fold_matches_shared_cases():
 
 
 def test_meaning_answers():
-    got = kanji.meaning_answers(Text("to eat; food (in general)", "есть, еда", "їсти"))
+    got = kanji.meaning_answers(Text("to eat; food (in general)", "есть, еда", "їсти", "comer; comida"))
     assert {"eat", "toeat", "food", "foodingeneral", "есть", "еда", "їсти"} <= set(got)
 
 
@@ -151,7 +151,7 @@ def test_reading_romaji_keeps_okurigana_apart():
 
 def test_search_index_finds_by_kanji_kana_romaji_and_meaning():
     card = kanji.Card("学", 1, 5, (kanji.parse_reading("ガク", "t"), kanji.parse_reading("まな-ぶ", "t")),
-                      Text("study, learning", "учёба", "навчання"), ())
+                      Text("study, learning", "учёба", "навчання", "estudio"), ())
     idx = kanji.search_index(card)
     for q in ["学", "がく", "ガク", "まなぶ", "manabu", "gaku", "study", "учеба", "навчання"]:
         assert kanji.fold(q) in idx, q

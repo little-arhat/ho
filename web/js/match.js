@@ -1,8 +1,10 @@
 // Answer checking. Accepted answers come from the build.
 
-// Typed meanings and readings: width, case, ё/е, katakana/hiragana and all
-// spaces and punctuation folded away. Must match ho.kanji.fold in Python.
-export const fold = (s) => s.normalize("NFKC").toLowerCase().replace(/ё/g, "е")
+// Typed meanings and readings: width, case, ё/е, Spanish accents (á/a, ü/u),
+// katakana/hiragana and all spaces and punctuation folded away. Must match
+// ho.kanji.fold in Python.
+const ACCENTS = { á: "a", é: "e", í: "i", ó: "o", ú: "u", ü: "u" };
+export const fold = (s) => s.normalize("NFKC").toLowerCase().replace(/ё/g, "е").replace(/[áéíóúü]/g, (c) => ACCENTS[c])
   .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
   .replace(/[^\p{L}\p{N}]+/gu, "");
 
