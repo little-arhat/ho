@@ -5,6 +5,7 @@
 <h1 class="page-title">Words <small lang="ja">単語</small></h1>
 <p class="lead">Every word on the site: each lesson's vocabulary, the book's reference lists, and the words kanji cards and reading texts add.
 <a class="btn" href="../anki/{{ all_deck }}" download>All lessons as an Anki deck ↓</a></p>
+<p class="foot">The Anki decks import into the deck “Vocab” (note type “Lesson Vocab”). They only add words: a word already there keeps its audio, sentence and edits.</p>
 {{ list_tools("ho.wd", filters, "Search: 食べます, たべます, tabemasu, eat, есть…") }}
 
 {% for g in groups %}

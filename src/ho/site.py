@@ -100,7 +100,7 @@ def pages(content: Content) -> tuple[Page, ...]:
              data=katakana.view(content.katakana)),
     ]
     numbers = [lesson.number for lesson in content.lessons]
-    deck_of = {d.group: d.file for d in anki_decks(content)}
+    deck_of = {p.group: p.file for p in anki_packages(content) if p.group}
     for i, lesson in enumerate(content.lessons):
         out.append(Page(
             f"lessons/{lesson.number:02d}/index.html", "lesson.html", f"{lesson.number}. {lesson.title.en}", "lessons",
@@ -119,15 +119,15 @@ def word_groups(content: Content) -> tuple[words.Group, ...]:
     return words.groups(content.lessons, content.topics, content.kanji, content.readings)
 
 
-def anki_decks(content: Content) -> tuple[anki.Deck, ...]:
-    return anki.decks(word_groups(content), clip_of(content))
+def anki_packages(content: Content) -> tuple[anki.Package, ...]:
+    return anki.packages(word_groups(content), clip_of(content))
 
 
 def _words_page(content: Content) -> Page:
     groups = word_groups(content)
     return Page("words/index.html", "words.html", "Words", "words", {
         "groups": groups,
-        "decks": {d.group: d.file for d in anki_decks(content)},
+        "decks": {p.group: p.file for p in anki_packages(content) if p.group},
         "all_deck": anki.ALL_FILE,
         "filters": [("all", "ALL"), *((g.id, g.label) for g in groups)],
         "carded": {c.char for c in content.kanji},

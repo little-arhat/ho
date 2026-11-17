@@ -3,15 +3,13 @@
 from __future__ import annotations
 
 import argparse
-import os
 import shutil
-import subprocess
 import sys
 from pathlib import Path
 
 from ho import anki, kanji, katakana, lessons, phrasebook, reading, refdata, words
 from ho.errors import ContentError
-from ho.site import Content, anki_decks, assets, render_site
+from ho.site import Content, anki_packages, assets, render_site
 from ho.verbs import load_verbs
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -59,26 +57,10 @@ def write_site(pages: dict[str, str], files: dict[str, Path], out: Path) -> None
     (out / MARKER).write_text("")
 
 
-def source_date() -> int:
-    """The build's date: SOURCE_DATE_EPOCH (the reproducible-builds convention),
-    else the time of the checked-out commit. Content changes come in commits,
-    so this grows with them, and rebuilding one commit gives the same bytes."""
-    if epoch := os.environ.get("SOURCE_DATE_EPOCH"):
-        return int(epoch)
-    try:
-        out = subprocess.run(["git", "log", "-1", "--format=%ct"], cwd=ROOT, check=True,
-                             capture_output=True, text=True).stdout.strip()
-    except (OSError, subprocess.CalledProcessError) as e:
-        raise SystemExit(f"no SOURCE_DATE_EPOCH and no git commit to date the build by: {e}") from e
-    return int(out)
-
-
-def write_decks(content: Content, out: Path, timestamp: int) -> None:
-    """Each lesson's and reference list's Anki deck, and one file with them all."""
-    decks = anki_decks(content)
-    for d in decks:
-        anki.write_package(out / "anki" / d.file, [d], content.audio_dir, timestamp)
-    anki.write_package(out / "anki" / anki.ALL_FILE, decks, content.audio_dir, timestamp)
+def write_decks(content: Content, out: Path) -> None:
+    """The Anki packages: each lesson's and reference list's, and one with them all."""
+    for p in anki_packages(content):
+        anki.write_package(out / "anki" / p.file, p.notes, content.audio_dir)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -91,7 +73,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"content error: {e}", file=sys.stderr)
         return 1
     write_site(render_site(content, ROOT / "templates"), assets(content), args.out)
-    write_decks(content, args.out, source_date())
+    write_decks(content, args.out)
     print(f"built {args.out}")
     uncarded = sorted(refdata.content_kanji(ROOT / "content") - {c.char for c in content.kanji} - refdata.NOT_KANJI, key=ord)
     if uncarded:
