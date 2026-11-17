@@ -1245,11 +1245,6 @@ readings = ["はこ", "ソウ"]
 meaning = { en = "box", ru = "коробка", uk = "коробка" }
 
 [[kanji]]
-char = "箸"
-readings = ["はし", "チョ", "チャク"]
-meaning = { en = "chopsticks", ru = "палочки для еды", uk = "палички для їжі" }
-
-[[kanji]]
 char = "節"
 readings = ["ふし", "のっと", "セツ", "セチ"]
 meaning = { en = "joint; season; section", ru = "сустав; сезон; раздел", uk = "суглоб; сезон; розділ" }
@@ -1853,3 +1848,18 @@ meaning = { en = "congratulations (年賀状 New Year's card)", ru = "поздр
 char = "状"
 readings = ["ジョウ"]
 meaning = { en = "letter; condition", ru = "письмо; состояние", uk = "лист; стан" }
+
+[[kanji]]
+char = "茄"
+readings = ["カ"]
+meaning = { en = "eggplant (茄子 なす)", ru = "баклажан (茄子 なす)", uk = "баклажан (茄子 なす)" }
+
+[[kanji]]
+char = "苺"
+readings = ["いちご", "バイ"]
+meaning = { en = "strawberry", ru = "клубника", uk = "полуниця" }
+
+[[kanji]]
+char = "桃"
+readings = ["もも", "トウ"]
+meaning = { en = "peach", ru = "персик", uk = "персик" }

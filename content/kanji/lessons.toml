@@ -1091,3 +1091,13 @@ meaning = { en = "to give birth; product", ru = "рожать; продукт", 
 char = "正"
 readings = ["ただ-しい", "ショウ", "セイ"]
 meaning = { en = "correct; New Year (正月)", ru = "правильный; Новый год (正月)", uk = "правильний; Новий рік (正月)" }
+
+[[kanji]]
+char = "箸"
+readings = ["はし", "チョ"]
+meaning = { en = "chopsticks", ru = "палочки для еды", uk = "палички для їжі" }
+
+[[kanji]]
+char = "鋏"
+readings = ["はさみ", "キョウ"]
+meaning = { en = "scissors", ru = "ножницы", uk = "ножиці" }
