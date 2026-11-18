@@ -16,11 +16,6 @@ readings = ["きみ", "クン"]
 meaning = { en = "you (familiar); Mr. (-kun)", ru = "ты (фамильярно); -кун", uk = "ти (фамільярно); -кун", es = "tú (familiar); señor (-kun)" }
 
 [[kanji]]
-char = "前"
-readings = ["まえ", "ゼン"]
-meaning = { en = "front; before", ru = "перед; до", uk = "перед; до", es = "delante; antes" }
-
-[[kanji]]
 char = "方"
 readings = ["かた", "ホウ"]
 meaning = { en = "person (polite); direction; way", ru = "человек (вежл.); сторона; способ", uk = "людина (ввічл.); бік; спосіб", es = "persona (cortés); dirección; manera" }
@@ -660,16 +655,6 @@ meaning = { en = "minute; part; to understand", ru = "минута; часть; 
 char = "半"
 readings = ["ハン"]
 meaning = { en = "half", ru = "половина", uk = "половина", es = "mitad" }
-
-[[kanji]]
-char = "午"
-readings = ["ゴ"]
-meaning = { en = "noon", ru = "полдень", uk = "полудень", es = "mediodía" }
-
-[[kanji]]
-char = "後"
-readings = ["あと", "うし-ろ", "ゴ", "コウ"]
-meaning = { en = "after; behind", ru = "после; позади", uk = "після; позаду", es = "después; detrás" }
 
 [[kanji]]
 char = "昨"

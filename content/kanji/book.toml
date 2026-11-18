@@ -936,3 +936,69 @@ example = { ja = "今日[きょう]は月[げつ]曜[よう]日[び]です。", 
 ja = "今年[ことし]"
 tr = { en = "this year", ru = "в этом году", uk = "цього року", es = "este año" }
 example = { ja = "今年[ことし]　日[に]本[ほん]へ行[い]きます。", en = "This year I'm going to Japan.", ru = "В этом году я поеду в Японию.", uk = "Цього року я поїду до Японії.", es = "Este año voy a Japón." }
+
+[[kanji]]
+char = "午"
+number = 52
+level = 5
+readings = ["ゴ"]
+meaning = { en = "noon", ru = "полдень", uk = "полудень", es = "mediodía" }
+
+[[kanji.word]]
+ja = "午[ご]前[ぜん]"
+tr = { en = "a.m., morning", ru = "до полудня, утро", uk = "до полудня, ранок", es = "a. m., mañana" }
+example = { ja = "午[ご]前[ぜん]６時[じ]に起[お]きました。", en = "I got up at six in the morning.", ru = "Я встал в шесть утра.", uk = "Я встав о шостій ранку.", es = "Me levanté a las seis de la mañana." }
+
+[[kanji.word]]
+ja = "午[ご]前[ぜん]中[ちゅう]"
+tr = { en = "in the morning, all morning", ru = "в первой половине дня", uk = "у першій половині дня", es = "por la mañana, durante la mañana" }
+example = { ja = "午[ご]前[ぜん]中[ちゅう]　勉[べん]強[きょう]します。", en = "I study in the morning.", ru = "До обеда я занимаюсь.", uk = "До обіду я вчуся.", es = "Estudio por la mañana." }
+
+[[kanji.word]]
+ja = "午[ご]後[ご]"
+tr = { en = "p.m., afternoon", ru = "после полудня", uk = "після полудня", es = "p. m., tarde" }
+example = { ja = "午[ご]後[ご]　働[はたら]きます。", en = "I work in the afternoon.", ru = "После обеда я работаю.", uk = "Після обіду я працюю.", es = "Trabajo por la tarde." }
+
+[[kanji]]
+char = "前"
+number = 53
+level = 5
+readings = ["まえ", "(ゼン)"]
+meaning = { en = "front; before", ru = "перед; до", uk = "перед; до", es = "delante; antes" }
+
+[[kanji.word]]
+ja = "前[まえ]"
+tr = { en = "in front of", ru = "перед", uk = "перед", es = "delante de" }
+example = { ja = "学[がっ]校[こう]の前[まえ]に会[かい]社[しゃ]があります。", en = "There is a company in front of the school.", ru = "Перед школой есть компания.", uk = "Перед школою є компанія.", es = "Delante de la escuela hay una empresa." }
+
+[[kanji.word]]
+ja = "名[な]前[まえ]"
+tr = { en = "name", ru = "имя", uk = "ім'я", es = "nombre" }
+example = { ja = "ここに名[な]前[まえ]を書[か]きます。", en = "I write my name here.", ru = "Пишу здесь своё имя.", uk = "Пишу тут своє ім'я.", es = "Escribo mi nombre aquí." }
+
+[[kanji.word]]
+ja = "９時[じ]前[まえ]に"
+tr = { en = "before nine o'clock", ru = "до девяти часов", uk = "до дев'ятої години", es = "antes de las nueve" }
+example = { ja = "９時[じ]前[まえ]に会[かい]社[しゃ]へ行[い]きます。", en = "I go to the office before nine.", ru = "Я иду на работу до девяти.", uk = "Я йду на роботу до дев'ятої.", es = "Voy a la oficina antes de las nueve." }
+
+[[kanji]]
+char = "後"
+number = 54
+level = 5
+readings = ["(のち)", "うし-ろ", "あと", "ゴ", "(コウ)"]
+meaning = { en = "after; behind", ru = "после; позади", uk = "після; позаду", es = "después; detrás" }
+
+[[kanji.word]]
+ja = "午[ご]後[ご]"
+tr = { en = "p.m., afternoon", ru = "после полудня", uk = "після полудня", es = "p. m., tarde" }
+example = { ja = "午[ご]後[ご]は何[なに]をしますか。", en = "What are you doing in the afternoon?", ru = "Что вы делаете после обеда?", uk = "Що ви робите після обіду?", es = "¿Qué haces por la tarde?" }
+
+[[kanji.word]]
+ja = "後[うし]ろ"
+tr = { en = "behind", ru = "позади, сзади", uk = "позаду, ззаду", es = "detrás" }
+example = { ja = "トムさんはリンダさんの後[うし]ろにいます。", en = "Tom is behind Linda.", ru = "Том стоит позади Линды.", uk = "Том стоїть позаду Лінди.", es = "Tom está detrás de Linda." }
+
+[[kanji.word]]
+ja = "後[あと]で"
+tr = { en = "later", ru = "потом, позже", uk = "потім, пізніше", es = "luego, más tarde" }
+example = { ja = "後[あと]で来[き]ます。", en = "I'll come later.", ru = "Приду позже.", uk = "Прийду пізніше.", es = "Vendré más tarde." }
