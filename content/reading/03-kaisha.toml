@@ -2,30 +2,114 @@ lesson = 3
 title = { en = "My office", ru = "Мой офис", uk = "Мій офіс", es = "Mi oficina" }
 scene = "Cross-section illustration of a small four-storey office building: a reception desk on the ground floor, a canteen in the basement, a meeting room and offices above."
 
-[[paragraph]]
-ja = "ここ|は|私[わたし]|の|会[かい]社[しゃ]|です|。|受[うけ]付[つけ]|は|一[いっ]階[かい]|です|。"
-en = "This is my company. Reception is on the 1st floor."
-ru = "Это моя компания. Ресепшн на 1-м этаже."
-uk = "Це моя компанія. Рецепція на 1-му поверсі."
-es = "Esta es mi empresa. La recepción está en el 1.er piso."
+[[prose]]
+ja = "ここ|は|私[わたし]|の|会[かい]社[しゃ]|です|。|IMC|です|。|コンピューター|の|会[かい]社[しゃ]|です|。"
+en = "This is my company, IMC. It's a computer company."
+ru = "Это моя компания, IMC. Это компьютерная компания."
+uk = "Це моя компанія, IMC. Це комп'ютерна компанія."
+es = "Esta es mi empresa, IMC. Es una empresa de informática."
 
-[[paragraph]]
-ja = "食[しょく]堂[どう]|は|地[ち]下[か]|です|。|会[かい]議[ぎ]室[しつ]|は|二[に]階[かい]|です|。"
-en = "The canteen is in the basement. The meeting room is on the 2nd floor."
-ru = "Столовая в подвале. Переговорная на 2-м этаже."
-uk = "Їдальня в підвалі. Переговорна на 2-му поверсі."
-es = "El comedor está en el sótano. La sala de reuniones está en el 2.º piso."
+[[prose]]
+ja = "受[うけ]付[つけ]|は|一[いっ]階[かい]|です|。|ロビー|も|一[いっ]階[かい]|です|。"
+en = "Reception is on the 1st floor. The lobby is on the 1st floor too."
+ru = "Приёмная — на первом этаже. Холл тоже на первом."
+uk = "Рецепція — на першому поверсі. Хол теж на першому."
+es = "La recepción está en la primera planta. El vestíbulo también."
 
-[[paragraph]]
-ja = "私[わたし]|の|部[へ]屋[や]|は|四[よん]階[かい]|です|。|事[じ]務[む]所[しょ]|も|四[よん]階[かい]|です|。"
-en = "My room is on the 4th floor. The office is on the 4th floor too."
-ru = "Мой кабинет на 4-м этаже. Офис тоже на 4-м."
-uk = "Мій кабінет на 4-му поверсі. Офіс теж на 4-му."
-es = "Mi despacho está en el 4.º piso. La oficina también está en el 4.º piso."
+[[prose]]
+ja = "食[しょく]堂[どう]|は|地[ち]下[か]|です|。|会[かい]議[ぎ]室[しつ]|は|二[に]階[かい]|です|。|トイレ|は|あそこ|です|。|階[かい]段[だん]|も|あそこ|です|。"
+en = "The canteen is in the basement. The meeting room is on the 2nd floor. The toilets are over there. The stairs are over there too."
+ru = "Столовая — в подвале. Переговорная — на втором этаже. Туалет — вон там. Лестница тоже там."
+uk = "Їдальня — у підвалі. Переговорна — на другому поверсі. Туалет — он там. Сходи теж там."
+es = "El comedor está en el sótano. La sala de reuniones, en la segunda planta. Los aseos están allí. La escalera también."
 
-[[paragraph]]
-ja = "会[かい]社[しゃ]|は|どちら|です|か|。|IMC|です|。|コンピューター|の|会[かい]社[しゃ]|です|。"
-en = "Which company are you with? IMC. It's a computer company."
-ru = "В какой компании вы работаете? В IMC. Это компьютерная компания."
-uk = "У якій компанії ви працюєте? В IMC. Це комп'ютерна компанія."
-es = "¿En qué empresa trabaja? En IMC. Es una empresa de ordenadores."
+[[prose]]
+ja = "私[わたし]|の|部[へ]屋[や]|は|四[よん]階[かい]|です|。|事[じ]務[む]所[しょ]|も|四[よん]階[かい]|です|。|エレベーター|は|あちら|です|。"
+en = "My room is on the 4th floor. The office is on the 4th floor too. The elevator is that way."
+ru = "Моя комната — на четвёртом этаже. Офис тоже на четвёртом. Лифт — вон там."
+uk = "Моя кімната — на четвертому поверсі. Офіс теж на четвертому. Ліфт — он там."
+es = "Mi despacho está en la cuarta planta. La oficina también. El ascensor está por allí."
+
+[[prose]]
+ja = "IMCの社[しゃ]員[いん]|は|みんな|エンジニア|です|か|。|いいえ|、|違[ちが]います。|でも|、|私[わたし]|は|エンジニア|です|。"
+en = "Is everyone at IMC an engineer? No, not everyone. But I am an engineer."
+ru = "В IMC все инженеры? Нет, не все. Но я инженер."
+uk = "В IMC усі інженери? Ні, не всі. Але я інженерка."
+es = "¿En IMC todos son ingenieros? No, no todos. Pero yo soy ingeniera."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "すみません|。|IMC|は|こちら|です|か|。"
+en = "Excuse me. Is this IMC?"
+ru = "Простите. Это IMC?"
+uk = "Перепрошую. Це IMC?"
+es = "Perdone. ¿Esto es IMC?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "はい|、|そうです。|失[しつ]礼[れい]ですが|、|どちら|の|木[き]村[むら]|さん|です|か|。"
+en = "Yes, it is. Excuse me, but which company are you from, Mr. Kimura?"
+ru = "Да. Простите, а из какой вы компании, Кимура-сан?"
+uk = "Так. Вибачте, а з якої ви компанії, Кімуро-сан?"
+es = "Sí. Perdone, señor Kimura, ¿de qué empresa viene?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "IMCの社[しゃ]員[いん]|じゃ ありません|。|銀[ぎん]行[こう]員[いん]|です|。|マリア|さん|は|何[なん]階[がい]|です|か|。"
+en = "I don't work for IMC. I'm a bank employee. What floor is Maria on?"
+ru = "Я не сотрудник IMC. Я работаю в банке. На каком этаже Мария-сан?"
+uk = "Я не співробітник IMC. Я працюю в банку. На якому поверсі Марія-сан?"
+es = "No trabajo en IMC. Soy empleado de banco. ¿En qué planta está Maria?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "マリア|さん|の|部[へ]屋[や]|は|四[よん]階[かい]|でございます。|エレベーター|は|あちら|です|。"
+en = "Maria's room is on the 4th floor. The elevator is over there."
+ru = "Комната Марии-сан — на четвёртом этаже. Лифт — вон там."
+uk = "Кімната Марії-сан — на четвертому поверсі. Ліфт — он там."
+es = "El despacho de Maria está en la cuarta planta. El ascensor está por allí."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "どうも。|あのう|、|トイレ|は|どこ|です|か|。"
+en = "Thanks. Um, where is the toilet?"
+ru = "Спасибо. А где туалет?"
+uk = "Дякую. А де туалет?"
+es = "Gracias. Esto… ¿dónde están los aseos?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "お手[て]洗[あら]い|は|あちら|です|。|階[かい]段[だん]|も|あちら|です|。"
+en = "The restroom is that way. The stairs are that way too."
+ru = "Туалет — вон туда. Лестница тоже там."
+uk = "Туалет — он туди. Сходи теж там."
+es = "Los aseos están por allí. La escalera también."
+
+[[dialog]]
+speaker = "マリア"
+ja = "あ|、|木[き]村[むら]|さん|。|こちら|は|会[かい]議[ぎ]室[しつ]|です|。|どうぞ|。"
+en = "Oh, Mr. Kimura. This is the meeting room. Please come in."
+ru = "О, Кимура-сан. Это переговорная. Проходите."
+uk = "О, Кімуро-сан. Це переговорна. Проходьте."
+es = "Ah, señor Kimura. Esta es la sala de reuniones. Pase, por favor."
+
+[[new]]
+ja = "木[き]村[むら]"
+en = "Kimura (a surname)"
+ru = "Кимура (фамилия)"
+uk = "Кімура (прізвище)"
+es = "Kimura (apellido)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"

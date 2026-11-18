@@ -2,33 +2,127 @@ lesson = 7
 title = { en = "Christmas presents", ru = "Рождественские подарки", uk = "Різдвяні подарунки", es = "Regalos de Navidad" }
 scene = "A cosy living room at Christmas: a family exchanging wrapped presents by a small decorated tree, a bouquet of flowers and a folded shirt among the gifts."
 
-[[paragraph]]
+[[prose]]
 ja = "クリスマス|に|父[ちち]|に|シャツ|を|あげました=あげます|。|母[はは]|に|花[はな]|を|あげました=あげます|。"
 en = "At Christmas I gave my father a shirt. I gave my mother flowers."
-ru = "На Рождество я подарил папе рубашку. Маме подарил цветы."
-uk = "На Різдво я подарував татові сорочку. Мамі подарував квіти."
-es = "En Navidad le di una camisa a mi padre. A mi madre le di flores."
+ru = "На Рождество я подарила папе рубашку. Маме подарила цветы."
+uk = "На Різдво я подарувала татові сорочку. Мамі подарувала квіти."
+es = "En Navidad le regalé a mi padre una camisa. A mi madre le regalé flores."
 
-[[paragraph]]
+[[prose]]
 ja = "私[わたし]|は|友[とも]達[だち]|に|本[ほん]|を|もらいました=もらいます|。|英[えい]語[ご]|の|本[ほん]|です|。|すてきですね。"
 en = "I got a book from a friend. It's an English book. How nice!"
-ru = "Я получил от друга книгу. Книгу на английском. Как мило!"
-uk = "Я отримав від друга книгу. Книгу англійською. Як гарно!"
-es = "Un amigo me regaló un libro. Es un libro en inglés. ¡Qué bien!"
+ru = "Подруга подарила мне книгу. Книгу на английском. Как здорово!"
+uk = "Подруга подарувала мені книжку. Книжку англійською. Як чудово!"
+es = "Una amiga me regaló un libro. Es un libro en inglés. ¡Qué bonito!"
 
-[[paragraph]]
-ja = "年[ねん]賀[が]状[じょう]|は|もう|書[か]きました=書[か]きます|か|。|いいえ|、|まだ|です|。"
-en = "Have you written your New Year's cards yet? No, not yet."
-ru = "Новогодние открытки уже написали? Нет, ещё нет."
-uk = "Новорічні листівки вже написали? Ні, ще ні."
-es = "¿Ya has escrito las tarjetas de Año Nuevo? No, todavía no."
+[[prose]]
+ja = "母[はは]|は|私[わたし]|に|セーター|を|くれました|。|父[ちち]|は|カメラ|を|くれました|。|これから|、|この|カメラ|で|写[しゃ]真[しん]|を|撮[と]ります|。"
+en = "My mother gave me a sweater. My father gave me a camera. From now on I'll take photos with this camera."
+ru = "Мама подарила мне свитер. Папа подарил фотоаппарат. Теперь буду фотографировать этим фотоаппаратом."
+uk = "Мама подарувала мені светр. Тато подарував фотоапарат. Тепер фотографуватиму цим фотоапаратом."
+es = "Mi madre me regaló un jersey. Mi padre me regaló una cámara. A partir de ahora haré fotos con esta cámara."
 
-[[paragraph]]
-ja = "これから|、|日[に]本[ほん]語[ご]|で|書[か]きます|。"
-en = "I'll write them now, in Japanese."
-ru = "Сейчас напишу — по-японски."
-uk = "Зараз напишу — японською."
-es = "Las escribiré ahora, en japonés."
+[[prose]]
+ja = "クリスマス|の|晩[ばん]|、|家[か]族[ぞく]|と|晩[ばん]ご飯[はん]|を|食[た]べました=食[た]べます|。|父[ちち]|は|ナイフ|で|肉[にく]|を|切[き]りました=切[き]ります|。"
+en = "On Christmas evening I had dinner with my family. My father carved the meat with a knife."
+ru = "В рождественский вечер мы ужинали всей семьёй. Папа резал мясо ножом."
+uk = "Різдвяного вечора ми вечеряли всією родиною. Тато різав м'ясо ножем."
+es = "La noche de Navidad cené con mi familia. Mi padre cortó la carne con un cuchillo."
+
+[[prose]]
+ja = "年[ねん]賀[が]状[じょう]|は|もう|書[か]きました=書[か]きます|か|。|いいえ|、|まだ|です|。|これから|、|日[に]本[ほん]語[ご]|で|書[か]きます|。"
+en = "Have I written my New Year's cards yet? No, not yet. I'll write them now, in Japanese."
+ru = "Новогодние открытки уже написала? Нет, ещё нет. Сейчас напишу, по-японски."
+uk = "Новорічні листівки вже написала? Ні, ще ні. Зараз напишу, японською."
+es = "¿Ya he escrito las tarjetas de Año Nuevo? No, todavía no. Ahora las escribo, en japonés."
+
+[[prose]]
+ja = "年[ねん]賀[が]状[じょう]|は|ボールペン|で|書[か]きます|。|そして|、|お正[しょう]月[がつ]|に|山[やま]田[だ]|先[せん]生[せい]|に|送[おく]ります|。"
+en = "I write the cards with a pen. And at New Year I'll send them to Professor Yamada."
+ru = "Открытки я пишу ручкой. А на Новый год отправлю их профессору Ямаде."
+uk = "Листівки я пишу ручкою. А на Новий рік надішлю їх професорові Ямаді."
+es = "Escribo las tarjetas con bolígrafo. Y en Año Nuevo se las enviaré al profesor Yamada."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "マリア|さん|、|クリスマス|に|何[なに]|を|もらいました=もらいます|か|。"
+en = "Maria, what did you get for Christmas?"
+ru = "Мария, что тебе подарили на Рождество?"
+uk = "Маріє, що тобі подарували на Різдво?"
+es = "Maria, ¿qué te regalaron por Navidad?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "母[はは]|は|セーター|を|くれました|。|父[ちち]|は|カメラ|を|くれました|。"
+en = "My mother gave me a sweater. My father gave me a camera."
+ru = "Мама подарила свитер. Папа — фотоаппарат."
+uk = "Мама подарувала светр. Тато — фотоапарат."
+es = "Mi madre me regaló un jersey. Mi padre, una cámara."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "すてきですね。|マリア|さん|は|お父[とう]さん|に|何[なに]|を|あげました=あげます|か|。"
+en = "How nice! What did you give your father?"
+ru = "Здорово! А что ты подарила папе?"
+uk = "Чудово! А що ти подарувала татові?"
+es = "¡Qué bien! ¿Y tú qué le regalaste a tu padre?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "シャツ|を|あげました=あげます|。|お母[かあ]さん|…|あ|、|母[はは]|に|は|花[はな]|を|あげました=あげます|。"
+en = "A shirt. And to Mum… I mean, to my mother I gave flowers."
+ru = "Рубашку. А маме… то есть матери я подарила цветы."
+uk = "Сорочку. А мамі… тобто матері я подарувала квіти."
+es = "Una camisa. Y a mamá… digo, a mi madre le regalé flores."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "私[わたし]|は|ワン|さん|に|チョコレート|を|もらいました=もらいます|。"
+en = "I got chocolate from Wang."
+ru = "А мне Ван подарил шоколад."
+uk = "А мені Ван подарував шоколад."
+es = "A mí Wang me regaló chocolate."
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですか。|カリナ|さん|、|年[ねん]賀[が]状[じょう]|は|もう|書[か]きました=書[か]きます|か|。"
+en = "Really? Karina, have you written your New Year's cards yet?"
+ru = "Правда? Карина, ты уже написала новогодние открытки?"
+uk = "Справді? Карино, ти вже написала новорічні листівки?"
+es = "¿Ah, sí? Karina, ¿ya has escrito las tarjetas de Año Nuevo?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ええ|、|もう|書[か]きました=書[か]きます|。|マリア|さん|は|？"
+en = "Yes, I've already written them. And you, Maria?"
+ru = "Да, уже написала. А ты, Мария?"
+uk = "Так, уже написала. А ти, Маріє?"
+es = "Sí, ya las he escrito. ¿Y tú, Maria?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "まだ|です|。|これから|書[か]きます|。|何[なん]語[ご]|で|書[か]きました=書[か]きます|か|。"
+en = "Not yet. I'm about to. What language did you write them in?"
+ru = "Ещё нет. Сейчас буду писать. А ты на каком языке писала?"
+uk = "Ще ні. Зараз писатиму. А ти якою мовою писала?"
+es = "Todavía no. Ahora las escribo. ¿En qué idioma las escribiste?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "日[に]本[ほん]語[ご]|で|書[か]きました=書[か]きます|。|ボールペン|で|書[か]きました=書[か]きます|。"
+en = "In Japanese. With a pen."
+ru = "По-японски. Ручкой."
+uk = "Японською. Ручкою."
+es = "En japonés. Con bolígrafo."
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|私[わたし]|も|日[に]本[ほん]語[ご]|で|書[か]きます|。|そして|、|山[やま]田[だ]|先[せん]生[せい]|に|送[おく]ります|。"
+en = "Then I'll write mine in Japanese too. And I'll send them to Professor Yamada."
+ru = "Тогда я тоже напишу по-японски. И отправлю профессору Ямаде."
+uk = "Тоді я теж напишу японською. І надішлю професорові Ямаді."
+es = "Entonces yo también las escribo en japonés. Y se las envío al profesor Yamada."
 
 [[new]]
 ja = "年[ねん]賀[が]状[じょう]"
@@ -36,3 +130,45 @@ en = "New Year's card"
 ru = "новогодняя открытка"
 uk = "новорічна листівка"
 es = "tarjeta de Año Nuevo"
+
+[[new]]
+ja = "セーター"
+en = "sweater, jumper"
+ru = "свитер"
+uk = "светр"
+es = "jersey"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "山[やま]田[だ]"
+en = "Yamada (a surname)"
+ru = "Ямада (фамилия)"
+uk = "Ямада (прізвище)"
+es = "Yamada (apellido)"
+
+[[new]]
+ja = "何[なん]語[ご]"
+en = "what language"
+ru = "какой язык"
+uk = "яка мова"
+es = "qué idioma"

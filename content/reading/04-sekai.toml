@@ -1,0 +1,152 @@
+lesson = 4
+title = { en = "What time is it there?", ru = "Который там час?", uk = "Котра там година?", es = "¿Qué hora es allí?" }
+scene = "A split picture: on the left a woman on the phone in a Tokyo flat at night, city lights in the window; on the right a woman on the phone in a New York kitchen in the morning sun."
+
+[[prose]]
+ja = "今[いま]|、|東[とう]京[きょう]|は|午[ご]後[ご]|九[く]時[じ]|です|。|ニューヨーク|は|午[ご]前[ぜん]|七[しち]時[じ]|です|。"
+en = "It's now 9 p.m. in Tokyo. In New York it's 7 a.m."
+ru = "Сейчас в Токио девять вечера. В Нью-Йорке — семь утра."
+uk = "Зараз у Токіо дев'ята вечора. У Нью-Йорку — сьома ранку."
+es = "Ahora en Tokio son las nueve de la noche. En Nueva York son las siete de la mañana."
+
+[[prose]]
+ja = "ロンドン|は|昼[ひる]|の|十[じゅう]二[に]時[じ]=時[じ]|です|。|ペキン|は|午[ご]後[ご]|八[はち]時[じ]=時[じ]|です|。|バンコク|は|午[ご]後[ご]|七[しち]時[じ]|です|。"
+en = "In London it's twelve noon. In Beijing it's 8 p.m. In Bangkok it's 7 p.m."
+ru = "В Лондоне двенадцать часов дня. В Пекине — восемь вечера. В Бангкоке — семь вечера."
+uk = "У Лондоні дванадцята дня. У Пекіні — восьма вечора. У Бангкоку — сьома вечора."
+es = "En Londres son las doce del mediodía. En Pekín, las ocho de la tarde. En Bangkok, las siete de la tarde."
+
+[[prose]]
+ja = "ロサンゼルス|は|午[ご]前[ぜん]|四[よ]時[じ]|です|。|ロサンゼルス|は|今[いま]|、|夜[よる]|です|ね|。"
+en = "In Los Angeles it's 4 a.m. It's still night in Los Angeles, isn't it?"
+ru = "В Лос-Анджелесе — четыре утра. Там ещё ночь, правда?"
+uk = "У Лос-Анджелесі — четверта ранку. Там ще ніч, правда?"
+es = "En Los Ángeles son las cuatro de la madrugada. Allí todavía es de noche, ¿verdad?"
+
+[[prose]]
+ja = "アンナ|さん|は|ニューヨーク|の|大[だい]学[がく]|の|研[けん]究[きゅう]者[しゃ]|です|。|毎[まい]朝[あさ]|七[しち]時[じ]|に|起[お]きます|。|九[く]時[じ]から|五[ご]時[じ]まで|働[はたら]きます|。"
+en = "Anna is a researcher at a university in New York. She gets up at seven every morning. She works from nine to five."
+ru = "Анна — исследовательница в университете в Нью-Йорке. Каждое утро она встаёт в семь. Работает с девяти до пяти."
+uk = "Анна — дослідниця в університеті в Нью-Йорку. Щоранку вона встає о сьомій. Працює з дев'ятої до п'ятої."
+es = "Anna es investigadora en una universidad de Nueva York. Se levanta todas las mañanas a las siete. Trabaja de nueve a cinco."
+
+[[prose]]
+ja = "東[とう]京[きょう]|は|木[もく]曜[よう]日[び]|の|晩[ばん]|です|。|ニューヨーク|は|木[もく]曜[よう]日[び]|の|朝[あさ]|です|。"
+en = "In Tokyo it's Thursday evening. In New York it's Thursday morning."
+ru = "В Токио — вечер четверга. В Нью-Йорке — утро четверга."
+uk = "У Токіо — вечір четверга. У Нью-Йорку — ранок четверга."
+es = "En Tokio es jueves por la noche. En Nueva York es jueves por la mañana."
+
+[[dialog]]
+speaker = "マリア"
+ja = "もしもし|、|アンナ|さん|。|マリア|です|。"
+en = "Hello, Anna? It's Maria."
+ru = "Алло, Анна? Это Мария."
+uk = "Алло, Анно? Це Марія."
+es = "¿Diga? ¿Anna? Soy Maria."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "あ|、|マリア|さん|。|今[いま]|、|東[とう]京[きょう]|は|何[なん]時[じ]|です|か|。"
+en = "Oh, Maria! What time is it in Tokyo now?"
+ru = "О, Мария! Который сейчас час в Токио?"
+uk = "О, Маріє! Котра зараз година в Токіо?"
+es = "¡Ah, Maria! ¿Qué hora es ahora en Tokio?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "午[ご]後[ご]|九[く]時[じ]|です|。|ニューヨーク|は|？"
+en = "9 p.m. And in New York?"
+ru = "Девять вечера. А в Нью-Йорке?"
+uk = "Дев'ята вечора. А в Нью-Йорку?"
+es = "Las nueve de la noche. ¿Y en Nueva York?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "午[ご]前[ぜん]|七[しち]時[じ]|です|。|今[いま]|、|起[お]きました=起[お]きます|。"
+en = "7 a.m. I just got up."
+ru = "Семь утра. Я только что встала."
+uk = "Сьома ранку. Я щойно встала."
+es = "Las siete de la mañana. Me acabo de levantar."
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですか。|今日[きょう]|も|働[はたら]きます|か|。"
+en = "I see. Are you working today too?"
+ru = "Вот как. Сегодня тоже работаешь?"
+uk = "Он як. Сьогодні теж працюєш?"
+es = "Ya veo. ¿Hoy también trabajas?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "はい|、|九[く]時[じ]から|五[ご]時[じ]まで|働[はたら]きます|。|東[とう]京[きょう]|は|今日[きょう]|、|何[なん]曜[よう]日[び]|です|か|。"
+en = "Yes, from nine to five. What day is it in Tokyo today?"
+ru = "Да, с девяти до пяти. А какой сегодня день в Токио?"
+uk = "Так, з дев'ятої до п'ятої. А який сьогодні день у Токіо?"
+es = "Sí, de nueve a cinco. ¿Qué día es hoy en Tokio?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "木[もく]曜[よう]日[び]|です|。|木[もく]曜[よう]日[び]|の|晩[ばん]|です|。"
+en = "Thursday. Thursday evening."
+ru = "Четверг. Вечер четверга."
+uk = "Четвер. Вечір четверга."
+es = "Jueves. Jueves por la noche."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "ニューヨーク|も|木[もく]曜[よう]日[び]|です|。|でも|、|朝[あさ]|です|。"
+en = "It's Thursday in New York too. But it's morning."
+ru = "В Нью-Йорке тоже четверг. Но утро."
+uk = "У Нью-Йорку теж четвер. Але ранок."
+es = "En Nueva York también es jueves. Pero por la mañana."
+
+[[dialog]]
+speaker = "マリア"
+ja = "大[たい]変[へん]ですね。|じゃ|、|今[こん]晩[ばん]|、|私[わたし]|は|十[じゅう]一[いち]時[じ]=時[じ]|に|寝[ね]ます|。"
+en = "How tricky! Well then, tonight I'll go to bed at eleven."
+ru = "Сложно! Ну, а я сегодня лягу в одиннадцать."
+uk = "Складно! Ну, а я сьогодні ляжу об одинадцятій."
+es = "¡Qué lío! Bueno, yo esta noche me acuesto a las once."
+
+[[new]]
+ja = "東[とう]京[きょう]"
+en = "Tokyo"
+ru = "Токио"
+uk = "Токіо"
+es = "Tokio"
+
+[[new]]
+ja = "時[じ]"
+en = "… o'clock"
+ru = "… час(ов)"
+uk = "… година"
+es = "las … (hora)"
+
+[[new]]
+ja = "もしもし"
+en = "hello (on the phone)"
+ru = "алло"
+uk = "алло"
+es = "¿diga? (al teléfono)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"

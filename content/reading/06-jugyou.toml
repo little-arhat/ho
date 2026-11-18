@@ -1,0 +1,154 @@
+lesson = 6
+title = { en = "After class", ru = "После занятия", uk = "Після заняття", es = "Después de clase" }
+scene = "A university classroom just after a lesson: a teacher by the whiteboard answers a student's question, another student packs her bag and waits by the door, notebooks on the desks."
+
+[[prose]]
+ja = "日[に]本[ほん]語[ご]|の|授[じゅ]業[ぎょう]|は|毎[まい]週[しゅう]|月[げつ]曜[よう]日[び]|と|水[すい]曜[よう]日[び]|です|。|九[く]時[じ]から|十[じゅう]二[に]時[じ]=時[じ]|まで|です|。"
+en = "Japanese class is every Monday and Wednesday. It's from nine to twelve."
+ru = "Занятия японским — каждый понедельник и среду. С девяти до двенадцати."
+uk = "Заняття з японської — щопонеділка і щосереди. З дев'ятої до дванадцятої."
+es = "La clase de japonés es todos los lunes y miércoles. De nueve a doce."
+
+[[prose]]
+ja = "今日[きょう]|の|授[じゅ]業[ぎょう]|の|後[あと]で|、|ワン|さん|は|山[やま]田[だ]|先[せん]生[せい]|に|質[しつ]問[もん]|を|しました=します|。|宿[しゅく]題[だい]|の|質[しつ]問[もん]|です|。"
+en = "After today's class, Wang asked Professor Yamada a question. A question about the homework."
+ru = "После сегодняшнего занятия Ван задал профессору Ямаде вопрос. Вопрос о домашнем задании."
+uk = "Після сьогоднішнього заняття Ван поставив професорові Ямаді запитання. Запитання про домашнє завдання."
+es = "Después de la clase de hoy, Wang le hizo una pregunta al profesor Yamada. Una pregunta sobre los deberes."
+
+[[prose]]
+ja = "それから|、|ワン|さん|と|カリナ|さん|は|食[しょく]堂[どう]|で|昼[ひる]ご飯[はん]|を|食[た]べました=食[た]べます|。|ワン|さん|は|魚[さかな]|を|食[た]べました=食[た]べます|。|カリナ|さん|は|パン|と|野[や]菜[さい]|を|食[た]べました=食[た]べます|。"
+en = "Then Wang and Karina had lunch in the canteen. Wang ate fish. Karina ate bread and vegetables."
+ru = "Потом Ван и Карина пообедали в столовой. Ван ел рыбу. Карина — хлеб и овощи."
+uk = "Потім Ван і Карина пообідали в їдальні. Ван їв рибу. Карина — хліб і овочі."
+es = "Luego Wang y Karina comieron en el comedor. Wang comió pescado. Karina, pan y verdura."
+
+[[prose]]
+ja = "昼[ひる]ご飯[はん]|の|後[あと]で|、|図[と]書[しょ]館[かん]|で|一[いっ]緒[しょ]に|宿[しゅく]題[だい]|を|しました=します|。|先[さき]に|本[ほん]|を|読[よ]みました=読[よ]みます|。|次[つぎ]に|レポート|を|書[か]きました=書[か]きます|。"
+en = "After lunch they did their homework together at the library. First they read a book. Next they wrote a report."
+ru = "После обеда они вместе делали домашнее задание в библиотеке. Сначала читали книгу. Потом писали доклад."
+uk = "Після обіду вони разом робили домашнє завдання в бібліотеці. Спочатку читали книжку. Потім писали доповідь."
+es = "Después de comer hicieron juntos los deberes en la biblioteca. Primero leyeron un libro. Después escribieron un informe."
+
+[[prose]]
+ja = "宿[しゅく]題[だい]|は|四[よ]時[じ]|に|終[お]わりました=終[お]わります|。|「|じゃ、また明日[あした]。|」"
+en = "The homework was done at four. “See you tomorrow, then.”"
+ru = "С домашним заданием закончили в четыре. «Ну, до завтра»."
+uk = "З домашнім завданням закінчили о четвертій. «Ну, до завтра»."
+es = "Terminaron los deberes a las cuatro. «Bueno, hasta mañana»."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "今日[きょう]|は|ここ|まで|です|。|宿[しゅく]題[だい]|は|レポート|です|。"
+en = "That's all for today. The homework is a report."
+ru = "На сегодня всё. Домашнее задание — доклад."
+uk = "На сьогодні все. Домашнє завдання — доповідь."
+es = "Por hoy ya está. Los deberes son un informe."
+
+[[dialog]]
+speaker = "ワン"
+ja = "先[せん]生[せい]|、|すみません|。|質[しつ]問[もん]|です|。"
+en = "Professor, excuse me. I have a question."
+ru = "Профессор, простите. У меня вопрос."
+uk = "Професоре, перепрошую. У мене запитання."
+es = "Profesor, perdone. Tengo una pregunta."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "はい|、|何[なん]ですか。"
+en = "Yes, what is it?"
+ru = "Да, что такое?"
+uk = "Так, що таке?"
+es = "Sí, dime."
+
+[[dialog]]
+speaker = "ワン"
+ja = "レポート|は|いつ|まで|です|か|。"
+en = "When is the report due?"
+ru = "До какого числа нужен доклад?"
+uk = "До якого числа потрібна доповідь?"
+es = "¿Para cuándo es el informe?"
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "来[らい]週[しゅう]|の|月[げつ]曜[よう]日[び]|まで|です|。|日[に]本[ほん]語[ご]|の|レポート|です|。"
+en = "By next Monday. And it's a report in Japanese."
+ru = "До следующего понедельника. И доклад на японском."
+uk = "До наступного понеділка. І доповідь японською."
+es = "Para el lunes que viene. Y es un informe en japonés."
+
+[[dialog]]
+speaker = "ワン"
+ja = "分[わ]かりました。"
+en = "Understood."
+ru = "Понятно."
+uk = "Зрозуміло."
+es = "Entendido."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ワン|さん|、|これから|一[いっ]緒[しょ]に|昼[ひる]ご飯[はん]|を|食[た]べませんか=食[た]べます|。"
+en = "Wang, shall we have lunch together now?"
+ru = "Ван, может, пообедаем сейчас вместе?"
+uk = "Ване, може, пообідаємо зараз разом?"
+es = "Wang, ¿por qué no comemos juntos ahora?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "ええ|、|いいですね。|どこ|で|食[た]べます|か|。"
+en = "Yes, sounds good. Where shall we eat?"
+ru = "Да, давай. А где поедим?"
+uk = "Так, давай. А де поїмо?"
+es = "Sí, buena idea. ¿Dónde comemos?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "食[しょく]堂[どう]|で|食[た]べましょう=食[た]べます|。"
+en = "Let's eat in the canteen."
+ru = "Давай в столовой."
+uk = "Давай в їдальні."
+es = "Comamos en el comedor."
+
+[[dialog]]
+speaker = "ワン"
+ja = "昼[ひる]ご飯[はん]|の|後[あと]で|、|一[いっ]緒[しょ]に|宿[しゅく]題[だい]|を|しましょうか=します|。"
+en = "After lunch, shall we do the homework together?"
+ru = "После обеда сделаем вместе домашнее задание?"
+uk = "Після обіду зробимо разом домашнє завдання?"
+es = "Después de comer, ¿hacemos juntos los deberes?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ええ|。|図[と]書[しょ]館[かん]|で|しましょう=します|。"
+en = "Sure. Let's do it at the library."
+ru = "Давай. В библиотеке."
+uk = "Давай. У бібліотеці."
+es = "Vale. Hagámoslos en la biblioteca."
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "山[やま]田[だ]"
+en = "Yamada (a surname)"
+ru = "Ямада (фамилия)"
+uk = "Ямада (прізвище)"
+es = "Yamada (apellido)"
+
+[[new]]
+ja = "時[じ]"
+en = "… o'clock"
+ru = "… час(ов)"
+uk = "… година"
+es = "las … (hora)"

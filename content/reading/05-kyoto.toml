@@ -2,33 +2,113 @@ lesson = 5
 title = { en = "A trip to Kyoto", ru = "Поездка в Киото", uk = "Поїздка до Кіото", es = "Un viaje a Kioto" }
 scene = "Two friends with small backpacks on a train platform as a sleek white bullet train arrives, autumn maple trees beyond the station."
 
-[[paragraph]]
-ja = "来[らい]週[しゅう]|の|土[ど]曜[よう]日[び]|、|友[とも]達[だち]|と|京[きょう]都[と]|へ|行[い]きます|。"
-en = "Next Saturday I'm going to Kyoto with a friend."
-ru = "В следующую субботу я еду в Киото с другом."
-uk = "Наступної суботи я їду до Кіото з другом."
-es = "El sábado que viene voy a Kioto con un amigo."
+[[prose]]
+ja = "来[らい]週[しゅう]|の|土[ど]曜[よう]日[び]|、|友[とも]達[だち]|と|京[きょう]都[と]|へ|行[い]きます|。|友[とも]達[だち]|は|カリナ|さん|です|。"
+en = "Next Saturday I'm going to Kyoto with a friend. My friend is Karina."
+ru = "В следующую субботу я еду в Киото с подругой. Подругу зовут Карина."
+uk = "Наступної суботи я їду до Кіото з подругою. Подругу звати Карина."
+es = "El sábado que viene voy a Kioto con una amiga. Mi amiga es Karina."
 
-[[paragraph]]
+[[prose]]
+ja = "駅[えき]|まで|バス|で|行[い]きます|。|それから|、|新[しん]幹[かん]線[せん]|で|京[きょう]都[と]|へ|行[い]きます|。|新[しん]幹[かん]線[せん]|は|九[く]時[じ]|半[はん]|です|。"
+en = "I'll go to the station by bus. Then I'll go to Kyoto by Shinkansen. The Shinkansen is at half past nine."
+ru = "До вокзала доеду на автобусе. А потом поеду в Киото на синкансэне. Синкансэн — в половине десятого."
+uk = "До вокзалу доїду автобусом. А потім поїду до Кіото синкансеном. Синкансен — о пів на десяту."
+es = "Iré a la estación en autobús. Luego iré a Kioto en el Shinkansen. El Shinkansen sale a las nueve y media."
+
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|に|家[うち]|へ|帰[かえ]ります|。|月[げつ]曜[よう]日[び]|は|会[かい]社[しゃ]|へ|行[い]きます|。"
+en = "On Sunday I'll come back home. On Monday I go to the office."
+ru = "В воскресенье вернусь домой. В понедельник — на работу."
+uk = "У неділю повернуся додому. У понеділок — на роботу."
+es = "El domingo volveré a casa. El lunes voy a la oficina."
+
+[[prose]]
+ja = "去[きょ]年[ねん]|は|一[ひと]人[り]で|行[い]きました=行[い]きます|。|今年[ことし]|は|友[とも]達[だち]|と|行[い]きます|。|来[らい]年[ねん]|は|家[か]族[ぞく]|と|行[い]きます|。"
+en = "Last year I went alone. This year I'm going with a friend. Next year I'll go with my family."
+ru = "В прошлом году я ездила одна. В этом году еду с подругой. В следующем поеду с семьёй."
+uk = "Торік я їздила сама. Цього року їду з подругою. Наступного поїду з родиною."
+es = "El año pasado fui sola. Este año voy con una amiga. El año que viene iré con mi familia."
+
+[[dialog]]
+speaker = "ワン"
+ja = "マリア|さん|、|来[らい]週[しゅう]|の|土[ど]曜[よう]日[び]|、|どこ|へ|行[い]きます|か|。"
+en = "Maria, where are you going next Saturday?"
+ru = "Мария-сан, куда вы едете в следующую субботу?"
+uk = "Маріє-сан, куди ви їдете наступної суботи?"
+es = "Maria, ¿adónde vas el sábado que viene?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "京[きょう]都[と]|へ|行[い]きます|。"
+en = "I'm going to Kyoto."
+ru = "В Киото."
+uk = "До Кіото."
+es = "Voy a Kioto."
+
+[[dialog]]
+speaker = "ワン"
+ja = "誰[だれ]|と|行[い]きます|か|。"
+en = "Who are you going with?"
+ru = "С кем?"
+uk = "З ким?"
+es = "¿Con quién vas?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "カリナ|さん|と|行[い]きます|。"
+en = "With Karina."
+ru = "С Кариной."
+uk = "З Кариною."
+es = "Con Karina."
+
+[[dialog]]
+speaker = "ワン"
+ja = "何[なん]|で|行[い]きます|か|。"
+en = "How are you getting there?"
+ru = "На чём поедете?"
+uk = "Чим поїдете?"
+es = "¿En qué vais?"
+
+[[dialog]]
+speaker = "マリア"
 ja = "駅[えき]|まで|バス|で|行[い]きます|。|それから|、|新[しん]幹[かん]線[せん]|で|行[い]きます|。"
-en = "I'll go to the station by bus. Then I'll go by Shinkansen."
-ru = "До станции поеду на автобусе. Потом — на синкансэне."
-uk = "До станції поїду автобусом. Потім — синкансеном."
-es = "Iré a la estación en autobús. Luego iré en Shinkansen."
+en = "We'll take the bus to the station. Then the Shinkansen."
+ru = "До вокзала на автобусе. Потом на синкансэне."
+uk = "До вокзалу автобусом. Потім синкансеном."
+es = "Hasta la estación en autobús. Luego, en el Shinkansen."
 
-[[paragraph]]
-ja = "日[にち]曜[よう]日[び]|に|家[うち]|へ|帰[かえ]ります|。"
-en = "On Sunday I'll come back home."
-ru = "В воскресенье вернусь домой."
-uk = "У неділю повернуся додому."
-es = "El domingo volveré a casa."
+[[dialog]]
+speaker = "ワン"
+ja = "いつ|帰[かえ]ります|か|。"
+en = "When are you coming back?"
+ru = "Когда вернётесь?"
+uk = "Коли повернетеся?"
+es = "¿Cuándo volvéis?"
 
-[[paragraph]]
-ja = "去[きょ]年[ねん]|は|一[ひと]人[り]で|行[い]きました=行[い]きます|。|今年[ことし]|は|友[とも]達[だち]|と|行[い]きます|。"
-en = "Last year I went alone. This year I'm going with a friend."
-ru = "В прошлом году я ездил один. В этом году еду с другом."
-uk = "Торік я їздив сам. Цього року їду з другом."
-es = "El año pasado fui solo. Este año voy con un amigo."
+[[dialog]]
+speaker = "マリア"
+ja = "日[にち]曜[よう]日[び]|に|帰[かえ]ります|。|ワン|さん|は|？|土[ど]曜[よう]日[び]|、|どこ|へ|行[い]きます|か|。"
+en = "On Sunday. And you, Wang? Where are you going on Saturday?"
+ru = "В воскресенье. А вы, Ван-сан? Куда поедете в субботу?"
+uk = "У неділю. А ви, Ван-сане? Куди поїдете в суботу?"
+es = "El domingo. ¿Y tú, Wang? ¿Adónde vas el sábado?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "どこ|へ|も|行[い]きません=行[い]きます|。|土[ど]曜[よう]日[び]|は|九[く]時[じ]から|五[ご]時[じ]まで|働[はたら]きます|。"
+en = "I'm not going anywhere. On Saturday I work from nine to five."
+ru = "Никуда. В субботу я работаю с девяти до пяти."
+uk = "Нікуди. У суботу я працюю з дев'ятої до п'ятої."
+es = "No voy a ningún sitio. El sábado trabajo de nueve a cinco."
+
+[[dialog]]
+speaker = "マリア"
+ja = "大[たい]変[へん]ですね。"
+en = "That's tough."
+ru = "Тяжело вам."
+uk = "Важко вам."
+es = "Qué duro."
 
 [[new]]
 ja = "京[きょう]都[と]"
@@ -41,5 +121,26 @@ es = "Kioto"
 ja = "それから"
 en = "and then, after that"
 ru = "а потом, затем"
-uk = "а потім, далі"
-es = "y luego, después de eso"
+uk = "а потім, затим"
+es = "y luego, después"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"

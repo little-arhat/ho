@@ -1,0 +1,146 @@
+lesson = 5
+title = { en = "Which platform?", ru = "С какой платформы?", uk = "З якої платформи?", es = "¿Qué andén?" }
+scene = "A busy Japanese railway station concourse in the morning: a woman with a small suitcase asks a station attendant in a cap and uniform for directions, trains waiting at platforms behind them."
+
+[[prose]]
+ja = "ここ|は|新[しん]大[おお]阪[さか]|の|駅[えき]|です|。|マリア|さん|は|今日[きょう]|、|京[きょう]都[と]|へ|行[い]きます|。"
+en = "This is Shin-Osaka station. Today Maria is going to Kyoto."
+ru = "Это станция Син-Осака. Сегодня Мария едет в Киото."
+uk = "Це станція Сін-Осака. Сьогодні Марія їде до Кіото."
+es = "Esta es la estación de Shin-Osaka. Hoy Maria va a Kioto."
+
+[[prose]]
+ja = "京[きょう]都[と]|へ|は|新[しん]幹[かん]線[せん]|で|行[い]きません=行[い]きます|。|電[でん]車[しゃ]|で|行[い]きます|。"
+en = "She isn't taking the Shinkansen to Kyoto. She's going by ordinary train."
+ru = "В Киото она едет не на синкансэне. Она едет на обычном поезде."
+uk = "До Кіото вона їде не синкансеном. Вона їде звичайним потягом."
+es = "A Kioto no va en Shinkansen. Va en tren normal."
+
+[[prose]]
+ja = "普[ふ]通[つう]|は|一[いち]番[ばん]線[せん]|です|。|急[きゅう]行[こう]|と|特[とっ]急[きゅう]|は|三[さん]番[ばん]線[せん]=番[ばん]線[せん]|です|。"
+en = "Local trains leave from platform 1. Rapid and express trains leave from platform 3."
+ru = "Обычные поезда идут с первой платформы. Скорые и экспрессы — с третьей."
+uk = "Звичайні потяги йдуть з першої платформи. Швидкі та експреси — з третьої."
+es = "Los trenes locales salen del andén 1. Los rápidos y los exprés, del andén 3."
+
+[[prose]]
+ja = "次[つぎ]|の|電[でん]車[しゃ]|は|急[きゅう]行[こう]|です|。|九[く]時[じ]|十[じゅっ]分[ぷん]|です|。|その|次[つぎ]|は|特[とっ]急[きゅう]|です|。|九[く]時[じ]|半[はん]|です|。"
+en = "The next train is a rapid. It's at 9:10. The one after that is an express, at half past nine."
+ru = "Следующий поезд — скорый, в 9:10. За ним — экспресс, в половине десятого."
+uk = "Наступний потяг — швидкий, о 9:10. За ним — експрес, о пів на десяту."
+es = "El próximo tren es un rápido, a las nueve y diez. El siguiente es un exprés, a las nueve y media."
+
+[[prose]]
+ja = "京[きょう]都[と]|の|駅[えき]|から|美[び]術[じゅつ]館[かん]|まで|は|タクシー|で|行[い]きます|。|タクシー|乗[の]り場[ば]|は|駅[えき]|の|地[ち]下[か]|です|。"
+en = "From Kyoto station to the art museum she'll take a taxi. The taxi stand is under the station."
+ru = "От станции Киото до художественного музея она поедет на такси. Стоянка такси — под станцией."
+uk = "Від станції Кіото до художнього музею вона поїде таксі. Стоянка таксі — під станцією."
+es = "De la estación de Kioto al museo de arte irá en taxi. La parada de taxis está en el sótano de la estación."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|京[きょう]都[と]|へ|行[い]きます|。|何[なん]番[ばん]線[せん]=番[ばん]線[せん]|です|か|。"
+en = "Excuse me. I'm going to Kyoto. Which platform is it?"
+ru = "Простите. Мне в Киото. С какой платформы?"
+uk = "Перепрошую. Мені до Кіото. З якої платформи?"
+es = "Perdone. Voy a Kioto. ¿Qué andén es?"
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "普[ふ]通[つう]|は|一[いち]番[ばん]線[せん]|です|。|急[きゅう]行[こう]|は|三[さん]番[ばん]線[せん]=番[ばん]線[せん]|です|。"
+en = "Local trains are on platform 1. Rapid trains are on platform 3."
+ru = "Обычные — с первой платформы. Скорые — с третьей."
+uk = "Звичайні — з першої платформи. Швидкі — з третьої."
+es = "Los locales, en el andén 1. Los rápidos, en el andén 3."
+
+[[dialog]]
+speaker = "マリア"
+ja = "次[つぎ]|の|電[でん]車[しゃ]|は|何[なん]|です|か|。"
+en = "What's the next train?"
+ru = "А какой следующий поезд?"
+uk = "А який наступний потяг?"
+es = "¿Y cuál es el próximo tren?"
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "次[つぎ]|は|急[きゅう]行[こう]|です|。|九[く]時[じ]|十[じゅっ]分[ぷん]|です|。"
+en = "The next one is a rapid. At 9:10."
+ru = "Следующий — скорый. В 9:10."
+uk = "Наступний — швидкий. О 9:10."
+es = "El próximo es un rápido. A las nueve y diez."
+
+[[dialog]]
+speaker = "マリア"
+ja = "その|急[きゅう]行[こう]|は|京[きょう]都[と]|へ|行[い]きます|か|。"
+en = "Does that rapid go to Kyoto?"
+ru = "Этот скорый идёт в Киото?"
+uk = "Цей швидкий іде до Кіото?"
+es = "¿Ese rápido va a Kioto?"
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "はい|、|行[い]きます|。|その|次[つぎ]|は|特[とっ]急[きゅう]|です|。|特[とっ]急[きゅう]|も|三[さん]番[ばん]線[せん]=番[ばん]線[せん]|です|。"
+en = "Yes, it does. After that there's an express. The express is on platform 3 too."
+ru = "Да. После него — экспресс. Экспресс тоже с третьей платформы."
+uk = "Так. Після нього — експрес. Експрес теж з третьої платформи."
+es = "Sí. Después hay un exprés. El exprés también sale del andén 3."
+
+[[dialog]]
+speaker = "マリア"
+ja = "京[きょう]都[と]|の|駅[えき]|の|タクシー|乗[の]り場[ば]|は|どこ|です|か|。"
+en = "Where is the taxi stand at Kyoto station?"
+ru = "А где стоянка такси на станции Киото?"
+uk = "А де стоянка таксі на станції Кіото?"
+es = "¿Y dónde está la parada de taxis de la estación de Kioto?"
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "地[ち]下[か]|です|。|エスカレーター|で|地[ち]下[か]|へ|行[い]きます|。"
+en = "Downstairs. You take the escalator down."
+ru = "Внизу. Спуститесь на эскалаторе."
+uk = "Унизу. Спустіться ескалатором."
+es = "En el sótano. Se baja por la escalera mecánica."
+
+[[dialog]]
+speaker = "マリア"
+ja = "どうもありがとうございます。"
+en = "Thank you very much."
+ru = "Большое спасибо."
+uk = "Щиро дякую."
+es = "Muchas gracias."
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "どういたしまして。"
+en = "You're welcome."
+ru = "Не за что."
+uk = "Нема за що."
+es = "De nada."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+es = "Kioto"
+
+[[new]]
+ja = "駅[えき]員[いん]"
+en = "station attendant"
+ru = "служащий станции"
+uk = "працівник станції"
+es = "empleado de la estación"
+
+[[new]]
+ja = "番[ばん]線[せん]"
+en = "platform number …"
+ru = "платформа № …"
+uk = "платформа № …"
+es = "andén número …"

@@ -2,33 +2,126 @@ lesson = 5
 title = { en = "Birthdays", ru = "Дни рождения", uk = "Дні народження", es = "Cumpleaños" }
 scene = "A young couple walking along a sunny beach in spring, holding hands, a small train passing on a coastal line in the distance."
 
-[[paragraph]]
-ja = "私[わたし]|の|誕[たん]生[じょう]日[び]|は|四[し]月[がつ]|三日[みっか]|です|。"
-en = "My birthday is April 3."
-ru = "Мой день рождения — 3 апреля."
-uk = "Мій день народження — 3 квітня."
-es = "Mi cumpleaños es el 3 de abril."
+[[prose]]
+ja = "私[わたし]|の|誕[たん]生[じょう]日[び]|は|四[し]月[がつ]|三日[みっか]|です|。|彼[かの]女[じょ]|の|誕[たん]生[じょう]日[び]|は|九[く]月[がつ]|二十日[はつか]|です|。"
+en = "My birthday is April 3. My girlfriend's birthday is September 20."
+ru = "Мой день рождения — 3 апреля. День рождения моей девушки — 20 сентября."
+uk = "Мій день народження — 3 квітня. День народження моєї дівчини — 20 вересня."
+es = "Mi cumpleaños es el 3 de abril. El de mi novia es el 20 de septiembre."
 
-[[paragraph]]
-ja = "誕[たん]生[じょう]日[び]|に|彼[かの]女[じょ]|と|電[でん]車[しゃ]|で|海[うみ]|へ|行[い]きました=行[い]きます|。"
-en = "On my birthday I went to the sea by train with my girlfriend."
-ru = "В день рождения я ездил с девушкой на море на электричке."
-uk = "На день народження я їздив із дівчиною до моря електричкою."
-es = "El día de mi cumpleaños fui al mar en tren con mi novia."
+[[prose]]
+ja = "誕[たん]生[じょう]日[び]|に|彼[かの]女[じょ]|と|海[うみ]|へ|行[い]きました=行[い]きます|。|家[うち]|から|駅[えき]|まで|歩[ある]いて|行[い]きました=行[い]きます|。|駅[えき]|から|電[でん]車[しゃ]|で|行[い]きました=行[い]きます|。"
+en = "On my birthday I went to the sea with my girlfriend. We walked from home to the station. From the station we went by train."
+ru = "В мой день рождения мы с девушкой поехали на море. От дома до вокзала шли пешком. От вокзала — на электричке."
+uk = "На мій день народження ми з дівчиною поїхали на море. Від дому до вокзалу йшли пішки. Від вокзалу — електричкою."
+es = "El día de mi cumpleaños fui al mar con mi novia. De casa a la estación fuimos a pie. Desde la estación, en tren."
 
-[[paragraph]]
-ja = "彼[かの]女[じょ]|の|誕[たん]生[じょう]日[び]|は|いつ|です|か|。|九[く]月[がつ]|二十日[はつか]|です|。"
-en = "When is her birthday? September 20."
-ru = "Когда её день рождения? 20 сентября."
-uk = "Коли її день народження? 20 вересня."
-es = "¿Cuándo es su cumpleaños? El 20 de septiembre."
+[[prose]]
+ja = "電[でん]車[しゃ]|は|特[とっ]急[きゅう]|じゃ ありません|。|普[ふ]通[つう]|です|。|でも|、|海[うみ]|まで|一[いち]時[じ]間[かん]|です|。"
+en = "The train isn't an express. It's a local train. But it's only an hour to the sea."
+ru = "Поезд не экспресс. Обычная электричка. Но до моря всего час."
+uk = "Потяг не експрес. Звичайна електричка. Але до моря лише година."
+es = "El tren no es un exprés. Es un tren local. Pero hasta el mar solo hay una hora."
 
-[[paragraph]]
-ja = "来[らい]月[げつ]|、|彼[かの]女[じょ]|の|家[か]族[ぞく]|が|日[に]本[ほん]|へ|来[き]ます|。"
-en = "Next month her family is coming to Japan."
-ru = "В следующем месяце её семья приедет в Японию."
-uk = "Наступного місяця її родина приїде до Японії."
-es = "El mes que viene su familia viene a Japón."
+[[prose]]
+ja = "来[らい]月[げつ]|、|彼[かの]女[じょ]|の|家[か]族[ぞく]|が|新[しん]大[おお]阪[さか]|から|東[とう]京[きょう]|へ|来[き]ます|。|五[ご]月[がつ]|五日[いつか]|に|来[き]ます|。"
+en = "Next month her family is coming to Tokyo from Shin-Osaka. They're coming on May 5."
+ru = "В следующем месяце её семья приезжает в Токио из Син-Осаки. Они приедут 5 мая."
+uk = "Наступного місяця її родина приїжджає до Токіо із Сін-Осаки. Вони приїдуть 5 травня."
+es = "El mes que viene su familia viene a Tokio desde Shin-Osaka. Llegan el 5 de mayo."
+
+[[prose]]
+ja = "九[く]月[がつ]|二十日[はつか]|、|彼[かの]女[じょ]|の|誕[たん]生[じょう]日[び]|に|は|、|新[しん]幹[かん]線[せん]|で|京[きょう]都[と]|へ|行[い]きます|。"
+en = "On September 20, her birthday, we'll go to Kyoto by Shinkansen."
+ru = "20 сентября, в её день рождения, мы поедем в Киото на синкансэне."
+uk = "20 вересня, на її день народження, ми поїдемо до Кіото синкансеном."
+es = "El 20 de septiembre, el día de su cumpleaños, iremos a Kioto en el Shinkansen."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "木[き]村[むら]|さん|の|誕[たん]生[じょう]日[び]|は|いつ|です|か|。"
+en = "Kimura, when is your birthday?"
+ru = "Кимура-сан, когда у тебя день рождения?"
+uk = "Кімуро-сан, коли в тебе день народження?"
+es = "Kimura, ¿cuándo es tu cumpleaños?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "四[し]月[がつ]|三日[みっか]|です|。|来[らい]週[しゅう]|です|。"
+en = "April 3. It's next week."
+ru = "Третьего апреля. На следующей неделе."
+uk = "Третього квітня. Наступного тижня."
+es = "El 3 de abril. Es la semana que viene."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "来[らい]週[しゅう]|です|ね|。|誕[たん]生[じょう]日[び]|に|どこ|へ|行[い]きます|か|。"
+en = "Next week! Where are you going on your birthday?"
+ru = "Уже на следующей неделе! Куда поедешь в день рождения?"
+uk = "Уже наступного тижня! Куди поїдеш на день народження?"
+es = "¡La semana que viene! ¿Adónde vas el día de tu cumpleaños?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "海[うみ]|へ|行[い]きます|。|由[ゆ]紀[き]|さん|も|行[い]きます|か|。"
+en = "To the sea. Are you coming too, Yuki?"
+ru = "На море. Юки, ты тоже поедешь?"
+uk = "На море. Юкі, ти теж поїдеш?"
+es = "Al mar. Yuki, ¿tú también vienes?"
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "はい|、|行[い]きます|。|何[なん]|で|行[い]きます|か|。"
+en = "Yes, I'll come. How are we getting there?"
+ru = "Да, поеду. А на чём?"
+uk = "Так, поїду. А чим?"
+es = "Sí, voy. ¿En qué vamos?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "電[でん]車[しゃ]|で|行[い]きます|。|由[ゆ]紀[き]|さん|の|誕[たん]生[じょう]日[び]|は|いつ|です|か|。"
+en = "By train. When is your birthday, Yuki?"
+ru = "На электричке. А когда у тебя день рождения, Юки?"
+uk = "Електричкою. А коли в тебе день народження, Юкі?"
+es = "En tren. ¿Y cuándo es tu cumpleaños, Yuki?"
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "九[く]月[がつ]|二十日[はつか]|です|。|あ|、|再[さ]来[らい]月[げつ]|、|家[か]族[ぞく]|が|新[しん]大[おお]阪[さか]|から|来[き]ます|。"
+en = "September 20. Oh, and the month after next my family is coming from Shin-Osaka."
+ru = "Двадцатого сентября. А, и через два месяца из Син-Осаки приезжает моя семья."
+uk = "Двадцятого вересня. А, і за два місяці із Сін-Осаки приїжджає моя родина."
+es = "El 20 de septiembre. Ah, y dentro de dos meses viene mi familia desde Shin-Osaka."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "そうですか。|いつ|来[き]ます|か|。"
+en = "Really? When are they coming?"
+ru = "Правда? Когда?"
+uk = "Справді? Коли?"
+es = "¿Ah, sí? ¿Cuándo vienen?"
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "五[ご]月[がつ]|五日[いつか]|に|来[き]ます|。|そして|、|十日[とおか]|に|帰[かえ]ります|。"
+en = "On May 5. And they go home on the 10th."
+ru = "Пятого мая. А десятого уезжают обратно."
+uk = "П'ятого травня. А десятого їдуть назад."
+es = "El 5 de mayo. Y se vuelven el día 10."
+
+[[new]]
+ja = "由[ゆ]紀[き]"
+en = "Yuki (a name)"
+ru = "Юки (имя)"
+uk = "Юкі (ім'я)"
+es = "Yuki (nombre)"
+
+[[new]]
+ja = "木[き]村[むら]"
+en = "Kimura (a surname)"
+ru = "Кимура (фамилия)"
+uk = "Кімура (прізвище)"
+es = "Kimura (apellido)"
 
 [[new]]
 ja = "海[うみ]"
@@ -38,8 +131,43 @@ uk = "море"
 es = "mar"
 
 [[new]]
-ja = "日[に]本[ほん]"
-en = "Japan"
-ru = "Япония"
-uk = "Японія"
-es = "Japón"
+ja = "東[とう]京[きょう]"
+en = "Tokyo"
+ru = "Токио"
+uk = "Токіо"
+es = "Tokio"
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+es = "Kioto"
+
+[[new]]
+ja = "一[いち]時[じ]間[かん]"
+en = "one hour"
+ru = "один час"
+uk = "одна година"
+es = "una hora"
+
+[[new]]
+ja = "五[ご]月[がつ]"
+en = "May"
+ru = "май"
+uk = "травень"
+es = "mayo"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "そして"
+en = "and, and then"
+ru = "и, а потом"
+uk = "і, а потім"
+es = "y, y luego"

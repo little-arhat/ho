@@ -2,30 +2,116 @@ lesson = 3
 title = { en = "At the department store", ru = "В универмаге", uk = "В універмазі", es = "En los grandes almacenes" }
 scene = "Inside a bright Japanese department store: a shop assistant in a neat uniform shows a customer a rack of silk neckties; escalators in the background."
 
-[[paragraph]]
-ja = "ここ|は|デパート|です|。|靴[くつ]|の|売[う]り場[ば]|は|三[さん]階[がい]|です|。"
-en = "This is a department store. The shoe department is on the 3rd floor."
-ru = "Это универмаг. Обувной отдел на 3-м этаже."
-uk = "Це універмаг. Взуттєвий відділ на 3-му поверсі."
-es = "Estos son unos grandes almacenes. La zapatería está en el 3.er piso."
+[[prose]]
+ja = "ここ|は|デパート|です|。|靴[くつ]|の|売[う]り場[ば]|は|三[さん]階[がい]|です|。|紳[しん]士[し]服[ふく]|も|三[さん]階[がい]|です|。"
+en = "This is a department store. The shoe department is on the 3rd floor. Men's wear is on the 3rd floor too."
+ru = "Это универмаг. Отдел обуви — на третьем этаже. Мужская одежда тоже на третьем."
+uk = "Це універмаг. Відділ взуття — на третьому поверсі. Чоловічий одяг теж на третьому."
+es = "Estos son unos grandes almacenes. La zapatería está en la tercera planta. La ropa de caballero también."
 
-[[paragraph]]
-ja = "子[こ]ども服[ふく]|は|何[なん]階[がい]|です|か|。|五[ご]階[かい]|です|。"
-en = "What floor is children's clothing on? The 5th floor."
-ru = "На каком этаже детская одежда? На 5-м."
-uk = "На якому поверсі дитячий одяг? На 5-му."
-es = "¿En qué piso está la ropa infantil? En el 5.º piso."
+[[prose]]
+ja = "子[こ]ども服[ふく]|は|五[ご]階[かい]|です|。|おもちゃ|も|五[ご]階[かい]|です|。|屋[おく]上[じょう]|は|遊[ゆう]園[えん]地[ち]|です|。"
+en = "Children's clothing is on the 5th floor. Toys are on the 5th floor too. The rooftop is a play area."
+ru = "Детская одежда — на пятом этаже. Игрушки тоже на пятом. На крыше — детская площадка с аттракционами."
+uk = "Дитячий одяг — на п'ятому поверсі. Іграшки теж на п'ятому. На даху — майданчик з атракціонами."
+es = "La ropa infantil está en la quinta planta. Los juguetes también. En la azotea hay una zona de juegos."
 
-[[paragraph]]
-ja = "トイレ|は|どこ|です|か|。|あちら|です|。"
-en = "Where is the toilet? Over there."
-ru = "Где туалет? Вон там."
-uk = "Де туалет? Он там."
-es = "¿Dónde está el baño? Allí."
+[[prose]]
+ja = "食[しょく]料[りょう]品[ひん]|は|地[ち]下[か]一[いっ]階[かい]|です|。|駐[ちゅう]車[しゃ]場[じょう]|は|地[ち]下[か]二[に]階[かい]|です|。"
+en = "Food is on the first basement floor. The car park is on the second basement floor."
+ru = "Продукты — на первом подземном этаже. Парковка — на втором подземном."
+uk = "Продукти — на першому підземному поверсі. Паркінг — на другому підземному."
+es = "La alimentación está en el primer sótano. El aparcamiento, en el segundo sótano."
 
-[[paragraph]]
+[[prose]]
 ja = "この|ネクタイ|は|いくら|です|か|。|３，０００円[えん]=円[えん]|です|。|イタリア|の|ネクタイ|です|。|じゃ|、|これ|を|ください。"
 en = "How much is this tie? It's 3,000 yen. It's an Italian tie. Then I'll take this one."
-ru = "Сколько стоит этот галстук? 3000 иен. Это итальянский галстук. Тогда дайте вот этот."
-uk = "Скільки коштує ця краватка? 3000 єн. Це італійська краватка. Тоді дайте цю."
-es = "¿Cuánto cuesta esta corbata? 3000 yenes. Es una corbata italiana. Entonces me llevo esta."
+ru = "Сколько стоит этот галстук? 3000 иен. Итальянский галстук. Тогда возьму его."
+uk = "Скільки коштує ця краватка? 3000 єн. Італійська краватка. Тоді візьму її."
+es = "¿Cuánto cuesta esta corbata? 3.000 yenes. Es una corbata italiana. Entonces me llevo esta."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|ネクタイ|の|売[う]り場[ば]|は|どこ|です|か|。"
+en = "Excuse me. Where is the tie counter?"
+ru = "Простите. Где отдел галстуков?"
+uk = "Перепрошую. Де відділ краваток?"
+es = "Perdone. ¿Dónde está la sección de corbatas?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "紳[しん]士[し]服[ふく]|の|売[う]り場[ば]|です|。|三[さん]階[がい]|でございます。"
+en = "It's in the men's wear department. On the 3rd floor."
+ru = "Это в отделе мужской одежды. На третьем этаже."
+uk = "Це у відділі чоловічого одягу. На третьому поверсі."
+es = "Está en la sección de caballero. En la tercera planta."
+
+[[dialog]]
+speaker = "マリア"
+ja = "エレベーター|は|どちら|です|か|。"
+en = "Which way is the elevator?"
+ru = "А где лифт?"
+uk = "А де ліфт?"
+es = "¿Y por dónde está el ascensor?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "あちら|でございます。|エスカレーター|も|あちら|でございます。"
+en = "It's over there. The escalator is over there too."
+ru = "Вон там. Эскалатор тоже там."
+uk = "Он там. Ескалатор теж там."
+es = "Está por allí. La escalera mecánica también."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|その|ネクタイ|を|見[み]せてください。"
+en = "Excuse me. Please show me that tie."
+ru = "Простите. Покажите, пожалуйста, тот галстук."
+uk = "Перепрошую. Покажіть, будь ласка, ту краватку."
+es = "Perdone. ¿Me enseña esa corbata, por favor?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|、|どうぞ|。|イタリア|の|ネクタイ|でございます。"
+en = "Certainly, here you are. It's an Italian tie."
+ru = "Пожалуйста. Это итальянский галстук."
+uk = "Прошу. Це італійська краватка."
+es = "Aquí tiene. Es una corbata italiana."
+
+[[dialog]]
+speaker = "マリア"
+ja = "いくら|です|か|。"
+en = "How much is it?"
+ru = "Сколько он стоит?"
+uk = "Скільки вона коштує?"
+es = "¿Cuánto cuesta?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "３，０００円[えん]=円[えん]|でございます。"
+en = "It's 3,000 yen."
+ru = "3000 иен."
+uk = "3000 єн."
+es = "3.000 yenes."
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|これ|を|ください。"
+en = "Then I'll take this one."
+ru = "Тогда я возьму его."
+uk = "Тоді я візьму її."
+es = "Entonces me llevo esta."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop assistant"
+ru = "продавец"
+uk = "продавець"
+es = "dependiente"

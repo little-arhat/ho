@@ -1,0 +1,152 @@
+lesson = 3
+title = { en = "Where is this wine from?", ru = "Откуда это вино?", uk = "Звідки це вино?", es = "¿De dónde es este vino?" }
+scene = "The food floor in the basement of a department store: two women look at a shelf of wine bottles with plain unlabelled price cards, a shop assistant in an apron nearby."
+
+[[prose]]
+ja = "ここ|は|デパート|の|地[ち]下[か]一[いっ]階[かい]|です|。|食[しょく]料[りょう]品[ひん]|の|売[う]り場[ば]|です|。"
+en = "This is the first basement floor of the department store. It's the food department."
+ru = "Это первый подземный этаж универмага. Продуктовый отдел."
+uk = "Це перший підземний поверх універмагу. Продуктовий відділ."
+es = "Este es el primer sótano de los grandes almacenes. Es la sección de alimentación."
+
+[[prose]]
+ja = "ワイン|の|売[う]り場[ば]|は|あそこ|です|。|イタリア|の|ワイン|と|スイス|の|ワイン|です|。"
+en = "The wine counter is over there. There's Italian wine and Swiss wine."
+ru = "Винный отдел — вон там. Там итальянское и швейцарское вино."
+uk = "Винний відділ — он там. Там італійське і швейцарське вино."
+es = "La sección de vinos está allí. Hay vino italiano y vino suizo."
+
+[[prose]]
+ja = "この|ワイン|は|イタリア|の|です|。|２，５００円[えん]=円[えん]|です|。|その|ワイン|は|スイス|の|です|。|５，０００円[えん]=円[えん]|です|。"
+en = "This wine is Italian. It's 2,500 yen. That wine is Swiss. It's 5,000 yen."
+ru = "Это вино итальянское. 2500 иен. То вино швейцарское. 5000 иен."
+uk = "Це вино італійське. 2500 єн. Те вино швейцарське. 5000 єн."
+es = "Este vino es italiano. Cuesta 2.500 yenes. Ese vino es suizo. Cuesta 5.000 yenes."
+
+[[prose]]
+ja = "アンナ|さん|の|お国[くに]|は|アメリカ|です|。|でも|、|アンナ|さん|の|ワイン|は|イタリア|の|です|。"
+en = "Anna's country is America. But Anna's wine is Italian."
+ru = "Анна-сан из Америки. Но вино она выбирает итальянское."
+uk = "Анна-сан з Америки. Але вино вона обирає італійське."
+es = "El país de Anna es Estados Unidos. Pero su vino es italiano."
+
+[[prose]]
+ja = "ワイン|は|田[た]中[なか]|さん|の|です|。|田[た]中[なか]|さん|の|家[うち]|は|新[しん]大[おお]阪[さか]|です|。"
+en = "The wine is for Mr. Tanaka. Mr. Tanaka's home is in Shin-Osaka."
+ru = "Вино — для Танаки-сана. Дом Танаки-сана — в Син-Осаке."
+uk = "Вино — для Танаки-сана. Дім Танаки-сана — у Сін-Осаці."
+es = "El vino es para el señor Tanaka. La casa del señor Tanaka está en Shin-Osaka."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|ワイン|の|売[う]り場[ば]|は|どこ|です|か|。"
+en = "Excuse me. Where is the wine counter?"
+ru = "Простите. Где винный отдел?"
+uk = "Перепрошую. Де винний відділ?"
+es = "Perdone. ¿Dónde está la sección de vinos?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "こちら|でございます。|どうぞ|。"
+en = "It's right here. This way, please."
+ru = "Здесь. Проходите, пожалуйста."
+uk = "Тут. Проходьте, будь ласка."
+es = "Es aquí. Pasen, por favor."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "この|ワイン|は|どこ|の|です|か|。"
+en = "Where is this wine from?"
+ru = "Откуда это вино?"
+uk = "Звідки це вино?"
+es = "¿De dónde es este vino?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "イタリア|の|ワイン|でございます。"
+en = "It's an Italian wine."
+ru = "Это итальянское вино."
+uk = "Це італійське вино."
+es = "Es un vino italiano."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "いくら|です|か|。"
+en = "How much is it?"
+ru = "Сколько оно стоит?"
+uk = "Скільки воно коштує?"
+es = "¿Cuánto cuesta?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "２，５００円[えん]=円[えん]|でございます。|そちら|は|スイス|の|ワイン|です|。|５，０００円[えん]=円[えん]|です|。"
+en = "It's 2,500 yen. The one near you is a Swiss wine. It's 5,000 yen."
+ru = "2500 иен. А то, что рядом с вами, — швейцарское. 5000 иен."
+uk = "2500 єн. А те, що біля вас, — швейцарське. 5000 єн."
+es = "Cuesta 2.500 yenes. Ese que tiene al lado es suizo. Cuesta 5.000 yenes."
+
+[[dialog]]
+speaker = "マリア"
+ja = "アンナ|さん|、|お国[くに]|は|どちら|です|か|。"
+en = "Anna, where are you from?"
+ru = "Анна-сан, а вы из какой страны?"
+uk = "Анно-сан, а ви з якої країни?"
+es = "Anna, ¿de qué país eres?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "アメリカ|です|。|でも|、|アメリカ|の|ワイン|じゃ ありません|。|イタリア|の|ワイン|です|。"
+en = "America. But not American wine. Italian wine."
+ru = "Из Америки. Но вино — не американское. Итальянское."
+uk = "З Америки. Але вино — не американське. Італійське."
+es = "De Estados Unidos. Pero el vino, americano no. Italiano."
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|これ|を|ください。"
+en = "Then we'll take this one."
+ru = "Тогда возьмём это."
+uk = "Тоді візьмемо це."
+es = "Entonces nos llevamos este."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop assistant"
+ru = "продавец"
+uk = "продавець"
+es = "dependiente"
+
+[[new]]
+ja = "アメリカ"
+en = "America, the USA"
+ru = "Америка, США"
+uk = "Америка, США"
+es = "Estados Unidos"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"

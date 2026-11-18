@@ -1,0 +1,183 @@
+lesson = 7
+title = { en = "Borrowing the scissors", ru = "Ножницы взаймы", uk = "Ножиці напозичку", es = "Las tijeras prestadas" }
+scene = "An open-plan office: a woman cuts a sheet of paper with scissors at her desk while a smiling older colleague at the next desk looks on; a stapler, a roll of tape, a laptop and an old fax machine nearby."
+
+[[prose]]
+ja = "今日[きょう]|、|マリア|さん|は|会[かい]社[しゃ]|で|レポート|を|書[か]きました=書[か]きます|。|パソコン|で|書[か]きました=書[か]きます|。|日[に]本[ほん]語[ご]|で|書[か]きました=書[か]きます|。"
+en = "Today Maria wrote a report at the office. She wrote it on the computer. She wrote it in Japanese."
+ru = "Сегодня Мария писала на работе доклад. Писала на компьютере. Писала по-японски."
+uk = "Сьогодні Марія писала на роботі доповідь. Писала на комп'ютері. Писала японською."
+es = "Hoy Maria ha escrito un informe en la oficina. Lo ha escrito en el ordenador. Lo ha escrito en japonés."
+
+[[prose]]
+ja = "それから|、|鋏[はさみ]|で|紙[かみ]|を|切[き]りました=切[き]ります|。|鋏[はさみ]|は|田[た]中[なか]|さん|に|借[か]りました=借[か]ります|。"
+en = "Then she cut the paper with scissors. She borrowed the scissors from Mr. Tanaka."
+ru = "Потом она разрезала бумагу ножницами. Ножницы она одолжила у Танаки-сана."
+uk = "Потім вона розрізала папір ножицями. Ножиці вона позичила в Танаки-сана."
+es = "Luego cortó el papel con unas tijeras. Las tijeras se las pidió prestadas al señor Tanaka."
+
+[[prose]]
+ja = "ホッチキス|は|ワン|さん|に|借[か]りました=借[か]ります|。|セロテープ|も|借[か]りました=借[か]ります|。"
+en = "She borrowed a stapler from Wang. She borrowed sticky tape too."
+ru = "Степлер она одолжила у Вана. Скотч тоже."
+uk = "Степлер вона позичила у Вана. Скотч теж."
+es = "La grapadora se la pidió a Wang. También le pidió celo."
+
+[[prose]]
+ja = "四[よ]時[じ]|に|、|ファクス|で|レポート|を|送[おく]りました=送[おく]ります|。|銀[ぎん]行[こう]|の|木[き]村[むら]|さん|に|送[おく]りました=送[おく]ります|。"
+en = "At four she sent the report by fax. She sent it to Mr. Kimura at the bank."
+ru = "В четыре она отправила доклад по факсу. Отправила Кимуре-сану в банк."
+uk = "О четвертій вона надіслала доповідь факсом. Надіслала Кімурі-сану в банк."
+es = "A las cuatro envió el informe por fax. Se lo envió al señor Kimura, del banco."
+
+[[prose]]
+ja = "鋏[はさみ]|は|もう|田[た]中[なか]|さん|に|返[かえ]しました=返[かえ]します|か|。|いいえ|、|まだ|です|。|これから|返[かえ]します|。"
+en = "Has she given the scissors back to Mr. Tanaka yet? No, not yet. She'll return them now."
+ru = "Ножницы она уже вернула Танаке-сану? Нет, ещё нет. Сейчас вернёт."
+uk = "Ножиці вона вже повернула Танаці-сану? Ні, ще ні. Зараз поверне."
+es = "¿Ya le ha devuelto las tijeras al señor Tanaka? No, todavía no. Ahora se las devuelve."
+
+[[prose]]
+ja = "田[た]中[なか]|さん|は|マリア|さん|に|日[に]本[ほん]語[ご]|を|教[おし]えます|。|マリア|さん|は|田[た]中[なか]|さん|に|英[えい]語[ご]|を|教[おし]えます|。"
+en = "Mr. Tanaka teaches Maria Japanese. Maria teaches Mr. Tanaka English."
+ru = "Танака-сан учит Марию японскому. А Мария учит Танаку-сана английскому."
+uk = "Танака-сан навчає Марію японської. А Марія навчає Танаку-сана англійської."
+es = "El señor Tanaka le enseña japonés a Maria. Maria le enseña inglés al señor Tanaka."
+
+[[dialog]]
+speaker = "マリア"
+ja = "田[た]中[なか]|さん|、|すみません|。|鋏[はさみ]|を|借[か]ります|。|いい|です|か|。"
+en = "Mr. Tanaka, excuse me. May I borrow your scissors?"
+ru = "Танака-сан, простите. Можно одолжить ножницы?"
+uk = "Танако-сан, перепрошую. Можна позичити ножиці?"
+es = "Señor Tanaka, perdone. ¿Me presta las tijeras?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "はい|、|どうぞ|。|何[なに]|を|切[き]ります|か|。"
+en = "Sure, here you are. What are you cutting?"
+ru = "Конечно, пожалуйста. А что будете резать?"
+uk = "Звісно, прошу. А що різатимете?"
+es = "Claro, tome. ¿Qué va a cortar?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "紙[かみ]|を|切[き]ります|。|レポート|の|紙[かみ]|です|。"
+en = "Paper. The paper for my report."
+ru = "Бумагу. Бумагу для доклада."
+uk = "Папір. Папір для доповіді."
+es = "Papel. El papel del informe."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "レポート|は|もう|書[か]きました=書[か]きます|か|。"
+en = "Have you written the report already?"
+ru = "Доклад уже написали?"
+uk = "Доповідь уже написали?"
+es = "¿Ya ha escrito el informe?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|もう|書[か]きました=書[か]きます|。|パソコン|で|書[か]きました=書[か]きます|。"
+en = "Yes, I've already written it. I wrote it on the computer."
+ru = "Да, уже написала. На компьютере."
+uk = "Так, уже написала. На комп'ютері."
+es = "Sí, ya lo he escrito. En el ordenador."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "何[なん]語[ご]|で|書[か]きました=書[か]きます|か|。"
+en = "What language did you write it in?"
+ru = "На каком языке?"
+uk = "Якою мовою?"
+es = "¿En qué idioma?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "日[に]本[ほん]語[ご]|で|書[か]きました=書[か]きます|。|田[た]中[なか]|さん|に|習[なら]いました=習[なら]います|。"
+en = "In Japanese. I learned it from you, Mr. Tanaka."
+ru = "По-японски. Я ведь учусь у вас, Танака-сан."
+uk = "Японською. Я ж учуся у вас, Танако-сан."
+es = "En japonés. Lo he aprendido con usted, señor Tanaka."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "いいですね。|その|レポート|は|誰[だれ]|に|送[おく]ります|か|。"
+en = "That's great. Who are you sending the report to?"
+ru = "Отлично. А кому вы отправляете доклад?"
+uk = "Чудово. А кому ви надсилаєте доповідь?"
+es = "Muy bien. ¿A quién le envía el informe?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "銀[ぎん]行[こう]|の|木[き]村[むら]|さん|に|送[おく]ります|。|ファクス|で|送[おく]ります|。"
+en = "To Mr. Kimura at the bank. I'm sending it by fax."
+ru = "Кимуре-сану в банк. По факсу."
+uk = "Кімурі-сану в банк. Факсом."
+es = "Al señor Kimura, del banco. Se lo envío por fax."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "ファクス|です|か|。|銀[ぎん]行[こう]|は|いつも|ファクス|です|ね|。"
+en = "By fax? Banks always use fax, don't they?"
+ru = "По факсу? Банки всегда работают с факсом, да?"
+uk = "Факсом? Банки завжди працюють із факсом, так?"
+es = "¿Por fax? Los bancos siempre van con fax, ¿verdad?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|。|田[た]中[なか]|さん|、|鋏[はさみ]|、|どうもありがとうございました。"
+en = "Yes. Mr. Tanaka, thank you very much for the scissors."
+ru = "Да. Танака-сан, спасибо большое за ножницы."
+uk = "Так. Танако-сан, щиро дякую за ножиці."
+es = "Sí. Señor Tanaka, muchas gracias por las tijeras."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "どういたしまして。"
+en = "You're welcome."
+ru = "Не за что."
+uk = "Нема за що."
+es = "De nada."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "木[き]村[むら]"
+en = "Kimura (a surname)"
+ru = "Кимура (фамилия)"
+uk = "Кімура (прізвище)"
+es = "Kimura (apellido)"
+
+[[new]]
+ja = "返[かえ]します"
+en = "give back, return"
+ru = "возвращать"
+uk = "повертати"
+es = "devolver"
+
+[[new]]
+ja = "何[なん]語[ご]"
+en = "what language"
+ru = "какой язык"
+uk = "яка мова"
+es = "qué idioma"

@@ -2,33 +2,81 @@ lesson = 1
 title = { en = "Our class", ru = "Наш класс", uk = "Наш клас", es = "Nuestra clase" }
 scene = "A small university classroom: a friendly teacher in his fifties stands by the board, three young students of different backgrounds sit at desks and smile."
 
-[[paragraph]]
+[[prose]]
 ja = "こちら|は|山[やま]田[だ]|先[せん]生[せい]|です|。|大[だい]学[がく]|の|先[せん]生[せい]|です|。"
 en = "This is Professor Yamada. He teaches at the university."
 ru = "Это профессор Ямада. Он преподаёт в университете."
 uk = "Це професор Ямада. Він викладає в університеті."
 es = "Este es el profesor Yamada. Da clases en la universidad."
 
-[[paragraph]]
-ja = "私[わたし]たち|は|学[がく]生[せい]|です|。|ワン|さん|は|中[ちゅう]国[ごく]人[じん]|です|。"
-en = "We are students. Mr. Wang is Chinese."
-ru = "Мы студенты. Ван-сан — китаец."
-uk = "Ми студенти. Ван-сан — китаєць."
-es = "Somos estudiantes. El señor Wang es chino."
+[[prose]]
+ja = "私[わたし]たち|は|学[がく]生[せい]|です|。|ワン|さん|は|中[ちゅう]国[ごく]人[じん]|です|。|ワン|さん|は|２０歳[さい]=歳[さい]|です|。"
+en = "We are students. Mr. Wang is Chinese. Mr. Wang is twenty."
+ru = "Мы студенты. Ван-сан — китаец. Ван-сану двадцать лет."
+uk = "Ми студенти. Ван-сан — китаєць. Ван-сану двадцять років."
+es = "Somos estudiantes. El señor Wang es chino. El señor Wang tiene veinte años."
 
-[[paragraph]]
-ja = "カリナ|さん|も|学[がく]生[せい]|です|。|カリナ|さん|は|１９歳[さい]=歳[さい]|です|。"
-en = "Karina is a student too. Karina is nineteen."
-ru = "Карина тоже студентка. Карине девятнадцать лет."
-uk = "Карина теж студентка. Карині дев'ятнадцять років."
-es = "Karina también es estudiante. Karina tiene diecinueve años."
+[[prose]]
+ja = "カリナ|さん|も|学[がく]生[せい]|です|。|カリナ|さん|は|中[ちゅう]国[ごく]人[じん]|じゃ ありません|。|インドネシア人[じん]|です|。|カリナ|さん|は|１９歳[さい]=歳[さい]|です|。"
+en = "Karina is a student too. Karina isn't Chinese. She's Indonesian. Karina is nineteen."
+ru = "Карина тоже студентка. Карина не китаянка. Она индонезийка. Карине девятнадцать лет."
+uk = "Карина теж студентка. Карина не китаянка. Вона індонезійка. Карині дев'ятнадцять років."
+es = "Karina también es estudiante. Karina no es china. Es indonesia. Karina tiene diecinueve años."
 
-[[paragraph]]
-ja = "皆[みな]さん|、|どうぞ よろしく お願[ねが]いします。"
-en = "Everyone, nice to meet you all."
-ru = "Всем приятно познакомиться."
-uk = "Усім приємно познайомитися."
-es = "Encantado de conoceros a todos."
+[[prose]]
+ja = "私[わたし]|は|エンジニア|です|。|学[がく]生[せい]|じゃ ありません|。|でも|、|私[わたし]|も|山[やま]田[だ]|先[せん]生[せい]|の|学[がく]生[せい]|です|。"
+en = "I'm an engineer, not a student. But I'm one of Professor Yamada's students too."
+ru = "Я инженер, а не студент. Но я тоже ученик профессора Ямады."
+uk = "Я інженер, а не студент. Але я теж учень професора Ямади."
+es = "Soy ingeniero, no estudiante. Pero yo también soy alumno del profesor Yamada."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "皆[みな]さん|、|初[はじ]めまして。|山[やま]田[だ]|です|。|どうぞ よろしく お願[ねが]いします。"
+en = "Nice to meet you, everyone. I'm Yamada. I look forward to working with you."
+ru = "Здравствуйте, все. Я Ямада. Рад знакомству."
+uk = "Добрий день усім. Я Ямада. Радий знайомству."
+es = "Encantado, a todos. Soy Yamada. Mucho gusto."
+
+[[dialog]]
+speaker = "ワン"
+ja = "初[はじ]めまして。|ワン|です|。|中[ちゅう]国[ごく]人[じん]|です|。"
+en = "Nice to meet you. I'm Wang. I'm Chinese."
+ru = "Приятно познакомиться. Я Ван. Я китаец."
+uk = "Приємно познайомитися. Я Ван. Я китаєць."
+es = "Encantado. Soy Wang. Soy chino."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "ワン|さん|は|学[がく]生[せい]|です|か|。"
+en = "Mr. Wang, are you a student?"
+ru = "Ван-сан, вы студент?"
+uk = "Ван-сане, ви студент?"
+es = "Señor Wang, ¿es usted estudiante?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "はい|、|大[だい]学[がく]|の|学[がく]生[せい]|です|。|２０歳[さい]=歳[さい]|です|。"
+en = "Yes, I'm a university student. I'm twenty."
+ru = "Да, я студент университета. Мне двадцать лет."
+uk = "Так, я студент університету. Мені двадцять років."
+es = "Sí, soy estudiante universitario. Tengo veinte años."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "カリナ|さん|も|中[ちゅう]国[ごく]人[じん]|です|か|。"
+en = "Karina, are you Chinese too?"
+ru = "Карина-сан, вы тоже китаянка?"
+uk = "Карино-сан, ви теж китаянка?"
+es = "Karina, ¿usted también es china?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいえ|、|中[ちゅう]国[ごく]人[じん]|じゃ ありません|。|インドネシア人[じん]|です|。|どうぞ よろしく。"
+en = "No, I'm not Chinese. I'm Indonesian. Pleased to meet you."
+ru = "Нет, я не китаянка. Я индонезийка. Очень приятно."
+uk = "Ні, я не китаянка. Я індонезійка. Дуже приємно."
+es = "No, no soy china. Soy indonesia. Mucho gusto."
 
 [[new]]
 ja = "山[やま]田[だ]"
@@ -47,9 +95,16 @@ es = "Wang (nombre)"
 [[new]]
 ja = "中[ちゅう]国[ごく]人[じん]"
 en = "Chinese (person)"
-ru = "китаец"
-uk = "китаєць"
-es = "chino (persona)"
+ru = "китаец, китаянка"
+uk = "китаєць, китаянка"
+es = "chino, china (persona)"
+
+[[new]]
+ja = "インドネシア人[じん]"
+en = "Indonesian (person)"
+ru = "индонезиец, индонезийка"
+uk = "індонезієць, індонезійка"
+es = "indonesio, indonesia (persona)"
 
 [[new]]
 ja = "カリナ"
@@ -63,4 +118,11 @@ ja = "歳[さい]"
 en = "… years old"
 ru = "… лет (возраст)"
 uk = "… років (вік)"
-es = "… años"
+es = "… años (de edad)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"

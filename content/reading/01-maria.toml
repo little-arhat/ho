@@ -2,33 +2,81 @@ lesson = 1
 title = { en = "Maria introduces herself", ru = "Мария представляется", uk = "Марія представляється", es = "Maria se presenta" }
 scene = "A young woman with a name tag smiling and bowing slightly to a middle-aged man in a white doctor's coat, in a bright office lobby."
 
-[[paragraph]]
-ja = "初[はじ]めまして。|私[わたし]|は|マリア|です|。"
-en = "Nice to meet you. I'm Maria."
-ru = "Приятно познакомиться. Я Мария."
-uk = "Приємно познайомитися. Я Марія."
-es = "Encantada. Soy Maria."
+[[prose]]
+ja = "初[はじ]めまして。|私[わたし]|は|マリア|です|。|２５歳[さい]=歳[さい]|です|。"
+en = "Nice to meet you. I'm Maria. I'm twenty-five."
+ru = "Приятно познакомиться. Я Мария. Мне двадцать пять лет."
+uk = "Приємно познайомитися. Я Марія. Мені двадцять п'ять років."
+es = "Encantada. Soy Maria. Tengo veinticinco años."
 
-[[paragraph]]
+[[prose]]
 ja = "私[わたし]|は|学[がく]生[せい]|じゃ ありません|。|エンジニア|です|。|IMCの社[しゃ]員[いん]|です|。"
 en = "I'm not a student. I'm an engineer. I work for IMC."
 ru = "Я не студентка. Я инженер. Я сотрудница IMC."
 uk = "Я не студентка. Я інженерка. Я співробітниця IMC."
 es = "No soy estudiante. Soy ingeniera. Trabajo en IMC."
 
-[[paragraph]]
+[[prose]]
 ja = "あの人[ひと]|は|田[た]中[なか]|さん|です|。|田[た]中[なか]|さん|は|医[い]者[しゃ]|です|。|病[びょう]院[いん]|の|先[せん]生[せい]|です|。"
 en = "That person is Mr. Tanaka. Mr. Tanaka is a doctor. He's a doctor at the hospital."
 ru = "Вон тот человек — Танака-сан. Танака-сан — врач. Он врач в больнице."
 uk = "Он та людина — Танака-сан. Танака-сан — лікар. Він лікар у лікарні."
 es = "Esa persona es el señor Tanaka. El señor Tanaka es médico. Es médico del hospital."
 
-[[paragraph]]
+[[prose]]
 ja = "田[た]中[なか]|さん|は|日[に]本[ほん]人[じん]|です|。|私[わたし]|も|医[い]者[しゃ]|です|か|。|いいえ|、|違[ちが]います|。"
 en = "Mr. Tanaka is Japanese. Am I a doctor too? No, I'm not."
 ru = "Танака-сан — японец. Я тоже врач? Нет."
 uk = "Танака-сан — японець. Я теж лікарка? Ні."
 es = "El señor Tanaka es japonés. ¿Yo también soy médica? No, no lo soy."
+
+[[dialog]]
+speaker = "マリア"
+ja = "初[はじ]めまして。|マリア|です|。|IMCの社[しゃ]員[いん]|です|。"
+en = "Nice to meet you. I'm Maria. I work for IMC."
+ru = "Приятно познакомиться. Я Мария. Я сотрудница IMC."
+uk = "Приємно познайомитися. Я Марія. Я співробітниця IMC."
+es = "Encantada. Soy Maria. Trabajo en IMC."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "初[はじ]めまして。|田[た]中[なか]|です|。|失[しつ]礼[れい]ですが|、|マリア|さん|は|エンジニア|です|か|。"
+en = "Nice to meet you. I'm Tanaka. Excuse me, but are you an engineer, Maria?"
+ru = "Приятно познакомиться. Я Танака. Простите, Мария-сан, вы инженер?"
+uk = "Приємно познайомитися. Я Танака. Вибачте, Маріє-сан, ви інженерка?"
+es = "Encantado. Soy Tanaka. Perdone, Maria, ¿es usted ingeniera?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|そう、そう、そう|。|エンジニア|です|。|田[た]中[なか]|さん|も|エンジニア|です|か|。"
+en = "Yes, that's right. I'm an engineer. Are you an engineer too, Mr. Tanaka?"
+ru = "Да-да, всё верно. Я инженер. Танака-сан, вы тоже инженер?"
+uk = "Так-так, усе вірно. Я інженерка. Танако-сан, ви теж інженер?"
+es = "Sí, eso es. Soy ingeniera. Señor Tanaka, ¿usted también es ingeniero?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "いいえ|、|医[い]者[しゃ]|です|。|あの|病[びょう]院[いん]|の|医[い]者[しゃ]|です|。"
+en = "No, I'm a doctor. A doctor at that hospital over there."
+ru = "Нет, я врач. Врач вон в той больнице."
+uk = "Ні, я лікар. Лікар он у тій лікарні."
+es = "No, soy médico. Médico de aquel hospital."
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですか|。|田[た]中[なか]|さん|は|おいくつ|です|か|。"
+en = "I see. May I ask how old you are, Mr. Tanaka?"
+ru = "Вот как. Танака-сан, а сколько вам лет?"
+uk = "Он як. Танако-сан, а скільки вам років?"
+es = "Ya veo. Señor Tanaka, ¿cuántos años tiene?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "４５歳[さい]=歳[さい]|です|。|どうぞ よろしく。"
+en = "I'm forty-five. Pleased to meet you."
+ru = "Сорок пять. Очень приятно."
+uk = "Сорок п'ять. Дуже приємно."
+es = "Cuarenta y cinco. Mucho gusto."
 
 [[new]]
 ja = "マリア"
@@ -43,6 +91,13 @@ en = "Tanaka (a surname)"
 ru = "Танака (фамилия)"
 uk = "Танака (прізвище)"
 es = "Tanaka (apellido)"
+
+[[new]]
+ja = "歳[さい]"
+en = "… years old"
+ru = "… лет (возраст)"
+uk = "… років (вік)"
+es = "… años (de edad)"
 
 [[new]]
 ja = "違[ちが]います"

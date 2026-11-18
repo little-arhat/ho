@@ -2,37 +2,136 @@ lesson = 4
 title = { en = "My day", ru = "Мой день", uk = "Мій день", es = "Mi día" }
 scene = "A cosy morning scene: an alarm clock on a bedside table, a person stretching by a window with the sun rising over a quiet Japanese town."
 
-[[paragraph]]
-ja = "私[わたし]|は|毎[まい]朝[あさ]|七[しち]時[じ]|に|起[お]きます|。"
-en = "I get up at seven every morning."
-ru = "Каждое утро я встаю в семь."
-uk = "Щоранку я встаю о сьомій."
-es = "Me levanto a las siete cada mañana."
+[[prose]]
+ja = "私[わたし]|は|毎[まい]朝[あさ]|七[しち]時[じ]|に|起[お]きます|。|目[め]覚[ざ]まし時[ど]計[けい]|は|六[ろく]時[じ]=時[じ]|半[はん]|です|。|でも|、|七[しち]時[じ]|に|起[お]きます|。"
+en = "I get up at seven every morning. My alarm clock goes off at half past six. But I get up at seven."
+ru = "Каждое утро я встаю в семь. Будильник звонит в половине седьмого. Но встаю я в семь."
+uk = "Щоранку я встаю о сьомій. Будильник дзвонить о пів на сьому. Але встаю я о сьомій."
+es = "Me levanto todas las mañanas a las siete. El despertador suena a las seis y media. Pero me levanto a las siete."
 
-[[paragraph]]
-ja = "九[く]時[じ]から|五[ご]時[じ]まで|働[はたら]きます|。|昼[ひる]休[やす]み|は|一[いち]時[じ]|まで|です|。"
-en = "I work from nine to five. Lunch break lasts until one."
-ru = "Я работаю с девяти до пяти. Обеденный перерыв — до часу."
-uk = "Я працюю з дев'ятої до п'ятої. Обідня перерва — до першої."
-es = "Trabajo de nueve a cinco. El descanso del almuerzo dura hasta la una."
+[[prose]]
+ja = "九[く]時[じ]から|五[ご]時[じ]まで|働[はたら]きます|。|昼[ひる]休[やす]み|は|十[じゅう]二[に]時[じ]=時[じ]|から|一[いち]時[じ]|まで|です|。"
+en = "I work from nine to five. Lunch break is from twelve to one."
+ru = "Я работаю с девяти до пяти. Обеденный перерыв — с двенадцати до часу."
+uk = "Я працюю з дев'ятої до п'ятої. Обідня перерва — з дванадцятої до першої."
+es = "Trabajo de nueve a cinco. La pausa para comer es de doce a una."
 
-[[paragraph]]
-ja = "毎[まい]晩[ばん]|勉[べん]強[きょう]します|。|昨日[きのう]|は|勉[べん]強[きょう]しませんでした=勉[べん]強[きょう]します|。|大[たい]変[へん]ですね。"
-en = "I study every evening. Yesterday I didn't study. Tough, isn't it?"
-ru = "Каждый вечер я занимаюсь. Вчера не занимался. Тяжело, да?"
-uk = "Щовечора я вчуся. Учора не вчився. Важко, так?"
-es = "Estudio todas las tardes. Ayer no estudié. Qué duro, ¿verdad?"
+[[prose]]
+ja = "毎[まい]晩[ばん]|勉[べん]強[きょう]します|。|八[はち]時[じ]=時[じ]|から|十[じゅう]時[じ]=時[じ]|まで|勉[べん]強[きょう]します|。|そして|、|十[じゅう]一[いち]時[じ]=時[じ]|に|寝[ね]ます|。"
+en = "I study every evening. I study from eight to ten. And I go to bed at eleven."
+ru = "Каждый вечер я занимаюсь. С восьми до десяти. А в одиннадцать ложусь спать."
+uk = "Щовечора я навчаюся. З восьмої до десятої. А об одинадцятій лягаю спати."
+es = "Estudio todas las noches. Estudio de ocho a diez. Y me acuesto a las once."
 
-[[paragraph]]
-ja = "今日[きょう]|は|土[ど]曜[よう]日[び]|です|。|休[やす]み|です|。|十[じゅう]時[じ]=時[じ]|に|起[お]きました=起[お]きます|。"
-en = "Today is Saturday. It's my day off. I got up at ten."
-ru = "Сегодня суббота. Выходной. Я встал в десять."
-uk = "Сьогодні субота. Вихідний. Я встав о десятій."
-es = "Hoy es sábado. Es mi día libre. Me levanté a las diez."
+[[prose]]
+ja = "昨日[きのう]|は|勉[べん]強[きょう]しませんでした=勉[べん]強[きょう]します|。|十[じゅう]時[じ]=時[じ]|まで|働[はたら]きました=働[はたら]きます|。|大[たい]変[へん]ですね。"
+en = "Yesterday I didn't study. I worked until ten. Tough, isn't it?"
+ru = "Вчера я не занималась. Работала до десяти. Тяжело, правда?"
+uk = "Учора я не навчалася. Працювала до десятої. Важко, правда?"
+es = "Ayer no estudié. Trabajé hasta las diez. Duro, ¿verdad?"
+
+[[prose]]
+ja = "今日[きょう]|は|土[ど]曜[よう]日[び]|です|。|休[やす]み|です|。|十[じゅう]時[じ]=時[じ]|に|起[お]きました=起[お]きます|。|明日[あした]|も|休[やす]みます|。"
+en = "Today is Saturday. It's my day off. I got up at ten. Tomorrow I'm off too."
+ru = "Сегодня суббота. Выходной. Я встала в десять. Завтра тоже отдыхаю."
+uk = "Сьогодні субота. Вихідний. Я встала о десятій. Завтра теж відпочиваю."
+es = "Hoy es sábado. Es mi día libre. Me levanté a las diez. Mañana también descanso."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "マリア|さん|は|毎[まい]朝[あさ]|何[なん]時[じ]|に|起[お]きます|か|。"
+en = "Maria, what time do you get up every morning?"
+ru = "Мария-сан, во сколько вы встаёте по утрам?"
+uk = "Маріє-сан, о котрій ви встаєте щоранку?"
+es = "Maria, ¿a qué hora te levantas por las mañanas?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "七[しち]時[じ]|に|起[お]きます|。|田[た]中[なか]|さん|は|？"
+en = "I get up at seven. And you, Mr. Tanaka?"
+ru = "В семь. А вы, Танака-сан?"
+uk = "О сьомій. А ви, Танако-сан?"
+es = "A las siete. ¿Y usted, señor Tanaka?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "私[わたし]|は|五[ご]時[じ]=時[じ]|半[はん]|に|起[お]きます|。|病[びょう]院[いん]|は|七[しち]時[じ]|から|です|。"
+en = "I get up at half past five. The hospital starts at seven."
+ru = "Я встаю в половине шестого. В больнице я с семи."
+uk = "Я встаю о пів на шосту. У лікарні я з сьомої."
+es = "Yo me levanto a las cinco y media. En el hospital empiezo a las siete."
+
+[[dialog]]
+speaker = "マリア"
+ja = "大[たい]変[へん]ですね。|何[なん]時[じ]|まで|働[はたら]きます|か|。"
+en = "That's tough. Until what time do you work?"
+ru = "Тяжело. А до скольки вы работаете?"
+uk = "Важко. А до котрої ви працюєте?"
+es = "Qué duro. ¿Hasta qué hora trabaja?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "六[ろく]時[じ]=時[じ]|まで|です|。|マリア|さん|は|毎[まい]晩[ばん]|勉[べん]強[きょう]します|か|。"
+en = "Until six. Do you study every evening, Maria?"
+ru = "До шести. Мария-сан, вы занимаетесь каждый вечер?"
+uk = "До шостої. Маріє-сан, ви навчаєтеся щовечора?"
+es = "Hasta las seis. Maria, ¿estudias todas las noches?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|。|でも|、|昨日[きのう]|は|勉[べん]強[きょう]しませんでした=勉[べん]強[きょう]します|。|十[じゅう]時[じ]=時[じ]|まで|働[はたら]きました=働[はたら]きます|。"
+en = "Yes. But yesterday I didn't study. I worked until ten."
+ru = "Да. Но вчера не занималась. Работала до десяти."
+uk = "Так. Але вчора не навчалася. Працювала до десятої."
+es = "Sí. Pero ayer no estudié. Trabajé hasta las diez."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "そうですか。|明日[あした]|は|休[やす]み|です|か|。"
+en = "I see. Are you off tomorrow?"
+ru = "Вот как. А завтра у вас выходной?"
+uk = "Он як. А завтра у вас вихідний?"
+es = "Ya veo. ¿Mañana libras?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|土[ど]曜[よう]日[び]|と|日[にち]曜[よう]日[び]|は|休[やす]みます|。"
+en = "Yes, I'm off on Saturday and Sunday."
+ru = "Да, в субботу и воскресенье я отдыхаю."
+uk = "Так, у суботу й неділю я відпочиваю."
+es = "Sí, el sábado y el domingo descanso."
 
 [[new]]
 ja = "時[じ]"
 en = "… o'clock"
-ru = "… часов"
+ru = "… час(ов)"
 uk = "… година"
 es = "las … (hora)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "そして"
+en = "and, and then"
+ru = "и, а потом"
+uk = "і, а потім"
+es = "y, y luego"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"

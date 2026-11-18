@@ -2,30 +2,167 @@ lesson = 6
 title = { en = "My habits", ru = "Мои привычки", uk = "Мої звички", es = "Mis costumbres" }
 scene = "A quiet public library on a Saturday: a person reading at a long wooden table, a letter and a pen beside the open book, sunlight through tall windows."
 
-[[paragraph]]
-ja = "私[わたし]|は|煙草[たばこ]|を|吸[す]いません=吸[す]います|。|お|酒[さけ]|も|めったに|飲[の]みません=飲[の]みます|。"
-en = "I don't smoke. I hardly ever drink alcohol either."
-ru = "Я не курю. Алкоголь тоже почти не пью."
-uk = "Я не курю. Алкоголь теж майже не п'ю."
-es = "No fumo. Tampoco bebo casi nunca alcohol."
+[[prose]]
+ja = "私[わたし]|は|煙草[たばこ]|を|吸[す]いません=吸[す]います|。|一[いち]度[ど]も|吸[す]いませんでした=吸[す]います|。|お|酒[さけ]|も|めったに|飲[の]みません=飲[の]みます|。"
+en = "I don't smoke. I have never smoked, not even once. I hardly ever drink alcohol either."
+ru = "Я не курю. Ни разу не курила. Алкоголь тоже почти не пью."
+uk = "Я не палю. Жодного разу не палила. Алкоголю теж майже не п'ю."
+es = "No fumo. No he fumado nunca, ni una vez. Tampoco bebo casi nunca alcohol."
 
-[[paragraph]]
-ja = "毎[まい]朝[あさ]|牛[ぎゅう]乳[にゅう]|を|飲[の]みます|。|時[とき]々[どき]|ジュース|も|飲[の]みます|。"
-en = "Every morning I drink milk. Sometimes I drink juice too."
-ru = "Каждое утро я пью молоко. Иногда и сок."
-uk = "Щоранку я п'ю молоко. Іноді й сік."
-es = "Cada mañana bebo leche. A veces también bebo zumo."
+[[prose]]
+ja = "毎[まい]朝[あさ]|牛[ぎゅう]乳[にゅう]|を|飲[の]みます|。|時[とき]々[どき]|ジュース|も|飲[の]みます|。|コーヒー|は|そんなに|飲[の]みません=飲[の]みます|。"
+en = "Every morning I drink milk. Sometimes I drink juice too. I don't drink coffee all that much."
+ru = "Каждое утро я пью молоко. Иногда ещё и сок. Кофе пью не так уж много."
+uk = "Щоранку я п'ю молоко. Іноді ще й сік. Каву п'ю не так уже й багато."
+es = "Todas las mañanas bebo leche. A veces también zumo. Café no tomo tanto."
 
-[[paragraph]]
-ja = "土[ど]曜[よう]日[び]|は|いつも|図[と]書[しょ]館[かん]|で|本[ほん]|を|読[よ]みます|。|手[て]紙[がみ]|も|書[か]きます|。"
-en = "On Saturdays I always read books at the library. I write letters too."
-ru = "По субботам я всегда читаю в библиотеке. И пишу письма."
-uk = "Щосуботи я завжди читаю в бібліотеці. І пишу листи."
-es = "Los sábados siempre leo libros en la biblioteca. También escribo cartas."
+[[prose]]
+ja = "土[ど]曜[よう]日[び]|は|いつも|図[と]書[しょ]館[かん]|で|本[ほん]|を|読[よ]みます|。|手[て]紙[がみ]|も|書[か]きます|。|図[と]書[しょ]館[かん]|は|静[しず]か|です|。"
+en = "On Saturdays I always read books at the library. I write letters too. The library is quiet."
+ru = "По субботам я всегда читаю книги в библиотеке. И пишу письма. В библиотеке тихо."
+uk = "Щосуботи я завжди читаю книжки в бібліотеці. І пишу листи. У бібліотеці тихо."
+es = "Los sábados siempre leo libros en la biblioteca. También escribo cartas. La biblioteca es tranquila."
 
-[[paragraph]]
-ja = "日[にち]曜[よう]日[び]|は|デパート|で|靴[くつ]|を|買[か]います|。|そして|、|写[しゃ]真[しん]|を|撮[と]ります|。"
-en = "On Sundays I buy shoes at the department store. And I take photos."
-ru = "По воскресеньям покупаю обувь в универмаге. И фотографирую."
-uk = "Щонеділі купую взуття в універмазі. І фотографую."
-es = "Los domingos compro zapatos en los grandes almacenes. Y hago fotos."
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|は|デパート|で|靴[くつ]|と|服[ふく]|を|買[か]います|。|そして|、|写[しゃ]真[しん]|を|撮[と]ります|。"
+en = "On Sundays I buy shoes and clothes at the department store. And I take photos."
+ru = "По воскресеньям покупаю в универмаге обувь и одежду. И фотографирую."
+uk = "Щонеділі купую в універмазі взуття та одяг. І фотографую."
+es = "Los domingos compro zapatos y ropa en los grandes almacenes. Y hago fotos."
+
+[[prose]]
+ja = "晩[ばん]ご飯[はん]|は|いつも|家[うち]|で|食[た]べます|。|肉[にく]|は|めったに|食[た]べません=食[た]べます|。|魚[さかな]|と|野[や]菜[さい]|を|よく|食[た]べます|。"
+en = "I always have dinner at home. I rarely eat meat. I often eat fish and vegetables."
+ru = "Ужинаю я всегда дома. Мясо ем редко. Часто ем рыбу и овощи."
+uk = "Вечеряю я завжди вдома. М'ясо їм рідко. Часто їм рибу й овочі."
+es = "Siempre ceno en casa. Casi nunca como carne. A menudo como pescado y verdura."
+
+[[prose]]
+ja = "テレビ|は|そんなに|見[み]ません=見[み]ます|。|でも|、|時[とき]々[どき]|動[どう]画[が]|を|見[み]ます|。|日[に]本[ほん]語[ご]|の|動[どう]画[が]|です|。"
+en = "I don't watch TV that much. But I sometimes watch videos. Videos in Japanese."
+ru = "Телевизор смотрю не так уж часто. Но иногда смотрю видео. На японском."
+uk = "Телевізор дивлюся не так уже й часто. Але іноді дивлюся відео. Японською."
+es = "No veo mucho la tele. Pero a veces veo vídeos. Vídeos en japonés."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "カリナ|さん|は|煙草[たばこ]|を|吸[す]います|か|。"
+en = "Karina, do you smoke?"
+ru = "Карина-сан, вы курите?"
+uk = "Карино-сан, ви палите?"
+es = "Karina, ¿fumas?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいえ|、|吸[す]いません=吸[す]います|。|一[いち]度[ど]も|吸[す]いませんでした=吸[す]います|。"
+en = "No, I don't. I've never smoked, not once."
+ru = "Нет, не курю. Ни разу не курила."
+uk = "Ні, не палю. Жодного разу не палила."
+es = "No, no fumo. No he fumado nunca."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "お|酒[さけ]|は|？"
+en = "What about alcohol?"
+ru = "А алкоголь?"
+uk = "А алкоголь?"
+es = "¿Y alcohol?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "めったに|飲[の]みません=飲[の]みます|。|いつも|お茶[ちゃ]|か|ジュース|を|飲[の]みます|。"
+en = "I hardly ever drink. I always have tea or juice."
+ru = "Почти не пью. Обычно пью чай или сок."
+uk = "Майже не п'ю. Зазвичай п'ю чай або сік."
+es = "Casi nunca bebo. Siempre tomo té o zumo."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "土[ど]曜[よう]日[び]|は|何[なに]|を|します|か|。"
+en = "What do you do on Saturdays?"
+ru = "А что вы делаете по субботам?"
+uk = "А що ви робите по суботах?"
+es = "¿Qué haces los sábados?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いつも|図[と]書[しょ]館[かん]|で|本[ほん]|を|読[よ]みます|。|時[とき]々[どき]|手[て]紙[がみ]|も|書[か]きます|。"
+en = "I always read books at the library. Sometimes I write letters too."
+ru = "Всегда читаю книги в библиотеке. Иногда ещё пишу письма."
+uk = "Завжди читаю книжки в бібліотеці. Іноді ще пишу листи."
+es = "Siempre leo libros en la biblioteca. A veces también escribo cartas."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "誰[だれ]|に|手[て]紙[がみ]|を|書[か]きます|か|。"
+en = "Who do you write letters to?"
+ru = "А кому вы пишете письма?"
+uk = "А кому ви пишете листи?"
+es = "¿A quién escribes cartas?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "家[か]族[ぞく]|に|書[か]きます|。|日[に]本[ほん]語[ご]|の|手[て]紙[がみ]|です|。"
+en = "To my family. Letters in Japanese."
+ru = "Семье. Письма на японском."
+uk = "Родині. Листи японською."
+es = "A mi familia. Cartas en japonés."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "そうですか。|テレビ|は|よく|見[み]ます|か|。"
+en = "I see. Do you watch TV often?"
+ru = "Вот как. А телевизор часто смотрите?"
+uk = "Он як. А телевізор часто дивитеся?"
+es = "Ya veo. ¿Ves mucho la tele?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "そんなに|見[み]ません=見[み]ます|。|でも|、|時[とき]々[どき]|日[に]本[ほん]語[ご]|の|動[どう]画[が]|を|見[み]ます|。"
+en = "Not that much. But sometimes I watch videos in Japanese."
+ru = "Не так уж часто. Но иногда смотрю видео на японском."
+uk = "Не так уже й часто. Але іноді дивлюся відео японською."
+es = "No tanto. Pero a veces veo vídeos en japonés."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "いいですね。"
+en = "That's good."
+ru = "Это хорошо."
+uk = "Це добре."
+es = "Eso está bien."
+
+[[new]]
+ja = "静[しず]か"
+en = "quiet"
+ru = "тихий"
+uk = "тихий"
+es = "tranquilo"
+
+[[new]]
+ja = "服[ふく]"
+en = "clothes"
+ru = "одежда"
+uk = "одяг"
+es = "ropa"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "山[やま]田[だ]"
+en = "Yamada (a surname)"
+ru = "Ямада (фамилия)"
+uk = "Ямада (прізвище)"
+es = "Yamada (apellido)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"

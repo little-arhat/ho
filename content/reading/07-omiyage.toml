@@ -2,23 +2,190 @@ lesson = 7
 title = { en = "A souvenir from Spain", ru = "Сувенир из Испании", uk = "Сувенір з Іспанії", es = "Un recuerdo de España" }
 scene = "A guest standing in the doorway of a Japanese home holding out a small gift bag, the host smiling and inviting them in, slippers ready in the entrance."
 
-[[paragraph]]
-ja = "先[せん]月[げつ]|、|ヨーロッパ|へ|旅[りょ]行[こう]|しました=します|。|スペイン|で|お土産[みやげ]|を|買[か]いました=買[か]います|。"
-en = "Last month I travelled to Europe. In Spain I bought souvenirs."
-ru = "В прошлом месяце я ездил в Европу. В Испании купил сувениры."
-uk = "Минулого місяця я їздив до Європи. В Іспанії купив сувеніри."
-es = "El mes pasado viajé a Europa. En España compré recuerdos."
+[[prose]]
+ja = "先[せん]月[げつ]|、|ヨーロッパ|へ|旅[りょ]行[こう]|しました=します|。|スペイン|と|イタリア|へ|行[い]きました=行[い]きます|。|スペイン|で|お土産[みやげ]|を|買[か]いました=買[か]います|。"
+en = "Last month I travelled to Europe. I went to Spain and Italy. In Spain I bought souvenirs."
+ru = "В прошлом месяце я ездила в Европу. Была в Испании и Италии. В Испании купила сувениры."
+uk = "Минулого місяця я їздила до Європи. Була в Іспанії та Італії. В Іспанії купила сувеніри."
+es = "El mes pasado viajé por Europa. Fui a España y a Italia. En España compré recuerdos."
 
-[[paragraph]]
-ja = "日[にち]曜[よう]日[び]|、|友[とも]達[だち]|の|家[うち]|へ|行[い]きました=行[い]きます|。|ごめんください。|いらっしゃい。|どうぞお上[あ]がりください。"
-en = "On Sunday I went to a friend's home. \"Hello, anyone home?\" \"Welcome. Please come in.\""
-ru = "В воскресенье я пошёл к другу домой. «Есть кто дома?» — «Добро пожаловать. Проходите»."
-uk = "У неділю я пішов до друга додому. «Є хтось удома?» — «Ласкаво просимо. Проходьте»."
-es = "El domingo fui a casa de un amigo. «¿Hola, hay alguien?» «Bienvenido. Pasa, por favor.»"
+[[prose]]
+ja = "スペイン|で|は|スペイン語[ご]|で|話[はな]しました=話[はな]します|。|でも|、|イタリア|で|は|英[えい]語[ご]|で|話[はな]しました=話[はな]します|。"
+en = "In Spain I spoke Spanish. But in Italy I spoke English."
+ru = "В Испании я говорила по-испански. А в Италии — по-английски."
+uk = "В Іспанії я говорила іспанською. А в Італії — англійською."
+es = "En España hablé en español. Pero en Italia hablé en inglés."
 
-[[paragraph]]
-ja = "友[とも]達[だち]|に|お土産[みやげ]|を|あげました=あげます|。|コーヒー|は|いかがですか。|いただきます。"
-en = "I gave my friend the souvenir. \"How about some coffee?\" \"Thank you, I'd love some.\""
-ru = "Я подарил другу сувенир. «Не хотите кофе?» — «Спасибо, с удовольствием»."
-uk = "Я подарував другові сувенір. «Чи не бажаєте кави?» — «Дякую, залюбки»."
-es = "Le di el recuerdo a mi amigo. «¿Qué tal un café?» «Gracias, me encantaría.»"
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|、|由[ゆ]紀[き]|さん|の|家[うち]|へ|行[い]きました=行[い]きます|。|由[ゆ]紀[き]|さん|は|私[わたし]|の|日[に]本[ほん]語[ご]|の|先[せん]生[せい]|です|。|私[わたし]|は|由[ゆ]紀[き]|さん|に|日[に]本[ほん]語[ご]|を|習[なら]います|。"
+en = "On Sunday I went to Yuki's home. Yuki is my Japanese teacher. I learn Japanese from her."
+ru = "В воскресенье я ходила в гости к Юки. Юки — моя учительница японского. Я учу у неё японский."
+uk = "У неділю я ходила в гості до Юкі. Юкі — моя вчителька японської. Я вчу в неї японську."
+es = "El domingo fui a casa de Yuki. Yuki es mi profesora de japonés. Aprendo japonés con ella."
+
+[[prose]]
+ja = "由[ゆ]紀[き]|さん|に|お土産[みやげ]|を|あげました=あげます|。|スペイン|の|チョコレート|です|。|由[ゆ]紀[き]|さん|の|お母[かあ]さん|に|も|あげました=あげます|。"
+en = "I gave Yuki the souvenir. It was Spanish chocolate. I gave some to Yuki's mother too."
+ru = "Я подарила Юки сувенир — испанский шоколад. Подарила и маме Юки."
+uk = "Я подарувала Юкі сувенір — іспанський шоколад. Подарувала й мамі Юкі."
+es = "Le di a Yuki el recuerdo. Era chocolate español. También le di a la madre de Yuki."
+
+[[prose]]
+ja = "由[ゆ]紀[き]|さん|の|お母[かあ]さん|は|私[わたし]|に|お茶[ちゃ]|と|お菓[か]子[し]|を|くれました|。|私[わたし]|は|箸[はし]|で|お菓[か]子[し]|を|食[た]べました=食[た]べます|。"
+en = "Yuki's mother gave me tea and sweets. I ate the sweets with chopsticks."
+ru = "Мама Юки угостила меня чаем и сладостями. Сладости я ела палочками."
+uk = "Мама Юкі пригостила мене чаєм і солодощами. Солодощі я їла паличками."
+es = "La madre de Yuki me dio té y dulces. Me comí los dulces con palillos."
+
+[[prose]]
+ja = "由[ゆ]紀[き]|さん|は|もう|スペイン|へ|行[い]きました=行[い]きます|か|。|いいえ|、|まだ|です|。|来[らい]年[ねん]|、|一[いっ]緒[しょ]に|行[い]きます|。"
+en = "Has Yuki been to Spain yet? No, not yet. Next year we'll go together."
+ru = "Юки уже была в Испании? Нет, ещё нет. В следующем году поедем вместе."
+uk = "Юкі вже була в Іспанії? Ні, ще ні. Наступного року поїдемо разом."
+es = "¿Yuki ya ha estado en España? No, todavía no. El año que viene iremos juntas."
+
+[[dialog]]
+speaker = "マリア"
+ja = "ごめんください。"
+en = "Hello, anyone home?"
+ru = "Есть кто дома?"
+uk = "Є хто вдома?"
+es = "¿Se puede? ¿Hay alguien?"
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "あ|、|マリア|さん|。|いらっしゃい。|どうぞお上[あ]がりください。"
+en = "Oh, Maria! Welcome. Please come in."
+ru = "О, Мария! Добро пожаловать. Проходи, пожалуйста."
+uk = "О, Маріє! Ласкаво просимо. Проходь, будь ласка."
+es = "¡Ah, Maria! Bienvenida. Pasa, por favor."
+
+[[dialog]]
+speaker = "マリア"
+ja = "失[しつ]礼[れい]します|。|これ|、|スペイン|の|お土産[みやげ]|です|。|ほんの気[き]持[も]ちです。"
+en = "Excuse me for coming in. This is a souvenir from Spain. Just a small token."
+ru = "Извините за беспокойство. Это сувенир из Испании. Небольшой знак внимания."
+uk = "Вибачте за турботу. Це сувенір з Іспанії. Невеликий знак уваги."
+es = "Con permiso. Esto es un recuerdo de España. Es solo un detalle."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "どうもありがとうございます。|何[なん]|です|か|。"
+en = "Thank you very much. What is it?"
+ru = "Большое спасибо. А что это?"
+uk = "Щиро дякую. А що це?"
+es = "Muchas gracias. ¿Qué es?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "スペイン|の|チョコレート|です|。|お母[かあ]さん|に|も|どうぞ|。"
+en = "Spanish chocolate. Some for your mother too."
+ru = "Испанский шоколад. И для мамы тоже."
+uk = "Іспанський шоколад. І для мами теж."
+es = "Chocolate español. Para tu madre también."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "すてきですね。|マリア|さん|、|コーヒー|は|いかがですか。"
+en = "How lovely! Maria, would you like some coffee?"
+ru = "Как здорово! Мария, хочешь кофе?"
+uk = "Як чудово! Маріє, хочеш кави?"
+es = "¡Qué bonito! Maria, ¿te apetece un café?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|いただきます。"
+en = "Yes, thank you, I'd love some."
+ru = "Да, с удовольствием."
+uk = "Так, із задоволенням."
+es = "Sí, gracias, con mucho gusto."
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "マリア|さん|、|お菓[か]子[し]|も|どうぞ|。|箸[はし]|で|食[た]べます|か|、|フォーク|で|食[た]べます|か|。"
+en = "Maria, have some sweets too. Will you eat them with chopsticks or with a fork?"
+ru = "Мария, угощайся и сладостями. Будешь есть палочками или вилкой?"
+uk = "Маріє, пригощайся й солодощами. Їстимеш паличками чи виделкою?"
+es = "Maria, toma también dulces. ¿Los comes con palillos o con tenedor?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "箸[はし]|で|食[た]べます|。|いただきます。"
+en = "With chopsticks. Thank you for the food."
+ru = "Палочками. Спасибо за угощение!"
+uk = "Паличками. Дякую за частування!"
+es = "Con palillos. ¡Gracias por la comida!"
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "マリア|さん|、|「|スペイン|」|は|スペイン語[ご]|で|何[なん]|です|か|。"
+en = "Maria, what is “Spain” in Spanish?"
+ru = "Мария, как будет «Испания» по-испански?"
+uk = "Маріє, як буде «Іспанія» іспанською?"
+es = "Maria, ¿cómo se dice «スペイン» en español?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "「|エスパーニャ|」|です|。"
+en = "“España.”"
+ru = "«Эспанья»."
+uk = "«Еспанья»."
+es = "«España»."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "お母[かあ]さん|、|もう|チョコレート|を|食[た]べました=食[た]べます|か|。"
+en = "Mum, have you eaten the chocolate yet?"
+ru = "Мам, ты уже попробовала шоколад?"
+uk = "Мам, ти вже скуштувала шоколад?"
+es = "Mamá, ¿ya has probado el chocolate?"
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "いいえ|、|まだ|です|。|これから|食[た]べます|。"
+en = "No, not yet. I'm about to."
+ru = "Нет, ещё нет. Сейчас попробую."
+uk = "Ні, ще ні. Зараз скуштую."
+es = "No, todavía no. Ahora lo pruebo."
+
+[[new]]
+ja = "由[ゆ]紀[き]"
+en = "Yuki (a name)"
+ru = "Юки (имя)"
+uk = "Юкі (ім'я)"
+es = "Yuki (nombre)"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "話[はな]します"
+en = "speak, talk"
+ru = "говорить"
+uk = "говорити"
+es = "hablar"
+
+[[new]]
+ja = "お菓[か]子[し]"
+en = "sweets, snacks"
+ru = "сладости"
+uk = "солодощі"
+es = "dulces"
+
+[[new]]
+ja = "エスパーニャ"
+en = "España (Spain, in Spanish)"
+ru = "España (Испания по-испански)"
+uk = "España (Іспанія іспанською)"
+es = "España"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"

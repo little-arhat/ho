@@ -2,33 +2,104 @@ lesson = 2
 title = { en = "On my desk", ru = "На моём столе", uk = "На моєму столі", es = "En mi escritorio" }
 scene = "A tidy wooden desk seen from above: a laptop, a thick dictionary, a paperback book, a notebook and a few pencils, warm morning light."
 
-[[paragraph]]
-ja = "これ|は|私[わたし]|の|机[つくえ]|です|。"
-en = "This is my desk."
-ru = "Это мой стол."
-uk = "Це мій стіл."
-es = "Este es mi escritorio."
+[[prose]]
+ja = "これ|は|私[わたし]|の|机[つくえ]|です|。|この|椅[い]子[す]|も|私[わたし]|の|です|。"
+en = "This is my desk. This chair is mine too."
+ru = "Это мой стол. Этот стул тоже мой."
+uk = "Це мій стіл. Цей стілець теж мій."
+es = "Este es mi escritorio. Esta silla también es mía."
 
-[[paragraph]]
+[[prose]]
 ja = "この|本[ほん]|は|日[に]本[ほん]語[ご]|の|本[ほん]|です|。|その|辞[じ]書[しょ]|は|英[えい]語[ご]|の|辞[じ]書[しょ]|です|。"
 en = "This book is a Japanese book. That dictionary is an English dictionary."
 ru = "Эта книга — на японском. Тот словарь — английский."
 uk = "Ця книга — японською. Той словник — англійський."
 es = "Este libro es un libro de japonés. Ese diccionario es un diccionario de inglés."
 
-[[paragraph]]
-ja = "あれ|は|パソコン|です|か|、|テレビ|です|か|。|パソコン|です|。"
-en = "Is that over there a computer or a TV? It's a computer."
-ru = "Вон то — компьютер или телевизор? Компьютер."
-uk = "Он те — комп'ютер чи телевізор? Комп'ютер."
-es = "¿Aquello es un ordenador o una tele? Es un ordenador."
+[[prose]]
+ja = "あれ|は|パソコン|です|か|、|テレビ|です|か|。|パソコン|です|。|私[わたし]|の|パソコン|じゃ ありません|。|兄[あに]|の|です|。"
+en = "Is that over there a computer or a TV? It's a computer. It isn't my computer. It's my older brother's."
+ru = "Вон то — компьютер или телевизор? Компьютер. Это не мой компьютер. Он моего старшего брата."
+uk = "Он те — комп'ютер чи телевізор? Комп'ютер. Це не мій комп'ютер. Він мого старшого брата."
+es = "¿Aquello es un ordenador o una tele? Es un ordenador. No es mi ordenador. Es de mi hermano mayor."
 
-[[paragraph]]
-ja = "この|鉛[えん]筆[ぴつ]|は|誰[だれ]|の|です|か|。|ワン|さん|の|です|。"
-en = "Whose pencil is this? It's Mr. Wang's."
-ru = "Чей это карандаш? Ван-сана."
-uk = "Чий це олівець? Ван-сана."
-es = "¿De quién es este lápiz? Es del señor Wang."
+[[prose]]
+ja = "この|鉛[えん]筆[ぴつ]|は|誰[だれ]|の|です|か|。|ワン|さん|の|です|。|その|ノート|も|ワン|さん|の|です|。"
+en = "Whose pencil is this? It's Mr. Wang's. That notebook is Mr. Wang's too."
+ru = "Чей это карандаш? Ван-сана. Та тетрадь тоже Ван-сана."
+uk = "Чий це олівець? Ван-сана. Той зошит теж Ван-сана."
+es = "¿De quién es este lápiz? Es del señor Wang. Ese cuaderno también es del señor Wang."
+
+[[prose]]
+ja = "これ|は|何[なん]|です|か|。|目[め]覚[ざ]まし時[ど]計[けい]|です|。|私[わたし]|の|目[め]覚[ざ]まし時[ど]計[けい]|です|。"
+en = "What is this? It's an alarm clock. It's my alarm clock."
+ru = "Что это? Будильник. Это мой будильник."
+uk = "Що це? Будильник. Це мій будильник."
+es = "¿Qué es esto? Es un despertador. Es mi despertador."
+
+[[dialog]]
+speaker = "ワン"
+ja = "あのう|、|それ|は|何[なん]|です|か|。"
+en = "Um, what is that?"
+ru = "Простите, а что это?"
+uk = "Вибачте, а що це?"
+es = "Perdona, ¿qué es eso?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "これ|です|か|。|辞[じ]書[しょ]|です|。|英[えい]語[ご]|の|辞[じ]書[しょ]|です|。"
+en = "This? It's a dictionary. An English dictionary."
+ru = "Это? Словарь. Английский словарь."
+uk = "Це? Словник. Англійський словник."
+es = "¿Esto? Es un diccionario. Un diccionario de inglés."
+
+[[dialog]]
+speaker = "ワン"
+ja = "そうですか。|その|本[ほん]|も|英[えい]語[ご]|の|本[ほん]|です|か|。"
+en = "I see. Is that book an English book too?"
+ru = "Вот как. Та книга тоже на английском?"
+uk = "Он як. Та книга теж англійською?"
+es = "Ya veo. ¿Ese libro también es de inglés?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "いいえ|、|違[ちが]います。|日[に]本[ほん]語[ご]|の|本[ほん]|です|。"
+en = "No, it isn't. It's a Japanese book."
+ru = "Нет. Это книга на японском."
+uk = "Ні. Це книга японською."
+es = "No. Es un libro de japonés."
+
+[[dialog]]
+speaker = "ワン"
+ja = "あれ|は|マリア|さん|の|パソコン|です|か|。"
+en = "Is that your computer over there, Maria?"
+ru = "А вон то — ваш компьютер, Мария-сан?"
+uk = "А он те — ваш комп'ютер, Маріє-сан?"
+es = "Maria, ¿aquel es tu ordenador?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|そうです。|あの|パソコン|は|私[わたし]|の|です|。"
+en = "Yes, it is. That computer is mine."
+ru = "Да. Тот компьютер мой."
+uk = "Так. Той комп'ютер мій."
+es = "Sí. Aquel ordenador es mío."
+
+[[dialog]]
+speaker = "ワン"
+ja = "この|鉛[えん]筆[ぴつ]|は|誰[だれ]|の|です|か|。"
+en = "Whose pencil is this?"
+ru = "А чей этот карандаш?"
+uk = "А чий цей олівець?"
+es = "¿Y de quién es este lápiz?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "えーと|…|ワン|さん|の|です|。"
+en = "Let me see… It's yours, Wang."
+ru = "Так… Это ваш, Ван-сан."
+uk = "Так… Це ваш, Ван-сане."
+es = "A ver… Es tuyo, Wang."
 
 [[new]]
 ja = "ワン"
@@ -36,3 +107,17 @@ en = "Wang (a name)"
 ru = "Ван (имя)"
 uk = "Ван (ім'я)"
 es = "Wang (nombre)"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "兄[あに]"
+en = "(my) older brother"
+ru = "(мой) старший брат"
+uk = "(мій) старший брат"
+es = "(mi) hermano mayor"

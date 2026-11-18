@@ -1,0 +1,123 @@
+lesson = 1
+title = { en = "The welcome party", ru = "Вечеринка знакомства", uk = "Вечірка знайомств", es = "La fiesta de bienvenida" }
+scene = "A small welcome party in an office lounge in the evening: three adults in smart casual clothes chat and smile, holding paper cups, warm lamps and a plant in the corner."
+
+[[prose]]
+ja = "こちら|は|木[き]村[むら]|さん|です|。|木[き]村[むら]|さん|は|銀[ぎん]行[こう]員[いん]|です|。|IMCの社[しゃ]員[いん]|じゃ ありません|。"
+en = "This is Mr. Kimura. Mr. Kimura is a bank employee. He doesn't work for IMC."
+ru = "Это Кимура-сан. Кимура-сан — банковский служащий. Он не сотрудник IMC."
+uk = "Це Кімура-сан. Кімура-сан — банківський службовець. Він не співробітник IMC."
+es = "Este es el señor Kimura. El señor Kimura es empleado de banco. No trabaja en IMC."
+
+[[prose]]
+ja = "あの方[かた]|は|アンナ|さん|です|。|アンナ|さん|は|研[けん]究[きゅう]者[しゃ]|です|。|大[だい]学[がく]|の|研[けん]究[きゅう]者[しゃ]|です|。"
+en = "That person is Anna. Anna is a researcher. She's a researcher at the university."
+ru = "Вон та женщина — Анна-сан. Анна-сан — исследовательница. Она работает в университете."
+uk = "Он та жінка — Анна-сан. Анна-сан — дослідниця. Вона працює в університеті."
+es = "Esa persona es Anna. Anna es investigadora. Es investigadora de la universidad."
+
+[[prose]]
+ja = "木[き]村[むら]|さん|は|３０歳[さい]=歳[さい]|です|。|アンナ|さん|も|３０歳[さい]=歳[さい]|です|。"
+en = "Mr. Kimura is thirty. Anna is thirty too."
+ru = "Кимуре-сану тридцать лет. Анне-сан тоже тридцать."
+uk = "Кімурі-сану тридцять років. Анні-сан теж тридцять."
+es = "El señor Kimura tiene treinta años. Anna también tiene treinta."
+
+[[prose]]
+ja = "私[わたし]|は|マリア|です|。|IMCの社[しゃ]員[いん]|です|。|皆[みな]さん|、|どうぞ よろしく お願[ねが]いします。"
+en = "I'm Maria. I work for IMC. Nice to meet you all."
+ru = "Я Мария. Я сотрудница IMC. Всем приятно познакомиться."
+uk = "Я Марія. Я співробітниця IMC. Усім приємно познайомитися."
+es = "Soy Maria. Trabajo en IMC. Encantada de conoceros a todos."
+
+[[dialog]]
+speaker = "マリア"
+ja = "失[しつ]礼[れい]ですが|、|お名[な]前[まえ]は？"
+en = "Excuse me, but may I have your name?"
+ru = "Простите, как вас зовут?"
+uk = "Перепрошую, як вас звати?"
+es = "Perdone, ¿cómo se llama?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "アンナ|です|。|アメリカから 来[き]ました。"
+en = "I'm Anna. I'm from America."
+ru = "Анна. Я из Америки."
+uk = "Анна. Я з Америки."
+es = "Me llamo Anna. Vengo de Estados Unidos."
+
+[[dialog]]
+speaker = "マリア"
+ja = "アンナ|さん|は|学[がく]生[せい]|です|か|。"
+en = "Are you a student, Anna?"
+ru = "Анна-сан, вы студентка?"
+uk = "Анно-сан, ви студентка?"
+es = "Anna, ¿eres estudiante?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "いいえ|、|学[がく]生[せい]|じゃ ありません|。|大[だい]学[がく]|の|研[けん]究[きゅう]者[しゃ]|です|。"
+en = "No, I'm not a student. I'm a researcher at the university."
+ru = "Нет, я не студентка. Я исследовательница в университете."
+uk = "Ні, я не студентка. Я дослідниця в університеті."
+es = "No, no soy estudiante. Soy investigadora de la universidad."
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですか|。|あの方[かた]|は|どなた|です|か|。"
+en = "I see. Who is that person?"
+ru = "Вот как. А кто вон тот человек?"
+uk = "Он як. А хто он та людина?"
+es = "Ya veo. ¿Quién es esa persona?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "木[き]村[むら]|さん|です|。|銀[ぎん]行[こう]員[いん]|です|。"
+en = "That's Mr. Kimura. He works at a bank."
+ru = "Это Кимура-сан. Он работает в банке."
+uk = "Це Кімура-сан. Він працює в банку."
+es = "Es el señor Kimura. Trabaja en un banco."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "初[はじ]めまして。|木[き]村[むら]|です|。|どうぞ よろしく。"
+en = "Nice to meet you. I'm Kimura. Pleased to meet you."
+ru = "Приятно познакомиться. Я Кимура. Очень приятно."
+uk = "Приємно познайомитися. Я Кімура. Дуже приємно."
+es = "Encantado. Soy Kimura. Mucho gusto."
+
+[[dialog]]
+speaker = "マリア"
+ja = "マリア|です|。|どうぞ よろしく お願[ねが]いします。"
+en = "I'm Maria. Very pleased to meet you."
+ru = "Я Мария. Очень приятно познакомиться."
+uk = "Я Марія. Дуже приємно познайомитися."
+es = "Soy Maria. Encantada de conocerle."
+
+[[new]]
+ja = "木[き]村[むら]"
+en = "Kimura (a surname)"
+ru = "Кимура (фамилия)"
+uk = "Кімура (прізвище)"
+es = "Kimura (apellido)"
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "歳[さい]"
+en = "… years old"
+ru = "… лет (возраст)"
+uk = "… років (вік)"
+es = "… años (de edad)"

@@ -1,34 +1,136 @@
 lesson = 6
-title = { en = "Sunday", ru = "Воскресенье", uk = "Неділя", es = "domingo" }
+title = { en = "Sunday", ru = "Воскресенье", uk = "Неділя", es = "El domingo" }
 scene = "Friends playing tennis in a leafy city park on a sunny Sunday morning, cherry trees in bloom along the path."
 
-[[paragraph]]
-ja = "日[にち]曜[よう]日[び]|の|朝[あさ]|、|パン|と|卵[たまご]|を|食[た]べました=食[た]べます|。|コーヒー|も|飲[の]みました=飲[の]みます|。"
-en = "On Sunday morning I ate bread and eggs. I drank coffee too."
-ru = "В воскресенье утром я съел хлеб и яйца. И выпил кофе."
-uk = "У неділю вранці я з'їв хліб і яйця. І випив кави."
-es = "El domingo por la mañana comí pan y huevos. También bebí café."
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|の|朝[あさ]|、|八[はち]時[じ]=時[じ]|に|起[お]きました=起[お]きます|。|朝[あさ]ご飯[はん]|に|パン|と|卵[たまご]|を|食[た]べました=食[た]べます|。|コーヒー|も|飲[の]みました=飲[の]みます|。"
+en = "On Sunday morning I got up at eight. For breakfast I ate bread and eggs. I drank coffee too."
+ru = "В воскресенье утром я встал в восемь. На завтрак съел хлеб и яйца. Выпил и кофе."
+uk = "У неділю вранці я встав о восьмій. На сніданок з'їв хліб і яйця. Випив і кави."
+es = "El domingo por la mañana me levanté a las ocho. Desayuné pan y huevos. También tomé café."
 
-[[paragraph]]
-ja = "それから|、|公[こう]園[えん]|で|友[とも]達[だち]|と|テニス|を|しました=します|。"
-en = "Then I played tennis with a friend in the park."
-ru = "Потом играл в теннис с другом в парке."
-uk = "Потім грав у теніс із другом у парку."
-es = "Luego jugué al tenis con un amigo en el parque."
+[[prose]]
+ja = "それから|、|公[こう]園[えん]|で|友[とも]達[だち]|と|テニス|を|しました=します|。|私[わたし]|は|毎[まい]週[しゅう]|日[にち]曜[よう]日[び]|に|テニス|を|します|。"
+en = "Then I played tennis with a friend in the park. I play tennis every Sunday."
+ru = "Потом я играл с другом в теннис в парке. Я играю в теннис каждое воскресенье."
+uk = "Потім я грав із другом у теніс у парку. Я граю в теніс щонеділі."
+es = "Luego jugué al tenis con un amigo en el parque. Juego al tenis todos los domingos."
 
-[[paragraph]]
-ja = "昼[ひる]ご飯[はん]|は|レストラン|で|魚[さかな]|と|野[や]菜[さい]|を|食[た]べました=食[た]べます|。|晩[ばん]|、|家[うち]|で|映[えい]画[が]|を|見[み]ました=見[み]ます|。"
-en = "For lunch I ate fish and vegetables at a restaurant. In the evening I watched a film at home."
-ru = "На обед ел рыбу с овощами в ресторане. Вечером смотрел фильм дома."
-uk = "На обід їв рибу з овочами в ресторані. Увечері дивився фільм удома."
-es = "Para comer, tomé pescado y verduras en un restaurante. Por la noche vi una película en casa."
+[[prose]]
+ja = "昼[ひる]ご飯[はん]|は|レストラン|で|魚[さかな]|と|野[や]菜[さい]|を|食[た]べました=食[た]べます|。|ビール|は|飲[の]みませんでした=飲[の]みます|。|お茶[ちゃ]|を|飲[の]みました=飲[の]みます|。"
+en = "For lunch I ate fish and vegetables at a restaurant. I didn't drink beer. I drank tea."
+ru = "На обед в ресторане я ел рыбу и овощи. Пиво не пил. Пил чай."
+uk = "На обід у ресторані я їв рибу й овочі. Пива не пив. Пив чай."
+es = "Para comer tomé pescado y verdura en un restaurante. No bebí cerveza. Bebí té."
 
-[[paragraph]]
-ja = "来[らい]週[しゅう]|、|一[いっ]緒[しょ]に|花[はな]見[み]|を|しませんか=します|。|いいですね。"
-en = "Next week, shall we go cherry-blossom viewing together? Sounds good."
-ru = "На следующей неделе не пойти ли вместе любоваться сакурой? Отличная идея."
-uk = "Наступного тижня може підемо разом милуватися сакурою? Чудова ідея."
-es = "¿La semana que viene vamos juntos a ver los cerezos en flor? Buena idea."
+[[prose]]
+ja = "午[ご]後[ご]|、|公[こう]園[えん]|を|散[さん]歩[ぽ]しました=散[さん]歩[ぽ]します|。|桜[さくら]|の|写[しゃ]真[しん]|を|撮[と]りました=撮[と]ります|。"
+en = "In the afternoon I took a walk in the park. I took photos of the cherry blossoms."
+ru = "Днём я гулял по парку. Фотографировал сакуру."
+uk = "Удень я гуляв парком. Фотографував сакуру."
+es = "Por la tarde di un paseo por el parque. Hice fotos de los cerezos en flor."
+
+[[prose]]
+ja = "晩[ばん]|、|家[うち]|で|映[えい]画[が]|を|見[み]ました=見[み]ます|。|そして|、|十[じゅう]一[いち]時[じ]=時[じ]|に|寝[ね]ました=寝[ね]ます|。"
+en = "In the evening I watched a film at home. And I went to bed at eleven."
+ru = "Вечером смотрел дома фильм. А в одиннадцать лёг спать."
+uk = "Увечері дивився вдома фільм. А об одинадцятій ліг спати."
+es = "Por la noche vi una película en casa. Y me acosté a las once."
+
+[[prose]]
+ja = "来[らい]週[しゅう]|は|友[とも]達[だち]|と|花[はな]見[み]|を|します|。|一[いっ]緒[しょ]に|お弁[べん]当[とう]|を|食[た]べます|。"
+en = "Next week I'm going cherry-blossom viewing with friends. We'll eat packed lunches together."
+ru = "На следующей неделе мы с друзьями идём любоваться сакурой. Вместе поедим бэнто."
+uk = "Наступного тижня ми з друзями йдемо милуватися сакурою. Разом поїмо бенто."
+es = "La semana que viene iré a ver los cerezos con unos amigos. Comeremos juntos un bento."
+
+[[dialog]]
+speaker = "ワン"
+ja = "木[き]村[むら]|さん|、|日[にち]曜[よう]日[び]|に|何[なに]|を|しました=します|か|。"
+en = "Kimura, what did you do on Sunday?"
+ru = "Кимура-сан, что вы делали в воскресенье?"
+uk = "Кімуро-сан, що ви робили в неділю?"
+es = "Kimura, ¿qué hiciste el domingo?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "公[こう]園[えん]|で|テニス|を|しました=します|。|ワン|さん|は|？"
+en = "I played tennis in the park. And you, Wang?"
+ru = "Играл в теннис в парке. А вы, Ван-сан?"
+uk = "Грав у теніс у парку. А ви, Ван-сане?"
+es = "Jugué al tenis en el parque. ¿Y tú, Wang?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "私[わたし]|は|どこ|へ|も|行[い]きませんでした=行[い]きます|。|家[うち]|で|宿[しゅく]題[だい]|を|しました=します|。"
+en = "I didn't go anywhere. I did homework at home."
+ru = "Я никуда не ходил. Делал дома домашнее задание."
+uk = "Я нікуди не ходив. Робив удома домашнє завдання."
+es = "Yo no fui a ningún sitio. Hice los deberes en casa."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "そうですか。|来[らい]週[しゅう]|、|一[いっ]緒[しょ]に|花[はな]見[み]|を|しませんか=します|。"
+en = "I see. Shall we go cherry-blossom viewing together next week?"
+ru = "Вот как. Может, пойдём вместе на следующей неделе любоваться сакурой?"
+uk = "Он як. Може, підемо разом наступного тижня милуватися сакурою?"
+es = "Ya veo. ¿Por qué no vamos juntos a ver los cerezos la semana que viene?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "花[はな]見[み]|です|か|。|いいですね。|どこ|で|します|か|。"
+en = "Cherry-blossom viewing? Sounds good. Where shall we do it?"
+ru = "Ханами? Отлично. А где?"
+uk = "Ханамі? Чудово. А де?"
+es = "¿Ver los cerezos? Me parece bien. ¿Dónde?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "公[こう]園[えん]|で|しましょう=します|。|桜[さくら]|の|写[しゃ]真[しん]|も|撮[と]りましょう=撮[と]ります|。"
+en = "Let's do it in the park. Let's take photos of the blossoms too."
+ru = "Давайте в парке. И сфотографируем сакуру."
+uk = "Давайте в парку. І сфотографуємо сакуру."
+es = "Vamos al parque. Y hagamos fotos de los cerezos."
+
+[[dialog]]
+speaker = "ワン"
+ja = "ええ|。|何[なに]|か|食[た]べます|か|。"
+en = "Sure. Shall we eat something?"
+ru = "Давайте. А что-нибудь поедим?"
+uk = "Давайте. А щось поїмо?"
+es = "Vale. ¿Comemos algo?"
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "お弁[べん]当[とう]|を|買[か]いましょう=買[か]います|。|ビール|も|飲[の]みましょう=飲[の]みます|。"
+en = "Let's buy packed lunches. And let's have some beer."
+ru = "Давайте купим бэнто. И пива выпьем."
+uk = "Давайте купимо бенто. І пива вип'ємо."
+es = "Compremos unos bentos. Y tomemos cerveza."
+
+[[dialog]]
+speaker = "ワン"
+ja = "私[わたし]|は|お|酒[さけ]|は|めったに|飲[の]みません=飲[の]みます|。|お茶[ちゃ]|を|飲[の]みます|。"
+en = "I hardly ever drink alcohol. I'll have tea."
+ru = "Я почти не пью алкоголь. Я буду чай."
+uk = "Я майже не п'ю алкоголю. Я питиму чай."
+es = "Yo casi nunca bebo alcohol. Tomaré té."
+
+[[dialog]]
+speaker = "木[き]村[むら]"
+ja = "分[わ]かりました。|じゃ|、|土[ど]曜[よう]日[び]|の|十[じゅう]時[じ]=時[じ]|に|駅[えき]|で|会[あ]いましょう=会[あ]います|。"
+en = "Got it. Then let's meet at the station at ten on Saturday."
+ru = "Понял. Тогда встречаемся в субботу в десять на станции."
+uk = "Зрозумів. Тоді зустрічаємося в суботу о десятій на станції."
+es = "Entendido. Entonces quedamos el sábado a las diez en la estación."
+
+[[dialog]]
+speaker = "ワン"
+ja = "はい|、|土[ど]曜[よう]日[び]|の|十[じゅう]時[じ]=時[じ]|に|駅[えき]|で|。"
+en = "OK, Saturday at ten at the station."
+ru = "Хорошо, в субботу в десять на станции."
+uk = "Добре, у суботу о десятій на станції."
+es = "Vale, el sábado a las diez en la estación."
 
 [[new]]
 ja = "公[こう]園[えん]"
@@ -36,3 +138,38 @@ en = "park"
 ru = "парк"
 uk = "парк"
 es = "parque"
+
+[[new]]
+ja = "桜[さくら]"
+en = "cherry tree, cherry blossom"
+ru = "сакура, вишня"
+uk = "сакура, вишня"
+es = "cerezo, flor de cerezo"
+
+[[new]]
+ja = "お弁[べん]当[とう]"
+en = "packed lunch, bento"
+ru = "обед в коробочке, бэнто"
+uk = "обід у коробочці, бенто"
+es = "almuerzo para llevar, bento"
+
+[[new]]
+ja = "時[じ]"
+en = "… o'clock"
+ru = "… час(ов)"
+uk = "… година"
+es = "las … (hora)"
+
+[[new]]
+ja = "木[き]村[むら]"
+en = "Kimura (a surname)"
+ru = "Кимура (фамилия)"
+uk = "Кімура (прізвище)"
+es = "Kimura (apellido)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"

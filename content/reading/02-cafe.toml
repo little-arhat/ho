@@ -1,0 +1,137 @@
+lesson = 2
+title = { en = "Two coffees", ru = "Два кофе", uk = "Дві кави", es = "Dos cafés" }
+scene = "A small cosy coffee shop counter: a barista hands two cups across the counter to a young woman and a young man, one cup a tall milky latte, the other a tiny espresso."
+
+[[prose]]
+ja = "これ|は|マリア|さん|の|コーヒー|です|。|ラテ|です|。|ミルク|は|多[おお]め|です|。"
+en = "This is Maria's coffee. It's a latte. With extra milk."
+ru = "Это кофе Марии. Латте. Молока побольше."
+uk = "Це кава Марії. Лате. Молока більше."
+es = "Este es el café de Maria. Es un latte. Con más leche."
+
+[[prose]]
+ja = "それ|は|ワン|さん|の|コーヒー|です|。|ラテ|じゃ ありません|。|エスプレッソ|です|。"
+en = "That's Mr. Wang's coffee. It isn't a latte. It's an espresso."
+ru = "А это кофе Ван-сана. Не латте. Эспрессо."
+uk = "А це кава Ван-сана. Не лате. Еспресо."
+es = "Ese es el café del señor Wang. No es un latte. Es un expreso."
+
+[[prose]]
+ja = "あれ|は|何[なん]|です|か|。|チョコレート|です|か|、|ミルク|です|か|。|チョコレート|です|。"
+en = "What's that over there? Is it chocolate or milk? It's chocolate."
+ru = "А что вон там? Шоколад или молоко? Шоколад."
+uk = "А що он там? Шоколад чи молоко? Шоколад."
+es = "¿Y qué es aquello? ¿Chocolate o leche? Es chocolate."
+
+[[prose]]
+ja = "ワン|さん|の|コーヒー|は|少[すく]なめ|です|。|マリア|さん|の|は|多[おお]め|です|。"
+en = "Mr. Wang's coffee is a small one. Maria's is a big one."
+ru = "Кофе у Ван-сана маленький. А у Марии — большой."
+uk = "Кава у Ван-сана маленька. А в Марії — велика."
+es = "El café del señor Wang es pequeño. El de Maria es grande."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|。"
+en = "Welcome."
+ru = "Добро пожаловать."
+uk = "Ласкаво просимо."
+es = "Bienvenidos."
+
+[[dialog]]
+speaker = "マリア"
+ja = "ラテ|、|お願[ねが]いします|。|ミルク|は|多[おお]め|で|お願[ねが]いします|。"
+en = "A latte, please. With extra milk, please."
+ru = "Латте, пожалуйста. Молока побольше, пожалуйста."
+uk = "Лате, будь ласка. Молока більше, будь ласка."
+es = "Un latte, por favor. Con más leche, por favor."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|。"
+en = "Certainly."
+ru = "Хорошо."
+uk = "Добре."
+es = "Muy bien."
+
+[[dialog]]
+speaker = "ワン"
+ja = "えーと|…|エスプレッソ|、|お願[ねが]いします|。"
+en = "Um… an espresso, please."
+ru = "Так… Эспрессо, пожалуйста."
+uk = "Так… Еспресо, будь ласка."
+es = "A ver… un expreso, por favor."
+
+[[dialog]]
+speaker = "マリア"
+ja = "ワン|さん|、|それ|は|エスプレッソ|です|か|。|ちょっと|…"
+en = "Wang, that's an espresso? It's a bit…"
+ru = "Ван-сан, это эспрессо? Как-то…"
+uk = "Ван-сане, це еспресо? Якось…"
+es = "Wang, ¿eso es un expreso? Es un poco…"
+
+[[dialog]]
+speaker = "ワン"
+ja = "はい|、|そうです。|少[すく]なめ|です|。|でも|、|コーヒー|です|。"
+en = "Yes, it is. It's a small one. But it's coffee."
+ru = "Да. Маленький. Но это кофе."
+uk = "Так. Маленька. Але це кава."
+es = "Sí. Es pequeño. Pero es café."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "ラテ|と|エスプレッソ|です|。|どうぞ|。"
+en = "A latte and an espresso. Here you are."
+ru = "Латте и эспрессо. Пожалуйста."
+uk = "Лате й еспресо. Прошу."
+es = "Un latte y un expreso. Aquí tienen."
+
+[[dialog]]
+speaker = "マリア"
+ja = "どうもありがとうございます。"
+en = "Thank you very much."
+ru = "Большое спасибо."
+uk = "Щиро дякую."
+es = "Muchas gracias."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop assistant, barista"
+ru = "продавец, бариста"
+uk = "продавець, бариста"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "いらっしゃいませ"
+en = "welcome (said to customers)"
+ru = "добро пожаловать (покупателям)"
+uk = "ласкаво просимо (покупцям)"
+es = "bienvenido (se dice a los clientes)"
+
+[[new]]
+ja = "お願[ねが]いします"
+en = "please (when asking for something)"
+ru = "пожалуйста (при просьбе)"
+uk = "будь ласка (у проханні)"
+es = "por favor (al pedir algo)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"

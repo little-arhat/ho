@@ -2,30 +2,115 @@ lesson = 4
 title = { en = "Calling the library", ru = "Звонок в библиотеку", uk = "Дзвінок до бібліотеки", es = "Llamada a la biblioteca" }
 scene = "A friendly librarian answering a desk phone in a calm public library, tall bookshelves behind her, a wall clock without numbers."
 
-[[paragraph]]
-ja = "図[と]書[しょ]館[かん]|は|何[なん]時[じ]|から|何[なん]時[じ]|まで|です|か|。"
-en = "From what time to what time is the library open?"
-ru = "С какого до какого часа работает библиотека?"
-uk = "З котрої до котрої працює бібліотека?"
-es = "¿De qué hora a qué hora abre la biblioteca?"
+[[prose]]
+ja = "今日[きょう]|は|水[すい]曜[よう]日[び]|です|。|マリア|さん|は|休[やす]み|です|。"
+en = "Today is Wednesday. Maria has the day off."
+ru = "Сегодня среда. У Марии выходной."
+uk = "Сьогодні середа. У Марії вихідний."
+es = "Hoy es miércoles. Maria tiene el día libre."
 
-[[paragraph]]
+[[prose]]
+ja = "図[と]書[しょ]館[かん]|は|何[なん]時[じ]|から|何[なん]時[じ]|まで|です|か|。|午[ご]前[ぜん]|九[く]時[じ]|から|午[ご]後[ご]|七[しち]時[じ]|まで|です|。"
+en = "From what time to what time is the library open? From 9 a.m. to 7 p.m."
+ru = "С какого и до какого часа работает библиотека? С девяти утра до семи вечера."
+uk = "З котрої до котрої працює бібліотека? З дев'ятої ранку до сьомої вечора."
+es = "¿De qué hora a qué hora abre la biblioteca? De nueve de la mañana a siete de la tarde."
+
+[[prose]]
+ja = "土[ど]曜[よう]日[び]|と|日[にち]曜[よう]日[び]|は|五[ご]時[じ]まで|です|。|休[やす]み|は|何[なん]曜[よう]日[び]|です|か|。|月[げつ]曜[よう]日[び]|です|。"
+en = "On Saturday and Sunday it's open until five. What day is it closed? Monday."
+ru = "В субботу и воскресенье — до пяти. А выходной в какой день? В понедельник."
+uk = "У суботу й неділю — до п'ятої. А вихідний у який день? У понеділок."
+es = "Los sábados y domingos, hasta las cinco. ¿Qué día cierra? Los lunes."
+
+[[prose]]
+ja = "美[び]術[じゅつ]館[かん]|の|休[やす]み|も|月[げつ]曜[よう]日[び]|です|。|美[び]術[じゅつ]館[かん]|は|毎[まい]日[にち]|午[ご]後[ご]|四[よ]時[じ]|半[はん]|に|終[お]わります|。"
+en = "The art museum is closed on Mondays too. The art museum closes at 4:30 p.m. every day."
+ru = "Художественный музей тоже не работает по понедельникам. Музей каждый день закрывается в половине пятого."
+uk = "Художній музей теж не працює в понеділок. Музей щодня зачиняється о пів на п'яту."
+es = "El museo de arte también cierra los lunes. El museo cierra todos los días a las cuatro y media de la tarde."
+
+[[prose]]
+ja = "マリア|さん|は|今日[きょう]|、|一[いち]時[じ]|から|四[よ]時[じ]|まで|勉[べん]強[きょう]します|。|そして|、|九[く]時[じ]|に|寝[ね]ます|。"
+en = "Today Maria will study from one to four. And she'll go to bed at nine."
+ru = "Сегодня Мария будет заниматься с часу до четырёх. А в девять ляжет спать."
+uk = "Сьогодні Марія навчатиметься з першої до четвертої. А о дев'ятій ляже спати."
+es = "Hoy Maria estudiará de una a cuatro. Y se acostará a las nueve."
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "はい|、|図[と]書[しょ]館[かん]|です|。"
+en = "Hello, this is the library."
+ru = "Алло, библиотека."
+uk = "Алло, бібліотека."
+es = "¿Sí? Biblioteca, dígame."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|そちら|は|何[なん]時[じ]|から|何[なん]時[じ]|まで|です|か|。"
+en = "Excuse me. What are your opening hours?"
+ru = "Простите. С какого до какого часа вы работаете?"
+uk = "Перепрошую. З котрої до котрої ви працюєте?"
+es = "Perdone. ¿Qué horario tienen?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
 ja = "午[ご]前[ぜん]|九[く]時[じ]|から|午[ご]後[ご]|七[しち]時[じ]|まで|です|。"
 en = "From 9 a.m. to 7 p.m."
 ru = "С девяти утра до семи вечера."
 uk = "З дев'ятої ранку до сьомої вечора."
-es = "De 9 de la mañana a 7 de la tarde."
+es = "De nueve de la mañana a siete de la tarde."
 
-[[paragraph]]
-ja = "休[やす]み|は|何[なん]曜[よう]日[び]|です|か|。|月[げつ]曜[よう]日[び]|です|。"
-en = "What day are you closed? Monday."
-ru = "В какой день выходной? В понедельник."
-uk = "Який день вихідний? Понеділок."
-es = "¿Qué día cierran? El lunes."
+[[dialog]]
+speaker = "マリア"
+ja = "土[ど]曜[よう]日[び]|と|日[にち]曜[よう]日[び]|も|七[しち]時[じ]|まで|です|か|。"
+en = "Are you open until seven on Saturday and Sunday too?"
+ru = "В субботу и воскресенье тоже до семи?"
+uk = "У суботу й неділю теж до сьомої?"
+es = "¿Los sábados y domingos también hasta las siete?"
 
-[[paragraph]]
-ja = "美[び]術[じゅつ]館[かん]|の|休[やす]み|も|月[げつ]曜[よう]日[び]|です|。|どうもありがとうございました。"
-en = "The art museum is closed on Mondays too. Thank you very much."
-ru = "Музей тоже не работает по понедельникам. Большое спасибо."
-uk = "Музей теж не працює в понеділок. Щиро дякую."
-es = "El museo de arte también cierra los lunes. Muchas gracias."
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "いいえ|、|土[ど]曜[よう]日[び]|と|日[にち]曜[よう]日[び]|は|五[ご]時[じ]まで|です|。"
+en = "No, on Saturday and Sunday we're open until five."
+ru = "Нет, в субботу и воскресенье — до пяти."
+uk = "Ні, у суботу й неділю — до п'ятої."
+es = "No, los sábados y domingos, hasta las cinco."
+
+[[dialog]]
+speaker = "マリア"
+ja = "休[やす]み|は|何[なん]曜[よう]日[び]|です|か|。"
+en = "What day are you closed?"
+ru = "А в какой день у вас выходной?"
+uk = "А в який день у вас вихідний?"
+es = "¿Y qué día cierran?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "月[げつ]曜[よう]日[び]|です|。|美[び]術[じゅつ]館[かん]|の|休[やす]み|も|月[げつ]曜[よう]日[び]|です|。"
+en = "Monday. The art museum is closed on Mondays too."
+ru = "В понедельник. Художественный музей тоже не работает по понедельникам."
+uk = "У понеділок. Художній музей теж не працює в понеділок."
+es = "Los lunes. El museo de arte también cierra los lunes."
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですか。|どうもありがとうございました。"
+en = "I see. Thank you very much."
+ru = "Понятно. Большое спасибо."
+uk = "Зрозуміло. Щиро дякую."
+es = "Entendido. Muchas gracias."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "そして"
+en = "and, and then"
+ru = "и, а потом"
+uk = "і, а потім"
+es = "y, y luego"
