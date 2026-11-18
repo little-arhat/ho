@@ -12,8 +12,12 @@ LESSONS = load_lessons(ROOT / "content/lessons")
 HEAD = 'lesson = 1\ntitle = { en = "t", ru = "т", uk = "т", es = "t" }\nscene = "s"\n'
 
 
-def text(tmp_path, paragraphs, new="", name="01-t.toml"):
-    body = HEAD + "".join(f'[[paragraph]]\nja = "{p}"\nen = "e"\nru = "р"\nuk = "у"\nes = "s"\n' for p in paragraphs) + new
+TR = 'en = "e"\nru = "р"\nuk = "у"\nes = "s"\n'
+
+
+def text(tmp_path, paragraphs, new="", name="01-t.toml", dialog=(("私[わたし]", "はい"),)):
+    body = (HEAD + "".join(f'[[prose]]\nja = "{p}"\n{TR}' for p in paragraphs)
+            + "".join(f'[[dialog]]\nspeaker = "{s}"\nja = "{j}"\n{TR}' for s, j in dialog) + new)
     f = tmp_path / name
     f.write_text(body)
     return f
@@ -26,8 +30,8 @@ def test_real_texts_load():
 
 def test_tokens_link_to_vocabulary(tmp_path):
     r = load_reading(text(tmp_path, ["私[わたし]|は|学[がく]生[せい]|です|。"]), LESSONS)
-    assert [t.word for t in r.paragraphs[0].tokens] == [0, None, 1, None, None]
-    assert r.words[1].lesson == 1 and r.image is None
+    assert [t.word for t in r.prose[0].tokens] == [0, None, 1, None, None]
+    assert r.words[1].lesson == 1 and r.image is None and r.lessons == (1,)
 
 
 def test_inflected_surface_names_its_word(tmp_path):
@@ -62,3 +66,27 @@ def test_unused_new_word_is_an_error(tmp_path):
 def test_name_must_match_lesson(tmp_path):
     with pytest.raises(ContentError, match="match the file name"):
         load_reading(text(tmp_path, ["です"], name="02-t.toml"), LESSONS)
+
+
+def test_dialog_speaker_is_a_tappable_word(tmp_path):
+    r = load_reading(text(tmp_path, ["です"], dialog=[("先[せん]生[せい]", "学[がく]生[せい]|です|か|。")]), LESSONS)
+    line = r.dialog[0]
+    assert r.words[line.speaker.word].ja == "先[せん]生[せい]"
+    assert [r.words[t.word].ja for t in line.tokens if t.word is not None] == ["学[がく]生[せい]"]
+    assert line.ja == "学[がく]生[せい]ですか。"
+
+
+def test_speaker_must_be_a_word(tmp_path):
+    with pytest.raises(ContentError, match="dialog #1.*'あの'"):
+        load_reading(text(tmp_path, ["です"], dialog=[("あの", "はい")]), LESSONS)
+
+
+def test_both_forms_are_required(tmp_path):
+    with pytest.raises(ContentError, match="dialog"):
+        load_reading(text(tmp_path, ["です"], dialog=[]), LESSONS)
+
+
+def test_lessons_are_the_ones_its_words_come_from(tmp_path):
+    f = text(tmp_path, ["本[ほん]|を|読[よ]みます"], name="06-t.toml", dialog=[("友[とも]達[だち]", "はい")])
+    f.write_text(f.read_text().replace("lesson = 1", "lesson = 6"))
+    assert load_reading(f, LESSONS).lessons == (1, 2, 5, 6)  # はい is a lesson 1 word

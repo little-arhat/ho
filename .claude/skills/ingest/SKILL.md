@@ -35,7 +35,7 @@ The lesson is the **MnN chapter**, from the page tab, page number or content, ne
 
 ## 3. Reading texts (when a lesson's vocab grows)
 
-`content/reading/NN-name.toml`, tokens joined by `|`, `surface=word` for inflected forms; words outside lessons 1–N go under `[[new]]`. Then draw the picture: `OPENROUTER_FLUENT=… uv run --group tools illustrate content/reading/NN-name.toml` (it rejects pictures with any text in them). If the key isn't set, ship without a picture and tell the user.
+`content/reading/NN-name.toml`: the same scene twice, as `[[prose]]` paragraphs and as `[[dialog]]` lines (each with a `speaker`, which must be a word: a name under `[[new]]`, or 先生, 店員…). Tokens joined by `|`, `surface=word` for inflected forms; words outside lessons 1–N go under `[[new]]`. Use only grammar of lessons 1–N too (the loader checks words, not grammar). Texts grow longer with the lesson; the lesson tags are derived from the words. Then draw the picture: `OPENROUTER_FLUENT=… uv run --group tools illustrate content/reading/NN-name.toml` (it rejects pictures with any text in them). If the key isn't set, ship without a picture and tell the user.
 
 ## 4. Validate, look, ship
 

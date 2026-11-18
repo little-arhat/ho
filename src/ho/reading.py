@@ -2,7 +2,9 @@
 
 A text is `content/reading/<id>.toml`, plus `<id>.jpg`, its illustration,
 once `illustrate` has drawn it (a text without one still ships).
-Paragraphs are written pre-segmented: tokens joined by "|", each in furigana
+Each text tells one scene twice: as a story (`[[prose]]` paragraphs) and as
+a conversation (`[[dialog]]` lines, each with its `speaker`).
+Japanese is written pre-segmented: tokens joined by "|", each in furigana
 notation. A token links to a word so the reader can tap it:
 
     私[わたし]|は|デパート|へ|行[い]きました=行[い]きます|。
@@ -11,7 +13,10 @@ notation. A token links to a word so the reader can tap it:
 Every token with kanji or katakana must be a vocabulary word of the text's
 lesson or an earlier one, or a word the text declares under [[new]]. Tokens
 written only in hiragana (particles, endings) need not link; if one matches
-a word, it links anyway.
+a word, it links anyway. A speaker is one token and must be a word.
+
+A text's `lessons` are the ones it draws from: its own, and every lesson
+whose words it uses.
 """
 
 from __future__ import annotations
@@ -42,7 +47,7 @@ class Word:
 @dataclass(frozen=True)
 class Token:
     ja: str
-    word: int | None  # index into Text.words
+    word: int | None  # index into Reading.words
 
 
 @dataclass(frozen=True)
@@ -50,21 +55,40 @@ class Paragraph:
     tokens: tuple[Token, ...]
     tr: Text
 
+    @property
+    def ja(self) -> str:
+        return "".join(t.ja for t in self.tokens)
+
+
+@dataclass(frozen=True)
+class Line:
+    speaker: Token
+    tokens: tuple[Token, ...]
+    tr: Text
+
+    @property
+    def ja(self) -> str:
+        return "".join(t.ja for t in self.tokens)
+
 
 @dataclass(frozen=True)
 class Reading:
     id: str
     lesson: int
+    lessons: tuple[int, ...]  # the lessons it draws from, ascending; includes `lesson`
     title: Text
     scene: str  # the illustration's prompt, kept so it can be redrawn
-    paragraphs: tuple[Paragraph, ...]
+    prose: tuple[Paragraph, ...]
+    dialog: tuple[Line, ...]
     words: tuple[Word, ...]
     image: Path | None  # the illustration, once it has been drawn
 
 
 def _key(ja: str) -> str:
-    """Words match on their furigana with the reading, so 何[なに] ≠ 何[なん]."""
-    return ja.replace("～", "").strip()
+    """Words match on their furigana with the reading, so 何[なに] ≠ 何[なん].
+
+    The slot mark (～ or ~, as in ～でございます) is not part of the word."""
+    return ja.replace("～", "").replace("~", "").strip()
 
 
 def _vocabulary(lessons: tuple[Lesson, ...], upto: int) -> dict[str, Word]:
@@ -86,12 +110,46 @@ def _new_words(rows: list[dict[str, Any]], where: str) -> dict[str, Word]:
     return out
 
 
+class _Linker:
+    """Resolves tokens to words, collecting the words in order of first use."""
+
+    def __init__(self, lookup: dict[str, Word], lesson: int):
+        self.lookup = lookup
+        self.lesson = lesson
+        self.index: dict[str, int] = {}
+        self.words: list[Word] = []
+
+    def token(self, raw: str, where: str, *, must_link: bool = False) -> Token:
+        surface, _, target = raw.partition("=")
+        japanese(surface, where)
+        key = _key(japanese(target, where) if target else surface)
+        word = self.lookup.get(key)
+        if word is None and (must_link or target or _NEEDS_LINK.search(furigana.plain(surface))):
+            raise ContentError(f"{where}: {key!r} is not a word of lessons 1–{self.lesson}; declare it under [[new]]")
+        if word is None:
+            return Token(surface, None)
+        if key not in self.index:
+            self.index[key] = len(self.words)
+            self.words.append(word)
+        return Token(surface, self.index[key])
+
+    def tokens(self, ja: str, where: str) -> tuple[Token, ...]:
+        return tuple(self.token(raw, where) for raw in ja.split("|"))
+
+
+def _rows(data: dict[str, Any], key: str, where: str) -> list[dict[str, Any]]:
+    rows = data[key]
+    if not isinstance(rows, list) or not rows:
+        raise ContentError(f"{where}: [[{key}]] needs at least one entry")
+    return rows
+
+
 def load_reading(path: Path, lessons: tuple[Lesson, ...]) -> Reading:
     where = str(path)
     if not _ID.fullmatch(path.stem):
         raise ContentError(f"{where}: name must be NN-words.toml, NN the lesson")
     data = tomllib.loads(path.read_text(encoding="utf-8"))
-    check_keys(data, {"lesson", "title", "scene", "paragraph"}, {"new"}, where)
+    check_keys(data, {"lesson", "title", "scene", "prose", "dialog"}, {"new"}, where)
     lesson = data["lesson"]
     if f"{lesson:02d}" != path.stem[:2] or lesson not in {x.number for x in lessons}:
         raise ContentError(f"{where}: lesson {lesson} must exist and match the file name")
@@ -100,34 +158,25 @@ def load_reading(path: Path, lessons: tuple[Lesson, ...]) -> Reading:
     clash = sorted(set(new) & set(known))
     if clash:
         raise ContentError(f"{where}: declared new but already in the vocabulary: {', '.join(clash)}")
-    lookup = {**known, **new}
-    used: dict[str, int] = {}
-    words: list[Word] = []
-    paragraphs = []
-    for i, row in enumerate(data["paragraph"]):
-        w = f"{where} paragraph #{i + 1}"
+    link = _Linker({**known, **new}, lesson)
+    prose = []
+    for i, row in enumerate(_rows(data, "prose", where)):
+        w = f"{where} prose #{i + 1}"
         check_keys(row, {"ja", *LANGS}, set(), w)
-        tokens = []
-        for raw in row["ja"].split("|"):
-            surface, _, target = raw.partition("=")
-            japanese(surface, w)
-            key = _key(japanese(target, w) if target else surface)
-            word = lookup.get(key)
-            if word is None and (target or _NEEDS_LINK.search(furigana.plain(surface))):
-                raise ContentError(f"{w}: {key!r} is not a word of lessons 1–{lesson}; declare it under [[new]]")
-            index = None
-            if word is not None:
-                index = used.setdefault(key, len(words))
-                if index == len(words):
-                    words.append(word)
-            tokens.append(Token(surface, index))
-        paragraphs.append(Paragraph(tuple(tokens), translations({k: row[k] for k in LANGS}, w)))
-    unused = sorted(set(new) - set(used))
+        prose.append(Paragraph(link.tokens(row["ja"], w), translations({k: row[k] for k in LANGS}, w)))
+    dialog = []
+    for i, row in enumerate(_rows(data, "dialog", where)):
+        w = f"{where} dialog #{i + 1}"
+        check_keys(row, {"speaker", "ja", *LANGS}, set(), w)
+        dialog.append(Line(link.token(row["speaker"], w, must_link=True), link.tokens(row["ja"], w),
+                           translations({k: row[k] for k in LANGS}, w)))
+    unused = sorted(set(new) - set(link.index))
     if unused:
         raise ContentError(f"{where}: new words never used: {', '.join(unused)}")
+    drawn = {lesson} | {w.lesson for w in link.words if w.lesson is not None}
     image = path.with_suffix(".jpg")
-    return Reading(path.stem, lesson, translations(data["title"], f"{where} title"),
-                   data["scene"].strip(), tuple(paragraphs), tuple(words),
+    return Reading(path.stem, lesson, tuple(sorted(drawn)), translations(data["title"], f"{where} title"),
+                   data["scene"].strip(), tuple(prose), tuple(dialog), tuple(link.words),
                    image if image.exists() else None)
 
 

@@ -20,8 +20,9 @@ What is on the site now:
   Search works in English, Russian, Ukrainian, Spanish, Japanese or romaji.
 - **Katakana drill** — read a loanword, type it in romaji; it tells you when
   you missed a long vowel (ー) or a double consonant (ッ).
-- **Reading** — short texts in the words learned so far; tap a word for its
-  meaning and lesson.
+- **Reading** — short texts in the words learned so far, each one a story
+  and a dialog about the same scene, tagged with the lessons whose words it
+  uses; tap a word for its meaning and lesson.
 
 New class material goes through the `/ingest` skill: drop photos into `inbox/`.
 

@@ -1,5 +1,7 @@
-// Reading texts: tap a word to see its reading, meaning and the lesson it comes from.
+// Reading texts: tap a word to see its reading, meaning and the lesson it comes from;
+// switch between the story and the dialog (the choice is remembered).
 import { esc, ruby, translations } from "./ruby.js";
+import { stored, store } from "./prefs.js";
 
 const { words } = JSON.parse(document.getElementById("data").textContent);
 const pop = document.getElementById("pop");
@@ -29,3 +31,21 @@ document.getElementById("rt").addEventListener("click", (e) => {
 });
 document.addEventListener("click", (e) => { if (open && !e.target.closest(".rt-w, #pop")) hide(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") hide(); });
+
+const FORM_KEY = "ho.rt.form";
+const forms = document.getElementById("forms");
+
+function showForm(form) {
+  if (!forms.querySelector(`[data-form="${form}"]`)) form = "prose";
+  forms.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.form === form)));
+  document.querySelectorAll("#rt > section[data-form]").forEach((s) => { s.hidden = s.dataset.form !== form; });
+  hide();
+}
+
+forms.addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-form]");
+  if (!b) return;
+  store(FORM_KEY, b.dataset.form);
+  showForm(b.dataset.form);
+});
+showForm(stored(FORM_KEY, "prose"));

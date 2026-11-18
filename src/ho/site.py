@@ -59,7 +59,7 @@ class Section:
 SECTIONS = (
     Section("lessons", "lessons/", "Lessons", "課", "Minna no Nihongo, lesson by lesson: rules, vocabulary, exercises."),
     Section("words", "words/", "Words", "単語", "Every word on the site, by lesson and topic; search in any language or romaji."),
-    Section("reading", "reading/", "Reading", "読み物", "Short stories in the words learned so far; tap a word for its meaning."),
+    Section("reading", "reading/", "Reading", "読み物", "Short stories and dialogs in the words learned so far; tap a word for its meaning."),
     Section("kanji", "kanji/", "Kanji", "漢字", "Every kanji on the site: readings, stroke order, words; a drill and handwriting practice."),
     Section("phrasebook", "phrasebook/", "Phrase book", "旅の言葉",
             "Phrases to say and to recognise, with casual forms and conjugation."),
@@ -137,8 +137,10 @@ def _words_page(content: Content) -> Page:
 
 def _reading_pages(content: Content) -> list[Page]:
     texts = content.readings
+    numbers = sorted({r.lesson for r in texts})
     out = [Page("reading/index.html", "readings.html", "Reading", "reading", {
-        "by_lesson": [(n, [r for r in texts if r.lesson == n]) for n in sorted({r.lesson for r in texts})]})]
+        "by_lesson": [(n, [r for r in texts if r.lesson == n]) for n in numbers],
+        "filters": [("all", "ALL"), *((str(n), f"L{n}") for n in sorted({n for r in texts for n in r.lessons}))]})]
     for i, r in enumerate(texts):
         out.append(Page(f"reading/{r.id}/index.html", "reading.html", r.title.en, "reading", {
             "text": r,
@@ -167,7 +169,7 @@ def spoken_texts(content: Content) -> list[str]:
     for card in content.kanji:
         out += [x for w in card.words for x in (w.ja, w.example.ja)]
     for r in content.readings:
-        out += ["".join(t.ja for t in p.tokens) for p in r.paragraphs]
+        out += [x.ja for x in (*r.prose, *r.dialog)]
     out += [e.ja for g in word_groups(content) for e in g.entries]
     for p in content.phrasebook.phrases:
         out += [p.ja, *(a.ja for a in p.answers + p.examples)]

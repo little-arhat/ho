@@ -367,6 +367,13 @@ section > .sec { font-size: 13px; margin-top: 32px; }
 .rtext h1 .tl { display: inline; }
 .rt-img { width: 100%; border-radius: 12px; margin: 16px 0 4px; display: block; }
 .rt-p { margin: 18px 0; }
+.rt-forms { width: fit-content; margin-top: 16px; }
+.rt-line { display: grid; grid-template-columns: minmax(4.5em, max-content) minmax(0, 1fr); gap: 12px; align-items: start; }
+.rt-who { font: 700 15px/2.9 var(--f-jp); color: var(--accent); white-space: nowrap; }
+.rd-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.rd-tag { font: 500 11px/1 var(--f-mono); padding: 3px 6px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); text-decoration: none; }
+a.rd-tag:hover { border-color: var(--accent); color: var(--accent); }
+.lesson-head .rd-tags { margin-top: 6px; }
 .rt-ja { font: 500 22px/2.2 var(--f-jp); margin: 0; }
 .rt-w { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; border-bottom: 2px solid var(--accent-soft); border-radius: 2px; }
 .rt-w:hover, .rt-w.on { background: var(--accent-soft); }
