@@ -1863,3 +1863,13 @@ meaning = { en = "strawberry", ru = "клубника", uk = "полуниця",
 char = "桃"
 readings = ["もも", "トウ"]
 meaning = { en = "peach", ru = "персик", uk = "персик", es = "melocotón" }
+
+[[kanji]]
+char = "城"
+readings = ["しろ", "ジョウ"]
+meaning = { en = "castle", ru = "замок", uk = "замок", es = "castillo" }
+
+[[kanji]]
+char = "姉"
+readings = ["あね", "シ"]
+meaning = { en = "older sister", ru = "старшая сестра", uk = "старша сестра", es = "hermana mayor" }
