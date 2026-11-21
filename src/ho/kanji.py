@@ -237,6 +237,15 @@ def fold(text: str) -> str:
     return re.sub(r"[\W_]+", "", t)
 
 
+# What separates the words of a text for search; web/js/match.js splits a query the same way.
+_WORD_SEPARATOR = re.compile(r"[\s,;/()\[\]]+")
+
+
+def search_tokens(text: str) -> tuple[str, ...]:
+    """The folded words of a text, which the list search matches a query's words against."""
+    return tuple(t for t in (fold(w) for w in _WORD_SEPARATOR.split(text)) if t)
+
+
 _PARENS = re.compile(r"\([^)]*\)")
 _LEADING = re.compile(r"^(?:to|a|an|the) ", re.IGNORECASE)
 
@@ -267,20 +276,26 @@ def reading_romaji(r: Reading) -> str:
     return "-".join(romaji(part) for part in r.kana.split("-"))
 
 
-def word_search_entries(ja: str, tr: Text) -> tuple[str, ...]:
-    """What finds a word (furigana notation): as written, its reading in kana or romaji, its meaning in any language."""
-    return (fold(furigana.plain(ja)), *reading_answers(furigana.reading(ja)), *meaning_answers(tr))
+def meaning_tokens(meaning: Text) -> tuple[str, ...]:
+    """The words of a gloss in every language, as search tokens."""
+    return tuple(t for gloss in by_lang(meaning).values() for t in search_tokens(gloss))
+
+
+def word_search_tokens(ja: str, tr: Text) -> tuple[str, ...]:
+    """What finds a word (furigana notation): as written, its reading in kana
+    or romaji, and each word of its meaning in any language."""
+    return (fold(furigana.plain(ja)), *reading_answers(furigana.reading(ja)), *meaning_tokens(tr))
 
 
 def search_index(card: Card, lesson_words: Iterable[LessonWord]) -> str:
     """What finds a card in the kanji list: the kanji, each reading in kana or
-    romaji, each meaning in any language, and every word its page shows (its
-    own and the lesson words that use it); folded entries joined by spaces."""
-    entries = [fold(card.char), *(a for r in card.readings for a in reading_answers(r.kana.replace("-", ""))),
-               *meaning_answers(card.meaning),
-               *(e for w in card.words for e in word_search_entries(w.ja, w.tr)),
-               *(e for w in lesson_words for e in word_search_entries(w.furigana, w.tr))]
-    return " ".join(dict.fromkeys(e for e in entries if e))
+    romaji, each word of its meaning in any language, and every word its page
+    shows (its own and the lesson words that use it); tokens joined by spaces."""
+    tokens = [fold(card.char), *(a for r in card.readings for a in reading_answers(r.kana.replace("-", ""))),
+              *meaning_tokens(card.meaning),
+              *(t for w in card.words for t in word_search_tokens(w.ja, w.tr)),
+              *(t for w in lesson_words for t in word_search_tokens(w.furigana, w.tr))]
+    return " ".join(dict.fromkeys(t for t in tokens if t))
 
 
 def kanji_sets(cards: Iterable[Card], lessons: Iterable[Lesson]) -> dict[str, list[str]]:

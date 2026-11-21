@@ -5,6 +5,7 @@ import pytest
 from ho import words
 from ho.build import load_content
 from ho.errors import ContentError
+from ho.kanji import fold
 from ho.lessons import VOCAB_COLUMNS
 
 ROOT = Path(__file__).parent.parent
@@ -39,9 +40,9 @@ def test_topic_keeps_words_a_lesson_also_has(content):
 
 def test_search_index_finds_by_writing_kana_romaji_and_meaning(content):
     (eat,) = [e for g in words.groups(content.lessons, (), (), ()) for e in g.entries if e.ja == "食[た]べます"]
-    idx = words.search_index(eat)
+    tokens = words.search_index(eat).split(" ")
     for q in ["食べます", "たべます", "tabemasu", "eat", "есть", "їсти"]:
-        assert words.fold(q) in idx, q
+        assert fold(q) in tokens, q
 
 
 def test_topic_needs_its_word_list(tmp_path):

@@ -13,7 +13,7 @@ from pathlib import Path
 
 from ho.errors import ContentError
 from ho.fields import Line, Text, check_keys, translations
-from ho.kanji import Card, fold, word_search_entries
+from ho.kanji import Card, search_tokens, word_search_tokens
 from ho.lessons import Lesson, load_vocab
 from ho.lessons import Word as VocabWord
 from ho.reading import Reading
@@ -121,7 +121,7 @@ def groups(lessons: Iterable[Lesson], topics: Iterable[Topic], cards: Iterable[C
 
 
 def search_index(e: Entry) -> str:
-    """What finds a word in the list: as written, in kana or romaji, or by its
-    meaning in any language; folded entries joined by spaces."""
-    entries = [*word_search_entries(e.ja, e.tr), fold(romanize(e.ja))]
+    """What finds a word in the list: as written, in kana or romaji, or by each
+    word of its meaning in any language; tokens joined by spaces."""
+    entries = [*word_search_tokens(e.ja, e.tr), *search_tokens(romanize(e.ja))]
     return " ".join(dict.fromkeys(x for x in entries if x))

@@ -152,9 +152,9 @@ def test_reading_romaji_keeps_okurigana_apart():
 def test_search_index_finds_by_kanji_kana_romaji_and_meaning():
     card = kanji.Card("学", 1, 5, (kanji.parse_reading("ガク", "t"), kanji.parse_reading("まな-ぶ", "t")),
                       Text("study, learning", "учёба", "навчання", "estudio"), ())
-    idx = kanji.search_index(card, ())
-    for q in ["学", "がく", "ガク", "まなぶ", "manabu", "gaku", "study", "учеба", "навчання"]:
-        assert kanji.fold(q) in idx, q
+    tokens = kanji.search_index(card, ()).split(" ")
+    for q in ["学", "がく", "まなぶ", "manabu", "gaku", "study", "learning", "учеба", "навчання"]:
+        assert kanji.fold(q) in tokens, q
 
 
 def test_search_index_finds_by_the_words_a_card_shows():
@@ -164,7 +164,15 @@ def test_search_index_finds_by_the_words_a_card_shows():
     card = kanji.Card("計", 1, 4, (kanji.parse_reading("ケイ", "t"),), Text("measure", "мерить", "міряти", "medir"),
                       (own,))
     watch = kanji.LessonWord(4, "時[と]計[けい]", Text("watch, clock", "часы", "годинник", "reloj"))
-    idx = kanji.search_index(card, (watch,))
+    tokens = kanji.search_index(card, (watch,)).split(" ")
     for q in ["時計", "とけい", "tokei", "watch", "clock", "часы", "годинник", "reloj",
               "計算します", "けいさんします", "calculate", "считать"]:
-        assert kanji.fold(q) in idx, q
+        assert kanji.fold(q) in tokens, q
+
+
+def test_search_tokens_are_the_folded_words_of_a_text():
+    assert kanji.search_tokens("the dead of night") == ("the", "dead", "of", "night")
+    assert kanji.search_tokens("(someone else's) Father; Dad") == ("someone", "elses", "father", "dad")
+    assert kanji.search_tokens("глухая ночь, за полночь") == ("глухая", "ночь", "за", "полночь")
+    assert kanji.search_tokens("時計") == ("時計",)
+    assert kanji.search_tokens("") == ()
