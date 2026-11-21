@@ -65,6 +65,14 @@ class Note:
     text: str
 
 
+def word_key(ja: str) -> str:
+    """A word's identity: its furigana with the reading, so 何[なに] ≠ 何[なん].
+
+    Neither the slot mark (～ or ~, as in ～でございます) nor an expression's
+    final 。 or ？ (違います。) is part of the word."""
+    return ja.replace("～", "").replace("~", "").strip().rstrip("。？！?!")
+
+
 @dataclass(frozen=True)
 class Word:
     kanji: str

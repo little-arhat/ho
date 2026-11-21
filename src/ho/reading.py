@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import re
 import tomllib
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -31,7 +32,7 @@ from ho import furigana
 from ho.errors import ContentError
 from ho.fields import LANGS, Text, by_lang, check_keys, japanese, translations
 from ho.kanji import kanji_in
-from ho.lessons import Lesson
+from ho.lessons import Lesson, word_key
 
 _ID = re.compile(r"\d\d-[a-z0-9-]+")
 _NEEDS_LINK = re.compile(f"[{furigana.KANJI}ァ-ヺー]")
@@ -84,20 +85,13 @@ class Reading:
     image: Path | None  # the illustration, once it has been drawn
 
 
-def _key(ja: str) -> str:
-    """Words match on their furigana with the reading, so 何[なに] ≠ 何[なん].
-
-    The slot mark (～ or ~, as in ～でございます) is not part of the word."""
-    return ja.replace("～", "").replace("~", "").strip()
-
-
 def _vocabulary(lessons: tuple[Lesson, ...], upto: int) -> dict[str, Word]:
     out: dict[str, Word] = {}
     for lesson in lessons:
         if lesson.number > upto:
             continue
         for w in lesson.vocab:
-            out.setdefault(_key(w.furigana), Word(w.furigana, w.tr, lesson.number))
+            out.setdefault(word_key(w.furigana), Word(w.furigana, w.tr, lesson.number))
     return out
 
 
@@ -106,7 +100,7 @@ def _new_words(rows: list[dict[str, Any]], where: str) -> dict[str, Word]:
     for i, row in enumerate(rows):
         w = f"{where} new #{i + 1}"
         check_keys(row, {"ja", *LANGS}, set(), w)
-        out[_key(japanese(row["ja"], w))] = Word(row["ja"], translations({k: row[k] for k in LANGS}, w), None)
+        out[word_key(japanese(row["ja"], w))] = Word(row["ja"], translations({k: row[k] for k in LANGS}, w), None)
     return out
 
 
@@ -122,7 +116,7 @@ class _Linker:
     def token(self, raw: str, where: str, *, must_link: bool = False) -> Token:
         surface, _, target = raw.partition("=")
         japanese(surface, where)
-        key = _key(japanese(target, where) if target else surface)
+        key = word_key(japanese(target, where) if target else surface)
         word = self.lookup.get(key)
         if word is None and (must_link or target or _NEEDS_LINK.search(furigana.plain(surface))):
             raise ContentError(f"{where}: {key!r} is not a word of lessons 1–{self.lesson}; declare it under [[new]]")
@@ -184,8 +178,8 @@ def load_readings(directory: Path, lessons: tuple[Lesson, ...]) -> tuple[Reading
     return tuple(load_reading(p, lessons) for p in sorted(directory.glob("*.toml")))
 
 
-def words_view(r: Reading, cards: set[str]) -> list[dict[str, Any]]:
-    """The tappable words; `k` lists the word's kanji that have a card."""
-    return [{"ja": furigana.segments_json(w.ja), **by_lang(w.tr),
+def words_view(r: Reading, cards: set[str], slug: Callable[[str], str]) -> list[dict[str, Any]]:
+    """The tappable words; `k` lists the word's kanji that have a card, `slug` names its word page."""
+    return [{"ja": furigana.segments_json(w.ja), **by_lang(w.tr), "slug": slug(w.ja),
              "lesson": w.lesson, "k": [c for c in dict.fromkeys(kanji_in(w.ja)) if c in cards]}
             for w in r.words]

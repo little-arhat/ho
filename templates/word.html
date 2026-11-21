@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% from "macros.html" import tr, say %}
+{% set e = word.entry %}
+{% block main %}
+<nav class="lesson-nav">
+  <a href="../">All words</a>
+  <span>
+    {% if prev %}<a href="../{{ prev.slug | urlencode }}/" lang="ja">← {{ prev.entry.ja | plain }}</a>{% endif %}
+    {% if next %}<a href="../{{ next.slug | urlencode }}/" lang="ja">{{ next.entry.ja | plain }} →</a>{% endif %}
+  </span>
+</nav>
+<article class="wp">
+  <header class="wp-head">
+    <div class="rd-tags" aria-label="In the lists">
+      {%- for g in word.groups %}
+      {%- if g.lesson is not none %}<a class="rd-tag" href="{{ root }}lessons/{{ "%02d" | format(g.lesson) }}/#vocab">{{ g.label }}</a>
+      {%- else %}<span class="rd-tag">{{ g.label }}</span>{% endif %}
+      {%- endfor %}
+    </div>
+    <h1 class="wp-ja" lang="ja">{{ e.ja | ruby }}{{ say(e.ja) }}</h1>
+    <div class="wp-ro">{{ e.ja | romanize }}</div>
+    <div class="wp-tr">{{ tr(e.tr, "div") }}</div>
+    {% if e.note %}<div class="word-note">{{ tr(e.note) }}</div>{% endif %}
+    {%- set ks = (e.ja | kanji) | select("in", carded) | list %}
+    {% if ks %}<div class="word-k" lang="ja">{% for c in ks %}<a href="{{ root }}kanji/{{ c | hex }}/" title="kanji card">{{ c }}</a>{% endfor %}</div>{% endif %}
+  </header>
+
+  <section>
+    <h2 class="sec">In context</h2>
+    {% if word.examples %}
+    <div class="wp-ex">
+      {% for x in word.examples %}
+      <div class="ex-line">
+        <div class="ex-ja" lang="ja">{% for ja, mine in x.parts %}{% if mine %}<mark>{{ ja | ruby }}</mark>{% else %}{{ ja | ruby }}{% endif %}{% endfor %}{{ say(x.ja) }}</div>
+        <div class="ex-tr">{{ tr(x.tr) }}</div>
+        <a class="wp-src" href="{{ root }}{{ x.source.href }}">{{ x.source.label }}</a>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="foot">No sentence uses this word yet.</p>
+    {% endif %}
+  </section>
+</article>
+{% endblock %}

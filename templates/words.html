@@ -15,7 +15,7 @@
   <ul class="vocab wd-list">
   {% for e in g.entries %}
     <li class="word" data-s="{{ e | word_search }}" data-f="{{ g.id }}">
-      <div class="word-ja" lang="ja">{{ e.ja | ruby }}{{ say(e.ja) }}</div>
+      <div class="word-ja" lang="ja"><a class="word-link" href="{{ e.ja | word_slug | urlencode }}/">{{ e.ja | ruby }}</a>{{ say(e.ja) }}</div>
       <div class="word-ro ix-ro">{{ e.ja | romanize }}</div>
       {%- set ks = (e.ja | kanji) | select("in", carded) | list %}
       {% if ks %}<div class="word-k" lang="ja">{% for c in ks %}<a href="../kanji/{{ c | hex }}/" title="kanji card">{{ c }}</a>{% endfor %}</div>{% endif %}

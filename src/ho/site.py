@@ -112,6 +112,7 @@ def pages(content: Content) -> tuple[Page, ...]:
             data=lessons.exercises_view(lesson)))
     out.extend(_kanji_pages(content))
     out.append(_words_page(content))
+    out.extend(_word_pages(content))
     out.extend(_reading_pages(content))
     return tuple(out)
 
@@ -135,6 +136,16 @@ def _words_page(content: Content) -> Page:
     })
 
 
+def _word_pages(content: Content) -> list[Page]:
+    pages = words.word_pages(word_groups(content), content.kanji, content.readings)
+    return [Page(f"words/{p.slug}/index.html", "word.html", f"{furigana.plain(p.entry.ja)} · word", "words", {
+        "word": p,
+        "prev": pages[i - 1] if i > 0 else None,
+        "next": pages[i + 1] if i + 1 < len(pages) else None,
+        "carded": {c.char for c in content.kanji},
+    }) for i, p in enumerate(pages)]
+
+
 def _reading_pages(content: Content) -> list[Page]:
     texts = content.readings
     numbers = sorted({r.lesson for r in texts})
@@ -146,7 +157,7 @@ def _reading_pages(content: Content) -> list[Page]:
             "text": r,
             "prev": texts[i - 1] if i > 0 else None,
             "next": texts[i + 1] if i + 1 < len(texts) else None,
-        }, data={"words": reading.words_view(r, {c.char for c in content.kanji})}))
+        }, data={"words": reading.words_view(r, {c.char for c in content.kanji}, words.slug)}))
     return out
 
 
@@ -238,6 +249,8 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
     env.filters["reading_romaji"] = kanji.reading_romaji
     env.filters["word_search"] = words.search_index
+    env.filters["word_slug"] = words.slug
+    env.filters["plain"] = furigana.plain
     env.filters["romanize"] = romaji.romanize
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(
         title=p.title, page=p.section, root=_root(p.path), sections=SECTIONS,

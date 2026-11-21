@@ -11,7 +11,8 @@ function show(b) {
   const w = words[+b.dataset.w];
   pop.innerHTML = `<div class="pop-ja" lang="ja">${ruby(w.ja)}</div>${translations(w)}`
     + (w.k.length ? `<div class="pop-k" lang="ja">${w.k.map((c) => `<a href="../../kanji/${c.codePointAt(0).toString(16)}/">${esc(c)}</a>`).join("")}</div>` : "")
-    + `<div class="pop-src">${w.lesson === null ? "new word" : `lesson ${esc(w.lesson)}`}</div>`;
+    + `<div class="pop-src">${w.lesson === null ? "new word" : `lesson ${esc(w.lesson)}`}`
+    + ` · <a href="../../words/${encodeURIComponent(w.slug)}/">word page →</a></div>`;
   pop.hidden = false;
   const r = b.getBoundingClientRect(), host = pop.offsetParent.getBoundingClientRect();
   const left = Math.max(0, Math.min(r.left - host.left, host.width - pop.offsetWidth));

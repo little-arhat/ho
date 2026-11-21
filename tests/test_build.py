@@ -1,7 +1,7 @@
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 import pytest
 
@@ -10,7 +10,7 @@ from ho.build import main
 ALLOWED_HOSTS = {"fonts.googleapis.com", "fonts.gstatic.com"}
 PAGES = ["index.html", "phrasebook/index.html", "katakana/index.html", "lessons/03/index.html",
          "kanji/index.html", "kanji/65e5/index.html", "kanji/drill/index.html", "reading/index.html",
-         "reading/03-depato/index.html", "words/index.html"]
+         "reading/03-depato/index.html", "words/index.html", "words/時計-とけい/index.html", "kanji/8a08/index.html"]
 
 
 @pytest.fixture(scope="module")
@@ -38,7 +38,7 @@ def test_links_are_relative_and_resolve(site, page):
         assert not url.startswith("/"), url
         target = site / page
         if parsed.path:
-            target = (site / page).parent / parsed.path
+            target = (site / page).parent / unquote(parsed.path)
             if parsed.path.endswith("/"):
                 target = target / "index.html"
         assert target.resolve().is_file(), f"{page}: {url}"
@@ -49,6 +49,12 @@ def test_links_are_relative_and_resolve(site, page):
 def data(site, page):
     m = re.search(r'<script type="application/json" id="data">(.*?)</script>', (site / page).read_text(), re.S)
     return json.loads(m.group(1))
+
+
+def test_reading_popups_link_to_word_pages(site):
+    for text in (site / "reading").glob("*/index.html"):
+        for w in data(site, str(text.relative_to(site)))["words"]:
+            assert (site / "words" / w["slug"] / "index.html").is_file(), (text.parent.name, w["slug"])
 
 
 def test_embedded_data(site):
