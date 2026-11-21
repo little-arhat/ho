@@ -3,7 +3,7 @@
 {% from "_list_tools.html" import list_tools %}
 {% macro tile(c) -%}
 {%- set ls = in_lessons.get(c.char, []) -%}
-<li data-s="{{ c | kanji_search }}" data-f="{% if c.number %}book {% endif %}{% if not c.number and not ls %}other {% endif %}{% for n in ls %}l{{ n }} {% endfor %}"><a class="k-tile{% if c.number %} book{% endif %}" href="{{ c.char | hex }}/">
+<li data-s="{{ search[c.char] }}" data-f="{% if c.number %}book {% endif %}{% if not c.number and not ls %}other {% endif %}{% for n in ls %}l{{ n }} {% endfor %}"><a class="k-tile{% if c.number %} book{% endif %}" href="{{ c.char | hex }}/">
   {% if c.number %}<span class="k-no">{{ "%03d" | format(c.number) }}</span>{% endif %}
   <span class="k-char" lang="ja">{{ c.char }}</span>
   <span class="k-read">{{ reading(c.readings[0]) }}</span>

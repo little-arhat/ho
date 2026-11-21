@@ -11,10 +11,9 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
-from ho import furigana
 from ho.errors import ContentError
 from ho.fields import Line, Text, check_keys, translations
-from ho.kanji import Card, fold, meaning_answers, reading_answers
+from ho.kanji import Card, fold, word_search_entries
 from ho.lessons import Lesson, load_vocab
 from ho.lessons import Word as VocabWord
 from ho.reading import Reading
@@ -124,6 +123,5 @@ def groups(lessons: Iterable[Lesson], topics: Iterable[Topic], cards: Iterable[C
 def search_index(e: Entry) -> str:
     """What finds a word in the list: as written, in kana or romaji, or by its
     meaning in any language; folded entries joined by spaces."""
-    entries = [fold(furigana.plain(e.ja)), *reading_answers(furigana.reading(e.ja)), fold(romanize(e.ja)),
-               *meaning_answers(e.tr)]
+    entries = [*word_search_entries(e.ja, e.tr), fold(romanize(e.ja))]
     return " ".join(dict.fromkeys(x for x in entries if x))

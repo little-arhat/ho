@@ -267,12 +267,20 @@ def reading_romaji(r: Reading) -> str:
     return "-".join(romaji(part) for part in r.kana.split("-"))
 
 
-def search_index(card: Card) -> str:
+def word_search_entries(ja: str, tr: Text) -> tuple[str, ...]:
+    """What finds a word (furigana notation): as written, its reading in kana or romaji, its meaning in any language."""
+    return (fold(furigana.plain(ja)), *reading_answers(furigana.reading(ja)), *meaning_answers(tr))
+
+
+def search_index(card: Card, lesson_words: Iterable[LessonWord]) -> str:
     """What finds a card in the kanji list: the kanji, each reading in kana or
-    romaji, each meaning in any language; folded entries joined by spaces."""
+    romaji, each meaning in any language, and every word its page shows (its
+    own and the lesson words that use it); folded entries joined by spaces."""
     entries = [fold(card.char), *(a for r in card.readings for a in reading_answers(r.kana.replace("-", ""))),
-               *meaning_answers(card.meaning)]
-    return " ".join(dict.fromkeys(entries))
+               *meaning_answers(card.meaning),
+               *(e for w in card.words for e in word_search_entries(w.ja, w.tr)),
+               *(e for w in lesson_words for e in word_search_entries(w.furigana, w.tr))]
+    return " ".join(dict.fromkeys(e for e in entries if e))
 
 
 def kanji_sets(cards: Iterable[Card], lessons: Iterable[Lesson]) -> dict[str, list[str]]:

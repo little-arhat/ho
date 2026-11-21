@@ -195,6 +195,7 @@ def _kanji_pages(content: Content) -> list[Page]:
     elsewhere = [c for c in cards if c.number is None and c.char not in first_lesson]
     index = Page("kanji/index.html", "kanji.html", "Kanji", "kanji", {
         "in_lessons": {c: sorted({w.lesson for w in ws}) for c, ws in by_kanji.items()},
+        "search": {c.char: kanji.search_index(c, by_kanji.get(c.char, ())) for c in cards},
         "filters": [("all", "ALL"), ("book", "15-MIN BOOK"),
                     *((f"l{lesson.number}", f"L{lesson.number}") for lesson in content.lessons),
                     *([("other", "ELSEWHERE")] if elsewhere else [])],
@@ -236,7 +237,6 @@ def render_site(content: Content, templates: Path) -> dict[str, str]:
     env.filters["clip"] = clip_of(content)
     env.filters["kanji"] = lambda text: list(dict.fromkeys(kanji.kanji_in(text)))
     env.filters["reading_romaji"] = kanji.reading_romaji
-    env.filters["kanji_search"] = kanji.search_index
     env.filters["word_search"] = words.search_index
     env.filters["romanize"] = romaji.romanize
     render: Callable[[Page], str] = lambda p: env.get_template(p.template).render(

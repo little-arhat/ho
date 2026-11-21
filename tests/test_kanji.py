@@ -4,7 +4,7 @@ import pytest
 
 from ho import kanji
 from ho.errors import ContentError
-from ho.fields import Text
+from ho.fields import Line, Text
 from ho.refdata import Kanji, load
 
 ROOT = Path(__file__).parent.parent
@@ -152,6 +152,19 @@ def test_reading_romaji_keeps_okurigana_apart():
 def test_search_index_finds_by_kanji_kana_romaji_and_meaning():
     card = kanji.Card("学", 1, 5, (kanji.parse_reading("ガク", "t"), kanji.parse_reading("まな-ぶ", "t")),
                       Text("study, learning", "учёба", "навчання", "estudio"), ())
-    idx = kanji.search_index(card)
+    idx = kanji.search_index(card, ())
     for q in ["学", "がく", "ガク", "まなぶ", "manabu", "gaku", "study", "учеба", "навчання"]:
+        assert kanji.fold(q) in idx, q
+
+
+def test_search_index_finds_by_the_words_a_card_shows():
+    """A card is found by its own words and by the lesson words that use it, as its page lists them."""
+    own = kanji.CardWord("計[けい]算[さん]します", Text("calculate", "считать", "рахувати", "calcular"),
+                         Line("今[いま]計[けい]算[さん]します。", Text("now", "сейчас", "зараз", "ahora")))
+    card = kanji.Card("計", 1, 4, (kanji.parse_reading("ケイ", "t"),), Text("measure", "мерить", "міряти", "medir"),
+                      (own,))
+    watch = kanji.LessonWord(4, "時[と]計[けい]", Text("watch, clock", "часы", "годинник", "reloj"))
+    idx = kanji.search_index(card, (watch,))
+    for q in ["時計", "とけい", "tokei", "watch", "clock", "часы", "годинник", "reloj",
+              "計算します", "けいさんします", "calculate", "считать"]:
         assert kanji.fold(q) in idx, q
