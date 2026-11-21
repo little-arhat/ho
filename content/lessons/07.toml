@@ -1,6 +1,6 @@
 number = 7
 title = { en = "Giving and receiving; by means of", ru = "Дарить и получать; с помощью чего", uk = "Дарувати й отримувати; за допомогою чого", es = "Dar y recibir; por medio de" }
-grammar = "で（道具）・～語[ご]で・あげます・もらいます・もう～ました・まだです"
+grammar = "で（道[どう]具[ぐ]）・～語[ご]で・あげます／もらいます／くれます・貸[か]します／借[か]ります・教[おし]えます／習[なら]います・もう～ました・まだです"
 
 [[rule]]
 title = { en = "Tool / means で: with, by, in (a language)", ru = "Инструмент / средство で: чем, на каком языке", uk = "Інструмент / засіб で: чим, якою мовою", es = "Herramienta / medio で: con, por, en (un idioma)" }
@@ -39,14 +39,13 @@ pattern = [
   { ja = "を" },
   { slot = "verb", en = "あげます / もらいます…", ru = "あげます / もらいます…", uk = "あげます / もらいます…", es = "あげます / もらいます…" },
 ]
-explain.en = "に marks the other person. With あげます (give), かします (lend), おしえます (teach), に is who gets it; with もらいます (receive), かります (borrow), ならいます (learn), に is who it comes from (から also works). 電話を かけます (call) also takes に."
-explain.ru = "に отмечает другого человека. С あげます (дарить), かします (одалживать), おしえます (учить) に — кому; с もらいます (получать), かります (брать взаймы), ならいます (учиться) に — от кого (можно и から). 電話を かけます (звонить) тоже берёт に."
-explain.uk = "に позначає іншу людину. З あげます (дарувати), かします (позичати комусь), おしえます (навчати) に — кому; з もらいます (отримувати), かります (позичати в когось), ならいます (вчитися) に — від кого (можна й から). 電話を かけます (дзвонити) теж бере に."
-explain.es = "に marca a la otra persona. Con あげます (dar), かします (prestar), おしえます (enseñar), に es quien lo recibe; con もらいます (recibir), かります (tomar prestado), ならいます (aprender), に es de quien viene (también vale から). 電話を かけます (llamar) también lleva に."
+explain.en = "に marks the other person. With あげます (give), に is who gets it; with もらいます (receive), に is who it comes from (から also works). The subject は is the one who gives, or the one who receives."
+explain.ru = "に отмечает другого человека. С あげます (дарить) に — кому; с もらいます (получать) に — от кого (можно и から). Подлежащее с は — тот, кто дарит, или тот, кто получает."
+explain.uk = "に позначає іншу людину. З あげます (дарувати) に — кому; з もらいます (отримувати) に — від кого (можна й から). Підмет з は — той, хто дарує, або той, хто отримує."
+explain.es = "に marca a la otra persona. Con あげます (dar), に es quien lo recibe; con もらいます (recibir), に es de quien viene (también vale から). El sujeto con は es quien da, o quien recibe."
 example = [
   { ja = "わたしは木[き]村[むら]さんに花[はな]をあげました。", en = "I gave Ms. Kimura flowers.", ru = "Я подарил Кимуре-сан цветы.", uk = "Я подарував Кімурі-сан квіти.", es = "Le di flores a la señora Kimura." },
   { ja = "わたしはカリナさんにチョコレートをもらいました。", en = "I got chocolate from Karina.", ru = "Я получил шоколад от Карины.", uk = "Я отримав шоколад від Карини.", es = "Karina me dio chocolate." },
-  { ja = "わたしは山[やま]田[だ]さんに日[に]本[ほん]語[ご]を習[なら]います。", en = "I learn Japanese from Mr. Yamada.", ru = "Я учу японский у Ямады-сан.", uk = "Я вчу японську в Ямади-сан.", es = "Aprendo japonés con el señor Yamada." },
 ]
 
 [[rule]]
@@ -67,6 +66,33 @@ example = [
   { ja = "母[はは]はわたしにセーターをくれました。", en = "My mother gave me a sweater.", ru = "Мама подарила мне свитер.", uk = "Мама подарувала мені светр.", es = "Mi madre me regaló un suéter." },
   { ja = "わたしは母[はは]にセーターをもらいました。", en = "I got a sweater from my mother.", ru = "Я получил свитер от мамы.", uk = "Я отримав светр від мами.", es = "Recibí un suéter de mi madre." },
   { ja = "佐[さ]藤[とう]さんはわたしに花[はな]をくれました。", en = "Mr. Sato gave me flowers.", ru = "Сато-сан подарил мне цветы.", uk = "Сато-сан подарував мені квіти.", es = "El señor Sato me regaló flores." },
+]
+
+[[rule]]
+title = { en = "Lend / borrow, teach / learn: the same two directions", ru = "Одалживать / брать взаймы, учить / учиться: те же два направления", uk = "Позичати комусь / позичати в когось, навчати / вчитися: ті самі два напрямки", es = "Prestar / pedir prestado, enseñar / aprender: las mismas dos direcciones" }
+pattern = [
+  { slot = "person", en = "person", ru = "человек", uk = "людина", es = "persona" },
+  { ja = "に" },
+  { slot = "thing", en = "thing / subject", ru = "вещь / предмет", uk = "річ / предмет", es = "cosa / materia" },
+  { ja = "を" },
+  { slot = "verb", en = "かします / かります…", ru = "かします / かります…", uk = "かします / かります…", es = "かします / かります…" },
+]
+table = { head = ["Ⓐ → Ⓑ", "Ⓐ ← Ⓑ"], rows = [
+  ["あげます", "もらいます"],
+  ["貸[か]します", "借[か]ります"],
+  ["教[おし]えます", "習[なら]います"],
+] }
+explain.en = "Three verb pairs work like あげます / もらいます, in Ⓐは Ⓑに ～を V. The left column goes out from Ⓐ: に is who gets it — 貸します (lend), 教えます (teach). The right column comes in to Ⓐ: に is who it comes from (から also works) — 借ります (borrow), 習います (learn). 教えます also means \"tell\" a piece of information: 電話番号を 教えます. 電話を かけます (phone) takes に for the person you call."
+explain.ru = "Три пары глаголов работают как あげます / もらいます, в схеме Ⓐは Ⓑに ～を V. Левый столбец — от Ⓐ наружу: に — кому: 貸します (одалживать), 教えます (учить). Правый — к Ⓐ: に — от кого (можно и から): 借ります (брать взаймы), 習います (учиться). 教えます значит ещё «сообщить»: 電話番号を 教えます — дать номер телефона. 電話を かけます (звонить) берёт に — кому звонят."
+explain.uk = "Три пари дієслів працюють як あげます / もらいます, у схемі Ⓐは Ⓑに ～を V. Лівий стовпчик — від Ⓐ назовні: に — кому: 貸します (позичати комусь), 教えます (навчати). Правий — до Ⓐ: に — від кого (можна й から): 借ります (позичати в когось), 習います (вчитися). 教えます означає ще «повідомити»: 電話番号を 教えます — дати номер телефону. 電話を かけます (дзвонити) бере に — кому дзвонять."
+explain.es = "Tres pares de verbos funcionan como あげます / もらいます, en Ⓐは Ⓑに ～を V. La columna izquierda sale de Ⓐ: に es quien lo recibe — 貸します (prestar), 教えます (enseñar). La derecha llega a Ⓐ: に es de quien viene (también vale から) — 借ります (pedir prestado), 習います (aprender). 教えます también significa «decir» un dato: 電話番号を 教えます = dar el número de teléfono. 電話を かけます (llamar) lleva に para la persona a quien llamas."
+example = [
+  { ja = "わたしはワンさんに傘[かさ]を貸[か]しました。", en = "I lent Wang an umbrella.", ru = "Я одолжил Вану зонт.", uk = "Я позичив Ванові парасольку.", es = "Le presté un paraguas a Wang." },
+  { ja = "ワンさんはわたしに傘[かさ]を借[か]りました。", en = "Wang borrowed an umbrella from me.", ru = "Ван взял у меня зонт.", uk = "Ван позичив у мене парасольку.", es = "Wang me pidió prestado un paraguas." },
+  { ja = "わたしは山[やま]田[だ]さんに日[に]本[ほん]語[ご]を習[なら]います。", en = "I learn Japanese from Mr. Yamada.", ru = "Я учу японский у Ямады-сан.", uk = "Я вчу японську в Ямади-сан.", es = "Aprendo japonés con el señor Yamada." },
+  { ja = "山[やま]田[だ]さんはわたしに日[に]本[ほん]語[ご]を教[おし]えます。", en = "Mr. Yamada teaches me Japanese.", ru = "Ямада-сан учит меня японскому.", uk = "Ямада-сан навчає мене японської.", es = "El señor Yamada me enseña japonés." },
+  { ja = "カリナさんに電[でん]話[わ]番[ばん]号[ごう]を教[おし]えました。", en = "I told Karina my phone number.", ru = "Я дал Карине свой номер телефона.", uk = "Я дав Карині свій номер телефону.", es = "Le di a Karina mi número de teléfono." },
+  { ja = "母[はは]に電[でん]話[わ]をかけます。", en = "I'll call my mother.", ru = "Я позвоню маме.", uk = "Я подзвоню мамі.", es = "Voy a llamar a mi madre." },
 ]
 
 [[rule]]
@@ -131,6 +157,44 @@ en = "I borrowed a book from a friend."
 ru = "Я взял книгу у друга."
 uk = "Я позичив книгу в друга."
 es = "Un amigo me prestó un libro."
+
+[[exercise]]
+kind = "choice"
+ja = "ワンさんに傘[かさ]を＿。(lent to)"
+options = ["貸[か]しました", "借[か]りました", "もらいました"]
+answer = "貸[か]しました"
+en = "I lent Wang an umbrella."
+ru = "Я одолжил Вану зонт."
+uk = "Я позичив Ванові парасольку."
+es = "Le presté un paraguas a Wang."
+
+[[exercise]]
+kind = "choice"
+ja = "わたしは山[やま]田[だ]さんに日[に]本[ほん]語[ご]を＿。"
+options = ["習[なら]います", "教[おし]えます", "貸[か]します"]
+answer = "習[なら]います"
+en = "I learn Japanese from Mr. Yamada."
+ru = "Я учу японский у Ямады-сан."
+uk = "Я вчу японську в Ямади-сан."
+es = "Aprendo japonés con el señor Yamada."
+
+[[exercise]]
+kind = "reorder"
+parts = ["マリアさんは", "田[た]中[なか]さんに", "英[えい]語[ご]を", "教[おし]えます。"]
+en = "Maria teaches Mr. Tanaka English."
+ru = "Мария учит Танаку-сана английскому."
+uk = "Марія навчає Танаку-сана англійської."
+es = "Maria le enseña inglés al señor Tanaka."
+
+[[exercise]]
+kind = "choice"
+ja = "友[とも]達[だち]＿電[でん]話[わ]をかけます。"
+options = ["に", "を", "で"]
+answer = "に"
+en = "I call a friend."
+ru = "Я звоню другу."
+uk = "Я дзвоню другові."
+es = "Llamo a un amigo."
 
 [[exercise]]
 kind = "choice"
