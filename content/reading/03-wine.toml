@@ -104,6 +104,7 @@ es = "De Estados Unidos. Pero el vino, americano no. Italiano."
 [[dialog]]
 speaker = "マリア"
 ja = "じゃ|、|これ|を|ください。"
+uses = ["これをください"]
 en = "Then we'll take this one."
 ru = "Тогда возьмём это."
 uk = "Тоді візьмемо це."

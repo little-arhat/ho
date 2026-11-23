@@ -2,7 +2,7 @@
 {% from "macros.html" import tr %}
 {% block main %}
 <h1 class="page-title">Reading <small lang="ja">読み物</small></h1>
-<p class="lead">Short texts that use only the words of the lessons so far, plus a few new ones. Each one is a story and a dialog about the same scene. Tap a word to see its meaning.</p>
+<p class="lead">Short texts that use only the words of the lessons so far, plus a few new ones, and scenes in real-life Japanese for places like an izakaya or a station. Each one is a story and a dialog about the same scene. Tap a word to see its meaning.</p>
 <div class="seg ix-filter" id="rdfilter" role="group" aria-label="Uses lesson">
   {% for key, label in filters %}<button type="button" data-f="{{ key }}">{{ label }}</button>{% endfor %}
 </div>
@@ -21,5 +21,19 @@
   </ol>
 </section>
 {% endfor %}
+{% if scenes %}
+<section class="rd-sec">
+  <h2 class="sec">Scenes · real-life Japanese</h2>
+  <ol class="rd-list">
+    {% for r in scenes %}
+    <li data-f="scene"><a class="rd-tile" href="{{ r.id }}/">
+      {% if r.image %}<img src="{{ r.id }}.jpg" alt="" loading="lazy">{% endif %}
+      <span class="rd-title">{{ tr(r.title) }}</span>
+      <span class="rd-tags"><span class="rd-tag">SCENE</span></span>
+    </a></li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
 {% endblock %}
 {% block scripts %}<script type="module" src="{{ root }}static/js/reading-index.js"></script>{% endblock %}

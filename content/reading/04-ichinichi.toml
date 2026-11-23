@@ -25,6 +25,7 @@ es = "Estudio todas las noches. Estudio de ocho a diez. Y me acuesto a las once.
 
 [[prose]]
 ja = "昨日[きのう]|は|勉[べん]強[きょう]しませんでした=勉[べん]強[きょう]します|。|十[じゅう]時[じ]=時[じ]|まで|働[はたら]きました=働[はたら]きます|。|大[たい]変[へん]ですね。"
+uses = ["大変[たいへん]ですね"]
 en = "Yesterday I didn't study. I worked until ten. Tough, isn't it?"
 ru = "Вчера я не занималась. Работала до десяти. Тяжело, правда?"
 uk = "Учора я не навчалася. Працювала до десятої. Важко, правда?"
@@ -64,6 +65,7 @@ es = "Yo me levanto a las cinco y media. En el hospital empiezo a las siete."
 [[dialog]]
 speaker = "マリア"
 ja = "大[たい]変[へん]ですね。|何[なん]時[じ]|まで|働[はたら]きます|か|。"
+uses = ["大変[たいへん]ですね"]
 en = "That's tough. Until what time do you work?"
 ru = "Тяжело. А до скольки вы работаете?"
 uk = "Важко. А до котрої ви працюєте?"

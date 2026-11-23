@@ -40,6 +40,7 @@ es = "De la estación de Kioto al museo de arte irá en taxi. La parada de taxis
 [[dialog]]
 speaker = "マリア"
 ja = "すみません|。|京[きょう]都[と]|へ|行[い]きます|。|何[なん]番[ばん]線[せん]=番[ばん]線[せん]|です|か|。"
+uses = ["何番線[なんばんせん]ですか"]
 en = "Excuse me. I'm going to Kyoto. Which platform is it?"
 ru = "Простите. Мне в Киото. С какой платформы?"
 uk = "Перепрошую. Мені до Кіото. З якої платформи?"
@@ -112,6 +113,7 @@ es = "Muchas gracias."
 [[dialog]]
 speaker = "駅[えき]員[いん]"
 ja = "どういたしまして。"
+uses = ["どういたしまして"]
 en = "You're welcome."
 ru = "Не за что."
 uk = "Нема за що."

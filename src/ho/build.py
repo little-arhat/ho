@@ -23,13 +23,16 @@ def load_content(content_dir: Path, ref_path: Path, audio_dir: Path) -> Content:
     ref = refdata.load(ref_path)
     book = [c.char for c in cards if c.number is not None]
     kanji.check(cards, ref, book + kanji.lesson_kanji(lesson_list))
+    pb = phrasebook.load(content_dir / "phrasebook.toml", verbs)
+    phrases = phrasebook.by_ja(pb)
     return Content(
         lessons=lesson_list,
-        phrasebook=phrasebook.load(content_dir / "phrasebook.toml", verbs),
+        phrasebook=pb,
         katakana=katakana.load(content_dir / "katakana.toml"),
         kanji=cards,
         strokes={c.char: ref[c.char].strokes for c in cards},
-        readings=reading.load_readings(content_dir / "reading", lesson_list),
+        readings=(*reading.load_readings(content_dir / "reading", lesson_list, phrases),
+                  *reading.load_scenes(content_dir / "scenes", lesson_list, phrases)),
         topics=words.load_topics(content_dir / "words", [lesson.number for lesson in lesson_list]),
         clips=frozenset(p.stem for p in audio_dir.glob("*.m4a")),
         audio_dir=audio_dir,

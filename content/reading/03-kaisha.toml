@@ -32,6 +32,7 @@ es = "Mi despacho está en la cuarta planta. La oficina también. El ascensor es
 
 [[prose]]
 ja = "IMCの社[しゃ]員[いん]|は|みんな|エンジニア|です|か|。|いいえ|、|違[ちが]います。|でも|、|私[わたし]|は|エンジニア|です|。"
+uses = ["いいえ、違[ちが]います"]
 en = "Is everyone at IMC an engineer? No, not everyone. But I am an engineer."
 ru = "В IMC все инженеры? Нет, не все. Но я инженер."
 uk = "В IMC усі інженери? Ні, не всі. Але я інженерка."
@@ -48,6 +49,7 @@ es = "Perdone. ¿Esto es IMC?"
 [[dialog]]
 speaker = "受[うけ]付[つけ]"
 ja = "はい|、|そうです。|失[しつ]礼[れい]ですが|、|どちら|の|木[き]村[むら]|さん|です|か|。"
+uses = ["失礼[しつれい]ですが、〇〇さんですか"]
 en = "Yes, it is. Excuse me, but which company are you from, Mr. Kimura?"
 ru = "Да. Простите, а из какой вы компании, Кимура-сан?"
 uk = "Так. Вибачте, а з якої ви компанії, Кімуро-сан?"

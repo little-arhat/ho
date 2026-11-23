@@ -406,6 +406,16 @@ a.rd-tag:hover { border-color: var(--accent); color: var(--accent); }
 .wp-ex { display: grid; gap: 14px; }
 .wp-ex mark { background: none; color: var(--accent); font-weight: 700; }
 .wp-src { font: 500 11px var(--f-mono); color: var(--muted); }
+
+/* Links between texts and the phrase book */
+.rt-uses { display: flex; flex-wrap: wrap; gap: 4px; margin: 2px 0 4px; }
+.rt-use { font: 500 12px var(--f-body); padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--fg); text-decoration: none; background: var(--surface); }
+.rt-use span:first-child { font: 500 10px var(--f-mono); color: var(--muted); text-transform: uppercase; }
+.rt-use:hover { border-color: var(--accent); }
+.pb-texts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.pb-texts a { font: 500 11px var(--f-mono); padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--fg); text-decoration: none; background: var(--surface); }
+.pb-texts a:hover { border-color: var(--accent); }
+.sec-texts { margin: -4px 0 8px; }
 .deck-dl { font: 500 12px var(--f-body); margin-left: 8px; color: var(--accent); white-space: nowrap; }
 .k-tile { position: relative; }
 .k-tile.book { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }

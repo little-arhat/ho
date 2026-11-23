@@ -70,6 +70,7 @@ es = "¡Ah, Karina! Bienvenida. Pasa."
 [[dialog]]
 speaker = "カリナ"
 ja = "失[しつ]礼[れい]します|。|すてき|な|家[うち]|です|ね|。"
+uses = ["失礼[しつれい]します"]
 en = "Excuse me for coming in. What a lovely house."
 ru = "Извините за беспокойство. Какой чудесный дом!"
 uk = "Вибачте за турботу. Який чудовий будинок!"
@@ -94,6 +95,7 @@ es = "Karina, toma té. Cuidado, está caliente."
 [[dialog]]
 speaker = "カリナ"
 ja = "ありがとうございます。|いただきます。|……|おいしい|お茶[ちゃ]|です|ね|。"
+uses = ["いただきます"]
 en = "Thank you. … What good tea."
 ru = "Спасибо. …Какой вкусный чай!"
 uk = "Дякую. …Який смачний чай!"
@@ -102,6 +104,7 @@ es = "Gracias. … Qué té tan rico."
 [[dialog]]
 speaker = "お母[かあ]さん"
 ja = "もう一[いっ]杯[ぱい]いかがですか。"
+uses = ["もう一杯[いっぱい]いかがですか"]
 en = "Won't you have another cup?"
 ru = "Не хочешь ещё чашечку?"
 uk = "Не хочеш ще чашечку?"
@@ -110,6 +113,7 @@ es = "¿Quieres otra taza?"
 [[dialog]]
 speaker = "カリナ"
 ja = "はい|、|いただきます。"
+uses = ["いただきます"]
 en = "Yes, thank you."
 ru = "Да, с удовольствием."
 uk = "Так, із задоволенням."
@@ -134,6 +138,7 @@ es = "No, gracias."
 [[dialog]]
 speaker = "カリナ"
 ja = "あ|、|もう|九[く]時[じ]|です|ね|。|そろそろ失[しつ]礼[れい]します。"
+uses = ["失礼[しつれい]します"]
 en = "Oh, it's already nine. It's time I was going."
 ru = "Ой, уже девять. Мне пора."
 uk = "Ой, уже дев'ята. Мені час."

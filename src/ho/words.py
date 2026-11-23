@@ -79,6 +79,7 @@ CARDS_TITLE = Text("Words on kanji cards", "Слова с карточек ка�
                    "Palabras de las tarjetas de kanji")
 READING_TITLE = Text("New words in reading texts", "Новые слова из текстов для чтения", "Нові слова з текстів для читання",
                      "Palabras nuevas de los textos de lectura")
+SCENES_TITLE = Text("Words in scenes", "Слова из сценок", "Слова зі сценок", "Palabras de las escenas")
 
 
 def _vocab(words: Iterable[VocabWord]) -> tuple[Entry, ...]:
@@ -110,11 +111,16 @@ def groups(lessons: Iterable[Lesson], topics: Iterable[Topic], cards: Iterable[C
         return tuple(kept)
 
     card_words = fresh(Entry(w.ja, w.tr, None, w.example) for c in cards for w in c.words)
-    reading_words = fresh(Entry(w.ja, w.tr, None, None) for r in readings for w in r.words if w.lesson is None)
+    reading_words = fresh(Entry(w.ja, w.tr, None, None)
+                          for r in readings if r.lesson is not None for w in r.words if w.lesson is None)
+    scene_words = fresh(Entry(w.ja, w.tr, None, None)
+                        for r in readings if r.lesson is None for w in r.words if w.lesson is None)
     if card_words:
         out.append(Group("cards", Kind.ELSEWHERE, None, "KANJI CARDS", "Elsewhere", CARDS_TITLE, card_words))
     if reading_words:
         out.append(Group("reading", Kind.ELSEWHERE, None, "READING", "Elsewhere", READING_TITLE, reading_words))
+    if scene_words:
+        out.append(Group("scenes", Kind.ELSEWHERE, None, "SCENES", "Elsewhere", SCENES_TITLE, scene_words))
     return tuple(out)
 
 
@@ -210,7 +216,7 @@ def _reading_examples(readings: Iterable[Reading]) -> dict[str, list[Example]]:
     """Every reading line (paragraph or dialog line) for each word it uses, the word marked, in text order."""
     out: dict[str, list[Example]] = {}
     for r in readings:
-        source = Source(f"reading/{r.id}/", f"Reading: {r.title.en}")
+        source = Source(f"reading/{r.id}/", f"{'Reading' if r.lesson is not None else 'Scene'}: {r.title.en}")
         for block in (*r.prose, *r.dialog):
             keys = [None if t.word is None else word_key(r.words[t.word].ja) for t in block.tokens]
             for key in dict.fromkeys(k for k in keys if k is not None):

@@ -25,6 +25,7 @@ es = "Esa persona es el señor Tanaka. El señor Tanaka es médico. Es médico d
 
 [[prose]]
 ja = "田[た]中[なか]|さん|は|日[に]本[ほん]人[じん]|です|。|私[わたし]|も|医[い]者[しゃ]|です|か|。|いいえ|、|違[ちが]います|。"
+uses = ["いいえ、違[ちが]います"]
 en = "Mr. Tanaka is Japanese. Am I a doctor too? No, I'm not."
 ru = "Танака-сан — японец. Я тоже врач? Нет."
 uk = "Танака-сан — японець. Я теж лікарка? Ні."
@@ -65,6 +66,7 @@ es = "No, soy médico. Médico de aquel hospital."
 [[dialog]]
 speaker = "マリア"
 ja = "そうですか|。|田[た]中[なか]|さん|は|おいくつ|です|か|。"
+uses = ["おいくつですか"]
 en = "I see. May I ask how old you are, Mr. Tanaka?"
 ru = "Вот как. Танака-сан, а сколько вам лет?"
 uk = "Он як. Танако-сан, а скільки вам років?"

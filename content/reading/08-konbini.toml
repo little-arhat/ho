@@ -54,6 +54,7 @@ es = "En casa se comió el bento caliente. Los bentos de la tienda son baratos, 
 [[dialog]]
 speaker = "店[てん]員[いん]"
 ja = "いらっしゃいませ|。"
+uses = ["いらっしゃいませ"]
 en = "Welcome!"
 ru = "Добро пожаловать!"
 uk = "Ласкаво просимо!"
@@ -70,6 +71,7 @@ es = "Esto, por favor."
 [[dialog]]
 speaker = "店[てん]員[いん]"
 ja = "お弁[べん]当[とう]|、|温[あたた]めます|か|。"
+uses = ["お弁当[べんとう]、温[あたた]めますか"]
 en = "Shall I heat your bento?"
 ru = "Бэнто разогреть?"
 uk = "Бенто розігріти?"
@@ -78,6 +80,7 @@ es = "¿Le caliento el bento?"
 [[dialog]]
 speaker = "ワン"
 ja = "はい|、|お願[ねが]いします。|それから|、|お茶[ちゃ]|も|ください。"
+uses = ["はい、お願[ねが]いします"]
 en = "Yes, please. And a tea too, please."
 ru = "Да, пожалуйста. И ещё чай."
 uk = "Так, будь ласка. І ще чай."
@@ -118,6 +121,7 @@ es = "¿Necesita bolsa?"
 [[dialog]]
 speaker = "ワン"
 ja = "いいえ|、|大[だい]丈[じょう]夫[ぶ]|です|。|鞄[かばん]|は|大[おお]きい|です|。"
+uses = ["大丈夫[だいじょうぶ]です"]
 en = "No, I'm fine. My bag is big."
 ru = "Нет, не надо. У меня большая сумка."
 uk = "Ні, не треба. У мене велика сумка."
@@ -134,6 +138,7 @@ es = "Son 680 yenes."
 [[dialog]]
 speaker = "ワン"
 ja = "カード|で|お願[ねが]いします。"
+uses = ["〇〇でお願[ねが]いします"]
 en = "By card, please."
 ru = "Картой, пожалуйста."
 uk = "Карткою, будь ласка."

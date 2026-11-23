@@ -54,6 +54,7 @@ es = "El profesor Yamada es muy amable. Por la noche llamó a Maria. Maria ya es
 [[dialog]]
 speaker = "山[やま]田[だ]"
 ja = "マリア|さん|、|お元[げん]気[き]ですか。"
+uses = ["お元気[げんき]ですか"]
 en = "Maria, how are you?"
 ru = "Мария, как ты?"
 uk = "Маріє, як ти?"
@@ -158,6 +159,7 @@ es = "Ya veo. Toma un té frío."
 [[dialog]]
 speaker = "マリア"
 ja = "ありがとうございます。|いただきます。"
+uses = ["いただきます"]
 en = "Thank you. I'll have some."
 ru = "Спасибо. С удовольствием."
 uk = "Дякую. Із задоволенням."

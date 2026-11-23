@@ -33,6 +33,16 @@ if (st.topic !== "all" && !TOPIC[st.topic]) st.topic = "all";
 
 const colorStyle = (t) => `--c-l:${t.color};--c-d:${t.color_dark}`;
 
+// Texts that use a phrase: all of them on its card; the scenes gathered under its section's heading.
+const textLink = (t) => `<a href="${esc(t.href)}">${t.scene ? "Scene" : "Reading"}: ${esc(t.title)} →</a>`;
+const textLinks = (texts, cls = "") => (texts.length ? `<div class="pb-texts ${cls}">${texts.map(textLink).join("")}</div>` : "");
+const sectionTexts = {};
+for (const p of phrases) {
+  const k = `${p.topic}|${p.section}`;
+  sectionTexts[k] ??= new Map();
+  for (const t of p.texts) if (t.scene) sectionTexts[k].set(t.href, t);
+}
+
 // Topic chips
 const chips = $("topics");
 function chip(id, label, jp, t) {
@@ -109,7 +119,7 @@ function card(p) {
     + `<div class="kind ${p.kind}">${label}${p.level ? `<span class="lv">${esc(p.level)}</span>` : ""}</div>`
     + `<div class="jpl" lang="ja">${ruby(p.ja)}${sayButton(p.say, p.clip)}</div>${ro(p.ro)}`
     + (p.casual.length ? `<div class="cas-inline" lang="ja">${ruby(p.casual)}</div><div class="rol cas-ro">${esc(p.casual_ro)}</div>` : "")
-    + translations(p) + `<div class="more"></div></div>`;
+    + translations(p) + textLinks(p.texts) + `<div class="more"></div></div>`;
 }
 
 function matches(p, terms) {
@@ -136,7 +146,7 @@ function render() {
     }
     if (p.section !== lastS) {
       if (lastS !== null) h += "</div>";
-      h += `<h3 class="sec">${esc(p.section)}</h3><div class="list">`;
+      h += `<h3 class="sec">${esc(p.section)}</h3>${textLinks([...sectionTexts[`${p.topic}|${p.section}`].values()], "sec-texts")}<div class="list">`;
       lastS = p.section;
     }
     h += card(p);
@@ -178,4 +188,14 @@ $("showclose").addEventListener("click", () => { $("show").hidden = true; });
 $("show").addEventListener("click", (e) => { if (e.target.id === "show") $("show").hidden = true; });
 let timer;
 $("q").addEventListener("input", (e) => { clearTimeout(timer); timer = setTimeout(() => { st.q = e.target.value; render(); }, 120); });
+
+// ?phrase=<anchor> (a link from a text) opens that phrase's card in its topic.
+const wanted = phrases.find((p) => p.anchor && p.anchor === new URLSearchParams(location.search).get("phrase"));
+if (wanted) { st.topic = wanted.topic; st.kind = "all"; }
 render();
+if (wanted) {
+  const c = $("out").querySelector(`.card[data-id="${wanted.id}"]`);
+  toggle(c);
+  c.scrollIntoView({ block: "center" });
+  c.focus({ preventScroll: true });
+}

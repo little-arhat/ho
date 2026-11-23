@@ -11,6 +11,7 @@ es = "¿De quién es el reloj de la mesa? Es el reloj de Maria."
 
 [[prose]]
 ja = "あの|傘[かさ]|も|マリア|さん|の|です|か|。|いいえ|、|違[ちが]います。|田[た]中[なか]|さん|の|傘[かさ]|です|。"
+uses = ["いいえ、違[ちが]います"]
 en = "Is that umbrella Maria's too? No, it isn't. It's Mr. Tanaka's umbrella."
 ru = "Тот зонт тоже Марии? Нет. Это зонт Танаки-сана."
 uk = "Та парасолька теж Марії? Ні. Це парасолька Танаки-сана."
@@ -18,6 +19,7 @@ es = "¿Ese paraguas también es de Maria? No. Es el paraguas del señor Tanaka.
 
 [[prose]]
 ja = "これ|は|何[なん]|です|か|。|チョコレート|です|。|マリア|さん|の|チョコレート|じゃ ありません|。|田[た]中[なか]|さん|の|です|。"
+uses = ["これは何[なん]ですか"]
 en = "What is this? It's chocolate. It isn't Maria's chocolate. It's Mr. Tanaka's."
 ru = "Что это? Шоколад. Это не шоколад Марии. Он Танаки-сана."
 uk = "Що це? Шоколад. Це не шоколад Марії. Він Танаки-сана."
@@ -57,6 +59,7 @@ es = "¿Ese paraguas también es suyo?"
 [[dialog]]
 speaker = "マリア"
 ja = "いいえ|、|違[ちが]います。|あれ|は|田[た]中[なか]|さん|の|です|。"
+uses = ["いいえ、違[ちが]います"]
 en = "No, it isn't. That one is yours, Mr. Tanaka."
 ru = "Нет. Тот ваш, Танака-сан."
 uk = "Ні. Та ваша, Танако-сан."

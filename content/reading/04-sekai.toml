@@ -104,6 +104,7 @@ es = "En Nueva York también es jueves. Pero por la mañana."
 [[dialog]]
 speaker = "マリア"
 ja = "大[たい]変[へん]ですね。|じゃ|、|今[こん]晩[ばん]|、|私[わたし]|は|十[じゅう]一[いち]時[じ]=時[じ]|に|寝[ね]ます|。"
+uses = ["大変[たいへん]ですね"]
 en = "How tricky! Well then, tonight I'll go to bed at eleven."
 ru = "Сложно! Ну, а я сегодня лягу в одиннадцать."
 uk = "Складно! Ну, а я сьогодні ляжу об одинадцятій."

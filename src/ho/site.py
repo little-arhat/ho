@@ -96,7 +96,7 @@ def pages(content: Content) -> tuple[Page, ...]:
         Page("index.html", "home.html", "Home", "home"),
         Page("lessons/index.html", "lessons.html", "Lessons", "lessons", {"lessons": content.lessons}),
         Page("phrasebook/index.html", "phrasebook.html", "Phrase book", "phrasebook",
-             data=phrasebook.view(content.phrasebook, clip_of(content))),
+             data=phrasebook.view(content.phrasebook, clip_of(content), _texts_using(content))),
         Page("katakana/index.html", "katakana.html", "Katakana drill", "katakana",
              data=katakana.view(content.katakana)),
     ]
@@ -146,15 +146,34 @@ def _word_pages(content: Content) -> list[Page]:
     }) for i, p in enumerate(pages)]
 
 
+def _texts_using(content: Content):
+    """For a phrase, the texts with a line that uses it: [{title, href}] in text order, hrefs from the phrase book."""
+    by_ja: dict[str, list[dict[str, str]]] = {}
+    for r in content.readings:
+        for ja in dict.fromkeys(u for block in (*r.prose, *r.dialog) for u in block.uses):
+            by_ja.setdefault(ja, []).append({"title": r.title.en, "href": f"../reading/{r.id}/",
+                                             "scene": r.lesson is None})
+
+    def texts(p: phrasebook.Phrase) -> list[dict[str, str]]:
+        return by_ja.get(p.ja, [])
+    return texts
+
+
 def _reading_pages(content: Content) -> list[Page]:
     texts = content.readings
-    numbers = sorted({r.lesson for r in texts})
+    lesson_texts = [r for r in texts if r.lesson is not None]
+    scenes = [r for r in texts if r.lesson is None]
+    numbers = sorted({r.lesson for r in lesson_texts})
+    anchors = {ja: phrasebook.anchor(ps[0]) for ja, ps in phrasebook.by_ja(content.phrasebook).items()}
     out = [Page("reading/index.html", "readings.html", "Reading", "reading", {
-        "by_lesson": [(n, [r for r in texts if r.lesson == n]) for n in numbers],
-        "filters": [("all", "ALL"), *((str(n), f"L{n}") for n in sorted({n for r in texts for n in r.lessons}))]})]
+        "by_lesson": [(n, [r for r in lesson_texts if r.lesson == n]) for n in numbers],
+        "scenes": scenes,
+        "filters": [("all", "ALL"), *((str(n), f"L{n}") for n in sorted({n for r in lesson_texts for n in r.lessons})),
+                    *([("scene", "SCENES")] if scenes else [])]})]
     for i, r in enumerate(texts):
         out.append(Page(f"reading/{r.id}/index.html", "reading.html", r.title.en, "reading", {
             "text": r,
+            "phrase_anchor": anchors,
             "prev": texts[i - 1] if i > 0 else None,
             "next": texts[i + 1] if i + 1 < len(texts) else None,
         }, data={"words": reading.words_view(r, {c.char for c in content.kanji}, words.slug)}))

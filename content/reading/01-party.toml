@@ -25,6 +25,7 @@ es = "El señor Kimura tiene treinta años. Anna también tiene treinta."
 
 [[prose]]
 ja = "私[わたし]|は|マリア|です|。|IMCの社[しゃ]員[いん]|です|。|皆[みな]さん|、|どうぞ よろしく お願[ねが]いします。"
+uses = ["どうぞよろしくお願[ねが]いします"]
 en = "I'm Maria. I work for IMC. Nice to meet you all."
 ru = "Я Мария. Я сотрудница IMC. Всем приятно познакомиться."
 uk = "Я Марія. Я співробітниця IMC. Усім приємно познайомитися."
@@ -33,6 +34,7 @@ es = "Soy Maria. Trabajo en IMC. Encantada de conoceros a todos."
 [[dialog]]
 speaker = "マリア"
 ja = "失[しつ]礼[れい]ですが|、|お名[な]前[まえ]は？"
+uses = ["お名前[なまえ]は？"]
 en = "Excuse me, but may I have your name?"
 ru = "Простите, как вас зовут?"
 uk = "Перепрошую, як вас звати?"
@@ -89,6 +91,7 @@ es = "Encantado. Soy Kimura. Mucho gusto."
 [[dialog]]
 speaker = "マリア"
 ja = "マリア|です|。|どうぞ よろしく お願[ねが]いします。"
+uses = ["どうぞよろしくお願[ねが]いします"]
 en = "I'm Maria. Very pleased to meet you."
 ru = "Я Мария. Очень приятно познакомиться."
 uk = "Я Марія. Дуже приємно познайомитися."

@@ -63,6 +63,7 @@ es = "¡Ah, Maria! Bienvenida. Pasa, por favor."
 [[dialog]]
 speaker = "マリア"
 ja = "失[しつ]礼[れい]します|。|これ|、|スペイン|の|お土産[みやげ]|です|。|ほんの気[き]持[も]ちです。"
+uses = ["失礼[しつれい]します"]
 en = "Excuse me for coming in. This is a souvenir from Spain. Just a small token."
 ru = "Извините за беспокойство. Это сувенир из Испании. Небольшой знак внимания."
 uk = "Вибачте за турботу. Це сувенір з Іспанії. Невеликий знак уваги."
@@ -95,6 +96,7 @@ es = "¡Qué bonito! Maria, ¿te apetece un café?"
 [[dialog]]
 speaker = "マリア"
 ja = "はい|、|いただきます。"
+uses = ["いただきます"]
 en = "Yes, thank you, I'd love some."
 ru = "Да, с удовольствием."
 uk = "Так, із задоволенням."
@@ -111,6 +113,7 @@ es = "Maria, toma también dulces. ¿Los comes con palillos o con tenedor?"
 [[dialog]]
 speaker = "マリア"
 ja = "箸[はし]|で|食[た]べます|。|いただきます。"
+uses = ["いただきます"]
 en = "With chopsticks. Thank you for the food."
 ru = "Палочками. Спасибо за угощение!"
 uk = "Паличками. Дякую за частування!"

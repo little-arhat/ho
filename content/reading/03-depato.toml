@@ -25,6 +25,7 @@ es = "La alimentación está en el primer sótano. El aparcamiento, en el segund
 
 [[prose]]
 ja = "この|ネクタイ|は|いくら|です|か|。|３，０００円[えん]=円[えん]|です|。|イタリア|の|ネクタイ|です|。|じゃ|、|これ|を|ください。"
+uses = ["これをください"]
 en = "How much is this tie? It's 3,000 yen. It's an Italian tie. Then I'll take this one."
 ru = "Сколько стоит этот галстук? 3000 иен. Итальянский галстук. Тогда возьму его."
 uk = "Скільки коштує ця краватка? 3000 єн. Італійська краватка. Тоді візьму її."
@@ -97,6 +98,7 @@ es = "3.000 yenes."
 [[dialog]]
 speaker = "マリア"
 ja = "じゃ|、|これ|を|ください。"
+uses = ["これをください"]
 en = "Then I'll take this one."
 ru = "Тогда я возьму его."
 uk = "Тоді я візьму її."

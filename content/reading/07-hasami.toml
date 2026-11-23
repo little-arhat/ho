@@ -135,6 +135,7 @@ es = "Sí. Señor Tanaka, muchas gracias por las tijeras."
 [[dialog]]
 speaker = "田[た]中[なか]"
 ja = "どういたしまして。"
+uses = ["どういたしまして"]
 en = "You're welcome."
 ru = "Не за что."
 uk = "Нема за що."

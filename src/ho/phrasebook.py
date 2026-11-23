@@ -13,6 +13,7 @@ from ho import furigana
 from ho.errors import ContentError
 from ho.fields import LANGS, check_alphabets
 from ho.kana import romaji
+from ho.kanji import fold
 from ho.romaji import romanize, speech
 from ho.verbs import KIND_LABEL, Verb, conjugate, find_verbs
 
@@ -121,6 +122,31 @@ def _phrase(row: dict[str, Any], topics: set[str], where: str) -> Phrase:
     return p
 
 
+def anchor(p: Phrase) -> str:
+    """A phrase card's address on the phrase-book page (`?phrase=`): its topic,
+    section, kind and words (the same words can be a card you say and one you hear)."""
+    return re.sub(r"\W+", "-", f"{p.topic} {p.section} {p.kind} {furigana.plain(p.ja)}").strip("-").lower()
+
+
+def by_ja(pb: Phrasebook) -> dict[str, tuple[Phrase, ...]]:
+    """Phrases you say or hear, by their Japanese (the same phrase may be filed under two topics)."""
+    out: dict[str, list[Phrase]] = {}
+    for p in pb.phrases:
+        if p.kind != "tip":
+            out.setdefault(p.ja, []).append(p)
+    return {ja: tuple(ps) for ja, ps in out.items()}
+
+
+def appears_in(p: Phrase, text: str) -> bool:
+    """Whether a line (furigana notation) says the phrase's Japanese, 〇〇
+    standing for any words, with spacing, punctuation and kana script ignored.
+
+    Casual forms do not count: many are a word or two (〇〇で, あの…) that
+    would be found in almost any line, so a match would prove nothing."""
+    pieces = [re.escape(fold(x)) for x in furigana.plain(p.ja).split("〇〇")]
+    return re.search(".+?".join(pieces), fold(furigana.plain(text))) is not None
+
+
 def load(path: Path, verbs: tuple[Verb, ...]) -> Phrasebook:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
     if set(data) != {"topic", "phrase"}:
@@ -133,6 +159,10 @@ def load(path: Path, verbs: tuple[Verb, ...]) -> Phrasebook:
         _phrase(row, ids, f"{path}: phrase #{i + 1} {row.get('ja') or row.get('note', '')[:20]!r}")
         for i, row in enumerate(data["phrase"])
     )
+    anchors = [anchor(p) for p in phrases if p.kind != "tip"]
+    twice = sorted({a for a in anchors if anchors.count(a) > 1})
+    if twice:
+        raise ContentError(f"{path}: the same card twice: {', '.join(twice)}")
     return Phrasebook(topics, phrases, verbs)
 
 
@@ -167,8 +197,10 @@ def _words(texts: tuple[str, ...]) -> list[list[str]]:
     return [[base, ruby] for base, ruby in seen.items()]
 
 
-def view(pb: Phrasebook, clip: Callable[[str], str]) -> dict[str, Any]:
-    """The phrase book as the page's JSON: parsed ruby, search text, verb tables."""
+def view(pb: Phrasebook, clip: Callable[[str], str],
+         texts: Callable[[Phrase], list[dict[str, str]]]) -> dict[str, Any]:
+    """The phrase book as the page's JSON: parsed ruby, search text, verb tables,
+    and for each phrase its anchor and the texts that use it ({title, href})."""
     verb_index: dict[str, int] = {}
     verbs: list[dict[str, Any]] = []
     phrases = []
@@ -187,6 +219,8 @@ def view(pb: Phrasebook, clip: Callable[[str], str]) -> dict[str, Any]:
         phrases.append({
             "topic": p.topic,
             "section": p.section,
+            "anchor": anchor(p) if p.kind != "tip" else "",
+            "texts": texts(p) if p.kind != "tip" else [],
             "kind": p.kind,
             "ja": furigana.segments_json(p.ja),
             "ro": romanize(p.ja),

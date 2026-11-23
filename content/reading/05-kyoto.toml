@@ -105,6 +105,7 @@ es = "No voy a ningún sitio. El sábado trabajo de nueve a cinco."
 [[dialog]]
 speaker = "マリア"
 ja = "大[たい]変[へん]ですね。"
+uses = ["大変[たいへん]ですね"]
 en = "That's tough."
 ru = "Тяжело вам."
 uk = "Важко вам."

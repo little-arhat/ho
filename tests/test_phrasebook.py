@@ -9,7 +9,7 @@ from ho.verbs import load_verbs
 CONTENT = Path(__file__).parent.parent / "content"
 VERBS = load_verbs(CONTENT / "verbs.toml")
 PB = phrasebook.load(CONTENT / "phrasebook.toml", VERBS)
-VIEW = phrasebook.view(PB, lambda text: "")
+VIEW = phrasebook.view(PB, lambda text: "", lambda p: [])
 
 
 def find(ja):
@@ -74,3 +74,16 @@ def test_misspelled_table(tmp_path):
                  'topic="a"\nsection="s"\nkind="tip"\nnote="n"\n')
     with pytest.raises(ContentError, match="expected"):
         phrasebook.load(f, VERBS)
+
+
+def test_every_card_has_its_own_anchor():
+    anchors = [p["anchor"] for p in VIEW["phrases"] if p["kind"] != "tip"]
+    assert all(anchors) and len(anchors) == len(set(anchors))
+
+
+def test_a_phrase_appears_in_a_line_with_slots_and_punctuation_ignored():
+    (check_in,) = [p for p in PB.phrases if p.ja.startswith("チェックインをお願[ねが]いします")]
+    assert phrasebook.appears_in(check_in, "あの、チェックインをお願[ねが]いします。予[よ]約[やく]した田[た]中[なか]です。")
+    (sumimasen,) = [p for p in PB.phrases if p.ja == "すみません"]
+    assert phrasebook.appears_in(sumimasen, "あ、すみません！")
+    assert not phrasebook.appears_in(sumimasen, "あの人[ひと]です。")  # not by its casual form あの…

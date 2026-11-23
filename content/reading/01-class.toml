@@ -33,6 +33,7 @@ es = "Soy ingeniero, no estudiante. Pero yo también soy alumno del profesor Yam
 [[dialog]]
 speaker = "山[やま]田[だ]"
 ja = "皆[みな]さん|、|初[はじ]めまして。|山[やま]田[だ]|です|。|どうぞ よろしく お願[ねが]いします。"
+uses = ["どうぞよろしくお願[ねが]いします"]
 en = "Nice to meet you, everyone. I'm Yamada. I look forward to working with you."
 ru = "Здравствуйте, все. Я Ямада. Рад знакомству."
 uk = "Добрий день усім. Я Ямада. Радий знайомству."

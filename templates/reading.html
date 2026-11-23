@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "macros.html" import tr, say %}
 {% macro tokens(ts) %}{% for t in ts %}{% if t.word is none %}{{ t.ja | ruby }}{% else %}{{ word(t) }}{% endif %}{% endfor %}{% endmacro %}
+{% macro uses(b) %}{% if b.uses %}<div class="rt-uses">{% for u in b.uses %}<a class="rt-use" href="../../phrasebook/?phrase={{ phrase_anchor[u] | urlencode }}" title="in the phrase book"><span>phrase book</span> <span lang="ja">{{ u | plain }}</span></a>{% endfor %}</div>{% endif %}{% endmacro %}
 {% macro word(t) %}<button type="button" class="rt-w{% if text.words[t.word].lesson is none %} new{% endif %}" data-w="{{ t.word }}">{{ t.ja | ruby }}</button>{% endmacro %}
 {% block main %}
 <nav class="lesson-nav">
@@ -12,9 +13,14 @@
 </nav>
 <article class="rtext">
   <header class="lesson-head">
+    {% if text.lesson is not none %}
     <div class="lesson-no">After lesson {{ text.lesson }}</div>
     <h1>{{ tr(text.title) }}</h1>
     <div class="rd-tags" aria-label="Uses the words of lessons">{% for l in text.lessons %}<a class="rd-tag" href="../../lessons/{{ "%02d" | format(l) }}/">L{{ l }}</a>{% endfor %}</div>
+    {% else %}
+    <div class="lesson-no">Scene · real-life Japanese</div>
+    <h1>{{ tr(text.title) }}</h1>
+    {% endif %}
   </header>
   {% if text.image %}<img class="rt-img" src="../{{ text.id }}.jpg" alt="">{% endif %}
   <div class="seg rt-forms" id="forms" role="group" aria-label="Show as">
@@ -27,6 +33,7 @@
     <div class="rt-p">
       <p class="rt-ja" lang="ja">{{ tokens(p.tokens) }}</p>
       {{ say(p.ja) }}
+      {{ uses(p) }}
       <details class="rt-tr"><summary>Translation</summary>{{ tr(p.tr, "p") }}</details>
     </div>
     {% endfor %}
@@ -38,6 +45,7 @@
       <div>
         <p class="rt-ja" lang="ja">{{ tokens(l.tokens) }}</p>
         {{ say(l.ja) }}
+        {{ uses(l) }}
         <details class="rt-tr"><summary>Translation</summary>{{ tr(l.tr, "p") }}</details>
       </div>
     </div>

@@ -33,6 +33,7 @@ es = "El café del señor Wang es pequeño. El de Maria es grande."
 [[dialog]]
 speaker = "店[てん]員[いん]"
 ja = "いらっしゃいませ|。"
+uses = ["いらっしゃいませ"]
 en = "Welcome."
 ru = "Добро пожаловать."
 uk = "Ласкаво просимо."
@@ -41,6 +42,7 @@ es = "Bienvenidos."
 [[dialog]]
 speaker = "マリア"
 ja = "ラテ|、|お願[ねが]いします|。|ミルク|は|多[おお]め|で|お願[ねが]いします|。"
+uses = ["〇〇でお願[ねが]いします"]
 en = "A latte, please. With extra milk, please."
 ru = "Латте, пожалуйста. Молока побольше, пожалуйста."
 uk = "Лате, будь ласка. Молока більше, будь ласка."
@@ -65,6 +67,7 @@ es = "A ver… un expreso, por favor."
 [[dialog]]
 speaker = "マリア"
 ja = "ワン|さん|、|それ|は|エスプレッソ|です|か|。|ちょっと|…"
+uses = ["ちょっと…"]
 en = "Wang, that's an espresso? It's a bit…"
 ru = "Ван-сан, это эспрессо? Как-то…"
 uk = "Ван-сане, це еспресо? Якось…"
