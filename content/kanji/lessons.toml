@@ -1086,3 +1086,280 @@ meaning = { en = "chopsticks", ru = "палочки для еды", uk = "пал
 char = "鋏"
 readings = ["はさみ", "キョウ"]
 meaning = { en = "scissors", ru = "ножницы", uk = "ножиці", es = "tijeras" }
+
+# Lesson 8
+
+[[kanji]]
+char = "静"
+readings = ["しず-か", "セイ"]
+meaning = { en = "quiet", ru = "тихий", uk = "тихий", es = "tranquilo" }
+
+[[kanji]]
+char = "有"
+readings = ["ユウ", "ウ"]
+meaning = { en = "have, exist; famous (有名)", ru = "иметь, быть; знаменитый (有名)", uk = "мати, бути; відомий (有名)", es = "tener, existir; famoso (有名)" }
+
+[[kanji]]
+char = "親"
+readings = ["おや", "シン"]
+meaning = { en = "parent; intimate, kind (親切)", ru = "родитель; близкий, добрый (親切)", uk = "батьки; близький, добрий (親切)", es = "padre o madre; íntimo, amable (親切)" }
+
+[[kanji]]
+char = "暇"
+readings = ["ひま", "カ"]
+meaning = { en = "free time", ru = "свободное время", uk = "вільний час", es = "tiempo libre" }
+
+[[kanji]]
+char = "利"
+readings = ["き-きます", "リ"]
+meaning = { en = "benefit; use; convenient (便利)", ru = "выгода; польза; удобный (便利)", uk = "вигода; користь; зручний (便利)", es = "beneficio; uso; práctico (便利)" }
+
+[[kanji]]
+char = "古"
+readings = ["ふる-い", "コ"]
+meaning = { en = "old", ru = "старый", uk = "старий", es = "viejo" }
+
+[[kanji]]
+char = "悪"
+readings = ["わる-い", "アク", "オ"]
+meaning = { en = "bad", ru = "плохой", uk = "поганий", es = "malo" }
+
+[[kanji]]
+char = "暑"
+readings = ["あつ-い", "ショ"]
+meaning = { en = "hot (weather)", ru = "жаркий (о погоде)", uk = "спекотний (про погоду)", es = "caluroso (tiempo)" }
+
+[[kanji]]
+char = "熱"
+readings = ["あつ-い", "ネツ"]
+meaning = { en = "hot (to the touch); heat, fever", ru = "горячий (на ощупь); жар, температура", uk = "гарячий (на дотик); жар, температура", es = "caliente (al tacto); calor, fiebre" }
+
+[[kanji]]
+char = "寒"
+readings = ["さむ-い", "カン"]
+meaning = { en = "cold (weather)", ru = "холодный (о погоде)", uk = "холодний (про погоду)", es = "frío (tiempo)" }
+
+[[kanji]]
+char = "冷"
+readings = ["つめ-たい", "ひ-えます", "レイ"]
+meaning = { en = "cold (to the touch), cool", ru = "холодный (на ощупь)", uk = "холодний (на дотик)", es = "frío (al tacto), fresco" }
+
+[[kanji]]
+char = "難"
+readings = ["むずか-しい", "ナン"]
+meaning = { en = "difficult", ru = "трудный", uk = "складний", es = "difícil" }
+
+[[kanji]]
+char = "易"
+readings = ["やさ-しい", "イ", "エキ"]
+meaning = { en = "easy; trade", ru = "лёгкий; торговля", uk = "легкий; торгівля", es = "fácil; comercio" }
+
+[[kanji]]
+char = "安"
+readings = ["やす-い", "アン"]
+meaning = { en = "cheap; peaceful", ru = "дешёвый; спокойный", uk = "дешевий; спокійний", es = "barato; tranquilo" }
+
+[[kanji]]
+char = "低"
+readings = ["ひく-い", "テイ"]
+meaning = { en = "low", ru = "низкий", uk = "низький", es = "bajo" }
+
+[[kanji]]
+char = "忙"
+readings = ["いそが-しい", "ボウ"]
+meaning = { en = "busy", ru = "занятой", uk = "зайнятий", es = "ocupado" }
+
+[[kanji]]
+char = "楽"
+readings = ["たの-しい", "たの-しみます", "ガク", "ラク"]
+meaning = { en = "pleasure; easy; music", ru = "удовольствие; лёгкий; музыка", uk = "задоволення; легкий; музика", es = "placer; fácil; música" }
+
+[[kanji]]
+char = "白"
+readings = ["しろ-い", "しろ", "ハク"]
+meaning = { en = "white", ru = "белый", uk = "білий", es = "blanco" }
+
+[[kanji]]
+char = "黒"
+readings = ["くろ-い", "くろ", "コク"]
+meaning = { en = "black", ru = "чёрный", uk = "чорний", es = "negro" }
+
+[[kanji]]
+char = "赤"
+readings = ["あか-い", "あか", "セキ"]
+meaning = { en = "red", ru = "красный", uk = "червоний", es = "rojo" }
+
+[[kanji]]
+char = "青"
+readings = ["あお-い", "あお", "セイ"]
+meaning = { en = "blue; green", ru = "синий; зелёный", uk = "синій; зелений", es = "azul; verde" }
+
+[[kanji]]
+char = "桜"
+readings = ["さくら", "オウ"]
+meaning = { en = "cherry tree", ru = "сакура, вишня", uk = "сакура, вишня", es = "cerezo" }
+
+[[kanji]]
+char = "山"
+readings = ["やま", "サン"]
+meaning = { en = "mountain", ru = "гора", uk = "гора", es = "montaña" }
+
+[[kanji]]
+char = "町"
+readings = ["まち", "チョウ"]
+meaning = { en = "town; block", ru = "город, городок; квартал", uk = "місто, містечко; квартал", es = "pueblo, ciudad; barrio" }
+
+[[kanji]]
+char = "寮"
+readings = ["リョウ"]
+meaning = { en = "dormitory", ru = "общежитие", uk = "гуртожиток", es = "residencia" }
+
+[[kanji]]
+char = "活"
+readings = ["カツ"]
+meaning = { en = "lively; life (生活)", ru = "живой; жизнь (生活)", uk = "живий; життя (生活)", es = "vivo; vida (生活)" }
+
+[[kanji]]
+char = "仕"
+readings = ["シ"]
+meaning = { en = "serve; do (仕事 work)", ru = "служить; делать (仕事 работа)", uk = "служити; робити (仕事 робота)", es = "servir; hacer (仕事 trabajo)" }
+
+[[kanji]]
+char = "杯"
+readings = ["ハイ", "パイ*"]
+meaning = { en = "cupful; counter for cups and glasses", ru = "чашка; счётное для чашек и бокалов", uk = "чашка; лічильне для чашок і келихів", es = "taza llena; contador de tazas y vasos" }
+
+[[kanji]]
+char = "不"
+readings = ["フ", "ブ"]
+meaning = { en = "not, un-", ru = "не-, без-", uk = "не-, без-", es = "no, in-" }
+
+[[kanji]]
+char = "快"
+readings = ["こころよ-い", "カイ"]
+meaning = { en = "pleasant", ru = "приятный", uk = "приємний", es = "agradable" }
+
+[[kanji]]
+char = "適"
+readings = ["テキ"]
+meaning = { en = "suitable", ru = "подходящий", uk = "придатний", es = "adecuado" }
+
+[[kanji]]
+char = "着"
+readings = ["き-ます", "つ-きます", "チャク"]
+meaning = { en = "wear; arrive; clothes (古着)", ru = "надевать; прибывать; одежда (古着)", uk = "одягати; прибувати; одяг (古着)", es = "vestir; llegar; ropa (古着)" }
+
+[[kanji]]
+char = "体"
+readings = ["からだ", "タイ"]
+meaning = { en = "body", ru = "тело", uk = "тіло", es = "cuerpo" }
+
+[[kanji]]
+char = "調"
+readings = ["しら-べます", "チョウ"]
+meaning = { en = "investigate; tune, condition (調子)", ru = "исследовать; тон, состояние (調子)", uk = "досліджувати; тон, стан (調子)", es = "investigar; tono, estado (調子)" }
+
+[[kanji]]
+char = "蒸"
+readings = ["む-します", "ジョウ"]
+meaning = { en = "steam; muggy (蒸し暑い)", ru = "пар; душный (蒸し暑い)", uk = "пара; задушливий (蒸し暑い)", es = "vapor; bochornoso (蒸し暑い)" }
+
+[[kanji]]
+char = "湿"
+readings = ["しめ-ります", "シツ"]
+meaning = { en = "damp, humid", ru = "сырой, влажный", uk = "сирий, вологий", es = "húmedo" }
+
+[[kanji]]
+char = "暖"
+readings = ["あたた-かい", "ダン"]
+meaning = { en = "warm (weather)", ru = "тёплый (о погоде)", uk = "теплий (про погоду)", es = "templado (tiempo)" }
+
+[[kanji]]
+char = "温"
+readings = ["あたた-かい", "あたた-めます", "オン"]
+meaning = { en = "warm (to the touch)", ru = "тёплый (на ощупь)", uk = "теплий (на дотик)", es = "templado (al tacto)" }
+
+[[kanji]]
+char = "丈"
+readings = ["たけ", "ジョウ"]
+meaning = { en = "length; sturdy (大丈夫)", ru = "длина; прочный (大丈夫)", uk = "довжина; міцний (大丈夫)", es = "longitud; robusto (大丈夫)" }
+
+[[kanji]]
+char = "夫"
+readings = ["おっと", "フ", "フウ", "(ブ)"]
+meaning = { en = "husband; man (大丈夫)", ru = "муж; мужчина (大丈夫)", uk = "чоловік (муж); чоловік (大丈夫)", es = "marido; hombre (大丈夫)" }
+
+[[kanji]]
+char = "複"
+readings = ["フク"]
+meaning = { en = "double, compound", ru = "двойной, составной", uk = "подвійний, складений", es = "doble, compuesto" }
+
+[[kanji]]
+char = "背"
+readings = ["せ", "せい", "ハイ"]
+meaning = { en = "height (of a person); back", ru = "рост; спина", uk = "зріст; спина", es = "estatura; espalda" }
+
+[[kanji]]
+char = "腰"
+readings = ["こし", "ヨウ"]
+meaning = { en = "lower back, hips", ru = "поясница", uk = "поперек", es = "zona lumbar, caderas" }
+
+[[kanji]]
+char = "狭"
+readings = ["せま-い", "キョウ"]
+meaning = { en = "narrow, cramped", ru = "тесный, узкий", uk = "тісний, вузький", es = "estrecho" }
+
+[[kanji]]
+char = "広"
+readings = ["ひろ-い", "コウ"]
+meaning = { en = "wide, spacious", ru = "широкий, просторный", uk = "широкий, просторий", es = "amplio, ancho" }
+
+[[kanji]]
+char = "都"
+readings = ["みやこ", "ト", "ツ"]
+meaning = { en = "capital; city", ru = "столица; город", uk = "столиця; місто", es = "capital; ciudad" }
+
+[[kanji]]
+char = "市"
+readings = ["いち", "シ"]
+meaning = { en = "city; market", ru = "город; рынок", uk = "місто; ринок", es = "ciudad; mercado" }
+
+[[kanji]]
+char = "放"
+readings = ["はな-します", "ホウ"]
+meaning = { en = "release; free (放題 as much as you like)", ru = "отпускать; вволю (放題)", uk = "відпускати; досхочу (放題)", es = "soltar; a voluntad (放題)" }
+
+[[kanji]]
+char = "席"
+readings = ["セキ"]
+meaning = { en = "seat", ru = "место (сиденье)", uk = "місце (сидіння)", es = "asiento" }
+
+[[kanji]]
+char = "座"
+readings = ["すわ-ります", "ザ"]
+meaning = { en = "sit; seat", ru = "сидеть; сиденье", uk = "сидіти; сидіння", es = "sentarse; asiento" }
+
+[[kanji]]
+char = "戸"
+readings = ["と", "コ"]
+meaning = { en = "door; counter for houses", ru = "дверь; счётное для домов", uk = "двері; лічильне для будинків", es = "puerta; contador de casas" }
+
+[[kanji]]
+char = "建"
+readings = ["た-てます", "ケン"]
+meaning = { en = "build", ru = "строить", uk = "будувати", es = "construir" }
+
+[[kanji]]
+char = "摩"
+readings = ["マ"]
+meaning = { en = "rub; scrape (摩天楼 skyscraper)", ru = "тереть; скрести (摩天楼 небоскрёб)", uk = "терти; шкрябати (摩天楼 хмарочос)", es = "frotar; rozar (摩天楼 rascacielos)" }
+
+[[kanji]]
+char = "楼"
+readings = ["ロウ"]
+meaning = { en = "tower, tall building", ru = "башня, высокое здание", uk = "вежа, висока будівля", es = "torre, edificio alto" }
+
+[[kanji]]
+char = "命"
+readings = ["いのち", "メイ"]
+meaning = { en = "life; command", ru = "жизнь; приказ", uk = "життя; наказ", es = "vida; orden" }

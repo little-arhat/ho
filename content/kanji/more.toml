@@ -5,11 +5,6 @@
 # reaches it, or to lessons.toml when a lesson's vocabulary does.
 
 [[kanji]]
-char = "丈"
-readings = ["たけ", "だけ", "ジョウ"]
-meaning = { en = "length; sturdy (大丈夫)", ru = "длина; прочный (大丈夫)", uk = "довжина; міцний (大丈夫)", es = "longitud; robusto (大丈夫)" }
-
-[[kanji]]
 char = "丼"
 readings = ["どんぶり", "トン", "タン"]
 meaning = { en = "bowl of rice with topping", ru = "миска риса с начинкой", uk = "миска рису з начинкою", es = "cuenco de arroz con guarnición" }
@@ -43,11 +38,6 @@ meaning = { en = "mix; exchange; cross", ru = "смешиваться; обме�
 char = "京"
 readings = ["みやこ", "キョウ", "ケイ"]
 meaning = { en = "capital (city)", ru = "столица", uk = "столиця", es = "capital (ciudad)" }
-
-[[kanji]]
-char = "仕"
-readings = ["つか-える", "シ", "ジ"]
-meaning = { en = "serve; do (仕事 work)", ru = "служить; делать (仕事 работа)", uk = "служити; робити (仕事 робота)", es = "servir; hacer (仕事 trabajo)" }
 
 [[kanji]]
 char = "以"
@@ -180,11 +170,6 @@ readings = ["ふみ", "サツ", "サク"]
 meaning = { en = "counter for books", ru = "счётное для книг", uk = "лічильне для книг", es = "contador de libros" }
 
 [[kanji]]
-char = "冷"
-readings = ["つめ-たい", "ひ-える", "レイ"]
-meaning = { en = "cold, cool", ru = "холодный", uk = "холодний", es = "frío, fresco" }
-
-[[kanji]]
 char = "凍"
 readings = ["こお-る", "こご-える", "トウ"]
 meaning = { en = "freeze", ru = "замерзать", uk = "замерзати", es = "congelar" }
@@ -203,11 +188,6 @@ meaning = { en = "row, line", ru = "ряд, очередь", uk = "ряд, че�
 char = "別"
 readings = ["わか-れる", "わ-ける", "ベツ"]
 meaning = { en = "separate, different", ru = "отдельный, другой", uk = "окремий, інший", es = "separado, diferente" }
-
-[[kanji]]
-char = "利"
-readings = ["き-く", "リ"]
-meaning = { en = "benefit; use", ru = "выгода; использовать", uk = "вигода; використовувати", es = "beneficio; uso" }
 
 [[kanji]]
 char = "制"
@@ -380,11 +360,6 @@ readings = ["ふと-い", "ふと-る", "タイ", "タ"]
 meaning = { en = "fat, thick", ru = "толстый", uk = "товстий", es = "gordo, grueso" }
 
 [[kanji]]
-char = "夫"
-readings = ["おっと", "それ", "フ", "フウ"]
-meaning = { en = "husband", ru = "муж", uk = "чоловік (муж)", es = "marido" }
-
-[[kanji]]
 char = "好"
 readings = ["この-む", "す-く", "コウ"]
 meaning = { en = "like, fond of", ru = "нравиться", uk = "подобатися", es = "gustar, aficionado a" }
@@ -425,11 +400,6 @@ readings = ["まも-る", "まも-り", "シュ", "ス"]
 meaning = { en = "protect; keep", ru = "защищать; соблюдать", uk = "захищати; дотримуватися", es = "proteger; guardar" }
 
 [[kanji]]
-char = "安"
-readings = ["やす-い", "やす-まる", "アン"]
-meaning = { en = "cheap; peaceful", ru = "дешёвый; спокойный", uk = "дешевий; спокійний", es = "barato; tranquilo" }
-
-[[kanji]]
 char = "完"
 readings = ["カン"]
 meaning = { en = "complete", ru = "завершённый", uk = "завершений", es = "completo" }
@@ -443,11 +413,6 @@ meaning = { en = "fix, decide", ru = "определять", uk = "визнач�
 char = "富"
 readings = ["と-む", "とみ", "フ", "フウ"]
 meaning = { en = "wealth, rich", ru = "богатство", uk = "багатство", es = "riqueza, rico" }
-
-[[kanji]]
-char = "寒"
-readings = ["さむ-い", "カン"]
-meaning = { en = "cold (weather)", ru = "холодный (о погоде)", uk = "холодний (про погоду)", es = "frío (tiempo)" }
 
 [[kanji]]
 char = "対"
@@ -475,11 +440,6 @@ readings = ["テン"]
 meaning = { en = "unfold; exhibit", ru = "раскрывать; выставка", uk = "розгортати; виставка", es = "desplegar; exhibir" }
 
 [[kanji]]
-char = "山"
-readings = ["やま", "サン", "セン"]
-meaning = { en = "mountain", ru = "гора", uk = "гора", es = "montaña" }
-
-[[kanji]]
 char = "巡"
 readings = ["めぐ-る", "めぐ-り", "ジュン"]
 meaning = { en = "go around", ru = "обходить", uk = "обходити", es = "dar la vuelta, rodear" }
@@ -503,11 +463,6 @@ meaning = { en = "roll; volume", ru = "свиток; том", uk = "сувій; 
 char = "布"
 readings = ["ぬの", "し-く", "フ", "ホ"]
 meaning = { en = "cloth", ru = "ткань", uk = "тканина", es = "tela" }
-
-[[kanji]]
-char = "席"
-readings = ["むしろ", "セキ"]
-meaning = { en = "seat", ru = "место (сиденье)", uk = "місце (сидіння)", es = "asiento" }
 
 [[kanji]]
 char = "帯"
@@ -595,19 +550,9 @@ readings = ["わす-れる", "ボウ"]
 meaning = { en = "forget", ru = "забывать", uk = "забувати", es = "olvidar" }
 
 [[kanji]]
-char = "忙"
-readings = ["いそが-しい", "せわ-しい", "ボウ", "モウ"]
-meaning = { en = "busy", ru = "занятой", uk = "зайнятий", es = "ocupado" }
-
-[[kanji]]
 char = "応"
 readings = ["あた-る", "まさに", "オウ", "ヨウ"]
 meaning = { en = "respond", ru = "отвечать, откликаться", uk = "відповідати, відгукуватися", es = "responder" }
-
-[[kanji]]
-char = "快"
-readings = ["こころよ-い", "カイ"]
-meaning = { en = "pleasant", ru = "приятный", uk = "приємний", es = "agradable" }
 
 [[kanji]]
 char = "念"
@@ -623,11 +568,6 @@ meaning = { en = "fear", ru = "страх", uk = "страх", es = "miedo" }
 char = "息"
 readings = ["いき", "ソク"]
 meaning = { en = "breath", ru = "дыхание", uk = "дихання", es = "aliento" }
-
-[[kanji]]
-char = "悪"
-readings = ["わる-い", "あ-し", "アク", "オ"]
-meaning = { en = "bad", ru = "плохой", uk = "поганий", es = "malo" }
 
 [[kanji]]
 char = "感"
@@ -745,11 +685,6 @@ readings = ["ささ-える", "つか-える", "シ"]
 meaning = { en = "support; branch", ru = "поддерживать; ветвь", uk = "підтримувати; гілка", es = "apoyar; sucursal" }
 
 [[kanji]]
-char = "放"
-readings = ["はな-す", "はな-つ", "ホウ"]
-meaning = { en = "release", ru = "отпускать", uk = "відпускати", es = "soltar" }
-
-[[kanji]]
 char = "数"
 readings = ["かず", "かぞ-える", "スウ", "ス"]
 meaning = { en = "number; count", ru = "число; считать", uk = "число; рахувати", es = "número; contar" }
@@ -778,11 +713,6 @@ meaning = { en = "early; fast", ru = "рано; быстро", uk = "рано; �
 char = "晴"
 readings = ["は-れる", "は-れ", "セイ"]
 meaning = { en = "clear (weather)", ru = "ясный (о погоде)", uk = "ясний (про погоду)", es = "despejado (tiempo)" }
-
-[[kanji]]
-char = "暑"
-readings = ["あつ-い", "ショ"]
-meaning = { en = "hot (weather)", ru = "жаркий (о погоде)", uk = "спекотний (про погоду)", es = "caluroso (tiempo)" }
 
 [[kanji]]
 char = "曲"
@@ -830,11 +760,6 @@ readings = ["むら", "ソン"]
 meaning = { en = "village", ru = "деревня", uk = "село", es = "pueblo" }
 
 [[kanji]]
-char = "杯"
-readings = ["さかずき", "ハイ"]
-meaning = { en = "cupful; counter for cups and glasses", ru = "чашка; счётное для чашек и бокалов", uk = "чашка; лічильне для чашок і келихів", es = "tazón lleno; contador de tazas y vasos" }
-
-[[kanji]]
 char = "東"
 readings = ["ひがし", "トウ"]
 meaning = { en = "east", ru = "восток", uk = "схід", es = "este" }
@@ -858,11 +783,6 @@ meaning = { en = "soft", ru = "мягкий", uk = "м'який", es = "blando" 
 char = "梅"
 readings = ["うめ", "バイ"]
 meaning = { en = "plum", ru = "слива умэ", uk = "слива уме", es = "ciruela" }
-
-[[kanji]]
-char = "楽"
-readings = ["たの-しい", "たの-しむ", "ガク", "ラク"]
-meaning = { en = "pleasure; easy; music", ru = "удовольствие; лёгкий; музыка", uk = "задоволення; легкий; музика", es = "placer; fácil; música" }
 
 [[kanji]]
 char = "構"
@@ -985,11 +905,6 @@ readings = ["しぶ", "しぶ-い", "ジュウ", "シュウ"]
 meaning = { en = "astringent; traffic jam (渋滞)", ru = "терпкий; пробка (渋滞)", uk = "терпкий; затор (渋滞)", es = "astringente; atasco (渋滞)" }
 
 [[kanji]]
-char = "温"
-readings = ["あたた-か", "あたた-かい", "オン"]
-meaning = { en = "warm", ru = "тёплый", uk = "теплий", es = "templado" }
-
-[[kanji]]
 char = "湯"
 readings = ["ゆ", "トウ"]
 meaning = { en = "hot water", ru = "горячая вода", uk = "гаряча вода", es = "agua caliente" }
@@ -1053,11 +968,6 @@ meaning = { en = "nothing, without", ru = "ничто, без", uk = "ніщо, 
 char = "焼"
 readings = ["や-く", "や-き", "ショウ"]
 meaning = { en = "grill, bake", ru = "жарить, печь", uk = "смажити, пекти", es = "asar, hornear" }
-
-[[kanji]]
-char = "熱"
-readings = ["あつ-い", "ネツ"]
-meaning = { en = "heat; fever", ru = "жар; температура", uk = "жар; температура", es = "calor; fiebre" }
 
 [[kanji]]
 char = "燗"
@@ -1135,11 +1045,6 @@ readings = ["いた-い", "いた-む", "ツウ"]
 meaning = { en = "pain", ru = "боль", uk = "біль", es = "dolor" }
 
 [[kanji]]
-char = "白"
-readings = ["しろ", "しろ-い", "ハク", "ビャク"]
-meaning = { en = "white", ru = "белый", uk = "білий", es = "blanco" }
-
-[[kanji]]
 char = "皿"
 readings = ["さら", "ベイ"]
 meaning = { en = "plate, dish", ru = "тарелка", uk = "тарілка", es = "plato" }
@@ -1153,11 +1058,6 @@ meaning = { en = "heap up; serve", ru = "насыпать горкой; накл
 char = "相"
 readings = ["ソウ", "ショウ"]
 meaning = { en = "mutual; partner", ru = "взаимный; партнёр", uk = "взаємний; партнер", es = "mutuo; compañero" }
-
-[[kanji]]
-char = "着"
-readings = ["き-る", "き-せる", "チャク", "ジャク"]
-meaning = { en = "wear; arrive", ru = "надевать; прибывать", uk = "одягати; прибувати", es = "vestir; llegar" }
 
 [[kanji]]
 char = "知"
@@ -1365,11 +1265,6 @@ readings = ["は", "ヨウ"]
 meaning = { en = "leaf", ru = "лист (дерева)", uk = "листок", es = "hoja" }
 
 [[kanji]]
-char = "蒸"
-readings = ["む-す", "む-れる", "ジョウ", "セイ"]
-meaning = { en = "steam", ru = "пар; готовить на пару", uk = "пара; готувати на парі", es = "vapor" }
-
-[[kanji]]
 char = "蔵"
 readings = ["くら", "おさ-める", "ゾウ", "ソウ"]
 meaning = { en = "storehouse", ru = "хранилище", uk = "сховище", es = "almacén" }
@@ -1525,11 +1420,6 @@ readings = ["ほ-める", "ショウ"]
 meaning = { en = "prize", ru = "приз", uk = "приз", es = "premio" }
 
 [[kanji]]
-char = "赤"
-readings = ["あか", "あか-い", "セキ", "シャク"]
-meaning = { en = "red", ru = "красный", uk = "червоний", es = "rojo" }
-
-[[kanji]]
 char = "趣"
 readings = ["おもむき", "おもむ-く", "シュ"]
 meaning = { en = "interest; hobby (趣味)", ru = "интерес; хобби (趣味)", uk = "інтерес; хобі (趣味)", es = "interés; afición (趣味)" }
@@ -1628,11 +1518,6 @@ meaning = { en = "choose", ru = "выбирать", uk = "вибирати", es 
 char = "邪"
 readings = ["よこし-ま", "ジャ"]
 meaning = { en = "wrong; evil (お邪魔 bother)", ru = "дурной; зло (お邪魔 помеха)", uk = "лихий; зло (お邪魔 завада)", es = "malo; mal (お邪魔 molestia)" }
-
-[[kanji]]
-char = "都"
-readings = ["みやこ", "ト", "ツ"]
-meaning = { en = "capital; city", ru = "столица; город", uk = "столиця; місто", es = "capital; ciudad" }
 
 [[kanji]]
 char = "配"
@@ -1873,3 +1758,48 @@ meaning = { en = "castle", ru = "замок", uk = "замок", es = "castillo"
 char = "姉"
 readings = ["あね", "シ"]
 meaning = { en = "older sister", ru = "старшая сестра", uk = "старша сестра", es = "hermana mayor" }
+
+[[kanji]]
+char = "冬"
+readings = ["ふゆ", "トウ"]
+meaning = { en = "winter", ru = "зима", uk = "зима", es = "invierno" }
+
+[[kanji]]
+char = "夏"
+readings = ["なつ", "カ", "ゲ"]
+meaning = { en = "summer", ru = "лето", uk = "літо", es = "verano" }
+
+[[kanji]]
+char = "奈"
+readings = ["ナ"]
+meaning = { en = "Nara (奈良)", ru = "Нара (奈良)", uk = "Нара (奈良)", es = "Nara (奈良)" }
+
+[[kanji]]
+char = "両"
+readings = ["リョウ"]
+meaning = { en = "both (両親 parents)", ru = "оба (両親 родители)", uk = "обидва (両親 батьки)", es = "ambos (両親 padres)" }
+
+[[kanji]]
+char = "層"
+readings = ["ソウ"]
+meaning = { en = "layer, storey (高層 high-rise)", ru = "слой, этаж (高層 высотный)", uk = "шар, поверх (高層 висотний)", es = "capa, planta (高層 de gran altura)" }
+
+[[kanji]]
+char = "形"
+readings = ["かたち", "かた", "ケイ", "ギョウ"]
+meaning = { en = "shape, form", ru = "форма", uk = "форма", es = "forma" }
+
+[[kanji]]
+char = "詞"
+readings = ["シ"]
+meaning = { en = "part of speech; words (形容詞 adjective)", ru = "часть речи; слова (形容詞 прилагательное)", uk = "частина мови; слова (形容詞 прикметник)", es = "categoría gramatical; palabras (形容詞 adjetivo)" }
+
+[[kanji]]
+char = "紀"
+readings = ["キ"]
+meaning = { en = "chronicle; (in names: 由紀)", ru = "летопись; (в именах: 由紀)", uk = "літопис; (в іменах: 由紀)", es = "crónica; (en nombres: 由紀)" }
+
+[[kanji]]
+char = "菓"
+readings = ["カ"]
+meaning = { en = "sweets, cakes (お菓子)", ru = "сладости (お菓子)", uk = "солодощі (お菓子)", es = "dulces (お菓子)" }

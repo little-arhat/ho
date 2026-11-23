@@ -1,0 +1,426 @@
+number = 8
+title = { en = "Adjectives: describing things", ru = "Прилагательные: какое это", uk = "Прикметники: яке це", es = "Adjetivos: cómo son las cosas" }
+grammar = "い形[けい]容[よう]詞[し]・な形[けい]容[よう]詞[し]・Ｎは Adjです／じゃありません／くないです・Adj＋Ｎ・とても／あまり・どうですか／どんなＮ・～が、～・そして"
+
+[[rule]]
+title = { en = "N は Adj です: two kinds of adjectives, い and な", ru = "N は Adj です: два вида прилагательных, い и な", uk = "N は Adj です: два види прикметників, い і な", es = "N は Adj です: dos tipos de adjetivos, い y な" }
+pattern = [
+  { slot = "noun", en = "noun", ru = "существительное", uk = "іменник", es = "sustantivo" },
+  { ja = "は" },
+  { slot = "adj", en = "adjective", ru = "прилагательное", uk = "прикметник", es = "adjetivo" },
+  { ja = "です" },
+]
+table = { head = ["", "○", "×", "＋ N"], rows = [
+  ["い", "高[たか]いです", "高[たか]くないです", "高[たか]い山[やま]"],
+  ["いい", "いいです", "よくないです", "いい天[てん]気[き]"],
+  ["な", "静[しず]かです", "静[しず]かじゃありません", "静[しず]かな町[まち]"],
+  ["きれい", "きれいです", "きれいじゃありません", "きれいな花[はな]"],
+] }
+explain.en = "Japanese has two kinds of adjectives. い-adjectives end in い (高い, 新しい) and make their own negative: drop い, add くないです. な-adjectives (静か, 便利) work like nouns: じゃ ありません (formal では ありません). いい is irregular: its negative is よくないです. きれい and 有名 end in an い sound but are な-adjectives: きれいじゃ ありません, never きれくない. In the table ○ is the plain statement, × the negative, ＋N the adjective before a noun."
+explain.ru = "В японском два вида прилагательных. い-прилагательные кончаются на い (高い, 新しい) и сами образуют отрицание: い убираем, добавляем くないです. な-прилагательные (静か, 便利) ведут себя как существительные: じゃ ありません (официально では ありません). いい неправильное: отрицание — よくないです. きれい и 有名 кончаются на звук い, но это な-прилагательные: きれいじゃ ありません, а не きれくない. В таблице ○ — утверждение, × — отрицание, ＋N — прилагательное перед существительным."
+explain.uk = "У японській два види прикметників. い-прикметники закінчуються на い (高い, 新しい) і самі утворюють заперечення: прибираємо い, додаємо くないです. な-прикметники (静か, 便利) поводяться як іменники: じゃ ありません (офіційно では ありません). いい неправильний: заперечення — よくないです. きれい і 有名 закінчуються на звук い, але це な-прикметники: きれいじゃ ありません, а не きれくない. У таблиці ○ — твердження, × — заперечення, ＋N — прикметник перед іменником."
+explain.es = "El japonés tiene dos tipos de adjetivos. Los adjetivos en い acaban en い (高い, 新しい) y forman su propio negativo: quitas い y añades くないです. Los adjetivos en な (静か, 便利) funcionan como sustantivos: じゃ ありません (formal: では ありません). いい es irregular: su negativo es よくないです. きれい y 有名 acaban en sonido い pero son adjetivos en な: きれいじゃ ありません, nunca きれくない. En la tabla ○ es la afirmación, × la negación y ＋N el adjetivo delante de un sustantivo."
+example = [
+  { ja = "富[ふ]士[じ]山[さん]は高[たか]いです。", en = "Mt. Fuji is high.", ru = "Фудзи высокая.", uk = "Фудзі висока.", es = "El monte Fuji es alto." },
+  { ja = "この本[ほん]はおもしろくないです。", en = "This book isn't interesting.", ru = "Эта книга неинтересная.", uk = "Ця книжка нецікава.", es = "Este libro no es interesante." },
+  { ja = "ワット先[せん]生[せい]は親[しん]切[せつ]です。", en = "Mr. Watt is kind.", ru = "Уатт-сэнсэй добрый.", uk = "Ватт-сенсей добрий.", es = "El profesor Watt es amable." },
+  { ja = "この町[まち]は静[しず]かじゃありません。", en = "This town isn't quiet.", ru = "Этот город нетихий.", uk = "Це місто не тихе.", es = "Este pueblo no es tranquilo." },
+  { ja = "今日[きょう]は天[てん]気[き]がよくないです。", en = "The weather isn't good today.", ru = "Сегодня погода неважная.", uk = "Сьогодні погода не дуже.", es = "Hoy no hace buen tiempo." },
+]
+
+[[rule]]
+title = { en = "Adjective + noun: 高い山, 静かな町", ru = "Прилагательное + существительное: 高い山, 静かな町", uk = "Прикметник + іменник: 高い山, 静かな町", es = "Adjetivo + sustantivo: 高い山, 静かな町" }
+pattern = [
+  { slot = "noun", en = "noun", ru = "существительное", uk = "іменник", es = "sustantivo" },
+  { ja = "は" },
+  { slot = "adj", en = "い-adj / な-adj + な", ru = "い-прил. / な-прил. + な", uk = "い-прикм. / な-прикм. + な", es = "adj. い / adj. な + な" },
+  { slot = "kind", en = "noun", ru = "существительное", uk = "іменник", es = "sustantivo" },
+  { ja = "です" },
+]
+explain.en = "An adjective goes before the noun it describes. An い-adjective goes as it is: 高い 山. A な-adjective takes な: 静かな 町, きれいな 花. This is where the two kinds get their names."
+explain.ru = "Прилагательное стоит перед существительным. い-прилагательное — как есть: 高い 山. な-прилагательное берёт な: 静かな 町, きれいな 花. Отсюда и названия двух видов."
+explain.uk = "Прикметник стоїть перед іменником. い-прикметник — як є: 高い 山. な-прикметник бере な: 静かな 町, きれいな 花. Звідси й назви двох видів."
+explain.es = "El adjetivo va delante del sustantivo. El adjetivo en い va tal cual: 高い 山. El adjetivo en な lleva な: 静かな 町, きれいな 花. De ahí vienen los nombres de los dos tipos."
+example = [
+  { ja = "富[ふ]士[じ]山[さん]は高[たか]い山[やま]です。", en = "Mt. Fuji is a high mountain.", ru = "Фудзи — высокая гора.", uk = "Фудзі — висока гора.", es = "El monte Fuji es una montaña alta." },
+  { ja = "奈[な]良[ら]は静[しず]かな町[まち]です。", en = "Nara is a quiet town.", ru = "Нара — тихий город.", uk = "Нара — тихе місто.", es = "Nara es una ciudad tranquila." },
+  { ja = "桜[さくら]はきれいな花[はな]です。", en = "Cherry blossoms are beautiful flowers.", ru = "Сакура — красивые цветы.", uk = "Сакура — гарні квіти.", es = "Las flores de cerezo son unas flores bonitas." },
+]
+
+[[rule]]
+title = { en = "とても / あまり: very / not very", ru = "とても / あまり: очень / не очень", uk = "とても / あまり: дуже / не дуже", es = "とても / あまり: muy / no muy" }
+explain.en = "とても (very) goes with a positive sentence; あまり (not very) always with a negative one: とても 寒いです, あまり 寒くないです. Without the negative, あまり is wrong: not あまり 寒いです."
+explain.ru = "とても (очень) — с утвердительным предложением; あまり (не очень) — всегда с отрицанием: とても 寒いです, あまり 寒くないです. Без отрицания あまり — ошибка: не あまり 寒いです."
+explain.uk = "とても (дуже) — зі стверджувальним реченням; あまり (не дуже) — завжди із запереченням: とても 寒いです, あまり 寒くないです. Без заперечення あまり — помилка: не あまり 寒いです."
+explain.es = "とても (muy) va con una oración afirmativa; あまり (no muy), siempre con una negativa: とても 寒いです, あまり 寒くないです. Sin negativo, あまり es un error: no あまり 寒いです."
+example = [
+  { ja = "北[ほっ]海[かい]道[どう]はとても寒[さむ]いです。", en = "Hokkaido is very cold.", ru = "На Хоккайдо очень холодно.", uk = "На Гоккайдо дуже холодно.", es = "En Hokkaido hace mucho frío." },
+  { ja = "この店[みせ]はあまり高[たか]くないです。", en = "This shop isn't very expensive.", ru = "Этот магазин не очень дорогой.", uk = "Цей магазин не дуже дорогий.", es = "Esta tienda no es muy cara." },
+  { ja = "わたしの町[まち]はあまりにぎやかじゃありません。", en = "My town isn't very lively.", ru = "Мой город не очень оживлённый.", uk = "Моє місто не дуже жваве.", es = "Mi ciudad no es muy animada." },
+]
+
+[[rule]]
+title = { en = "どうですか / どんな N ですか: how is it? what kind?", ru = "どうですか / どんな N ですか: как? какой?", uk = "どうですか / どんな N ですか: як? який?", es = "どうですか / どんな N ですか: ¿qué tal? ¿qué tipo de?" }
+explain.en = "N は どうですか asks for an impression: 日本の 生活は どうですか (how is life in Japan?). どんな goes before a noun and asks what kind: 富士山は どんな 山ですか — 高い 山です. The answer often starts with そうですね while you think. どう has three levels: どうでしょうか (polite, to a customer or a teacher), どうですか (neutral), どう？ (friends)."
+explain.ru = "N は どうですか — спрашивают о впечатлении: 日本の 生活は どうですか (как вам жизнь в Японии?). どんな стоит перед существительным и спрашивает, какой: 富士山は どんな 山ですか — 高い 山です. Ответ часто начинают с そうですね, пока думают. У どう три уровня: どうでしょうか (вежливо, клиенту или учителю), どうですか (нейтрально), どう？ (друзьям)."
+explain.uk = "N は どうですか — питають про враження: 日本の 生活は どうですか (як вам життя в Японії?). どんな стоїть перед іменником і питає, який: 富士山は どんな 山ですか — 高い 山です. Відповідь часто починають із そうですね, поки думають. У どう три рівні: どうでしょうか (ввічливо, клієнтові чи вчителеві), どうですか (нейтрально), どう？ (друзям)."
+explain.es = "N は どうですか pide una impresión: 日本の 生活は どうですか (¿qué tal la vida en Japón?). どんな va delante de un sustantivo y pregunta de qué tipo: 富士山は どんな 山ですか — 高い 山です. La respuesta suele empezar con そうですね mientras piensas. どう tiene tres niveles: どうでしょうか (cortés, a un cliente o un profesor), どうですか (neutro), どう？ (entre amigos)."
+example = [
+  { ja = "日[に]本[ほん]の生[せい]活[かつ]はどうですか。", en = "How is life in Japan?", ru = "Как вам жизнь в Японии?", uk = "Як вам життя в Японії?", es = "¿Qué tal la vida en Japón?" },
+  { ja = "そうですね。とても楽[たの]しいです。", en = "Let me see. It's a lot of fun.", ru = "Ну… очень весело.", uk = "Ну… дуже весело.", es = "A ver… Es muy divertida." },
+  { ja = "奈[な]良[ら]はどんな町[まち]ですか。", en = "What kind of town is Nara?", ru = "Что за город Нара?", uk = "Що за місто Нара?", es = "¿Cómo es Nara?" },
+  { ja = "古[ふる]い町[まち]です。", en = "It's an old town.", ru = "Старинный город.", uk = "Старовинне місто.", es = "Es una ciudad antigua." },
+]
+
+[[rule]]
+title = { en = "S1 が、S2 / そして: but / and", ru = "S1 が、S2 / そして: но / и", uk = "S1 が、S2 / そして: але / і", es = "S1 が、S2 / そして: pero / y" }
+pattern = [
+  { slot = "first", en = "sentence", ru = "предложение", uk = "речення", es = "oración" },
+  { ja = "が、" },
+  { slot = "second", en = "sentence", ru = "предложение", uk = "речення", es = "oración" },
+]
+explain.en = "が at the end of a sentence joins it to a second one that goes the other way: but. そして starts a new sentence that adds in the same direction: and. Both keep their です: 日本の 食べ物は おいしいですが、高いです."
+explain.ru = "が в конце предложения присоединяет второе, противоположное по смыслу: но. そして начинает новое предложение, которое добавляет в том же духе: и. В обоих です сохраняется: 日本の 食べ物は おいしいですが、高いです."
+explain.uk = "が у кінці речення приєднує друге, протилежне за змістом: але. そして починає нове речення, що додає в тому ж дусі: і. В обох です зберігається: 日本の 食べ物は おいしいですが、高いです."
+explain.es = "が al final de una oración la une a otra que va en sentido contrario: pero. そして empieza una oración nueva que añade en el mismo sentido: y. Las dos conservan です: 日本の 食べ物は おいしいですが、高いです."
+example = [
+  { ja = "日[に]本[ほん]の食[た]べ物[もの]はおいしいですが、高[たか]いです。", en = "Japanese food is tasty, but expensive.", ru = "Японская еда вкусная, но дорогая.", uk = "Японська їжа смачна, але дорога.", es = "La comida japonesa está rica, pero es cara." },
+  { ja = "寮[りょう]の部[へ]屋[や]は狭[せま]いですが、快[かい]適[てき]です。", en = "The dormitory room is small, but comfortable.", ru = "Комната в общежитии тесная, но уютная.", uk = "Кімната в гуртожитку тісна, але затишна.", es = "La habitación de la residencia es pequeña, pero cómoda." },
+  { ja = "奈[な]良[ら]は静[しず]かです。そして、きれいです。", en = "Nara is quiet. And it's beautiful.", ru = "Нара тихая. И красивая.", uk = "Нара тиха. І гарна.", es = "Nara es tranquila. Y bonita." },
+]
+
+[[rule]]
+title = { en = "Hot, warm, cold: the air or what you touch", ru = "Жаркий, тёплый, холодный: воздух или то, что трогаешь", uk = "Спекотний, теплий, холодний: повітря чи те, чого торкаєшся", es = "Calor, templado, frío: el aire o lo que tocas" }
+table = { head = ["天[てん]気[き]・部[へ]屋[や]", "お茶[ちゃ]・水[みず]・手[て]"], rows = [
+  ["暑[あつ]い", "熱[あつ]い"],
+  ["暖[あたた]かい", "温[あたた]かい"],
+  ["寒[さむ]い", "冷[つめ]たい"],
+] }
+explain.en = "Japanese splits temperature words by what is hot or cold. The weather, the air, a room — what your whole body feels — take 暑い, 暖かい, 寒い. A thing you touch, drink or eat takes 熱い, 温かい, 冷たい. The two あつい and the two あたたかい sound the same and differ only in kanji. Summer in Japan is 蒸し暑い (humid and hot); humidity is 高い or 低い. At a convenience store you will hear お弁当、温めますか (shall I heat your bento?)."
+explain.ru = "Японский делит слова температуры по тому, что именно горячее или холодное. Погода, воздух, комната — то, что чувствует всё тело, — это 暑い, 暖かい, 寒い. То, что трогают, пьют или едят, — 熱い, 温かい, 冷たい. Два あつい и два あたたかい звучат одинаково и различаются только иероглифом. Лето в Японии 蒸し暑い (душное); влажность — 高い или 低い. В комбини спросят: お弁当、温めますか (разогреть бэнто?)."
+explain.uk = "Японська розрізняє слова температури за тим, що саме гаряче чи холодне. Погода, повітря, кімната — те, що відчуває все тіло, — це 暑い, 暖かい, 寒い. Те, чого торкаються, що п'ють чи їдять, — 熱い, 温かい, 冷たい. Два あつい і два あたたかい звучать однаково й різняться лише ієрогліфом. Літо в Японії 蒸し暑い (задушливе); вологість — 高い або 低い. У комбіні спитають: お弁当、温めますか (розігріти бенто?)."
+explain.es = "El japonés separa las palabras de temperatura según qué está caliente o frío. El tiempo, el aire, una habitación —lo que siente todo el cuerpo— llevan 暑い, 暖かい, 寒い. Lo que tocas, bebes o comes lleva 熱い, 温かい, 冷たい. Los dos あつい y los dos あたたかい suenan igual y solo cambia el kanji. El verano japonés es 蒸し暑い (bochornoso); la humedad es 高い o 低い. En una tienda de conveniencia oirás お弁当、温めますか (¿le caliento el bento?)."
+example = [
+  { ja = "今日[きょう]は暑[あつ]いですね。", en = "It's hot today, isn't it?", ru = "Сегодня жарко, правда?", uk = "Сьогодні спекотно, правда?", es = "Hoy hace calor, ¿verdad?" },
+  { ja = "このお茶[ちゃ]はとても熱[あつ]いです。", en = "This tea is very hot.", ru = "Этот чай очень горячий.", uk = "Цей чай дуже гарячий.", es = "Este té está muy caliente." },
+  { ja = "北[ほっ]海[かい]道[どう]は寒[さむ]いですが、部[へ]屋[や]は暖[あたた]かいです。", en = "Hokkaido is cold, but the rooms are warm.", ru = "На Хоккайдо холодно, но в комнатах тепло.", uk = "На Гоккайдо холодно, але в кімнатах тепло.", es = "En Hokkaido hace frío, pero las habitaciones están calientes." },
+  { ja = "冷[つめ]たいビールをください。", en = "A cold beer, please.", ru = "Холодного пива, пожалуйста.", uk = "Холодного пива, будь ласка.", es = "Una cerveza fría, por favor." },
+]
+
+[[rule]]
+title = { en = "Big or many, tall or expensive: which adjective?", ru = "Большой или много, высокий или дорогой: какое прилагательное?", uk = "Великий чи багато, високий чи дорогий: який прикметник?", es = "Grande o mucho, alto o caro: ¿qué adjetivo?" }
+table = { head = ["", "＋", "－"], rows = [
+  ["値[ね]段[だん]", "高[たか]い", "安[やす]い"],
+  ["高[たか]さ", "高[たか]い", "低[ひく]い"],
+  ["人[ひと]の背[せ]", "背[せ]が高[たか]い", "背[せ]が低[ひく]い"],
+  ["大[おお]きさ", "大[おお]きい", "小[ちい]さい"],
+  ["数[かず]", "多[おお]い", "少[すく]ない"],
+  ["部[へ]屋[や]・道[みち]", "広[ひろ]い", "狭[せま]い"],
+] }
+explain.en = "高い means both expensive and high, but its opposites differ: 安い for price, 低い for height. A tall person is 背が 高い (背 = height). 大きい and 小さい are the size of one thing; a lot of something is 多い, a little 少ない: a crowded city is 人が 多い, not 大きい. A room or a road is 広い or 狭い. 古い is for things only: an older person is 年上. Learn 背が 高い, 人が 多い as set phrases for now; が comes in lesson 9."
+explain.ru = "高い — и «дорогой», и «высокий», но противоположности разные: 安い по цене, 低い по высоте. Высокий человек — 背が 高い (背 — рост). 大きい и 小さい — размер одной вещи; много чего-то — 多い, мало — 少ない: людный город — 人が 多い, а не 大きい. Комната или дорога — 広い или 狭い. 古い — только о вещах: старший по возрасту — 年上. 背が 高い, 人が 多い пока запоминайте целиком; が будет в 9-м уроке."
+explain.uk = "高い — і «дорогий», і «високий», але протилежності різні: 安い за ціною, 低い за висотою. Висока людина — 背が 高い (背 — зріст). 大きい і 小さい — розмір однієї речі; багато чогось — 多い, мало — 少ない: людне місто — 人が 多い, а не 大きい. Кімната чи дорога — 広い або 狭い. 古い — тільки про речі: старший за віком — 年上. 背が 高い, 人が 多い поки запам'ятовуйте цілком; が буде в 9-му уроці."
+explain.es = "高い significa caro y alto, pero sus contrarios cambian: 安い para el precio, 低い para la altura. Una persona alta es 背が 高い (背 = estatura). 大きい y 小さい son el tamaño de una cosa; mucho de algo es 多い, poco 少ない: una ciudad con mucha gente es 人が 多い, no 大きい. Una habitación o una calle es 広い o 狭い. 古い es solo para cosas: una persona mayor es 年上. Aprende 背が 高い, 人が 多い como frases hechas por ahora; が llega en la lección 9."
+example = [
+  { ja = "このかばんは高[たか]いです。", en = "This bag is expensive.", ru = "Эта сумка дорогая.", uk = "Ця сумка дорога.", es = "Este bolso es caro." },
+  { ja = "ワンさんは背[せ]が高[たか]いです。", en = "Wang is tall.", ru = "Ван высокий.", uk = "Ван високий.", es = "Wang es alto." },
+  { ja = "東[とう]京[きょう]は人[ひと]が多[おお]いです。", en = "Tokyo is crowded.", ru = "В Токио много людей.", uk = "У Токіо багато людей.", es = "En Tokio hay mucha gente." },
+  { ja = "わたしの部[へ]屋[や]は狭[せま]いです。", en = "My room is small.", ru = "Моя комната тесная.", uk = "Моя кімната тісна.", es = "Mi habitación es pequeña." },
+  { ja = "木[き]村[むら]さんはわたしの年[とし]上[うえ]の友[とも]達[だち]です。", en = "Ms. Kimura is a friend who is older than me.", ru = "Кимура-сан — моя подруга постарше.", uk = "Кімура-сан — моя старша подруга.", es = "La señora Kimura es una amiga mayor que yo." },
+]
+
+[[rule]]
+title = { en = "How are you feeling? 体調, 気分, 調子 が いい / 悪い", ru = "Как самочувствие? 体調, 気分, 調子 が いい / 悪い", uk = "Як самопочуття? 体調, 気分, 調子 が いい / 悪い", es = "¿Cómo te encuentras? 体調, 気分, 調子 が いい / 悪い" }
+pattern = [
+  { slot = "state", en = "体調 / 気分 / 調子 / メンタル", ru = "体調 / 気分 / 調子 / メンタル", uk = "体調 / 気分 / 調子 / メンタル", es = "体調 / 気分 / 調子 / メンタル" },
+  { ja = "が" },
+  { slot = "adj", en = "いい / 悪い", ru = "いい / 悪い", uk = "いい / 悪い", es = "いい / 悪い" },
+  { ja = "です" },
+]
+explain.en = "Say how you are with a noun for the state and いい or 悪い. 体調 is your physical health: 体調が 悪いです = I'm not feeling well (a cold, tiredness). 気分 is how you feel right now: 気分が いい = in a good mood; 気分が 悪い = feeling sick or low. 調子 is how something is running — you, your body, a machine: パソコンの 調子が 悪い = the computer is acting up. メンタル is the everyday loanword for your mental state: メンタルが 強い / 弱い. お元気ですか is for someone you haven't seen for a while; to someone who looks unwell, ask 大丈夫ですか."
+explain.ru = "О самочувствии говорят существительным-состоянием и いい или 悪い. 体調 — физическое здоровье: 体調が 悪いです — мне нездоровится (простуда, усталость). 気分 — как вы себя чувствуете сейчас: 気分が いい — хорошее настроение; 気分が 悪い — дурно, тошно. 調子 — как что-то «работает»: вы, тело, техника: パソコンの 調子が 悪い — компьютер барахлит. メンタル — разговорное заимствование о душевном состоянии: メンタルが 強い / 弱い. お元気ですか спрашивают у того, кого давно не видели; тому, кто плохо выглядит, — 大丈夫ですか."
+explain.uk = "Про самопочуття кажуть іменником-станом і いい або 悪い. 体調 — фізичне здоров'я: 体調が 悪いです — мені зле (застуда, втома). 気分 — як ви почуваєтеся зараз: 気分が いい — гарний настрій; 気分が 悪い — нудить, зле на душі. 調子 — як щось «працює»: ви, тіло, техніка: パソコンの 調子が 悪い — комп'ютер глючить. メンタル — розмовне запозичення про душевний стан: メンタルが 強い / 弱い. お元気ですか питають у того, кого давно не бачили; тому, хто погано виглядає, — 大丈夫ですか."
+explain.es = "Para decir cómo estás se usa un sustantivo de estado y いい o 悪い. 体調 es la salud física: 体調が 悪いです = no me encuentro bien (un resfriado, cansancio). 気分 es cómo te sientes ahora: 気分が いい = de buen humor; 気分が 悪い = mareado o bajo de ánimo. 調子 es cómo funciona algo —tú, tu cuerpo, una máquina—: パソコンの 調子が 悪い = el ordenador falla. メンタル es el préstamo coloquial para el estado mental: メンタルが 強い / 弱い. お元気ですか es para alguien a quien no ves hace tiempo; a quien tiene mala cara, pregúntale 大丈夫ですか."
+example = [
+  { ja = "今日[きょう]は体[たい]調[ちょう]がよくないです。", en = "I'm not feeling well today.", ru = "Мне сегодня нездоровится.", uk = "Мені сьогодні зле.", es = "Hoy no me encuentro bien." },
+  { ja = "気[き]分[ぶん]が悪[わる]いです。", en = "I feel sick.", ru = "Мне дурно.", uk = "Мене нудить.", es = "Me encuentro mal." },
+  { ja = "最[さい]近[きん]、調[ちょう]子[し]はどうですか。", en = "How have you been lately?", ru = "Как вы в последнее время?", uk = "Як ви останнім часом?", es = "¿Qué tal estás últimamente?" },
+  { ja = "大[だい]丈[じょう]夫[ぶ]ですか。", en = "Are you all right?", ru = "Вы в порядке?", uk = "Ви в порядку?", es = "¿Está bien?" },
+]
+
+[[rule]]
+title = { en = "Saying no, nicely: けっこうです / 大丈夫です", ru = "Вежливый отказ: けっこうです / 大丈夫です", uk = "Ввічлива відмова: けっこうです / 大丈夫です", es = "Decir que no con cortesía: けっこうです / 大丈夫です" }
+explain.en = "Offered something you don't want, say いいえ、けっこうです (no, thank you) — formal, the textbook answer to もう 一杯 いかがですか. In everyday life you'll more often hear いいえ、大丈夫です (no thanks, I'm fine). At a checkout: レジ袋、いりますか (do you need a bag?) — はい、お願いします, or いいえ、大丈夫です; お弁当、温めますか — はい、お願いします."
+explain.ru = "Если предлагают то, чего не хотите: いいえ、けっこうです (нет, спасибо) — официально, учебниковый ответ на もう 一杯 いかがですか. В быту чаще слышно いいえ、大丈夫です (нет, спасибо, не надо). На кассе: レジ袋、いりますか (пакет нужен?) — はい、お願いします или いいえ、大丈夫です; お弁当、温めますか — はい、お願いします."
+explain.uk = "Якщо пропонують те, чого не хочете: いいえ、けっこうです (ні, дякую) — офіційно, підручникова відповідь на もう 一杯 いかがですか. У побуті частіше чути いいえ、大丈夫です (ні, дякую, не треба). На касі: レジ袋、いりますか (пакет потрібен?) — はい、お願いします або いいえ、大丈夫です; お弁当、温めますか — はい、お願いします."
+explain.es = "Si te ofrecen algo que no quieres: いいえ、けっこうです (no, gracias) — formal, la respuesta del libro a もう 一杯 いかがですか. En el día a día oirás más いいえ、大丈夫です (no, gracias, estoy bien). En la caja: レジ袋、いりますか (¿necesita bolsa?) — はい、お願いします, o いいえ、大丈夫です; お弁当、温めますか — はい、お願いします."
+example = [
+  { ja = "もう一[いっ]杯[ぱい]いかがですか。", en = "Won't you have another cup?", ru = "Не хотите ещё чашечку?", uk = "Чи не бажаєте ще чашечку?", es = "¿Quiere otra taza?" },
+  { ja = "いいえ、けっこうです。", en = "No, thank you.", ru = "Нет, спасибо.", uk = "Ні, дякую.", es = "No, gracias." },
+  { ja = "レジ袋[ぶくろ]、いりますか。", en = "Do you need a plastic bag?", ru = "Пакет нужен?", uk = "Пакет потрібен?", es = "¿Necesita bolsa?" },
+  { ja = "いいえ、大[だい]丈[じょう]夫[ぶ]です。", en = "No, I'm fine.", ru = "Нет, не надо.", uk = "Ні, не треба.", es = "No, gracias." },
+]
+
+[[rule]]
+title = { en = "Leaving a visit: もう ～ですね, そろそろ失礼します", ru = "Уходя из гостей: もう ～ですね, そろそろ失礼します", uk = "Ідучи з гостей: もう ～ですね, そろそろ失礼します", es = "Al irse de una visita: もう ～ですね, そろそろ失礼します" }
+explain.en = "もう with a time or a noun and です means it's already that late: もう 9時ですね (it's already nine, isn't it?). Then the guest says そろそろ 失礼します (it's about time I was going). The host answers またいらっしゃってください (please come again). いいえ answers thanks or an apology: not at all."
+explain.ru = "もう со временем или существительным и です — «уже так поздно»: もう 9時ですね (уже девять, да?). Потом гость говорит そろそろ 失礼します (мне пора). Хозяин отвечает またいらっしゃってください (приходите ещё). いいえ в ответ на благодарность или извинение — «что вы, не за что»."
+explain.uk = "もう з часом чи іменником і です — «уже так пізно»: もう 9時ですね (уже дев'ята, так?). Потім гість каже そろそろ 失礼します (мені час). Господар відповідає またいらっしゃってください (приходьте ще). いいえ у відповідь на подяку чи вибачення — «що ви, нема за що»."
+explain.es = "もう con una hora o un sustantivo y です significa que ya es tarde: もう 9時ですね (ya son las nueve, ¿eh?). Entonces el invitado dice そろそろ 失礼します (ya es hora de irme). El anfitrión responde またいらっしゃってください (vuelva cuando quiera). いいえ responde a un agradecimiento o una disculpa: de nada."
+example = [
+  { ja = "もう九[く]時[じ]ですね。そろそろ失[しつ]礼[れい]します。", en = "It's already nine. It's time I was going.", ru = "Уже девять. Мне пора.", uk = "Уже дев'ята. Мені час.", es = "Ya son las nueve. Es hora de irme." },
+  { ja = "そうですか。またいらっしゃってください。", en = "Really? Please come again.", ru = "Вот как. Приходите ещё.", uk = "Он як. Приходьте ще.", es = "¿Ah, sí? Vuelva cuando quiera." },
+  { ja = "今日[きょう]はどうもありがとうございました。— いいえ。", en = "Thank you very much for today. — Not at all.", ru = "Большое спасибо за сегодня. — Что вы, не за что.", uk = "Щиро дякую за сьогодні. — Що ви, нема за що.", es = "Muchas gracias por hoy. — De nada." },
+]
+
+[[rule]]
+title = { en = "Near-synonyms: place, town, life, home", ru = "Близкие слова: место, город, жизнь, жильё", uk = "Близькі слова: місце, місто, життя, житло", es = "Casi sinónimos: lugar, ciudad, vida, casa" }
+explain.en = "所 is the everyday word for a place (いい 所ですね); 場所 is a specific location, more formal: パーティーの 場所. A seat is 席; on a train or in a theatre also 座席. 町 is a town or the city you live in; 都市 is a city as a unit, in the news or statistics. 生活 is daily life, how you live: 日本の 生活; 命 is life itself, being alive. Homes: an アパート is a small low-rise building, often wooden and cheaper; a マンション is a flat in a solid multi-storey block (not a mansion); a 一戸建て is a detached house."
+explain.ru = "所 — обиходное «место» (いい 所ですね); 場所 — конкретное место, официальнее: パーティーの 場所. Место для сидения — 席; в поезде или театре ещё 座席. 町 — город, где живёшь; 都市 — город как единица, в новостях и статистике. 生活 — быт, образ жизни: 日本の 生活; 命 — сама жизнь. Жильё: アパート — малоэтажный дом, часто деревянный и дешевле; マンション — квартира в капитальном многоэтажном доме (не особняк); 一戸建て — частный дом."
+explain.uk = "所 — побутове «місце» (いい 所ですね); 場所 — конкретне місце, офіційніше: パーティーの 場所. Місце для сидіння — 席; у потязі чи театрі ще 座席. 町 — місто, де живеш; 都市 — місто як одиниця, у новинах і статистиці. 生活 — побут, спосіб життя: 日本の 生活; 命 — саме життя. Житло: アパート — малоповерховий будинок, часто дерев'яний і дешевший; マンション — квартира в капітальному багатоповерховому будинку (не особняк); 一戸建て — окремий будинок."
+explain.es = "所 es la palabra corriente para un lugar (いい 所ですね); 場所 es un sitio concreto, más formal: パーティーの 場所. Un asiento es 席; en el tren o el teatro también 座席. 町 es la ciudad o el pueblo donde vives; 都市 es una ciudad como unidad, en las noticias o la estadística. 生活 es la vida diaria, cómo vives: 日本の 生活; 命 es la vida misma, estar vivo. Viviendas: una アパート es un edificio bajo, a menudo de madera y más barato; una マンション es un piso en un bloque sólido de varias plantas (no una mansión); un 一戸建て es una casa unifamiliar."
+example = [
+  { ja = "京[きょう]都[と]はいい所[ところ]ですね。", en = "Kyoto is a nice place, isn't it?", ru = "Киото — хорошее место, правда?", uk = "Кіото — гарне місце, правда?", es = "Kioto es un sitio bonito, ¿verdad?" },
+  { ja = "パーティーの場[ば]所[しょ]はどこですか。", en = "Where is the party?", ru = "Где будет вечеринка?", uk = "Де буде вечірка?", es = "¿Dónde es la fiesta?" },
+  { ja = "東[とう]京[きょう]の生[せい]活[かつ]はどうですか。", en = "How is life in Tokyo?", ru = "Как вам жизнь в Токио?", uk = "Як вам життя в Токіо?", es = "¿Qué tal la vida en Tokio?" },
+  { ja = "わたしのアパートは古[ふる]いですが、広[ひろ]いです。", en = "My apartment is old, but roomy.", ru = "Моя квартира старая, но просторная.", uk = "Моя квартира стара, але простора.", es = "Mi apartamento es viejo, pero amplio." },
+]
+
+[[exercise]]
+kind = "choice"
+ja = "この本[ほん]はおもしろ＿です。"
+options = ["くない", "じゃない", "いじゃない"]
+answer = "くない"
+en = "This book isn't interesting."
+ru = "Эта книга неинтересная."
+uk = "Ця книжка нецікава."
+es = "Este libro no es interesante."
+
+[[exercise]]
+kind = "choice"
+ja = "この部[へ]屋[や]はきれい＿。"
+options = ["じゃありません", "くないです", "いじゃありません"]
+answer = "じゃありません"
+en = "This room isn't clean."
+ru = "Эта комната нечистая."
+uk = "Ця кімната не чиста."
+es = "Esta habitación no está limpia."
+
+[[exercise]]
+kind = "choice"
+ja = "今日[きょう]は天[てん]気[き]が＿です。"
+options = ["よくない", "いくない", "いいじゃない"]
+answer = "よくない"
+en = "The weather isn't good today."
+ru = "Сегодня погода неважная."
+uk = "Сьогодні погода не дуже."
+es = "Hoy no hace buen tiempo."
+
+[[exercise]]
+kind = "choice"
+ja = "奈[な]良[ら]は静[しず]か＿町[まち]です。"
+options = ["な", "の", "い"]
+answer = "な"
+en = "Nara is a quiet town."
+ru = "Нара — тихий город."
+uk = "Нара — тихе місто."
+es = "Nara es una ciudad tranquila."
+
+[[exercise]]
+kind = "choice"
+ja = "富[ふ]士[じ]山[さん]は高[たか]い＿です。"
+options = ["山[やま]", "な山[やま]", "の山[やま]"]
+answer = "山[やま]"
+en = "Mt. Fuji is a high mountain."
+ru = "Фудзи — высокая гора."
+uk = "Фудзі — висока гора."
+es = "El monte Fuji es una montaña alta."
+
+[[exercise]]
+kind = "reorder"
+parts = ["マリアさんは", "親[しん]切[せつ]な", "人[ひと]", "です。"]
+en = "Maria is a kind person."
+ru = "Мария — добрый человек."
+uk = "Марія — добра людина."
+es = "Maria es una persona amable."
+
+[[exercise]]
+kind = "choice"
+ja = "この店[みせ]は＿高[たか]くないです。"
+options = ["あまり", "とても", "そして"]
+answer = "あまり"
+en = "This shop isn't very expensive."
+ru = "Этот магазин не очень дорогой."
+uk = "Цей магазин не дуже дорогий."
+es = "Esta tienda no es muy cara."
+
+[[exercise]]
+kind = "choice"
+ja = "日[に]本[ほん]の生[せい]活[かつ]は＿ですか。— 楽[たの]しいです。"
+options = ["どう", "どんな", "どれ"]
+answer = "どう"
+en = "How is life in Japan? — It's fun."
+ru = "Как вам жизнь в Японии? — Весело."
+uk = "Як вам життя в Японії? — Весело."
+es = "¿Qué tal la vida en Japón? — Es divertida."
+
+[[exercise]]
+kind = "choice"
+ja = "ワンさんは＿人[ひと]ですか。— 親[しん]切[せつ]な人[ひと]です。"
+options = ["どんな", "どう", "何[なん]"]
+answer = "どんな"
+en = "What kind of person is Wang? — A kind person."
+ru = "Какой человек Ван? — Добрый."
+uk = "Яка людина Ван? — Добра."
+es = "¿Cómo es Wang? — Es una persona amable."
+
+[[exercise]]
+kind = "reorder"
+parts = ["日[に]本[ほん]の", "食[た]べ物[もの]は", "おいしいですが、", "高[たか]いです。"]
+en = "Japanese food is tasty, but expensive."
+ru = "Японская еда вкусная, но дорогая."
+uk = "Японська їжа смачна, але дорога."
+es = "La comida japonesa está rica, pero es cara."
+
+[[exercise]]
+kind = "choice"
+ja = "この寮[りょう]は古[ふる]いです＿、きれいです。"
+options = ["が", "そして", "と"]
+answer = "が"
+en = "This dormitory is old, but clean."
+ru = "Это общежитие старое, но чистое."
+uk = "Цей гуртожиток старий, але чистий."
+es = "Esta residencia es vieja, pero limpia."
+
+[[exercise]]
+kind = "choice"
+ja = "このコーヒーはとても＿です。"
+options = ["熱[あつ]い", "暑[あつ]い", "寒[さむ]い"]
+answer = "熱[あつ]い"
+en = "This coffee is very hot."
+ru = "Этот кофе очень горячий."
+uk = "Ця кава дуже гаряча."
+es = "Este café está muy caliente."
+
+[[exercise]]
+kind = "choice"
+ja = "北[ほっ]海[かい]道[どう]の冬[ふゆ]は＿です。"
+options = ["寒[さむ]い", "冷[つめ]たい", "低[ひく]い"]
+answer = "寒[さむ]い"
+en = "Winter in Hokkaido is cold."
+ru = "Зима на Хоккайдо холодная."
+uk = "Зима на Гоккайдо холодна."
+es = "El invierno en Hokkaido es frío."
+
+[[exercise]]
+kind = "choice"
+ja = "＿水[みず]をください。"
+options = ["冷[つめ]たい", "寒[さむ]い", "暖[あたた]かい"]
+answer = "冷[つめ]たい"
+en = "Cold water, please."
+ru = "Холодной воды, пожалуйста."
+uk = "Холодної води, будь ласка."
+es = "Agua fría, por favor."
+
+[[exercise]]
+kind = "choice"
+ja = "東[とう]京[きょう]は人[ひと]が＿です。"
+options = ["多[おお]い", "大[おお]きい", "高[たか]い"]
+answer = "多[おお]い"
+en = "Tokyo is crowded."
+ru = "В Токио много людей."
+uk = "У Токіо багато людей."
+es = "En Tokio hay mucha gente."
+
+[[exercise]]
+kind = "choice"
+ja = "ワンさんは背[せ]が＿です。"
+options = ["高[たか]い", "大[おお]きい", "多[おお]い"]
+answer = "高[たか]い"
+en = "Wang is tall."
+ru = "Ван высокий."
+uk = "Ван високий."
+es = "Wang es alto."
+
+[[exercise]]
+kind = "choice"
+ja = "この車[くるま]は＿です。(cheap)"
+options = ["安[やす]い", "低[ひく]い", "少[すく]ない"]
+answer = "安[やす]い"
+en = "This car is cheap."
+ru = "Эта машина дешёвая."
+uk = "Ця машина дешева."
+es = "Este coche es barato."
+
+[[exercise]]
+kind = "choice"
+ja = "今日[きょう]は＿が悪[わる]いです。(I feel unwell)"
+options = ["体[たい]調[ちょう]", "生[せい]活[かつ]", "天[てん]気[き]"]
+answer = "体[たい]調[ちょう]"
+en = "I'm not feeling well today."
+ru = "Мне сегодня нездоровится."
+uk = "Мені сьогодні зле."
+es = "Hoy no me encuentro bien."
+
+[[exercise]]
+kind = "choice"
+ja = "レジ袋[ぶくろ]、いりますか。— いいえ、＿です。"
+options = ["大[だい]丈[じょう]夫[ぶ]", "元[げん]気[き]", "暇[ひま]"]
+answer = "大[だい]丈[じょう]夫[ぶ]"
+en = "Do you need a bag? — No, I'm fine."
+ru = "Пакет нужен? — Нет, не надо."
+uk = "Пакет потрібен? — Ні, не треба."
+es = "¿Necesita bolsa? — No, gracias."
+
+[[exercise]]
+kind = "choice"
+ja = "もう十[じゅう]時[じ]ですね。＿失[しつ]礼[れい]します。"
+options = ["そろそろ", "あまり", "とても"]
+answer = "そろそろ"
+en = "It's already ten. It's time I was going."
+ru = "Уже десять. Мне пора."
+uk = "Уже десята. Мені час."
+es = "Ya son las diez. Es hora de irme."
+
+[[exercise]]
+kind = "choice"
+ja = "日[に]本[ほん]の＿はどうですか。(daily life)"
+options = ["生[せい]活[かつ]", "命[いのち]", "場[ば]所[しょ]"]
+answer = "生[せい]活[かつ]"
+en = "How is daily life in Japan?"
+ru = "Как вам быт в Японии?"
+uk = "Як вам побут в Японії?"
+es = "¿Qué tal la vida diaria en Japón?"
+
+[[note]]
+date = 2026-11-23
+text = """
+べんり　　　不便（な）
+すてき　　　かいてき（な）
+おおきい　　（人）が多い
+ちいさい　　（人）が少ない
+ふるい　　　古着屋　　年上
+いい／わるい　　体調が／気分が／調子が／メンタルが
+あつい　　　暑い、熱い　　蒸し暑い
+　　　　　　湿度が高い／湿度が低い
+つめたい　　暖かい　　温かめますか。
+　　　　　　レジ袋が入りますか。　＋ありがとう　－大丈夫です。
+むずかしい　複雑（な）
+たかい　　　背が高い　　背中　　腰
+　　　　　　狭い　広い　　きつい
+たのしい　　楽しみます／楽しみにします
+まち　　　　都市
+たべもの　　食べ放題　飲み放題　　飲み物
+"""
+
+[[note]]
+date = 2026-11-23
+text = """
+ところ　　　場所
+　　　　　　あき　席　座席
+りょう　　　部屋　マンション　アパート　一戸建て　摩天楼
+レストラン　飲食店
+せいかつ　　命
+どう　　　　どうでしょうか。　どうですか。　どう？
+けっこうです　　いいえ、大丈夫です。
+"""
