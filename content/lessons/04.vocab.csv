@@ -5,59 +5,59 @@ kanji,kana,furigana,en,ru,uk,es,note_en,note_ru,note_uk,note_es,example,example_
 休みます,やすみます,休[やす]みます,"take a rest, take a holiday","отдыхать, брать выходной","відпочивати, брати вихідний","descansar, tomarse el día libre",dictionary form: 休む,словарная форма: 休む,словникова форма: 休む,forma de diccionario: 休む,日[にち]曜[よう]日[び]は休[やす]みます。,I take Sundays off.,По воскресеньям я отдыхаю.,У неділю я відпочиваю.,Los domingos descanso.
 勉強します,べんきょうします,勉[べん]強[きょう]します,study,"учиться, заниматься",вчитися,estudiar,dictionary form: 勉強する,словарная форма: 勉強する,словникова форма: 勉強する,forma de diccionario: 勉強する,毎[まい]日[にち]日[に]本[ほん]語[ご]を勉[べん]強[きょう]します。,I study Japanese every day.,Я каждый день учу японский.,Я щодня вчу японську.,Estudio japonés todos los días.
 終わります,おわります,終[お]わります,finish,заканчиваться,закінчуватися,terminar,dictionary form: 終わる,словарная форма: 終わる,словникова форма: 終わる,forma de diccionario: 終わる,仕[し]事[ごと]は五[ご]時[じ]に終[お]わります。,Work finishes at five.,Работа заканчивается в пять.,Робота закінчується о п'ятій.,El trabajo termina a las cinco.
-銀行,ぎんこう,銀[ぎん]行[こう],bank,банк,банк,banco,,,,,,,,,
-郵便局,ゆうびんきょく,郵[ゆう]便[びん]局[きょく],post office,почта,пошта,oficina de correos,,,,,,,,,
-図書館,としょかん,図[と]書[しょ]館[かん],library,библиотека,бібліотека,biblioteca,,,,,,,,,
-美術館,びじゅつかん,美[び]術[じゅつ]館[かん],art museum,художественный музей,художній музей,museo de arte,,,,,,,,,
-今,いま,今[いま],now,сейчас,зараз,ahora,,,,,,,,,
+銀行,ぎんこう,銀[ぎん]行[こう],bank,банк,банк,banco,,,,,銀[ぎん]行[こう]は九[く]時[じ]から三[さん]時[じ]までです。,The bank is open from nine to three.,Банк работает с девяти до трёх.,Банк працює з дев'ятої до третьої.,El banco abre de nueve a tres.
+郵便局,ゆうびんきょく,郵[ゆう]便[びん]局[きょく],post office,почта,пошта,oficina de correos,,,,,郵[ゆう]便[びん]局[きょく]は何[なん]時[じ]までですか。,Until what time is the post office open?,До скольки работает почта?,До котрої працює пошта?,¿Hasta qué hora abre correos?
+図書館,としょかん,図[と]書[しょ]館[かん],library,библиотека,бібліотека,biblioteca,,,,,図[と]書[しょ]館[かん]の休[やす]みは月[げつ]曜[よう]日[び]です。,The library is closed on Mondays.,Библиотека не работает по понедельникам.,Бібліотека не працює по понеділках.,La biblioteca cierra los lunes.
+美術館,びじゅつかん,美[び]術[じゅつ]館[かん],art museum,художественный музей,художній музей,museo de arte,,,,,美[び]術[じゅつ]館[かん]は午[ご]前[ぜん]十[じゅう]時[じ]からです。,The art museum opens at 10 a.m.,Музей открывается в десять утра.,Музей відчиняється о десятій ранку.,El museo abre a las diez de la mañana.
+今,いま,今[いま],now,сейчас,зараз,ahora,,,,,今[いま]何[なん]時[じ]ですか。,What time is it now?,Сколько сейчас времени?,Котра зараз година?,¿Qué hora es ahora?
 一時,いちじ,一[いち]時[じ],one o'clock,час (время),перша година,la una,~時: ~ o'clock,~時: ~ часов,~時: ~ година,~時: las ~ (hora),今[いま]一[いち]時[じ]です。,It is one o'clock now.,Сейчас час.,Зараз перша година.,Ahora es la una.
-四時,よじ,四[よ]時[じ],four o'clock,четыре часа,четверта година,las cuatro,四 is read よ before 時,四 читается よ перед 時,四 читається よ перед 時,四 se lee よ delante de 時,,,,,
-七時,しちじ,七[しち]時[じ],seven o'clock,семь часов,сьома година,las siete,七 is read しち before 時,七 читается しち перед 時,七 читається しち перед 時,七 se lee しち delante de 時,,,,,
-九時,くじ,九[く]時[じ],nine o'clock,девять часов,дев'ята година,las nueve,九 is read く before 時,九 читается く перед 時,九 читається く перед 時,九 se lee く delante de 時,,,,,
+四時,よじ,四[よ]時[じ],four o'clock,четыре часа,четверта година,las cuatro,四 is read よ before 時,四 читается よ перед 時,四 читається よ перед 時,四 se lee よ delante de 時,今[いま]四[よ]時[じ]です。,It's four o'clock now.,Сейчас четыре часа.,Зараз четверта година.,Ahora son las cuatro.
+七時,しちじ,七[しち]時[じ],seven o'clock,семь часов,сьома година,las siete,七 is read しち before 時,七 читается しち перед 時,七 читається しち перед 時,七 se lee しち delante de 時,毎[まい]朝[あさ]七[しち]時[じ]に起[お]きます。,I get up at seven every morning.,Каждое утро я встаю в семь.,Щоранку я встаю о сьомій.,Me levanto a las siete todas las mañanas.
+九時,くじ,九[く]時[じ],nine o'clock,девять часов,дев'ята година,las nueve,九 is read く before 時,九 читается く перед 時,九 читається く перед 時,九 se lee く delante de 時,九[く]時[じ]から働[はたら]きます。,I work from nine.,Я работаю с девяти.,Я працюю з дев'ятої.,Trabajo desde las nueve.
 何時,なんじ,何[なん]時[じ],what time,который час,котра година,qué hora,,,,,今[いま]何[なん]時[じ]ですか。,What time is it now?,Который сейчас час?,Котра зараз година?,¿Qué hora es ahora?
-五分,ごふん,五[ご]分[ふん],five minutes,пять минут,п'ять хвилин,cinco minutos,~分: ~ minutes,~分: ~ минут,~分: ~ хвилин,~分: ~ minutos,,,,,
-十分,じゅっぷん,十[じゅっ]分[ぷん],ten minutes,десять минут,десять хвилин,diez minutos,~分 becomes ~ぷん after 一十百,"~分 становится ~ぷん после 一, 十, 百","~分 стає ~ぷん після 一, 十, 百",~分 pasa a ~ぷん después de 一十百,,,,,
+五分,ごふん,五[ご]分[ふん],five minutes,пять минут,п'ять хвилин,cinco minutos,~分: ~ minutes,~分: ~ минут,~分: ~ хвилин,~分: ~ minutos,今[いま]四[よ]時[じ]五[ご]分[ふん]です。,It's 4:05 now.,Сейчас четыре ноль пять.,Зараз четверта нуль п'ять.,Ahora son las cuatro y cinco.
+十分,じゅっぷん,十[じゅっ]分[ぷん],ten minutes,десять минут,десять хвилин,diez minutos,~分 becomes ~ぷん after 一十百,"~分 становится ~ぷん после 一, 十, 百","~分 стає ~ぷん після 一, 十, 百",~分 pasa a ~ぷん después de 一十百,ニューヨークは今[いま]午[ご]前[ぜん]七[しち]時[じ]十[じゅっ]分[ぷん]です。,It's 7:10 a.m. in New York now.,В Нью-Йорке сейчас семь десять утра.,У Нью-Йорку зараз сьома десять ранку.,En Nueva York son ahora las siete y diez de la mañana.
 何分,なんぷん,何[なん]分[ぷん],what minute,сколько минут,котра хвилина,qué minuto,,,,,何[なん]時[じ]何[なん]分[ぷん]ですか。,What time (hour and minute) is it?,Сколько времени (часов и минут)?,Котра година (години й хвилини)?,¿Qué hora (y minuto) es?
 半,はん,半[はん],half,половина,половина,mitad,九時半 = half past nine,九時半 = половина десятого,九時半 = пів на десяту,九時半 = las nueve y media,今[いま]九[く]時[じ]半[はん]です。,It is half past nine.,Сейчас половина десятого.,Зараз пів на десяту.,Son las nueve y media.
-午前,ごぜん,午[ご]前[ぜん],"a.m., morning","до полудня, утро","до полудня, ранок","a. m., mañana",,,,,,,,,
-午後,ごご,午[ご]後[ご],"p.m., afternoon",после полудня,після полудня,"p. m., tarde",,,,,,,,,
-朝,あさ,朝[あさ],morning,утро,ранок,mañana (parte del día),,,,,,,,,
-昼,ひる,昼[ひる],"daytime, noon","день, полдень","день, полудень","de día, mediodía",,,,,,,,,
-晩,ばん,晩[ばん],"night, evening",вечер,вечір,"noche, tarde",,,,,,,,,
-夜,よる,夜[よる],night,ночь,ніч,noche,,,,,,,,,
-一昨日,おととい,一昨日[おととい],the day before yesterday,позавчера,позавчора,anteayer,,,,,,,,,
-昨日,きのう,昨日[きのう],yesterday,вчера,учора,ayer,,,,,,,,,
-今日,きょう,今日[きょう],today,сегодня,сьогодні,hoy,,,,,,,,,
-明日,あした,明日[あした],tomorrow,завтра,завтра,mañana,,,,,,,,,
-明後日,あさって,明後日[あさって],the day after tomorrow,послезавтра,післязавтра,pasado mañana,,,,,,,,,
-今朝,けさ,今朝[けさ],this morning,сегодня утром,сьогодні вранці,esta mañana,,,,,,,,,
-今晩,こんばん,今[こん]晩[ばん],"this evening, tonight",сегодня вечером,сьогодні ввечері,"esta tarde, esta noche",,,,,,,,,
-休み,やすみ,休[やす]み,"rest, a holiday, a day off","отдых, выходной","відпочинок, вихідний","descanso, festivo, día libre",,,,,,,,,
-昼休み,ひるやすみ,昼[ひる]休[やす]み,lunchtime,обеденный перерыв,обідня перерва,hora del almuerzo,,,,,,,,,
-毎朝,まいあさ,毎[まい]朝[あさ],every morning,каждое утро,щоранку,cada mañana,,,,,,,,,
-毎晩,まいばん,毎[まい]晩[ばん],every night,каждый вечер,щовечора,cada noche,,,,,,,,,
-毎日,まいにち,毎[まい]日[にち],every day,каждый день,щодня,todos los días,,,,,,,,,
-月曜日,げつようび,月[げつ]曜[よう]日[び],Monday,понедельник,понеділок,lunes,,,,,,,,,
-火曜日,かようび,火[か]曜[よう]日[び],Tuesday,вторник,вівторок,martes,,,,,,,,,
-水曜日,すいようび,水[すい]曜[よう]日[び],Wednesday,среда,середа,miércoles,,,,,,,,,
-木曜日,もくようび,木[もく]曜[よう]日[び],Thursday,четверг,четвер,jueves,,,,,,,,,
-金曜日,きんようび,金[きん]曜[よう]日[び],Friday,пятница,п'ятниця,viernes,,,,,,,,,
-土曜日,どようび,土[ど]曜[よう]日[び],Saturday,суббота,субота,sábado,,,,,,,,,
-日曜日,にちようび,日[にち]曜[よう]日[び],Sunday,воскресенье,неділя,domingo,,,,,,,,,
+午前,ごぜん,午[ご]前[ぜん],"a.m., morning","до полудня, утро","до полудня, ранок","a. m., mañana",,,,,午[ご]前[ぜん]九[く]時[じ]から働[はたら]きます。,I work from 9 a.m.,Я работаю с девяти утра.,Я працюю з дев'ятої ранку.,Trabajo desde las nueve de la mañana.
+午後,ごご,午[ご]後[ご],"p.m., afternoon",после полудня,після полудня,"p. m., tarde",,,,,午[ご]後[ご]五[ご]時[じ]に終[お]わります。,It ends at 5 p.m.,Заканчивается в пять вечера.,Закінчується о п'ятій вечора.,Termina a las cinco de la tarde.
+朝,あさ,朝[あさ],morning,утро,ранок,mañana (parte del día),,,,,朝[あさ]六[ろく]時[じ]に起[お]きました。,I got up at six in the morning.,Я встал в шесть утра.,Я встав о шостій ранку.,Me levanté a las seis de la mañana.
+昼,ひる,昼[ひる],"daytime, noon","день, полдень","день, полудень","de día, mediodía",,,,,昼[ひる]十[じゅう]二[に]時[じ]から一[いち]時[じ]まで休[やす]みます。,I take a break from twelve to one.,С двенадцати до часу у меня перерыв.,З дванадцятої до першої в мене перерва.,Descanso de doce a una.
+晩,ばん,晩[ばん],"night, evening",вечер,вечір,"noche, tarde",,,,,晩[ばん]十[じゅう]一[いち]時[じ]に寝[ね]ます。,I go to bed at eleven at night.,Я ложусь спать в одиннадцать вечера.,Я лягаю спати об одинадцятій вечора.,Me acuesto a las once de la noche.
+夜,よる,夜[よる],night,ночь,ніч,noche,,,,,昨日[きのう]の夜[よる]勉[べん]強[きょう]しました。,I studied last night.,Вчера вечером я занимался.,Учора ввечері я вчився.,Anoche estudié.
+一昨日,おととい,一昨日[おととい],the day before yesterday,позавчера,позавчора,anteayer,,,,,一昨日[おととい]働[はたら]きませんでした。,I didn't work the day before yesterday.,Позавчера я не работал.,Позавчора я не працював.,Anteayer no trabajé.
+昨日,きのう,昨日[きのう],yesterday,вчера,учора,ayer,,,,,昨日[きのう]勉[べん]強[きょう]しましたか。,Did you study yesterday?,Вы вчера занимались?,Ви вчора вчилися?,¿Estudió ayer?
+今日,きょう,今日[きょう],today,сегодня,сьогодні,hoy,,,,,今日[きょう]は何[なん]曜[よう]日[び]ですか。,What day is it today?,Какой сегодня день недели?,Який сьогодні день тижня?,¿Qué día es hoy?
+明日,あした,明日[あした],tomorrow,завтра,завтра,mañana,,,,,明日[あした]は休[やす]みです。,Tomorrow is a day off.,Завтра выходной.,Завтра вихідний.,Mañana es día libre.
+明後日,あさって,明後日[あさって],the day after tomorrow,послезавтра,післязавтра,pasado mañana,,,,,明後日[あさって]は土[ど]曜[よう]日[び]です。,The day after tomorrow is Saturday.,Послезавтра суббота.,Післязавтра субота.,Pasado mañana es sábado.
+今朝,けさ,今朝[けさ],this morning,сегодня утром,сьогодні вранці,esta mañana,,,,,今朝[けさ]何[なん]時[じ]に起[お]きましたか。,What time did you get up this morning?,Во сколько вы встали сегодня утром?,О котрій ви встали сьогодні вранці?,¿A qué hora se levantó esta mañana?
+今晩,こんばん,今[こん]晩[ばん],"this evening, tonight",сегодня вечером,сьогодні ввечері,"esta tarde, esta noche",,,,,今[こん]晩[ばん]勉[べん]強[きょう]します。,I'll study tonight.,Сегодня вечером я буду заниматься.,Сьогодні ввечері я вчитимуся.,Esta noche voy a estudiar.
+休み,やすみ,休[やす]み,"rest, a holiday, a day off","отдых, выходной","відпочинок, вихідний","descanso, festivo, día libre",,,,,休[やす]みは土[ど]曜[よう]日[び]と日[にち]曜[よう]日[び]です。,My days off are Saturday and Sunday.,Мои выходные — суббота и воскресенье.,Мої вихідні — субота і неділя.,Mis días libres son el sábado y el domingo.
+昼休み,ひるやすみ,昼[ひる]休[やす]み,lunchtime,обеденный перерыв,обідня перерва,hora del almuerzo,,,,,昼[ひる]休[やす]みは十[じゅう]二[に]時[じ]から一[いち]時[じ]までです。,Lunchtime is from twelve to one.,Обеденный перерыв с двенадцати до часу.,Обідня перерва з дванадцятої до першої.,La pausa del almuerzo es de doce a una.
+毎朝,まいあさ,毎[まい]朝[あさ],every morning,каждое утро,щоранку,cada mañana,,,,,毎[まい]朝[あさ]六[ろく]時[じ]に起[お]きます。,I get up at six every morning.,Каждое утро я встаю в шесть.,Щоранку я встаю о шостій.,Me levanto a las seis todas las mañanas.
+毎晩,まいばん,毎[まい]晩[ばん],every night,каждый вечер,щовечора,cada noche,,,,,毎[まい]晩[ばん]勉[べん]強[きょう]します。,I study every night.,Я занимаюсь каждый вечер.,Я вчуся щовечора.,Estudio todas las noches.
+毎日,まいにち,毎[まい]日[にち],every day,каждый день,щодня,todos los días,,,,,毎[まい]日[にち]働[はたら]きます。,I work every day.,Я работаю каждый день.,Я працюю щодня.,Trabajo todos los días.
+月曜日,げつようび,月[げつ]曜[よう]日[び],Monday,понедельник,понеділок,lunes,,,,,月[げつ]曜[よう]日[び]から金[きん]曜[よう]日[び]まで働[はたら]きます。,I work from Monday to Friday.,Я работаю с понедельника по пятницу.,Я працюю з понеділка до п'ятниці.,Trabajo de lunes a viernes.
+火曜日,かようび,火[か]曜[よう]日[び],Tuesday,вторник,вівторок,martes,,,,,火[か]曜[よう]日[び]に勉[べん]強[きょう]します。,I study on Tuesdays.,По вторникам я занимаюсь.,У вівторок я вчуся.,Estudio los martes.
+水曜日,すいようび,水[すい]曜[よう]日[び],Wednesday,среда,середа,miércoles,,,,,図[と]書[しょ]館[かん]は水[すい]曜[よう]日[び]も休[やす]みです。,The library is closed on Wednesdays too.,Библиотека не работает и по средам.,Бібліотека не працює і в середу.,La biblioteca también cierra los miércoles.
+木曜日,もくようび,木[もく]曜[よう]日[び],Thursday,четверг,четвер,jueves,,,,,木[もく]曜[よう]日[び]は何[なん]時[じ]に終[お]わりますか。,What time does it end on Thursday?,Во сколько заканчивается в четверг?,О котрій закінчується в четвер?,¿A qué hora termina el jueves?
+金曜日,きんようび,金[きん]曜[よう]日[び],Friday,пятница,п'ятниця,viernes,,,,,金[きん]曜[よう]日[び]の晩[ばん]は休[やす]みます。,On Friday evenings I rest.,В пятницу вечером я отдыхаю.,У п'ятницю ввечері я відпочиваю.,Los viernes por la noche descanso.
+土曜日,どようび,土[ど]曜[よう]日[び],Saturday,суббота,субота,sábado,,,,,土[ど]曜[よう]日[び]は働[はたら]きません。,I don't work on Saturdays.,По субботам я не работаю.,У суботу я не працюю.,Los sábados no trabajo.
+日曜日,にちようび,日[にち]曜[よう]日[び],Sunday,воскресенье,неділя,domingo,,,,,日[にち]曜[よう]日[び]は休[やす]みです。,Sunday is a day off.,Воскресенье — выходной.,Неділя — вихідний.,El domingo es día libre.
 何曜日,なんようび,何[なん]曜[よう]日[び],what day of the week,какой день недели,який день тижня,qué día de la semana,,,,,休[やす]みは何[なん]曜[よう]日[び]ですか。,What day is your day off?,Какой у тебя выходной?,Який у тебе вихідний?,¿Qué día libras?
-番号,ばんごう,番[ばん]号[ごう],number,номер,номер,número,,,,,,,,,
+番号,ばんごう,番[ばん]号[ごう],number,номер,номер,número,,,,,図[と]書[しょ]館[かん]の番[ばん]号[ごう]は何[なん]番[ばん]ですか。,What is the library's number?,Какой номер у библиотеки?,Який номер у бібліотеки?,¿Cuál es el número de la biblioteca?
 何番,なんばん,何[なん]番[ばん],what number,какой номер,який номер,qué número,,,,,電[でん]話[わ]番[ばん]号[ごう]は何[なん]番[ばん]ですか。,What is the telephone number?,Какой номер телефона?,Який номер телефону?,¿Cuál es el número de teléfono?
 九時から,くじから,九[く]時[じ]から,from nine o'clock,с девяти часов,з дев'ятої,desde las nueve,~から: from ~,"~から: с ~, от ~","~から: з ~, від ~",~から: desde ~,銀[ぎん]行[こう]は九[く]時[じ]からです。,The bank is open from nine.,Банк работает с девяти.,Банк працює з дев'ятої.,El banco abre desde las nueve.
 五時まで,ごじまで,五[ご]時[じ]まで,until five o'clock,до пяти часов,до п'ятої,hasta las cinco,"~まで: up to ~, until ~",~まで: до ~,~まで: до ~,~まで: hasta ~,月[げつ]曜[よう]日[び]から金[きん]曜[よう]日[び]まで働[はたら]きます。,I work from Monday to Friday.,Я работаю с понедельника по пятницу.,Я працюю з понеділка до п'ятниці.,Trabajo de lunes a viernes.
 月曜日と火曜日,げつようびとかようび,月[げつ]曜[よう]日[び]と火[か]曜[よう]日[び],Monday and Tuesday,понедельник и вторник,понеділок і вівторок,lunes y martes,"~と~: and, connecting nouns","~と~: и, соединяет существительные","~と~: і, з'єднує іменники","~と~: y, une sustantivos",休[やす]みは土[ど]曜[よう]日[び]と日[にち]曜[よう]日[び]です。,My days off are Saturday and Sunday.,Мои выходные — суббота и воскресенье.,Мої вихідні — субота й неділя.,Mis días libres son el sábado y el domingo.
-大変,たいへん,大[たい]変[へん],"hard, tough; very",тяжёлый; очень,"важкий, тяжкий; дуже","duro, difícil; muy",,,,,,,,,
-大変ですね。,たいへんですね。,大[たい]変[へん]ですね。,"That's tough, isn't it?","Да, нелегко вам.","Тяжко вам, так?","Qué duro, ¿verdad?",said to show sympathy,выражение сочувствия,вираз співчуття,se dice para mostrar empatía,,,,,
-,かしこまりました。,かしこまりました。,Certainly. / Of course.,"Хорошо, сделаю. (вежл.)",Звісно. / Слухаю.,Por supuesto. / Claro.,staff answering a customer,ответ персонала клиенту,відповідь персоналу клієнтові,el personal respondiendo a un cliente,,,,,
+大変,たいへん,大[たい]変[へん],"hard, tough; very",тяжёлый; очень,"важкий, тяжкий; дуже","duro, difícil; muy",,,,,毎[まい]日[にち]十[じゅう]時[じ]まで働[はたら]きます。大[たい]変[へん]です。,I work until ten every day. It's tough.,Я каждый день работаю до десяти. Тяжело.,Я щодня працюю до десятої. Важко.,Trabajo hasta las diez todos los días. Es duro.
+大変ですね。,たいへんですね。,大[たい]変[へん]ですね。,"That's tough, isn't it?","Да, нелегко вам.","Тяжко вам, так?","Qué duro, ¿verdad?",said to show sympathy,выражение сочувствия,вираз співчуття,se dice para mostrar empatía,毎[まい]晩[ばん]十[じゅう]二[に]時[じ]まで働[はたら]きます。　— 大[たい]変[へん]ですね。,I work until midnight every night. — That's tough.,Я каждый вечер работаю до двенадцати. — Тяжело вам.,Я щовечора працюю до дванадцятої. — Важко вам.,Trabajo hasta las doce todas las noches. — Qué duro.
+,かしこまりました。,かしこまりました。,Certainly. / Of course.,"Хорошо, сделаю. (вежл.)",Звісно. / Слухаю.,Por supuesto. / Claro.,staff answering a customer,ответ персонала клиенту,відповідь персоналу клієнтові,el personal respondiendo a un cliente,すみません、番[ばん]号[ごう]をお願[ねが]いします。　— かしこまりました。,"Excuse me, the number, please. — Certainly.","Простите, номер, пожалуйста. — Конечно.","Перепрошую, номер, будь ласка. — Звісно.","Perdone, el número, por favor. — Enseguida."
 お問い合わせ,おといあわせ,お問[と]い合[あ]わせ,inquiry,"запрос, справка",запит,consulta,お問い合わせの番号 = the number you asked about,"お問い合わせの番号 = номер, о котором вы спрашивали","お問い合わせの番号 = номер, про який ви питали",お問い合わせの番号 = el número por el que preguntó,お問[と]い合[あ]わせの番[ばん]号[ごう]は 03-1234-5678です。,The number you asked about is 03-1234-5678.,"Номер, о котором вы спрашивали: 03-1234-5678.","Номер, про який ви питали: 03-1234-5678.",El número por el que preguntó es el 03-1234-5678.
-どうもありがとうございました。,どうもありがとうございました。,どうもありがとうございました。,Thank you very much.,Большое спасибо. (за уже сделанное),Щиро дякую.,Muchas gracias.,past form: thanks for something already done,прошедшая форма: благодарность за уже сделанное,минула форма: подяка за вже зроблене,forma pasada: gracias por algo ya hecho,,,,,
-,１０４,１０４,directory assistance (in Japan),справочная служба (Япония),довідкова служба (в Японії),información telefónica (en Japón),"NTT's number service, read いちまるよん","справочная NTT, читается いちまるよん","довідкова NTT, читається いちまるよん","el servicio de números de NTT, se lee いちまるよん",,,,,
-,ニューヨーク,ニューヨーク,New York,Нью-Йорк,Нью-Йорк,Nueva York,,,,,,,,,
-,ペキン,ペキン,Beijing,Пекин,Пекін,Pekín,also written 北京,пишется также 北京,пишеться також 北京,también se escribe 北京,,,,,
-,ロンドン,ロンドン,London,Лондон,Лондон,Londres,,,,,,,,,
-,バンコク,バンコク,Bangkok,Бангкок,Бангкок,Bangkok,,,,,,,,,
-,ロサンゼルス,ロサンゼルス,Los Angeles,Лос-Анджелес,Лос-Анджелес,Los Ángeles,,,,,,,,,
+どうもありがとうございました。,どうもありがとうございました。,どうもありがとうございました。,Thank you very much.,Большое спасибо. (за уже сделанное),Щиро дякую.,Muchas gracias.,past form: thanks for something already done,прошедшая форма: благодарность за уже сделанное,минула форма: подяка за вже зроблене,forma pasada: gracias por algo ya hecho,昨日[きのう]はどうもありがとうございました。,Thank you very much for yesterday.,Большое спасибо за вчерашнее.,Щиро дякую за вчорашнє.,Muchas gracias por lo de ayer.
+,１０４,１０４,directory assistance (in Japan),справочная служба (Япония),довідкова служба (в Японії),información telefónica (en Japón),"NTT's number service, read いちまるよん","справочная NTT, читается いちまるよん","довідкова NTT, читається いちまるよん","el servicio de números de NTT, se lee いちまるよん",番[ばん]号[ごう]は１０４です。,The number is 104.,Номер — сто четыре.,Номер — сто чотири.,El número es el 104.
+,ニューヨーク,ニューヨーク,New York,Нью-Йорк,Нью-Йорк,Nueva York,,,,,ニューヨークは今[いま]何[なん]時[じ]ですか。,What time is it in New York now?,Который час сейчас в Нью-Йорке?,Котра зараз година в Нью-Йорку?,¿Qué hora es ahora en Nueva York?
+,ペキン,ペキン,Beijing,Пекин,Пекін,Pekín,also written 北京,пишется также 北京,пишеться також 北京,también se escribe 北京,ペキンは今[いま]午[ご]後[ご]三[さん]時[じ]です。,It's 3 p.m. in Beijing now.,В Пекине сейчас три часа дня.,У Пекіні зараз третя дня.,En Pekín son ahora las tres de la tarde.
+,ロンドン,ロンドン,London,Лондон,Лондон,Londres,,,,,ロンドンは今[いま]午[ご]前[ぜん]八[はち]時[じ]です。,It's 8 a.m. in London now.,В Лондоне сейчас восемь утра.,У Лондоні зараз восьма ранку.,En Londres son ahora las ocho de la mañana.
+,バンコク,バンコク,Bangkok,Бангкок,Бангкок,Bangkok,,,,,バンコクは今[いま]何[なん]時[じ]ですか。,What time is it in Bangkok now?,Который час сейчас в Бангкоке?,Котра зараз година в Бангкоку?,¿Qué hora es ahora en Bangkok?
+,ロサンゼルス,ロサンゼルス,Los Angeles,Лос-Анджелес,Лос-Анджелес,Los Ángeles,,,,,ロサンゼルスは今[いま]午[ご]後[ご]四[よ]時[じ]です。,It's 4 p.m. in Los Angeles now.,В Лос-Анджелесе сейчас четыре часа дня.,У Лос-Анджелесі зараз четверта дня.,En Los Ángeles son ahora las cuatro de la tarde.

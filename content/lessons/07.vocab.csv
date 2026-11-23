@@ -1,49 +1,49 @@
 kanji,kana,furigana,en,ru,uk,es,note_en,note_ru,note_uk,note_es,example,example_en,example_ru,example_uk,example_es
-切ります,きります,切[き]ります,"cut, slice",резать,різати,cortar,,,,,,,,,
-送ります,おくります,送[おく]ります,send,отправлять,надсилати,enviar,,,,,,,,,
-,あげます,あげます,give,"давать, дарить","давати, дарувати",dar,,,,,,,,,
-,もらいます,もらいます,receive,получать,отримувати,recibir,,,,,,,,,
-貸します,かします,貸[か]します,lend,одалживать (кому-то),позичати (комусь),prestar,,,,,,,,,
-借ります,かります,借[か]ります,borrow,брать взаймы,позичати (у когось),tomar prestado,,,,,,,,,
-教えます,おしえます,教[おし]えます,teach,"учить, преподавать",навчати,enseñar,,,,,,,,,
-習います,ならいます,習[なら]います,learn (from someone),учиться (у кого-то),вчитися (в когось),aprender (de alguien),,,,,,,,,
+切ります,きります,切[き]ります,"cut, slice",резать,різати,cortar,,,,,鋏[はさみ]で紙[かみ]を切[き]ります。,I cut paper with scissors.,Я режу бумагу ножницами.,Я ріжу папір ножицями.,Corto papel con tijeras.
+送ります,おくります,送[おく]ります,send,отправлять,надсилати,enviar,,,,,母[はは]に荷[に]物[もつ]を送[おく]りました。,I sent a parcel to my mother.,Я отправил маме посылку.,Я надіслав мамі посилку.,Le envié un paquete a mi madre.
+,あげます,あげます,give,"давать, дарить","давати, дарувати",dar,,,,,友[とも]達[だち]に花[はな]をあげました。,I gave my friend flowers.,Я подарил другу цветы.,Я подарував другові квіти.,Le regalé flores a un amigo.
+,もらいます,もらいます,receive,получать,отримувати,recibir,,,,,クリスマスに父[ちち]にカメラをもらいました。,I got a camera from my father for Christmas.,На Рождество папа подарил мне фотоаппарат.,На Різдво тато подарував мені фотоапарат.,Mi padre me regaló una cámara por Navidad.
+貸します,かします,貸[か]します,lend,одалживать (кому-то),позичати (комусь),prestar,,,,,カリナさんに傘[かさ]を貸[か]しました。,I lent Karina an umbrella.,Я одолжил Карине зонт.,Я позичив Карині парасольку.,Le presté un paraguas a Karina.
+借ります,かります,借[か]ります,borrow,брать взаймы,позичати (у когось),tomar prestado,,,,,図[と]書[しょ]館[かん]で本[ほん]を借[か]ります。,I borrow books at the library.,Я беру книги в библиотеке.,Я беру книжки в бібліотеці.,Saco libros de la biblioteca.
+教えます,おしえます,教[おし]えます,teach,"учить, преподавать",навчати,enseñar,,,,,マリアさんは田[た]中[なか]さんに英[えい]語[ご]を教[おし]えます。,Maria teaches Mr. Tanaka English.,Мария учит Танаку-сана английскому.,Марія навчає Танаку-сана англійської.,Maria le enseña inglés al señor Tanaka.
+習います,ならいます,習[なら]います,learn (from someone),учиться (у кого-то),вчитися (в когось),aprender (de alguien),,,,,ワンさんに中[ちゅう]国[ごく]語[ご]を習[なら]います。,I learn Chinese from Wang.,Я учу китайский у Вана.,Я вчу китайську у Вана.,Aprendo chino con Wang.
 ,かけます,かけます,make (a phone call),звонить (по телефону),дзвонити (по телефону),hacer (una llamada),電話を かけます: make a phone call,電話を かけます: звонить по телефону,電話を かけます: дзвонити по телефону,電話を かけます: hacer una llamada,友[とも]達[だち]に電[でん]話[わ]をかけます。,I call a friend.,Я звоню другу.,Я телефоную другові.,Llamo a un amigo.
-手,て,手[て],"hand, arm",рука,рука,"mano, brazo",,,,,,,,,
-箸,はし,箸[はし],chopsticks,палочки для еды,палички для їжі,palillos,,,,,,,,,
-,スプーン,スプーン,spoon,ложка,ложка,cuchara,,,,,,,,,
-,ナイフ,ナイフ,knife,нож,ніж,cuchillo,,,,,,,,,
-,フォーク,フォーク,fork,вилка,виделка,tenedor,,,,,,,,,
-鋏,はさみ,鋏[はさみ],scissors,ножницы,ножиці,tijeras,,,,,,,,,
-,ファクス,ファクス,fax,факс,факс,fax,,,,,,,,,
-,ワープロ,ワープロ,word processor,текстовый процессор,текстовий процесор,procesador de textos,,,,,,,,,
-,パソコン,パソコン,personal computer,компьютер,комп'ютер,ordenador personal,,,,,,,,,
-,パンチ,パンチ,hole punch,дырокол,діркопробивач,perforadora,,,,,,,,,
-,ホッチキス,ホッチキス,stapler,степлер,степлер,grapadora,,,,,,,,,
-,セロテープ,セロテープ,sticky tape,скотч,скотч,cinta adhesiva,,,,,,,,,
-消しゴム,けしゴム,消[け]しゴム,eraser,ластик,гумка,goma de borrar,,,,,,,,,
-紙,かみ,紙[かみ],paper,бумага,папір,papel,,,,,,,,,
-花,はな,花[はな],flower,цветок,квітка,flor,,,,,,,,,
-,シャツ,シャツ,shirt,рубашка,сорочка,camisa,,,,,,,,,
-,プレゼント,プレゼント,"present, gift",подарок,подарунок,regalo,,,,,,,,,
-荷物,にもつ,荷[に]物[もつ],"baggage, parcel","багаж, посылка","багаж, посилка","equipaje, paquete",,,,,,,,,
-お金,おかね,お金[かね],money,деньги,гроші,dinero,,,,,,,,,
-切符,きっぷ,切[きっ]符[ぷ],ticket,билет,квиток,billete,,,,,,,,,
-,クリスマス,クリスマス,Christmas,Рождество,Різдво,Navidad,,,,,,,,,
-お正月,おしょうがつ,お正[しょう]月[がつ],New Year (the holiday),Новый год (праздник),Новий рік (свято),Año Nuevo (la festividad),,,,,,,,,
-父,ちち,父[ちち],(my) father,(мой) отец,(мій) батько,(mi) padre,,,,,,,,,
-母,はは,母[はは],(my) mother,(моя) мать,(моя) мати,(mi) madre,,,,,,,,,
-お父さん,おとうさん,お父[とう]さん,(someone else's) father; Dad,отец (чужой); папа,батько (чужий); тато,padre (de otra persona); papá,,,,,,,,,
-お母さん,おかあさん,お母[かあ]さん,(someone else's) mother; Mum,мать (чужая); мама,мати (чужа); мама,madre (de otra persona); mamá,,,,,,,,,
-,もう,もう,already,уже,вже,ya,,,,,,,,,
-,まだ,まだ,not yet,ещё (нет),ще (ні),todavía no,,,,,,,,,
-,これから,これから,"from now on, soon","с этого момента, сейчас","відтепер, зараз","a partir de ahora, pronto",,,,,,,,,
-,すてきですね。,すてきですね。,how nice!,как мило!,як гарно!,¡qué bonito!,,,,,,,,,
-,ごめんください。,ごめんください。,"hello, anyone home? (at the door)",есть кто дома? (у двери),є хтось удома? (біля дверей),"¿hola, hay alguien? (en la puerta)",,,,,,,,,
-,いらっしゃい。,いらっしゃい。,welcome,добро пожаловать,ласкаво просимо,bienvenido,,,,,,,,,
-どうぞお上がりください。,どうぞおあがりください。,どうぞお上[あ]がりください。,please come in,"проходите, пожалуйста","проходьте, будь ласка","pase, por favor",,,,,,,,,
+手,て,手[て],"hand, arm",рука,рука,"mano, brazo",,,,,手[て]でご飯[はん]を食[た]べますか。,Do you eat with your hands?,Вы едите руками?,Ви їсте руками?,¿Come con las manos?
+箸,はし,箸[はし],chopsticks,палочки для еды,палички для їжі,palillos,,,,,箸[はし]で食[た]べます。,I eat with chopsticks.,Я ем палочками.,Я їм паличками.,Como con palillos.
+,スプーン,スプーン,spoon,ложка,ложка,cuchara,,,,,スプーンで食[た]べますか。,Do you eat it with a spoon?,Это едят ложкой?,Це їдять ложкою?,¿Se come con cuchara?
+,ナイフ,ナイフ,knife,нож,ніж,cuchillo,,,,,ナイフで肉[にく]を切[き]ります。,I cut the meat with a knife.,Я режу мясо ножом.,Я ріжу м'ясо ножем.,Corto la carne con un cuchillo.
+,フォーク,フォーク,fork,вилка,виделка,tenedor,,,,,フォークで食[た]べますか、箸[はし]で食[た]べますか。,Will you eat with a fork or with chopsticks?,Вы будете есть вилкой или палочками?,Ви їстимете виделкою чи паличками?,¿Va a comer con tenedor o con palillos?
+鋏,はさみ,鋏[はさみ],scissors,ножницы,ножиці,tijeras,,,,,すみません、鋏[はさみ]はどこですか。,"Excuse me, where are the scissors?","Простите, где ножницы?","Перепрошую, де ножиці?","Perdone, ¿dónde están las tijeras?"
+,ファクス,ファクス,fax,факс,факс,fax,,,,,ファクスで手[て]紙[がみ]を送[おく]ります。,I'll send the letter by fax.,Я отправлю письмо по факсу.,Я надішлю листа факсом.,Envío la carta por fax.
+,ワープロ,ワープロ,word processor,текстовый процессор,текстовий процесор,procesador de textos,,,,,ワープロで手[て]紙[がみ]を書[か]きました。,I wrote the letter on a word processor.,Я написал письмо на текстовом процессоре.,Я написав листа на текстовому процесорі.,Escribí la carta con un procesador de textos.
+,パソコン,パソコン,personal computer,компьютер,комп'ютер,ordenador personal,,,,,パソコンでレポートを書[か]きます。,I write reports on the computer.,Я пишу доклады на компьютере.,Я пишу доповіді на комп'ютері.,Escribo los informes en el ordenador.
+,パンチ,パンチ,hole punch,дырокол,діркопробивач,perforadora,,,,,パンチを借[か]りました。,I borrowed a hole punch.,Я взял дырокол.,Я позичив діркопробивач.,Pedí prestada una perforadora.
+,ホッチキス,ホッチキス,stapler,степлер,степлер,grapadora,,,,,ワンさんにホッチキスを借[か]りました。,I borrowed a stapler from Wang.,Я взял степлер у Вана.,Я позичив степлер у Вана.,Le pedí la grapadora a Wang.
+,セロテープ,セロテープ,sticky tape,скотч,скотч,cinta adhesiva,,,,,カリナさんにセロテープを貸[か]しました。,I lent Karina some sticky tape.,Я одолжил Карине скотч.,Я позичив Карині скотч.,Le presté celo a Karina.
+消しゴム,けしゴム,消[け]しゴム,eraser,ластик,гумка,goma de borrar,,,,,この消[け]しゴムは誰[だれ]のですか。,Whose eraser is this?,Чей это ластик?,Чия це гумка?,¿De quién es esta goma?
+紙,かみ,紙[かみ],paper,бумага,папір,papel,,,,,紙[かみ]を鋏[はさみ]で切[き]りました。,I cut the paper with scissors.,Я разрезал бумагу ножницами.,Я розрізав папір ножицями.,Corté el papel con tijeras.
+花,はな,花[はな],flower,цветок,квітка,flor,,,,,母[はは]の誕[たん]生[じょう]日[び]に花[はな]をあげました。,I gave my mother flowers for her birthday.,На день рождения я подарил маме цветы.,На день народження я подарував мамі квіти.,Le regalé flores a mi madre por su cumpleaños.
+,シャツ,シャツ,shirt,рубашка,сорочка,camisa,,,,,父[ちち]にシャツをあげました。,I gave my father a shirt.,Я подарил папе рубашку.,Я подарував татові сорочку.,Le regalé una camisa a mi padre.
+,プレゼント,プレゼント,"present, gift",подарок,подарунок,regalo,,,,,母[はは]は私[わたし]にプレゼントをくれました。,My mother gave me a present.,Мама сделала мне подарок.,Мама зробила мені подарунок.,Mi madre me hizo un regalo.
+荷物,にもつ,荷[に]物[もつ],"baggage, parcel","багаж, посылка","багаж, посилка","equipaje, paquete",,,,,もう荷[に]物[もつ]を送[おく]りましたか。　— いいえ、まだです。,"Have you sent the parcel yet? — No, not yet.","Вы уже отправили посылку? — Нет, ещё нет.","Ви вже надіслали посилку? — Ні, ще ні.","¿Ya ha enviado el paquete? — No, todavía no."
+お金,おかね,お金[かね],money,деньги,гроші,dinero,,,,,友[とも]達[だち]にお金[かね]を借[か]りました。,I borrowed money from a friend.,Я занял деньги у друга.,Я позичив гроші в друга.,Le pedí dinero prestado a un amigo.
+切符,きっぷ,切[きっ]符[ぷ],ticket,билет,квиток,billete,,,,,もう切[きっ]符[ぷ]を買[か]いましたか。,Have you bought the ticket yet?,Вы уже купили билет?,Ви вже купили квиток?,¿Ya ha comprado el billete?
+,クリスマス,クリスマス,Christmas,Рождество,Різдво,Navidad,,,,,クリスマスに何[なに]をもらいましたか。,What did you get for Christmas?,Что вам подарили на Рождество?,Що вам подарували на Різдво?,¿Qué le regalaron por Navidad?
+お正月,おしょうがつ,お正[しょう]月[がつ],New Year (the holiday),Новый год (праздник),Новий рік (свято),Año Nuevo (la festividad),,,,,お正[しょう]月[がつ]に家[か]族[ぞく]と写[しゃ]真[しん]を撮[と]りました。,At New Year I took photos with my family.,На Новый год я фотографировался с семьёй.,На Новий рік я фотографувався з родиною.,En Año Nuevo me hice fotos con mi familia.
+父,ちち,父[ちち],(my) father,(мой) отец,(мій) батько,(mi) padre,,,,,父[ちち]は私[わたし]に時[と]計[けい]をくれました。,My father gave me a watch.,Папа подарил мне часы.,Тато подарував мені годинник.,Mi padre me regaló un reloj.
+母,はは,母[はは],(my) mother,(моя) мать,(моя) мати,(mi) madre,,,,,母[はは]に電[でん]話[わ]をかけます。,I'll call my mother.,Я позвоню маме.,Я подзвоню мамі.,Voy a llamar a mi madre.
+お父さん,おとうさん,お父[とう]さん,(someone else's) father; Dad,отец (чужой); папа,батько (чужий); тато,padre (de otra persona); papá,,,,,お父[とう]さんに何[なに]をあげましたか。,What did you give your father?,Что вы подарили отцу?,Що ви подарували батькові?,¿Qué le regaló a su padre?
+お母さん,おかあさん,お母[かあ]さん,(someone else's) mother; Mum,мать (чужая); мама,мати (чужа); мама,madre (de otra persona); mamá,,,,,マリアさんのお母[かあ]さんにお土産[みやげ]をもらいました。,I got a souvenir from Maria's mother.,Мама Марии подарила мне сувенир.,Мама Марії подарувала мені сувенір.,La madre de Maria me dio un recuerdo.
+,もう,もう,already,уже,вже,ya,,,,,もう昼[ひる]ご飯[はん]を食[た]べましたか。　— はい、もう食[た]べました。,"Have you had lunch yet? — Yes, I already have.","Вы уже пообедали? — Да, уже пообедал.","Ви вже пообідали? — Так, уже пообідав.","¿Ya ha comido? — Sí, ya he comido."
+,まだ,まだ,not yet,ещё (нет),ще (ні),todavía no,,,,,もう宿[しゅく]題[だい]をしましたか。　— いいえ、まだです。,"Have you done your homework yet? — No, not yet.","Вы уже сделали домашнее задание? — Нет, ещё нет.","Ви вже зробили домашнє завдання? — Ні, ще ні.","¿Ya ha hecho los deberes? — No, todavía no."
+,これから,これから,"from now on, soon","с этого момента, сейчас","відтепер, зараз","a partir de ahora, pronto",,,,,いいえ、まだです。これから送[おく]ります。,"No, not yet. I'm about to send it.","Нет, ещё нет. Сейчас отправлю.","Ні, ще ні. Зараз надішлю.","No, todavía no. Ahora lo envío."
+,すてきですね。,すてきですね。,how nice!,как мило!,як гарно!,¡qué bonito!,,,,,そのシャツ、すてきですね。,That shirt is lovely!,Какая красивая рубашка!,Яка гарна сорочка!,¡Qué camisa tan bonita!
+,ごめんください。,ごめんください。,"hello, anyone home? (at the door)",есть кто дома? (у двери),є хтось удома? (біля дверей),"¿hola, hay alguien? (en la puerta)",,,,,ごめんください。　— はい、どうぞ。,"Hello, anyone home? — Yes, come in.","Есть кто дома? — Да, проходите.","Є хто вдома? — Так, проходьте.","¿Hay alguien? — Sí, pase."
+,いらっしゃい。,いらっしゃい。,welcome,добро пожаловать,ласкаво просимо,bienvenido,,,,,マリアさん、いらっしゃい。,"Maria, welcome!","Мария, добро пожаловать!","Маріє, ласкаво просимо!","¡Maria, bienvenida!"
+どうぞお上がりください。,どうぞおあがりください。,どうぞお上[あ]がりください。,please come in,"проходите, пожалуйста","проходьте, будь ласка","pase, por favor",,,,,いらっしゃい。どうぞお上[あ]がりください。,Welcome. Please come in.,"Добро пожаловать. Проходите, пожалуйста.","Ласкаво просимо. Проходьте, будь ласка.","Bienvenido. Pase, por favor."
 ,いかがですか。,いかがですか。,how about …? would you like …?,не хотите ли …?,чи не бажаєте …?,¿qué tal …? ¿le apetece …?,offering something; plainer: ～どうですか / ～どう？,угощая; проще: ～どうですか / ～どう？,пригощаючи; простіше: ～どうですか / ～どう？,al ofrecer algo; más llano: ～どうですか / ～どう？,お茶[ちゃ]はいかがですか。,Would you like some tea?,Не хотите чаю?,Чи не бажаєте чаю?,¿Le apetece un té?
-,いただきます。,いただきます。,thank you (said before eating),приятного аппетита (перед едой),смачного (перед їжею),gracias (se dice antes de comer),,,,,,,,,
-旅行,りょこう,旅[りょ]行[こう],"trip, travel",путешествие,подорож,viaje,旅行をします: travel,旅行をします: путешествовать,旅行をします: подорожувати,旅行をします: viajar,,,,,
-お土産,おみやげ,お土産[みやげ],"souvenir, present","сувенир, гостинец","сувенір, гостинець","recuerdo, regalo",,,,,,,,,
-,ヨーロッパ,ヨーロッパ,Europe,Европа,Європа,Europa,,,,,,,,,
-,スペイン,スペイン,Spain,Испания,Іспанія,España,,,,,,,,,
+,いただきます。,いただきます。,thank you (said before eating),приятного аппетита (перед едой),смачного (перед їжею),gracias (se dice antes de comer),,,,,お茶[ちゃ]をどうぞ。　— いただきます。,Have some tea. — Thank you.,Угощайтесь чаем. — Спасибо.,Пригощайтеся чаєм. — Дякую.,Tome un té. — Gracias.
+旅行,りょこう,旅[りょ]行[こう],"trip, travel",путешествие,подорож,viaje,旅行をします: travel,旅行をします: путешествовать,旅行をします: подорожувати,旅行をします: viajar,先[せん]月[げつ]ヨーロッパへ旅[りょ]行[こう]しました。,Last month I travelled to Europe.,В прошлом месяце я ездил в Европу.,Минулого місяця я їздив до Європи.,El mes pasado viajé por Europa.
+お土産,おみやげ,お土産[みやげ],"souvenir, present","сувенир, гостинец","сувенір, гостинець","recuerdo, regalo",,,,,友[とも]達[だち]にスペインのお土産[みやげ]をあげました。,I gave my friend a souvenir from Spain.,Я подарил другу сувенир из Испании.,Я подарував другові сувенір з Іспанії.,Le di a un amigo un recuerdo de España.
+,ヨーロッパ,ヨーロッパ,Europe,Европа,Європа,Europa,,,,,ヨーロッパで写[しゃ]真[しん]を撮[と]りました。,I took photos in Europe.,В Европе я фотографировал.,У Європі я фотографував.,Hice fotos en Europa.
+,スペイン,スペイン,Spain,Испания,Іспанія,España,,,,,スペインでスペイン語[ご]を習[なら]いました。,I learned Spanish in Spain.,Я учил испанский в Испании.,Я вчив іспанську в Іспанії.,Aprendí español en España.

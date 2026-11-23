@@ -1,66 +1,66 @@
 kanji,kana,furigana,en,ru,uk,es,note_en,note_ru,note_uk,note_es,example,example_en,example_ru,example_uk,example_es
-,これ,これ,this (thing here),это (рядом со мной),це,esto (la cosa de aquí),,,,,,,,,
-,それ,それ,that (thing near you),это (рядом с тобой),це (біля тебе),eso (la cosa cerca de ti),,,,,,,,,
-,あれ,あれ,that (thing over there),то (вон там),те (он там),aquello (la cosa de allí),,,,,,,,,
+,これ,これ,this (thing here),это (рядом со мной),це,esto (la cosa de aquí),,,,,これは辞[じ]書[しょ]です。,This is a dictionary.,Это словарь.,Це словник.,Esto es un diccionario.
+,それ,それ,that (thing near you),это (рядом с тобой),це (біля тебе),eso (la cosa cerca de ti),,,,,それは何[なん]ですか。,What is that?,Что это?,Що це?,¿Qué es eso?
+,あれ,あれ,that (thing over there),то (вон там),те (он там),aquello (la cosa de allí),,,,,あれは誰[だれ]の車[くるま]ですか。,Whose car is that over there?,Чья вон та машина?,Чия он та машина?,¿De quién es aquel coche?
 この本,このほん,この本[ほん],this book,эта книга,ця книга,este libro,"この ~: this ~, the one near me","この ~: этот ~, тот, что рядом со мной","この ~: цей ~, той, що біля мене","この ~: este ~, el que está cerca de mí",この本[ほん]は私[わたし]のです。,This book is mine.,Эта книга моя.,Ця книга моя.,Este libro es mío.
 その辞書,そのじしょ,その辞[じ]書[しょ],that dictionary,тот словарь,той словник,ese diccionario,"その ~: that ~, the one near you","その ~: тот ~, тот, что рядом с тобой","その ~: той ~, той, що біля тебе","その ~: ese ~, el que está cerca de ti",その辞[じ]書[しょ]は田[た]中[なか]さんのです。,That dictionary is Mr. Tanaka's.,Тот словарь — Танаки-сан.,Той словник — Танаки-сан.,Ese diccionario es del señor Tanaka.
 あの新聞,あのしんぶん,あの新[しん]聞[ぶん],that newspaper over there,та газета (вон там),та газета (он там),aquel periódico,"あの ~: that ~ over there, away from both of us","あの ~: тот ~ вон там, вдали от нас обоих","あの ~: той ~ он там, далеко від нас обох","あの ~: aquel ~, lejos de los dos",あの新[しん]聞[ぶん]を ください。,Please give me that newspaper over there.,"Дайте мне, пожалуйста, ту газету.","Дайте мені, будь ласка, ту газету.","Deme aquel periódico, por favor."
-本,ほん,本[ほん],book,книга,книга,libro,,,,,,,,,
-辞書,じしょ,辞[じ]書[しょ],dictionary,словарь,словник,diccionario,,,,,,,,,
-雑誌,ざっし,雑[ざっ]誌[し],magazine,журнал,журнал,revista,,,,,,,,,
-新聞,しんぶん,新[しん]聞[ぶん],newspaper,газета,газета,periódico,,,,,,,,,
-,ノート,ノート,notebook,тетрадь,зошит,cuaderno,,,,,,,,,
-手帳,てちょう,手[て]帳[ちょう],pocket notebook,записная книжка,записник,agenda de bolsillo,,,,,,,,,
+本,ほん,本[ほん],book,книга,книга,libro,,,,,これは日[に]本[ほん]語[ご]の本[ほん]です。,This is a Japanese book.,Это книга на японском.,Це книжка японською.,Este es un libro de japonés.
+辞書,じしょ,辞[じ]書[しょ],dictionary,словарь,словник,diccionario,,,,,その辞[じ]書[しょ]はマリアさんのですか。,Is that dictionary Maria's?,Этот словарь — Марии?,Цей словник — Марії?,¿Ese diccionario es de Maria?
+雑誌,ざっし,雑[ざっ]誌[し],magazine,журнал,журнал,revista,,,,,これは車[くるま]の雑[ざっ]誌[し]です。,This is a car magazine.,Это журнал об автомобилях.,Це журнал про автомобілі.,Esta es una revista de coches.
+新聞,しんぶん,新[しん]聞[ぶん],newspaper,газета,газета,periódico,,,,,それは英[えい]語[ご]の新[しん]聞[ぶん]ですか。,Is that an English newspaper?,Это газета на английском?,Це газета англійською?,¿Ese es un periódico en inglés?
+,ノート,ノート,notebook,тетрадь,зошит,cuaderno,,,,,このノートは私[わたし]のです。,This notebook is mine.,Эта тетрадь моя.,Цей зошит мій.,Este cuaderno es mío.
+手帳,てちょう,手[て]帳[ちょう],pocket notebook,записная книжка,записник,agenda de bolsillo,,,,,あれは田[た]中[なか]さんの手[て]帳[ちょう]です。,That over there is Mr. Tanaka's planner.,Вон то — ежедневник Танаки-сана.,Он то — щоденник Танаки-сана.,Aquello es la agenda del señor Tanaka.
 名刺,めいし,名[めい]刺[し],business card,визитная карточка,візитівка,tarjeta de visita,,,,,名[めい]刺[し]を どうぞ。,Here is my business card.,Вот моя визитная карточка.,Ось моя візитівка.,Aquí tiene mi tarjeta de visita.
-,カード,カード,card,карта,картка,tarjeta,,,,,,,,,
+,カード,カード,card,карта,картка,tarjeta,,,,,これは何[なん]のカードですか。,What card is this?,Что это за карточка?,Що це за картка?,¿Qué tarjeta es esta?
 ,テレホンカード,テレホンカード,telephone card,телефонная карта,телефонна картка,tarjeta telefónica,,,,,テレホンカードを ください。,"A telephone card, please.","Телефонную карту, пожалуйста.","Телефонну картку, будь ласка.","Una tarjeta telefónica, por favor."
-鉛筆,えんぴつ,鉛[えん]筆[ぴつ],pencil,карандаш,олівець,lápiz,,,,,,,,,
-,ボールペン,ボールペン,ballpoint pen,шариковая ручка,кулькова ручка,bolígrafo,,,,,,,,,
-,シャープペンシル,シャープペンシル,"mechanical pencil, propelling pencil",механический карандаш,механічний олівець,portaminas,,,,,,,,,
-鍵,かぎ,鍵[かぎ],key,ключ,ключ,llave,,,,,,,,,
-時計,とけい,時[と]計[けい],"watch, clock",часы,годинник,reloj,,,,,,,,,
-目覚まし時計,めざましどけい,目[め]覚[ざ]まし時[ど]計[けい],alarm clock,будильник,будильник,despertador,と of とけい voices to ど in this compound,と из とけい озвончается в ど в этом сложном слове,と з とけい дзвінчає в ど у цьому складному слові,el と de とけい se sonoriza en ど en este compuesto,,,,,
-傘,かさ,傘[かさ],umbrella,зонт,парасолька,paraguas,,,,,,,,,
-鞄,かばん,鞄[かばん],"bag, briefcase","сумка, портфель","сумка, портфель","bolso, maletín",usually written in kana: かばん,обычно пишется каной: かばん,зазвичай пишеться каною: かばん,normalmente se escribe en kana: かばん,,,,,
+鉛筆,えんぴつ,鉛[えん]筆[ぴつ],pencil,карандаш,олівець,lápiz,,,,,これは鉛[えん]筆[ぴつ]ですか、ボールペンですか。,Is this a pencil or a ballpoint pen?,Это карандаш или ручка?,Це олівець чи ручка?,¿Esto es un lápiz o un bolígrafo?
+,ボールペン,ボールペン,ballpoint pen,шариковая ручка,кулькова ручка,bolígrafo,,,,,そのボールペンは私[わたし]のじゃありません。,That ballpoint pen isn't mine.,Эта ручка не моя.,Ця ручка не моя.,Ese bolígrafo no es mío.
+,シャープペンシル,シャープペンシル,"mechanical pencil, propelling pencil",механический карандаш,механічний олівець,portaminas,,,,,このシャープペンシルはワンさんのです。,This mechanical pencil is Wang's.,Этот механический карандаш — Вана.,Цей механічний олівець — Вана.,Este portaminas es de Wang.
+鍵,かぎ,鍵[かぎ],key,ключ,ключ,llave,,,,,これは何[なん]の鍵[かぎ]ですか。　— 車[くるま]の鍵[かぎ]です。,What is this key for? — It's the car key.,От чего этот ключ? — От машины.,Від чого цей ключ? — Від машини.,¿De qué es esta llave? — Es la llave del coche.
+時計,とけい,時[と]計[けい],"watch, clock",часы,годинник,reloj,,,,,この時[と]計[けい]は誰[だれ]のですか。,Whose watch is this?,Чьи это часы?,Чий це годинник?,¿De quién es este reloj?
+目覚まし時計,めざましどけい,目[め]覚[ざ]まし時[ど]計[けい],alarm clock,будильник,будильник,despertador,と of とけい voices to ど in this compound,と из とけい озвончается в ど в этом сложном слове,と з とけい дзвінчає в ど у цьому складному слові,el と de とけい se sonoriza en ど en este compuesto,それは目[め]覚[ざ]まし時[ど]計[けい]ですか。,Is that an alarm clock?,Это будильник?,Це будильник?,¿Eso es un despertador?
+傘,かさ,傘[かさ],umbrella,зонт,парасолька,paraguas,,,,,あの傘[かさ]はカリナさんのです。,That umbrella over there is Karina's.,Вон тот зонт — Карины.,Он та парасолька — Карини.,Aquel paraguas es de Karina.
+鞄,かばん,鞄[かばん],"bag, briefcase","сумка, портфель","сумка, портфель","bolso, maletín",usually written in kana: かばん,обычно пишется каной: かばん,зазвичай пишеться каною: かばん,normalmente se escribe en kana: かばん,この鞄[かばん]は誰[だれ]のですか。,Whose bag is this?,Чья это сумка?,Чия це сумка?,¿De quién es esta bolsa?
 ,リュック,リュック,backpack,рюкзак,рюкзак,mochila,,,,,それは私[わたし]のリュックです。,That is my backpack.,Это мой рюкзак.,Це мій рюкзак.,Esa es mi mochila.
-袋,ふくろ,袋[ふくろ],"bag, sack","пакет, мешок","пакет, мішок","bolsa, saco",,,,,,,,,
+袋,ふくろ,袋[ふくろ],"bag, sack","пакет, мешок","пакет, мішок","bolsa, saco",,,,,その袋[ふくろ]は何[なん]ですか。,What's that bag?,Что это за пакет?,Що це за пакет?,¿Qué es esa bolsa?
 レジ袋,レジぶくろ,レジ袋[ぶくろ],plastic shopping bag,пакет на кассе,пакет на касі,bolsa de plástico,,,,,レジ袋[ぶくろ]は いりません。,I don't need a bag.,Пакет не нужен.,Пакет не потрібен.,No necesito bolsa.
-,テープ,テープ,tape,"плёнка, кассета","плівка, касета",cinta,"in full: カセットテープ, cassette tape","полностью: カセットテープ, кассета","повністю: カセットテープ, касета","completo: カセットテープ, cinta de casete",,,,,
-,テープレコーダー,テープレコーダー,tape recorder,магнитофон,магнітофон,grabadora,,,,,,,,,
-,テレビ,テレビ,television,телевизор,телевізор,televisión,,,,,,,,,
-,ラジオ,ラジオ,radio,радио,радіо,radio,,,,,,,,,
-,カメラ,カメラ,camera,фотоаппарат,фотоапарат,cámara,,,,,,,,,
-,パソコン,パソコン,personal computer,компьютер (персональный),комп'ютер (персональний),ordenador personal,everyday word for コンピューター,обиходное слово для コンピューター,побутове слово для コンピューター,palabra cotidiana para コンピューター,,,,,
+,テープ,テープ,tape,"плёнка, кассета","плівка, касета",cinta,"in full: カセットテープ, cassette tape","полностью: カセットテープ, кассета","повністю: カセットテープ, касета","completo: カセットテープ, cinta de casete",これは日[に]本[ほん]語[ご]のテープです。,This is a Japanese tape.,Это кассета с японским.,Це касета з японською.,Esta es una cinta de japonés.
+,テープレコーダー,テープレコーダー,tape recorder,магнитофон,магнітофон,grabadora,,,,,あれはテープレコーダーです。,That over there is a tape recorder.,Вон то — магнитофон.,Он то — магнітофон.,Aquello es una grabadora.
+,テレビ,テレビ,television,телевизор,телевізор,televisión,,,,,このテレビは日[に]本[ほん]のです。,This TV is Japanese.,Этот телевизор японский.,Цей телевізор японський.,Este televisor es japonés.
+,ラジオ,ラジオ,radio,радио,радіо,radio,,,,,それはラジオですか、テープレコーダーですか。,Is that a radio or a tape recorder?,Это радио или магнитофон?,Це радіо чи магнітофон?,¿Eso es una radio o una grabadora?
+,カメラ,カメラ,camera,фотоаппарат,фотоапарат,cámara,,,,,このカメラはミラーさんのです。,This camera is Mr. Miller's.,Этот фотоаппарат — Миллера-сана.,Цей фотоапарат — Міллера-сана.,Esta cámara es del señor Miller.
+,パソコン,パソコン,personal computer,компьютер (персональный),комп'ютер (персональний),ordenador personal,everyday word for コンピューター,обиходное слово для コンピューター,побутове слово для コンピューター,palabra cotidiana para コンピューター,あのパソコンは誰[だれ]のですか。,Whose computer is that over there?,Чей вон тот компьютер?,Чий он той комп'ютер?,¿De quién es aquel ordenador?
 ,コンピューター,コンピューター,computer,компьютер,комп'ютер,ordenador,also written コンピュータ,пишется также コンピュータ,пишеться також コンピュータ,también se escribe コンピュータ,これは新[あたら]しいコンピューターです。,This is a new computer.,Это новый компьютер.,Це новий комп'ютер.,Este es un ordenador nuevo.
 ,タブレット,タブレット,tablet,планшет,планшет,tableta,,,,,これは私[わたし]のタブレットです。,This is my tablet.,Это мой планшет.,Це мій планшет.,Esta es mi tableta.
-自動車,じどうしゃ,自[じ]動[どう]車[しゃ],"automobile, car",автомобиль,автомобіль,"automóvil, coche",,,,,,,,,
-車,くるま,車[くるま],car,машина,машина,coche,everyday word for じどうしゃ,обиходное слово для じどうしゃ,побутове слово для じどうしゃ,palabra cotidiana para じどうしゃ,,,,,
-机,つくえ,机[つくえ],desk,письменный стол,письмовий стіл,escritorio,,,,,,,,,
-,テーブル,テーブル,table,стол (обеденный),стіл (обідній),mesa,,,,,,,,,
-椅子,いす,椅[い]子[す],chair,стул,стілець,silla,,,,,,,,,
-,チョコレート,チョコレート,chocolate,шоколад,шоколад,chocolate,,,,,,,,,
-,コーヒー,コーヒー,coffee,кофе,кава,café,,,,,,,,,
+自動車,じどうしゃ,自[じ]動[どう]車[しゃ],"automobile, car",автомобиль,автомобіль,"automóvil, coche",,,,,これは自[じ]動[どう]車[しゃ]の雑[ざっ]誌[し]です。,This is an automobile magazine.,Это автомобильный журнал.,Це автомобільний журнал.,Esta es una revista de automóviles.
+車,くるま,車[くるま],car,машина,машина,coche,everyday word for じどうしゃ,обиходное слово для じどうしゃ,побутове слово для じどうしゃ,palabra cotidiana para じどうしゃ,あれは私[わたし]の車[くるま]じゃありません。,That over there isn't my car.,Вон та машина не моя.,Он та машина не моя.,Aquel coche no es mío.
+机,つくえ,机[つくえ],desk,письменный стол,письмовий стіл,escritorio,,,,,この机[つくえ]はワンさんのです。,This desk is Wang's.,Этот стол — Вана.,Цей стіл — Вана.,Este escritorio es de Wang.
+,テーブル,テーブル,table,стол (обеденный),стіл (обідній),mesa,,,,,あのテーブルは日[に]本[ほん]のですか。,Is that table over there Japanese?,Вон тот стол японский?,Он той стіл японський?,¿Aquella mesa es japonesa?
+椅子,いす,椅[い]子[す],chair,стул,стілець,silla,,,,,その椅[い]子[す]は私[わたし]のです。,That chair is mine.,Этот стул мой.,Цей стілець мій.,Esa silla es mía.
+,チョコレート,チョコレート,chocolate,шоколад,шоколад,chocolate,,,,,これはスペインのチョコレートです。,This is Spanish chocolate.,Это испанский шоколад.,Це іспанський шоколад.,Este es chocolate español.
+,コーヒー,コーヒー,coffee,кофе,кава,café,,,,,これはコーヒーですか。　— はい、そうです。,"Is this coffee? — Yes, it is.",Это кофе? — Да.,Це кава? — Так.,¿Esto es café? — Sí.
 ,インスタントコーヒー,インスタントコーヒー,instant coffee,растворимый кофе,розчинна кава,café instantáneo,,,,,インスタントコーヒーを飲[の]みます。,I drink instant coffee.,Я пью растворимый кофе.,Я п'ю розчинну каву.,Bebo café instantáneo.
 ,ラテ,ラテ,caffè latte,латте,лате,café con leche (latte),,,,,ラテを おねがいします。,"A latte, please.","Латте, пожалуйста.","Лате, будь ласка.","Un latte, por favor."
 ,エスプレッソ,エスプレッソ,espresso,эспрессо,еспресо,expreso,,,,,エスプレッソは少[すく]なめで おねがいします。,"Less espresso, please.","Эспрессо поменьше, пожалуйста.","Еспресо поменше, будь ласка.","Menos expreso, por favor."
-,ミルク,ミルク,milk,молоко,молоко,leche,,,,,,,,,
+,ミルク,ミルク,milk,молоко,молоко,leche,,,,,それはミルクじゃありません。,That isn't milk.,Это не молоко.,Це не молоко.,Eso no es leche.
 多め,おおめ,多[おお]め,a larger amount,побольше,більше,una cantidad mayor,"~は 多めで おねがいします: more ~, please","~は 多めで おねがいします: побольше ~, пожалуйста","~は 多めで おねがいします: більше ~, будь ласка","~は 多めで おねがいします: más ~, por favor",ミルクは多[おお]めで おねがいします。,"Extra milk, please.","Молока побольше, пожалуйста.","Молока більше, будь ласка.","Más leche, por favor."
 少なめ,すくなめ,少[すく]なめ,a smaller amount,поменьше,менше,una cantidad menor,"~は 少なめで おねがいします: less ~, please","~は 少なめで おねがいします: поменьше ~, пожалуйста","~は 少なめで おねがいします: менше ~, будь ласка","~は 少なめで おねがいします: menos ~, por favor",ミルクは少[すく]なめで おねがいします。,"Less milk, please.","Молока поменьше, пожалуйста.","Молока менше, будь ласка.","Menos leche, por favor."
-英語,えいご,英[えい]語[ご],the English language,английский язык,англійська мова,el idioma inglés,,,,,,,,,
+英語,えいご,英[えい]語[ご],the English language,английский язык,англійська мова,el idioma inglés,,,,,この本[ほん]は英[えい]語[ご]の本[ほん]です。,This book is in English.,Эта книга на английском.,Ця книжка англійською.,Este libro está en inglés.
 日本語,にほんご,日[に]本[ほん]語[ご],the Japanese language,японский язык,японська мова,el idioma japonés,,,,,日[に]本[ほん]語[ご]が できますか。,Can you speak Japanese?,Вы говорите по-японски?,Ви говорите японською?,¿Sabes hablar japonés?
 ロシア語,ロシアご,ロシア語[ご],the Russian language,русский язык,російська мова,el idioma ruso,~語: the ~ language,~語: язык ~,~語: мова ~,~語: el idioma ~,ロシア語[ご]が できます。,I can speak Russian.,Я говорю по-русски.,Я говорю російською.,Sé hablar ruso.
-スペイン語,スペインご,スペイン語[ご],the Spanish language,испанский язык,іспанська мова,el idioma español,~語: the ~ language,~語: язык ~,~語: мова ~,~語: el idioma ~,,,,,
-何,なん,何[なん],what,что,що,qué,,,,,,,,,
+スペイン語,スペインご,スペイン語[ご],the Spanish language,испанский язык,іспанська мова,el idioma español,~語: the ~ language,~語: язык ~,~語: мова ~,~語: el idioma ~,それはスペイン語[ご]の雑[ざっ]誌[し]ですか。,Is that a Spanish magazine?,Это журнал на испанском?,Це журнал іспанською?,¿Esa es una revista en español?
+何,なん,何[なん],what,что,що,qué,,,,,これは何[なん]の本[ほん]ですか。　— 車[くるま]の本[ほん]です。,What is this book about? — Cars.,Это книга о чём? — О машинах.,Це книжка про що? — Про машини.,¿De qué es este libro? — De coches.
 ,そうです。,そうです。,"Yes, it is. / That's right.","Да, это так.","Так, це так.","Sí, lo es. / Así es.",,,,,はい、そうです。,"Yes, that's right.","Да, верно.","Так, правильно.","Sí, así es."
 違います。,ちがいます。,違[ちが]います。,"No, it isn't. / You are wrong.","Нет, это не так.","Ні, це не так.","No, no lo es. / Se equivoca.",,,,,いいえ、違[ちが]います。,"No, that's wrong.","Нет, неправильно.","Ні, неправильно.","No, eso está mal."
-,そうですか。,そうですか。,I see. / Is that so?,Вот как? / Понятно.,Ось як? / Зрозуміло.,"Ya veo. / ¿Ah, sí?",acknowledges what you just heard,"подтверждает, что вы услышали","підтверджує, що ви почули",acusa recibo de lo que se acaba de oír,,,,,
+,そうですか。,そうですか。,I see. / Is that so?,Вот как? / Понятно.,Ось як? / Зрозуміло.,"Ya veo. / ¿Ah, sí?",acknowledges what you just heard,"подтверждает, что вы услышали","підтверджує, що ви почули",acusa recibo de lo que se acaba de oír,これはワンさんの傘[かさ]です。　— そうですか。,This is Wang's umbrella. — I see.,Это зонт Вана. — Вот как.,Це парасолька Вана. — Он як.,"Este es el paraguas de Wang. — Ah, ya veo."
 ,あのう,あのう,"well…, um… (hesitation)",э-э… (заминка),е-е… (вагання),"pues…, eh… (vacilación)",,,,,あのう、すみません。,"Um, excuse me.","Э-э, извините.","Е-е, перепрошую.","Eh, perdone."
 ,えーと,えーと,"um…, let me see",м-м… (раздумье),м-м… (роздуми),"eh…, a ver",,,,,えーと、そうですね。,"Um, well…","М-м, ну…","М-м, ну…","Eh, bueno…"
-,ちょっと,ちょっと,"a little; (alone) well, that's a bit…","немного; (одно) ну, это как-то…","трохи; (окремо) ну, це якось…","un poco; (sola) bueno, es que…",ちょっと… on its own is a soft refusal,ちょっと… само по себе — мягкий отказ,ちょっと… саме по собі — м'яка відмова,ちょっと… sola es un rechazo suave,,,,,
-ほんの気持ちです。,ほんのきもちです。,ほんの気[き]持[も]ちです。,It's nothing. / It's a token of my gratitude.,Это пустяк (о подарке).,Це дрібниця (про подарунок).,No es nada. / Es una muestra de mi agradecimiento.,said when handing over a small present,"говорят, вручая небольшой подарок","кажуть, вручаючи невеликий подарунок",se dice al entregar un pequeño regalo,,,,,
-,どうぞ,どうぞ,Please. / Here you are.,"Пожалуйста. / Вот, возьмите.","Будь ласка. / Ось, візьміть.",Por favor. / Aquí tiene.,used when offering someone something,когда что-то предлагают,коли щось пропонують,se usa al ofrecer algo a alguien,,,,,
-,どうも。,どうも。,"Well, thanks.",Спасибо. (кратко),Дякую. (коротко),"Bueno, gracias.",casual; short for どうもありがとう,разговорное; сокращение от どうもありがとう,розмовне; скорочення від どうもありがとう,informal; abreviatura de どうもありがとう,,,,,
-,どうもすみません。,どうもすみません。,I'm very sorry. / Thanks a lot.,"Извините, пожалуйста.",Перепрошую. / Щиро дякую.,Lo siento mucho. / Muchas gracias.,"apology, or thanks for someone's trouble",извинение или благодарность за хлопоты,вибачення або подяка за клопіт,"disculpa, o agradecimiento por la molestia de alguien",,,,,
-,ありがとう。,ありがとう。,Thank you.,Спасибо.,Дякую.,Gracias.,casual,разговорное,розмовне,informal,,,,,
-どうもありがとうございます。,どうもありがとうございます。,どうもありがとうございます。,Thank you very much.,Большое спасибо.,Щиро дякую.,Muchas gracias.,full polite form of ありがとう,полная вежливая форма ありがとう,повна ввічлива форма ありがとう,forma cortés completa de ありがとう,,,,,
-,こちらこそ よろしく。,こちらこそ よろしく。,I am pleased to meet you too.,И я рад знакомству.,І я радий знайомству.,Encantado de conocerle también.,the reply to どうぞ よろしく,ответ на どうぞ よろしく,відповідь на どうぞ よろしく,la respuesta a どうぞ よろしく,,,,,
+,ちょっと,ちょっと,"a little; (alone) well, that's a bit…","немного; (одно) ну, это как-то…","трохи; (окремо) ну, це якось…","un poco; (sola) bueno, es que…",ちょっと… on its own is a soft refusal,ちょっと… само по себе — мягкий отказ,ちょっと… саме по собі — м'яка відмова,ちょっと… sola es un rechazo suave,コーヒーですか。　— いいえ、ちょっと…。,"Coffee? — No, I'm all right…","Кофе? — Нет, я, пожалуй, не буду…","Кави? — Ні, я, мабуть, не буду…","¿Café? — No, mejor no…"
+ほんの気持ちです。,ほんのきもちです。,ほんの気[き]持[も]ちです。,It's nothing. / It's a token of my gratitude.,Это пустяк (о подарке).,Це дрібниця (про подарунок).,No es nada. / Es una muestra de mi agradecimiento.,said when handing over a small present,"говорят, вручая небольшой подарок","кажуть, вручаючи невеликий подарунок",se dice al entregar un pequeño regalo,これ、ほんの気[き]持[も]ちです。,This is just a small token.,Это просто небольшой знак внимания.,Це просто невеликий знак уваги.,Esto es solo un detalle.
+,どうぞ,どうぞ,Please. / Here you are.,"Пожалуйста. / Вот, возьмите.","Будь ласка. / Ось, візьміть.",Por favor. / Aquí tiene.,used when offering someone something,когда что-то предлагают,коли щось пропонують,se usa al ofrecer algo a alguien,どうぞ。チョコレートです。,Here you are. It's chocolate.,"Пожалуйста, это шоколад.","Прошу, це шоколад.",Toma. Es chocolate.
+,どうも。,どうも。,"Well, thanks.",Спасибо. (кратко),Дякую. (коротко),"Bueno, gracias.",casual; short for どうもありがとう,разговорное; сокращение от どうもありがとう,розмовне; скорочення від どうもありがとう,informal; abreviatura de どうもありがとう,あ、どうも。,"Oh, thanks.","О, спасибо.","О, дякую.","Ah, gracias."
+,どうもすみません。,どうもすみません。,I'm very sorry. / Thanks a lot.,"Извините, пожалуйста.",Перепрошую. / Щиро дякую.,Lo siento mucho. / Muchas gracias.,"apology, or thanks for someone's trouble",извинение или благодарность за хлопоты,вибачення або подяка за клопіт,"disculpa, o agradecimiento por la molestia de alguien",あ、私[わたし]の傘[かさ]です。どうもすみません。,"Oh, that's my umbrella. Thanks so much.","Ой, это мой зонт. Большое спасибо.","Ой, це моя парасолька. Щиро дякую.","Ah, es mi paraguas. Muchas gracias."
+,ありがとう。,ありがとう。,Thank you.,Спасибо.,Дякую.,Gracias.,casual,разговорное,розмовне,informal,これ、私[わたし]のノートです。ありがとう。,That's my notebook. Thanks.,Это моя тетрадь. Спасибо.,Це мій зошит. Дякую.,Es mi cuaderno. Gracias.
+どうもありがとうございます。,どうもありがとうございます。,どうもありがとうございます。,Thank you very much.,Большое спасибо.,Щиро дякую.,Muchas gracias.,full polite form of ありがとう,полная вежливая форма ありがとう,повна ввічлива форма ありがとう,forma cortés completa de ありがとう,これ、どうぞ。　— どうもありがとうございます。,This is for you. — Thank you very much.,Это вам. — Большое спасибо.,Це вам. — Щиро дякую.,Esto es para usted. — Muchas gracias.
+,こちらこそ よろしく。,こちらこそ よろしく。,I am pleased to meet you too.,И я рад знакомству.,І я радий знайомству.,Encantado de conocerle también.,the reply to どうぞ よろしく,ответ на どうぞ よろしく,відповідь на どうぞ よろしく,la respuesta a どうぞ よろしく,どうぞ よろしく。　— こちらこそ よろしく。,Nice to meet you. — Nice to meet you too.,Приятно познакомиться. — Мне тоже.,Приємно познайомитися. — Мені теж.,Mucho gusto. — Igualmente.

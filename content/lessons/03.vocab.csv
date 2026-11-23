@@ -1,78 +1,78 @@
 kanji,kana,furigana,en,ru,uk,es,note_en,note_ru,note_uk,note_es,example,example_en,example_ru,example_uk,example_es
-,ここ,ここ,"here, this place","здесь, это место","тут, це місце","aquí, este lugar",,,,,,,,,
-,そこ,そこ,"there, that place near you",там (рядом с тобой),там (біля тебе),"ahí, ese lugar cerca de ti",,,,,,,,,
-,あそこ,あそこ,that place over there,вон там,он там,aquel lugar de allí,,,,,,,,,
-,どこ,どこ,"where, what place","где, какое место","де, яке місце","dónde, qué lugar",,,,,,,,,
-,こちら,こちら,"this way, this place","сюда, здесь (вежл.)","сюди, це місце","por aquí, este lugar",polite equivalent of ここ,вежливый вариант ここ,ввічливий варіант ここ,equivalente cortés de ここ,,,,,
-,そちら,そちら,"that way, that place near you","туда, там (вежл.)","туди, те місце (біля тебе)","por ahí, ese lugar cerca de ti",polite equivalent of そこ,вежливый вариант そこ,ввічливий варіант そこ,equivalente cortés de そこ,,,,,
-,あちら,あちら,"that way, that place over there",вон туда (вежл.),"туди, он те місце","por allí, aquel lugar",polite equivalent of あそこ,вежливый вариант あそこ,ввічливий варіант あそこ,equivalente cortés de あそこ,,,,,
-,どちら,どちら,"which way, where","куда, где (вежл.)","куди, де","por dónde, dónde",polite equivalent of どこ,вежливый вариант どこ,ввічливий варіант どこ,equivalente cortés de どこ,,,,,
-教室,きょうしつ,教[きょう]室[しつ],classroom,"класс, аудитория","аудиторія, клас",aula,,,,,,,,,
-食堂,しょくどう,食[しょく]堂[どう],"dining hall, canteen",столовая,їдальня,"comedor, cantina",,,,,,,,,
-事務所,じむしょ,事[じ]務[む]所[しょ],office,"контора, офис",офіс,oficina,,,,,,,,,
+,ここ,ここ,"here, this place","здесь, это место","тут, це місце","aquí, este lugar",,,,,ここは食[しょく]堂[どう]です。,This is the canteen.,Здесь столовая.,Тут їдальня.,Esto es el comedor.
+,そこ,そこ,"there, that place near you",там (рядом с тобой),там (біля тебе),"ahí, ese lugar cerca de ti",,,,,そこは事[じ]務[む]所[しょ]です。,That's the office there.,Там (рядом с вами) — офис.,Там (біля вас) — офіс.,Ahí está la oficina.
+,あそこ,あそこ,that place over there,вон там,он там,aquel lugar de allí,,,,,トイレはあそこです。,The toilet is over there.,Туалет вон там.,Туалет он там.,El baño está allí.
+,どこ,どこ,"where, what place","где, какое место","де, яке місце","dónde, qué lugar",,,,,エレベーターはどこですか。,Where is the elevator?,Где лифт?,Де ліфт?,¿Dónde está el ascensor?
+,こちら,こちら,"this way, this place","сюда, здесь (вежл.)","сюди, це місце","por aquí, este lugar",polite equivalent of ここ,вежливый вариант ここ,ввічливий варіант ここ,equivalente cortés de ここ,受[うけ]付[つけ]はこちらです。,Reception is this way.,Регистратура здесь.,Реєстратура тут.,La recepción está por aquí.
+,そちら,そちら,"that way, that place near you","туда, там (вежл.)","туди, те місце (біля тебе)","por ahí, ese lugar cerca de ti",polite equivalent of そこ,вежливый вариант そこ,ввічливий варіант そこ,equivalente cortés de そこ,エスカレーターはそちらです。,The escalator is that way.,Эскалатор там.,Ескалатор там.,La escalera mecánica está por ahí.
+,あちら,あちら,"that way, that place over there",вон туда (вежл.),"туди, он те місце","por allí, aquel lugar",polite equivalent of あそこ,вежливый вариант あそこ,ввічливий варіант あそこ,equivalente cortés de あそこ,お手[て]洗[あら]いはあちらです。,The restroom is over that way.,Туалет вон там.,Туалет он там.,Los servicios están por allá.
+,どちら,どちら,"which way, where","куда, где (вежл.)","куди, де","por dónde, dónde",polite equivalent of どこ,вежливый вариант どこ,ввічливий варіант どこ,equivalente cortés de どこ,お国[くに]はどちらですか。,Which country are you from?,Из какой вы страны?,З якої ви країни?,¿De qué país es usted?
+教室,きょうしつ,教[きょう]室[しつ],classroom,"класс, аудитория","аудиторія, клас",aula,,,,,教[きょう]室[しつ]は三[さん]階[がい]です。,The classroom is on the third floor.,Класс на третьем этаже.,Клас на третьому поверсі.,El aula está en el tercer piso.
+食堂,しょくどう,食[しょく]堂[どう],"dining hall, canteen",столовая,їдальня,"comedor, cantina",,,,,食[しょく]堂[どう]はどこですか。,Where is the canteen?,Где столовая?,Де їдальня?,¿Dónde está el comedor?
+事務所,じむしょ,事[じ]務[む]所[しょ],office,"контора, офис",офіс,oficina,,,,,事[じ]務[む]所[しょ]は二[に]階[かい]です。,The office is on the second floor.,Офис на втором этаже.,Офіс на другому поверсі.,La oficina está en el segundo piso.
 会議室,かいぎしつ,会[かい]議[ぎ]室[しつ],"conference room, assembly room","переговорная, зал заседаний",конференц-зал,"sala de reuniones, sala de actos",,,,,会[かい]議[ぎ]室[しつ]は どこですか。,Where is the conference room?,Где конференц-зал?,Де конференц-зал?,¿Dónde está la sala de reuniones?
-受付,うけつけ,受[うけ]付[つけ],reception desk,стойка регистрации,рецепція,recepción,,,,,,,,,
+受付,うけつけ,受[うけ]付[つけ],reception desk,стойка регистрации,рецепція,recepción,,,,,すみません、受[うけ]付[つけ]はどこですか。,"Excuse me, where is reception?","Простите, где регистратура?","Перепрошую, де реєстратура?","Perdone, ¿dónde está la recepción?"
 ,ロビー,ロビー,lobby,"холл, лобби",вестибюль,vestíbulo,,,,,ロビーで待[ま]ちます。,I'll wait in the lobby.,Я подожду в вестибюле.,Я почекаю у вестибюлі.,Esperaré en el vestíbulo.
-部屋,へや,部[へ]屋[や],room,комната,кімната,"habitación, sala",,,,,,,,,
-,トイレ,トイレ,"toilet, rest room",туалет,туалет,"baño, aseo",,,,,,,,,
-お手洗い,おてあらい,お手[て]洗[あら]い,"toilet, rest room",туалет (вежл.),туалет,"baño, aseo",politer word for トイレ,более вежливое слово для トイレ,ввічливіше слово для トイレ,palabra más cortés para トイレ,,,,,
-階段,かいだん,階[かい]段[だん],staircase,лестница,сходи,escalera,,,,,,,,,
-,エレベーター,エレベーター,"elevator, lift",лифт,ліфт,ascensor,,,,,,,,,
-,エスカレーター,エスカレーター,escalator,эскалатор,ескалатор,escalera mecánica,,,,,,,,,
-国,くに,国[くに],country,страна,країна,país,,,,,,,,,
+部屋,へや,部[へ]屋[や],room,комната,кімната,"habitación, sala",,,,,ここはミラーさんの部[へ]屋[や]です。,This is Mr. Miller's room.,Это комната Миллера-сана.,Це кімната Міллера-сана.,Esta es la habitación del señor Miller.
+,トイレ,トイレ,"toilet, rest room",туалет,туалет,"baño, aseo",,,,,トイレはあそこです。,The toilet is over there.,Туалет вон там.,Туалет он там.,El baño está allí.
+お手洗い,おてあらい,お手[て]洗[あら]い,"toilet, rest room",туалет (вежл.),туалет,"baño, aseo",politer word for トイレ,более вежливое слово для トイレ,ввічливіше слово для トイレ,palabra más cortés para トイレ,すみません、お手[て]洗[あら]いはどちらですか。,"Excuse me, which way is the restroom?","Простите, где туалет?","Перепрошую, де туалет?","Perdone, ¿por dónde están los servicios?"
+階段,かいだん,階[かい]段[だん],staircase,лестница,сходи,escalera,,,,,階[かい]段[だん]はそこです。,The stairs are right there.,Лестница вон там.,Сходи он там.,Las escaleras están ahí.
+,エレベーター,エレベーター,"elevator, lift",лифт,ліфт,ascensor,,,,,エレベーターはあちらです。,The elevator is over that way.,Лифт вон там.,Ліфт он там.,El ascensor está por allá.
+,エスカレーター,エスカレーター,escalator,эскалатор,ескалатор,escalera mecánica,,,,,エスカレーターはどちらですか。,Which way is the escalator?,Где эскалатор?,Де ескалатор?,¿Por dónde está la escalera mecánica?
+国,くに,国[くに],country,страна,країна,país,,,,,マリアさんの国[くに]はどこですか。,"Where is your country, Maria?","Мария, откуда вы?","Маріє, звідки ви?","Maria, ¿de qué país es?"
 お国,おくに,お国[くに],your country,ваша страна,ваша країна,su país,polite お~; asking where someone is from,"вежливое お~; вопрос, откуда человек","ввічливе お~; питання, звідки людина",お~ cortés; para preguntar de dónde es alguien,お国[くに]は どちらですか。,Where are you from?,Откуда вы?,Звідки ви?,¿De dónde eres?
-会社,かいしゃ,会[かい]社[しゃ],company,компания,компанія,empresa,,,,,,,,,
-家,うち,家[うち],"house, home",дом,дім,"casa, hogar",,,,,,,,,
-電話,でんわ,電[でん]話[わ],"telephone, telephone call","телефон, телефонный звонок","телефон, дзвінок","teléfono, llamada",,,,,,,,,
-靴,くつ,靴[くつ],shoes,"обувь, туфли",взуття,zapatos,,,,,,,,,
-,ネクタイ,ネクタイ,necktie,галстук,краватка,corbata,,,,,,,,,
-,ワイン,ワイン,wine,вино,вино,vino,,,,,,,,,
-煙草,たばこ,煙草[たばこ],"tobacco, cigarette","табак, сигареты","тютюн, цигарка","tabaco, cigarrillo",usually written in kana: たばこ,обычно пишется каной: たばこ,зазвичай пишеться каною: たばこ,normalmente se escribe en kana: たばこ,,,,,
-売り場,うりば,売[う]り場[ば],"department, counter (in a department store)",отдел (в магазине),відділ (в універмазі),"sección, mostrador (en unos grandes almacenes)",,,,,,,,,
+会社,かいしゃ,会[かい]社[しゃ],company,компания,компанія,empresa,,,,,会[かい]社[しゃ]はどちらですか。　— IMCです。,Which company are you with? — IMC.,В какой компании вы работаете? — В IMC.,У якій компанії ви працюєте? — В IMC.,¿En qué empresa trabaja? — En IMC.
+家,うち,家[うち],"house, home",дом,дім,"casa, hogar",,,,,ワンさんの家[うち]はどこですか。,Where is Wang's house?,Где дом Вана?,Де дім Вана?,¿Dónde está la casa de Wang?
+電話,でんわ,電[でん]話[わ],"telephone, telephone call","телефон, телефонный звонок","телефон, дзвінок","teléfono, llamada",,,,,電[でん]話[わ]はどこですか。,Where is the telephone?,Где телефон?,Де телефон?,¿Dónde está el teléfono?
+靴,くつ,靴[くつ],shoes,"обувь, туфли",взуття,zapatos,,,,,この靴[くつ]はイタリアのです。,These shoes are Italian.,Эти туфли итальянские.,Ці туфлі італійські.,Estos zapatos son italianos.
+,ネクタイ,ネクタイ,necktie,галстук,краватка,corbata,,,,,このネクタイはいくらですか。,How much is this tie?,Сколько стоит этот галстук?,Скільки коштує ця краватка?,¿Cuánto cuesta esta corbata?
+,ワイン,ワイン,wine,вино,вино,vino,,,,,これはスペインのワインです。,This is a Spanish wine.,Это испанское вино.,Це іспанське вино.,Este es un vino español.
+煙草,たばこ,煙草[たばこ],"tobacco, cigarette","табак, сигареты","тютюн, цигарка","tabaco, cigarrillo",usually written in kana: たばこ,обычно пишется каной: たばこ,зазвичай пишеться каною: たばこ,normalmente se escribe en kana: たばこ,煙草[たばこ]の売[う]り場[ば]はどこですか。,Where is the tobacco counter?,Где табачный отдел?,Де тютюновий відділ?,¿Dónde está la sección de tabaco?
+売り場,うりば,売[う]り場[ば],"department, counter (in a department store)",отдел (в магазине),відділ (в універмазі),"sección, mostrador (en unos grandes almacenes)",,,,,靴[くつ]売[う]り場[ば]は何[なん]階[がい]ですか。,What floor is the shoe department on?,На каком этаже обувной отдел?,На якому поверсі взуттєвий відділ?,¿En qué piso está la sección de zapatería?
 地下,ちか,地[ち]下[か],basement,"подвал, нижний этаж","підвал, підземний поверх",sótano,,,,,売[う]り場[ば]は地[ち]下[か]です。,The counter is in the basement.,Отдел в подвальном этаже.,Відділ у підвальному поверсі.,El mostrador está en el sótano.
 一階,いっかい,一[いっ]階[かい],first floor,первый этаж,перший поверх,primer piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,受[うけ]付[つけ]は一[いっ]階[かい]です。,The reception desk is on the first floor.,Рецепция на первом этаже.,Рецепція на першому поверсі.,La recepción está en el primer piso.
-三階,さんがい,三[さん]階[がい],third floor,третий этаж,третій поверх,tercer piso,~階 is read ~がい after 三 and 何,~階 читается ~がい после 三 и 何,~階 читається ~がい після 三 і 何,~階 se lee ~がい después de 三 y 何,,,,,
+三階,さんがい,三[さん]階[がい],third floor,третий этаж,третій поверх,tercer piso,~階 is read ~がい after 三 and 何,~階 читается ~がい после 三 и 何,~階 читається ~がい після 三 і 何,~階 se lee ~がい después de 三 y 何,靴[くつ]売[う]り場[ば]は三[さん]階[がい]です。,The shoe department is on the third floor.,Обувной отдел на третьем этаже.,Взуттєвий відділ на третьому поверсі.,La zapatería está en el tercer piso.
 何階,なんがい,何[なん]階[がい],what floor,какой этаж,який поверх,qué piso,,,,,トイレは何[なん]階[がい]ですか。,What floor is the toilet on?,На каком этаже туалет?,На якому поверсі туалет?,¿En qué piso está el baño?
-円,えん,円[えん],yen,иена,єна,yen,,,,,,,,,
-百円,ひゃくえん,百[ひゃく]円[えん],100 yen,сто иен,100 єн,100 yenes,~円: ~ yen,~円: ~ иен,~円: ~ єн,~円: ~ yenes,,,,,
+円,えん,円[えん],yen,иена,єна,yen,,,,,この傘[かさ]は千[せん]円[えん]です。,"This umbrella is 1,000 yen.",Этот зонт стоит тысячу иен.,Ця парасолька коштує тисячу єн.,Este paraguas cuesta mil yenes.
+百円,ひゃくえん,百[ひゃく]円[えん],100 yen,сто иен,100 єн,100 yenes,~円: ~ yen,~円: ~ иен,~円: ~ єн,~円: ~ yenes,このボールペンは百[ひゃく]円[えん]です。,This ballpoint pen is 100 yen.,Эта ручка стоит сто иен.,Ця ручка коштує сто єн.,Este bolígrafo cuesta cien yenes.
 千円,せんえん,千[せん]円[えん],1000 yen,тысяча иен,1000 єн,1000 yenes,~円: ~ yen,~円: ~ иен,~円: ~ єн,~円: ~ yenes,これは千[せん]円[えん]です。,This is 1000 yen.,Это стоит 1000 иен.,Це коштує 1000 єн.,Esto cuesta 1000 yenes.
 ,いくら,いくら,how much,сколько (стоит),скільки (коштує),cuánto,,,,,それは いくらですか。,How much is that?,Сколько это стоит?,Скільки це коштує?,¿Cuánto cuesta eso?
-百,ひゃく,百[ひゃく],hundred,сто,сто,cien,,,,,,,,,
-千,せん,千[せん],thousand,тысяча,тисяча,mil,,,,,,,,,
-万,まん,万[まん],ten thousand,десять тысяч,десять тисяч,diez mil,,,,,,,,,
+百,ひゃく,百[ひゃく],hundred,сто,сто,cien,,,,,この鉛[えん]筆[ぴつ]は八[はっ]百[ぴゃく]円[えん]です。,This pencil is 800 yen.,Этот карандаш стоит восемьсот иен.,Цей олівець коштує вісімсот єн.,Este lápiz cuesta ochocientos yenes.
+千,せん,千[せん],thousand,тысяча,тисяча,mil,,,,,この辞[じ]書[しょ]は三[さん]千[ぜん]円[えん]です。,"This dictionary is 3,000 yen.",Этот словарь стоит три тысячи иен.,Цей словник коштує три тисячі єн.,Este diccionario cuesta tres mil yenes.
+万,まん,万[まん],ten thousand,десять тысяч,десять тисяч,diez mil,,,,,このカメラは五[ご]万[まん]円[えん]です。,"This camera is 50,000 yen.",Этот фотоаппарат стоит пятьдесят тысяч иен.,Цей фотоапарат коштує п'ятдесят тисяч єн.,Esta cámara cuesta cincuenta mil yenes.
 ,~でございます。,~でございます。,(polite equivalent of です),(вежливая форма です),(ввічливий варіант です),(equivalente cortés de です),shop-staff politeness; です in plain polite speech,вежливость продавцов; в обычной вежливой речи です,ввічливість продавців; у звичайному ввічливому мовленні です,cortesía de dependiente; です en el habla cortés normal,売[う]り場[ば]は三[さん]階[がい]で ございます。,The counter is on the third floor.,Отдел на третьем этаже.,Відділ на третьому поверсі.,El mostrador está en el tercer piso.
 見せてください。,みせてください。,見[み]せてください。,Please show me.,"Покажите, пожалуйста.","Покажіть, будь ласка.","Enséñemelo, por favor.",(~を) 見せて ください。,(~を) 見せて ください。,(~を) 見せて ください。,(~を) 見せて ください。,それを見[み]せて ください。,Please show me that one.,"Покажите, пожалуйста, вот то.","Покажіть, будь ласка, ось те.","Enséñeme ese, por favor."
 ,じゃ,じゃ,"well then, in that case","ну тогда, в таком случае","ну тоді, у такому разі","bueno, entonces",,,,,じゃ、これを ください。,Then I'll take this one.,Тогда я возьму это.,Тоді я візьму це.,Entonces me llevo este.
 ,ください。,ください。,"Give me ~, please.","Дайте, пожалуйста.","Дайте ~, будь ласка.","Deme ~, por favor.",(~を) ください。,(~を) ください。,(~を) ください。,(~を) ください。,これを ください。,"I'll take this one, please.","Дайте, пожалуйста, это.","Дайте, будь ласка, це.","Me llevo este, por favor."
 お願いします。,おねがいします。,お願[ねが]いします。,Please. / I'd like ~.,Прошу вас. / Будьте добры.,Будь ласка. / Мені ~.,Por favor. / Quisiera ~.,~をお願いします。 is a politer (~を) ください。,"~をお願いします。 — вежливее, чем (~を) ください。","~をお願いします。 — ввічливіше, ніж (~を) ください。",~をお願いします。 es un (~を) ください。 más cortés,ワインを お願[ねが]いします。,"Wine, please.","Вина, пожалуйста.","Вина, будь ласка.","Vino, por favor."
-新大阪,しんおおさか,新[しん]大[おお]阪[さか],Shin-Osaka (station in Osaka),Син-Осака (станция),Сін-Осака (станція в Осаці),Shin-Osaka (estación de Osaka),,,,,,,,,
-,イタリア,イタリア,Italy,Италия,Італія,Italia,,,,,,,,,
-,スイス,スイス,Switzerland,Швейцария,Швейцарія,Suiza,,,,,,,,,
-,デパート,デパート,department store,универмаг,універмаг,grandes almacenes,,,,,,,,,
+新大阪,しんおおさか,新[しん]大[おお]阪[さか],Shin-Osaka (station in Osaka),Син-Осака (станция),Сін-Осака (станція в Осаці),Shin-Osaka (estación de Osaka),,,,,ここは新[しん]大[おお]阪[さか]です。,This is Shin-Osaka.,Это Син-Осака.,Це Сін-Осака.,Esto es Shin-Osaka.
+,イタリア,イタリア,Italy,Италия,Італія,Italia,,,,,このワインはイタリアのです。,This wine is Italian.,Это вино итальянское.,Це вино італійське.,Este vino es italiano.
+,スイス,スイス,Switzerland,Швейцария,Швейцарія,Suiza,,,,,この時[と]計[けい]はスイスのです。,This watch is Swiss.,Эти часы швейцарские.,Цей годинник швейцарський.,Este reloj es suizo.
+,デパート,デパート,department store,универмаг,універмаг,grandes almacenes,,,,,デパートの食[しょく]堂[どう]は八[はっ]階[かい]です。,The department store's restaurant floor is the eighth.,Ресторан универмага на восьмом этаже.,Ресторан універмагу на восьмому поверсі.,El restaurante de los grandes almacenes está en el octavo piso.
 屋上,おくじょう,屋[おく]上[じょう],rooftop,крыша (этаж),дах,azotea,top level of a department store,верхний этаж универмага,верхній поверх універмагу,planta superior de unos grandes almacenes,屋[おく]上[じょう]は遊[ゆう]園[えん]地[ち]です。,The rooftop is an amusement area.,На крыше — зона развлечений.,На даху — зона розваг.,La azotea es una zona de atracciones.
-遊園地,ゆうえんち,遊[ゆう]園[えん]地[ち],"amusement park, amusement area",парк аттракционов,"парк розваг, ігрова зона","parque de atracciones, zona de juegos",,,,,,,,,
-催し物会場,もよおしものかいじょう,催[もよお]し物[もの]会[かい]場[じょう],event hall,зал мероприятий,виставкова зала,sala de eventos,"催し物 = event, 会場 = venue","催し物 = мероприятие, 会場 = место проведения","催し物 = захід, 会場 = місце проведення","催し物 = evento, 会場 = recinto",,,,,
-眼鏡,めがね,眼鏡[めがね],glasses,очки,окуляри,gafas,usually written in kana: めがね,обычно пишется каной: めがね,зазвичай пишеться каною: めがね,normalmente se escribe en kana: めがね,,,,,
-スポーツ用品,スポーツようひん,スポーツ用[よう]品[ひん],sporting goods,спорттовары,спортивні товари,artículos deportivos,~用品: goods for ~,~用品: товары для ~,~用品: товари для ~,~用品: artículos para ~,,,,,
-旅行用品,りょこうようひん,旅[りょ]行[こう]用[よう]品[ひん],travel goods,товары для путешествий,товари для подорожей,artículos de viaje,~用品: goods for ~,~用品: товары для ~,~用品: товари для ~,~用品: artículos para ~,,,,,
+遊園地,ゆうえんち,遊[ゆう]園[えん]地[ち],"amusement park, amusement area",парк аттракционов,"парк розваг, ігрова зона","parque de atracciones, zona de juegos",,,,,遊[ゆう]園[えん]地[ち]はどこですか。　— 屋[おく]上[じょう]です。,Where is the amusement area? — On the roof.,Где детская площадка с аттракционами? — На крыше.,Де майданчик з атракціонами? — На даху.,¿Dónde está la zona de juegos? — En la azotea.
+催し物会場,もよおしものかいじょう,催[もよお]し物[もの]会[かい]場[じょう],event hall,зал мероприятий,виставкова зала,sala de eventos,"催し物 = event, 会場 = venue","催し物 = мероприятие, 会場 = место проведения","催し物 = захід, 会場 = місце проведення","催し物 = evento, 会場 = recinto",催[もよお]し物[もの]会[かい]場[じょう]は七[なな]階[かい]です。,The event hall is on the seventh floor.,Выставочный зал на седьмом этаже.,Виставкова зала на сьомому поверсі.,La sala de eventos está en el séptimo piso.
+眼鏡,めがね,眼鏡[めがね],glasses,очки,окуляри,gafas,usually written in kana: めがね,обычно пишется каной: めがね,зазвичай пишеться каною: めがね,normalmente se escribe en kana: めがね,眼鏡[めがね]売[う]り場[ば]は何[なん]階[がい]ですか。,What floor is the glasses counter on?,На каком этаже отдел очков?,На якому поверсі відділ окулярів?,¿En qué piso está la óptica?
+スポーツ用品,スポーツようひん,スポーツ用[よう]品[ひん],sporting goods,спорттовары,спортивні товари,artículos deportivos,~用品: goods for ~,~用品: товары для ~,~用品: товари для ~,~用品: artículos para ~,スポーツ用[よう]品[ひん]売[う]り場[ば]は五[ご]階[かい]です。,Sporting goods are on the fifth floor.,Спорттовары на пятом этаже.,Спорттовари на п'ятому поверсі.,Los artículos deportivos están en el quinto piso.
+旅行用品,りょこうようひん,旅[りょ]行[こう]用[よう]品[ひん],travel goods,товары для путешествий,товари для подорожей,artículos de viaje,~用品: goods for ~,~用品: товары для ~,~用品: товари для ~,~用品: artículos para ~,旅[りょ]行[こう]用[よう]品[ひん]はどこですか。,Where are the travel goods?,Где товары для путешествий?,Де товари для подорожей?,¿Dónde están los artículos de viaje?
 子ども服,こどもふく,子[こ]ども服[ふく],children's clothes,детская одежда,дитячий одяг,ropa infantil,~服: ~ wear,~服: одежда ~,~服: одяг ~,~服: ropa de ~,子[こ]ども服[ふく]は五[ご]階[かい]です。,Children's clothes are on the fifth floor.,Детская одежда на пятом этаже.,Дитячий одяг на п'ятому поверсі.,La ropa infantil está en el quinto piso.
-文房具,ぶんぼうぐ,文[ぶん]房[ぼう]具[ぐ],"stationery, writing materials",канцтовары,канцтовари,"papelería, material de escritorio",,,,,,,,,
+文房具,ぶんぼうぐ,文[ぶん]房[ぼう]具[ぐ],"stationery, writing materials",канцтовары,канцтовари,"papelería, material de escritorio",,,,,文[ぶん]房[ぼう]具[ぐ]売[う]り場[ば]は六[ろっ]階[かい]です。,Stationery is on the sixth floor.,Канцтовары на шестом этаже.,Канцтовари на шостому поверсі.,La papelería está en el sexto piso.
 家具,かぐ,家[か]具[ぐ],furniture,мебель,меблі,muebles,,,,,家[か]具[ぐ]売[う]り場[ば]は四[よん]階[かい]です。,The furniture department is on the fourth floor.,Мебельный отдел на четвёртом этаже.,Меблевий відділ на четвертому поверсі.,La sección de muebles está en el cuarto piso.
-食器,しょっき,食[しょっ]器[き],"tableware, kitchenware",посуда,посуд,"vajilla, menaje de cocina",,,,,,,,,
-電気製品,でんきせいひん,電[でん]気[き]製[せい]品[ひん],electrical appliances,электротехника,електротовари,electrodomésticos,,,,,,,,,
-紳士服,しんしふく,紳[しん]士[し]服[ふく],men's wear,мужская одежда,чоловічий одяг,ropa de caballero,~服: ~ wear,~服: одежда ~,~服: одяг ~,~服: ropa de ~,,,,,
-婦人服,ふじんふく,婦[ふ]人[じん]服[ふく],ladies' wear,женская одежда,жіночий одяг,ropa de señora,~服: ~ wear,~服: одежда ~,~服: одяг ~,~服: ropa de ~,,,,,
-化粧品,けしょうひん,化[け]粧[しょう]品[ひん],cosmetics,косметика,косметика,cosméticos,,,,,,,,,
+食器,しょっき,食[しょっ]器[き],"tableware, kitchenware",посуда,посуд,"vajilla, menaje de cocina",,,,,食[しょっ]器[き]売[う]り場[ば]はあそこです。,The tableware department is over there.,Отдел посуды вон там.,Відділ посуду он там.,La sección de vajilla está allí.
+電気製品,でんきせいひん,電[でん]気[き]製[せい]品[ひん],electrical appliances,электротехника,електротовари,electrodomésticos,,,,,電[でん]気[き]製[せい]品[ひん]は地[ち]下[か]一[いっ]階[かい]です。,Electrical appliances are on the first basement floor.,Электротовары на первом подземном этаже.,Електротовари на першому підземному поверсі.,Los electrodomésticos están en el primer sótano.
+紳士服,しんしふく,紳[しん]士[し]服[ふく],men's wear,мужская одежда,чоловічий одяг,ropa de caballero,~服: ~ wear,~服: одежда ~,~服: одяг ~,~服: ropa de ~,紳[しん]士[し]服[ふく]売[う]り場[ば]は四[よん]階[かい]です。,Men's wear is on the fourth floor.,Мужская одежда на четвёртом этаже.,Чоловічий одяг на четвертому поверсі.,La ropa de caballero está en el cuarto piso.
+婦人服,ふじんふく,婦[ふ]人[じん]服[ふく],ladies' wear,женская одежда,жіночий одяг,ropa de señora,~服: ~ wear,~服: одежда ~,~服: одяг ~,~服: ropa de ~,婦[ふ]人[じん]服[ふく]は何[なん]階[がい]ですか。,What floor is ladies' wear on?,На каком этаже женская одежда?,На якому поверсі жіночий одяг?,¿En qué piso está la ropa de señora?
+化粧品,けしょうひん,化[け]粧[しょう]品[ひん],cosmetics,косметика,косметика,cosméticos,,,,,化[け]粧[しょう]品[ひん]売[う]り場[ば]は一[いっ]階[かい]です。,Cosmetics are on the first floor.,Косметика на первом этаже.,Косметика на першому поверсі.,La perfumería está en la planta baja.
 食料品,しょくりょうひん,食[しょく]料[りょう]品[ひん],"food, groceries",продукты,продукти,"alimentación, comestibles",,,,,食[しょく]料[りょう]品[ひん]は地[ち]下[か]一[いっ]階[かい]です。,Groceries are on the first basement floor.,Продукты на первом подвальном этаже.,Продукти на першому підвальному поверсі.,La alimentación está en el primer sótano.
-二階,にかい,二[に]階[かい],second floor,второй этаж,другий поверх,segundo piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,,,,,
-四階,よんかい,四[よん]階[かい],fourth floor,четвёртый этаж,четвертий поверх,cuarto piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,,,,,
-五階,ごかい,五[ご]階[かい],fifth floor,пятый этаж,п'ятий поверх,quinto piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,,,,,
-六階,ろっかい,六[ろっ]階[かい],sixth floor,шестой этаж,шостий поверх,sexto piso,六 + 階 fuse into ろっかい,六 + 階 сливаются в ろっかい,六 + 階 зливаються в ろっかい,六 + 階 se funden en ろっかい,,,,,
-七階,ななかい,七[なな]階[かい],seventh floor,седьмой этаж,сьомий поверх,séptimo piso,also read しちかい,читается также しちかい,читається також しちかい,también se lee しちかい,,,,,
-八階,はっかい,八[はっ]階[かい],eighth floor,восьмой этаж,восьмий поверх,octavo piso,八 + 階 fuse into はっかい; はちかい is also heard,八 + 階 сливаются в はっかい; слышно и はちかい,八 + 階 зливаються в はっかい; чути й はちかい,八 + 階 se funden en はっかい; también se oye はちかい,,,,,
-地下一階,ちかいっかい,地[ち]下[か]一[いっ]階[かい],first basement floor,первый подземный этаж,перший підвальний поверх,primer sótano,B1 on a floor guide,B1 в указателе этажей,B1 у покажчику поверхів,S1 en un directorio de plantas,,,,,
-地下二階,ちかにかい,地[ち]下[か]二[に]階[かい],second basement floor,второй подземный этаж,другий підвальний поверх,segundo sótano,B2 on a floor guide,B2 в указателе этажей,B2 у покажчику поверхів,S2 en un directorio de plantas,,,,,
-駐車場,ちゅうしゃじょう,駐[ちゅう]車[しゃ]場[じょう],parking lot,парковка,парковка,aparcamiento,,,,,,,,,
-,おもちゃ,おもちゃ,toy,игрушка,іграшка,juguete,,,,,,,,,
-,アクセサリー,アクセサリー,"accessories, jewelry","аксессуары, украшения","аксесуари, біжутерія","accesorios, joyas",,,,,,,,,
-旅行,りょこう,旅[りょ]行[こう],"travel, trip",путешествие,подорож,viaje,,,,,,,,,
+二階,にかい,二[に]階[かい],second floor,второй этаж,другий поверх,segundo piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,事[じ]務[む]所[しょ]は二[に]階[かい]です。,The office is on the second floor.,Офис на втором этаже.,Офіс на другому поверсі.,La oficina está en el segundo piso.
+四階,よんかい,四[よん]階[かい],fourth floor,четвёртый этаж,четвертий поверх,cuarto piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,ネクタイ売[う]り場[ば]は四[よん]階[かい]です。,Ties are on the fourth floor.,Галстуки на четвёртом этаже.,Краватки на четвертому поверсі.,Las corbatas están en el cuarto piso.
+五階,ごかい,五[ご]階[かい],fifth floor,пятый этаж,п'ятий поверх,quinto piso,~階: ~th floor,~階: ~-й этаж,~階: ~-й поверх,~階: piso ~,会[かい]議[ぎ]室[しつ]は五[ご]階[かい]ですか。,Is the meeting room on the fifth floor?,Конференц-зал на пятом этаже?,Конференц-зала на п'ятому поверсі?,¿La sala de reuniones está en el quinto piso?
+六階,ろっかい,六[ろっ]階[かい],sixth floor,шестой этаж,шостий поверх,sexto piso,六 + 階 fuse into ろっかい,六 + 階 сливаются в ろっかい,六 + 階 зливаються в ろっかい,六 + 階 se funden en ろっかい,食[しょっ]器[き]は六[ろっ]階[かい]です。,Tableware is on the sixth floor.,Посуда на шестом этаже.,Посуд на шостому поверсі.,La vajilla está en el sexto piso.
+七階,ななかい,七[なな]階[かい],seventh floor,седьмой этаж,сьомий поверх,séptimo piso,also read しちかい,читается также しちかい,читається також しちかい,también se lee しちかい,おもちゃ売[う]り場[ば]は七[なな]階[かい]です。,Toys are on the seventh floor.,Игрушки на седьмом этаже.,Іграшки на сьомому поверсі.,Los juguetes están en el séptimo piso.
+八階,はっかい,八[はっ]階[かい],eighth floor,восьмой этаж,восьмий поверх,octavo piso,八 + 階 fuse into はっかい; はちかい is also heard,八 + 階 сливаются в はっかい; слышно и はちかい,八 + 階 зливаються в はっかい; чути й はちかい,八 + 階 se funden en はっかい; también se oye はちかい,食[しょく]堂[どう]は八[はっ]階[かい]です。,The restaurants are on the eighth floor.,Рестораны на восьмом этаже.,Ресторани на восьмому поверсі.,Los restaurantes están en el octavo piso.
+地下一階,ちかいっかい,地[ち]下[か]一[いっ]階[かい],first basement floor,первый подземный этаж,перший підвальний поверх,primer sótano,B1 on a floor guide,B1 в указателе этажей,B1 у покажчику поверхів,S1 en un directorio de plantas,ワイン売[う]り場[ば]は地[ち]下[か]一[いっ]階[かい]です。,Wine is on the first basement floor.,Вино на первом подземном этаже.,Вино на першому підземному поверсі.,Los vinos están en el primer sótano.
+地下二階,ちかにかい,地[ち]下[か]二[に]階[かい],second basement floor,второй подземный этаж,другий підвальний поверх,segundo sótano,B2 on a floor guide,B2 в указателе этажей,B2 у покажчику поверхів,S2 en un directorio de plantas,駐[ちゅう]車[しゃ]場[じょう]は地[ち]下[か]二[に]階[かい]です。,The car park is on the second basement floor.,Парковка на втором подземном этаже.,Парковка на другому підземному поверсі.,El aparcamiento está en el segundo sótano.
+駐車場,ちゅうしゃじょう,駐[ちゅう]車[しゃ]場[じょう],parking lot,парковка,парковка,aparcamiento,,,,,駐[ちゅう]車[しゃ]場[じょう]はどこですか。,Where is the car park?,Где парковка?,Де парковка?,¿Dónde está el aparcamiento?
+,おもちゃ,おもちゃ,toy,игрушка,іграшка,juguete,,,,,このおもちゃはいくらですか。,How much is this toy?,Сколько стоит эта игрушка?,Скільки коштує ця іграшка?,¿Cuánto cuesta este juguete?
+,アクセサリー,アクセサリー,"accessories, jewelry","аксессуары, украшения","аксесуари, біжутерія","accesorios, joyas",,,,,アクセサリー売[う]り場[ば]は一[いっ]階[かい]です。,Accessories are on the first floor.,Бижутерия на первом этаже.,Біжутерія на першому поверсі.,Los complementos están en la planta baja.
+旅行,りょこう,旅[りょ]行[こう],"travel, trip",путешествие,подорож,viaje,,,,,旅[りょ]行[こう]の本[ほん]はどこですか。,Where are the travel books?,Где книги о путешествиях?,Де книжки про подорожі?,¿Dónde están los libros de viajes?
