@@ -1,0 +1,308 @@
+title = { en = "Tickets for the Shinkansen", ru = "Билеты на синкансэн", uk = "Квитки на синкансен", es = "Billetes para el shinkansen" }
+scene = "A busy Japanese train station: a young woman with a small suitcase at a ticket office window talking to a uniformed clerk, a departure board with train times above, and beyond the gates a platform where a white bullet train is arriving."
+
+[[prose]]
+ja = "来[らい]週[しゅう]|、|マリア|さん|は|京[きょう]都[と]|へ|旅[りょ]行[こう]|します|。|今日[きょう]|、|東[とう]京[きょう]|駅[えき]|の|窓[まど]口[ぐち]|で|新[しん]幹[かん]線[せん]|の|切[きっ]符[ぷ]|を|買[か]いました=買[か]います|。"
+en = "Next week Maria is travelling to Kyoto. Today she bought Shinkansen tickets at the ticket office of Tokyo Station."
+ru = "На следующей неделе Мария едет в Киото. Сегодня она купила билеты на синкансэн в кассе Токийского вокзала."
+uk = "Наступного тижня Марія їде до Кіото. Сьогодні вона купила квитки на синкансен у касі Токійського вокзалу."
+es = "La semana que viene Maria se va de viaje a Kioto. Hoy compró los billetes del shinkansen en la taquilla de la estación de Tokio."
+
+[[prose]]
+ja = "指[し]定[てい]席[せき]|の|往[おう]復[ふく]|で|、|窓[まど]側[がわ]|の|席[せき]|です|。|富[ふ]士[じ]山[さん]|が|見[み]えます|から|。"
+en = "A reserved round trip, with a window seat, because you can see Mount Fuji."
+ru = "Туда и обратно, места забронированы, у окна — оттуда видно Фудзи."
+uk = "Туди й назад, місця заброньовані, біля вікна — звідти видно Фудзі."
+es = "Ida y vuelta con asiento reservado, junto a la ventana, porque se ve el monte Fuji."
+
+[[prose]]
+ja = "旅[りょ]行[こう]|の|日[ひ]|、|マリア|さん|は|ホーム|で|新[しん]幹[かん]線[せん]|を|待[ま]ちました=待[ま]ちます|。|アナウンス|は|早[はや]かったです=早[はや]い|が|、|「|十[じゅう]四[よん]番[ばん]線[せん]|」|は|分[わ]かりました=分[わ]かります|。"
+en = "On the day of the trip Maria waited for the Shinkansen on the platform. The announcement was fast, but she caught \"platform 14\"."
+ru = "В день поездки Мария ждала синкансэн на платформе. Объявление было быстрым, но «четырнадцатую платформу» она поняла."
+uk = "У день поїздки Марія чекала на синкансен на платформі. Оголошення було швидким, але «чотирнадцяту платформу» вона зрозуміла."
+es = "El día del viaje Maria esperó el shinkansen en el andén. El aviso fue rápido, pero entendió «andén 14»."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|新[しん]幹[かん]線[せん]|の|指[し]定[てい]席[せき]|を|予[よ]約[やく]|したいです|。"
+en = "Excuse me. I'd like to reserve a Shinkansen seat."
+ru = "Здравствуйте. Я хочу забронировать место на синкансэн."
+uk = "Добрий день. Я хочу забронювати місце на синкансен."
+es = "Perdone. Quisiera reservar un asiento en el shinkansen."
+uses = ["新幹線[しんかんせん]の指定席[していせき]を予約[よやく]したいです"]
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "どちら|まで|です|か|。|何[なん]時[じ]|の|電[でん]車[しゃ]|に|なさいますか|。"
+en = "Where to? Which departure time would you like?"
+ru = "Докуда? На какое время поезд?"
+uk = "До якої станції? На котру годину потяг?"
+es = "¿Hasta dónde? ¿A qué hora quiere el tren?"
+uses = ["何時[なんじ]の電車[でんしゃ]になさいますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "京[きょう]都[と]|まで|です|。|来[らい]週[しゅう]|の|土[ど]曜[よう]日[び]|、|朝[あさ]|九[く]時[じ]|ごろ|の|電[でん]車[しゃ]|を|お願[ねが]いします|。"
+en = "To Kyoto. A train around nine in the morning next Saturday, please."
+ru = "До Киото. В следующую субботу, поезд около девяти утра, пожалуйста."
+uk = "До Кіото. Наступної суботи, потяг близько дев'ятої ранку, будь ласка."
+es = "Hasta Kioto. Un tren sobre las nueve de la mañana del sábado que viene, por favor."
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "九[く]時[じ]|三[さん]分[ぷん]|の|「|のぞみ|」|が|あります|。|窓[まど]側[がわ]|と|通[つう]路[ろ]側[がわ]|、|どちら|が|よろしいですか|。"
+en = "There's the Nozomi at 9:03. Window or aisle?"
+ru = "Есть «Нодзоми» в девять ноль три. Место у окна или у прохода?"
+uk = "Є «Нодзомі» о дев'ятій нуль три. Місце біля вікна чи біля проходу?"
+es = "Hay un Nozomi a las nueve y tres. ¿Ventanilla o pasillo?"
+uses = ["窓側[まどがわ]と通路側[つうろがわ]、どちらがよろしいですか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "窓[まど]側[がわ]|の|席[せき]|を|お願[ねが]いします|。|それから|、|往[おう]復[ふく]|で|お願[ねが]いします|。"
+en = "A window seat, please. And a round trip, please."
+ru = "У окна, пожалуйста. И туда-обратно, пожалуйста."
+uk = "Біля вікна, будь ласка. І туди-назад, будь ласка."
+es = "Ventanilla, por favor. Y de ida y vuelta, por favor."
+uses = ["窓側[まどがわ]の席[せき]をお願[ねが]いします", "往復[おうふく]でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "かしこまりました。|お支[し]払[はら]い|は|どう|なさいますか|。"
+en = "Certainly. How will you pay?"
+ru = "Хорошо. Как будете платить?"
+uk = "Добре. Як будете платити?"
+es = "Muy bien. ¿Cómo va a pagar?"
+uses = ["お支払[しはら]いはどうなさいますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "カード|で|お願[ねが]いします|。"
+en = "By card, please."
+ru = "Картой, пожалуйста."
+uk = "Карткою, будь ласка."
+es = "Con tarjeta, por favor."
+uses = ["〇〇でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|。|京[きょう]都[と]|へ|行[い]きます|。|何[なん]番[ばん]線[せん]|です|か|。"
+en = "Excuse me. I'm going to Kyoto. Which platform?"
+ru = "Простите. Мне в Киото. С какой платформы?"
+uk = "Перепрошую. Мені до Кіото. З якої платформи?"
+es = "Perdone. Voy a Kioto. ¿Qué andén es?"
+uses = ["何番線[なんばんせん]ですか"]
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "十[じゅう]四[よん]番[ばん]線[せん]|です|。|あちら|の|階[かい]段[だん]|を|上[あ]がってください=上[あ]がります|。"
+en = "Platform 14. Go up those stairs over there."
+ru = "Четырнадцатая платформа. Поднимитесь вон по той лестнице."
+uk = "Чотирнадцята платформа. Підніміться он тими сходами."
+es = "Andén 14. Suba por aquellas escaleras."
+
+[[dialog]]
+speaker = "アナウンス"
+ja = "まもなく|、|十[じゅう]四[よん]番[ばん]線[せん]|に|電[でん]車[しゃ]|が|参[まい]ります|。"
+en = "A train will shortly arrive at platform 14."
+ru = "Вскоре на четырнадцатую платформу прибудет поезд."
+uk = "Незабаром на чотирнадцяту платформу прибуде потяг."
+es = "En breves momentos efectuará su entrada un tren en el andén 14."
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|、|この|電[でん]車[しゃ]|は|京[きょう]都[と]|に|止[と]まりますか=止[と]まります|。"
+en = "Excuse me, does this train stop at Kyoto?"
+ru = "Простите, этот поезд останавливается в Киото?"
+uk = "Перепрошую, цей потяг зупиняється в Кіото?"
+es = "Perdone, ¿este tren para en Kioto?"
+
+[[dialog]]
+speaker = "駅[えき]員[いん]"
+ja = "はい|、|止[と]まります|。|三[さん]号[ごう]車[しゃ]|は|あちら|です|。"
+en = "Yes, it does. Car 3 is over there."
+ru = "Да, останавливается. Третий вагон — вон там."
+uk = "Так, зупиняється. Третій вагон — он там."
+es = "Sí, para. El coche 3 está allí."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+es = "Kioto"
+
+[[new]]
+ja = "東[とう]京[きょう]"
+en = "Tokyo"
+ru = "Токио"
+uk = "Токіо"
+es = "Tokio"
+
+[[new]]
+ja = "窓[まど]口[ぐち]"
+en = "ticket window, counter"
+ru = "касса, окошко"
+uk = "каса, віконце"
+es = "taquilla, ventanilla"
+
+[[new]]
+ja = "指[し]定[てい]席[せき]"
+en = "reserved seat"
+ru = "забронированное место"
+uk = "заброньоване місце"
+es = "asiento reservado"
+
+[[new]]
+ja = "往[おう]復[ふく]"
+en = "round trip"
+ru = "туда и обратно"
+uk = "туди й назад"
+es = "ida y vuelta"
+
+[[new]]
+ja = "窓[まど]側[がわ]"
+en = "window side"
+ru = "у окна"
+uk = "біля вікна"
+es = "lado de la ventanilla"
+
+[[new]]
+ja = "富[ふ]士[じ]山[さん]"
+en = "Mount Fuji"
+ru = "гора Фудзи"
+uk = "гора Фудзі"
+es = "el monte Fuji"
+
+[[new]]
+ja = "見[み]えます"
+en = "can be seen"
+ru = "видно"
+uk = "видно"
+es = "verse, ser visible"
+
+[[new]]
+ja = "日[ひ]"
+en = "day"
+ru = "день"
+uk = "день"
+es = "día"
+
+[[new]]
+ja = "ホーム"
+en = "platform"
+ru = "платформа"
+uk = "платформа"
+es = "andén"
+
+[[new]]
+ja = "待[ま]ちます"
+en = "wait"
+ru = "ждать"
+uk = "чекати"
+es = "esperar"
+
+[[new]]
+ja = "アナウンス"
+en = "announcement"
+ru = "объявление"
+uk = "оголошення"
+es = "aviso, anuncio"
+
+[[new]]
+ja = "早[はや]い"
+en = "fast; early"
+ru = "быстрый; ранний"
+uk = "швидкий; ранній"
+es = "rápido; temprano"
+
+[[new]]
+ja = "十[じゅう]四[よん]番[ばん]線[せん]"
+en = "platform 14"
+ru = "четырнадцатая платформа"
+uk = "чотирнадцята платформа"
+es = "andén 14"
+
+[[new]]
+ja = "分[わ]かります"
+en = "understand"
+ru = "понимать"
+uk = "розуміти"
+es = "entender"
+
+[[new]]
+ja = "予[よ]約[やく]"
+en = "reservation, booking"
+ru = "бронь, заказ"
+uk = "бронювання"
+es = "reserva"
+
+[[new]]
+ja = "駅[えき]員[いん]"
+en = "station staff"
+ru = "работник станции"
+uk = "працівник станції"
+es = "empleado de la estación"
+
+[[new]]
+ja = "三[さん]分[ぷん]"
+en = "three minutes; (of the hour) :03"
+ru = "три минуты"
+uk = "три хвилини"
+es = "tres minutos"
+
+[[new]]
+ja = "通[つう]路[ろ]側[がわ]"
+en = "aisle side"
+ru = "у прохода"
+uk = "біля проходу"
+es = "lado del pasillo"
+
+[[new]]
+ja = "お支[し]払[はら]い"
+en = "payment"
+ru = "оплата"
+uk = "оплата"
+es = "pago"
+
+[[new]]
+ja = "何[なん]番[ばん]線[せん]"
+en = "which platform"
+ru = "какая платформа"
+uk = "яка платформа"
+es = "qué andén"
+
+[[new]]
+ja = "上[あ]がります"
+en = "go up"
+ru = "подниматься"
+uk = "підніматися"
+es = "subir"
+
+[[new]]
+ja = "参[まい]ります"
+en = "come, arrive (humble, in announcements)"
+ru = "прибывать (скромно, в объявлениях)"
+uk = "прибувати (скромно, в оголошеннях)"
+es = "llegar (humilde, en avisos)"
+
+[[new]]
+ja = "止[と]まります"
+en = "stop"
+ru = "останавливаться"
+uk = "зупинятися"
+es = "parar"
+
+[[new]]
+ja = "三[さん]号[ごう]車[しゃ]"
+en = "car number 3"
+ru = "третий вагон"
+uk = "третій вагон"
+es = "coche 3"

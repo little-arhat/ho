@@ -1,0 +1,170 @@
+title = { en = "A present from the food hall", ru = "Подарок из продуктового этажа", uk = "Подарунок із продуктового поверху", es = "Un regalo de la planta de alimentación" }
+scene = "The basement food hall of a Japanese department store: glass counters with beautifully boxed sweets and cakes, a smiling saleswoman offering a small tasting sample on a tray to a young woman, elegant paper shopping bags."
+
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|は|由[ゆ]紀[き]|さん|の|誕[たん]生[じょう]日[び]|です|。|アンナ|さん|は|デパート|の|地[ち]下[か]|へ|プレゼント|を|買[か]いに=買[か]います|行[い]きました=行[い]きます|。|地[ち]下[か]|に|は|お菓[か]子[し]|の|店[みせ]|が|たくさん|あります|。"
+en = "Sunday is Yuki's birthday. Anna went to the department store's basement floor to buy a present. Down there are lots of sweet shops."
+ru = "В воскресенье у Юки день рождения. Анна пошла за подарком на подземный этаж универмага. Там много кондитерских."
+uk = "У неділю в Юкі день народження. Анна пішла по подарунок на підземний поверх універмагу. Там багато кондитерських."
+es = "El domingo es el cumpleaños de Yuki. Anna fue a la planta sótano de unos grandes almacenes a comprar un regalo. Allí hay muchas tiendas de dulces."
+
+[[prose]]
+ja = "店[てん]員[いん]|さん|が|お菓[か]子[し]|を|一[ひと]つ|くれました|。|とても|おいしかったです=おいしい|。|アンナ|さん|は|その|お菓[か]子[し]|の|小[ちい]さい|箱[はこ]|を|買[か]いました=買[か]います|。"
+en = "A saleswoman gave her one sweet to try. It was delicious. Anna bought a small box of those sweets."
+ru = "Продавщица дала ей попробовать одну сладость. Было очень вкусно. Анна купила маленькую коробку этих сладостей."
+uk = "Продавчиня дала їй скуштувати одну солодку. Було дуже смачно. Анна купила маленьку коробку цих солодощів."
+es = "Una dependienta le dio un dulce para probar. Estaba buenísimo. Anna compró una caja pequeña de esos dulces."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|。|どうぞ|、|召[め]し上[あ]がってください=召[め]し上[あ]がります|。"
+en = "Welcome. Please, have a taste."
+ru = "Добро пожаловать. Пожалуйста, попробуйте."
+uk = "Ласкаво просимо. Будь ласка, скуштуйте."
+es = "Bienvenida. Por favor, pruebe."
+uses = ["いらっしゃいませ"]
+
+[[dialog]]
+speaker = "アンナ"
+ja = "あ|、|試[し]食[しょく]|しても|いいですか|。|……|おいしい|！|これ|は|いくら|です|か|。"
+en = "Oh, can I try a sample? … Delicious! How much is this?"
+ru = "О, можно попробовать? …Вкусно! Сколько это стоит?"
+uk = "О, можна скуштувати? …Смачно! Скільки це коштує?"
+es = "Ah, ¿puedo probar? … ¡Qué rico! ¿Cuánto cuesta esto?"
+uses = ["試食[ししょく]してもいいですか", "これはいくらですか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "１２|個[こ]|入[い]り|で|、|３０００|円[えん]|です|。"
+en = "A box of twelve is 3,000 yen."
+ru = "Коробка на двенадцать штук — три тысячи иен."
+uk = "Коробка на дванадцять штук — три тисячі єн."
+es = "La caja de doce cuesta 3.000 yenes."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "ちょっと|高[たか]い|です|ね|。|これ|の|小[ちい]さい|サイズ|は|ありますか|。"
+en = "That's a bit expensive. Is there a smaller size?"
+ru = "Дороговато. А поменьше есть?"
+uk = "Дорогувато. А менша є?"
+es = "Es un poco caro. ¿Hay un tamaño más pequeño?"
+uses = ["これの小[ちい]さいサイズはありますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|。|６|個[こ]|入[い]り|は|１５００|円[えん]|です|。"
+en = "Yes. A box of six is 1,500 yen."
+ru = "Да. Коробка на шесть штук — полторы тысячи иен."
+uk = "Так. Коробка на шість штук — півтори тисячі єн."
+es = "Sí. La de seis cuesta 1.500 yenes."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "じゃ|、|これ|を|ください|。|プレゼント|です|。"
+en = "Then I'll take this one. It's a present."
+ru = "Тогда вот эту, пожалуйста. Это подарок."
+uk = "Тоді ось цю, будь ласка. Це подарунок."
+es = "Entonces me llevo esta. Es para regalo."
+uses = ["これをください"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "かしこまりました。|袋[ふくろ]|は|ご利[り]用[よう]|です|か|。"
+en = "Certainly. Would you like a bag?"
+ru = "Хорошо. Пакет нужен?"
+uk = "Добре. Пакет потрібен?"
+es = "Muy bien. ¿Quiere bolsa?"
+uses = ["袋[ふくろ]はご利用[りよう]ですか"]
+
+[[dialog]]
+speaker = "アンナ"
+ja = "はい|、|袋[ふくろ]|を|ください|。"
+en = "Yes, a bag, please."
+ru = "Да, пакет, пожалуйста."
+uk = "Так, пакет, будь ласка."
+es = "Sí, una bolsa, por favor."
+uses = ["袋[ふくろ]をください"]
+
+[[new]]
+ja = "由[ゆ]紀[き]"
+en = "Yuki (a name)"
+ru = "Юки (имя)"
+uk = "Юкі (ім'я)"
+es = "Yuki (nombre)"
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"
+
+[[new]]
+ja = "お菓[か]子[し]"
+en = "sweets, snacks"
+ru = "сладости"
+uk = "солодощі"
+es = "dulces"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "一[ひと]つ"
+en = "one (thing)"
+ru = "одна (штука)"
+uk = "одна (штука)"
+es = "uno (cosa)"
+
+[[new]]
+ja = "箱[はこ]"
+en = "box"
+ru = "коробка"
+uk = "коробка"
+es = "caja"
+
+[[new]]
+ja = "召[め]し上[あ]がります"
+en = "eat, drink (honorific)"
+ru = "кушать (почтительно)"
+uk = "куштувати (шанобливо)"
+es = "comer, tomar (honorífico)"
+
+[[new]]
+ja = "試[し]食[しょく]"
+en = "tasting a free sample"
+ru = "дегустация"
+uk = "дегустація"
+es = "degustación"
+
+[[new]]
+ja = "個[こ]"
+en = "counter for small things"
+ru = "счётное слово для небольших предметов"
+uk = "лічильне слово для невеликих предметів"
+es = "contador de cosas pequeñas"
+
+[[new]]
+ja = "入[い]り"
+en = "containing, a box of"
+ru = "содержащий, в упаковке"
+uk = "що містить, в упаковці"
+es = "que contiene, caja de"
+
+[[new]]
+ja = "サイズ"
+en = "size"
+ru = "размер"
+uk = "розмір"
+es = "tamaño"
+
+[[new]]
+ja = "ご利[り]用[よう]"
+en = "use (polite)"
+ru = "пользование (вежливо)"
+uk = "користування (ввічливо)"
+es = "uso (cortés)"

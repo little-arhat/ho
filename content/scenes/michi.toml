@@ -1,0 +1,214 @@
+title = { en = "Lost on the way", ru = "Заблудился по дороге", uk = "Заблукав дорогою", es = "Perdido por el camino" }
+scene = "A quiet Japanese street corner with a traffic light and a small post box: a young man holding a phone with a map looks around, a kind older woman with a shopping bag points down the street; houses and a convenience store sign in the distance."
+
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|、|ワン|さん|は|友[とも]達[だち]|の|家[うち]|へ|行[い]きました=行[い]きます|。|でも|、|駅[えき]|の|近[ちか]く|で|道[みち]|に|迷[まよ]いました=迷[まよ]います|。|スマホ|の|電[でん]池[ち]|も|ありませんでした|。"
+en = "On Sunday Wang went to a friend's house. But near the station he got lost. His phone battery was dead too."
+ru = "В воскресенье Ван шёл в гости к другу. Но у станции он заблудился. И телефон разрядился."
+uk = "У неділю Ван ішов у гості до друга. Але біля станції заблукав. І телефон розрядився."
+es = "El domingo Wang fue a casa de un amigo. Pero cerca de la estación se perdió. Y el móvil se había quedado sin batería."
+
+[[prose]]
+ja = "ワン|さん|は|女[おんな]の人[ひと]|に|道[みち]|を|聞[き]きました=聞[き]きます|。|女[おんな]の人[ひと]|は|とても|親[しん]切[せつ]|でした|。|一[いっ]緒[しょ]に|コンビニ|まで|行[い]きました=行[い]きます|。"
+en = "Wang asked a woman the way. She was very kind and walked with him as far as the convenience store."
+ru = "Ван спросил дорогу у женщины. Она была очень добра и проводила его до комбини."
+uk = "Ван запитав дорогу в жінки. Вона була дуже люб'язна і провела його до комбіні."
+es = "Wang le preguntó el camino a una señora. Fue muy amable y lo acompañó hasta el konbini."
+
+[[dialog]]
+speaker = "ワン"
+ja = "すみません|。|道[みち]|に|迷[まよ]ってしまいました=迷[まよ]います|。|「|さくら|アパート|」|は|どこ|です|か|。"
+en = "Excuse me. I'm lost. Where is the Sakura apartment building?"
+ru = "Простите. Я заблудился. Где дом «Сакура»?"
+uk = "Перепрошую. Я заблукав. Де будинок «Сакура»?"
+es = "Perdone. Me he perdido. ¿Dónde está el edificio Sakura?"
+uses = ["道[みち]に迷[まよ]ってしまいました"]
+
+[[dialog]]
+speaker = "女[おんな]の人[ひと]"
+ja = "さくら|アパート|です|か|。|ああ|、|コンビニ|の|隣[となり]|です|よ|。"
+en = "The Sakura apartments? Ah, it's next to the convenience store."
+ru = "Дом «Сакура»? А, это рядом с комбини."
+uk = "Будинок «Сакура»? А, це поруч із комбіні."
+es = "¿El edificio Sakura? Ah, está al lado del konbini."
+uses = ["〇〇の隣[となり]です"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "一[いち]番[ばん]|近[ちか]い|コンビニ|は|どこ|です|か|。"
+en = "Where is the nearest convenience store?"
+ru = "Где ближайший комбини?"
+uk = "Де найближчий комбіні?"
+es = "¿Dónde está el konbini más cercano?"
+uses = ["一番近[いちばんちか]いコンビニはどこですか"]
+
+[[dialog]]
+speaker = "女[おんな]の人[ひと]"
+ja = "この|道[みち]|を|まっすぐ|行[い]ってください=行[い]きます|。|それから|、|二[ふた]つ目[め]|の|信[しん]号[ごう]|を|左[ひだり]|です|。"
+en = "Go straight along this street. Then left at the second traffic light."
+ru = "Идите прямо по этой улице. Потом на втором светофоре налево."
+uk = "Ідіть прямо цією вулицею. Потім на другому світлофорі ліворуч."
+es = "Siga recto por esta calle. Luego, en el segundo semáforo, a la izquierda."
+uses = ["まっすぐ行[い]ってください", "二[ふた]つ目[め]の信号[しんごう]を左[ひだり]です"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "ここ|から|歩[ある]いて|行[い]けますか=行[い]きます|。"
+en = "Can I walk there from here?"
+ru = "Отсюда можно дойти пешком?"
+uk = "Звідси можна дійти пішки?"
+es = "¿Se puede ir andando desde aquí?"
+uses = ["ここから歩[ある]いて行[い]けますか"]
+
+[[dialog]]
+speaker = "女[おんな]の人[ひと]"
+ja = "はい|。|歩[ある]いて|５|分[ふん]|くらい|です|。"
+en = "Yes. It's about five minutes on foot."
+ru = "Да. Минут пять пешком."
+uk = "Так. Хвилин п'ять пішки."
+es = "Sí. Unos cinco minutos andando."
+uses = ["歩[ある]いて5分[ふん]くらいです"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "二[ふた]つ目[め]|の|信[しん]号[ごう]|を|左[ひだり]|……|すみません|、|もう|一[いち]度[ど]|お願[ねが]いします|。"
+en = "Left at the second light… Sorry, once more, please."
+ru = "На втором светофоре налево… Простите, повторите ещё раз, пожалуйста."
+uk = "На другому світлофорі ліворуч… Перепрошую, повторіть ще раз, будь ласка."
+es = "En el segundo semáforo a la izquierda… Perdone, ¿me lo repite, por favor?"
+
+[[dialog]]
+speaker = "女[おんな]の人[ひと]"
+ja = "私[わたし]|も|あの|コンビニ|へ|行[い]きます|。|一[いっ]緒[しょ]に|行[い]きましょうか=行[い]きます|。"
+en = "I'm going to that convenience store too. Shall I walk you there?"
+ru = "Я тоже иду в тот комбини. Давайте я вас провожу?"
+uk = "Я теж іду до того комбіні. Давайте я вас проведу?"
+es = "Yo también voy a ese konbini. ¿Le acompaño?"
+uses = ["一緒[いっしょ]に行[い]きましょうか"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "本[ほん]当[とう]|です|か|。|どうも|ありがとうございます|！"
+en = "Really? Thank you so much!"
+ru = "Правда? Огромное спасибо!"
+uk = "Справді? Щиро дякую!"
+es = "¿De verdad? ¡Muchísimas gracias!"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "近[ちか]く"
+en = "near, nearby"
+ru = "рядом, поблизости"
+uk = "поруч, неподалік"
+es = "cerca"
+
+[[new]]
+ja = "道[みち]"
+en = "road, street; the way"
+ru = "дорога, улица; путь"
+uk = "дорога, вулиця; шлях"
+es = "camino, calle"
+
+[[new]]
+ja = "迷[まよ]います"
+en = "get lost"
+ru = "заблудиться"
+uk = "заблукати"
+es = "perderse"
+
+[[new]]
+ja = "スマホ"
+en = "smartphone"
+ru = "смартфон"
+uk = "смартфон"
+es = "móvil, smartphone"
+
+[[new]]
+ja = "電[でん]池[ち]"
+en = "battery"
+ru = "батарейка, заряд"
+uk = "батарейка, заряд"
+es = "batería, pila"
+
+[[new]]
+ja = "女[おんな]の人[ひと]"
+en = "woman"
+ru = "женщина"
+uk = "жінка"
+es = "mujer"
+
+[[new]]
+ja = "コンビニ"
+en = "convenience store"
+ru = "комбини, круглосуточный магазин"
+uk = "комбіні, цілодобовий магазин"
+es = "konbini, tienda 24 horas"
+
+[[new]]
+ja = "隣[となり]"
+en = "next to"
+ru = "рядом, по соседству"
+uk = "поруч, по сусідству"
+es = "al lado"
+
+[[new]]
+ja = "一[いち]番[ばん]"
+en = "most; number one"
+ru = "самый; номер один"
+uk = "найбільш; номер один"
+es = "el más; el número uno"
+
+[[new]]
+ja = "近[ちか]い"
+en = "near, close"
+ru = "близкий"
+uk = "близький"
+es = "cercano"
+
+[[new]]
+ja = "二[ふた]つ目[め]"
+en = "the second"
+ru = "второй"
+uk = "другий"
+es = "el segundo"
+
+[[new]]
+ja = "信[しん]号[ごう]"
+en = "traffic light"
+ru = "светофор"
+uk = "світлофор"
+es = "semáforo"
+
+[[new]]
+ja = "左[ひだり]"
+en = "left"
+ru = "лево, налево"
+uk = "ліво, ліворуч"
+es = "izquierda"
+
+[[new]]
+ja = "分[ふん]"
+en = "minute"
+ru = "минута"
+uk = "хвилина"
+es = "minuto"
+
+[[new]]
+ja = "一[いち]度[ど]"
+en = "once, one time"
+ru = "один раз"
+uk = "один раз"
+es = "una vez"
+
+[[new]]
+ja = "本[ほん]当[とう]"
+en = "true, real"
+ru = "правда"
+uk = "правда"
+es = "verdad"

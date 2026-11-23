@@ -1,0 +1,209 @@
+title = { en = "Late for the meeting", ru = "Опаздываю на встречу", uk = "Запізнююся на зустріч", es = "Tarde a la reunión" }
+scene = "A Japanese taxi with white lace seat covers driving through a city street in the rain: a man in a suit with a briefcase in the back seat checks his watch, the driver in a cap and white gloves at the wheel, a card reader on the dashboard."
+
+[[prose]]
+ja = "月[げつ]曜[よう]日[び]|の|朝[あさ]|、|雨[あめ]|でした|。|田[た]中[なか]|さん|は|十[じゅう]時[じ]|に|大[だい]事[じ]|な|会[かい]議[ぎ]|が|あります|。|でも|、|電[でん]車[しゃ]|が|遅[おく]れました=遅[おく]れます|。|それで|、|駅[えき]|から|タクシー|に|乗[の]りました=乗[の]ります|。"
+en = "Monday morning, it was raining. Mr. Tanaka has an important meeting at ten. But the train was late, so he took a taxi from the station."
+ru = "В понедельник утром шёл дождь. В десять у Танаки-сана важное совещание. Но поезд опоздал, и он сел на такси у станции."
+uk = "У понеділок уранці йшов дощ. О десятій у Танаки-сана важлива нарада. Але потяг запізнився, і він сів на таксі біля станції."
+es = "El lunes por la mañana llovía. El señor Tanaka tiene una reunión importante a las diez. Pero el tren se retrasó, así que tomó un taxi en la estación."
+
+[[prose]]
+ja = "運[うん]転[てん]手[しゅ]|さん|は|とても|親[しん]切[せつ]|でした|。|田[た]中[なか]|さん|は|九[く]時[じ]|五[ご]十[じゅう]五[ご]分[ふん]|に|会[かい]社[しゃ]|に|着[つ]きました=着[つ]きます|。"
+en = "The driver was very kind. Mr. Tanaka got to the office at 9:55."
+ru = "Водитель был очень любезен. Танака-сан приехал в офис в девять пятьдесят пять."
+uk = "Водій був дуже люб'язний. Танака-сан приїхав до офісу о дев'ятій п'ятдесят п'ять."
+es = "El taxista fue muy amable. El señor Tanaka llegó a la oficina a las diez menos cinco."
+
+[[dialog]]
+speaker = "運[うん]転[てん]手[しゅ]"
+ja = "どちら|まで|です|か|。"
+en = "Where to?"
+ru = "Куда едем?"
+uk = "Куди їдемо?"
+es = "¿Adónde vamos?"
+uses = ["どちらまでですか"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "IMC|の|本[ほん]社[しゃ]|まで|お願[ねが]いします|。|十[じゅう]時[じ]|に|会[かい]議[ぎ]|が|あります|。|急[いそ]いでいただけますか=急[いそ]ぎます|。"
+en = "To IMC's head office, please. I have a meeting at ten. Could you hurry, please?"
+ru = "До главного офиса IMC, пожалуйста. У меня в десять совещание. Можно побыстрее?"
+uk = "До головного офісу IMC, будь ласка. У мене о десятій нарада. Можна швидше?"
+es = "A la sede de IMC, por favor. Tengo una reunión a las diez. ¿Podría darse prisa?"
+uses = ["急[いそ]いでいただけますか"]
+
+[[dialog]]
+speaker = "運[うん]転[てん]手[しゅ]"
+ja = "はい|。|雨[あめ]|です|から|、|道[みち]|は|ちょっと|込[こ]んでいます=込[こ]みます|が|……|大[だい]丈[じょう]夫[ぶ]|です|よ|。"
+en = "All right. It's raining, so the roads are a bit busy… but we'll be fine."
+ru = "Хорошо. Из-за дождя на дорогах пробки… но успеем."
+uk = "Добре. Через дощ на дорогах затори… але встигнемо."
+es = "De acuerdo. Con la lluvia hay algo de tráfico… pero llegamos bien."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "カード|で|払[はら]えますか=払[はら]います|。"
+en = "Can I pay by card?"
+ru = "Можно расплатиться картой?"
+uk = "Можна розрахуватися карткою?"
+es = "¿Puedo pagar con tarjeta?"
+uses = ["カードで払[はら]えますか"]
+
+[[dialog]]
+speaker = "運[うん]転[てん]手[しゅ]"
+ja = "はい|、|使[つか]えます=使[つか]います|。|……|この|ビル|です|ね|。"
+en = "Yes, you can. … It's this building, right?"
+ru = "Да, можно. …Вот это здание, да?"
+uk = "Так, можна. …Ось ця будівля, так?"
+es = "Sí, se puede. … Es este edificio, ¿verdad?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "はい|。|ここ|で|止[と]めてください=止[と]めます|。"
+en = "Yes. Please stop here."
+ru = "Да. Остановите здесь, пожалуйста."
+uk = "Так. Зупиніть тут, будь ласка."
+es = "Sí. Pare aquí, por favor."
+uses = ["ここで止[と]めてください"]
+
+[[dialog]]
+speaker = "運[うん]転[てん]手[しゅ]"
+ja = "２８００|円[えん]|です|。|……|ありがとうございました|。|会[かい]議[ぎ]|、|頑[がん]張[ば]ってください=頑[がん]張[ば]ります|。"
+en = "That's 2,800 yen. … Thank you. Good luck with the meeting."
+ru = "2800 иен. …Спасибо. Удачи на совещании."
+uk = "2800 єн. …Дякую. Успіху на нараді."
+es = "Son 2.800 yenes. … Gracias. Mucha suerte en la reunión."
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "雨[あめ]"
+en = "rain"
+ru = "дождь"
+uk = "дощ"
+es = "lluvia"
+
+[[new]]
+ja = "十[じゅう]時[じ]"
+en = "ten o'clock"
+ru = "десять часов"
+uk = "десята година"
+es = "las diez"
+
+[[new]]
+ja = "大[だい]事[じ]"
+en = "important"
+ru = "важный"
+uk = "важливий"
+es = "importante"
+
+[[new]]
+ja = "会[かい]議[ぎ]"
+en = "meeting"
+ru = "совещание"
+uk = "нарада"
+es = "reunión"
+
+[[new]]
+ja = "遅[おく]れます"
+en = "be late, be delayed"
+ru = "опаздывать"
+uk = "запізнюватися"
+es = "retrasarse"
+
+[[new]]
+ja = "乗[の]ります"
+en = "get on, ride (a vehicle: に乗ります)"
+ru = "садиться, ехать (に乗ります)"
+uk = "сідати, їхати (に乗ります)"
+es = "subir, ir en (に乗ります)"
+
+[[new]]
+ja = "運[うん]転[てん]手[しゅ]"
+en = "driver"
+ru = "водитель"
+uk = "водій"
+es = "conductor"
+
+[[new]]
+ja = "五[ご]十[じゅう]五[ご]分[ふん]"
+en = "fifty-five minutes; (of the hour) :55"
+ru = "пятьдесят пять минут"
+uk = "п'ятдесят п'ять хвилин"
+es = "cincuenta y cinco minutos"
+
+[[new]]
+ja = "着[つ]きます"
+en = "arrive"
+ru = "прибывать"
+uk = "прибувати"
+es = "llegar"
+
+[[new]]
+ja = "本[ほん]社[しゃ]"
+en = "head office"
+ru = "главный офис"
+uk = "головний офіс"
+es = "sede central"
+
+[[new]]
+ja = "急[いそ]ぎます"
+en = "hurry"
+ru = "торопиться"
+uk = "поспішати"
+es = "darse prisa"
+
+[[new]]
+ja = "道[みち]"
+en = "road, street; the way"
+ru = "дорога, улица; путь"
+uk = "дорога, вулиця; шлях"
+es = "camino, calle"
+
+[[new]]
+ja = "込[こ]みます"
+en = "be crowded, be busy"
+ru = "быть переполненным"
+uk = "бути переповненим"
+es = "estar lleno, haber tráfico"
+
+[[new]]
+ja = "払[はら]います"
+en = "pay"
+ru = "платить"
+uk = "платити"
+es = "pagar"
+
+[[new]]
+ja = "使[つか]います"
+en = "use"
+ru = "использовать"
+uk = "використовувати"
+es = "usar"
+
+[[new]]
+ja = "ビル"
+en = "building"
+ru = "здание"
+uk = "будівля"
+es = "edificio"
+
+[[new]]
+ja = "止[と]めます"
+en = "stop (something), pull up"
+ru = "останавливать"
+uk = "зупиняти"
+es = "parar (algo)"
+
+[[new]]
+ja = "頑[がん]張[ば]ります"
+en = "do one's best (頑張ってください: good luck)"
+ru = "стараться (頑張ってください — удачи)"
+uk = "старатися (頑張ってください — успіху)"
+es = "esforzarse (頑張ってください: suerte)"
