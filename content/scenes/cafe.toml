@@ -1,0 +1,235 @@
+title = { en = "Working at a café", ru = "Поработать в кафе", uk = "Попрацювати в кав'ярні", es = "Trabajar en una cafetería" }
+scene = "A bright modern café in the morning: a young woman with a laptop bag orders at the counter from a barista, a menu board with cup sizes above, a power outlet by a window seat with a small table."
+
+[[prose]]
+ja = "土[ど]曜[よう]日[び]|の|朝[あさ]|、|カリナ|さん|は|駅[えき]|の|前[まえ]|の|カフェ|へ|行[い]きました=行[い]きます|。|宿[しゅく]題[だい]|の|レポート|を|書[か]きます|。"
+en = "On Saturday morning Karina went to a café in front of the station. She has a report to write for homework."
+ru = "В субботу утром Карина пошла в кафе у станции. Ей нужно написать доклад для домашнего задания."
+uk = "У суботу вранці Карина пішла до кав'ярні біля станції. Їй треба написати доповідь на домашнє завдання."
+es = "El sábado por la mañana Karina fue a una cafetería delante de la estación. Tiene que escribir un informe de deberes."
+
+[[prose]]
+ja = "カリナ|さん|は|牛[ぎゅう]乳[にゅう]|を|飲[の]みません=飲[の]みます|。|それで|、|オーツミルク|の|ラテ|を|頼[たの]みました=頼[たの]みます|。|窓[まど]|の|近[ちか]く|の|席[せき]|に|座[すわ]りました=座[すわ]ります|。"
+en = "Karina doesn't drink milk, so she ordered a latte with oat milk. She sat at a seat near the window."
+ru = "Карина не пьёт молоко, поэтому заказала латте на овсяном молоке. Она села у окна."
+uk = "Карина не п'є молока, тому замовила лате на вівсяному молоці. Вона сіла біля вікна."
+es = "Karina no toma leche, así que pidió un latte con leche de avena. Se sentó cerca de la ventana."
+
+[[prose]]
+ja = "パソコン|で|二[に]時[じ]間[かん]|レポート|を|書[か]きました=書[か]きます|。|カフェ|は|静[しず]か|で|、|コーヒー|も|おいしかったです=おいしい|。"
+en = "She wrote her report on her computer for two hours. The café was quiet and the coffee was good too."
+ru = "Два часа она писала доклад на компьютере. В кафе было тихо, и кофе был вкусный."
+uk = "Дві години вона писала доповідь на комп'ютері. У кав'ярні було тихо, і кава була смачна."
+es = "Escribió el informe en el ordenador durante dos horas. La cafetería era tranquila y el café estaba bueno."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|。|店[てん]内[ない]|で|お召[め]し上[あ]がり|です|か|。"
+en = "Welcome. For here?"
+ru = "Добро пожаловать. Здесь будете?"
+uk = "Ласкаво просимо. Тут будете?"
+es = "Bienvenida. ¿Para tomar aquí?"
+uses = ["いらっしゃいませ", "店内[てんない]でお召[め]し上[あ]がりですか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "はい|。|ラテ|を|お願[ねが]いします|。|オーツミルク|に|変[へん]更[こう]|できますか|。"
+en = "Yes. A latte, please. Can I change to oat milk?"
+ru = "Да. Латте, пожалуйста. Можно на овсяном молоке?"
+uk = "Так. Лате, будь ласка. Можна на вівсяному молоці?"
+es = "Sí. Un latte, por favor. ¿Se puede cambiar a leche de avena?"
+uses = ["オーツミルクに変更[へんこう]できますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|、|できます|。|サイズ|は|いかがなさいますか|。"
+en = "Yes, we can. What size would you like?"
+ru = "Да, можно. Какой размер?"
+uk = "Так, можна. Який розмір?"
+es = "Sí, claro. ¿De qué tamaño?"
+uses = ["サイズはいかがなさいますか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "大[おお]きい|の|を|お願[ねが]いします|。"
+en = "A large one, please."
+ru = "Большой, пожалуйста."
+uk = "Великий, будь ласка."
+es = "Uno grande, por favor."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お砂[さ]糖[とう]|と|ミルク|は|お使[つか]いになりますか=使[つか]います|。"
+en = "Will you have sugar and milk?"
+ru = "Сахар и молоко будете?"
+uk = "Цукор і молоко будете?"
+es = "¿Va a querer azúcar y leche?"
+uses = ["お砂糖[さとう]とミルクはお使[つか]いになりますか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいえ|、|大[だい]丈[じょう]夫[ぶ]|です|。|あの|、|コンセント|は|使[つか]えますか=使[つか]います|。"
+en = "No, I'm fine. Um, can I use a power outlet?"
+ru = "Нет, не нужно. А можно воспользоваться розеткой?"
+uk = "Ні, не треба. А можна скористатися розеткою?"
+es = "No, gracias. Oiga, ¿puedo usar un enchufe?"
+uses = ["大丈夫[だいじょうぶ]です", "コンセントは使[つか]えますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|。|窓[まど]|の|席[せき]|に|あります|。"
+en = "Yes. There are some at the window seats."
+ru = "Да. У мест возле окна есть."
+uk = "Так. Біля місць коло вікна є."
+es = "Sí. Hay en los asientos junto a la ventana."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ここ|で|少[すこ]し|仕[し]事[ごと]|を|しても|いいですか|。"
+en = "Is it OK to work here for a while?"
+ru = "Можно здесь немного поработать?"
+uk = "Можна тут трохи попрацювати?"
+es = "¿Puedo trabajar aquí un rato?"
+uses = ["ここで少[すこ]し仕事[しごと]をしてもいいですか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|、|どうぞ|。|ごゆっくり|どうぞ|。"
+en = "Yes, go ahead. Take your time."
+ru = "Да, пожалуйста. Не торопитесь."
+uk = "Так, будь ласка. Не поспішайте."
+es = "Sí, adelante. Tómese su tiempo."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ありがとうございます|。"
+en = "Thank you."
+ru = "Спасибо."
+uk = "Дякую."
+es = "Gracias."
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "前[まえ]"
+en = "front, in front of"
+ru = "перед, впереди"
+uk = "перед, попереду"
+es = "delante"
+
+[[new]]
+ja = "カフェ"
+en = "café"
+ru = "кафе"
+uk = "кав'ярня"
+es = "cafetería"
+
+[[new]]
+ja = "オーツミルク"
+en = "oat milk"
+ru = "овсяное молоко"
+uk = "вівсяне молоко"
+es = "leche de avena"
+
+[[new]]
+ja = "頼[たの]みます"
+en = "order; ask for"
+ru = "заказывать; просить"
+uk = "замовляти; просити"
+es = "pedir"
+
+[[new]]
+ja = "窓[まど]"
+en = "window"
+ru = "окно"
+uk = "вікно"
+es = "ventana"
+
+[[new]]
+ja = "近[ちか]く"
+en = "near, nearby"
+ru = "рядом, поблизости"
+uk = "поруч, неподалік"
+es = "cerca"
+
+[[new]]
+ja = "座[すわ]ります"
+en = "sit down"
+ru = "садиться"
+uk = "сідати"
+es = "sentarse"
+
+[[new]]
+ja = "二[に]時[じ]間[かん]"
+en = "two hours"
+ru = "два часа"
+uk = "дві години"
+es = "dos horas"
+
+[[new]]
+ja = "店[てん]内[ない]"
+en = "inside the shop"
+ru = "в заведении"
+uk = "у закладі"
+es = "dentro del local"
+
+[[new]]
+ja = "お召[め]し上[あ]がり"
+en = "eating, drinking (honorific)"
+ru = "еда, питьё (почтительно)"
+uk = "їжа, пиття (шанобливо)"
+es = "comer, beber (honorífico)"
+
+[[new]]
+ja = "変[へん]更[こう]"
+en = "change"
+ru = "изменение, замена"
+uk = "зміна, заміна"
+es = "cambio"
+
+[[new]]
+ja = "サイズ"
+en = "size"
+ru = "размер"
+uk = "розмір"
+es = "tamaño"
+
+[[new]]
+ja = "お砂[さ]糖[とう]"
+en = "sugar"
+ru = "сахар"
+uk = "цукор"
+es = "azúcar"
+
+[[new]]
+ja = "使[つか]います"
+en = "use"
+ru = "использовать"
+uk = "використовувати"
+es = "usar"
+
+[[new]]
+ja = "コンセント"
+en = "power outlet"
+ru = "розетка"
+uk = "розетка"
+es = "enchufe"
+
+[[new]]
+ja = "少[すこ]し"
+en = "a little"
+ru = "немного"
+uk = "трохи"
+es = "un poco"

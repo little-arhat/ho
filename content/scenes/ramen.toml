@@ -1,0 +1,314 @@
+title = { en = "The ramen ticket machine", ru = "Автомат с талонами в раменной", uk = "Автомат із талонами в раменній", es = "La máquina de tickets del ramen" }
+scene = "A small ramen shop at lunchtime: a young man and a young woman stand at a ticket vending machine with many buttons by the entrance, a cook in a white towel headband behind a steaming counter, bowls of ramen with egg and pork slices on the counter."
+
+[[prose]]
+ja = "昼[ひる]休[やす]み|に|、|ワン|さん|と|マリア|さん|は|ラーメン|屋[や]|へ|行[い]きました=行[い]きます|。|店[みせ]|は|小[ちい]さかったです=小[ちい]さい|が|、|とても|有[ゆう]名[めい]|です|。"
+en = "At lunchtime Wang and Maria went to a ramen shop. The shop was small, but very famous."
+ru = "В обеденный перерыв Ван и Мария пошли в раменную. Заведение маленькое, но очень известное."
+uk = "В обідню перерву Ван і Марія пішли до раменної. Заклад маленький, але дуже відомий."
+es = "A la hora de comer, Wang y Maria fueron a un local de ramen. Era pequeño, pero muy famoso."
+
+[[prose]]
+ja = "入[い]り口[ぐち]|に|食[しょっ]券[けん]|の|機[き]械[かい]|が|ありました|。|ワン|さん|は|醤[しょう]油[ゆ]|ラーメン|の|ボタン|を|押[お]しました=押[お]します|。|マリア|さん|は|味[み]噌[そ]|ラーメン|と|卵[たまご]|を|買[か]いました=買[か]います|。"
+en = "By the entrance there was a meal-ticket machine. Wang pressed the button for soy-sauce ramen. Maria bought miso ramen and an egg."
+ru = "У входа стоял автомат с талонами. Ван нажал кнопку соевого рамена. Мария купила рамен мисо и яйцо."
+uk = "Біля входу стояв автомат із талонами. Ван натиснув кнопку соєвого рамену. Марія купила рамен місо та яйце."
+es = "En la entrada había una máquina de tickets. Wang pulsó el botón del ramen de soja. Maria compró ramen de miso y un huevo."
+
+[[prose]]
+ja = "ラーメン|は|熱[あつ]くて=熱[あつ]い|、|とても|おいしかったです=おいしい|。|ワン|さん|は|替[かえ]玉[だま]|も|頼[たの]みました=頼[たの]みます|。"
+en = "The ramen was hot and delicious. Wang ordered extra noodles too."
+ru = "Рамен был горячий и очень вкусный. Ван заказал ещё и добавку лапши."
+uk = "Рамен був гарячий і дуже смачний. Ван замовив ще й добавку локшини."
+es = "El ramen estaba caliente y riquísimo. Wang pidió también más fideos."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|！"
+en = "Welcome!"
+ru = "Добро пожаловать!"
+uk = "Ласкаво просимо!"
+es = "¡Bienvenidos!"
+uses = ["いらっしゃいませ"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "すみません|、|食[しょっ]券[けん]|は|どこ|で|買[か]います|か|。"
+en = "Excuse me, where do we buy the meal tickets?"
+ru = "Простите, где покупать талоны?"
+uk = "Перепрошую, де купувати талони?"
+es = "Perdone, ¿dónde se compran los tickets?"
+uses = ["食券[しょっけん]はどこで買[か]いますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "入[い]り口[ぐち]|の|機[き]械[かい]|で|お願[ねが]いします|。"
+en = "At the machine by the entrance, please."
+ru = "В автомате у входа, пожалуйста."
+uk = "В автоматі біля входу, будь ласка."
+es = "En la máquina de la entrada, por favor."
+
+[[dialog]]
+speaker = "ワン"
+ja = "マリア|さん|、|どれ|に|します|か|。|これ|は|醤[しょう]油[ゆ]|、|これ|は|味[み]噌[そ]|です|。"
+en = "Maria, which one will you have? This is soy sauce, this is miso."
+ru = "Мария, что будешь? Это соевый, это мисо."
+uk = "Маріє, що будеш? Це соєвий, це місо."
+es = "Maria, ¿cuál vas a pedir? Este es de soja, este de miso."
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|味[み]噌[そ]|に|します|。|それから|、|卵[たまご]|も|。"
+en = "Then I'll have miso. And an egg too."
+ru = "Тогда мисо. И ещё яйцо."
+uk = "Тоді місо. І ще яйце."
+es = "Entonces el de miso. Y un huevo también."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "麺[めん]|の|硬[かた]さ|は|どう|します|か|。"
+en = "How firm would you like the noodles?"
+ru = "Лапшу какой твёрдости?"
+uk = "Локшину якої твердості?"
+es = "¿Cómo quieren los fideos de duros?"
+uses = ["麺[めん]の硬[かた]さはどうしますか"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "硬[かた]め|で|お願[ねが]いします|。"
+en = "Firm, please."
+ru = "Потвёрже, пожалуйста."
+uk = "Твердішу, будь ласка."
+es = "Duros, por favor."
+uses = ["〇〇でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "味[あじ]|の|濃[こ]さ|と|油[あぶら]|の|量[りょう]|は|どう|します|か|。"
+en = "How rich, and how much oil?"
+ru = "Какой насыщенности бульон и сколько жира?"
+uk = "Якої насиченості бульйон і скільки жиру?"
+es = "¿Cómo de intenso el sabor y cuánta grasa?"
+uses = ["味[あじ]の濃[こ]さと油[あぶら]の量[りょう]はどうしますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "普[ふ]通[つう]|で|お願[ねが]いします|。"
+en = "Regular, please."
+ru = "Обычно, пожалуйста."
+uk = "Звичайно, будь ласка."
+es = "Normal, por favor."
+uses = ["〇〇でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お待[ま]たせしました|。|熱[あつ]い|です|から|、|気[き]をつけて|ください|。"
+en = "Sorry to keep you waiting. It's hot, so be careful."
+ru = "Извините за ожидание. Горячо, осторожнее."
+uk = "Вибачте за очікування. Гаряче, обережно."
+es = "Perdonen la espera. Está caliente, tengan cuidado."
+
+[[dialog]]
+speaker = "マリア"
+ja = "いただきます|。|……|わあ|、|おいしい|！"
+en = "Thank you for the food. … Wow, delicious!"
+ru = "Приятного аппетита. …Ух ты, вкусно!"
+uk = "Смачного. …Ого, смачно!"
+es = "¡Que aproveche! … ¡Uau, qué rico!"
+uses = ["いただきます"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "替[かえ]玉[だま]|いかがですか|。"
+en = "Extra noodles?"
+ru = "Добавку лапши?"
+uk = "Добавку локшини?"
+es = "¿Más fideos?"
+uses = ["替玉[かえだま]いかがですか"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "はい|、|お願[ねが]いします|。"
+en = "Yes, please."
+ru = "Да, пожалуйста."
+uk = "Так, будь ласка."
+es = "Sí, por favor."
+uses = ["はい、お願[ねが]いします"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "ワン|さん|、|よく|食[た]べます|ね|。"
+en = "Wang, you really can eat!"
+ru = "Ван, ну ты и ешь!"
+uk = "Ване, ну ти й їси!"
+es = "¡Wang, cómo comes!"
+
+[[dialog]]
+speaker = "ワン"
+ja = "ここ|の|ラーメン|は|安[やす]くて=安[やす]い|おいしい|です|から|。|……|ごちそうさまでした|！"
+en = "Because the ramen here is cheap and good. … Thanks for the meal!"
+ru = "Потому что здешний рамен дешёвый и вкусный. …Спасибо, было вкусно!"
+uk = "Бо тутешній рамен дешевий і смачний. …Дякуємо, було смачно!"
+es = "Es que el ramen de aquí es barato y bueno. … ¡Gracias, estaba buenísimo!"
+uses = ["ごちそうさまでした"]
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "ラーメン"
+en = "ramen"
+ru = "рамен"
+uk = "рамен"
+es = "ramen"
+
+[[new]]
+ja = "屋[や]"
+en = "shop (in names: ラーメン屋 = ramen shop)"
+ru = "лавка, заведение (ラーメン屋 — раменная)"
+uk = "крамниця, заклад (ラーメン屋 — раменна)"
+es = "tienda (ラーメン屋 = local de ramen)"
+
+[[new]]
+ja = "入[い]り口[ぐち]"
+en = "entrance"
+ru = "вход"
+uk = "вхід"
+es = "entrada"
+
+[[new]]
+ja = "食[しょっ]券[けん]"
+en = "meal ticket"
+ru = "талон на еду"
+uk = "талон на їжу"
+es = "ticket de comida"
+
+[[new]]
+ja = "機[き]械[かい]"
+en = "machine"
+ru = "автомат, машина"
+uk = "автомат, машина"
+es = "máquina"
+
+[[new]]
+ja = "醤[しょう]油[ゆ]"
+en = "soy sauce"
+ru = "соевый соус"
+uk = "соєвий соус"
+es = "salsa de soja"
+
+[[new]]
+ja = "ボタン"
+en = "button"
+ru = "кнопка"
+uk = "кнопка"
+es = "botón"
+
+[[new]]
+ja = "押[お]します"
+en = "push, press"
+ru = "нажимать"
+uk = "натискати"
+es = "pulsar, empujar"
+
+[[new]]
+ja = "味[み]噌[そ]"
+en = "miso"
+ru = "мисо"
+uk = "місо"
+es = "miso"
+
+[[new]]
+ja = "替[かえ]玉[だま]"
+en = "extra serving of noodles"
+ru = "добавка лапши"
+uk = "добавка локшини"
+es = "ración extra de fideos"
+
+[[new]]
+ja = "頼[たの]みます"
+en = "order; ask for"
+ru = "заказывать; просить"
+uk = "замовляти; просити"
+es = "pedir"
+
+[[new]]
+ja = "麺[めん]"
+en = "noodles"
+ru = "лапша"
+uk = "локшина"
+es = "fideos"
+
+[[new]]
+ja = "硬[かた]さ"
+en = "firmness"
+ru = "твёрдость"
+uk = "твердість"
+es = "dureza"
+
+[[new]]
+ja = "硬[かた]め"
+en = "on the firm side"
+ru = "потвёрже"
+uk = "твердіше"
+es = "más bien duro"
+
+[[new]]
+ja = "味[あじ]"
+en = "taste, flavour"
+ru = "вкус"
+uk = "смак"
+es = "sabor"
+
+[[new]]
+ja = "濃[こ]さ"
+en = "richness, strength (of flavour)"
+ru = "насыщенность"
+uk = "насиченість"
+es = "intensidad"
+
+[[new]]
+ja = "油[あぶら]"
+en = "oil, fat"
+ru = "масло, жир"
+uk = "олія, жир"
+es = "aceite, grasa"
+
+[[new]]
+ja = "量[りょう]"
+en = "amount"
+ru = "количество"
+uk = "кількість"
+es = "cantidad"
+
+[[new]]
+ja = "お待[ま]たせしました"
+en = "sorry to keep you waiting"
+ru = "извините за ожидание"
+uk = "вибачте за очікування"
+es = "perdone la espera"
+
+[[new]]
+ja = "気[き]をつけて"
+en = "be careful"
+ru = "осторожно"
+uk = "обережно"
+es = "con cuidado"

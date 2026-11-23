@@ -1,0 +1,533 @@
+title = { en = "Friday at the izakaya", ru = "Пятница в идзакае", uk = "П'ятниця в ідзакаї", es = "Viernes en la izakaya" }
+scene = "A lively Japanese izakaya in the evening: four young colleagues sit at a wooden counter with beer mugs, a glass of oolong tea, small plates of edamame, yakitori skewers and fried chicken; a smiling staff member in a headband takes an order; paper lanterns and handwritten menu boards on the wall."
+
+[[prose]]
+ja = "金[きん]曜[よう]日[び]|の|晩[ばん]|、|マリア|さん|と|田[た]中[なか]|さん|と|ワン|さん|と|カリナ|さん|は|駅[えき]|の|近[ちか]く|の|居[い]酒[ざか]屋[や]|へ|行[い]きました=行[い]きます|。|予[よ]約[やく]|は|していませんでした|。|でも|、|カウンター|の|席[せき]|に|座[すわ]りました=座[すわ]ります|。"
+en = "On Friday evening Maria, Mr. Tanaka, Wang and Karina went to an izakaya near the station. They had no reservation, but they got seats at the counter."
+ru = "В пятницу вечером Мария, Танака-сан, Ван и Карина пошли в идзакаю у станции. Столик они не бронировали, но сели за стойку."
+uk = "У п'ятницю ввечері Марія, Танака-сан, Ван і Карина пішли до ідзакаї біля станції. Столика вони не бронювали, але сіли за стійку."
+es = "El viernes por la noche Maria, el señor Tanaka, Wang y Karina fueron a una izakaya cerca de la estación. No tenían reserva, pero se sentaron en la barra."
+
+[[prose]]
+ja = "田[た]中[なか]|さん|は|「|とりあえず|生[なま]|で|」|と|言[い]いました=言[い]います|。|マリア|さん|と|ワン|さん|も|ビール|を|飲[の]みました=飲[の]みます|。|カリナ|さん|は|お酒[さけ]=酒[さけ]|を|飲[の]みません=飲[の]みます|。|ウーロン茶[ちゃ]|を|頼[たの]みました=頼[たの]みます|。"
+en = "Mr. Tanaka said, \"A draught beer to start.\" Maria and Wang had beer too. Karina doesn't drink, so she ordered oolong tea."
+ru = "Танака-сан сказал: «Для начала разливное». Мария и Ван тоже пили пиво. Карина не пьёт алкоголь и заказала улун."
+uk = "Танака-сан сказав: «Для початку розливне». Марія і Ван теж пили пиво. Карина не п'є алкоголю і замовила улун."
+es = "El señor Tanaka dijo: «Para empezar, una caña». Maria y Wang también tomaron cerveza. Karina no bebe alcohol y pidió té oolong."
+uses = ["とりあえず生[なま]で"]
+
+[[prose]]
+ja = "最[さい]初[しょ]|に|、|小[ちい]さい|料[りょう]理[り]|が|来[き]ました=来[き]ます|。|お通[とお]し|です|。|それから|、|枝[えだ]豆[まめ]|と|唐[から]揚[あ]げ|と|焼[や]き鳥[とり]|を|注[ちゅう]文[もん]|しました=します|。|焼[や]き鳥[とり]|は|塩[しお]|と|タレ|、|両[りょう]方[ほう]|です|。"
+en = "First a small dish came: the table appetizer. Then they ordered edamame, fried chicken and yakitori, the yakitori both with salt and with sauce."
+ru = "Сначала принесли маленькую закуску — это «отоси». Потом они заказали эдамамэ, курицу во фритюре и якитори — и с солью, и с соусом."
+uk = "Спочатку принесли маленьку закуску — це «отосі». Потім вони замовили едамаме, курку у фритюрі та якіторі — і з сіллю, і з соусом."
+es = "Primero llegó un platito: el aperitivo de la casa. Luego pidieron edamame, pollo frito y yakitori, con sal y con salsa."
+
+[[prose]]
+ja = "四[よ]人[にん]|は|仕[し]事[ごと]|の|話[はなし]|と|週[しゅう]末[まつ]|の|話[はなし]|を|しました=します|。|とても|楽[たの]しかったです=楽[たの]しい|。|十[じゅう]時[じ]|に|お会[かい]計[けい]|を|しました=します|。|お会[かい]計[けい]|は|別[べつ]々[べつ]|でした|。"
+en = "The four of them talked about work and about the weekend. It was great fun. At ten they paid; they paid separately."
+ru = "Вчетвером они говорили о работе и о выходных. Было очень весело. В десять расплатились — каждый за себя."
+uk = "Учотирьох вони говорили про роботу та про вихідні. Було дуже весело. О десятій розрахувалися — кожен за себе."
+es = "Los cuatro hablaron del trabajo y del fin de semana. Se lo pasaron muy bien. A las diez pagaron, cada uno lo suyo."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|！|何[なん]名[めい]様[さま]|です|か|。"
+en = "Welcome! How many people?"
+ru = "Добро пожаловать! Сколько вас?"
+uk = "Ласкаво просимо! Скільки вас?"
+es = "¡Bienvenidos! ¿Cuántas personas son?"
+uses = ["いらっしゃいませ", "何名様[なんめいさま]ですか"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "四[よ]人[にん]|です|。|予[よ]約[やく]|していないんですが|、|入[はい]れますか=入[はい]れます|。"
+en = "Four. We don't have a reservation. Can we get in?"
+ru = "Четверо. Мы без брони. Можно войти?"
+uk = "Четверо. Ми без бронювання. Можна зайти?"
+es = "Cuatro. No tenemos reserva. ¿Podemos entrar?"
+uses = ["予約[よやく]していないんですが、入[はい]れますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "カウンター|席[せき]|でも|よろしいですか|。"
+en = "Is the counter all right?"
+ru = "За стойкой вас устроит?"
+uk = "За стійкою вам підійде?"
+es = "¿Les va bien la barra?"
+uses = ["カウンター席[せき]でもよろしいですか"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "はい|、|大[だい]丈[じょう]夫[ぶ]|です|。"
+en = "Yes, that's fine."
+ru = "Да, конечно."
+uk = "Так, звісно."
+es = "Sí, perfecto."
+uses = ["大丈夫[だいじょうぶ]です"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "こちら|の|お席[せき]=席[せき]|へ|どうぞ|。|お飲[の]み物[もの]=飲[の]み物[もの]|は|いかがなさいますか|。"
+en = "This way to your seats, please. What would you like to drink?"
+ru = "Проходите сюда, пожалуйста. Что будете пить?"
+uk = "Проходьте сюди, будь ласка. Що питимете?"
+es = "Por aquí, por favor. ¿Qué van a tomar?"
+uses = ["こちらのお席[せき]へどうぞ", "お飲[の]み物[もの]はいかがなさいますか"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "とりあえず|生[なま]|で|。|三[みっ]つ|お願[ねが]いします|。"
+en = "Three draught beers to start, please."
+ru = "Для начала три разливных, пожалуйста."
+uk = "Для початку три розливних, будь ласка."
+es = "Para empezar, tres cañas, por favor."
+uses = ["とりあえず生[なま]で"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "私[わたし]|は|お酒[さけ]=酒[さけ]|は|ちょっと…|。|ノンアルコール|の|飲[の]み物[もの]|は|ありますか|。"
+en = "Alcohol's not really for me… Do you have non-alcoholic drinks?"
+ru = "А я алкоголь не очень… У вас есть безалкогольные напитки?"
+uk = "А я алкоголь не дуже… У вас є безалкогольні напої?"
+es = "Yo el alcohol no… ¿Tienen bebidas sin alcohol?"
+uses = ["ノンアルコールの飲[の]み物[もの]はありますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "ウーロン茶[ちゃ]|と|ジュース|が|あります|。"
+en = "We have oolong tea and juice."
+ru = "Есть улун и сок."
+uk = "Є улун і сік."
+es = "Tenemos té oolong y zumo."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "じゃ|、|ウーロン茶[ちゃ]|を|お願[ねが]いします|。"
+en = "Then oolong tea, please."
+ru = "Тогда улун, пожалуйста."
+uk = "Тоді улун, будь ласка."
+es = "Entonces un té oolong, por favor."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お通[とお]し|です|。|ご注[ちゅう]文[もん]=注[ちゅう]文[もん]|は|お決[き]まり|です|か|。"
+en = "Here's your table appetizer. Are you ready to order?"
+ru = "Это закуска от заведения. Готовы заказать?"
+uk = "Це закуска від закладу. Готові замовити?"
+es = "Aquí tienen el aperitivo de la casa. ¿Ya saben qué van a pedir?"
+uses = ["お通[とお]しです", "ご注文[ちゅうもん]はお決[き]まりですか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "おすすめ|は|何[なん]|です|か|。"
+en = "What do you recommend?"
+ru = "Что посоветуете?"
+uk = "Що порадите?"
+es = "¿Qué nos recomienda?"
+uses = ["おすすめは何[なん]ですか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "焼[や]き鳥[とり]|です|。|焼[や]き鳥[とり]|は|塩[しお]|と|タレ|、|どちら|に|しますか=します|。"
+en = "The yakitori. Would you like it with salt or with sauce?"
+ru = "Якитори. С солью или с соусом?"
+uk = "Якіторі. З сіллю чи з соусом?"
+es = "El yakitori. ¿Lo quieren con sal o con salsa?"
+uses = ["焼[や]き鳥[とり]は塩[しお]とタレ、どちらにしますか"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "両[りょう]方[ほう]|お願[ねが]いします|。|それから|、|とりあえず|枝[えだ]豆[まめ]|と|唐[から]揚[あ]げ|を|お願[ねが]いします|。"
+en = "Both, please. And to start, edamame and fried chicken."
+ru = "И то и другое, пожалуйста. И для начала эдамамэ и курицу во фритюре."
+uk = "І те, й інше, будь ласка. І для початку едамаме та курку у фритюрі."
+es = "Los dos, por favor. Y para empezar, edamame y pollo frito."
+uses = ["とりあえず枝豆[えだまめ]と唐揚[からあ]げをお願[ねが]いします"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "じゃ|、|一[いっ]週[しゅう]間[かん]|お疲[つか]れ様[さま]|でした|。|乾[かん]杯[ぱい]|！"
+en = "Well, thanks for all your hard work this week. Cheers!"
+ru = "Ну, спасибо всем за неделю работы. За нас!"
+uk = "Ну, дякую всім за тиждень роботи. Будьмо!"
+es = "Bueno, buen trabajo esta semana. ¡Salud!"
+uses = ["乾杯[かんぱい]！"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "乾[かん]杯[ぱい]|！|……|あ|、|この|唐[から]揚[あ]げ|、|おいしい|です|ね|。"
+en = "Cheers! … Oh, this fried chicken is good."
+ru = "За нас! …О, какая вкусная курица."
+uk = "Будьмо! …О, яка смачна курка."
+es = "¡Salud! … Ah, qué rico este pollo frito."
+uses = ["乾杯[かんぱい]！"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "カリナ|さん|、|週[しゅう]末[まつ]|は|何[なに]|を|します|か|。"
+en = "Karina, what are you doing this weekend?"
+ru = "Карина, что будешь делать на выходных?"
+uk = "Карино, що робитимеш на вихідних?"
+es = "Karina, ¿qué haces este fin de semana?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "友[とも]達[だち]|と|美[び]術[じゅつ]館[かん]|へ|行[い]きます|。|ワン|さん|は|？"
+en = "I'm going to the art museum with a friend. And you, Wang?"
+ru = "Пойду с подругой в музей. А ты, Ван?"
+uk = "Піду з подругою до музею. А ти, Ване?"
+es = "Voy al museo con una amiga. ¿Y tú, Wang?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "家[うち]|で|寝[ね]ます|。|今[こん]週[しゅう]|は|忙[いそが]しかったです=忙[いそが]しい|から|。"
+en = "I'm going to sleep at home. This week was busy."
+ru = "Буду спать дома. Эта неделя была тяжёлой."
+uk = "Спатиму вдома. Цей тиждень був важкий."
+es = "Me quedo en casa durmiendo. Esta semana ha sido muy ajetreada."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "すみません|！|同[おな]じ|の|を|もう|一[いっ]杯[ぱい]|お願[ねが]いします|。"
+en = "Excuse me! Same again, please."
+ru = "Извините! Повторите, пожалуйста."
+uk = "Перепрошую! Повторіть, будь ласка."
+es = "¡Perdone! Otra de lo mismo, por favor."
+uses = ["同[おな]じのをもう一杯[いっぱい]お願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|、|かしこまりました。|……|そろそろ|ラストオーダー|に|なりますが=なります|。"
+en = "Certainly. … It's nearly last-order time."
+ru = "Конечно. …Скоро последний заказ."
+uk = "Звісно. …Скоро останнє замовлення."
+es = "Enseguida. … Es casi la hora de la última comanda."
+uses = ["ラストオーダーになりますが"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|お会[かい]計[けい]|を|お願[ねが]いします|。|別[べつ]々[べつ]|で|お願[ねが]いします|。"
+en = "Then the bill, please. Separately, please."
+ru = "Тогда счёт, пожалуйста. Раздельно, пожалуйста."
+uk = "Тоді рахунок, будь ласка. Окремо, будь ласка."
+es = "Entonces la cuenta, por favor. Por separado, por favor."
+uses = ["お会計[かいけい]をお願[ねが]いします", "別々[べつべつ]でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "はい|。|お一[ひと]人[り]様[さま]|２５００|円[えん]|に|なります|。"
+en = "Certainly. That's 2,500 yen each."
+ru = "Хорошо. С каждого по 2500 иен."
+uk = "Добре. З кожного по 2500 єн."
+es = "Muy bien. Son 2.500 yenes por persona."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ごちそうさまでした|。"
+en = "Thank you for the meal!"
+ru = "Спасибо, было очень вкусно!"
+uk = "Дякуємо, було дуже смачно!"
+es = "¡Muchas gracias, estaba todo muy rico!"
+uses = ["ごちそうさまでした"]
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "近[ちか]く"
+en = "near, nearby"
+ru = "рядом, поблизости"
+uk = "поруч, неподалік"
+es = "cerca"
+
+[[new]]
+ja = "居[い]酒[ざか]屋[や]"
+en = "izakaya (a Japanese pub)"
+ru = "идзакая (японский паб)"
+uk = "ідзакая (японський паб)"
+es = "izakaya (taberna japonesa)"
+
+[[new]]
+ja = "予[よ]約[やく]"
+en = "reservation, booking"
+ru = "бронь, заказ"
+uk = "бронювання"
+es = "reserva"
+
+[[new]]
+ja = "カウンター"
+en = "counter"
+ru = "стойка"
+uk = "стійка"
+es = "barra"
+
+[[new]]
+ja = "座[すわ]ります"
+en = "sit down"
+ru = "садиться"
+uk = "сідати"
+es = "sentarse"
+
+[[new]]
+ja = "生[なま]"
+en = "draught beer (lit. raw)"
+ru = "разливное пиво (букв. «сырое»)"
+uk = "розливне пиво (букв. «сире»)"
+es = "cerveza de barril (lit. «cruda»)"
+
+[[new]]
+ja = "言[い]います"
+en = "say"
+ru = "говорить, сказать"
+uk = "казати, сказати"
+es = "decir"
+
+[[new]]
+ja = "ウーロン茶[ちゃ]"
+en = "oolong tea"
+ru = "чай улун"
+uk = "чай улун"
+es = "té oolong"
+
+[[new]]
+ja = "頼[たの]みます"
+en = "order; ask for"
+ru = "заказывать; просить"
+uk = "замовляти; просити"
+es = "pedir"
+
+[[new]]
+ja = "最[さい]初[しょ]"
+en = "first, at first"
+ru = "сначала, первый"
+uk = "спочатку, перший"
+es = "primero, al principio"
+
+[[new]]
+ja = "料[りょう]理[り]"
+en = "dish, cooking"
+ru = "блюдо, кухня"
+uk = "страва, кухня"
+es = "plato, cocina"
+
+[[new]]
+ja = "お通[とお]し"
+en = "table appetizer (served, and charged, with the first drink)"
+ru = "закуска от заведения (подают и включают в счёт с первым напитком)"
+uk = "закуска від закладу (подають і включають у рахунок з першим напоєм)"
+es = "aperitivo de la casa (se sirve y se cobra con la primera bebida)"
+
+[[new]]
+ja = "枝[えだ]豆[まめ]"
+en = "edamame, green soybeans"
+ru = "эдамамэ, зелёные соевые бобы"
+uk = "едамаме, зелені соєві боби"
+es = "edamame, soja verde"
+
+[[new]]
+ja = "唐[から]揚[あ]げ"
+en = "Japanese fried chicken"
+ru = "курица во фритюре (караагэ)"
+uk = "курка у фритюрі (карааге)"
+es = "pollo frito japonés"
+
+[[new]]
+ja = "焼[や]き鳥[とり]"
+en = "yakitori, grilled chicken skewers"
+ru = "якитори, шашлычки из курицы"
+uk = "якіторі, шашлички з курки"
+es = "yakitori, brochetas de pollo"
+
+[[new]]
+ja = "注[ちゅう]文[もん]"
+en = "order (in a restaurant)"
+ru = "заказ"
+uk = "замовлення"
+es = "pedido"
+
+[[new]]
+ja = "塩[しお]"
+en = "salt"
+ru = "соль"
+uk = "сіль"
+es = "sal"
+
+[[new]]
+ja = "タレ"
+en = "sauce, glaze"
+ru = "соус"
+uk = "соус"
+es = "salsa"
+
+[[new]]
+ja = "両[りょう]方[ほう]"
+en = "both"
+ru = "оба, и то и другое"
+uk = "обидва, і те, й інше"
+es = "los dos"
+
+[[new]]
+ja = "四[よ]人[にん]"
+en = "four people"
+ru = "четыре человека"
+uk = "четверо людей"
+es = "cuatro personas"
+
+[[new]]
+ja = "話[はなし]"
+en = "talk, story"
+ru = "разговор, рассказ"
+uk = "розмова, розповідь"
+es = "conversación, historia"
+
+[[new]]
+ja = "週[しゅう]末[まつ]"
+en = "weekend"
+ru = "выходные"
+uk = "вихідні"
+es = "fin de semana"
+
+[[new]]
+ja = "十[じゅう]時[じ]"
+en = "ten o'clock"
+ru = "десять часов"
+uk = "десята година"
+es = "las diez"
+
+[[new]]
+ja = "お会[かい]計[けい]"
+en = "the bill, paying"
+ru = "счёт, оплата"
+uk = "рахунок, оплата"
+es = "la cuenta"
+
+[[new]]
+ja = "別[べつ]々[べつ]"
+en = "separate, separately"
+ru = "раздельно"
+uk = "окремо"
+es = "por separado"
+
+[[new]]
+ja = "何[なん]名[めい]様[さま]"
+en = "how many people (polite, staff speech)"
+ru = "сколько человек (вежливо)"
+uk = "скільки людей (ввічливо)"
+es = "cuántas personas (cortés)"
+
+[[new]]
+ja = "入[はい]れます"
+en = "can get in, can enter"
+ru = "можно войти"
+uk = "можна зайти"
+es = "poder entrar"
+
+[[new]]
+ja = "三[みっ]つ"
+en = "three (things)"
+ru = "три (штуки)"
+uk = "три (штуки)"
+es = "tres (cosas)"
+
+[[new]]
+ja = "ノンアルコール"
+en = "non-alcoholic"
+ru = "безалкогольный"
+uk = "безалкогольний"
+es = "sin alcohol"
+
+[[new]]
+ja = "お決[き]まり"
+en = "decided (polite, staff speech)"
+ru = "выбрали (вежливо)"
+uk = "обрали (ввічливо)"
+es = "decidido (cortés)"
+
+[[new]]
+ja = "一[いっ]週[しゅう]間[かん]"
+en = "one week"
+ru = "одна неделя"
+uk = "один тиждень"
+es = "una semana"
+
+[[new]]
+ja = "お疲[つか]れ様[さま]"
+en = "thanks for your hard work"
+ru = "спасибо за работу"
+uk = "дякую за роботу"
+es = "buen trabajo"
+
+[[new]]
+ja = "乾[かん]杯[ぱい]"
+en = "cheers!, a toast"
+ru = "за нас!, тост"
+uk = "будьмо!, тост"
+es = "¡salud!, brindis"
+
+[[new]]
+ja = "同[おな]じ"
+en = "the same"
+ru = "тот же, такой же"
+uk = "той самий, такий самий"
+es = "el mismo"
+
+[[new]]
+ja = "一[いっ]杯[ぱい]"
+en = "one glass, one cup"
+ru = "один бокал, одна чашка"
+uk = "один келих, одна чашка"
+es = "un vaso, una copa"
+
+[[new]]
+ja = "ラストオーダー"
+en = "last order"
+ru = "последний заказ"
+uk = "останнє замовлення"
+es = "última comanda"
+
+[[new]]
+ja = "なります"
+en = "become; (staff speech) it comes to"
+ru = "становиться; (речь персонала) составит"
+uk = "ставати; (мова персоналу) становитиме"
+es = "volverse; (habla del personal) son"
+
+[[new]]
+ja = "お一[ひと]人[り]様[さま]"
+en = "per person (polite)"
+ru = "с человека (вежливо)"
+uk = "з людини (ввічливо)"
+es = "por persona (cortés)"

@@ -1,0 +1,342 @@
+title = { en = "Late-night convenience store", ru = "Комбини поздно вечером", uk = "Комбіні пізно ввечері", es = "La tienda 24 horas de noche" }
+scene = "A Japanese convenience store at night: two young women look at shelves of rice balls, bento boxes and sweets, one holding a basket; a clerk at the register beside a microwave and a small card-payment screen."
+
+[[prose]]
+ja = "夜[よる]|十[じゅう]時[じ]|、|マリア|さん|と|アンナ|さん|は|映[えい]画[が]|の|後[あと]で|コンビニ|に|寄[よ]りました=寄[よ]ります|。|晩[ばん]ご飯[はん]|を|まだ|食[た]べていませんでした=食[た]べます|。"
+en = "At ten at night, after a movie, Maria and Anna dropped into a convenience store. They hadn't had dinner yet."
+ru = "В десять вечера, после кино, Мария и Анна зашли в комбини. Они ещё не ужинали."
+uk = "О десятій вечора, після кіно, Марія та Анна зайшли до комбіні. Вони ще не вечеряли."
+es = "A las diez de la noche, después del cine, Maria y Anna entraron en un konbini. Todavía no habían cenado."
+
+[[prose]]
+ja = "マリア|さん|は|お弁[べん]当[とう]|と|お茶[ちゃ]|を|買[か]いました=買[か]います|。|アンナ|さん|は|おにぎり|と|プリン|を|選[えら]びました=選[えら]びます|。|お弁[べん]当[とう]|は|店[てん]員[いん]|さん|が|温[あたた]めました=温[あたた]めます|。"
+en = "Maria bought a bento and tea. Anna chose a rice ball and a pudding. The clerk heated the bento."
+ru = "Мария купила бэнто и чай. Анна выбрала онигири и пудинг. Продавец разогрел бэнто."
+uk = "Марія купила бенто та чай. Анна вибрала онігірі й пудинг. Продавець розігрів бенто."
+es = "Maria compró un bento y té. Anna eligió un onigiri y un flan. El dependiente calentó el bento."
+
+[[prose]]
+ja = "二[ふた]人[り]|は|公[こう]園[えん]|で|晩[ばん]ご飯[はん]|を|食[た]べました=食[た]べます|。|コンビニ|は|便[べん]利[り]|です|ね|。"
+en = "The two of them had dinner in the park. Convenience stores really are convenient."
+ru = "Вдвоём они поужинали в парке. Комбини — это так удобно."
+uk = "Удвох вони повечеряли в парку. Комбіні — це так зручно."
+es = "Las dos cenaron en el parque. Los konbini son de lo más prácticos."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "お腹[なか]|すいた|ね|。|何[なに]|に|する|？"
+en = "I'm starving. What are you getting?"
+ru = "Есть хочется. Что возьмёшь?"
+uk = "Їсти хочеться. Що візьмеш?"
+es = "Qué hambre. ¿Qué vas a coger?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "この|お弁[べん]当[とう]|、|おいしそう|。|アンナ|は|？"
+en = "This bento looks good. And you, Anna?"
+ru = "Вот это бэнто выглядит вкусно. А ты, Анна?"
+uk = "Ось це бенто виглядає смачно. А ти, Анно?"
+es = "Este bento tiene buena pinta. ¿Y tú, Anna?"
+
+[[dialog]]
+speaker = "アンナ"
+ja = "私[わたし]|は|おにぎり|。|鮭[さけ]|と|梅[うめ]|、|どっち|が|いい|？"
+en = "A rice ball for me. Salmon or plum, which is better?"
+ru = "Я онигири. С лососем или со сливой — какой лучше?"
+uk = "Я онігірі. З лососем чи зі сливою — який кращий?"
+es = "Yo, un onigiri. ¿De salmón o de ciruela, cuál está mejor?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "鮭[さけ]|！|あ|、|プリン|も|買[か]おう=買[か]います|よ|。"
+en = "Salmon! Oh, let's get a pudding too."
+ru = "С лососем! О, давай ещё пудинг возьмём."
+uk = "З лососем! О, давай ще пудинг візьмемо."
+es = "¡De salmón! Ah, cojamos también un flan."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "すみません|、|牛[ぎゅう]乳[にゅう]|は|どこ|に|ありますか|。"
+en = "Excuse me, where is the milk?"
+ru = "Простите, где молоко?"
+uk = "Перепрошую, де молоко?"
+es = "Perdone, ¿dónde está la leche?"
+uses = ["牛乳[ぎゅうにゅう]はどこにありますか"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "あちら|の|奥[おく]|です|。"
+en = "At the back over there."
+ru = "Вон там, в глубине."
+uk = "Он там, у глибині."
+es = "Allí al fondo."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|。|お弁[べん]当[とう]|、|温[あたた]めますか=温[あたた]めます|。"
+en = "Hello. Shall I heat the bento?"
+ru = "Здравствуйте. Бэнто разогреть?"
+uk = "Добрий вечір. Бенто розігріти?"
+es = "Hola. ¿Le caliento el bento?"
+uses = ["いらっしゃいませ", "お弁当[べんとう]、温[あたた]めますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|お願[ねが]いします|。"
+en = "Yes, please."
+ru = "Да, пожалуйста."
+uk = "Так, будь ласка."
+es = "Sí, por favor."
+uses = ["はい、お願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お箸[はし]=箸[はし]|は|おつけしますか|。|袋[ふくろ]|、|分[わ]けますか=分[わ]けます|。"
+en = "Would you like chopsticks? Shall I bag them separately?"
+ru = "Палочки положить? Разложить по разным пакетам?"
+uk = "Палички покласти? Розкласти в різні пакети?"
+es = "¿Le pongo palillos? ¿Se lo pongo en bolsas separadas?"
+uses = ["お箸[はし]はおつけしますか", "袋[ふくろ]、分[わ]けますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "お箸[はし]=箸[はし]|、|二[に]膳[ぜん]|お願[ねが]いします|。|袋[ふくろ]|は|一[ひと]つ|で|大[だい]丈[じょう]夫[ぶ]|です|。"
+en = "Two pairs of chopsticks, please. One bag is fine."
+ru = "Две пары палочек, пожалуйста. Пакет один, этого хватит."
+uk = "Дві пари паличок, будь ласка. Пакет один, цього досить."
+es = "Dos pares de palillos, por favor. Con una bolsa basta."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "ポイントカード|は|お持[も]ち|です|か|。"
+en = "Do you have a points card?"
+ru = "У вас есть бонусная карта?"
+uk = "У вас є бонусна картка?"
+es = "¿Tiene tarjeta de puntos?"
+uses = ["ポイントカードはお持[も]ちですか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "いいえ|、|ありません|。"
+en = "No, I don't."
+ru = "Нет."
+uk = "Ні."
+es = "No, no tengo."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お支[し]払[はら]い|方[ほう]法[ほう]|は|いかがなさいますか|。"
+en = "How would you like to pay?"
+ru = "Как будете платить?"
+uk = "Як будете платити?"
+es = "¿Cómo va a pagar?"
+uses = ["お支払[しはら]い方法[ほうほう]はいかがなさいますか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "カード|で|お願[ねが]いします|。"
+en = "By card, please."
+ru = "Картой, пожалуйста."
+uk = "Карткою, будь ласка."
+es = "Con tarjeta, por favor."
+uses = ["〇〇でお願[ねが]いします"]
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "画[が]面[めん]|を|タッチしてください=タッチします|。|……|レシート|は|ご利[り]用[よう]|です|か|。"
+en = "Please tap the screen. … Do you need the receipt?"
+ru = "Приложите карту к экрану. …Чек нужен?"
+uk = "Прикладіть картку до екрана. …Чек потрібен?"
+es = "Acerque la tarjeta a la pantalla. … ¿Quiere el recibo?"
+uses = ["画面[がめん]をタッチしてください", "レシートはご利用[りよう]ですか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "いいえ|、|大[だい]丈[じょう]夫[ぶ]|です|。|どうも|。"
+en = "No, I'm fine. Thanks."
+ru = "Нет, не нужно. Спасибо."
+uk = "Ні, не треба. Дякую."
+es = "No, gracias. Gracias."
+uses = ["大丈夫[だいじょうぶ]です"]
+
+[[new]]
+ja = "十[じゅう]時[じ]"
+en = "ten o'clock"
+ru = "десять часов"
+uk = "десята година"
+es = "las diez"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"
+
+[[new]]
+ja = "コンビニ"
+en = "convenience store"
+ru = "комбини, круглосуточный магазин"
+uk = "комбіні, цілодобовий магазин"
+es = "konbini, tienda 24 horas"
+
+[[new]]
+ja = "寄[よ]ります"
+en = "drop in, stop by"
+ru = "заходить, заглядывать"
+uk = "заходити, заглядати"
+es = "pasar por, entrar un momento"
+
+[[new]]
+ja = "お弁[べん]当[とう]"
+en = "bento, boxed meal"
+ru = "бэнто, обед в коробке"
+uk = "бенто, обід у коробці"
+es = "bento, comida en caja"
+
+[[new]]
+ja = "プリン"
+en = "pudding, crème caramel"
+ru = "пудинг"
+uk = "пудинг"
+es = "flan"
+
+[[new]]
+ja = "選[えら]びます"
+en = "choose"
+ru = "выбирать"
+uk = "вибирати"
+es = "elegir"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "二[ふた]人[り]"
+en = "two people"
+ru = "два человека, вдвоём"
+uk = "двоє, удвох"
+es = "dos personas"
+
+[[new]]
+ja = "公[こう]園[えん]"
+en = "park"
+ru = "парк"
+uk = "парк"
+es = "parque"
+
+[[new]]
+ja = "お腹[なか]"
+en = "stomach (お腹すいた: I'm hungry)"
+ru = "живот (お腹すいた — проголодался)"
+uk = "живіт (お腹すいた — зголоднів)"
+es = "barriga (お腹すいた: tengo hambre)"
+
+[[new]]
+ja = "鮭[さけ]"
+en = "salmon"
+ru = "лосось"
+uk = "лосось"
+es = "salmón"
+
+[[new]]
+ja = "梅[うめ]"
+en = "Japanese plum (pickled, in rice balls)"
+ru = "японская слива (маринованная, в онигири)"
+uk = "японська слива (маринована, в онігірі)"
+es = "ciruela japonesa (encurtida, en onigiri)"
+
+[[new]]
+ja = "奥[おく]"
+en = "the back, the far end"
+ru = "в глубине"
+uk = "у глибині"
+es = "el fondo"
+
+[[new]]
+ja = "分[わ]けます"
+en = "divide, separate"
+ru = "разделять"
+uk = "розділяти"
+es = "separar"
+
+[[new]]
+ja = "二[に]膳[ぜん]"
+en = "two pairs (of chopsticks)"
+ru = "две пары (палочек)"
+uk = "дві пари (паличок)"
+es = "dos pares (de palillos)"
+
+[[new]]
+ja = "一[ひと]つ"
+en = "one (thing)"
+ru = "одна (штука)"
+uk = "одна (штука)"
+es = "uno (cosa)"
+
+[[new]]
+ja = "ポイントカード"
+en = "points card"
+ru = "бонусная карта"
+uk = "бонусна картка"
+es = "tarjeta de puntos"
+
+[[new]]
+ja = "お持[も]ち"
+en = "having (honorific)"
+ru = "иметь (почтительно)"
+uk = "мати (шанобливо)"
+es = "tener (honorífico)"
+
+[[new]]
+ja = "お支[し]払[はら]い"
+en = "payment"
+ru = "оплата"
+uk = "оплата"
+es = "pago"
+
+[[new]]
+ja = "方[ほう]法[ほう]"
+en = "way, method"
+ru = "способ"
+uk = "спосіб"
+es = "forma, método"
+
+[[new]]
+ja = "画[が]面[めん]"
+en = "screen"
+ru = "экран"
+uk = "екран"
+es = "pantalla"
+
+[[new]]
+ja = "タッチします"
+en = "touch, tap"
+ru = "касаться, прикладывать"
+uk = "торкатися, прикладати"
+es = "tocar, acercar"
+
+[[new]]
+ja = "レシート"
+en = "receipt"
+ru = "чек"
+uk = "чек"
+es = "recibo"
+
+[[new]]
+ja = "ご利[り]用[よう]"
+en = "use (polite)"
+ru = "пользование (вежливо)"
+uk = "користування (ввічливо)"
+es = "uso (cortés)"
