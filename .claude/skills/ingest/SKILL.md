@@ -42,7 +42,13 @@ The lesson is the **MnN chapter**, from the page tab, page number or content, ne
 
 Tokens joined by `|`, `surface=word` for inflected forms (`借[か]りました=借[か]ります`); words outside lessons 1–N go under `[[new]]`. Use only grammar of lessons 1–N too: the loader checks words, not grammar, so check it yourself (e.g. no を before L6, no ～ませんか before its lesson). Link tokens accurately: a linked line also shows on that word's page, with the word marked. The lesson tags are derived from the words.
 
+**Link the phrase book.** When a line says a phrase-book phrase, add `uses = ["<the phrase's ja, exactly>"]` to that block; the loader checks the phrase exists and that the line says its `ja` (〇〇 matches any words; casual forms do not count). Link situational phrases (いらっしゃいませ, これをください, 何番線ですか); leave the everyday ones (すみません, お願いします, ありがとうございます, はい、そうです) unlinked, or their cards list half the site. `uv run python _probes/phrase_hits.py content/reading` lists candidates if the probe is there.
+
 Then draw the picture: `uv run --env-file .env --group tools illustrate content/reading/NN-name.toml` (the key is `OPENROUTER_FLUENT` in `.env`; never print it). It rejects pictures with any text in them. If the key is missing, ship without a picture and tell the user.
+
+## 3a. Scenes (phrase-book level, not tied to a lesson)
+
+`content/scenes/<name>.toml` (lowercase name, no `lesson`): the same story + dialog format, in natural Japanese for a place, drawing on every lesson's words; everything else under `[[new]]` with 4 languages (the recurring cast too). Lines name the phrase-book phrases they say with `uses`; a scene is how a phrase-book section shows its phrases in context, so write one when a section has none, and add the phrases a scene needs to the phrase book when they are missing (the clinic scene brought the Health topic). Pitfalls the loader catches: a speaker is one token (女[おんな]の人[ひと], not three); jukujikun take whole-word furigana (今日[きょう], 大人[おとな], 風邪[かぜ]); a phrase fixed to a number (5階, 7時) needs exactly that number in the line. Write prices in digits (２８００|円[えん]). Keep signs, lettering and post boxes out of the picture prompt: `illustrate` rejects any text in the picture.
 
 ## 3b. Record the new lines (VOICEVOX)
 
