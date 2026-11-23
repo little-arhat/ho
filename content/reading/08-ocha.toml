@@ -1,0 +1,227 @@
+lesson = 8
+title = { en = "Another cup?", ru = "Ещё чашечку?", uk = "Ще чашечку?", es = "¿Otra taza?" }
+scene = "Evening in the living room of an old but well-kept Japanese detached house: a young woman guest kneels at a low table with a cup of green tea, the host's mother offers a teapot, a young man looks at the wall clock, sweets on a plate."
+
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|、|カリナ|さん|は|田[た]中[なか]|さん|の|家[うち]|へ|行[い]きました=行[い]きます|。|田[た]中[なか]|さん|の|家[うち]|は|一[いっ]戸[こ]建[だ]て|です|。"
+en = "On Sunday Karina went to Tanaka's home. Tanaka's home is a detached house."
+ru = "В воскресенье Карина ходила в гости к Танаке. Танака живёт в частном доме."
+uk = "У неділю Каріна ходила в гості до Танаки. Танака живе в окремому будинку."
+es = "El domingo Karina fue a casa de Tanaka. La casa de Tanaka es una casa unifamiliar."
+
+[[prose]]
+ja = "古[ふる]い|家[うち]|です|が|、|広[ひろ]い|です|。|そして|、|とても|きれい|です|。|すてき|な|家[うち]|です|。"
+en = "It's an old house, but roomy. And very clean. It's a lovely house."
+ru = "Дом старый, но просторный. И очень чистый. Чудесный дом."
+uk = "Будинок старий, але просторий. І дуже чистий. Чудовий будинок."
+es = "Es una casa vieja, pero amplia. Y muy limpia. Es una casa preciosa."
+
+[[prose]]
+ja = "カリナ|さん|の|家[うち]|は|アパート|です|。|部[へ]屋[や]|は|狭[せま]い|です|が|、|便[べん]利[り]|です|。|大[だい]学[がく]|は|アパート|から|十[じゅっ]分[ぷん]|です|。"
+en = "Karina lives in an apartment. Her room is small, but convenient. The university is ten minutes from the apartment."
+ru = "Карина живёт в небольшой квартире. Комната тесная, но удобная. До университета от квартиры десять минут."
+uk = "Каріна живе в невеликій квартирі. Кімната тісна, але зручна. До університету від квартири десять хвилин."
+es = "Karina vive en un apartamento. Su habitación es pequeña, pero práctica. La universidad está a diez minutos del apartamento."
+
+[[prose]]
+ja = "カリナ|さん|は|田[た]中[なか]|さん|の|お母[かあ]さん|に|インドネシア|の|コーヒー|を|あげました=あげます|。|お母[かあ]さん|は|カリナ|さん|に|日[に]本[ほん]|の|お茶[ちゃ]|と|お菓[か]子[し]|を|出[だ]しました=出[だ]します|。"
+en = "Karina gave Tanaka's mother some Indonesian coffee. His mother served her Japanese tea and sweets."
+ru = "Карина подарила маме Танаки индонезийский кофе. Мама угостила её японским чаем и сладостями."
+uk = "Каріна подарувала мамі Танаки індонезійську каву. Мама пригостила її японським чаєм і солодощами."
+es = "Karina le regaló café de Indonesia a la madre de Tanaka. La madre le sirvió té japonés y dulces."
+
+[[prose]]
+ja = "お茶[ちゃ]|は|熱[あつ]い|です|。|そして|、|とても|おいしい|です|。|カリナ|さん|は|もう|一[いっ]杯[ぱい]|飲[の]みました=飲[の]みます|。"
+en = "The tea is hot. And very good. Karina had another cup."
+ru = "Чай горячий. И очень вкусный. Карина выпила ещё чашку."
+uk = "Чай гарячий. І дуже смачний. Каріна випила ще чашку."
+es = "El té está caliente. Y muy rico. Karina se tomó otra taza."
+
+[[prose]]
+ja = "カリナ|さん|と|田[た]中[なか]|さん|は|インドネシア|の|生[せい]活[かつ]|と|日[に]本[ほん]|の|生[せい]活[かつ]|の|話[はなし]|を|しました=します|。|インドネシア|は|暑[あつ]い|です|が|、|日[に]本[ほん]|の|冬[ふゆ]|は|寒[さむ]い|です|。"
+en = "Karina and Tanaka talked about life in Indonesia and life in Japan. Indonesia is hot, but Japanese winters are cold."
+ru = "Карина и Танака говорили о жизни в Индонезии и в Японии. В Индонезии жарко, а японская зима холодная."
+uk = "Каріна й Танака говорили про життя в Індонезії та в Японії. В Індонезії спекотно, а японська зима холодна."
+es = "Karina y Tanaka hablaron de la vida en Indonesia y de la vida en Japón. En Indonesia hace calor, pero los inviernos japoneses son fríos."
+
+[[prose]]
+ja = "夜[よる]|九[く]時[じ]|に|、|カリナ|さん|は|アパート|へ|帰[かえ]りました=帰[かえ]ります|。|田[た]中[なか]|さん|の|家[うち]|は|とても|楽[たの]しい|です|。|また|行[い]きます|。"
+en = "At nine in the evening Karina went back to her apartment. It's a lot of fun at Tanaka's. She'll go again."
+ru = "В девять вечера Карина вернулась в свою квартиру. У Танаки очень весело. Она пойдёт ещё."
+uk = "О дев'ятій вечора Каріна повернулася до своєї квартири. У Танаки дуже весело. Вона піде ще."
+es = "A las nueve de la noche Karina volvió a su apartamento. En casa de Tanaka se está muy bien. Volverá."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ごめんください。"
+en = "Hello, anyone home?"
+ru = "Есть кто дома?"
+uk = "Є хто вдома?"
+es = "¿Se puede?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "あ|、|カリナ|さん|。|いらっしゃい。|どうぞお上[あ]がりください。"
+en = "Oh, Karina! Welcome. Please come in."
+ru = "О, Карина! Добро пожаловать. Проходи."
+uk = "О, Каріно! Ласкаво просимо. Проходь."
+es = "¡Ah, Karina! Bienvenida. Pasa."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "失[しつ]礼[れい]します|。|すてき|な|家[うち]|です|ね|。"
+en = "Excuse me for coming in. What a lovely house."
+ru = "Извините за беспокойство. Какой чудесный дом!"
+uk = "Вибачте за турботу. Який чудовий будинок!"
+es = "Con permiso. Qué casa tan bonita."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "古[ふる]い|家[うち]|です|が|、|広[ひろ]い|です|よ|。"
+en = "It's old, but it's roomy."
+ru = "Дом старый, но просторный."
+uk = "Будинок старий, але просторий."
+es = "Es vieja, pero es amplia."
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "カリナ|さん|、|お茶[ちゃ]|を|どうぞ|。|熱[あつ]い|です|よ|。"
+en = "Karina, here's some tea. It's hot."
+ru = "Карина, вот чай. Осторожно, горячий."
+uk = "Каріно, ось чай. Обережно, гарячий."
+es = "Karina, toma té. Cuidado, está caliente."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ありがとうございます。|いただきます。|……|おいしい|お茶[ちゃ]|です|ね|。"
+en = "Thank you. … What good tea."
+ru = "Спасибо. …Какой вкусный чай!"
+uk = "Дякую. …Який смачний чай!"
+es = "Gracias. … Qué té tan rico."
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "もう一[いっ]杯[ぱい]いかがですか。"
+en = "Won't you have another cup?"
+ru = "Не хочешь ещё чашечку?"
+uk = "Не хочеш ще чашечку?"
+es = "¿Quieres otra taza?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "はい|、|いただきます。"
+en = "Yes, thank you."
+ru = "Да, с удовольствием."
+uk = "Так, із задоволенням."
+es = "Sí, gracias."
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "お菓[か]子[し]|も|いかがですか。"
+en = "How about some more sweets?"
+ru = "А сладостей ещё?"
+uk = "А солодощів ще?"
+es = "¿Y más dulces?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいえ|、|けっこうです。"
+en = "No, thank you."
+ru = "Нет, спасибо."
+uk = "Ні, дякую."
+es = "No, gracias."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "あ|、|もう|九[く]時[じ]|です|ね|。|そろそろ失[しつ]礼[れい]します。"
+en = "Oh, it's already nine. It's time I was going."
+ru = "Ой, уже девять. Мне пора."
+uk = "Ой, уже дев'ята. Мені час."
+es = "Ay, ya son las nueve. Es hora de irme."
+
+[[dialog]]
+speaker = "お母[かあ]さん"
+ja = "そうですか|。|またいらっしゃってください。"
+en = "Oh, really? Please come again."
+ru = "Вот как. Приходи ещё."
+uk = "Он як. Приходь ще."
+es = "¿Ya? Vuelve cuando quieras."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "今日[きょう]|は|どうも|ありがとうございました|。"
+en = "Thank you very much for today."
+ru = "Большое спасибо за сегодня."
+uk = "Щиро дякую за сьогодні."
+es = "Muchas gracias por hoy."
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "いいえ|。"
+en = "Not at all."
+ru = "Что ты, не за что."
+uk = "Що ти, нема за що."
+es = "De nada."
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Каріна (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "お菓[か]子[し]"
+en = "sweets, snacks"
+ru = "сладости"
+uk = "солодощі"
+es = "dulces"
+
+[[new]]
+ja = "インドネシア"
+en = "Indonesia"
+ru = "Индонезия"
+uk = "Індонезія"
+es = "Indonesia"
+
+[[new]]
+ja = "一[いっ]杯[ぱい]"
+en = "a cup, a glass (of)"
+ru = "одна чашка, стакан"
+uk = "одна чашка, склянка"
+es = "una taza, un vaso"
+
+[[new]]
+ja = "出[だ]します"
+en = "serve (food, drinks); take out"
+ru = "подавать (еду, напитки); доставать"
+uk = "подавати (їжу, напої); діставати"
+es = "servir (comida, bebida); sacar"
+
+[[new]]
+ja = "話[はなし]"
+en = "talk, story"
+ru = "разговор, рассказ"
+uk = "розмова, розповідь"
+es = "charla, historia"
+
+[[new]]
+ja = "冬[ふゆ]"
+en = "winter"
+ru = "зима"
+uk = "зима"
+es = "invierno"
+
+[[new]]
+ja = "日[に]本[ほん]"
+en = "Japan"
+ru = "Япония"
+uk = "Японія"
+es = "Japón"

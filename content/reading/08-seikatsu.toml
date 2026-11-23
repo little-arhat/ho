@@ -1,0 +1,206 @@
+lesson = 8
+title = { en = "Life in Japan", ru = "Жизнь в Японии", uk = "Життя в Японії", es = "La vida en Japón" }
+scene = "A small, tidy student dormitory room in a quiet old Japanese town on a humid summer day: a young woman sits at a desk by an open window with a glass of cold tea, an electric fan turning, a white second-hand shirt hanging on the wall."
+
+[[prose]]
+ja = "マリア|さん|は|ブラジル|人[じん]|です|。|今[いま]|、|日[に]本[ほん]|の|大[だい]学[がく]|の|学[がく]生[せい]|です|。|日[に]本[ほん]|の|生[せい]活[かつ]|は|とても|楽[たの]しい|です|。"
+en = "Maria is Brazilian. She is now a student at a Japanese university. Life in Japan is a lot of fun."
+ru = "Мария — бразильянка. Сейчас она студентка японского университета. Жизнь в Японии очень весёлая."
+uk = "Марія — бразилійка. Зараз вона студентка японського університету. Життя в Японії дуже веселе."
+es = "Maria es brasileña. Ahora es estudiante en una universidad japonesa. La vida en Japón es muy divertida."
+
+[[prose]]
+ja = "マリア|さん|の|家[うち]|は|大[だい]学[がく]|の|寮[りょう]|です|。|寮[りょう]|の|部[へ]屋[や]|は|狭[せま]い|です|が|、|きれい|です|。|そして|、|とても|静[しず]か|です|。"
+en = "Maria's home is the university dormitory. The dormitory room is small, but clean. And it's very quiet."
+ru = "Мария живёт в университетском общежитии. Комната тесная, но чистая. И очень тихая."
+uk = "Марія живе в університетському гуртожитку. Кімната тісна, але чиста. І дуже тиха."
+es = "La casa de Maria es la residencia de la universidad. La habitación es pequeña, pero limpia. Y muy tranquila."
+
+[[prose]]
+ja = "寮[りょう]|の|食[た]べ物[もの]|は|安[やす]い|です|。|そして|、|おいしい|です|。|でも|、|寮[りょう]|の|レストラン|は|夜[よる]|九[く]時[じ]|まで|です|。"
+en = "The food in the dormitory is cheap. And it's good. But the dormitory restaurant is only open until nine in the evening."
+ru = "Еда в общежитии дешёвая. И вкусная. Но столовая общежития работает только до девяти вечера."
+uk = "Їжа в гуртожитку дешева. І смачна. Але їдальня гуртожитку працює лише до дев'ятої вечора."
+es = "La comida de la residencia es barata. Y está rica. Pero el restaurante de la residencia solo abre hasta las nueve de la noche."
+
+[[prose]]
+ja = "大[だい]学[がく]|の|町[まち]|は|小[ちい]さい|町[まち]|です|。|古[ふる]い|町[まち]|です|が|、|にぎやか|です|。|土[ど]曜[よう]日[び]|、|マリア|さん|は|町[まち]|の|古[ふる]着[ぎ]屋[や]|へ|行[い]きました=行[い]きます|。|古[ふる]着[ぎ]屋[や]|で|白[しろ]い|シャツ|を|買[か]いました=買[か]います|。"
+en = "The university town is small. It's an old town, but lively. On Saturday Maria went to a second-hand clothes shop in town. She bought a white shirt there."
+ru = "Университетский город маленький. Старинный, но оживлённый. В субботу Мария ходила в секонд-хенд. Там она купила белую рубашку."
+uk = "Університетське місто маленьке. Старовинне, але жваве. У суботу Марія ходила до секонд-хенду. Там вона купила білу сорочку."
+es = "La ciudad de la universidad es pequeña. Es antigua, pero animada. El sábado Maria fue a una tienda de ropa de segunda mano. Allí se compró una camisa blanca."
+
+[[prose]]
+ja = "日[に]本[ほん]|の|夏[なつ]|は|とても|蒸[む]し暑[あつ]い|です|。|ブラジル|も|暑[あつ]い|です|が|、|湿[しつ]度[ど]|は|あまり|高[たか]くない=高[たか]い|です|。"
+en = "Summer in Japan is very muggy. Brazil is hot too, but the humidity isn't so high."
+ru = "Лето в Японии очень душное. В Бразилии тоже жарко, но влажность не такая высокая."
+uk = "Літо в Японії дуже задушливе. У Бразилії теж спекотно, але вологість не така висока."
+es = "El verano en Japón es muy bochornoso. En Brasil también hace calor, pero la humedad no es tan alta."
+
+[[prose]]
+ja = "今日[きょう]|、|マリア|さん|は|体[たい]調[ちょう]|が|あまり|よくない=いい|です|。|大[だい]学[がく]|へ|行[い]きません=行[い]きます|。|寮[りょう]|で|冷[つめ]たい|お茶[ちゃ]|を|飲[の]みます|。"
+en = "Today Maria isn't feeling very well. She isn't going to the university. She drinks cold tea in the dormitory."
+ru = "Сегодня Марии не очень хорошо. В университет она не идёт. Пьёт в общежитии холодный чай."
+uk = "Сьогодні Марії не дуже добре. До університету вона не йде. П'є в гуртожитку холодний чай."
+es = "Hoy Maria no se encuentra muy bien. No va a la universidad. Se toma un té frío en la residencia."
+
+[[prose]]
+ja = "山[やま]田[だ]|先[せん]生[せい]|は|とても|親[しん]切[せつ]|です|。|夜[よる]|、|マリア|さん|に|電[でん]話[わ]|を|かけました=かけます|。|マリア|さん|は|もう|元[げん]気[き]|です|。"
+en = "Professor Yamada is very kind. In the evening he called Maria. Maria is already feeling fine."
+ru = "Ямада-сэнсэй очень отзывчивый. Вечером он позвонил Марии. Мария уже в порядке."
+uk = "Ямада-сенсей дуже привітний. Увечері він подзвонив Марії. Марія вже в порядку."
+es = "El profesor Yamada es muy amable. Por la noche llamó a Maria. Maria ya está bien."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "マリア|さん|、|お元[げん]気[き]ですか。"
+en = "Maria, how are you?"
+ru = "Мария, как ты?"
+uk = "Маріє, як ти?"
+es = "Maria, ¿cómo estás?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|元[げん]気[き]|です|。|ありがとうございます。"
+en = "I'm fine, thank you."
+ru = "Хорошо, спасибо."
+uk = "Добре, дякую."
+es = "Bien, gracias."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "日[に]本[ほん]|の|生[せい]活[かつ]|は|どう|です|か|。"
+en = "How is life in Japan?"
+ru = "Как тебе жизнь в Японии?"
+uk = "Як тобі життя в Японії?"
+es = "¿Qué tal la vida en Japón?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "そうですね。|とても|楽[たの]しい|です|。"
+en = "Let me see. It's a lot of fun."
+ru = "Ну… очень весело."
+uk = "Ну… дуже весело."
+es = "A ver… Es muy divertida."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "寮[りょう]|は|どう|です|か|。"
+en = "How is the dormitory?"
+ru = "А как общежитие?"
+uk = "А як гуртожиток?"
+es = "¿Y la residencia?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "部[へ]屋[や]|は|狭[せま]い|です|が|、|きれい|です|。|そして|、|静[しず]か|です|。"
+en = "The room is small, but clean. And quiet."
+ru = "Комната тесная, но чистая. И тихая."
+uk = "Кімната тісна, але чиста. І тиха."
+es = "La habitación es pequeña, pero limpia. Y tranquila."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "寮[りょう]|の|食[た]べ物[もの]|は|おいしい|です|か|。"
+en = "Is the food in the dormitory good?"
+ru = "В общежитии вкусно кормят?"
+uk = "У гуртожитку смачно годують?"
+es = "¿La comida de la residencia está rica?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|おいしい|です|。|そして|、|安[やす]い|です|。"
+en = "Yes, it's good. And cheap."
+ru = "Да, вкусно. И дёшево."
+uk = "Так, смачно. І дешево."
+es = "Sí, está rica. Y es barata."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "大[だい]学[がく]|の|町[まち]|は|どんな|町[まち]|です|か|。"
+en = "What kind of town is the university town?"
+ru = "А что за город вокруг университета?"
+uk = "А що за місто довкола університету?"
+es = "¿Y cómo es la ciudad de la universidad?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "古[ふる]い|町[まち]|です|が|、|にぎやか|です|。|古[ふる]着[ぎ]屋[や]|は|安[やす]い|です|よ|。"
+en = "It's an old town, but lively. The second-hand clothes shops are cheap!"
+ru = "Старинный, но оживлённый. А секонд-хенды там дешёвые!"
+uk = "Старовинне, але жваве. А секонд-хенди там дешеві!"
+es = "Es antigua, pero animada. ¡Y las tiendas de segunda mano son baratas!"
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "日[に]本[ほん]|の|夏[なつ]|は|どう|です|か|。"
+en = "And how do you find the Japanese summer?"
+ru = "А как тебе японское лето?"
+uk = "А як тобі японське літо?"
+es = "¿Y qué tal el verano japonés?"
+
+[[dialog]]
+speaker = "マリア"
+ja = "とても|蒸[む]し暑[あつ]い|です|。|ブラジル|も|暑[あつ]い|です|が|、|湿[しつ]度[ど]|は|あまり|高[たか]くない=高[たか]い|です|。"
+en = "Very muggy. Brazil is hot too, but the humidity isn't so high."
+ru = "Очень душное. В Бразилии тоже жарко, но влажность не такая высокая."
+uk = "Дуже задушливе. У Бразилії теж спекотно, але вологість не така висока."
+es = "Muy bochornoso. En Brasil también hace calor, pero la humedad no es tan alta."
+
+[[dialog]]
+speaker = "山[やま]田[だ]"
+ja = "そうですか。|冷[つめ]たい|お茶[ちゃ]|を|どうぞ|。"
+en = "I see. Have some cold tea."
+ru = "Вот как. Выпей холодного чаю."
+uk = "Он як. Випий холодного чаю."
+es = "Ya veo. Toma un té frío."
+
+[[dialog]]
+speaker = "マリア"
+ja = "ありがとうございます。|いただきます。"
+en = "Thank you. I'll have some."
+ru = "Спасибо. С удовольствием."
+uk = "Дякую. Із задоволенням."
+es = "Gracias. Con mucho gusto."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "山[やま]田[だ]"
+en = "Yamada (a surname)"
+ru = "Ямада (фамилия)"
+uk = "Ямада (прізвище)"
+es = "Yamada (apellido)"
+
+[[new]]
+ja = "でも"
+en = "but"
+ru = "но"
+uk = "але"
+es = "pero"
+
+[[new]]
+ja = "夏[なつ]"
+en = "summer"
+ru = "лето"
+uk = "літо"
+es = "verano"
+
+[[new]]
+ja = "ブラジル"
+en = "Brazil"
+ru = "Бразилия"
+uk = "Бразилія"
+es = "Brasil"
+
+[[new]]
+ja = "日[に]本[ほん]"
+en = "Japan"
+ru = "Япония"
+uk = "Японія"
+es = "Japón"

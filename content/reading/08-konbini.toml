@@ -1,0 +1,204 @@
+lesson = 8
+title = { en = "At the convenience store", ru = "В комбини", uk = "У комбіні", es = "En la tienda de conveniencia" }
+scene = "A bright Japanese convenience store late on a cold winter evening: a tired young office worker in a coat at the checkout with a boxed lunch and a bottle of hot tea, a friendly clerk holding the lunch next to a microwave, snow outside the glass door."
+
+[[prose]]
+ja = "ワン|さん|は|会[かい]社[しゃ]員[いん]|です|。|毎[まい]日[にち]|とても|忙[いそが]しい|です|。|仕[し]事[ごと]|は|おもしろい|です|が|、|きつい|です|。"
+en = "Wang is a company employee. He is very busy every day. His work is interesting, but tough."
+ru = "Ван — служащий компании. Он очень занят каждый день. Работа интересная, но тяжёлая."
+uk = "Ван — службовець компанії. Він дуже зайнятий щодня. Робота цікава, але важка."
+es = "Wang es empleado de una empresa. Está muy ocupado todos los días. Su trabajo es interesante, pero duro."
+
+[[prose]]
+ja = "昨日[きのう]|、|ワン|さん|は|夜[よる]|九[く]時[じ]|に|家[うち]|へ|帰[かえ]りました=帰[かえ]ります|。|とても|寒[さむ]い|夜[よる]|です|。|駅[えき]|の|前[まえ]|の|コンビニ|へ|行[い]きました=行[い]きます|。"
+en = "Yesterday Wang went home at nine at night. It was a very cold night. He went to the convenience store in front of the station."
+ru = "Вчера Ван вернулся домой в девять вечера. Ночь очень холодная. Он зашёл в комбини перед станцией."
+uk = "Учора Ван повернувся додому о дев'ятій вечора. Ніч дуже холодна. Він зайшов до комбіні перед станцією."
+es = "Ayer Wang volvió a casa a las nueve de la noche. Hacía mucho frío. Fue a la tienda de conveniencia de delante de la estación."
+
+[[prose]]
+ja = "コンビニ|は|とても|便[べん]利[り]|です|。|朝[あさ]|も|夜[よる]|も|買[か]います|。|そして|、|あまり|高[たか]くない=高[たか]い|です|。"
+en = "Convenience stores are very handy. You can buy things morning and night. And they aren't very expensive."
+ru = "Комбини очень удобные. Покупать можно и утром, и ночью. И не очень дорого."
+uk = "Комбіні дуже зручні. Купувати можна і вранці, і вночі. І не дуже дорого."
+es = "Las tiendas de conveniencia son muy prácticas. Se puede comprar por la mañana y por la noche. Y no son muy caras."
+
+[[prose]]
+ja = "ワン|さん|は|お弁[べん]当[とう]|と|温[あたた]かい|お茶[ちゃ]|を|買[か]いました=買[か]います|。|店[てん]員[いん]|は|お弁[べん]当[とう]|を|温[あたた]めました=温[あたた]めます|。"
+en = "Wang bought a bento and a hot tea. The clerk heated the bento."
+ru = "Ван купил бэнто и горячий чай. Продавец разогрел бэнто."
+uk = "Ван купив бенто й гарячий чай. Продавець розігрів бенто."
+es = "Wang compró un bento y un té caliente. El dependiente le calentó el bento."
+
+[[prose]]
+ja = "ワン|さん|の|鞄[かばん]|は|大[おお]きい|です|。|レジ袋[ぶくろ]|は|もらいませんでした=もらいます|。"
+en = "Wang's bag is big. He didn't take a plastic bag."
+ru = "У Вана большая сумка. Пакет он не взял."
+uk = "У Вана велика сумка. Пакет він не взяв."
+es = "La bolsa de Wang es grande. No cogió bolsa de plástico."
+
+[[prose]]
+ja = "店[てん]員[いん]|は|とても|親[しん]切[せつ]|です|。|そして|、|元[げん]気[き]|です|。|ワン|さん|は|コンビニ|の|店[てん]員[いん]|と|少[すこ]し|話[はな]しました=話[はな]します|。"
+en = "The clerk is very kind. And cheerful. Wang chatted with the clerk for a little while."
+ru = "Продавец очень приветливый. И бодрый. Ван немного поболтал с ним."
+uk = "Продавець дуже привітний. І бадьорий. Ван трохи поговорив із ним."
+es = "El dependiente es muy amable. Y alegre. Wang charló un poco con él."
+
+[[prose]]
+ja = "家[うち]|で|温[あたた]かい|お弁[べん]当[とう]|を|食[た]べました=食[た]べます|。|コンビニ|の|お弁[べん]当[とう]|は|安[やす]い|です|が|、|おいしい|です|。|ワン|さん|は|もう|寝[ね]ます|。"
+en = "At home he ate the warm bento. Convenience-store bentos are cheap, but good. Now Wang goes to bed."
+ru = "Дома он съел тёплое бэнто. Бэнто из комбини дешёвые, но вкусные. Теперь Ван ложится спать."
+uk = "Удома він з'їв тепле бенто. Бенто з комбіні дешеві, але смачні. Тепер Ван лягає спати."
+es = "En casa se comió el bento caliente. Los bentos de la tienda son baratos, pero están ricos. Ahora Wang se va a dormir."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "いらっしゃいませ|。"
+en = "Welcome!"
+ru = "Добро пожаловать!"
+uk = "Ласкаво просимо!"
+es = "¡Bienvenido!"
+
+[[dialog]]
+speaker = "ワン"
+ja = "これ|、|お願[ねが]いします。"
+en = "This, please."
+ru = "Вот это, пожалуйста."
+uk = "Ось це, будь ласка."
+es = "Esto, por favor."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "お弁[べん]当[とう]|、|温[あたた]めます|か|。"
+en = "Shall I heat your bento?"
+ru = "Бэнто разогреть?"
+uk = "Бенто розігріти?"
+es = "¿Le caliento el bento?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "はい|、|お願[ねが]いします。|それから|、|お茶[ちゃ]|も|ください。"
+en = "Yes, please. And a tea too, please."
+ru = "Да, пожалуйста. И ещё чай."
+uk = "Так, будь ласка. І ще чай."
+es = "Sí, por favor. Y también un té."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "温[あたた]かい|お茶[ちゃ]|です|か|、|冷[つめ]たい|お茶[ちゃ]|です|か|。"
+en = "Hot tea or cold tea?"
+ru = "Горячий чай или холодный?"
+uk = "Гарячий чай чи холодний?"
+es = "¿Té caliente o té frío?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "温[あたた]かい|お茶[ちゃ]|を|ください。|今日[きょう]|は|寒[さむ]い|です|ね|。"
+en = "A hot one, please. It's cold today, isn't it?"
+ru = "Горячий, пожалуйста. Сегодня холодно, правда?"
+uk = "Гарячий, будь ласка. Сьогодні холодно, правда?"
+es = "Caliente, por favor. Hoy hace frío, ¿verdad?"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "そう|です|ね|。|とても|寒[さむ]い|です|ね|。|お茶[ちゃ]|は|熱[あつ]い|です|よ|。"
+en = "It is. Very cold. Careful, the tea is hot."
+ru = "Да, очень холодно. Осторожно, чай горячий."
+uk = "Так, дуже холодно. Обережно, чай гарячий."
+es = "Sí, mucho frío. Cuidado, el té está caliente."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "レジ袋[ぶくろ]、いりますか。"
+en = "Do you need a plastic bag?"
+ru = "Пакет нужен?"
+uk = "Пакет потрібен?"
+es = "¿Necesita bolsa?"
+
+[[dialog]]
+speaker = "ワン"
+ja = "いいえ|、|大[だい]丈[じょう]夫[ぶ]|です|。|鞄[かばん]|は|大[おお]きい|です|。"
+en = "No, I'm fine. My bag is big."
+ru = "Нет, не надо. У меня большая сумка."
+uk = "Ні, не треба. У мене велика сумка."
+es = "No, gracias. Mi bolsa es grande."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "６８０円[えん]=円[えん]|です|。"
+en = "That's 680 yen."
+ru = "680 иен."
+uk = "680 єн."
+es = "Son 680 yenes."
+
+[[dialog]]
+speaker = "ワン"
+ja = "カード|で|お願[ねが]いします。"
+en = "By card, please."
+ru = "Картой, пожалуйста."
+uk = "Карткою, будь ласка."
+es = "Con tarjeta, por favor."
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "ありがとうございました|。"
+en = "Thank you very much."
+ru = "Спасибо за покупку."
+uk = "Дякуємо за покупку."
+es = "Muchas gracias."
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "コンビニ"
+en = "convenience store"
+ru = "комбини, круглосуточный магазин"
+uk = "комбіні, цілодобовий магазин"
+es = "tienda de conveniencia, konbini"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop assistant, clerk"
+ru = "продавец"
+uk = "продавець"
+es = "dependiente"
+
+[[new]]
+ja = "お弁[べん]当[とう]"
+en = "boxed lunch, bento"
+ru = "бэнто, обед в коробке"
+uk = "бенто, обід у коробці"
+es = "bento, comida en caja"
+
+[[new]]
+ja = "いらっしゃいませ"
+en = "welcome (in a shop)"
+ru = "добро пожаловать (в магазине)"
+uk = "ласкаво просимо (у магазині)"
+es = "bienvenido (en una tienda)"
+
+[[new]]
+ja = "少[すこ]し"
+en = "a little"
+ru = "немного"
+uk = "трохи"
+es = "un poco"
+
+[[new]]
+ja = "話[はな]します"
+en = "speak, talk"
+ru = "говорить"
+uk = "говорити"
+es = "hablar"
+
+[[new]]
+ja = "前[まえ]"
+en = "front; before"
+ru = "перед, впереди"
+uk = "перед, попереду"
+es = "delante; antes"
