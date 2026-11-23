@@ -56,6 +56,12 @@ jp = "買い物"
 en = "Supermarket & konbini"
 color = "#1f78c4"
 color_dark = "#4fa0e6"
+[[topic]]
+id = "health"
+jp = "病院"
+en = "Clinic & health"
+color = "#2f7f9e"
+color_dark = "#5fb3d4"
 
 [[topic]]
 id = "culture"
@@ -5802,6 +5808,135 @@ topic = "shop"
 section = "Labels & signs"
 kind = "tip"
 note = "Put money and cards on the tray at the register. Don't eat while walking in busy areas; konbini often have an eat-in corner (イートイン). Rubbish bins are rare outside, so carry your trash or use the konbini bins."
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "say"
+ja = "英語[えいご]を話[はな]せる先生[せんせい]はいますか"
+en = "Is there a doctor who speaks English?"
+ru = "Есть врач, который говорит по-английски?"
+uk = "Є лікар, який говорить англійською?"
+es = "¿Hay algún médico que hable inglés?"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "初診[しょしん]ですか"
+en = "Is this your first visit?"
+ru = "Вы у нас впервые?"
+uk = "Ви в нас уперше?"
+es = "¿Es su primera visita?"
+answers = [
+    { ja = "はい、初[はじ]めてです", en = "Yes, it's my first time", ru = "Да, впервые", uk = "Так, уперше", es = "Sí, es la primera vez" },
+]
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "保険証[ほけんしょう]をお願[ねが]いします"
+en = "Your health insurance card, please"
+ru = "Ваш страховой полис, пожалуйста"
+uk = "Ваш страховий поліс, будь ласка"
+es = "Su tarjeta del seguro médico, por favor"
+note = "Residents show the 保険証; visitors without one pay in full, so keep the receipt for your travel insurance."
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "こちらの問診票[もんしんひょう]にご記入[きにゅう]ください"
+en = "Please fill in this questionnaire"
+ru = "Заполните, пожалуйста, эту анкету"
+uk = "Заповніть, будь ласка, цю анкету"
+es = "Rellene este cuestionario, por favor"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "どうしましたか"
+en = "What seems to be the problem?"
+ru = "Что вас беспокоит?"
+uk = "Що вас турбує?"
+es = "¿Qué le pasa?"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "say"
+ja = "熱[ねつ]があります"
+en = "I have a fever"
+ru = "У меня температура"
+uk = "У мене температура"
+es = "Tengo fiebre"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "say"
+ja = "頭[あたま]が痛[いた]いです"
+en = "I have a headache"
+ru = "У меня болит голова"
+uk = "У мене болить голова"
+es = "Me duele la cabeza"
+note = "Swap the body part: のど (throat), お腹[なか] (stomach), 歯[は] (tooth)."
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "say"
+ja = "のどが痛[いた]いです"
+en = "I have a sore throat"
+ru = "У меня болит горло"
+uk = "У мене болить горло"
+es = "Me duele la garganta"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "いつからですか"
+en = "Since when?"
+ru = "С какого времени?"
+uk = "Відколи?"
+es = "¿Desde cuándo?"
+answers = [
+    { ja = "昨日[きのう]からです", en = "Since yesterday", ru = "Со вчерашнего дня", uk = "З учорашнього дня", es = "Desde ayer" },
+]
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "say"
+ja = "薬[くすり]のアレルギーはありません"
+en = "I'm not allergic to any medicine"
+ru = "У меня нет аллергии на лекарства"
+uk = "У мене немає алергії на ліки"
+es = "No tengo alergia a ningún medicamento"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "一日[いちにち]三回[さんかい]、食後[しょくご]に飲[の]んでください"
+en = "Take it three times a day, after meals"
+ru = "Принимайте три раза в день после еды"
+uk = "Приймайте тричі на день після їжі"
+es = "Tómelo tres veces al día, después de las comidas"
+
+[[phrase]]
+topic = "health"
+section = "At the clinic"
+kind = "hear"
+ja = "お大事[だいじ]に"
+en = "Take care / Get well soon"
+ru = "Поправляйтесь"
+uk = "Одужуйте"
+es = "Que se mejore"
+note = "Said by staff as you leave, and by friends when you are ill. The reply is ありがとうございます."
 
 [[phrase]]
 topic = "culture"

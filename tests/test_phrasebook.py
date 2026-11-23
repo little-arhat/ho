@@ -18,8 +18,8 @@ def find(ja):
 
 
 def test_counts():
-    assert len(PB.topics) == 11
-    assert len(PB.phrases) == 545
+    assert len(PB.topics) == 12
+    assert len(PB.phrases) == 557
 
 
 def test_unknown_topic(tmp_path):

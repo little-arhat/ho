@@ -58,7 +58,7 @@ def test_reading_popups_link_to_word_pages(site):
 
 
 def test_embedded_data(site):
-    assert len(data(site, "phrasebook/index.html")["phrases"]) == 545
+    assert len(data(site, "phrasebook/index.html")["phrases"]) == 557
     words = data(site, "katakana/index.html")
     assert len(words) == 198
     assert {"exact", "near_long", "typed", "macron", "ru", "uk", "es"} <= set(words[0])

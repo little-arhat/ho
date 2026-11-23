@@ -1,0 +1,308 @@
+title = { en = "Checking in", ru = "Заселение в отель", uk = "Заселення в готель", es = "Registro en el hotel" }
+scene = "A neat business-hotel lobby in Japan: a young woman with a suitcase at the front desk, a receptionist in uniform handing over a key card and a registration form, a small sign with Wi-Fi details on the counter."
+
+[[prose]]
+ja = "マリア|さん|は|京[きょう]都[と]|の|ホテル|に|着[つ]きました=着[つ]きます|。|ホテル|は|駅[えき]|から|近[ちか]くて=近[ちか]い|、|便[べん]利[り]|です|。|フロント|で|名[な]前[まえ]|を|言[い]って=言[い]います|、|パスポート|を|見[み]せました=見[み]せます|。"
+en = "Maria arrived at a hotel in Kyoto. The hotel is close to the station and convenient. At the front desk she gave her name and showed her passport."
+ru = "Мария приехала в отель в Киото. Отель недалеко от станции, удобно. На ресепшене она назвала имя и показала паспорт."
+uk = "Марія приїхала до готелю в Кіото. Готель недалеко від станції, зручно. На рецепції вона назвала ім'я і показала паспорт."
+es = "Maria llegó a un hotel en Kioto. El hotel está cerca de la estación y es práctico. En recepción dijo su nombre y enseñó el pasaporte."
+
+[[prose]]
+ja = "部[へ]屋[や]|は|五[ご]階[かい]|でした|。|狭[せま]かったです=狭[せま]い|が|、|きれい|でした|。|マリア|さん|は|荷[に]物[もつ]|を|置[お]いて=置[お]きます|、|晩[ばん]ご飯[はん]|を|食[た]べに=食[た]べます|行[い]きました=行[い]きます|。"
+en = "Her room was on the fifth floor. It was small but clean. Maria left her bags and went out for dinner."
+ru = "Номер был на пятом этаже. Тесный, но чистый. Мария оставила вещи и пошла ужинать."
+uk = "Номер був на п'ятому поверсі. Тісний, але чистий. Марія залишила речі й пішла вечеряти."
+es = "La habitación estaba en el quinto piso. Era pequeña, pero limpia. Maria dejó el equipaje y salió a cenar."
+
+[[dialog]]
+speaker = "マリア"
+ja = "こんばんは|。|チェックイン|を|お願[ねが]いします|。|予[よ]約[やく]|した|マリア・ロペス|です|。"
+en = "Good evening. Check-in, please. The booking is under Maria Lopez."
+ru = "Добрый вечер. Заселение, пожалуйста. Бронь на имя Мария Лопес."
+uk = "Добрий вечір. Заселення, будь ласка. Бронювання на ім'я Марія Лопес."
+es = "Buenas noches. Quería registrarme. La reserva está a nombre de Maria López."
+uses = ["チェックインをお願[ねが]いします。予約[よやく]した〇〇です"]
+
+[[dialog]]
+speaker = "フロント"
+ja = "マリア・ロペス|様[さま]|です|ね|。|パスポート|を|拝[はい]見[けん]しても=拝[はい]見[けん]します|よろしいですか|。"
+en = "Ms. Maria Lopez. May I see your passport?"
+ru = "Госпожа Мария Лопес. Можно ваш паспорт?"
+uk = "Пані Марія Лопес. Можна ваш паспорт?"
+es = "La señora Maria López. ¿Me permite el pasaporte?"
+uses = ["パスポートを拝見[はいけん]してもよろしいですか"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "はい|、|どうぞ|。"
+en = "Yes, here you are."
+ru = "Да, пожалуйста."
+uk = "Так, будь ласка."
+es = "Sí, aquí tiene."
+
+[[dialog]]
+speaker = "フロント"
+ja = "ありがとうございます|。|こちら|に|ご記[き]入[にゅう]|ください|。"
+en = "Thank you. Please fill this in."
+ru = "Спасибо. Заполните, пожалуйста, вот здесь."
+uk = "Дякую. Заповніть, будь ласка, ось тут."
+es = "Gracias. Rellene esto, por favor."
+uses = ["こちらにご記入[きにゅう]ください"]
+
+[[dialog]]
+speaker = "フロント"
+ja = "お部[へ]屋[や]=部[へ]屋[や]|は|５|階[かい]|の|５０３|号[ごう]室[しつ]|で|ございます|。|朝[ちょう]食[しょく]|は|７|時[じ]|から|９|時[じ]|まで|です|。"
+en = "Your room is 503 on the 5th floor. Breakfast is from 7 to 9."
+ru = "Ваш номер — 503, на пятом этаже. Завтрак с семи до девяти."
+uk = "Ваш номер — 503, на п'ятому поверсі. Сніданок із сьомої до дев'ятої."
+es = "Su habitación es la 503, en el quinto piso. El desayuno es de 7 a 9."
+uses = ["お部屋[へや]は5階[かい]の503号室[ごうしつ]でございます", "朝食[ちょうしょく]は7時[じ]から9時[じ]までです"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "チェックアウト|は|何[なん]時[じ]|です|か|。"
+en = "What time is check-out?"
+ru = "Во сколько выезд?"
+uk = "О котрій виїзд?"
+es = "¿A qué hora es la salida?"
+uses = ["チェックアウトは何時[なんじ]ですか"]
+
+[[dialog]]
+speaker = "フロント"
+ja = "十[じゅう]時[じ]|です|。"
+en = "At ten."
+ru = "В десять."
+uk = "О десятій."
+es = "A las diez."
+
+[[dialog]]
+speaker = "マリア"
+ja = "Wi-Fi|の|パスワード|を|教[おし]えてください=教[おし]えます|。"
+en = "What's the Wi-Fi password, please?"
+ru = "Скажите, пожалуйста, пароль от Wi-Fi."
+uk = "Скажіть, будь ласка, пароль від Wi-Fi."
+es = "¿Me dice la contraseña del wifi, por favor?"
+uses = ["Wi-Fiのパスワードを教[おし]えてください"]
+
+[[dialog]]
+speaker = "フロント"
+ja = "こちら|に|書[か]いてあります=書[か]きます|。"
+en = "It's written here."
+ru = "Он написан вот здесь."
+uk = "Він написаний ось тут."
+es = "Está escrita aquí."
+
+[[dialog]]
+speaker = "マリア"
+ja = "あの|、|近[ちか]く|に|おすすめ|の|レストラン|は|ありますか|。"
+en = "Um, is there a restaurant you'd recommend nearby?"
+ru = "Скажите, а поблизости есть ресторан, который вы посоветуете?"
+uk = "Скажіть, а поблизу є ресторан, який ви порадите?"
+es = "Oiga, ¿hay algún restaurante recomendable por aquí cerca?"
+uses = ["近[ちか]くにおすすめのレストランはありますか"]
+
+[[dialog]]
+speaker = "フロント"
+ja = "駅[えき]|の|前[まえ]|の|うどん|屋[や]|が|おいしい|です|よ|。"
+en = "The udon shop in front of the station is good."
+ru = "Удон-лавка у станции — вкусная."
+uk = "Удон-крамничка біля станції — смачна."
+es = "El local de udon delante de la estación está muy bueno."
+
+[[dialog]]
+speaker = "マリア"
+ja = "ありがとうございます|。|行[い]ってみます=行[い]きます|。"
+en = "Thank you. I'll give it a try."
+ru = "Спасибо. Схожу попробую."
+uk = "Дякую. Сходжу спробую."
+es = "Gracias. Iré a probarlo."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+es = "Kioto"
+
+[[new]]
+ja = "ホテル"
+en = "hotel"
+ru = "гостиница, отель"
+uk = "готель"
+es = "hotel"
+
+[[new]]
+ja = "着[つ]きます"
+en = "arrive"
+ru = "прибывать"
+uk = "прибувати"
+es = "llegar"
+
+[[new]]
+ja = "近[ちか]い"
+en = "near, close"
+ru = "близкий"
+uk = "близький"
+es = "cercano"
+
+[[new]]
+ja = "フロント"
+en = "front desk, reception"
+ru = "ресепшен"
+uk = "рецепція"
+es = "recepción"
+
+[[new]]
+ja = "名[な]前[まえ]"
+en = "name"
+ru = "имя"
+uk = "ім'я"
+es = "nombre"
+
+[[new]]
+ja = "言[い]います"
+en = "say"
+ru = "говорить, сказать"
+uk = "казати, сказати"
+es = "decir"
+
+[[new]]
+ja = "パスポート"
+en = "passport"
+ru = "паспорт"
+uk = "паспорт"
+es = "pasaporte"
+
+[[new]]
+ja = "見[み]せます"
+en = "show"
+ru = "показывать"
+uk = "показувати"
+es = "enseñar, mostrar"
+
+[[new]]
+ja = "置[お]きます"
+en = "put, leave"
+ru = "класть, оставлять"
+uk = "класти, залишати"
+es = "dejar, poner"
+
+[[new]]
+ja = "チェックイン"
+en = "check-in"
+ru = "заселение"
+uk = "заселення"
+es = "registro de entrada"
+
+[[new]]
+ja = "予[よ]約[やく]"
+en = "reservation, booking"
+ru = "бронь, заказ"
+uk = "бронювання"
+es = "reserva"
+
+[[new]]
+ja = "マリア・ロペス"
+en = "Maria Lopez (a name)"
+ru = "Мария Лопес (имя)"
+uk = "Марія Лопес (ім'я)"
+es = "Maria López (nombre)"
+
+[[new]]
+ja = "様[さま]"
+en = "Mr., Ms. (very polite さん)"
+ru = "господин, госпожа (очень вежливое さん)"
+uk = "пан, пані (дуже ввічливе さん)"
+es = "señor, señora (さん muy cortés)"
+
+[[new]]
+ja = "拝[はい]見[けん]します"
+en = "look at, see (humble)"
+ru = "посмотреть (скромно)"
+uk = "переглянути (скромно)"
+es = "ver, mirar (humilde)"
+
+[[new]]
+ja = "ご記[き]入[にゅう]"
+en = "filling in (a form, polite)"
+ru = "заполнение (вежливо)"
+uk = "заповнення (ввічливо)"
+es = "rellenar (cortés)"
+
+[[new]]
+ja = "階[かい]"
+en = "floor (counter)"
+ru = "этаж (счётное слово)"
+uk = "поверх (лічильне слово)"
+es = "piso (contador)"
+
+[[new]]
+ja = "号[ごう]室[しつ]"
+en = "room number"
+ru = "номер комнаты"
+uk = "номер кімнати"
+es = "habitación número"
+
+[[new]]
+ja = "朝[ちょう]食[しょく]"
+en = "breakfast"
+ru = "завтрак"
+uk = "сніданок"
+es = "desayuno"
+
+[[new]]
+ja = "時[じ]"
+en = "… o'clock"
+ru = "… час(ов)"
+uk = "… година"
+es = "las … (hora)"
+
+[[new]]
+ja = "チェックアウト"
+en = "check-out"
+ru = "выезд"
+uk = "виїзд"
+es = "salida, check-out"
+
+[[new]]
+ja = "十[じゅう]時[じ]"
+en = "ten o'clock"
+ru = "десять часов"
+uk = "десята година"
+es = "las diez"
+
+[[new]]
+ja = "パスワード"
+en = "password"
+ru = "пароль"
+uk = "пароль"
+es = "contraseña"
+
+[[new]]
+ja = "近[ちか]く"
+en = "near, nearby"
+ru = "рядом, поблизости"
+uk = "поруч, неподалік"
+es = "cerca"
+
+[[new]]
+ja = "前[まえ]"
+en = "front, in front of"
+ru = "перед, впереди"
+uk = "перед, попереду"
+es = "delante"
+
+[[new]]
+ja = "屋[や]"
+en = "shop (in names: うどん屋 = udon shop)"
+ru = "лавка, заведение (うどん屋 — удон-лавка)"
+uk = "крамниця, заклад (うどん屋 — удон-крамничка)"
+es = "tienda (うどん屋 = local de udon)"

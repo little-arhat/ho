@@ -1,0 +1,253 @@
+title = { en = "A cold, and a visit to the clinic", ru = "Простуда и визит в клинику", uk = "Застуда й візит до клініки", es = "Un resfriado y una visita a la clínica" }
+scene = "A small, clean Japanese clinic: a young woman with a face mask sits across from a friendly doctor in a white coat holding a stethoscope, a receptionist's window and a waiting room with a few chairs visible through an open door."
+
+[[prose]]
+ja = "月[げつ]曜[よう]日[び]|の|朝[あさ]|、|カリナ|さん|は|熱[ねつ]|が|ありました|。|頭[あたま]|も|のど|も|痛[いた]かったです=痛[いた]い|。|カリナ|さん|は|会[かい]社[しゃ]|を|休[やす]んで=休[やす]みます|、|近[ちか]く|の|病[びょう]院[いん]|へ|行[い]きました=行[い]きます|。"
+en = "On Monday morning Karina had a fever. Her head and throat hurt. She took the day off work and went to a clinic nearby."
+ru = "В понедельник утром у Карины была температура. Болели голова и горло. Она не пошла на работу и отправилась в ближайшую клинику."
+uk = "У понеділок уранці в Карини була температура. Боліли голова й горло. Вона не пішла на роботу й вирушила до найближчої клініки."
+es = "El lunes por la mañana Karina tenía fiebre. Le dolían la cabeza y la garganta. Faltó al trabajo y fue a una clínica cercana."
+
+[[prose]]
+ja = "受[うけ]付[つけ]|で|保[ほ]険[けん]証[しょう]|を|見[み]せて=見[み]せます|、|問[もん]診[しん]票[ひょう]|を|書[か]きました=書[か]きます|。|先[せん]生[せい]|は|「|風邪[かぜ]|です|ね|」|と|言[い]いました=言[い]います|。|カリナ|さん|は|薬[くすり]|を|もらって=もらいます|、|家[うち]|で|ゆっくり|寝[ね]ました=寝[ね]ます|。"
+en = "At reception she showed her insurance card and filled in the questionnaire. The doctor said, \"It's a cold.\" Karina got some medicine and had a good long sleep at home."
+ru = "В регистратуре она показала страховой полис и заполнила анкету. Врач сказал: «Это простуда». Карина получила лекарство и как следует выспалась дома."
+uk = "У реєстратурі вона показала страховий поліс і заповнила анкету. Лікар сказав: «Це застуда». Карина отримала ліки й добре виспалася вдома."
+es = "En recepción enseñó la tarjeta del seguro y rellenó el cuestionario. El médico dijo: «Es un resfriado». Karina recibió medicinas y durmió a gusto en casa."
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "おはようございます|。|初[しょ]診[しん]|です|か|。"
+en = "Good morning. Is this your first visit?"
+ru = "Доброе утро. Вы у нас впервые?"
+uk = "Доброго ранку. Ви в нас уперше?"
+es = "Buenos días. ¿Es su primera visita?"
+uses = ["初診[しょしん]ですか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "はい|、|初[はじ]めて|です|。"
+en = "Yes, it's my first time."
+ru = "Да, впервые."
+uk = "Так, уперше."
+es = "Sí, es la primera vez."
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "保[ほ]険[けん]証[しょう]|を|お願[ねが]いします|。|それから|、|こちら|の|問[もん]診[しん]票[ひょう]|に|ご記[き]入[にゅう]|ください|。"
+en = "Your insurance card, please. And please fill in this questionnaire."
+ru = "Ваш страховой полис, пожалуйста. И заполните эту анкету."
+uk = "Ваш страховий поліс, будь ласка. І заповніть цю анкету."
+es = "Su tarjeta del seguro, por favor. Y rellene este cuestionario."
+uses = ["保険証[ほけんしょう]をお願[ねが]いします", "こちらの問診票[もんしんひょう]にご記入[きにゅう]ください"]
+
+[[dialog]]
+speaker = "医[い]者[しゃ]"
+ja = "カリナ|さん|、|どうしましたか|。"
+en = "Karina, what seems to be the problem?"
+ru = "Карина, что вас беспокоит?"
+uk = "Карино, що вас турбує?"
+es = "Karina, ¿qué le pasa?"
+uses = ["どうしましたか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "熱[ねつ]|が|あります|。|それから|、|頭[あたま]|が|痛[いた]い|です|。|のど|が|痛[いた]い|です|。"
+en = "I have a fever. And I have a headache. I have a sore throat."
+ru = "У меня температура. И болит голова. Болит горло."
+uk = "У мене температура. І болить голова. Болить горло."
+es = "Tengo fiebre. Y me duele la cabeza. Me duele la garganta."
+uses = ["熱[ねつ]があります", "頭[あたま]が痛[いた]いです", "のどが痛[いた]いです"]
+
+[[dialog]]
+speaker = "医[い]者[しゃ]"
+ja = "いつ|から|です|か|。"
+en = "Since when?"
+ru = "С какого времени?"
+uk = "Відколи?"
+es = "¿Desde cuándo?"
+uses = ["いつからですか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "昨日[きのう]|の|晩[ばん]|から|です|。"
+en = "Since last night."
+ru = "Со вчерашнего вечера."
+uk = "З учорашнього вечора."
+es = "Desde anoche."
+
+[[dialog]]
+speaker = "医[い]者[しゃ]"
+ja = "そう|です|か|。|……|風邪[かぜ]|です|ね|。|薬[くすり]|の|アレルギー|は|ありますか|。"
+en = "I see. … It's a cold. Are you allergic to any medicine?"
+ru = "Понятно. …Это простуда. У вас есть аллергия на лекарства?"
+uk = "Зрозуміло. …Це застуда. У вас є алергія на ліки?"
+es = "Ya veo. … Es un resfriado. ¿Tiene alergia a algún medicamento?"
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいえ|、|薬[くすり]|の|アレルギー|は|ありません|。"
+en = "No, I'm not allergic to any medicine."
+ru = "Нет, аллергии на лекарства у меня нет."
+uk = "Ні, алергії на ліки в мене немає."
+es = "No, no tengo alergia a ningún medicamento."
+uses = ["薬[くすり]のアレルギーはありません"]
+
+[[dialog]]
+speaker = "医[い]者[しゃ]"
+ja = "この|薬[くすり]|を|一[いち]日[にち]|三[さん]回[かい]|、|食[しょく]後[ご]|に|飲[の]んでください=飲[の]みます|。|今日[きょう]|と|明日[あした]|は|ゆっくり|休[やす]んでください=休[やす]みます|。"
+en = "Take this medicine three times a day, after meals. Rest well today and tomorrow."
+ru = "Принимайте это лекарство три раза в день после еды. Сегодня и завтра хорошо отдохните."
+uk = "Приймайте ці ліки тричі на день після їжі. Сьогодні й завтра добре відпочиньте."
+es = "Tómese esta medicina tres veces al día, después de las comidas. Hoy y mañana descanse bien."
+uses = ["一日[いちにち]三回[さんかい]、食後[しょくご]に飲[の]んでください"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "分[わ]かりました。|ありがとうございました|。"
+en = "Understood. Thank you very much."
+ru = "Понятно. Большое спасибо."
+uk = "Зрозуміло. Щиро дякую."
+es = "Entendido. Muchas gracias."
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "お大[だい]事[じ]|に|。"
+en = "Get well soon."
+ru = "Поправляйтесь."
+uk = "Одужуйте."
+es = "Que se mejore."
+uses = ["お大事[だいじ]に"]
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "熱[ねつ]"
+en = "fever"
+ru = "температура, жар"
+uk = "температура, жар"
+es = "fiebre"
+
+[[new]]
+ja = "頭[あたま]"
+en = "head"
+ru = "голова"
+uk = "голова"
+es = "cabeza"
+
+[[new]]
+ja = "痛[いた]い"
+en = "painful, it hurts"
+ru = "больно, болит"
+uk = "боляче, болить"
+es = "doler, dolorido"
+
+[[new]]
+ja = "近[ちか]く"
+en = "near, nearby"
+ru = "рядом, поблизости"
+uk = "поруч, неподалік"
+es = "cerca"
+
+[[new]]
+ja = "保[ほ]険[けん]証[しょう]"
+en = "health insurance card"
+ru = "страховой полис"
+uk = "страховий поліс"
+es = "tarjeta del seguro médico"
+
+[[new]]
+ja = "見[み]せます"
+en = "show"
+ru = "показывать"
+uk = "показувати"
+es = "enseñar, mostrar"
+
+[[new]]
+ja = "問[もん]診[しん]票[ひょう]"
+en = "medical questionnaire"
+ru = "анкета пациента"
+uk = "анкета пацієнта"
+es = "cuestionario médico"
+
+[[new]]
+ja = "風邪[かぜ]"
+en = "a cold"
+ru = "простуда"
+uk = "застуда"
+es = "resfriado"
+
+[[new]]
+ja = "言[い]います"
+en = "say"
+ru = "говорить, сказать"
+uk = "казати, сказати"
+es = "decir"
+
+[[new]]
+ja = "薬[くすり]"
+en = "medicine"
+ru = "лекарство"
+uk = "ліки"
+es = "medicina"
+
+[[new]]
+ja = "初[しょ]診[しん]"
+en = "first visit (to a doctor)"
+ru = "первичный приём"
+uk = "первинний прийом"
+es = "primera consulta"
+
+[[new]]
+ja = "初[はじ]めて"
+en = "for the first time"
+ru = "впервые"
+uk = "уперше"
+es = "por primera vez"
+
+[[new]]
+ja = "ご記[き]入[にゅう]"
+en = "filling in (a form, polite)"
+ru = "заполнение (вежливо)"
+uk = "заповнення (ввічливо)"
+es = "rellenar (cortés)"
+
+[[new]]
+ja = "アレルギー"
+en = "allergy"
+ru = "аллергия"
+uk = "алергія"
+es = "alergia"
+
+[[new]]
+ja = "一[いち]日[にち]"
+en = "one day, a day"
+ru = "один день, в день"
+uk = "один день, на день"
+es = "un día, al día"
+
+[[new]]
+ja = "三[さん]回[かい]"
+en = "three times"
+ru = "три раза"
+uk = "три рази"
+es = "tres veces"
+
+[[new]]
+ja = "食[しょく]後[ご]"
+en = "after meals"
+ru = "после еды"
+uk = "після їжі"
+es = "después de comer"
+
+[[new]]
+ja = "お大[だい]事[じ]"
+en = "(お大事に) get well soon"
+ru = "(お大事に) поправляйтесь"
+uk = "(お大事に) одужуйте"
+es = "(お大事に) que se mejore"

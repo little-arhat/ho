@@ -1,0 +1,242 @@
+title = { en = "At the temple", ru = "В храме", uk = "У храмі", es = "En el templo" }
+scene = "An old wooden Buddhist temple in Kyoto with autumn maple trees: two young women at a small admission booth, a row of shoes on wooden shelves at the hall entrance, a monk writing calligraphy in a stamp book at a table, small colourful charms on display."
+
+[[prose]]
+ja = "日[にち]曜[よう]日[び]|、|アンナ|さん|と|カリナ|さん|は|京[きょう]都[と]|の|古[ふる]い|お寺[てら]|へ|行[い]きました=行[い]きます|。|紅[こう]葉[よう]|が|とても|きれい|でした|。"
+en = "On Sunday Anna and Karina went to an old temple in Kyoto. The autumn leaves were beautiful."
+ru = "В воскресенье Анна и Карина пошли в старый храм в Киото. Осенние клёны были очень красивыми."
+uk = "У неділю Анна та Карина пішли до старого храму в Кіото. Осінні клени були дуже гарні."
+es = "El domingo Anna y Karina fueron a un templo antiguo de Kioto. Las hojas de otoño estaban preciosas."
+
+[[prose]]
+ja = "お寺[てら]|の|中[なか]|で|は|靴[くつ]|を|脱[ぬ]ぎます|。|それから|、|カリナ|さん|は|御[ご]朱[しゅ]印[いん]|を|もらいました=もらいます|。|アンナ|さん|は|お守[まも]り|を|買[か]いました=買[か]います|。"
+en = "Inside the temple you take your shoes off. Then Karina got a goshuin stamp, and Anna bought a charm."
+ru = "Внутри храма снимают обувь. Потом Карина получила печать госюин, а Анна купила амулет."
+uk = "Усередині храму знімають взуття. Потім Карина отримала печатку ґосюїн, а Анна купила амулет."
+es = "Dentro del templo hay que quitarse los zapatos. Luego Karina consiguió un sello goshuin y Anna compró un amuleto."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "すみません|。|拝[はい]観[かん]料[りょう]|は|いくら|です|か|。"
+en = "Excuse me. How much is the admission?"
+ru = "Простите. Сколько стоит вход?"
+uk = "Перепрошую. Скільки коштує вхід?"
+es = "Perdone. ¿Cuánto cuesta la entrada?"
+uses = ["拝観料[はいかんりょう]はいくらですか"]
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "大人[おとな]|は|５００|円[えん]|です|。"
+en = "Adults are 500 yen."
+ru = "Для взрослых — 500 иен."
+uk = "Для дорослих — 500 єн."
+es = "Los adultos, 500 yenes."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "あの|、|中[なか]|に|入[はい]っても=入[はい]ります|いいですか|。"
+en = "Um, may we go inside?"
+ru = "Простите, а внутрь можно?"
+uk = "Перепрошую, а всередину можна?"
+es = "Oiga, ¿se puede entrar?"
+uses = ["中[なか]に入[はい]ってもいいですか"]
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "はい|、|どうぞ|。|こちら|で|靴[くつ]|を|お脱[ぬ]ぎ=脱[ぬ]ぎます|ください|。"
+en = "Yes, go ahead. Please take your shoes off here."
+ru = "Да, пожалуйста. Снимите обувь здесь."
+uk = "Так, будь ласка. Зніміть взуття тут."
+es = "Sí, adelante. Quítense los zapatos aquí, por favor."
+uses = ["こちらで靴[くつ]をお脱[ぬ]ぎください"]
+
+[[dialog]]
+speaker = "アンナ"
+ja = "写[しゃ]真[しん]|は|いいですか|。"
+en = "Are photos OK?"
+ru = "А фотографировать можно?"
+uk = "А фотографувати можна?"
+es = "¿Se pueden hacer fotos?"
+
+[[dialog]]
+speaker = "受[うけ]付[つけ]"
+ja = "庭[にわ]|は|大[だい]丈[じょう]夫[ぶ]|です|。|でも|、|お堂[どう]|の|中[なか]|は|撮[さつ]影[えい]|禁[きん]止[し]|です|。"
+en = "The garden is fine. But inside the hall, no photography."
+ru = "В саду можно. Но внутри зала съёмка запрещена."
+uk = "У саду можна. Але всередині зали зйомка заборонена."
+es = "En el jardín, sí. Pero dentro del pabellón está prohibido hacer fotos."
+
+[[dialog]]
+speaker = "カリナ"
+ja = "すみません|、|御[ご]朱[しゅ]印[いん]|を|いただけますか=いただきます|。"
+en = "Excuse me, may I have a goshuin stamp?"
+ru = "Простите, можно получить печать госюин?"
+uk = "Перепрошую, можна отримати печатку ґосюїн?"
+es = "Perdone, ¿me podría dar un sello goshuin?"
+uses = ["御朱印[ごしゅいん]をいただけますか"]
+
+[[dialog]]
+speaker = "お坊[ぼう]さん"
+ja = "はい|。|３００|円[えん]|です|。|少[しょう]々[しょう]|お待[ま]ちください=待[ま]ちます|。"
+en = "Certainly. That's 300 yen. Just a moment, please."
+ru = "Конечно. 300 иен. Подождите немного."
+uk = "Звісно. 300 єн. Зачекайте трохи."
+es = "Claro. Son 300 yenes. Un momento, por favor."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "お守[まも]り|は|どこ|で|買[か]えますか=買[か]います|。"
+en = "Where can I buy a charm?"
+ru = "Где можно купить амулет?"
+uk = "Де можна купити амулет?"
+es = "¿Dónde se puede comprar un amuleto?"
+uses = ["お守[まも]りはどこで買[か]えますか"]
+
+[[dialog]]
+speaker = "お坊[ぼう]さん"
+ja = "あちら|です|。|こちら|は|勉[べん]強[きょう]=勉[べん]強[きょう]します|の|お守[まも]り|です|よ|。"
+en = "Over there. This one is a charm for studying."
+ru = "Вон там. А этот амулет — на учёбу."
+uk = "Он там. А цей амулет — на навчання."
+es = "Allí. Este es un amuleto para los estudios."
+
+[[dialog]]
+speaker = "アンナ"
+ja = "じゃ|、|それ|を|ください|。|日[に]本[ほん]語[ご]|の|試[し]験[けん]|が|あります|から|。"
+en = "Then I'll take that one. I have a Japanese exam coming up."
+ru = "Тогда его, пожалуйста. У меня скоро экзамен по японскому."
+uk = "Тоді його, будь ласка. У мене скоро іспит з японської."
+es = "Entonces me llevo ese. Tengo un examen de japonés."
+
+[[new]]
+ja = "アンナ"
+en = "Anna (a name)"
+ru = "Анна (имя)"
+uk = "Анна (ім'я)"
+es = "Anna (nombre)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "京[きょう]都[と]"
+en = "Kyoto"
+ru = "Киото"
+uk = "Кіото"
+es = "Kioto"
+
+[[new]]
+ja = "お寺[てら]"
+en = "Buddhist temple"
+ru = "буддийский храм"
+uk = "буддійський храм"
+es = "templo budista"
+
+[[new]]
+ja = "紅[こう]葉[よう]"
+en = "autumn leaves"
+ru = "осенняя листва"
+uk = "осіннє листя"
+es = "hojas de otoño"
+
+[[new]]
+ja = "中[なか]"
+en = "inside"
+ru = "внутри"
+uk = "всередині"
+es = "dentro"
+
+[[new]]
+ja = "脱[ぬ]ぎます"
+en = "take off (shoes, clothes)"
+ru = "снимать (обувь, одежду)"
+uk = "знімати (взуття, одяг)"
+es = "quitarse (zapatos, ropa)"
+
+[[new]]
+ja = "御[ご]朱[しゅ]印[いん]"
+en = "goshuin, a temple's stamp and calligraphy"
+ru = "госюин, печать и каллиграфия храма"
+uk = "ґосюїн, печатка й каліграфія храму"
+es = "goshuin, sello y caligrafía del templo"
+
+[[new]]
+ja = "お守[まも]り"
+en = "charm, amulet"
+ru = "амулет, оберег"
+uk = "амулет, оберіг"
+es = "amuleto"
+
+[[new]]
+ja = "拝[はい]観[かん]料[りょう]"
+en = "temple admission fee"
+ru = "плата за вход в храм"
+uk = "плата за вхід до храму"
+es = "entrada del templo"
+
+[[new]]
+ja = "大人[おとな]"
+en = "adult"
+ru = "взрослый"
+uk = "дорослий"
+es = "adulto"
+
+[[new]]
+ja = "入[はい]ります"
+en = "go in, enter"
+ru = "входить"
+uk = "входити"
+es = "entrar"
+
+[[new]]
+ja = "お堂[どう]"
+en = "temple hall"
+ru = "зал храма"
+uk = "зала храму"
+es = "pabellón del templo"
+
+[[new]]
+ja = "撮[さつ]影[えい]"
+en = "photography, filming"
+ru = "съёмка"
+uk = "зйомка"
+es = "fotografía, grabación"
+
+[[new]]
+ja = "禁[きん]止[し]"
+en = "prohibited"
+ru = "запрещено"
+uk = "заборонено"
+es = "prohibido"
+
+[[new]]
+ja = "お坊[ぼう]さん"
+en = "Buddhist monk"
+ru = "буддийский монах"
+uk = "буддійський монах"
+es = "monje budista"
+
+[[new]]
+ja = "少[しょう]々[しょう]"
+en = "a little (polite)"
+ru = "немного (вежливо)"
+uk = "трохи (ввічливо)"
+es = "un poco (cortés)"
+
+[[new]]
+ja = "待[ま]ちます"
+en = "wait"
+ru = "ждать"
+uk = "чекати"
+es = "esperar"
+
+[[new]]
+ja = "試[し]験[けん]"
+en = "exam"
+ru = "экзамен"
+uk = "іспит"
+es = "examen"

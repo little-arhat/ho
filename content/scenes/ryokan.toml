@@ -1,0 +1,314 @@
+title = { en = "A night at a ryokan", ru = "Ночь в рёкане", uk = "Ніч у рьокані", es = "Una noche en un ryokan" }
+scene = "A traditional Japanese inn room with tatami mats and a low table with green tea, two young women in cotton yukata sitting on cushions, an older innkeeper in a kimono kneeling at the open sliding door, a garden and steam from an outdoor bath visible outside."
+
+[[prose]]
+ja = "マリア|さん|と|由[ゆ]紀[き]|さん|は|箱[はこ]根[ね]|の|旅[りょ]館[かん]|に|泊[と]まりました=泊[と]まります|。|部[へ]屋[や]|は|畳[たたみ]|で|、|窓[まど]|から|山[やま]|が|見[み]えました=見[み]えます|。"
+en = "Maria and Yuki stayed at a ryokan in Hakone. The room had tatami mats, and you could see the mountains from the window."
+ru = "Мария и Юки остановились в рёкане в Хаконэ. В номере были татами, а из окна были видны горы."
+uk = "Марія та Юкі зупинилися в рьокані в Хаконе. У номері були татамі, а з вікна було видно гори."
+es = "Maria y Yuki se alojaron en un ryokan de Hakone. La habitación tenía tatami y desde la ventana se veían las montañas."
+
+[[prose]]
+ja = "晩[ばん]|、|二[ふた]人[り]|は|浴[ゆ]衣[かた]|を|着[き]て=着[き]ます|、|温[おん]泉[せん]|に|入[はい]りました=入[はい]ります|。|それから|、|部[へ]屋[や]|で|夕[ゆう]食[しょく]|を|食[た]べました=食[た]べます|。|魚[さかな]|も|野[や]菜[さい]|も|とても|おいしかったです=おいしい|。"
+en = "In the evening the two of them put on yukata and went into the hot spring. Then they had dinner in their room. The fish and the vegetables were all delicious."
+ru = "Вечером они надели юкаты и пошли в горячий источник. Потом ужинали в номере. И рыба, и овощи были очень вкусными."
+uk = "Увечері вони вдягли юкати й пішли до гарячого джерела. Потім вечеряли в номері. І риба, і овочі були дуже смачні."
+es = "Por la noche se pusieron el yukata y se bañaron en las aguas termales. Luego cenaron en la habitación. El pescado y la verdura estaban riquísimos."
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "いらっしゃいませ|。|遠[とお]い|所[ところ]|から|、|ようこそ|。"
+en = "Welcome. Thank you for coming all this way."
+ru = "Добро пожаловать. Спасибо, что приехали издалека."
+uk = "Ласкаво просимо. Дякуємо, що приїхали здалеку."
+es = "Bienvenidas. Gracias por venir desde tan lejos."
+uses = ["いらっしゃいませ"]
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "夕[ゆう]食[しょく]|は|何[なん]時[じ]|に|なさいますか|。"
+en = "What time would you like dinner?"
+ru = "На какое время подать ужин?"
+uk = "На котру годину подати вечерю?"
+es = "¿A qué hora desean cenar?"
+uses = ["夕食[ゆうしょく]は何時[なんじ]になさいますか"]
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "七[しち]時[じ]|に|お願[ねが]いします|。|夕[ゆう]食[しょく]|は|部[へ]屋[や]|で|いただけますか=いただきます|。"
+en = "At seven, please. Can we have dinner in the room?"
+ru = "В семь, пожалуйста. А можно поужинать в номере?"
+uk = "О сьомій, будь ласка. А можна повечеряти в номері?"
+es = "A las siete, por favor. ¿Podemos cenar en la habitación?"
+uses = ["夕食[ゆうしょく]は部屋[へや]でいただけますか"]
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "はい|、|もちろん|です|。|大[だい]浴[よく]場[じょう]|は|夜[よる]|１１|時[じ]|まで|です|。"
+en = "Yes, of course. The main bath is open until 11 at night."
+ru = "Да, конечно. Общая баня работает до одиннадцати вечера."
+uk = "Так, звісно. Загальна купальня працює до одинадцятої вечора."
+es = "Sí, por supuesto. El baño grande está abierto hasta las once de la noche."
+uses = ["大浴場[だいよくじょう]は夜[よる]11時[じ]までです"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "貸[かし]切[きり]風[ぶ]呂[ろ]|は|ありますか|。"
+en = "Is there a private bath?"
+ru = "А есть отдельная баня для частного пользования?"
+uk = "А є окрема купальня для приватного користування?"
+es = "¿Hay un baño privado?"
+uses = ["貸切風呂[かしきりぶろ]はありますか"]
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "はい|、|ございます|。|四[よん]十[じゅっ]分[ぷん]|２０００|円[えん]|です|。"
+en = "Yes, there is. It's 2,000 yen for forty minutes."
+ru = "Да, есть. Сорок минут — две тысячи иен."
+uk = "Так, є. Сорок хвилин — дві тисячі єн."
+es = "Sí, lo hay. Son 2.000 yenes por cuarenta minutos."
+
+[[dialog]]
+speaker = "マリア"
+ja = "あの|、|浴[ゆ]衣[かた]|の|着[き]方[かた]|を|教[おし]えていただけますか=教[おし]えます|。"
+en = "Um, could you show me how to wear the yukata?"
+ru = "Простите, не покажете, как надевать юкату?"
+uk = "Перепрошую, не покажете, як вдягати юкату?"
+es = "Perdone, ¿me enseña cómo se pone el yukata?"
+uses = ["浴衣[ゆかた]の着方[きかた]を教[おし]えていただけますか"]
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "はい|。|左[ひだり]|を|上[うえ]|に|します|。|右[みぎ]|が|上[うえ]|は|だめ|です|よ|。"
+en = "Certainly. The left side goes on top. Right over left is a no."
+ru = "Конечно. Левая пола — сверху. Правую сверху нельзя."
+uk = "Звісно. Ліва пола — зверху. Праву зверху не можна."
+es = "Claro. El lado izquierdo va encima. El derecho encima, no."
+
+[[dialog]]
+speaker = "由[ゆ]紀[き]"
+ja = "マリア|、|それ|は|大[だい]事[じ]|だ|よ|。"
+en = "Maria, that one's important."
+ru = "Мария, это важно."
+uk = "Маріє, це важливо."
+es = "Maria, eso es importante."
+
+[[dialog]]
+speaker = "女[お]将[かみ]"
+ja = "お食[しょく]事[じ]=食[しょく]事[じ]|の|後[あと]で|、|お布[ふ]団[とん]=布[ふ]団[とん]|を|敷[し]きに=敷[し]きます|参[まい]ります|。|どうぞ|ごゆっくり|。"
+en = "After your meal we'll come to lay out your futons. Please relax."
+ru = "После ужина мы придём постелить футоны. Отдыхайте."
+uk = "Після вечері ми прийдемо постелити футони. Відпочивайте."
+es = "Después de la cena vendremos a preparar los futones. Que descansen."
+uses = ["お布団[ふとん]を敷[し]きに参[まい]ります"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "ありがとうございます|。"
+en = "Thank you."
+ru = "Спасибо."
+uk = "Дякую."
+es = "Gracias."
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "由[ゆ]紀[き]"
+en = "Yuki (a name)"
+ru = "Юки (имя)"
+uk = "Юкі (ім'я)"
+es = "Yuki (nombre)"
+
+[[new]]
+ja = "箱[はこ]根[ね]"
+en = "Hakone (a hot-spring town)"
+ru = "Хаконэ (курорт с горячими источниками)"
+uk = "Хаконе (курорт із гарячими джерелами)"
+es = "Hakone (pueblo de aguas termales)"
+
+[[new]]
+ja = "旅[りょ]館[かん]"
+en = "ryokan, traditional inn"
+ru = "рёкан, традиционная гостиница"
+uk = "рьокан, традиційний готель"
+es = "ryokan, posada tradicional"
+
+[[new]]
+ja = "泊[と]まります"
+en = "stay (overnight)"
+ru = "останавливаться (на ночь)"
+uk = "зупинятися (на ніч)"
+es = "alojarse"
+
+[[new]]
+ja = "畳[たたみ]"
+en = "tatami mat"
+ru = "татами"
+uk = "татамі"
+es = "tatami"
+
+[[new]]
+ja = "窓[まど]"
+en = "window"
+ru = "окно"
+uk = "вікно"
+es = "ventana"
+
+[[new]]
+ja = "見[み]えます"
+en = "can be seen"
+ru = "видно"
+uk = "видно"
+es = "verse, ser visible"
+
+[[new]]
+ja = "二[ふた]人[り]"
+en = "two people"
+ru = "два человека, вдвоём"
+uk = "двоє, удвох"
+es = "dos personas"
+
+[[new]]
+ja = "浴[ゆ]衣[かた]"
+en = "yukata, cotton kimono"
+ru = "юката, хлопковое кимоно"
+uk = "юката, бавовняне кімоно"
+es = "yukata, kimono de algodón"
+
+[[new]]
+ja = "着[き]ます"
+en = "put on, wear"
+ru = "надевать"
+uk = "вдягати"
+es = "ponerse, vestir"
+
+[[new]]
+ja = "温[おん]泉[せん]"
+en = "hot spring"
+ru = "горячий источник"
+uk = "гаряче джерело"
+es = "aguas termales"
+
+[[new]]
+ja = "入[はい]ります"
+en = "go into, enter (a bath: お風呂に入ります)"
+ru = "входить (в ванну: お風呂に入ります)"
+uk = "входити (у ванну: お風呂に入ります)"
+es = "entrar (al baño: お風呂に入ります)"
+
+[[new]]
+ja = "夕[ゆう]食[しょく]"
+en = "dinner"
+ru = "ужин"
+uk = "вечеря"
+es = "cena"
+
+[[new]]
+ja = "女[お]将[かみ]"
+en = "landlady of an inn"
+ru = "хозяйка гостиницы"
+uk = "господиня готелю"
+es = "dueña de la posada"
+
+[[new]]
+ja = "遠[とお]い"
+en = "far"
+ru = "далёкий"
+uk = "далекий"
+es = "lejano"
+
+[[new]]
+ja = "大[だい]浴[よく]場[じょう]"
+en = "large communal bath"
+ru = "большая общая баня"
+uk = "велика загальна купальня"
+es = "baño comunitario grande"
+
+[[new]]
+ja = "時[じ]"
+en = "… o'clock"
+ru = "… час(ов)"
+uk = "… година"
+es = "las … (hora)"
+
+[[new]]
+ja = "貸[かし]切[きり]風[ぶ]呂[ろ]"
+en = "private bath (booked for yourself)"
+ru = "отдельная баня (по брони)"
+uk = "окрема купальня (за бронюванням)"
+es = "baño privado (reservado)"
+
+[[new]]
+ja = "四[よん]十[じゅっ]分[ぷん]"
+en = "forty minutes"
+ru = "сорок минут"
+uk = "сорок хвилин"
+es = "cuarenta minutos"
+
+[[new]]
+ja = "着[き]方[かた]"
+en = "how to wear"
+ru = "как надевать"
+uk = "як вдягати"
+es = "cómo ponerse"
+
+[[new]]
+ja = "左[ひだり]"
+en = "left"
+ru = "лево, налево"
+uk = "ліво, ліворуч"
+es = "izquierda"
+
+[[new]]
+ja = "上[うえ]"
+en = "top, above"
+ru = "верх, сверху"
+uk = "верх, зверху"
+es = "arriba, encima"
+
+[[new]]
+ja = "右[みぎ]"
+en = "right"
+ru = "право, направо"
+uk = "право, праворуч"
+es = "derecha"
+
+[[new]]
+ja = "大[だい]事[じ]"
+en = "important"
+ru = "важный"
+uk = "важливий"
+es = "importante"
+
+[[new]]
+ja = "食[しょく]事[じ]"
+en = "meal"
+ru = "еда, трапеза"
+uk = "їжа, трапеза"
+es = "comida"
+
+[[new]]
+ja = "布[ふ]団[とん]"
+en = "futon, Japanese bedding"
+ru = "футон, японская постель"
+uk = "футон, японська постіль"
+es = "futón"
+
+[[new]]
+ja = "敷[し]きます"
+en = "lay out, spread"
+ru = "расстилать"
+uk = "розстеляти"
+es = "extender, tender"
+
+[[new]]
+ja = "参[まい]ります"
+en = "come, go (humble)"
+ru = "приходить (скромно)"
+uk = "приходити (скромно)"
+es = "venir, ir (humilde)"

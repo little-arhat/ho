@@ -1,0 +1,271 @@
+title = { en = "Karaoke night", ru = "Вечер караоке", uk = "Вечір караоке", es = "Noche de karaoke" }
+scene = "A small private karaoke room in Japan with colourful lights: four young friends on a sofa, one singing into a microphone, lyrics on a big screen, a tablet for choosing songs and glasses of juice on the table."
+
+[[prose]]
+ja = "土[ど]曜[よう]日[び]|の|夜[よる]|、|ワン|さん|と|カリナ|さん|と|マリア|さん|と|田[た]中[なか]|さん|は|カラオケ|へ|行[い]きました=行[い]きます|。|三[さん]時[じ]間[かん]|、|たくさん|歌[うた]いました=歌[うた]います|。"
+en = "On Saturday night Wang, Karina, Maria and Mr. Tanaka went to karaoke. They sang a lot, for three hours."
+ru = "В субботу вечером Ван, Карина, Мария и Танака-сан пошли в караоке. Три часа они много пели."
+uk = "У суботу ввечері Ван, Карина, Марія і Танака-сан пішли в караоке. Три години вони багато співали."
+es = "El sábado por la noche Wang, Karina, Maria y el señor Tanaka fueron al karaoke. Cantaron mucho durante tres horas."
+
+[[prose]]
+ja = "田[た]中[なか]|さん|は|古[ふる]い|日[に]本[ほん]|の|歌[うた]|を|歌[うた]いました=歌[うた]います|。|ワン|さん|は|アニメ|の|歌[うた]|が|好[す]き|です|。|マリア|さん|は|日[に]本[ほん]語[ご]|で|一[いっ]曲[きょく]|歌[うた]いました=歌[うた]います|。|みんな|拍[はく]手[しゅ]|しました=します|。"
+en = "Mr. Tanaka sang old Japanese songs. Wang loves anime songs. Maria sang one song in Japanese, and everyone applauded."
+ru = "Танака-сан пел старые японские песни. Ван любит песни из аниме. Мария спела одну песню по-японски, и все аплодировали."
+uk = "Танака-сан співав старі японські пісні. Ван любить пісні з аніме. Марія заспівала одну пісню японською, і всі аплодували."
+es = "El señor Tanaka cantó canciones japonesas antiguas. A Wang le encantan las canciones de anime. Maria cantó una canción en japonés y todos aplaudieron."
+
+[[dialog]]
+speaker = "ワン"
+ja = "皆[みな]さん|、|土[ど]曜[よう]日[び]|、|一[いっ]緒[しょ]に|カラオケ|行[い]きませんか=行[い]きます|。"
+en = "Everyone, want to go to karaoke together on Saturday?"
+ru = "Ребята, может, сходим в субботу вместе в караоке?"
+uk = "Друзі, може, сходимо в суботу разом у караоке?"
+es = "Chicos, ¿vamos juntos al karaoke el sábado?"
+uses = ["一緒[いっしょ]にカラオケ行[い]きませんか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "いいですね|。|行[い]きましょう=行[い]きます|！"
+en = "Sounds good. Let's go!"
+ru = "Отлично. Пойдём!"
+uk = "Чудово. Ходімо!"
+es = "¡Buena idea! ¡Vamos!"
+
+[[dialog]]
+speaker = "店[てん]員[いん]"
+ja = "四[よ]名[めい]様[さま]|です|ね|。|お時[じ]間[かん]=時[じ]間[かん]|は|どう|なさいますか|。"
+en = "Four people. How long would you like?"
+ru = "Четыре человека. На сколько времени?"
+uk = "Четверо. На скільки часу?"
+es = "Cuatro personas. ¿Cuánto tiempo quieren?"
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "フリータイム|で|お願[ねが]いします|。"
+en = "Unlimited time, please."
+ru = "Без ограничения по времени, пожалуйста."
+uk = "Без обмеження часу, будь ласка."
+es = "Tiempo libre, por favor."
+uses = ["フリータイムでお願[ねが]いします"]
+
+[[dialog]]
+speaker = "マリア"
+ja = "田[た]中[なか]|さん|は|どんな|音[おん]楽[がく]|を|聴[き]きます|か|。"
+en = "Mr. Tanaka, what kind of music do you listen to?"
+ru = "Танака-сан, какую музыку вы слушаете?"
+uk = "Танака-сан, яку музику ви слухаєте?"
+es = "Señor Tanaka, ¿qué música escucha?"
+uses = ["どんな音楽[おんがく]を聴[き]きますか"]
+
+[[dialog]]
+speaker = "田[た]中[なか]"
+ja = "古[ふる]い|日[に]本[ほん]|の|音[おん]楽[がく]|を|よく|聴[き]きます|。|好[す]き|な|バンド|は|サザン|です|。"
+en = "I often listen to old Japanese music. My favourite band is Southern All Stars."
+ru = "Я часто слушаю старую японскую музыку. Моя любимая группа — Southern All Stars."
+uk = "Я часто слухаю стару японську музику. Мій улюблений гурт — Southern All Stars."
+es = "Escucho mucho música japonesa antigua. Mi grupo favorito es Southern All Stars."
+uses = ["好[す]きなバンドは〇〇です"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "ワン|さん|は|何[なに]|を|歌[うた]います|か|。"
+en = "Wang, what will you sing?"
+ru = "Ван, что будешь петь?"
+uk = "Ване, що співатимеш?"
+es = "Wang, ¿qué vas a cantar?"
+uses = ["何[なに]を歌[うた]いますか"]
+
+[[dialog]]
+speaker = "ワン"
+ja = "アニメ|の|歌[うた]|です|。|……|あ|、|始[はじ]まりました=始[はじ]まります|！"
+en = "An anime song. … Oh, it's starting!"
+ru = "Песню из аниме. …О, началось!"
+uk = "Пісню з аніме. …О, почалося!"
+es = "Una canción de anime. … ¡Ah, ya empieza!"
+
+[[dialog]]
+speaker = "マリア"
+ja = "この|曲[きょく]|、|何[なん]|という|曲[きょく]|です|か|。"
+en = "What's this song called?"
+ru = "Как называется эта песня?"
+uk = "Як називається ця пісня?"
+es = "¿Cómo se llama esta canción?"
+uses = ["この曲[きょく]、何[なん]という曲[きょく]ですか"]
+
+[[dialog]]
+speaker = "カリナ"
+ja = "有[ゆう]名[めい]|な|アニメ|の|歌[うた]|です|よ|。|マリア|さん|も|一[いっ]曲[きょく]|どうぞ|！"
+en = "It's a song from a famous anime. Maria, you sing one too!"
+ru = "Это песня из известного аниме. Мария, спой и ты одну!"
+uk = "Це пісня з відомого аніме. Маріє, заспівай і ти одну!"
+es = "Es de un anime famoso. ¡Maria, canta tú también una!"
+
+[[dialog]]
+speaker = "マリア"
+ja = "じゃ|、|日[に]本[ほん]語[ご]|の|歌[うた]|を|歌[うた]います|。|ちょっと|難[むずか]しい|です|が|……"
+en = "OK, I'll sing a song in Japanese. It's a bit hard, though…"
+ru = "Ладно, спою песню на японском. Правда, это немного сложно…"
+uk = "Гаразд, заспіваю пісню японською. Щоправда, це трохи складно…"
+es = "Vale, cantaré una canción en japonés. Aunque es un poco difícil…"
+
+[[new]]
+ja = "ワン"
+en = "Wang (a name)"
+ru = "Ван (имя)"
+uk = "Ван (ім'я)"
+es = "Wang (nombre)"
+
+[[new]]
+ja = "カリナ"
+en = "Karina (a name)"
+ru = "Карина (имя)"
+uk = "Карина (ім'я)"
+es = "Karina (nombre)"
+
+[[new]]
+ja = "マリア"
+en = "Maria (a name)"
+ru = "Мария (имя)"
+uk = "Марія (ім'я)"
+es = "Maria (nombre)"
+
+[[new]]
+ja = "田[た]中[なか]"
+en = "Tanaka (a surname)"
+ru = "Танака (фамилия)"
+uk = "Танака (прізвище)"
+es = "Tanaka (apellido)"
+
+[[new]]
+ja = "カラオケ"
+en = "karaoke"
+ru = "караоке"
+uk = "караоке"
+es = "karaoke"
+
+[[new]]
+ja = "三[さん]時[じ]間[かん]"
+en = "three hours"
+ru = "три часа"
+uk = "три години"
+es = "tres horas"
+
+[[new]]
+ja = "歌[うた]います"
+en = "sing"
+ru = "петь"
+uk = "співати"
+es = "cantar"
+
+[[new]]
+ja = "日[に]本[ほん]"
+en = "Japan"
+ru = "Япония"
+uk = "Японія"
+es = "Japón"
+
+[[new]]
+ja = "歌[うた]"
+en = "song"
+ru = "песня"
+uk = "пісня"
+es = "canción"
+
+[[new]]
+ja = "アニメ"
+en = "anime"
+ru = "аниме"
+uk = "аніме"
+es = "anime"
+
+[[new]]
+ja = "好[す]き"
+en = "liked, favourite"
+ru = "любимый, нравится"
+uk = "улюблений, подобається"
+es = "favorito, que gusta"
+
+[[new]]
+ja = "一[いっ]曲[きょく]"
+en = "one song"
+ru = "одна песня"
+uk = "одна пісня"
+es = "una canción"
+
+[[new]]
+ja = "拍[はく]手[しゅ]"
+en = "applause"
+ru = "аплодисменты"
+uk = "оплески"
+es = "aplausos"
+
+[[new]]
+ja = "店[てん]員[いん]"
+en = "shop or restaurant staff"
+ru = "продавец, официант"
+uk = "продавець, офіціант"
+es = "dependiente, camarero"
+
+[[new]]
+ja = "四[よ]名[めい]様[さま]"
+en = "four people (polite, staff speech)"
+ru = "четыре человека (вежливо)"
+uk = "четверо (ввічливо)"
+es = "cuatro personas (cortés)"
+
+[[new]]
+ja = "時[じ]間[かん]"
+en = "time"
+ru = "время"
+uk = "час"
+es = "tiempo"
+
+[[new]]
+ja = "フリータイム"
+en = "unlimited time (karaoke plan)"
+ru = "безлимит по времени (тариф караоке)"
+uk = "безліміт за часом (тариф караоке)"
+es = "tiempo libre (tarifa de karaoke)"
+
+[[new]]
+ja = "音[おん]楽[がく]"
+en = "music"
+ru = "музыка"
+uk = "музика"
+es = "música"
+
+[[new]]
+ja = "聴[き]きます"
+en = "listen (to music)"
+ru = "слушать (музыку)"
+uk = "слухати (музику)"
+es = "escuchar (música)"
+
+[[new]]
+ja = "バンド"
+en = "band"
+ru = "группа"
+uk = "гурт"
+es = "grupo, banda"
+
+[[new]]
+ja = "サザン"
+en = "Southern All Stars (a band)"
+ru = "Southern All Stars (группа)"
+uk = "Southern All Stars (гурт)"
+es = "Southern All Stars (grupo)"
+
+[[new]]
+ja = "始[はじ]まります"
+en = "begin, start"
+ru = "начинаться"
+uk = "починатися"
+es = "empezar"
+
+[[new]]
+ja = "曲[きょく]"
+en = "song, piece of music"
+ru = "песня, мелодия"
+uk = "пісня, мелодія"
+es = "canción, pieza"
