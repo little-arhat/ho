@@ -41,6 +41,8 @@ a { color: var(--accent); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 ruby rt { font-size: .55em; color: var(--muted); font-weight: 400; }
 html[data-furigana="off"] rt { display: none; }
+/* Where the reading is what you came for (a word's popup), it shows regardless. */
+html[data-furigana="off"] .keep-ruby rt { display: revert; }
 
 /* Translations: only the selected languages show. */
 html:not([data-langs~="en"]) .tr-en,

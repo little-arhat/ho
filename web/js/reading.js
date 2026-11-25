@@ -9,7 +9,7 @@ let open = null;
 
 function show(b) {
   const w = words[+b.dataset.w];
-  pop.innerHTML = `<div class="pop-ja" lang="ja">${ruby(w.ja)}</div>${translations(w)}`
+  pop.innerHTML = `<div class="pop-ja keep-ruby" lang="ja">${ruby(w.ja)}</div>${translations(w)}`
     + (w.k.length ? `<div class="pop-k" lang="ja">${w.k.map((c) => `<a href="../../kanji/${c.codePointAt(0).toString(16)}/">${esc(c)}</a>`).join("")}</div>` : "")
     + `<div class="pop-src">${w.lesson === null ? "new word" : `lesson ${esc(w.lesson)}`}`
     + ` · <a href="../../words/${encodeURIComponent(w.slug)}/">word page →</a></div>`;
